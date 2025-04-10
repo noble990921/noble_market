@@ -1,0 +1,58 @@
+#section3 {
+  padding: 60px 0;
+  @media (max-width: 1024px){
+    display: flex;
+    justify-content: center;
+  }
+  @media (min-width: 1024px) {
+    padding: 120px 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .s3_container{
+    @media (max-width: 1024px){
+      width: 92%;
+    }
+    .new_item{
+      text-align: center;
+      .title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1;
+        color: #3a3a3a;
+      }
+      .sub_text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1;
+        color: #9a9a9a;
+        margin-top: 15px;
+      }
+      .newItem_box{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+        gap: 20px;
+        width: 100%;
+        .item{
+          img{
+            width: 100%;
+          }
+          .title{
+            margin: 20px 0 10px;
+            text-align: left;
+            font-size: 13px;
+            color: #808080;
+          }
+          .price{
+            text-align: left;
+            font-size: 14px;
+            color: #262626;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+#Term {
+  margin-top: 50px;
+  width: 100%;
+  //background: bisque;
+  border-top: 3px solid #1a1a1a;
+
+  .el-checkbox__label {
+    width: 100%;
+  }
+
+  .el-checkbox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    margin: 0 0 24px;
+    padding: 0 0 24px;
+
+    p {
+      font-size: 16px;
+      color: #1a1a1a;
+    }
+
+    .sub {
+      font-size: 14px;
+      @media (max-width: 1024px) {
+        font-size: 12px;
+      }
+      font-weight: normal;
+      color: #939393;
+      margin-top: 4px;
+    }
+
+    .checkbox_text {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      i {
+        padding: 4px;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+      }
+    }
+
+    .sub_checkbox {
+      display: flex;
+      padding-top: 24px;
+
+      .el-checkbox {
+        margin-right: 40px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .terms-box {
+    margin-top: -24px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+    max-height: 152px;
+    padding: 20px;
+    color: #6d6d6d;
+    font-size: 12px;
+    line-height: 20px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+  }
+
+  .allCheckBox {
+    padding-top: 24px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .btn_box{
+    display: flex;
+    justify-content: space-between;
+    button{
+      cursor: pointer;
+      width: 49%;
+      border: none;
+      height: 50px;
+      background: #1a1a1a;
+      color: #fff;
+      font-size: 16px;
+      &:first-child{
+        background: #fff;
+        color: #1a1a1a;
+        border: 1px solid #ddd;
+      }
+    }
+  }
+}

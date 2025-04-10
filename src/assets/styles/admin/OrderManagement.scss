@@ -1,0 +1,47 @@
+#OrderManagement {
+  width: 100%;
+  height: 100%;
+
+  .od_container {
+    .order_qty_p{
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 8px;
+      p{
+        color: #389466;
+      }
+    }
+    .od_table{
+      .el-table__empty-block {
+        width: 100% !important;
+      }
+
+      .el-table__header, .el-table__body {
+        width: 100% !important;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      @media (max-width: 1024px) {
+        p {
+          font-size: 12px;
+        }
+        .cell {
+          font-size: 12px;
+          padding: 0 4px;
+        }
+        .el-table__cell {
+          padding: 4px 0;
+        }
+      }
+    }
+  }
+
+  .el_pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+}

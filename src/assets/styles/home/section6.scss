@@ -1,0 +1,26 @@
+#section6{
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+  @media (min-width: 1024px) {
+    padding: 120px 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .s6_container{
+    @media (max-width: 1024px) {
+      width: 92%;
+      img{
+        width: 100%;
+      }
+    }
+    @media (min-width: 1024px) {
+      display: flex;
+      gap: 20px;
+      img{
+        width: 590px;
+      }
+    }
+  }
+}

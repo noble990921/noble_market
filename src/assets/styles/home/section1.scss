@@ -1,0 +1,33 @@
+#section1 {
+  //height: 650px;
+  height: 100%;
+  @media (max-width: 1024px) {
+    height: 100vh !important;
+  }
+  @media (min-width: 1024px) {
+    padding-top: 141px;
+  }
+  width: 100%;
+  .s1_container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .swiper-container{
+      height: 100%;
+      .background-image {
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .swiper-pagination{
+      position: absolute;
+      left: 50%;
+      bottom: 7px;
+    }
+    .swiper-pagination-bullet{
+      background: #1a1a1a;
+      margin-right: 10px;
+    }
+  }
+}

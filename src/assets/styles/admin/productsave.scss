@@ -1,0 +1,121 @@
+#ProductSave {
+  width: 100%;
+  height: 100%;
+
+  .add_btn {
+    width: 100%;
+    text-align: right;
+    padding: 4px;
+    background: #27293d;
+
+    .cancel_btn{
+      padding: 4px 8px;
+      color: #373737;
+      background-color: #f5f5f5;
+      border:1px solid#f5f5f5;
+    }
+    .save_btn {
+      padding: 4px 8px;
+      background: #39b54a;
+      border: 1px solid #249533;
+      color: #fff;
+      margin: 0 10px;
+    }
+    .delete_btn{
+      padding: 4px 8px;
+      background: red;
+      border: 1px solid red;
+      color: #fff;
+    }
+  }
+
+  .ps_container {
+    width: 100%;
+    min-height: 1000px;
+
+    .ps_container_top {
+      background: #27293d;
+      //display: flex;
+      //align-items: center;
+
+      .top_setting {
+        width: 100%;
+
+        .set_row {
+          display: flex;
+          align-items: center;
+          border: 1px solid #9a9a9a;
+          .title_label {
+            min-width: 10%;
+            padding: 12px;
+            border-right: 1px solid #9a9a9a;
+            font-size: 13px;
+            color: #ddd;
+            @media (max-width: 1024px) {
+              min-width: 30%;
+              padding: 7px;
+              font-size: 12px;
+            }
+          }
+
+          .select_span {
+            width: 100%;
+            padding:7px 12px;
+            font-size: 13px;
+            display: flex;
+            justify-content: left;
+            @media (max-width: 1024px) {
+              padding: 7px;
+              font-size: 12px;
+            }
+          }
+
+          .el-select{
+            width: 100%;
+          }
+          .el-input__inner{
+            width: 100%;
+            height: 30px;
+            @media (max-width: 1024px) {
+              height: 100%;
+            }
+          }
+          .el-input__icon{
+            line-height: 0;
+          }
+        }
+      }
+      .bottom_text{
+        max-width: 100%;
+        background: #fff;
+        img{
+          width: 100%;
+        }
+      }
+      #ps_img_box{
+        .title_label{
+          border: none;
+        }
+        .ps_img_span{
+          border: none;
+          img{
+            width: 200px;
+            height: 200px;
+          }
+        }
+      }
+    }
+  }
+  .pc_select_span{
+    color: #fff;
+    width: 100%;
+    padding:7px 12px;
+    font-size: 13px;
+    display: flex;
+    justify-content: left;
+    @media (max-width: 1024px) {
+      padding: 7px;
+      font-size: 12px;
+    }
+  }
+}

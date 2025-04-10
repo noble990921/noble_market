@@ -1,0 +1,56 @@
+#CartComp{
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #1a1a1a;
+  @media (max-width: 1024px) {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .cc_container{
+    margin-top: 40px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 10px 5px 5px #3a3a3a;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    @media (max-width: 1024px) {
+      width: 100%;
+      padding: 20px 12px;
+    }
+    .text_box{
+      text-align: center;
+      @media (max-width: 1024px) {
+        .p1{
+          font-size: 20px !important;
+        }
+        .p2{
+          margin-top: 35px !important;
+          font-size: 15px !important;
+        }
+        .p3{
+          margin-top: 50px !important;
+          font-size: 14px !important;
+        }
+        .p4{
+          font-size: 13px !important;
+          margin-top: 30px !important;
+        }
+      }
+      .p1{
+        font-size: 35px;
+        margin-bottom: 5px;
+      }
+      .p2{
+        font-size: 20px;
+        margin-top: 50px;
+      }
+      .p3{
+        margin-top: 50px;
+      }
+      .p4{
+        margin-top: 50px;
+      }
+    }
+  }
+}
