@@ -3,6 +3,13 @@
   height: 100%;
   @media (max-width: 1024px) {
     height: 100vh !important;
+    .swiper-pagination{
+      position: absolute;
+      //left: 43% !important;
+      left: 50% !important;
+      transform: translateX(-50%);
+      bottom: 7px;
+    }
   }
   @media (min-width: 1024px) {
     padding-top: 141px;
@@ -15,18 +22,20 @@
     .swiper-container{
       height: 100%;
       .background-image {
-        cursor: pointer;
         width: 100%;
         height: 100%;
       }
     }
     .swiper-pagination{
       position: absolute;
+      //left: calc(50% - 70px);
       left: 50%;
+      transform: translateX(-50%);
+      //left: 47.7%;
       bottom: 7px;
     }
     .swiper-pagination-bullet{
-      background: #1a1a1a;
+      background: #fff;
       margin-right: 10px;
     }
   }
