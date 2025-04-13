@@ -14,6 +14,7 @@ const CategoryView = () => import('../../components/category/CategoryView')
 const CartView = () => import('../../views/cart/Cart_View')
 const DirectView = () => import('../../views/cart/direct/Direct_View')
 const OrderList = () => import('../../views/cart/OrderList')
+const Test = () => import('../../views/test')
 
 
 
@@ -61,6 +62,10 @@ export default [
 //    path:'/product/acc',name:'',component:CategoryAcc,
 //    meta: {},
 //  },
+
+  {path:'/test',name:'',component:Test,
+    meta: {},
+  },
   {
     path: '/:category/detail/:id',
     name: 'CategoryDetail',

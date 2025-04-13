@@ -154,6 +154,7 @@
     {id: "4", title: "WALLET", url: "/product/wallet"},
     {id: "5", title: "WATCH", url: "/product/watch"},
     {id: "6", title: "ACC", url: "/product/acc"},
+    {id: "7", title: "Test", url: "/test"},
   ];
 
   const CATEGORY = [
