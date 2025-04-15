@@ -45,7 +45,7 @@
   import {db} from "@/firebase";
 
   const SET_PRODUCT_CATEGORY = {
-    "1": "Top", "2": "Bag", "3": "Wallet", "4": "Watch", "5": "Shoes", "6": "Acc"
+    "1": "OUTER", "2": "TOP", "3": "BOTTOM", "4": "SHOES", "5": "WALLET", "6": "BAG","7":"WATCH","8":"ACC"
   }
   const SET_ISOPEN = {
     "1": "공개",

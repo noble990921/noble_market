@@ -42,8 +42,8 @@
         swiperOption: {
           slidesPerView: 'auto',
           autoplay: {delay: 10000, disableOnInteraction: false},
-          freeMode: true,
-          centerInsufficientSlides: true,
+          freeMode: false,
+//          centerInsufficientSlides: true,
           allowTouchMove: true,
           pagination: {
             el: '.swiper-pagination',

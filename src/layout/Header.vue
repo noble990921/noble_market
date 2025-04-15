@@ -147,14 +147,26 @@
     {id: "6", title: "로그아웃", func: "logout", type: "0"},
   ];
 
+//  const MENU = [
+//    {id: "1", title: "TOP", url: "/product/top"},
+//    {id: "2", title: "BAG", url: "/product/bag"},
+//    {id: "3", title: "SHOES", url: "/product/shoes"},
+//    {id: "4", title: "WALLET", url: "/product/wallet"},
+//    {id: "5", title: "WATCH", url: "/product/watch"},
+//    {id: "6", title: "ACC", url: "/product/acc"},
+//    {id: "7", title: "About Us", url: "/introduction"},
+//  ];
   const MENU = [
-    {id: "1", title: "TOP", url: "/product/top"},
-    {id: "2", title: "BAG", url: "/product/bag"},
-    {id: "3", title: "SHOES", url: "/product/shoes"},
-    {id: "4", title: "WALLET", url: "/product/wallet"},
-    {id: "5", title: "WATCH", url: "/product/watch"},
-    {id: "6", title: "ACC", url: "/product/acc"},
-    {id: "7", title: "Test", url: "/test"},
+    {id: "1", title: "About Us", url: "/introduction"},
+    {id: "2", title: "OUTER", url: "/product/OUTER"},
+    {id: "3", title: "TOP", url: "/product/TOP"},
+    {id: "4", title: "BOTTOM", url: "/product/BOTTOM"},
+    {id: "5", title: "SHOES", url: "/product/SHOES"},
+    {id: "6", title: "WALLET", url: "/product/WALLET"},
+    {id: "7", title: "BAG", url: "/product/BAG"},
+    {id: "8", title: "WATCH", url: "/product/WATCH"},
+    {id: "9", title: "ACC", url: "/product/ACC"},
+    {id: "10", title: "Community", url: "/product/community"},
   ];
 
   const CATEGORY = [

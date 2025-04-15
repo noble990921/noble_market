@@ -31,6 +31,14 @@
                </el-select>
             </span>
           </div>
+          <div id="ps_subcategory_box" class="set_row" v-if="subCategoryOptions.length > 0">
+            <span class="title_label">서브 카테고리</span>
+            <span class="select_span">
+        <el-select v-model="info.subCategory" placeholder="서브 카테고리를 선택해주세요.">
+          <el-option :label="subCategory.title" :value="subCategory" v-for="(subCategory, index) in subCategoryOptions" :key="index" />
+        </el-select>
+      </span>
+          </div>
           <div id="ps_title_box" class="set_row">
             <span class="title_label">상품이름</span>
             <span class="select_span">
@@ -72,10 +80,72 @@
 
 <script>
   import MyQuillEditor from "@/common/components/MyQuillEditor";
-  import {db} from "@/firebase";
+  import {storage,db} from "@/firebase";
 
   const SET_PRODUCT_CATEGORY = {
-    "1": "Top", "2": "Bag", "3": "Wallet", "4": "Watch", "5": "Shoes", "6": "Acc"
+    "1": "OUTER", "2": "TOP", "3": "BOTTOM", "4": "SHOES", "5": "WALLET", "6": "BAG","7":"WATCH","8":"ACC"
+  }
+  const SUB_CATEGORY_OPTIONS = {
+    "1": [
+      { title: "패딩", img: "padding" },
+      { title: "재킷", img: "jacket" },
+      { title: "바람막이", img: "windbreaker" },
+      { title: "가디건", img: "cardigan" },
+      { title: "후드집업", img: "hoodzipup" },
+      { title: "코트", img: "coat" },
+      { title: "조끼/베스트", img: "vest" },
+      { title: "슈트/블레이저", img: "suit" },
+      { title: "무스탕/퍼", img: "mustang" }
+    ],
+    "2": [
+      { title: "맨투맨/스웨트", img: "sweatshirt" },
+      { title: "후드", img: "hood" },
+      { title: "긴소매", img: "longsleeve" },
+      { title: "반소매", img: "shortsleeve" },
+      { title: "민소매", img: "sleeveless" },
+      { title: "피케/카라", img: "polo" },
+      { title: "니트/스웨터", img: "knitsweater" },
+      { title: "셔츠/블라우스", img: "shirtblouse" }
+    ],
+    "3": [
+      { title: "데님", img: "denim" },
+      { title: "트레이닝/조거", img: "jogger" },
+      { title: "코튼", img: "cotton" },
+      { title: "슬랙스", img: "slacks" },
+      { title: "숏 팬츠", img: "shortpants" },
+      { title: "원피스/스커트", img: "dressskirt" }
+    ],
+    "4": [
+      { title: "스니커즈", img: "sneakers" },
+      { title: "구두/로퍼", img: "loafers" },
+      { title: "샌들/슬리퍼", img: "sandals" },
+      { title: "부츠/워커", img: "boots" }
+    ],
+    "5": [
+      { title: "장지갑", img: "longwallet" },
+      { title: "중지갑", img: "mediumwallet" },
+      { title: "반지갑", img: "shortwallet" },
+      { title: "카드/명합지갑", img: "cardwallet" },
+      { title: "동전/여권지갑", img: "coinpassportwallet" }
+    ],
+    "6": [
+      { title: "미니백", img: "minibag" },
+      { title: "백팩", img: "backpack" },
+      { title: "숄더백", img: "shoulderbag" },
+      { title: "토트백", img: "totebag" },
+      { title: "크로스백", img: "crossbag" },
+      { title: "클러치", img: "clutch" },
+      { title: "더플백", img: "dufflebag" },
+      { title: "에코백", img: "ecobag" },
+      { title: "캐리어", img: "carrier" }
+    ],
+    "8": [
+      { title: "목걸이", img: "necklace" },
+      { title: "팔찌", img: "bracelet" },
+      { title: "반지", img: "ring" },
+      { title: "귀걸이", img: "earring" },
+      { title: "키링/기타", img: "keyring" }
+    ]
   }
   export default {
     name: "ProductSave",
@@ -89,6 +159,7 @@
           id: null,
           isOpen: null,
           category: '',
+          subCategory:'',
           siteInfo: null,
           content: '',
           price: '',
@@ -96,6 +167,8 @@
           sellQuantity:0,
         },
         SET_PRODUCT_CATEGORY,
+        subCategoryOptions:[],
+        subCategoryImgMap: {},
         type: '',
         pickerOptions: {
           disabledDate(time) {
@@ -104,7 +177,19 @@
         },
       }
     },
+    watch: {
+      type(newCategory) {
+        this.watchCategoryChange(newCategory); // 카테고리 변경 시 서브 카테고리 업데이트
+      }
+    },
     methods: {
+      initSubCategoryImgMap() {
+        const allSubCategories = Object.values(SUB_CATEGORY_OPTIONS).flat(); // 모든 서브카테고리를 모음
+        this.subCategoryImgMap = {};
+        allSubCategories.forEach(({ title, img }) => {
+          this.subCategoryImgMap[title] = img;
+        });
+      },
       async saveProduct() {
         const vm = this;
         if (
@@ -113,20 +198,24 @@
             vm.info.isOpen === null ||
             !vm.info.createDate ||
             !vm.info.price ||
-            !vm.info.img
+            !vm.info.img ||
+            !vm.info.subCategory // 서브 카테고리가 선택되지 않으면 저장하지 않도록 추가
         ) {
           vm.$alert("모든 필드를 입력해주세요.", "알림");
           return;
         }
+
         const productData = {
           title: vm.info.title,
           category: vm.type,
+          subCategory: vm.info.subCategory, // 서브 카테고리 추가
           isOpen: vm.info.isOpen,
           createDate: vm.info.createDate,
           content: vm.info.content || "",
           price: vm.info.price,
-          img: vm.info.img,
+          img: vm.info.img, // 이미지 URL을 Firestore에 저장
         };
+
         try {
           if (vm.info.id) {
             // 수정 처리
@@ -142,50 +231,60 @@
           vm.$alert("상품 저장에 실패했습니다. 다시 시도해주세요.", "오류");
         }
       },
-      handleFileChange(file) {
-        const reader = new FileReader();
 
-        // FileReader를 사용해 Base64로 변환
-        reader.onload = (e) => {
-          // 이미지 최적화 함수 호출
-          this.optimizeImage(e.target.result, 500, 500, 0.7, (optimizedImg) => {
-            this.info.img = optimizedImg; // 최적화된 이미지를 저장
-          });
-        };
-
-        reader.readAsDataURL(file.raw); // 파일 읽기
+      // 카테고리 변경 시 서브 카테고리 옵션 업데이트
+      watchCategoryChange(newCategory) {
+        this.subCategoryOptions = SUB_CATEGORY_OPTIONS[newCategory] || [];
+        this.info.subCategory = ""; // 서브 카테고리 초기화
       },
-      //base 64로 저장한 이미지 파일크기 줄여주는 코드.
-      optimizeImage(base64String, maxWidth = 300, maxHeight = 300, quality = 0.7, callback) {
-        let img = new Image();
-        img.src = base64String;
-        img.onload = function () {
-          let canvas = document.createElement("canvas");
-          let ctx = canvas.getContext("2d");
 
-          // 🟢 리사이징 (비율 유지)
-          let width = img.width;
-          let height = img.height;
+//      handleFileChange(file) {
+//        const vm = this;
+//        const storageRef = storage.ref();
+//        const fileRef = storageRef.child(`images/${file.name}`); // Firebase Storage에 업로드할 경로 설정
+//
+//        const uploadTask = fileRef.put(file.raw); // 파일을 Firebase Storage에 업로드
+//
+//        uploadTask.on(
+//            "state_changed",
+//            (/* snapshot */) => {  // snapshot 제거
+//              // 업로드 진행 상황 처리 (옵션)
+//            },
+//            (error) => {
+//              // 에러 처리
+//              console.error("이미지 업로드 중 오류 발생:", error);
+//              this.$alert("이미지 업로드에 실패했습니다.", "오류");
+//            },
+//            async () => {
+//              // 업로드가 완료되면 URL을 Firestore에 저장
+//              const downloadURL = await uploadTask.snapshot.ref.getDownloadURL();
+//              vm.info.img = downloadURL; // Firebase Storage에 업로드된 이미지 URL을 Firestore에 저장
+//            }
+//        );
+//      },
+      handleFileChange(file) {
+        const vm = this;
+        const storageRef = storage.ref();
 
-          if (width > height) {
-            if (width > maxWidth) {
-              height *= maxWidth / width;
-              width = maxWidth;
+        const timestamp = Date.now();
+        const extension = file.name.split('.').pop(); // 확장자
+        const fileName = `${file.name.split('.')[0]}_${timestamp}.${extension}`; // ex. shirt_1713173812932.jpg
+        const fileRef = storageRef.child(`images/${fileName}`);
+
+        const uploadTask = fileRef.put(file.raw);
+
+        uploadTask.on(
+            "state_changed",
+            () => {},
+            (error) => {
+              console.error("이미지 업로드 중 오류 발생:", error);
+              this.$alert("이미지 업로드에 실패했습니다.", "오류");
+            },
+            async () => {
+              const downloadURL = await uploadTask.snapshot.ref.getDownloadURL();
+              vm.info.img = downloadURL;
             }
-          } else {
-            if (height > maxHeight) {
-              width *= maxHeight / height;
-              height = maxHeight;
-            }
-          }
-
-          canvas.width = width;
-          canvas.height = height;
-          ctx.drawImage(img, 0, 0, width, height);
-
-          // 🟢 압축 + WebP 변환 (품질 70%)
-          callback(canvas.toDataURL("image/webp", quality));
-        };
+        );
       },
 
       beforeUpload(file) {
@@ -210,6 +309,7 @@
         this.info.isOpen = query.isOpen || null;
         this.info.content = query.content || "";
       }
+      this.initSubCategoryImgMap();
     }
   }
 </script>

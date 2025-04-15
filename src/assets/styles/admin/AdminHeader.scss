@@ -78,6 +78,10 @@
       font-size: 1rem;
       padding: 10px 8px;
       line-height: 1.625rem;
+      &.active{
+        background: #6a6a6a;
+        border-radius: 0;
+      }
     }
   }
 }

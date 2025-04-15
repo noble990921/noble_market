@@ -40,14 +40,19 @@
       </div>
       <div class="pr_container_bottom">
         <el-table v-loading="isLoading"  @row-click="goContent" border :data="productList" class="clicked" with="100%">
-          <el-table-column label="날짜" width="20%">
+          <el-table-column label="날짜" width="15%">
             <template slot-scope="{row}">
               <p>{{ row.createDate.toDate() | moment("YYYY-MM-DD HH:mm") }}</p>
             </template>
           </el-table-column>
-          <el-table-column label="카테고리" width="15%">
+          <el-table-column label="카테고리" width="10%">
             <template slot-scope="{row}">
               <p>{{SET_PRODUCT_CATEGORY[row.category]}}</p>
+            </template>
+          </el-table-column>
+          <el-table-column label="세부카테고리" width="10%">
+            <template slot-scope="{row}">
+              <p>{{row.subCategory.title || '-'}} </p>
             </template>
           </el-table-column>
           <el-table-column label="상품가격" width="15%">
@@ -81,7 +86,16 @@
   import { db } from "@/firebase";
 
   const SET_PRODUCT_CATEGORY = {
-    "1": "Top", "2": "Bag", "3": "Wallet", "4": "Watch", "5": "Shoes", "6": "Acc"
+    "1": "OUTER", "2": "TOP", "3": "BOTTOM", "4": "SHOES", "5": "WALLET", "6": "BAG","7":"WATCH","8":"ACC"
+  }
+  const SUB_CATEGORY_OPTIONS = {
+    "1": ["패딩", "재킷","바람막이","가디건","후드집업","코트","조끼/베스트","슈트/블레이저","무스탕/퍼"],
+    "2": ["맨투맨/스웨트", "후드","긴소매","반소매","민소매","피케/카라","니트/스웨터","셔츠/블라우스"],
+    "3": ["데님", "트레이닝/조거","코튼","슬랙스","숏 팬츠","원피스/스커트"],
+    "4": ["스니커즈", "구두/로퍼","샌들/슬리퍼","부츠/워커"],
+    "5": ["장지갑", "중지갑","반지갑","카드/명합지갑","동전/여권지갑"],
+    "6": ["미니백", "백팩","숄더백","토트백","크로스백","클러치","더플백","에코백","캐리어"],
+    "8": ["목걸이", "팔찌","반지","귀걸이","키링/기타"],
   }
   const SET_ISOPEN = {
     "1": "공개",
@@ -94,6 +108,7 @@
         openList: ["1", "2"],
         type: '',
         SET_PRODUCT_CATEGORY,
+        SUB_CATEGORY_OPTIONS,
         SET_ISOPEN,
         isLoading:false,
         keyword: '',
@@ -146,7 +161,8 @@
               category: data.category || '',
               product: data.title || '',
               isOpen: data.isOpen || false,
-              price: data.price
+              price: data.price,
+              subCategory: data.subCategory || ''
             };
           });
           const totalQuery = await db.collection("products").get();

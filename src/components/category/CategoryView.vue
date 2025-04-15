@@ -1,8 +1,14 @@
 <template>
   <div class="product_category" :id="`${category}_View`">
     <div class="pc_container">
-      <div class="title">
-        <p>{{ category.toUpperCase() }}</p>
+      <div class="category_box">
+        <ul>
+          <li v-for="(s, idx) in subCategory" :key="idx"
+              :class="{ active: selectedSubCategory === s.title }"
+              @click="selectedSubCategory = s.title">
+            <p>{{ s.title }}</p>
+          </li>
+        </ul>
       </div>
       <div class="product_item_container">
         <div class="product_header">
@@ -19,7 +25,7 @@
         <div class="product_main">
           <div @click="$router.push(`/${category}/detail/${i.id}`)"
                class="product_list"
-               v-for="i in pagedItems"
+               v-for="i in filteredProducts"
                :key="i.id">
             <img :src="i.img">
             <p class="name">{{ i.title }}</p>
@@ -42,15 +48,13 @@
 </template>
 
 <script>
-//  import { getProductData } from "../../common/api/product";
-import {db} from "../../firebase";
+  import { db } from "../../firebase";
 
   export default {
     name: "CategoryView",
-    props: ["category"], // 카테고리를 props로 받음
+    props: ["category"],
     data() {
       return {
-        pagedItems: [],
         total: 0,
         size: 20,
         page: 1,
@@ -61,6 +65,8 @@ import {db} from "../../firebase";
         ],
         value: "",
         product: [],
+        subCategory: [], // subCategory를 배열로 초기화
+        selectedSubCategory: "전체", // 전체 카테고리 선택
       };
     },
     watch: {
@@ -68,39 +74,40 @@ import {db} from "../../firebase";
         this.sortItems();
       },
     },
+    computed: {
+      filteredProducts() {
+        if (this.selectedSubCategory === "전체" || !this.selectedSubCategory) {
+          return this.product;
+        }
+        return this.product.filter(
+            (item) => item.subCategory?.title === this.selectedSubCategory // item.subCategory가 존재하는지 체크
+        );
+      },
+    },
     methods: {
-//      async getData() {
-//        try {
-//          console.time("getProductData 응답시간");
-//          const data = await getProductData();
-//          console.timeEnd("getProductData 응답시간");
-//          this.product = data.filter((item) => item.category === this.getCategoryId());
-//          this.total = this.product.length;
-//          this.product.sort((a, b) => new Date(b.createDate) - new Date(a.createDate));
-//          this.updatePagedItems();
-//        } catch (error) {
-//          console.error("상품 데이터를 가져오는 중 오류 발생:", error);
-//        }
-//      },
-      // 이런식으로  Firestore에서 직접 필터링해서 가져오면 빠르다는데...흠..위에랑 속도는 비슷..
       async getData() {
         try {
           console.time("getProductData 응답시간");
 
-          // Firestore에서 해당 카테고리의 상품만 가져옴
           const querySnapshot = await db.collection("products")
           .where("category", "==", this.getCategoryId()) // 카테고리 필터 적용
           .orderBy("createDate", "desc") // Firestore에서 정렬 적용
           .get();
 
-          // 가져온 데이터를 배열로 변환
-          this.product = querySnapshot.docs.map(doc => ({
+          this.product = querySnapshot.docs.map((doc) => ({
             id: doc.id,
-            ...doc.data()
+            ...doc.data(),
           }));
-
           this.total = this.product.length;
           this.updatePagedItems();
+
+          // subCategory 목록 처리 (전체를 포함한 목록)
+          const subCategorySet = new Set(this.product.map((p) => p.subCategory?.title ?? "전체"));
+          const subCategoryList = [
+            { title: "전체", img: "all" },
+            ...Array.from(subCategorySet).filter((s) => s !== "전체").map((title) => ({ title, img: `${title}_img` })),
+          ];
+          this.subCategory = subCategoryList;
 
           console.timeEnd("getProductData 응답시간");
         } catch (error) {
@@ -109,19 +116,21 @@ import {db} from "../../firebase";
       },
       getCategoryId() {
         const categoryMap = {
-          top: "1",
-          bag: "2",
-          wallet: "3",
-          watch: "4",
-          shoes: "5",
-          acc: "6",
+          OUTER: "1",
+          TOP: "2",
+          BOTTOM: "3",
+          SHOES: "4",
+          WALLET: "5",
+          BAG: "6",
+          WATCH: "7",
+          ACC: "8",
         };
         return categoryMap[this.category] || "";
       },
       updatePagedItems() {
         const start = (this.page - 1) * this.size;
         const end = start + this.size;
-        this.pagedItems = this.product.slice(start, end);
+        return this.filteredProducts.slice(start, end);
       },
       handlePageChange(newPage) {
         this.page = newPage;

@@ -13,7 +13,8 @@
         <i @click="toggleAside" class="el-icon-close"></i>
       </div>
       <ul>
-        <li v-for="m in MENU" :key="m.id" @click="handleMenuClick(m)">
+        <li v-for="m in MENU" :key="m.id"  :class="{ active: activeMenu == m.id }"
+            @click="handleMenuClick(m)">
           {{m.title}}
         </li>
       </ul>
@@ -39,11 +40,13 @@
     data() {
       return {
         MENU,
-        asideOpen: true
+        asideOpen: true,
+        activeMenu:'1'
       };
     },
     methods: {
       handleMenuClick(m) {
+        this.activeMenu = m.id;
         this.goToUrl(m.url);
         if(window.innerWidth < 1024){
           this.asideOpen = false;
