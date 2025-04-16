@@ -46,52 +46,40 @@
           </div>
         </div>
       </div>
-<!--      <div class="detail_bottom">-->
-<!--        <div class="tab_box">-->
-<!--          <button :class="{ active: currentTab === 'description' }" @click="currentTab = 'description'">상세정보</button>-->
-<!--          <button :class="{ active: currentTab === 'review' }" @click="currentTab = 'review'">구매평</button>-->
-<!--          <button :class="{ active: currentTab === 'qna' }" @click="currentTab = 'qna'">Q&A</button>-->
-<!--        </div>-->
-<!--        <div class="tab_content">-->
-<!--          <div v-if="currentTab === 'description'">-->
-<!--            <p v-html="product.description"></p>-->
-<!--          </div>-->
-<!--          <div v-if="currentTab === 'review'">-->
-<!--            <ReviewList :productId="productId" :user="user"/>-->
-<!--          </div>-->
-<!--          <div v-if="currentTab === 'qna'">-->
-<!--            <QnaList :productId="productId" :user="user"/>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
+      <div class="detail_bottom">
+        <div class="tab_box">
+          <button :class="{ active: component === 'Description' }" @click="component = 'Description'">상세정보</button>
+          <button :class="{ active: component === 'ReviewList' }" @click="component = 'ReviewList'">구매평(0)</button>
+          <button :class="{ active: component === 'QnaList' }" @click="component = 'QnaList'">Q&A(0)</button>
+        </div>
+        <div class="tab_content">
+          <component :is="component" @changeComp="changeComp"></component>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-//  import watchItems from '../../constants/watch_item';
-//  import bagItems from '../../constants/bag_item';
-//  import shoesItems from '../../constants/shoes_item';
-//  import topItems from '../../constants/top_item';
-//  import walletItems from '../../constants/wallet_item';
-//  import accItems from '../../constants/acc_item';
-//  import {getProductData} from "../../common/api/product";
   import {db} from "../../firebase";
   import {mapGetters} from "vuex";
   import firebase from "firebase";
+  import Description from "../category/detailBottomTab/Description"
+  import ReviewList from "../category/detailBottomTab/ReviewList"
+  import QnaList from "../category/detailBottomTab/QnaList"
 
   export default {
     name: "CategoryDetail",
     components: {
-//      Description,
-//      ReviewList,
-//      QnaList
+      Description,
+      ReviewList,
+      QnaList
     },
     data() {
       return {
         product: {},
         quantity: 1,
-//        component: 'Description',
+        component: 'Description',
       };
     },
     computed: {
@@ -219,28 +207,8 @@
           this.quantity--;
         }
       },
-//      fetchProductData(category, id) {
-//        const dataMap = {
-//          watch: watchItems,
-//          bag: bagItems,
-//          shoes: shoesItems,
-//          top: topItems,
-//          wallet: walletItems,
-//          acc: accItems,
-//        };
-//
-//        const categoryData = dataMap[category];
-//        if (categoryData) {
-//          this.product = categoryData.find(item => item.id == id);
-//        } else {
-//          console.error('errrrrr:', category);
-//        }
-//      },
     },
     created() {
-//      const category = this.$route.params.category;
-//      const id = this.$route.params.id;
-//      this.fetchProductData(category, id);
       this.getData();
     },
   };

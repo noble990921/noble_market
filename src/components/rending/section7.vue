@@ -2,38 +2,38 @@
   <Section id="section7">
     <div class="s7_container">
       <div class="hot_item">
-        <p class="title">Brand</p>
+<!--        <p class="title">Brand</p>-->
 <!--        <p class="sub_text">요즘 가장 핫한 상품 온스토어</p>-->
-        <div class="swiper_box">
-          <swiper :key="swiperKey" :options="currentSwiperOption">
-            <swiper-slide v-for="h in BRANDITEM" :key="h.id">
-              <img :src="h.img">
-              <div class="text_box">
-                <div class="content">
-                  <p class="title">{{h.title}}</p>
-                </div>
-              </div>
-            </swiper-slide>
-          </swiper>
-          <div v-if="!mobileVersion" class="swiper-pagination2"></div>
-          <div v-if="!mobileVersion" class="swiper-button-next"></div>
-          <div v-if="!mobileVersion" class="swiper-button-prev"></div>
-        </div>
-        <div class="swiper_box">
-          <swiper :key="swiperKey" :options="currentSwiperOption">
-            <swiper-slide v-for="h in BRANDITEM2" :key="h.id">
-              <img :src="h.img">
-              <div class="text_box">
-                <div class="content">
-                  <p class="title">{{h.title}}</p>
-                </div>
-              </div>
-            </swiper-slide>
-          </swiper>
-          <div v-if="!mobileVersion" class="swiper-pagination2"></div>
-          <div v-if="!mobileVersion" class="swiper-button-next"></div>
-          <div v-if="!mobileVersion" class="swiper-button-prev"></div>
-        </div>
+<!--        <div class="swiper_box">-->
+<!--          <swiper :key="swiperKey" :options="currentSwiperOption">-->
+<!--            <swiper-slide v-for="h in BRANDITEM" :key="h.id">-->
+<!--              <img :src="h.img">-->
+<!--              <div class="text_box">-->
+<!--                <div class="content">-->
+<!--                  <p class="title">{{h.title}}</p>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </swiper-slide>-->
+<!--          </swiper>-->
+<!--          <div v-if="!mobileVersion" class="swiper-pagination2"></div>-->
+<!--          <div v-if="!mobileVersion" class="swiper-button-next"></div>-->
+<!--          <div v-if="!mobileVersion" class="swiper-button-prev"></div>-->
+<!--        </div>-->
+<!--        <div class="swiper_box">-->
+<!--          <swiper :key="swiperKey" :options="currentSwiperOption">-->
+<!--            <swiper-slide v-for="h in BRANDITEM2" :key="h.id">-->
+<!--              <img :src="h.img">-->
+<!--              <div class="text_box">-->
+<!--                <div class="content">-->
+<!--                  <p class="title">{{h.title}}</p>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </swiper-slide>-->
+<!--          </swiper>-->
+<!--          <div v-if="!mobileVersion" class="swiper-pagination2"></div>-->
+<!--          <div v-if="!mobileVersion" class="swiper-button-next"></div>-->
+<!--          <div v-if="!mobileVersion" class="swiper-button-prev"></div>-->
+<!--        </div>-->
       </div>
     </div>
   </Section>
@@ -94,12 +94,12 @@
       title:'디올',
     },
   ]
-  import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
-  import 'swiper/css/swiper.css'
+//  import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
+//  import 'swiper/css/swiper.css'
   export default {
     name: "section7",
     components: {
-      Swiper, SwiperSlide
+//      Swiper, SwiperSlide
     },
     data() {
       return {

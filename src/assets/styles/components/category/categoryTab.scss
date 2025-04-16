@@ -1,0 +1,30 @@
+#reviewList{
+  .review_container{
+    .p1{
+      font-weight: bold;
+      font-size: 16px;
+      span{
+        font-weight: normal !important;
+      }
+    }
+    .p2{
+      font-size: 13px;
+      margin: 15px 0 8px;
+      color: rgba(0, 0, 0, 0.7);
+    }
+    button{
+      width: 100%;
+      height: 45px;
+      background: #000;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+    }
+    .review_select_box{
+      margin-top: 24px;
+      padding: 12px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
