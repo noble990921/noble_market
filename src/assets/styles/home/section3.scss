@@ -1,56 +1,91 @@
 #section3 {
-  //padding: 60px 0;
-  @media (max-width: 1024px){
-    display: flex;
-    justify-content: center;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  @media (max-width: 1024px) {
+    padding: 20px 12px !important;
   }
-  @media (min-width: 1024px) {
-    //padding: 120px 0;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .s3_container{
-    @media (max-width: 1024px){
-      //width: 92%;
-      padding: 0 12px;
+
+  .s3_container {
+    width: 100%;
+    @media (min-width: 1024px) {
+      max-width: 1200px;
     }
-    .new_item{
-      text-align: center;
+    .hot_item {
       .title {
-        font-size: 24px;
+        color: #000;
+        font-size: 17px;
         font-weight: 700;
-        line-height: 1;
-        color: #3a3a3a;
       }
+
       .sub_text {
         font-size: 16px;
         font-weight: 400;
         line-height: 1;
-        color: #9a9a9a;
-        margin-top: 15px;
+        color: rgba(34, 34, 34, .5);
+        margin-top: 2px;
+        margin-bottom: 16px;
       }
-      .newItem_box{
-        margin-top: 40px;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
-        gap: 20px;
+    }
+    .item_box{
+      column-gap: 12px;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      display: grid;
+      row-gap: 28px;
+      cursor: pointer;
+
+      @media (max-width: 1024px) {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 8px;
+        overflow-x: auto;
+        scrollbar-width: none;
         width: 100%;
         .item{
-          img{
-            width: 100%;
-          }
+          width: 152px !important;
+          flex: 0 0 auto;
+          margin: 0;
+          padding: 0;
+          display: inline-block;
+          position: relative;
+          vertical-align: top;
+        }
+      }
+
+      .item{
+        width: 100%;
+        background-color: #fff;
+        border-radius: 12px;
+        display: block;
+        img{
+          width: 100%;
+          border-radius: 12px;
+        }
+        .info_box{
+          padding: 12px 4px 0;
           .title{
-            margin: 20px 0 10px;
-            text-align: left;
+            color: #222;
+            font-size: 12px;
+            font-weight: 700;
+          }
+          .text{
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            color: #222;
+            display: -webkit-box;
             font-size: 13px;
-            color: #808080;
+            line-height: 16px;
+            max-height: 34px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
           }
           .price{
-            text-align: left;
+            margin-top: 10px;
+            color: rgb(34, 34, 34);
             font-size: 14px;
-            color: #262626;
-            font-weight: bold;
+            font-weight: 700;
+            line-height: 17px;
           }
         }
       }
