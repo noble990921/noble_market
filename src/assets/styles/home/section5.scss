@@ -12,7 +12,8 @@
   }
   .s5_container{
     @media (max-width: 1024px){
-      width: 92%;
+      //width: 92%;
+      padding: 0 12px;
     }
     .best_item{
       text-align: center;

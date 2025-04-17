@@ -1,39 +1,12 @@
 <template>
   <Section id="section7">
     <div class="s7_container">
-      <div class="hot_item">
-<!--        <p class="title">Brand</p>-->
-<!--        <p class="sub_text">요즘 가장 핫한 상품 온스토어</p>-->
-<!--        <div class="swiper_box">-->
-<!--          <swiper :key="swiperKey" :options="currentSwiperOption">-->
-<!--            <swiper-slide v-for="h in BRANDITEM" :key="h.id">-->
-<!--              <img :src="h.img">-->
-<!--              <div class="text_box">-->
-<!--                <div class="content">-->
-<!--                  <p class="title">{{h.title}}</p>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </swiper-slide>-->
-<!--          </swiper>-->
-<!--          <div v-if="!mobileVersion" class="swiper-pagination2"></div>-->
-<!--          <div v-if="!mobileVersion" class="swiper-button-next"></div>-->
-<!--          <div v-if="!mobileVersion" class="swiper-button-prev"></div>-->
-<!--        </div>-->
-<!--        <div class="swiper_box">-->
-<!--          <swiper :key="swiperKey" :options="currentSwiperOption">-->
-<!--            <swiper-slide v-for="h in BRANDITEM2" :key="h.id">-->
-<!--              <img :src="h.img">-->
-<!--              <div class="text_box">-->
-<!--                <div class="content">-->
-<!--                  <p class="title">{{h.title}}</p>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </swiper-slide>-->
-<!--          </swiper>-->
-<!--          <div v-if="!mobileVersion" class="swiper-pagination2"></div>-->
-<!--          <div v-if="!mobileVersion" class="swiper-button-next"></div>-->
-<!--          <div v-if="!mobileVersion" class="swiper-button-prev"></div>-->
-<!--        </div>-->
+      <div class="brand_item">
+        <div class="item_box" v-for="b in BRANDITEM" :key="b.id">
+          <img :src="b.img" v-if="!deskWidth">
+          <img :src="b.mimg" v-else>
+          <p class="title">{{b.title}}</p>
+        </div>
       </div>
     </div>
   </Section>
@@ -43,113 +16,105 @@
   const BRANDITEM = [
     {
       id:'1',
-      img: require('../../assets/images/home/section7/1.png'),
-      title:'디올',
-    },
-    {
+      img: require('../../assets/images/home/section7/brand_logo.png'),
+      mimg: require('../../assets/images/home/section7/mbrand_logo.png'),
+      title:'구찌',
+    },{
       id:'2',
-      img: require('../../assets/images/home/section7/1.png'),
+      img: require('../../assets/images/home/section7/brand_logo2.png'),
+      mimg: require('../../assets/images/home/section7/mbrand_logo2.png'),
       title:'디올',
-    },
-    {
+    },{
       id:'3',
-      img: require('../../assets/images/home/section7/1.png'),
-      title:'디올',
-    },
-    {
+      img: require('../../assets/images/home/section7/brand_logo3.png'),
+      mimg: require('../../assets/images/home/section7/mbrand_logo3.png'),
+      title:'루이비통',
+    },{
       id:'4',
-      img: require('../../assets/images/home/section7/1.png'),
-      title:'디올',
-    },
-    {
+      img: require('../../assets/images/home/section7/brand_logo4.png'),
+      mimg: require('../../assets/images/home/section7/mbrand_logo4.png'),
+      title:'몽클',
+    },{
       id:'5',
-      img: require('../../assets/images/home/section7/1.png'),
-      title:'디올',
+      img: require('../../assets/images/home/section7/brand_logo5.png'),
+      mimg: require('../../assets/images/home/section7/mbrand_logo5.png'),
+      title:'보테가',
+    },{
+      id:'6',
+      img: require('../../assets/images/home/section7/brand_logo6.png'),
+      mimg: require('../../assets/images/home/section7/mbrand_logo6.png'),
+      title:'샤넬',
+    },{
+      id:'7',
+      img: require('../../assets/images/home/section7/brand_logo7.png'),
+      mimg: require('../../assets/images/home/section7/mbrand_logo7.png'),
+      title:'에르메스',
+    },{
+      id:'8',
+      img: require('../../assets/images/home/section7/brand_logo8.png'),
+      mimg: require('../../assets/images/home/section7/mbrand_logo8.png'),
+      title:'입생로랑',
+    },{
+      id:'9',
+      img: require('../../assets/images/home/section7/brand_logo9.png'),
+      mimg: require('../../assets/images/home/section7/mbrand_logo9.png'),
+      title:'톰브',
+    },{
+      id:'10',
+      img: require('../../assets/images/home/section7/brand_logo10.png'),
+      mimg: require('../../assets/images/home/section7/mbrand_logo10.png'),
+      title:'프라다',
     },
   ]
-  const BRANDITEM2 = [
-    {
-      id:'1',
-      img: require('../../assets/images/home/section7/1.png'),
-      title:'디올',
-    },
-    {
-      id:'2',
-      img: require('../../assets/images/home/section7/1.png'),
-      title:'디올',
-    },
-    {
-      id:'3',
-      img: require('../../assets/images/home/section7/1.png'),
-      title:'디올',
-    },
-    {
-      id:'4',
-      img: require('../../assets/images/home/section7/1.png'),
-      title:'디올',
-    },
-    {
-      id:'5',
-      img: require('../../assets/images/home/section7/1.png'),
-      title:'디올',
-    },
-  ]
-//  import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
-//  import 'swiper/css/swiper.css'
+//  const BRANDITEM2 = [
+//    {
+//      id:'1',
+//      img: require('../../assets/images/home/section7/1.png'),
+//      title:'디올',
+//    },
+//    {
+//      id:'2',
+//      img: require('../../assets/images/home/section7/1.png'),
+//      title:'디올',
+//    },
+//    {
+//      id:'3',
+//      img: require('../../assets/images/home/section7/1.png'),
+//      title:'디올',
+//    },
+//    {
+//      id:'4',
+//      img: require('../../assets/images/home/section7/1.png'),
+//      title:'디올',
+//    },
+//    {
+//      id:'5',
+//      img: require('../../assets/images/home/section7/1.png'),
+//      title:'디올',
+//    },
+//  ]
   export default {
     name: "section7",
     components: {
-//      Swiper, SwiperSlide
+    },
+    computed:{
+      deskWidth(){
+        return this.windowWidth < 1024
+      }
     },
     data() {
       return {
-        destSwiperOption: {
-          slidesPerView: '5',
-          spaceBetween: 20,
-          autoplay: false,
-          freeMode:false,
-          centerInsufficientSlides: true,
-          allowTouchMove: true,
-          pagination: {
-            el: '.swiper-pagination2',
-            clickable: true,
-          },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-        },
-        mobileSwiperOption: {
-          slidesPerView: '3',
-          spaceBetween: 12,
-          autoplay: false,
-          freeMode:false,
-          centerInsufficientSlides: true,
-          allowTouchMove: true,
-          centeredSlides: true,
-        },
-        BRANDITEM2,BRANDITEM,mobileVersion:'',swiperKey:0,
-        currentSwiperOption: {}
-
+        BRANDITEM,
+        windowWidth: window.innerWidth
       }
     },
     methods:{
-      updateSwiperOption(){
-        const vm = this
-        if(window.innerWidth<1024){
-          vm.currentSwiperOption = vm.mobileSwiperOption
-          vm.mobileVersion = true
-        }else{
-          vm.currentSwiperOption = vm.destSwiperOption
-          vm.mobileVersion = false
-        }
-        vm.swiperKey += 1;
+      updateWidth(){
+        this.windowWidth = window.innerWidth
       }
     },
-    mounted() {
-      const vm = this;
-      vm.updateSwiperOption();
-      window.addEventListener('resize',vm.updateSwiperOption)
-    },
+    mounted(){
+      window.addEventListener('resize',this.updateWidth)
+    }
   }
 </script>

@@ -11,7 +11,8 @@
     max-width: 1200px;
     width: 100%;
     @media (max-width: 1024px) {
-      width: 92%;
+      //width: 92%;
+      padding: 0 12px;
     }
 
     .title {
@@ -310,6 +311,7 @@
       }
     }
     .detail_bottom{
+      margin-bottom: 30px;
       @media (max-width: 1024px) {
         padding: 0px 15px;
         .tab_box{
