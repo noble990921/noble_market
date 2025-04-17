@@ -6,7 +6,8 @@
           <li v-for="(s, idx) in subCategory" :key="idx"
               :class="{ active: selectedSubCategory === s.title }"
               @click="selectedSubCategory = s.title">
-            <p>{{ s.title }}</p>
+            <img :src="require(`../../../public/media/category/${s.img}.png`)">
+            <p v-if="subCategory.length>0">{{ s.title }}</p>
           </li>
         </ul>
       </div>
@@ -101,13 +102,31 @@
           this.total = this.product.length;
           this.updatePagedItems();
 
-          // subCategory 목록 처리 (전체를 포함한 목록)
-          const subCategorySet = new Set(this.product.map((p) => p.subCategory?.title ?? "전체"));
+//          // subCategory 목록 처리 (전체를 포함한 목록)
+//          const subCategorySet = new Set(this.product.map((p) => p.subCategory?.title ?? "전체"));
+//          const subCategoryList = [
+//            { title: "전체", img: "all" },
+//            ...Array.from(subCategorySet).filter((s) => s !== "전체").map((title) => ({ title, img: `${title}_img` })),
+//          ];
+//          this.subCategory = subCategoryList;
+
+          const subCategoryMap = new Map();
+          this.product.forEach((p) => {
+            const title = p.subCategory?.title ?? "전체";
+            const img = p.subCategory?.img ?? "all";
+            if (!subCategoryMap.has(title)) {
+              subCategoryMap.set(title, img);
+            }
+          });
           const subCategoryList = [
             { title: "전체", img: "all" },
-            ...Array.from(subCategorySet).filter((s) => s !== "전체").map((title) => ({ title, img: `${title}_img` })),
+            ...Array.from(subCategoryMap.entries())
+            .filter(([title]) => title !== "전체")
+            .map(([title, img]) => ({ title, img })),
           ];
+
           this.subCategory = subCategoryList;
+          console.log('sss', this.subCategory)
 
           console.timeEnd("getProductData 응답시간");
         } catch (error) {

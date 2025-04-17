@@ -34,9 +34,15 @@
           <div id="ps_subcategory_box" class="set_row" v-if="subCategoryOptions.length > 0">
             <span class="title_label">서브 카테고리</span>
             <span class="select_span">
-        <el-select v-model="info.subCategory" placeholder="서브 카테고리를 선택해주세요.">
-          <el-option :label="subCategory.title" :value="subCategory" v-for="(subCategory, index) in subCategoryOptions" :key="index" />
-        </el-select>
+        <el-select
+            v-model="info.subCategory"
+            placeholder="서브 카테고리를 선택해주세요.">
+  <el-option
+      v-for="(subCategory, index) in subCategoryOptions"
+      :key="index"
+      :label="subCategory.title"
+      :value="subCategory.title" />
+</el-select>
       </span>
           </div>
           <div id="ps_title_box" class="set_row">
@@ -182,6 +188,13 @@
         this.watchCategoryChange(newCategory); // 카테고리 변경 시 서브 카테고리 업데이트
       }
     },
+    computed: {
+      selectedSubCategoryInfo() {
+        return this.subCategoryOptions.find(
+            (item) => item.title === this.info.subCategory
+        )
+      }
+    },
     methods: {
       initSubCategoryImgMap() {
         const allSubCategories = Object.values(SUB_CATEGORY_OPTIONS).flat(); // 모든 서브카테고리를 모음
@@ -192,6 +205,7 @@
       },
       async saveProduct() {
         const vm = this;
+
         if (
             !vm.info.title ||
             !vm.type ||
@@ -208,7 +222,10 @@
         const productData = {
           title: vm.info.title,
           category: vm.type,
-          subCategory: vm.info.subCategory, // 서브 카테고리 추가
+          subCategory: {
+            title: vm.info.subCategory,
+            img: vm.selectedSubCategoryInfo?.img || "",
+          },
           isOpen: vm.info.isOpen,
           createDate: vm.info.createDate,
           content: vm.info.content || "",
@@ -237,31 +254,6 @@
         this.subCategoryOptions = SUB_CATEGORY_OPTIONS[newCategory] || [];
         this.info.subCategory = ""; // 서브 카테고리 초기화
       },
-
-//      handleFileChange(file) {
-//        const vm = this;
-//        const storageRef = storage.ref();
-//        const fileRef = storageRef.child(`images/${file.name}`); // Firebase Storage에 업로드할 경로 설정
-//
-//        const uploadTask = fileRef.put(file.raw); // 파일을 Firebase Storage에 업로드
-//
-//        uploadTask.on(
-//            "state_changed",
-//            (/* snapshot */) => {  // snapshot 제거
-//              // 업로드 진행 상황 처리 (옵션)
-//            },
-//            (error) => {
-//              // 에러 처리
-//              console.error("이미지 업로드 중 오류 발생:", error);
-//              this.$alert("이미지 업로드에 실패했습니다.", "오류");
-//            },
-//            async () => {
-//              // 업로드가 완료되면 URL을 Firestore에 저장
-//              const downloadURL = await uploadTask.snapshot.ref.getDownloadURL();
-//              vm.info.img = downloadURL; // Firebase Storage에 업로드된 이미지 URL을 Firestore에 저장
-//            }
-//        );
-//      },
       handleFileChange(file) {
         const vm = this;
         const storageRef = storage.ref();
