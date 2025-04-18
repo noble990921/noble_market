@@ -1,7 +1,9 @@
 #AdminDashboard{
   background: #1e1e2f;
     width: 100%;
+  @media (min-width: 1024px) {
     min-height: 999px;
+  }
     height: 100%;
     @media (max-width: 1024px) {
       padding: 100px 12px 12px  12px;

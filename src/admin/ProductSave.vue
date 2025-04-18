@@ -37,13 +37,21 @@
         <el-select
             v-model="info.subCategory"
             placeholder="서브 카테고리를 선택해주세요.">
-  <el-option
-      v-for="(subCategory, index) in subCategoryOptions"
-      :key="index"
-      :label="subCategory.title"
-      :value="subCategory.title" />
-</el-select>
+            <el-option
+                v-for="(subCategory, index) in subCategoryOptions"
+                :key="index"
+                :label="subCategory.title"
+                :value="subCategory.title" />
+        </el-select>
       </span>
+          </div>
+          <div id="ps_brand_box" class="set_row">
+            <span class="title_label">브랜드</span>
+            <span class="select_span">
+                <el-select v-model="info.brand" placeholder="브랜드를 선택해주세요.">
+                <el-option :label="f" :value="name" v-for="(f, name) in SET_PRODUCT_BRAND" :key="name"/>
+               </el-select>
+            </span>
           </div>
           <div id="ps_title_box" class="set_row">
             <span class="title_label">상품이름</span>
@@ -86,10 +94,13 @@
 
 <script>
   import MyQuillEditor from "@/common/components/MyQuillEditor";
-  import {storage,db} from "@/firebase";
+  import {db, storage} from "@/firebase";
 
   const SET_PRODUCT_CATEGORY = {
     "1": "OUTER", "2": "TOP", "3": "BOTTOM", "4": "SHOES", "5": "WALLET", "6": "BAG","7":"WATCH","8":"ACC"
+  }
+  const SET_PRODUCT_BRAND = {
+    "1": "구찌", "2": "디올", "3": "루이비통", "4": "몽클", "5": "보테가", "6": "샤넬","7":"에르메스","9":"입생로랑","10":"톰브","8":"프라다"
   }
   const SUB_CATEGORY_OPTIONS = {
     "1": [
@@ -166,6 +177,7 @@
           isOpen: null,
           category: '',
           subCategory:'',
+          brand:'',
           siteInfo: null,
           content: '',
           price: '',
@@ -173,6 +185,7 @@
           sellQuantity:0,
         },
         SET_PRODUCT_CATEGORY,
+        SET_PRODUCT_BRAND,
         subCategoryOptions:[],
         subCategoryImgMap: {},
         type: '',
@@ -213,6 +226,8 @@
             !vm.info.createDate ||
             !vm.info.price ||
             !vm.info.img ||
+            !vm.info.category,
+            !vm.info.brand,
             !vm.info.subCategory // 서브 카테고리가 선택되지 않으면 저장하지 않도록 추가
         ) {
           vm.$alert("모든 필드를 입력해주세요.", "알림");
@@ -226,6 +241,7 @@
             title: vm.info.subCategory,
             img: vm.selectedSubCategoryInfo?.img || "",
           },
+          brand:vm.info.brand,
           isOpen: vm.info.isOpen,
           createDate: vm.info.createDate,
           content: vm.info.content || "",
@@ -256,13 +272,20 @@
       },
       handleFileChange(file) {
         const vm = this;
+
+        // 1. 로컬 프리뷰 먼저 보여주기 (즉시 실행)
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          vm.info.img = e.target.result; // Base64 형태라 즉시 img로 사용 가능
+        };
+        reader.readAsDataURL(file.raw);
+
+        // 2. 백그라운드에서 Firebase 업로드
         const storageRef = storage.ref();
-
         const timestamp = Date.now();
-        const extension = file.name.split('.').pop(); // 확장자
-        const fileName = `${file.name.split('.')[0]}_${timestamp}.${extension}`; // ex. shirt_1713173812932.jpg
+        const extension = file.name.split('.').pop();
+        const fileName = `${file.name.split('.')[0]}_${timestamp}.${extension}`;
         const fileRef = storageRef.child(`images/${fileName}`);
-
         const uploadTask = fileRef.put(file.raw);
 
         uploadTask.on(
@@ -274,7 +297,7 @@
             },
             async () => {
               const downloadURL = await uploadTask.snapshot.ref.getDownloadURL();
-              vm.info.img = downloadURL;
+              vm.info.img = downloadURL; // Firebase URL로 덮어쓰기
             }
         );
       },

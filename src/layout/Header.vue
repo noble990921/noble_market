@@ -101,8 +101,7 @@
           <img src="../assets/images/logo3.png">
         </div>
         <div class="right_icon">
-          <i class="el-icon-search"></i>
-
+          <i class="el-icon-search" @click="searchDrawer = true"></i>
           <el-dropdown trigger="hover">
             <span class="el-dropdown-link">
               <i class="el-icon-user"></i>
@@ -129,12 +128,14 @@
         </ul>
       </div>
     </div>
+    <SearchDrawer :visible.sync="searchDrawer"/>
   </section>
 </template>
 
 <script>
   import {mapGetters} from "vuex";
   import {logout} from "@/services/authService";
+  import SearchDrawer from "../components/drawer/SearchDrawer";
 
   const ASIDEMENU = [
     /** type     0:로그인시에만 표시, 1:로그인전에만 표시, 2:로그인,로그인전표시 3: 관리자 */
@@ -177,8 +178,12 @@
 
   export default {
     name: "Header",
+    components:{
+      SearchDrawer
+    },
     data() {
       return {
+        searchDrawer: false,
         MENU, ASIDEMENU, CATEGORY,
         asideOpen: false, category: false, isScroll: false
       }
@@ -201,7 +206,7 @@
       },
     },
     methods: {
-      handleMenuClick(m) {
+    handleMenuClick(m) {
         if (m.func) {
           this.exeFunc(m.func);
         } else if (m.url) {

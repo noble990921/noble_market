@@ -40,32 +40,37 @@
       </div>
       <div class="pr_container_bottom">
         <el-table v-loading="isLoading"  @row-click="goContent" border :data="productList" class="clicked" with="100%">
-          <el-table-column label="날짜" width="15%">
+          <el-table-column label="날짜" >
             <template slot-scope="{row}">
               <p>{{ row.createDate.toDate() | moment("YYYY-MM-DD HH:mm") }}</p>
             </template>
           </el-table-column>
-          <el-table-column label="카테고리" width="10%">
+          <el-table-column label="카테고리" >
             <template slot-scope="{row}">
               <p>{{SET_PRODUCT_CATEGORY[row.category]}}</p>
             </template>
           </el-table-column>
-          <el-table-column label="세부카테고리" width="10%">
+          <el-table-column label="세부카테고리" >
             <template slot-scope="{row}">
               <p>{{row.subCategory.title || '-'}} </p>
             </template>
           </el-table-column>
-          <el-table-column label="상품가격" width="15%">
+          <el-table-column label="브랜드" >
+            <template slot-scope="{row}">
+              <p>{{SET_PRODUCT_BRAND[row.brand]}} </p>
+            </template>
+          </el-table-column>
+          <el-table-column label="상품가격" >
             <template slot-scope="{row}">
               <p>{{row.price | formatNumber}}</p>
             </template>
           </el-table-column>
-          <el-table-column label="상품" width="40%">
+          <el-table-column label="상품" >
             <template slot-scope="{row}">
               <p>{{row.product}}</p>
             </template>
           </el-table-column>
-          <el-table-column label="공개여부" width="15%">
+          <el-table-column label="공개여부" >
             <template slot-scope="{row}">
               <p>{{SET_ISOPEN[row.isOpen]}}</p>
             </template>
@@ -88,6 +93,9 @@
   const SET_PRODUCT_CATEGORY = {
     "1": "OUTER", "2": "TOP", "3": "BOTTOM", "4": "SHOES", "5": "WALLET", "6": "BAG","7":"WATCH","8":"ACC"
   }
+  const SET_PRODUCT_BRAND = {
+    "1": "구찌", "2": "디올", "3": "루이비통", "4": "몽클", "5": "보테가", "6": "샤넬","7":"에르메스","9":"입생로랑","10":"톰브","8":"프라다"
+  }
   const SUB_CATEGORY_OPTIONS = {
     "1": ["패딩", "재킷","바람막이","가디건","후드집업","코트","조끼/베스트","슈트/블레이저","무스탕/퍼"],
     "2": ["맨투맨/스웨트", "후드","긴소매","반소매","민소매","피케/카라","니트/스웨터","셔츠/블라우스"],
@@ -108,6 +116,7 @@
         openList: ["1", "2"],
         type: '',
         SET_PRODUCT_CATEGORY,
+        SET_PRODUCT_BRAND,
         SUB_CATEGORY_OPTIONS,
         SET_ISOPEN,
         isLoading:false,
@@ -162,7 +171,8 @@
               product: data.title || '',
               isOpen: data.isOpen || false,
               price: data.price,
-              subCategory: data.subCategory || ''
+              subCategory: data.subCategory || '',
+              brand: data.brand || ''
             };
           });
           const totalQuery = await db.collection("products").get();

@@ -15,7 +15,9 @@
   }
   .pr_container{
     width: 100%;
-    min-height: 1000px;
+    @media (min-width: 1024px) {
+      min-height: 1000px;
+    }
     .pr_container_top{
       background: #27293d;
       display: flex;

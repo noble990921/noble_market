@@ -1,0 +1,117 @@
+#SearchDrawer{
+  .el-drawer__header{
+    margin-bottom: 0;
+  }
+  .el-drawer__body{
+    display: flex;
+    justify-content: center;
+  }
+  .drawer-content{
+    width: 800px;
+    .layer_search_title_wrap{
+      margin-bottom: 12px;
+      .title{
+        font-size: 16px;
+        font-weight: 700;
+        color: #222;
+      }
+      .title_sub_text{
+        color: rgba(34, 34, 34, .8);
+        display: inline;
+        font-size: 13px;
+        margin-left: 5px;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+    .search_area{
+      .search{
+        border-bottom: 3px solid #000;
+        padding-bottom: 16px;
+        input::placeholder {
+          font-size: 20px;
+          color: #7d7d7d;
+        }
+        input{
+          outline:none;
+          border: none;
+          width: 770px;
+          color: #000;
+          font-size: 24px;
+          font-weight: 700;
+          letter-spacing: -.015em;
+          line-height: 29px;
+          padding: 0 13px 0 1px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        i{
+          font-size: 20px;
+          cursor: pointer ;
+        }
+      }
+    }
+    .search_content_wrap{
+      margin-top: 20px;
+      .recent_area{
+        .layer_search_item{
+          padding-bottom: 32px;
+          .layer_search_item_content_wrap{
+            .recent_box{
+              .search_list{
+                display: flex;
+                flex-wrap: wrap;
+                .search_item{
+                  align-items: center;
+                  border: 1px solid #ebebeb;
+                  border-radius: 20px;
+                  cursor: pointer;
+                  display: inline-flex;
+                  line-height: 25px;
+                  margin: 0 6px 8px 0;
+                  padding: 3px 8px;
+                  position: relative;
+                  p{
+                    color: rgba(34, 34, 34, .8);
+                    display: block;
+                    font-size: 14px;
+                    letter-spacing: normal;
+                    max-width: 144.5px;
+                    overflow: hidden;
+                    padding-left: 4px;
+                    padding-right: 10px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .search_card_items{
+      .layer_search_item_content_wrap{
+        .search_card_tag_wrap{
+          line-height: 13px;
+          .search_card_tag{
+            background: #f4f4f4;
+            border: 1px solid #ebebeb;
+            border-radius: 20px;
+            color: rgba(34, 34, 34, .8);
+            display: inline-block;
+            font-size: 14px;
+            letter-spacing: -.21px;
+            margin: 0 8px 12px 0;
+            max-width: 142px;
+            overflow: hidden;
+            padding: 8px 12px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
