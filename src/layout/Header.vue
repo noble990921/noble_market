@@ -167,7 +167,8 @@
     {id: "7", title: "BAG", url: "/product/BAG"},
     {id: "8", title: "WATCH", url: "/product/WATCH"},
     {id: "9", title: "ACC", url: "/product/ACC"},
-    {id: "10", title: "Community", url: "/product/community"},
+    {id: "10", title: "Brand", url: "/brand"},
+    {id: "11", title: "Community", url: "/product/community"},
   ];
 
   const CATEGORY = [

@@ -1,0 +1,39 @@
+#brandView{
+  padding-top: 160px;
+  display: flex;
+  justify-content: center;
+  @media (max-width: 1024px) {
+    padding-top: 54px;
+    height: 100%;
+  }
+  .brand_container{
+    width: 100%;
+    max-width: 1280px;
+    padding-top: 60px;
+    .filter_tab{
+      ul{
+        display: flex;
+        justify-content: space-between;
+        li{
+          border: 1px solid #7d7d7d;
+          border-radius: 50px;
+          padding: 7px 10px;
+          color: #7d7d7d;
+          cursor: pointer;
+          &.active{
+            border: 1px solid #000;
+            color: #000000;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .brand_list{
+      li{
+        img{
+          width: 60px;
+        }
+      }
+    }
+  }
+}

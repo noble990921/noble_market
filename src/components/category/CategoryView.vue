@@ -9,6 +9,12 @@
             <img :src="require(`../../../public/media/category/${s.img}.png`)">
             <p v-if="subCategory.length>0">{{ s.title }}</p>
           </li>
+<!--          <li v-for="(s, idx) in 10" :key="idx"-->
+<!--              :class="{ active: selectedSubCategory === s.title }"-->
+<!--              @click="selectedSubCategory = s.title">-->
+<!--            <img src="../../../public/media/category/all.png" alt="">-->
+<!--            <p>all</p>-->
+<!--          </li>-->
         </ul>
       </div>
       <div class="product_item_container">
@@ -114,15 +120,17 @@
           this.product.forEach((p) => {
             const title = p.subCategory?.title ?? "전체";
             const img = p.subCategory?.img ?? "all";
+            const id = p.subCategory?.id ;
             if (!subCategoryMap.has(title)) {
-              subCategoryMap.set(title, img);
+              subCategoryMap.set(title, { img, id });
             }
           });
           const subCategoryList = [
-            { title: "전체", img: "all" },
+            { title: "전체", img: "all", id: 0 },
             ...Array.from(subCategoryMap.entries())
             .filter(([title]) => title !== "전체")
-            .map(([title, img]) => ({ title, img })),
+            .map(([title, { img, id }]) => ({ title, img, id }))
+            .sort((a, b) => a.id - b.id),
           ];
 
           this.subCategory = subCategoryList;

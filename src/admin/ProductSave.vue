@@ -104,64 +104,64 @@
   }
   const SUB_CATEGORY_OPTIONS = {
     "1": [
-      { title: "패딩", img: "padding" },
-      { title: "재킷", img: "jacket" },
-      { title: "바람막이", img: "windbreaker" },
-      { title: "가디건", img: "cardigan" },
-      { title: "후드집업", img: "hoodzipup" },
-      { title: "코트", img: "coat" },
-      { title: "조끼/베스트", img: "vest" },
-      { title: "슈트/블레이저", img: "suit" },
-      { title: "무스탕/퍼", img: "mustang" }
+      {id:1, title: "패딩", img: "padding" },
+      {id:2, title: "재킷", img: "jacket" },
+      {id:3, title: "바람막이", img: "windbreaker" },
+      {id:4, title: "가디건", img: "cardigan" },
+      {id:5, title: "후드집업", img: "hoodzipup" },
+      {id:6, title: "코트", img: "coat" },
+      {id:7, title: "조끼/베스트", img: "vest" },
+      {id:8, title: "슈트/블레이저", img: "suit" },
+      {id:9, title: "무스탕/퍼", img: "mustang" }
     ],
     "2": [
-      { title: "맨투맨/스웨트", img: "sweatshirt" },
-      { title: "후드", img: "hood" },
-      { title: "긴소매", img: "longsleeve" },
-      { title: "반소매", img: "shortsleeve" },
-      { title: "민소매", img: "sleeveless" },
-      { title: "피케/카라", img: "polo" },
-      { title: "니트/스웨터", img: "knitsweater" },
-      { title: "셔츠/블라우스", img: "shirtblouse" }
+      {id:1, title: "맨투맨/스웨트", img: "sweatshirt" },
+      {id:2, title: "후드", img: "hood" },
+      {id:3, title: "긴소매", img: "longsleeve" },
+      {id:4, title: "반소매", img: "shortsleeve" },
+      {id:5, title: "민소매", img: "sleeveless" },
+      {id:6, title: "피케/카라", img: "polo" },
+      {id:7, title: "니트/스웨터", img: "knitsweater" },
+      {id:8, title: "셔츠/블라우스", img: "shirtblouse" }
     ],
     "3": [
-      { title: "데님", img: "denim" },
-      { title: "트레이닝/조거", img: "jogger" },
-      { title: "코튼", img: "cotton" },
-      { title: "슬랙스", img: "slacks" },
-      { title: "숏 팬츠", img: "shortpants" },
-      { title: "원피스/스커트", img: "dressskirt" }
+      {id:1, title: "데님", img: "denim" },
+      {id:2, title: "트레이닝/조거", img: "jogger" },
+      {id:3, title: "코튼", img: "cotton" },
+      {id:4, title: "슬랙스", img: "slacks" },
+      {id:5, title: "숏 팬츠", img: "shortpants" },
+      {id:6, title: "원피스/스커트", img: "dressskirt" }
     ],
     "4": [
-      { title: "스니커즈", img: "sneakers" },
-      { title: "구두/로퍼", img: "loafers" },
-      { title: "샌들/슬리퍼", img: "sandals" },
-      { title: "부츠/워커", img: "boots" }
+      {id:1, title: "스니커즈", img: "sneakers" },
+      {id:2, title: "구두/로퍼", img: "loafers" },
+      {id:3, title: "샌들/슬리퍼", img: "sandals" },
+      {id:4, title: "부츠/워커", img: "boots" }
     ],
     "5": [
-      { title: "장지갑", img: "longwallet" },
-      { title: "중지갑", img: "mediumwallet" },
-      { title: "반지갑", img: "shortwallet" },
-      { title: "카드/명합지갑", img: "cardwallet" },
-      { title: "동전/여권지갑", img: "coinpassportwallet" }
+      {id:1, title: "장지갑", img: "longwallet" },
+      {id:2, title: "중지갑", img: "mediumwallet" },
+      {id:3, title: "반지갑", img: "shortwallet" },
+      {id:4, title: "카드/명합지갑", img: "cardwallet" },
+      {id:5, title: "동전/여권지갑", img: "coinpassportwallet" }
     ],
     "6": [
-      { title: "미니백", img: "minibag" },
-      { title: "백팩", img: "backpack" },
-      { title: "숄더백", img: "shoulderbag" },
-      { title: "토트백", img: "totebag" },
-      { title: "크로스백", img: "crossbag" },
-      { title: "클러치", img: "clutch" },
-      { title: "더플백", img: "dufflebag" },
-      { title: "에코백", img: "ecobag" },
-      { title: "캐리어", img: "carrier" }
+      {id:1, title: "미니백", img: "minibag" },
+      {id:2, title: "백팩", img: "backpack" },
+      {id:3, title: "숄더백", img: "shoulderbag" },
+      {id:4, title: "토트백", img: "totebag" },
+      {id:5, title: "크로스백", img: "crossbag" },
+      {id:6, title: "클러치", img: "clutch" },
+      {id:7, title: "더플백", img: "dufflebag" },
+      {id:8, title: "에코백", img: "ecobag" },
+      {id:9, title: "캐리어", img: "carrier" }
     ],
     "8": [
-      { title: "목걸이", img: "necklace" },
-      { title: "팔찌", img: "bracelet" },
-      { title: "반지", img: "ring" },
-      { title: "귀걸이", img: "earring" },
-      { title: "키링/기타", img: "keyring" }
+      {id:1, title: "목걸이", img: "necklace" },
+      {id:2, title: "팔찌", img: "bracelet" },
+      {id:3, title: "반지", img: "ring" },
+      {id:4, title: "귀걸이", img: "earring" },
+      {id:5, title: "키링/기타", img: "keyring" }
     ]
   }
   export default {
@@ -238,6 +238,7 @@
           title: vm.info.title,
           category: vm.type,
           subCategory: {
+            id: vm.selectedSubCategoryInfo?.id || null,
             title: vm.info.subCategory,
             img: vm.selectedSubCategoryInfo?.img || "",
           },
