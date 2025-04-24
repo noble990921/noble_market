@@ -1,6 +1,6 @@
 <template>
   <div id="brandView">
-    <div class="brand_container">
+    <div class="brand_container" v-loading="loading">
       <div class="filter_tab">
         <ul>
           <li v-for="f in filterItems" :key="f.id"
@@ -105,7 +105,8 @@
           { id: 14, text: "ㅎ" },
         ],
         brands: [],
-        SET_PRODUCT_BRAND
+        SET_PRODUCT_BRAND,
+        loading: false
       };
     },
     computed: {
@@ -133,6 +134,7 @@
         return CHOSUNG_LIST[chosungIndex]; // 초성 리턴
       },
       async fetchBrandsFromProducts() {
+        this.loading =true
         try {
           const snapshot = await db.collection("products").get();
           const brandKeySet = new Set();
@@ -150,6 +152,7 @@
         } catch (err) {
           console.error("브랜드 목록 가져오기 실패:", err);
         }
+        this.loading =false
       }
       },
     created() {

@@ -1,6 +1,6 @@
 <template>
   <div class="product_category" :id="`${category}_View`">
-    <div class="pc_container">
+    <div class="pc_container" v-loading="loading">
       <div class="category_box">
         <ul>
           <li v-for="(s, idx) in subCategory" :key="idx"
@@ -73,7 +73,8 @@
         value: "",
         product: [],
         subCategory: [], // subCategory를 배열로 초기화
-        selectedSubCategory: "전체", // 전체 카테고리 선택
+        selectedSubCategory: "전체", // 전체 카테고리 선택,
+        loading:false
       };
     },
     watch: {
@@ -93,6 +94,7 @@
     },
     methods: {
       async getData() {
+        this.loading =true
         try {
           console.time("getProductData 응답시간");
 
@@ -140,6 +142,7 @@
         } catch (error) {
           console.error("상품 데이터를 가져오는 중 오류 발생:", error);
         }
+        this.loading =false
       },
       getCategoryId() {
         const categoryMap = {
