@@ -1,134 +1,136 @@
 <template>
   <section id="Header">
-    <div
-        id="header_top_list"
-        v-if="!isScroll">
-      <div v-if="isLogin">
-        <p>환영합니다, {{ user.name }}님</p>
+    <div class="header_container">
+      <div
+          id="header_top_list"
+          v-if="!isScroll">
+        <div v-if="isLogin">
+          <p>환영합니다, {{ user.name }}님</p>
+        </div>
+        <ul>
+          <li
+              v-for="a in loginMenu"
+              :key="a.id"
+              @click="a.func ? exeFunc(a.func) : goToUrl(a.url)"
+              >
+            <template v-if="a.title === '고객센터'">
+              <el-dropdown trigger="hover">
+                <span class="el-dropdown-link" style="font-size: 12px;color: #6a6a6a;">
+                  {{ a.title }}</span>
+                <el-dropdown-menu slot="dropdown">
+                  <el-dropdown-item v-for="c in CATEGORY" :key="c.id">
+                    <p @click="goToUrl(c.url)">{{ c.title }}</p>
+                  </el-dropdown-item>
+                </el-dropdown-menu>
+              </el-dropdown>
+            </template>
+            <template v-else>
+              {{ a.title }}
+            </template>
+          </li>
+        </ul>
       </div>
-      <ul>
-        <li
-            v-for="a in loginMenu"
-            :key="a.id"
-            @click="a.func ? exeFunc(a.func) : goToUrl(a.url)"
-            >
-          <template v-if="a.title === '고객센터'">
-            <el-dropdown trigger="hover">
-              <span class="el-dropdown-link" style="font-size: 12px;color: #6a6a6a;">
-                {{ a.title }}</span>
-              <el-dropdown-menu slot="dropdown">
-                <el-dropdown-item v-for="c in CATEGORY" :key="c.id">
-                  <p @click="goToUrl(c.url)">{{ c.title }}</p>
-                </el-dropdown-item>
-              </el-dropdown-menu>
-            </el-dropdown>
-          </template>
-          <template v-else>
-            {{ a.title }}
-          </template>
-        </li>
-      </ul>
-    </div>
-    <div
-        id="overlay"
-        v-if="asideOpen"></div>
-    <div
-        id="aside"
-        :class="{ open: asideOpen }">
-      <i
-          class="el-icon-close"
-          @click="toggleAside"></i>
-      <div class="aside_header">
-        <div class="logo">
-          <img
-              class="logo_img"
-              src="../assets/images/logo3.png">
-        </div>
-        <div class="aside_menu">
-          <ul>
-            <li
-                v-for="m in loginMenu"
-                :key="m.id"
-                @click="handleMenuClick(m)"
-                >
-              {{ m.title }}
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="aside_box">
-        <div class="aside_top">
-          <ul>
-            <li
-                v-for="m in MENU"
-                :key="m.id" @click="handleMenuClick(m)">
-              <p>{{m.title}}</p>
-            </li>
-          </ul>
-        </div>
-        <div class="aside_bottom">
-          <div class="title">
-            <p>고객센터</p>
-            <i
-                class="el-icon-plus"
-                @click="toggleCategory"></i>
+      <div
+          id="overlay"
+          v-if="asideOpen"></div>
+      <div
+          id="aside"
+          :class="{ open: asideOpen }">
+        <i
+            class="el-icon-close"
+            @click="toggleAside"></i>
+        <div class="aside_header">
+          <div class="logo">
+            <img
+                class="logo_img"
+                src="../assets/images/logo3.png">
           </div>
-          <div
-              class="categoryList"
-              v-if="category">
+          <div class="aside_menu">
             <ul>
               <li
-                  v-for="c in CATEGORY"
-                  :key="c.id" @click="handleMenuClick(c)">
-                <p>{{c.title}}</p>
+                  v-for="m in loginMenu"
+                  :key="m.id"
+                  @click="handleMenuClick(m)"
+                  >
+                {{ m.title }}
               </li>
             </ul>
           </div>
         </div>
+        <div class="aside_box">
+          <div class="aside_top">
+            <ul>
+              <li
+                  v-for="m in MENU"
+                  :key="m.id" @click="handleMenuClick(m)">
+                <p>{{m.title}}</p>
+              </li>
+            </ul>
+          </div>
+          <div class="aside_bottom">
+            <div class="title">
+              <p>고객센터</p>
+              <i
+                  class="el-icon-plus"
+                  @click="toggleCategory"></i>
+            </div>
+            <div
+                class="categoryList"
+                v-if="category">
+              <ul>
+                <li
+                    v-for="c in CATEGORY"
+                    :key="c.id" @click="handleMenuClick(c)">
+                  <p>{{c.title}}</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="header_box">
-      <div class="header_top">
-        <div
-            class="left_icon"
-            @click="toggleAside">
-          <img src="../assets/images/menu_icon.png">
-        </div>
-        <div
-            class="logo"
-            @click="$router.push('/')"
-            style="cursor: pointer">
-          <img src="../assets/images/logo3.png">
-        </div>
-        <div class="right_icon">
-          <i class="el-icon-search" @click="searchDrawer = true"></i>
-          <el-dropdown trigger="hover">
-            <span class="el-dropdown-link">
-              <i class="el-icon-user"></i>
-            </span>
-            <el-dropdown-menu slot="dropdown">
-              <el-dropdown-item><a style="color: #000" href="/order_list">주문목록</a></el-dropdown-item>
-              <el-dropdown-item><a style="color: #000" href="/order_list">취소/반품</a></el-dropdown-item>
-              <el-dropdown-item><a style="color: #000" href="/order_list">찜 리스트</a></el-dropdown-item>
-            </el-dropdown-menu>
-          </el-dropdown>
+      <div class="header_box">
+        <div class="header_top">
+          <div
+              class="left_icon"
+              @click="toggleAside">
+            <img src="../assets/images/menu_icon.png">
+          </div>
+          <div
+              class="logo"
+              @click="$router.push('/')"
+              style="cursor: pointer">
+            <img src="../assets/images/logo3.png">
+          </div>
+          <div class="right_icon">
+            <i class="el-icon-search" @click="searchDrawer = true"></i>
+            <el-dropdown trigger="hover">
+              <span class="el-dropdown-link">
+                <i class="el-icon-user"></i>
+              </span>
+              <el-dropdown-menu slot="dropdown">
+                <el-dropdown-item><a style="color: #000" href="/order_list">주문목록</a></el-dropdown-item>
+                <el-dropdown-item><a style="color: #000" href="/order_list">취소/반품</a></el-dropdown-item>
+                <el-dropdown-item><a style="color: #000" href="/order_list">찜 리스트</a></el-dropdown-item>
+              </el-dropdown-menu>
+            </el-dropdown>
 
-          <i class="el-icon-goods" @click="$router.push('/cart_view')"></i>
+            <i class="el-icon-goods" @click="$router.push('/cart_view')"></i>
+          </div>
+        </div>
+        <div class="header_bottom">
+          <ul>
+            <li
+                v-for="m in MENU"
+                :key="m.id">
+              <a :href="m.url">
+                {{m.title}}
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="header_bottom">
-        <ul>
-          <li
-              v-for="m in MENU"
-              :key="m.id">
-            <a :href="m.url">
-              {{m.title}}
-            </a>
-          </li>
-        </ul>
-      </div>
+      <SearchDrawer :visible.sync="searchDrawer"/>
     </div>
-    <SearchDrawer :visible.sync="searchDrawer"/>
   </section>
 </template>
 

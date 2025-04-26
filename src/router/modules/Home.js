@@ -5,7 +5,8 @@ const ServiceContact = ()=> import('../../views/home/ServiceContact')
 const ServiceNoticeDetail = () => import('../../views/home/ServiceNoticeDetail')
 const CategoryDetail = () => import('../../components/category/Category_Detail')
 const CategoryView = () => import('../../components/category/CategoryView')
-const BrandView = () => import('../../components/category/brandView')
+const BrandListView = () => import('../../components/brand/brandListView')
+const BrandView = () => import('../../components/brand/brandView')
 const CartView = () => import('../../views/cart/Cart_View')
 const DirectView = () => import('../../views/cart/direct/Direct_View')
 const OrderList = () => import('../../views/cart/OrderList')
@@ -50,8 +51,14 @@ export default [
   },
   {
     path: "/brand",
+    name: "BrandListView",
+    component: BrandListView,
+  },
+  {
+    path: "/brand/:brand",
     name: "BrandView",
     component: BrandView,
+    props: true,
   },
   {
     path:'/cart_view',name:'',component:CartView,

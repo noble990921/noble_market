@@ -1,10 +1,12 @@
 .product_category {
-  padding-top: 144px;
+  padding-top: 160px;
   display: flex;
   justify-content: center;
+  min-height: 800px;
   @media (max-width: 1024px) {
     padding-top: 54px;
     height: 100%;
+    min-height: 700px;
   }
 
   .pc_container {
@@ -153,7 +155,7 @@
 }
 
 .product_detail {
-  padding-top: 144px;
+  padding-top: 160px;
   display: flex;
   justify-content: center;
   @media (max-width: 1024px) {
