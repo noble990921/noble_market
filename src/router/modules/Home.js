@@ -54,6 +54,12 @@ export default [
     name: "BrandListView",
     component: BrandListView,
   },
+//  {
+//    path: '/:brand/detail/:id',
+//    name: 'CategoryDetail',
+//    component: CategoryDetail,
+//    meta: {},
+//  },
   {
     path: "/brand/:brand",
     name: "BrandView",

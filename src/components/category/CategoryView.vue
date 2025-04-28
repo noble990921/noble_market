@@ -56,12 +56,14 @@
 
 <script>
   import { db } from "../../firebase";
+  import {SET_CATEGORY_MAP} from "../../constants/Set"
 
   export default {
     name: "CategoryView",
     props: ["category"],
     data() {
       return {
+        SET_CATEGORY_MAP,
         total: 0,
         size: 20,
         page: 1,
@@ -103,10 +105,14 @@
           .orderBy("createDate", "desc") // Firestore에서 정렬 적용
           .get();
 
-          this.product = querySnapshot.docs.map((doc) => ({
-            id: doc.id,
-            ...doc.data(),
-          }));
+          this.product = querySnapshot.docs.map((doc) => {
+            const data = doc.data();
+            return {
+              id: doc.id,
+              ...data,
+              createDate: data.createDate ? data.createDate.toDate() : null,
+            };
+          });
           this.total = this.product.length;
           this.updatePagedItems();
 
@@ -136,7 +142,7 @@
           ];
 
           this.subCategory = subCategoryList;
-          console.log('sss', this.subCategory)
+//          console.log('sss', this.subCategory)
 
           console.timeEnd("getProductData 응답시간");
         } catch (error) {
@@ -145,17 +151,17 @@
         this.loading =false
       },
       getCategoryId() {
-        const categoryMap = {
-          OUTER: "1",
-          TOP: "2",
-          BOTTOM: "3",
-          SHOES: "4",
-          WALLET: "5",
-          BAG: "6",
-          WATCH: "7",
-          ACC: "8",
-        };
-        return categoryMap[this.category] || "";
+//        const categoryMap = {
+//          OUTER: "1",
+//          TOP: "2",
+//          BOTTOM: "3",
+//          SHOES: "4",
+//          WALLET: "5",
+//          BAG: "6",
+//          WATCH: "7",
+//          ACC: "8",
+//        };
+        return SET_CATEGORY_MAP[this.category] || "";
       },
       updatePagedItems() {
         const start = (this.page - 1) * this.size;
@@ -172,7 +178,7 @@
         } else if (this.value === "높은가격") {
           this.product.sort((a, b) => b.price - a.price);
         } else if (this.value === "신상품") {
-          this.product.sort((a, b) => new Date(b.createDate) - new Date(a.createDate));
+          this.product.sort((a, b) => b.createDate - a.createDate);
         }
         this.updatePagedItems();
       },

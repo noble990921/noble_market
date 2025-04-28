@@ -1,5 +1,5 @@
 //브랜드 리스트들 css
-#brandListView{
+#brandListView {
   padding-top: 160px;
   display: flex;
   justify-content: center;
@@ -9,23 +9,46 @@
     height: 100%;
     min-height: 700px;
   }
-  .brand_container{
+
+  .brand_container {
     width: 100%;
     max-width: 1280px;
     padding-top: 60px;
-    .filter_tab{
-      ul{
+    @media (max-width: 1024px) {
+      padding: 0 12px;
+    }
+
+    .filter_tab {
+      @media (max-width: 1024px) {
+        ul {
+          gap: 5px;
+          justify-content: flex-start;
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+          &::-webkit-scrollbar {
+            display: none;
+          }
+          li {
+            flex: 0 0 auto;
+          }
+        }
+      }
+      ul {
         padding: 30px 0;
         display: flex;
         justify-content: space-between;
-        border-bottom:  1px solid #1a1a1a;
-        li{
+        border-bottom: 1px solid #1a1a1a;
+
+        li {
           border: 1px solid #7d7d7d;
           border-radius: 50px;
           padding: 7px 10px;
           color: #7d7d7d;
           cursor: pointer;
-          &.active{
+
+          &.active {
             border: 1px solid #000;
             color: #000000;
             font-weight: bold;
@@ -33,17 +56,20 @@
         }
       }
     }
-    .brand_list{
-      li{
+
+    .brand_list {
+      li {
         display: flex;
         align-items: center;
-        border-bottom:  1px solid #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
         padding: 12px 0;
         cursor: pointer;
-        img{
+
+        img {
           width: 60px;
         }
-        .text{
+
+        .text {
           margin-left: 20px;
 
         }
@@ -53,7 +79,7 @@
 }
 
 //브랜드별 들어갔을때 페이지 csss
-.product_brand{
+.product_brand {
   padding-top: 160px;
   display: flex;
   justify-content: center;
@@ -62,5 +88,168 @@
     padding-top: 54px;
     height: 100%;
     min-height: 700px;
+  }
+
+  .pb_container {
+    width: 100%;
+    height: 100%;
+
+    #brand_section1 {
+      width: 100%;
+      height: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    #brand_section2 {
+      display: flex;
+      justify-content: center;
+      @media (max-width: 1024px) {
+        padding: 0 12px;
+      }
+
+      .product_item_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .el-pagination {
+          text-align: center;
+          margin: 60px 0;
+        }
+
+        .product_item_container_top {
+          width: 100%;
+          max-width: 1280px;
+
+          .product_header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0;
+            border-bottom: 1px solid #000;
+
+            .text {
+              .etitle {
+                font-size: 24px;
+                font-weight: bold;
+              }
+
+              .ktitle {
+                margin-top: 5px;
+                font-size: 15px;
+                color: #7d7d7d;;
+              }
+            }
+          }
+
+          .category_box {
+            ul {
+              padding-top: 30px;
+              display: flex;
+              justify-content: center;
+              gap: 25px;
+
+              li {
+                text-align: center;
+                cursor: pointer;
+
+                img {
+                  width: 64px;
+                  height: 64px;
+                }
+
+                p {
+                  line-height: 30px;
+                  font-size: 16px;
+                  color: #000000;
+                }
+
+                &.active p {
+                  font-weight: bold;
+                  transform: scale(1.05);
+                  transition: all 0.2s;
+                  border-bottom: 5px solid #000;
+                }
+              }
+            }
+            @media (max-width: 1024px) {
+              ul {
+                justify-content: flex-start; // 왼쪽 정렬
+                flex-wrap: nowrap; // 줄바꿈 없음
+                overflow-x: auto;
+                scrollbar-width: none; // firefox용
+                -ms-overflow-style: none; // IE, Edge용
+                &::-webkit-scrollbar {
+                  display: none; // 크롬 사파리 스크롤 숨기기
+                }
+                li {
+                  flex: 0 0 auto; // li가 줄어들지 않고 고정 너비 유지
+                }
+              }
+            }
+          }
+        }
+
+        .product_main {
+          width: 100%;
+          border-top: 1px solid #ddd;
+          display: flex;
+          justify-content: center;
+
+          .main_container {
+            width: 100%;
+            max-width: 1280px;
+
+            margin-top: 22px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            row-gap: 60px;
+            @media (max-width: 1024px) {
+              gap: 12px;
+              row-gap: 40px;
+              .product_list {
+                width: calc((100% - 12px) / 2) !important;
+              }
+            }
+            @media (min-width: 1024px) {
+              img {
+                height: 285px;
+              }
+            }
+
+            .product_list {
+              //width: 23%;
+              width: calc((100% - 60px) / 4);
+              cursor: pointer;
+
+              img {
+                width: 100%;
+                object-fit: cover;
+              }
+
+              .name {
+                margin-top: 20px;
+                font-size: 12px;
+                line-height: 18px;
+                text-align: left;
+                white-space: normal;
+                color: #757575;
+              }
+
+              .price {
+                margin-top: 10px;
+                font-size: 14px;
+                color: #000000;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

@@ -31,27 +31,46 @@
       }
     }
 
-    .category_box{
-      ul{
-        padding-top: 30px;
+    .category_box {
+      ul {
+        padding: 30px 0;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap; // 기본은 줄바꿈 하면서 나열
         gap: 25px;
-        li{
+
+        li {
           text-align: center;
           cursor: pointer;
-          img{
+
+          img {
             width: 64px;
             height: 64px;
           }
-          p{
+          p {
             font-size: 16px;
             color: #000000;
           }
           &.active p {
             font-weight: bold;
             transform: scale(1.05);
-            transition: all 0.2s
+            transition: all 0.2s;
+          }
+        }
+      }
+
+      @media (max-width: 1024px) {
+        ul {
+          justify-content: flex-start; // 왼쪽 정렬
+          flex-wrap: nowrap; // 줄바꿈 없음
+          overflow-x: auto;
+          scrollbar-width: none; // firefox용
+          -ms-overflow-style: none; // IE, Edge용
+          &::-webkit-scrollbar {
+            display: none; // 크롬 사파리 스크롤 숨기기
+          }
+          li {
+            flex: 0 0 auto; // li가 줄어들지 않고 고정 너비 유지
           }
         }
       }

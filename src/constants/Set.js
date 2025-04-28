@@ -43,7 +43,7 @@ export const SET_PRODUCT_BRAND = {
   },
   "8": {
     id: 8,
-    enName: "Tom Ford",
+    enName: "ThomBrowne",
     koName: "톰브",
     img: require('@/assets/images/home/section7/mbrand_logo8.png'),
   },
@@ -53,4 +53,15 @@ export const SET_PRODUCT_BRAND = {
     koName: "프라다",
     img: require('@/assets/images/home/section7/mbrand_logo9.png'),
   }
+};
+
+export const SET_CATEGORY_MAP = {
+  OUTER: "1",
+  TOP: "2",
+  BOTTOM: "3",
+  SHOES: "4",
+  WALLET: "5",
+  BAG: "6",
+  WATCH: "7",
+  ACC: "8",
 };
