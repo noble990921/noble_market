@@ -3,18 +3,18 @@
     <div class="pc_container" v-loading="loading">
       <div class="category_box">
         <ul>
-          <li v-for="(s, idx) in subCategory" :key="idx"
-              :class="{ active: selectedSubCategory === s.title }"
-              @click="selectedSubCategory = s.title">
-            <img :src="require(`../../../public/media/category/${s.img}.png`)">
-            <p v-if="subCategory.length>0">{{ s.title }}</p>
-          </li>
-<!--          <li v-for="(s, idx) in 10" :key="idx"-->
+<!--          <li v-for="(s, idx) in subCategory" :key="idx"-->
 <!--              :class="{ active: selectedSubCategory === s.title }"-->
 <!--              @click="selectedSubCategory = s.title">-->
-<!--            <img src="../../../public/media/category/all.png" alt="">-->
-<!--            <p>all</p>-->
+<!--            <img :src="require(`../../../public/media/category/${s.img}.png`)">-->
+<!--            <p v-if="subCategory.length>0">{{ s.title }}</p>-->
 <!--          </li>-->
+          <li v-for="(s, idx) in 50" :key="idx"
+              :class="{ active: selectedSubCategory === s.title }"
+              @click="selectedSubCategory = s.title">
+            <img src="../../../public/media/category/all.png" alt="">
+            <p>all</p>
+          </li>
         </ul>
       </div>
       <div class="product_item_container">
