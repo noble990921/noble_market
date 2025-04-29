@@ -13,7 +13,7 @@
 
       <ul class="brand_list">
         <li v-for="f in filteredBrands" :key="f.id" @click="$router.push(`/brand/${f.enName.replace(/\s+/g, '')}`)">
-          <img :src="f.img"/>
+          <img :src="f.mimg"/>
           <div class="text">
             <strong>{{ f.enName }}</strong>
             <p>{{ f.koName }}</p>

@@ -40,6 +40,31 @@
           text-align: center;
         }
       }
+      .add_item{
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        height: 108px;
+        width: 100%;
+        background: #ececec;
+        border-radius: 10px;
+        i{
+          font-size: 40px;
+        }
+        @media (max-width: 1024px) {
+            width: 62px;
+            border-radius: 50px;
+          height: 63px !important;
+          i{
+            font-size: 14px;
+          }
+          p{
+            font-size: 12px!important;
+            margin-top: 4px;
+          }
+        }
+      }
     }
   }
 }

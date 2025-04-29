@@ -4,6 +4,7 @@
       <Section1/>
       <Section7/>
       <Section2/>
+      <Section8/>
       <Section3/>
 <!--      <Section4/>-->
 <!--      <Section5/>-->
@@ -20,6 +21,7 @@
 //  import Section5 from "../../components/rending/section5";
 //  import Section6 from "../../components/rending/section6";
   import Section7 from "../../components/rending/section7";
+  import Section8 from "../../components/rending/section8";
 
 export default {
   name: 'HelloWorld',
@@ -27,7 +29,8 @@ export default {
     Section1,Section2,Section3,
 //    Section4,
 //    Section5,
-    Section7
+    Section7,
+    Section8
 //    Section6
   }
 }

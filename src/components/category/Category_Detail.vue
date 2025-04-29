@@ -122,7 +122,8 @@
         try {
           const cartSheetItem = {
             id:this.$route.params.id,
-            category: this.$route.params.category,
+            category: this.product.category,
+            brand:this.product.brand,
             title: this.product.title,
             img: this.product.img,
             price: this.product.price,
@@ -162,7 +163,8 @@
 
           const cartItem = {
             id:this.$route.params.id,
-            category: this.$route.params.category,
+            category: this.product.category,
+            brand:this.product.brand,
             title: this.product.title,
             img: this.product.img,
             price: this.product.price,

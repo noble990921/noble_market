@@ -1,0 +1,96 @@
+#section8 {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  @media (max-width: 1024px) {
+    padding: 20px 12px !important;
+  }
+
+  .s8_container {
+    width: 100%;
+    @media (min-width: 1024px) {
+      max-width: 1280px;
+    }
+    .hot_item {
+      .title {
+        color: #000;
+        font-size: 17px;
+        font-weight: 700;
+      }
+
+      .sub_text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1;
+        color: rgba(34, 34, 34, .5);
+        margin-top: 2px;
+        margin-bottom: 16px;
+      }
+    }
+    .item_box{
+      column-gap: 12px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      display: grid;
+      row-gap: 28px;
+
+      @media (max-width: 1024px) {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 8px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        width: 100%;
+        .item{
+          width: 152px !important;
+          flex: 0 0 auto;
+          margin: 0;
+          padding: 0;
+          display: inline-block;
+          position: relative;
+          vertical-align: top;
+        }
+      }
+
+      .item{
+        width: 100%;
+        background-color: #fff;
+        //border-radius: 12px;
+        display: block;
+        img{
+          width: 100%;
+          //border-radius: 12px;
+        }
+        .info_box{
+          padding: 12px 4px 0;
+          .title{
+            text-align: center;
+            color: #222;
+            font-size: 20px;
+            font-weight: 700;
+          }
+          .text{
+            text-align: center;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            //color: #222;
+            color: #ddd;
+            display: -webkit-box;
+            font-size: 16px;
+            //line-height: 16px;
+            //max-height: 34px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+          }
+          .price{
+            margin-top: 10px;
+            color: rgb(34, 34, 34);
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 17px;
+          }
+        }
+      }
+    }
+  }
+}
