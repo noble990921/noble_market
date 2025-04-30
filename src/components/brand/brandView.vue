@@ -116,6 +116,7 @@
         total: 0,
         size: 20,
         page: 1,
+        pagedItems:[],
         options: [
           { value: "신상품", label: "신상품" },
           { value: "낮은가격", label: "낮은가격" },
@@ -147,7 +148,7 @@
         this.filteredProducts = this.products.filter(product =>
             product.brand == this.brandInfo.id
         );
-        console.log('123123',this.filteredProducts)
+        console.log('123123',this.products)
 
         // 카테고리 뽑기
         const categorySet = new Set(
@@ -167,7 +168,7 @@
       updatePagedItems() {
         const start = (this.page - 1) * this.size;
         const end = start + this.size;
-        return this.filteredProducts.slice(start, end);
+        this.pagedItems = this.displayedProducts.slice(start, end);
       },
       handlePageChange(newPage) {
         this.page = newPage;

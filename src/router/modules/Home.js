@@ -11,6 +11,7 @@ const CartView = () => import('../../views/cart/Cart_View')
 const DirectView = () => import('../../views/cart/direct/Direct_View')
 const OrderList = () => import('../../views/cart/OrderList')
 const Introduction = () => import('../../views/home/Introduction')
+const SearchView = () => import('../../views/home/SearchView')
 
 
 
@@ -70,6 +71,10 @@ export default [
   },
   {
     path:'/order_list',name:'',component:OrderList,
+    meta: {},
+  },
+  {
+    path:'/search_view',name:'',component:SearchView,
     meta: {},
   },
 ]

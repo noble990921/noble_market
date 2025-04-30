@@ -16,7 +16,7 @@
               v-model="searchText"
               @keyup.enter="search"
               type="text"
-              placeholder="브랜드, 상품, 프로필, 태그 등"
+              placeholder="브랜드, 상품, 프로필 등"
           >
           <i class="el-icon-search" @click="search"></i>
         </div>
@@ -67,7 +67,6 @@
             </div>
           </div>
         </div>
-
         <!-- 검색 결과 -->
         <div v-if="filteredProducts.length" class="search_results">
           <h3>검색 결과</h3>
@@ -84,6 +83,8 @@
 </template>
 
 <script>
+//  import {db} from "@/firebase";
+
   export default {
     name: "SearchDrawer",
     props: {
@@ -93,8 +94,12 @@
       return {
         searchText: '',
         recentSearches: [],
-        suggestedTags: ['아이폰', '갤럭시', '맥북', '에어팟', '아이패드'],
-        products: [],
+        suggestedTags: ['까르띠에', '에르메스', '러브팔찌', '오데마피게', '커플링'],
+        products: [
+          { id: 1, title: '아이폰 14', category: '스마트폰', brand: 'Apple' },
+          { id: 2, title: '아이폰 S23', category: '스마트폰', brand: 'Samsung' },
+          { id: 3, title: '아이폰 프로', category: '노트북', brand: 'Apple' },
+        ],
         filteredProducts: []
       };
     },
@@ -107,22 +112,25 @@
 
         this.addRecentSearch(this.searchText.trim());
 
-        const keyword = this.searchText.trim().toLowerCase();
-        this.filteredProducts = this.products.filter(product => {
-          return (
-              product.title.toLowerCase().includes(keyword) ||
-              product.category.toLowerCase().includes(keyword) ||
-              product.brand.toLowerCase().includes(keyword)
-          );
-        });
+//        const keyword = this.searchText.trim().toLowerCase();
+//        this.filteredProducts = this.products.filter(product => {
+//          return (
+//              product.title.toLowerCase().includes(keyword) ||
+//              product.category.toLowerCase().includes(keyword) ||
+//              product.brand.toLowerCase().includes(keyword)
+//          );
+//        });
+        this.handleClose()
+        this.$router.push('/search_view')
+        this.searchText = ''
       },
       addRecentSearch(keyword) {
         // 이미 있는 경우 삭제하고 맨 앞으로
         this.recentSearches = this.recentSearches.filter(item => item !== keyword);
         this.recentSearches.unshift(keyword);
 
-        // 최대 5개 유지
-        if (this.recentSearches.length > 5) {
+        // 최대 7개 유지
+        if (this.recentSearches.length > 7) {
           this.recentSearches.pop();
         }
       },
@@ -136,6 +144,8 @@
         this.searchText = keyword;
         this.search();
       }
+    },
+    created(){
     }
   }
 </script>

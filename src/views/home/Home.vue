@@ -4,8 +4,8 @@
       <Section1/>
       <Section7/>
       <Section2/>
-      <Section8/>
       <Section3/>
+      <Section8/>
 <!--      <Section4/>-->
 <!--      <Section5/>-->
 <!--      <Section6/>-->

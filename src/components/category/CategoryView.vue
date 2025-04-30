@@ -32,7 +32,7 @@
         <div class="product_main">
           <div @click="$router.push(`/${category}/detail/${i.id}`)"
                class="product_list"
-               v-for="i in filteredProducts"
+               v-for="i in pagedItems"
                :key="i.id">
             <img :src="i.img">
             <p class="name">{{ i.title }}</p>
@@ -74,6 +74,7 @@
         ],
         value: "",
         product: [],
+        pagedItems:[],
         subCategory: [], // subCategory를 배열로 초기화
         selectedSubCategory: "전체", // 전체 카테고리 선택,
         loading:false
@@ -166,7 +167,7 @@
       updatePagedItems() {
         const start = (this.page - 1) * this.size;
         const end = start + this.size;
-        return this.filteredProducts.slice(start, end);
+        this.pagedItems = this.filteredProducts.slice(start, end);
       },
       handlePageChange(newPage) {
         this.page = newPage;
