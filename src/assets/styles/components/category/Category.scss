@@ -10,7 +10,7 @@
   }
 
   .pc_container {
-    max-width: 1280px;
+    max-width: 1200px;
     width: 100%;
     @media (max-width: 1024px) {
       //width: 92%;
@@ -37,19 +37,20 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 25px;
+        gap: 24px;
 
         li {
+          width: 90px;
           text-align: center;
           cursor: pointer;
 
           img {
-            width: 64px;
-            height: 64px;
+            width: 80px;
+            height: 80px;
           }
           p {
-            font-size: 16px;
-            color: #000000;
+            font-size: 13px;
+            color: #222;
           }
           &.active p {
             font-weight: bold;
@@ -122,8 +123,8 @@
         margin-top: 22px;
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
-        row-gap: 60px;
+        gap: 12px;
+        row-gap: 20px;
         @media (max-width: 1024px) {
           gap: 12px;
           row-gap: 40px;
@@ -139,28 +140,37 @@
 
         .product_list {
           //width: 23%;
-          width: calc((100% - 60px) / 4);
+          width: calc((100% - 60px) / 5);
           cursor: pointer;
 
           img {
-            width: 100%;
+            border-radius: 20px;
+            width: 230px;
+            height: 230px;
+            //width: 100%;
             object-fit: cover;
           }
-
+          .brand_name{
+            color: #222;
+            margin-top: 12px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #222;
+            margin-bottom: 2px;
+          }
           .name {
-            margin-top: 20px;
             font-size: 12px;
             line-height: 18px;
             text-align: left;
             white-space: normal;
-            color: #757575;
+            color: #222;
           }
 
           .price {
+            font-weight: bold;
             margin-top: 10px;
             font-size: 14px;
-            color: #000000;
-            font-weight: bold;
+            color: rgb(34, 34, 34);
           }
         }
       }
@@ -182,7 +192,7 @@
     height: 100%;
   }
   .detail_container {
-    max-width: 1280px;
+    max-width: 1200px;
     width: 100%;
     .detail_top{
       padding: 60px 0;

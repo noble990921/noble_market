@@ -15,6 +15,11 @@
           </div>
         </div>
       </div>
+      <div class="btn_box">
+        <button>
+          더보기
+        </button>
+      </div>
     </div>
   </section>
 </template>

@@ -12,7 +12,7 @@
 
   .brand_container {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     padding-top: 60px;
     @media (max-width: 1024px) {
       padding: 0 12px;
@@ -123,7 +123,7 @@
 
         .product_item_container_top {
           width: 100%;
-          max-width: 1280px;
+          max-width: 1200px;
 
           .product_header {
             display: flex;
@@ -150,21 +150,20 @@
               padding-top: 30px;
               display: flex;
               justify-content: center;
-              gap: 25px;
+              gap: 24px;
 
               li {
+                width: 90px;
                 text-align: center;
                 cursor: pointer;
 
                 img {
-                  width: 64px;
-                  height: 64px;
+                  width: 80px;
+                  height: 80px;
                 }
-
                 p {
-                  line-height: 30px;
-                  font-size: 16px;
-                  color: #000000;
+                  font-size: 13px;
+                  color: #222;
                 }
 
                 &.active p {
@@ -199,7 +198,7 @@
 
           .main_container {
             width: 100%;
-            max-width: 1280px;
+            max-width: 1200px;
 
             margin-top: 22px;
             display: flex;

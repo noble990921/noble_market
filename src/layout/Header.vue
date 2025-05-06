@@ -12,6 +12,7 @@
               v-for="a in loginMenu"
               :key="a.id"
               @click="a.func ? exeFunc(a.func) : goToUrl(a.url)"
+              :class="{ active: $route.path === a.url }"
               >
             <template v-if="a.title === '고객센터'">
               <el-dropdown trigger="hover">
@@ -121,7 +122,8 @@
           <ul>
             <li
                 v-for="m in MENU"
-                :key="m.id">
+                :key="m.id"
+                :class="{ active: $route.path.startsWith(m.url) }">
               <a :href="m.url">
                 {{m.title}}
               </a>

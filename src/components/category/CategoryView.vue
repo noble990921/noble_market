@@ -35,6 +35,7 @@
                v-for="i in pagedItems"
                :key="i.id">
             <img :src="i.img">
+            <p class="brand_name">{{ i.brand }}</p>
             <p class="name">{{ i.title }}</p>
             <p class="price">{{ i.price | formatNumber }}원</p>
           </div>

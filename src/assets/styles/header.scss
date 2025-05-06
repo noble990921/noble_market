@@ -7,13 +7,13 @@
   .logo{
     padding: 12px 0;
     img{
-      width: 180px;
+      width: 140px;
       @media (max-width: 1024px) {
-        width: 140px;
+        width: 100px;
       }
     }
   }
-  //max-width: 1280px;
+  //max-width: 1200px;
   width: 100%;
   position: fixed;
   z-index: 99;
@@ -28,7 +28,7 @@
 
   .header_container{
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
   }
   #header_top_list{
     @media (max-width: 1024px) {
@@ -177,6 +177,12 @@
      padding-top: 20px;
      ul {
        display: flex;
+       li:hover{
+         a{
+           font-weight: bold;
+         }
+       }
+
        li {
          display: flex;
          align-items: center;
@@ -204,9 +210,15 @@
              transition: transform 0.3s cubic-bezier(0.45, 0.46, 0.05, 0.96);
            }
          }
-
          &:hover a:after {
            transform: scaleX(1); // 호버 시 효과 적용
+         }
+         &.active a {
+           &:after {
+             transform: scaleX(1);
+           }
+           font-weight: bold;
+           color: #000;
          }
        }
      }
