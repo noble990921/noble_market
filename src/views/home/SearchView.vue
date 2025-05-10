@@ -13,16 +13,16 @@
         </div>
       </div>
       <div class="pc_container" v-loading="loading">
-<!--        <div class="category_box">-->
-<!--          <ul>-->
-<!--            <li v-for="(s, idx) in subCategory" :key="idx"-->
-<!--                :class="{ active: selectedSubCategory === s.title }"-->
-<!--                @click="selectedSubCategory = s.title">-->
-<!--              <img :src="require(`../../../public/media/category/${s.img}.png`)">-->
-<!--              <p v-if="subCategory.length>0">{{ s.title }}</p>-->
-<!--            </li>-->
-<!--          </ul>-->
-<!--        </div>-->
+        <!--        <div class="category_box">-->
+        <!--          <ul>-->
+        <!--            <li v-for="(s, idx) in subCategory" :key="idx"-->
+        <!--                :class="{ active: selectedSubCategory === s.title }"-->
+        <!--                @click="selectedSubCategory = s.title">-->
+        <!--              <img :src="require(`../../../public/media/category/${s.img}.png`)">-->
+        <!--              <p v-if="subCategory.length>0">{{ s.title }}</p>-->
+        <!--            </li>-->
+        <!--          </ul>-->
+        <!--        </div>-->
         <div class="product_item_container">
           <div class="product_header">
             <p>총 <span>{{ total }}</span>개의 상품이 있습니다.</p>
@@ -66,21 +66,21 @@
 
   export default {
     name: "SearchView",
-    data(){
-      return{
-        searchText:'',
+    data() {
+      return {
+        searchText: '',
         total: 0,
         size: 20,
         page: 1,
         options: [
-          { value: "신상품", label: "신상품" },
-          { value: "낮은가격", label: "낮은가격" },
-          { value: "높은가격", label: "높은가격" },
+          {value: "신상품", label: "신상품"},
+          {value: "낮은가격", label: "낮은가격"},
+          {value: "높은가격", label: "높은가격"},
         ],
-        value:'',
+        value: '',
         product: [],
-        pagedItems:[],
-        loading:false
+        pagedItems: [],
+        loading: false
       }
     },
     watch: {
@@ -88,9 +88,9 @@
         this.sortItems();
       },
     },
-    methods:{
+    methods: {
       async getData() {
-        this.loading =true
+        this.loading = true
         try {
           console.time("getProductData 응답시간");
 
@@ -98,18 +98,24 @@
           .orderBy("createDate", "desc") // Firestore에서 정렬 적용
           .get();
 
-          this.product = querySnapshot.docs.map((doc) => {
+          this.product = querySnapshot.docs.map(doc => {
             const data = doc.data();
             return {
               id: doc.id,
               ...data,
-              createDate: data.createDate ? data.createDate.toDate() : null,
+              createDate: data.createDate?.toDate()
             };
+          }).filter(item => {
+            const keyword = this.searchText.toLowerCase();
+            return (
+                (item.title && item.title.toLowerCase().includes(keyword)) ||
+                (item.brand && item.brand.toLowerCase().includes(keyword)) ||
+                (item.category && item.category.toLowerCase().includes(keyword))
+            );
           });
           this.total = this.product.length;
           this.updatePagedItems();
-          console.log('testtttt',this.product)
-
+          console.log('testtttt', this.product)
 
 //          console.log('sss', this.subCategory)
 
@@ -117,10 +123,10 @@
         } catch (error) {
           console.error("상품 데이터를 가져오는 중 오류 발생:", error);
         }
-        this.loading =false
+        this.loading = false
       },
-      search(){
-        return
+      search() {
+        return this.getData()
       },
       updatePagedItems() {
         const start = (this.page - 1) * this.size;
@@ -142,7 +148,8 @@
         this.updatePagedItems();
       },
     },
-    created(){
+    created() {
+      this.searchText = this.$route.query.keyword;
       this.getData();
     }
   }

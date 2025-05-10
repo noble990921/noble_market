@@ -10,7 +10,6 @@
           </li>
         </ul>
       </div>
-
       <ul class="brand_list">
         <li v-for="f in filteredBrands" :key="f.id" @click="$router.push(`/brand/${f.enName.replace(/\s+/g, '')}`)">
           <img :src="f.mimg"/>

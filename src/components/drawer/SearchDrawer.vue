@@ -83,7 +83,7 @@
 </template>
 
 <script>
-//  import {db} from "@/firebase";
+  //  import {db} from "@/firebase";
 
   export default {
     name: "SearchDrawer",
@@ -96,9 +96,9 @@
         recentSearches: [],
         suggestedTags: ['까르띠에', '에르메스', '러브팔찌', '오데마피게', '커플링'],
         products: [
-          { id: 1, title: '아이폰 14', category: '스마트폰', brand: 'Apple' },
-          { id: 2, title: '아이폰 S23', category: '스마트폰', brand: 'Samsung' },
-          { id: 3, title: '아이폰 프로', category: '노트북', brand: 'Apple' },
+          {id: 1, title: '아이폰 14', category: '스마트폰', brand: 'Apple'},
+          {id: 2, title: '아이폰 S23', category: '스마트폰', brand: 'Samsung'},
+          {id: 3, title: '아이폰 프로', category: '노트북', brand: 'Apple'},
         ],
         filteredProducts: []
       };
@@ -121,7 +121,7 @@
 //          );
 //        });
         this.handleClose()
-        this.$router.push('/search_view')
+        this.$router.push({path: '/search_view', query: {keyword: this.searchText}});
         this.searchText = ''
       },
       addRecentSearch(keyword) {
@@ -145,7 +145,7 @@
         this.search();
       }
     },
-    created(){
+    created() {
     }
   }
 </script>

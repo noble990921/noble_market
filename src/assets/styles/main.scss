@@ -7,6 +7,7 @@
 @import "./home/section6";
 @import "./home/section7";
 @import "./home/section8";
+@import "./home/section9";
 @import "./home/searchView";
 @import "footer";
 @import "./sign/login";
@@ -25,41 +26,58 @@
 @import "./home/introduction";
 @import "./components/drawer/searchDrawer";
 
-.ql-tooltip{
+.ql-tooltip {
   left: 0 !important;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
 * {
   box-sizing: border-box;
-  li{
+
+  li {
     list-style: none;
   }
-  a{
+
+  a {
     text-decoration-line: none;
   }
-  p{
+
+  p {
     margin: 0;
   }
 }
-body{
+
+body {
   margin: 0;
 }
-ul{
+
+ul {
   padding: 0;
   margin: 0;
 }
+
 html, body, #app {
   height: 100%;
+
+  .kakao_icon {
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+    z-index: 999;
+  }
 }
 
 @media (max-width: 1024px) {
-  .el-message-box__wrapper{
+  .el-message-box__wrapper {
     padding: 20px;
-    .el-message-box{
+
+    .el-message-box {
       width: 100%;
     }
   }

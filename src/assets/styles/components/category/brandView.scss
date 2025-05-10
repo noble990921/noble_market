@@ -58,6 +58,14 @@
     }
 
     .brand_list {
+      margin-bottom: 60px;
+      @media (min-width: 1024px) {
+        display: flex;
+        flex-wrap: wrap;
+        li{
+          width: 33.33%;
+        }
+      }
       li {
         display: flex;
         align-items: center;
