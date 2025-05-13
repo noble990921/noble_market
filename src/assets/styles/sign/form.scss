@@ -1,14 +1,15 @@
-#Form{
+#Form {
   margin-top: 50px;
   width: 100%;
   height: 100%;
   border-top: 2px solid #1a1a1a;
   @media (min-width: 1024px) {
-    .form_container{
-      ._box{
+    .form_container {
+      ._box {
         border-bottom: 1px solid #e5e5e5;
         display: flex;
-        .left{
+
+        .left {
           display: flex;
           align-items: center;
           justify-content: flex-start;
@@ -16,13 +17,15 @@
           height: 92px;
           padding: 10px 30px;
           background: #f6f6f6;
-          .dot{
+
+          .dot {
             height: 3px;
             width: 3px;
             background: red;
             border-radius: 50px;
           }
-          .text{
+
+          .text {
             padding-left: 16px;
             font-weight: 400;
             font-size: 14px;
@@ -30,17 +33,20 @@
           }
 
         }
-        .right{
+
+        .right {
           padding: 10px 20px;
           width: 100%;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: flex-start;
-          .invalid{
+
+          .invalid {
             border-color: red;
           }
-          input{
+
+          input {
             width: 100%;
             height: 40px;
             line-height: 40px;
@@ -51,38 +57,106 @@
             box-sizing: border-box;
             outline: 1px;
             transition: .5s;
-            &:hover,&:focus{
+
+            &:hover, &:focus {
               border-color: #000 !important;
             }
           }
-          p{
+
+          p {
             color: #868686;
             font-size: 12px;
             line-height: 22px;
           }
-          .err{
+
+          .err {
             color: red;
+          }
+        }
+
+        .code_right {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          input.verified {
+            background-color: #f0f0f0;
+            color: #999;
+            cursor: default;
+            pointer-events: none;
+            border: 1px solid #ccc;
+          }
+          .input_area {
+            padding: 10px 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            .invalid {
+              border-color: red;
+            }
+
+            input {
+              width: 100%;
+              height: 40px;
+              line-height: 40px;
+              padding: 2px 4px 2px 15px;
+              border: 1px solid #e0e0e0;
+              color: var(--font-color-base);
+              font-size: 13px;
+              box-sizing: border-box;
+              outline: 1px;
+              transition: .5s;
+
+              &:hover, &:focus {
+                border-color: #000 !important;
+              }
+            }
+
+            p {
+              color: #868686;
+              font-size: 12px;
+              line-height: 22px;
+            }
+
+            .err {
+              color: red;
+            }
+          }
+          .sign-input-btn{
+            button{
+              width: 80px;
+              height: 60px;
+              border: none;
+              background: #1a1a1a;
+              color: #fff;
+            }
           }
         }
       }
     }
   }
   @media (max-width: 1024px) {
-    .form_container{
-      ._box{
+    .form_container {
+      ._box {
         text-align: left;
-        .left{
+
+        .left {
           display: flex;
           align-items: center;
           justify-content: flex-start;
-          margin: 10px 0 8px ;
-          .dot{
+          margin: 10px 0 8px;
+
+          .dot {
             height: 3px;
             width: 3px;
             background: red;
             border-radius: 50px;
           }
-          .text{
+
+          .text {
             padding-left: 16px;
             font-weight: 400;
             font-size: 14px;
@@ -90,17 +164,20 @@
           }
 
         }
-        .right{
+
+        .right {
           width: 100%;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: flex-start;
           margin-bottom: 24px;
-          .invalid{
+
+          .invalid {
             border-color: red;
           }
-          input{
+
+          input {
             width: 100%;
             height: 40px;
             line-height: 40px;
@@ -111,27 +188,32 @@
             box-sizing: border-box;
             outline: 1px;
             transition: .5s;
-            &:hover,&:focus{
+
+            &:hover, &:focus {
               border-color: #000 !important;
             }
           }
-          p{
+
+          p {
             color: #868686;
             font-size: 12px;
             line-height: 22px;
           }
-          .err{
+
+          .err {
             color: red;
           }
         }
       }
     }
   }
-  .btn_box{
+
+  .btn_box {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-    button{
+
+    button {
       cursor: pointer;
       width: 49%;
       border: none;
@@ -139,7 +221,8 @@
       background: #1a1a1a;
       color: #fff;
       font-size: 16px;
-      &:first-child{
+
+      &:first-child {
         background: #fff;
         color: #1a1a1a;
         border: 1px solid #ddd;

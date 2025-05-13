@@ -6,15 +6,31 @@
           <img :src="product.img">
         </div>
         <div class="detail_content">
-          <h1>{{product.title}}</h1>
+          <h2>{{product.title}}</h2>
+          <p class="price">₩가격 문의
+            <span>
+              <img src="../../..//public/media/productDetail/ruller.svg">SIZE GUIDE</span>
+          </p>
           <div class="detail_info">
             <tbody>
+            <!--            <tr>-->
+            <!--              <th><p class="price">판매가</p></th>-->
+            <!--              <td><p class="price">{{product.price | formatNumber}}원</p></td>-->
+            <!--            </tr>-->
+            <!--            <tr>-->
+            <!--              <th><p>국내/해외배송</p></th>-->
+            <!--              <td><p>해외배송</p></td>-->
+            <!--            </tr>-->
+            <!--            <tr>-->
+            <!--              <th><p>배송방법</p></th>-->
+            <!--              <td><p>택배</p></td>-->
+            <!--            </tr>-->
+            <!--            <tr>-->
+            <!--              <th><p>배송비</p></th>-->
+            <!--              <td><p>{{product.delivery | formatNumber}}원</p></td>-->
+            <!--            </tr>-->
             <tr>
-              <th><p class="price">판매가</p></th>
-              <td><p class="price">{{product.price | formatNumber}}원</p></td>
-            </tr>
-            <tr>
-              <th><p>국내/해외배송</p></th>
+              <th><p>추가해택</p></th>
               <td><p>해외배송</p></td>
             </tr>
             <tr>
@@ -47,11 +63,11 @@
         </div>
       </div>
       <div class="detail_bottom">
-        <div class="tab_box">
-          <button :class="{ active: component === 'Description' }" @click="component = 'Description'">상세정보</button>
-          <button :class="{ active: component === 'ReviewList' }" @click="component = 'ReviewList'">구매평(0)</button>
-          <button :class="{ active: component === 'QnaList' }" @click="component = 'QnaList'">Q&A(0)</button>
-        </div>
+        <!--        <div class="tab_box">-->
+        <!--          <button :class="{ active: component === 'Description' }" @click="component = 'Description'">상세정보</button>-->
+        <!--          <button :class="{ active: component === 'ReviewList' }" @click="component = 'ReviewList'">구매평(0)</button>-->
+        <!--          <button :class="{ active: component === 'QnaList' }" @click="component = 'QnaList'">Q&A(0)</button>-->
+        <!--        </div>-->
         <div class="tab_content">
           <component :is="component" @changeComp="changeComp"></component>
         </div>
@@ -67,19 +83,21 @@
   import Description from "../category/detailBottomTab/Description"
   import ReviewList from "../category/detailBottomTab/ReviewList"
   import QnaList from "../category/detailBottomTab/QnaList"
+  import NobleDetailBottom from "../category/detailBottomTab/NobleDetailBottom"
 
   export default {
     name: "CategoryDetail",
     components: {
       Description,
       ReviewList,
-      QnaList
+      QnaList,
+      NobleDetailBottom
     },
     data() {
       return {
         product: {},
         quantity: 1,
-        component: 'Description',
+        component: 'NobleDetailBottom',
       };
     },
     computed: {
@@ -90,7 +108,7 @@
       totalPrice() {
         return (this.product.price || 0) * this.quantity + (this.product.delivery || 0);
       },
-      delivery(){
+      delivery() {
         return this.product.delivery || 0
       }
     },
@@ -121,9 +139,9 @@
         const userId = this.user?.uid;
         try {
           const cartSheetItem = {
-            id:this.$route.params.id,
+            id: this.$route.params.id,
             category: this.product.category,
-            brand:this.product.brand,
+            brand: this.product.brand,
             title: this.product.title,
             img: this.product.img,
             price: this.product.price,
@@ -162,9 +180,9 @@
           let cart = docSnap.exists ? docSnap.data().items : [];
 
           const cartItem = {
-            id:this.$route.params.id,
+            id: this.$route.params.id,
             category: this.product.category,
-            brand:this.product.brand,
+            brand: this.product.brand,
             title: this.product.title,
             img: this.product.img,
             price: this.product.price,

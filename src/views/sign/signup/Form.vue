@@ -74,6 +74,23 @@
           <p class="err" v-if="$v.phoneNumber.$dirty && !$v.phoneNumber.minLength">휴대전화를 정확히 입력해주세요.</p>
         </div>
       </div>
+
+      <div class="_box">
+        <div class="left">
+          <div class="dot"></div>
+          <div class="text">추천코드</div>
+        </div>
+        <div class="code_right">
+          <div class="input_area">
+            <input :class="{ verified: isPartnerVerify === 2 }" type="text" v-model="partnerCode">
+            <p class="err" v-if="!partnerCode"> 미입력시 본사로 가입됩니다.</p>
+          </div>
+          <div class="sign-input-btn">
+            <button @click="partnerVerify" v-if="isPartnerVerify !== 2">검증</button>
+            <button @click="isPartnerVerify = 1" v-else>변경</button>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="btn_box">
       <button @click="$router.push('/')">취소</button>
@@ -110,6 +127,8 @@
         checkPassword: '',
         name: '',
         phoneNumber: '',
+        partnerCode:'',
+        isPartnerVerify:1,
       }
     },
     validations: {
@@ -117,15 +136,44 @@
       password: {required, minLength: minLength(6)},
       checkPassword: {required, sameAsPassword: sameAs('password'),},
       name: {required, minLength: minLength(2),},
-      phoneNumber: {required, minLength: minLength(13)}
+      phoneNumber: {required, minLength: minLength(13)},
     },
     methods: {
+      async partnerVerify() {
+        const code = this.partnerCode.trim();
+        if (!code) {
+          this.isPartnerVerify = 1;
+          this.$alert("추천코드를 입력해주세요.");
+          return;
+        }
+
+        try {
+          const snapshot = await db.collection("users").where("code", "==", code).get();
+          if (!snapshot.empty) {
+            this.isPartnerVerify = 2;
+            this.$alert("추천코드가 확인되었습니다.");
+          } else {
+            this.isPartnerVerify = 1;
+            this.$alert("존재하지 않는 추천코드입니다.");
+          }
+        } catch (err) {
+          console.error("추천코드 검증 중 오류:", err);
+          this.$alert("검증 중 오류가 발생했습니다.");
+          this.isPartnerVerify = 1;
+        }
+      },
       async submit() {
         const vm = this;
         vm.$v.$touch();
         if (vm.$v.$invalid) {
           return;
         }
+        if (vm.partnerCode && vm.isPartnerVerify !== 2) {
+          vm.$alert("추천코드를 먼저 검증해주세요.");
+          return;
+        }
+
+        const finalCode = vm.partnerCode || "main";
         try {
           const { user } = await auth.createUserWithEmailAndPassword(vm.username, vm.password);
 
@@ -133,6 +181,7 @@
             email: vm.username,
             name: vm.name,
             phoneNumber: vm.phoneNumber,
+            partnerCode: finalCode,
             role: 'user',
 //            password: vm.password
             createdAt: firebase.firestore.FieldValue.serverTimestamp() // 가입 시간 저장
@@ -142,9 +191,9 @@
         } catch (err) {
           console.error(err);
           if (err.code === 'auth/email-already-in-use') {
-            alert("이 이메일 주소는 이미 사용 중입니다.");
+            this.$alert("이 이메일 주소는 이미 사용 중입니다.");
           }
-          alert("회원가입 중 오류가 발생했습니다: " + err.message);
+          this.$alert("회원가입 중 오류가 발생했습니다: " + err.message);
         }
       }
     },
