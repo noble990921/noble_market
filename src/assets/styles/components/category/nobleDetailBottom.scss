@@ -10,5 +10,16 @@
 
     }
     max-width: 1000px;
+    .detail_mainImg{
+      .mainImgBox{
+        width: 100%;
+        margin-bottom: 25px;
+      }
+    }
+    .detail_subImg{
+      .detail_subImgBox{
+        width: 100%;
+      }
+    }
   }
 }

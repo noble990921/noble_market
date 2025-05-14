@@ -3,10 +3,21 @@
     <div class="detail_container">
       <div class="detail_top">
         <div class="detail_img">
-          <img :src="product.img">
+          <div class="swiper_wrapper">
+            <swiper :options="swiperOption">
+              <swiper-slide v-for="(img, i) in product.mainImg" :key="i">
+                <img :src="img" />
+              </swiper-slide>
+              <div class="swiper-pagination" slot="pagination"></div>
+            </swiper>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
         </div>
         <div class="detail_content">
-          <h2>{{product.title}}</h2>
+          <p class="brand">{{product.enBrand}}</p>
+          <p class="enName">{{product.enName}}</p>
+          <p class="name">{{product.name}}</p>
           <p class="price">₩가격 문의
             <span>
               <img src="../../..//public/media/productDetail/ruller.svg">SIZE GUIDE</span>
@@ -34,31 +45,37 @@
               <td><p>해외배송</p></td>
             </tr>
             <tr>
-              <th><p>배송방법</p></th>
-              <td><p>택배</p></td>
+              <th><p>제조사</p></th>
+              <td><p>중국</p></td>
             </tr>
             <tr>
-              <th><p>배송비</p></th>
-              <td><p>{{product.delivery | formatNumber}}원</p></td>
+              <th><p>배송정보</p></th>
+              <td><p>해외배송 / 무료배송</p></td>
+            </tr>
+            <tr>
+              <th><p>배송기간</p></th>
+              <td><p>2~3주 소요 (주문 즉시 출고)</p></td>
             </tr>
             </tbody>
           </div>
-          <div class="totalProducts">
-            <p>{{ product.title }}</p>
-            <div class="quantity_control">
-              <button @click="decreaseQuantity">-</button>
-              <span>{{ quantity }}</span>
-              <button @click="increaseQuantity">+</button>
-            </div>
-            <p class="total_price">총 가격: {{ totalPrice | formatNumber}}원</p>
-          </div>
-          <div class="totalPrice">
-            <p class="title">TOTAL <span>(QUANTITY)</span></p>
-            <p class="total">{{ totalPrice | formatNumber }}원<span> ({{ quantity }}개)</span></p>
-          </div>
+<!--          totale price 코드 아까워서 살려둠 -->
+<!--          <div class="totalProducts">-->
+<!--            <p>{{ product.title }}</p>-->
+<!--            <div class="quantity_control">-->
+<!--              <button @click="decreaseQuantity">-</button>-->
+<!--              <span>{{ quantity }}</span>-->
+<!--              <button @click="increaseQuantity">+</button>-->
+<!--            </div>-->
+<!--            <p class="total_price">총 가격: {{ totalPrice | formatNumber}}원</p>-->
+<!--          </div>-->
+<!--          <div class="totalPrice">-->
+<!--            <p class="title">TOTAL <span>(QUANTITY)</span></p>-->
+<!--            <p class="total">{{ totalPrice | formatNumber }}원<span> ({{ quantity }}개)</span></p>-->
+<!--          </div>-->
           <div class="btn_box">
             <button @click="setCartItem" class="cart">장바구니 담기</button>
-            <button @click="directSell">바로 구매</button>
+<!--            <button @click="directSell">바로 구매</button>-->
+            <button @click="contact">바로 문의하기</button>
           </div>
         </div>
       </div>
@@ -69,7 +86,7 @@
         <!--          <button :class="{ active: component === 'QnaList' }" @click="component = 'QnaList'">Q&A(0)</button>-->
         <!--        </div>-->
         <div class="tab_content">
-          <component :is="component" @changeComp="changeComp"></component>
+          <component :is="component" @changeComp="changeComp" :product="product"></component>
         </div>
       </div>
     </div>
@@ -79,11 +96,13 @@
 <script>
   import {db} from "../../firebase";
   import {mapGetters} from "vuex";
-  import firebase from "firebase";
+//  import firebase from "firebase";
   import Description from "../category/detailBottomTab/Description"
   import ReviewList from "../category/detailBottomTab/ReviewList"
   import QnaList from "../category/detailBottomTab/QnaList"
   import NobleDetailBottom from "../category/detailBottomTab/NobleDetailBottom"
+  import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
+  import 'swiper/css/swiper.css'
 
   export default {
     name: "CategoryDetail",
@@ -91,10 +110,24 @@
       Description,
       ReviewList,
       QnaList,
-      NobleDetailBottom
+      NobleDetailBottom,
+      Swiper, SwiperSlide
     },
     data() {
       return {
+        swiperOption: {
+          slidesPerView: 1,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          allowTouchMove: true,
+          freeMode: false,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        },
         product: {},
         quantity: 1,
         component: 'NobleDetailBottom',
@@ -116,55 +149,78 @@
       changeComp(newComp) {
         this.component = newComp;
       },
+//      firebase 용
+//      async getData() {
+//        try {
+//          const productId = this.$route.params.id;
+//          const productDoc = await db.collection("products").doc(productId).get();
+//
+//          if (productDoc.exists) {
+//            this.product = productDoc.data();
+//          } else {
+//            console.error("상품이 존재하지 않습니다.");
+//          }
+//        } catch (error) {
+//          console.error("상품 데이터를 가져오는 중 오류 발생:", error);
+//        }
+//      },
       async getData() {
         try {
+          const category = this.$route.params.category.toLowerCase();
           const productId = this.$route.params.id;
-          const productDoc = await db.collection("products").doc(productId).get();
 
-          if (productDoc.exists) {
-            this.product = productDoc.data();
+          const module = await import(`@/data/products/${category}.js`);
+          const products = module.PRODUCTS;
+
+          const matchedProduct = Object.values(products).find(p => String(p.id) === productId);
+
+          if (matchedProduct) {
+            this.product = matchedProduct;
           } else {
-            console.error("상품이 존재하지 않습니다.");
+            console.error("상품을 찾을 수 없습니다.");
           }
         } catch (error) {
-          console.error("상품 데이터를 가져오는 중 오류 발생:", error);
+          console.error("상품 데이터를 불러오는 중 오류 발생:", error);
         }
       },
-      async directSell() {
-        if (!this.isLogin) {
-          this.$alert("로그인이 필요합니다!");
-          return;
-        }
+      contact(){
 
-        const userId = this.user?.uid;
-        try {
-          const cartSheetItem = {
-            id: this.$route.params.id,
-            category: this.product.category,
-            brand: this.product.brand,
-            title: this.product.title,
-            img: this.product.img,
-            price: this.product.price,
-            quantity: this.quantity,
-            totalPrice: this.totalPrice,
-            delivery: this.delivery
-          };
-
-          // Firestore에 주문 정보 저장
-          await firebase.firestore().collection("cartSheet").add({
-            userId,
-            items: [cartSheetItem], // 배열로 저장
-            createdAt: firebase.firestore.FieldValue.serverTimestamp()
-          });
-
-          // Firestore 저장이 완료된 후 페이지 이동
-          this.$router.push('/direct_view');
-
-        } catch (error) {
-          console.error("주문 처리 중 오류 발생:", error);
-          this.$alert("주문 처리 중 오류가 발생했습니다. 다시 시도해주세요.");
-        }
       },
+//      async directSell() {
+//        if (!this.isLogin) {
+//          this.$alert("로그인이 필요합니다!");
+//          return;
+//        }
+//
+//        const userId = this.user?.uid;
+//        try {
+//          const cartSheetItem = {
+//            id: this.$route.params.id,
+//            category: this.product.category,
+//            brand: this.product.brand,
+//            title: this.product.title,
+//            img: this.product.img,
+//            price: this.product.price,
+//            quantity: this.quantity,
+//            totalPrice: this.totalPrice,
+//            delivery: this.delivery
+//          };
+//
+//          // Firestore에 주문 정보 저장
+//          await firebase.firestore().collection("cartSheet").add({
+//            userId,
+//            items: [cartSheetItem], // 배열로 저장
+//            createdAt: firebase.firestore.FieldValue.serverTimestamp()
+//          });
+//
+//          // Firestore 저장이 완료된 후 페이지 이동
+//          this.$router.push('/direct_view');
+//
+//        } catch (error) {
+//          console.error("주문 처리 중 오류 발생:", error);
+//          this.$alert("주문 처리 중 오류가 발생했습니다. 다시 시도해주세요.");
+//        }
+//      },
       async setCartItem() {
         if (!this.isLogin) {
           this.$alert("로그인이 필요합니다!");
