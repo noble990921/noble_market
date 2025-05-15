@@ -40,7 +40,7 @@
             <p class="text">{{ i.name }}</p>
             <p class="price">가격문의</p>
           </div>
-          <p v-if="pagedItems.length<0">아직 작성된 구매 후기가 없습니다.</p>
+          <p v-if="pagedItems.length<0">상품이 없습니다.</p>
         </div>
         <el-pagination
             class="da-pagination"
