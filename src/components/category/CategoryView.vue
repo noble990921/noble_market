@@ -36,9 +36,11 @@
                :key="i.id">
             <img :src="i.mainImg[0]">
             <p class="brand_name">{{ i.brand }}</p>
-            <p class="name">{{ i.name }}</p>
+            <p class="name">{{ i.enName }}</p>
+            <p class="text">{{ i.name }}</p>
             <p class="price">가격문의</p>
           </div>
+          <p v-if="pagedItems.length<0">아직 작성된 구매 후기가 없습니다.</p>
         </div>
         <el-pagination
             class="da-pagination"
@@ -84,6 +86,10 @@
     watch: {
       value() {
         this.sortItems();
+      },
+      selectedSubCategory() {
+        this.page = 1;
+        this.updatePagedItems();
       },
     },
     computed: {

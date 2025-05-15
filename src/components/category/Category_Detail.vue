@@ -6,7 +6,7 @@
           <div class="swiper_wrapper">
             <swiper :options="swiperOption">
               <swiper-slide v-for="(img, i) in product.mainImg" :key="i">
-                <img :src="img" />
+                <img :src="img"/>
               </swiper-slide>
               <div class="swiper-pagination" slot="pagination"></div>
             </swiper>
@@ -19,7 +19,7 @@
           <p class="enName">{{product.enName}}</p>
           <p class="name">{{product.name}}</p>
           <p class="price">₩가격 문의
-            <span>
+            <span @click="sizeDialog = true" v-if="product.sizeData">
               <img src="../../..//public/media/productDetail/ruller.svg">SIZE GUIDE</span>
           </p>
           <div class="detail_info">
@@ -41,8 +41,12 @@
             <!--              <td><p>{{product.delivery | formatNumber}}원</p></td>-->
             <!--            </tr>-->
             <tr>
-              <th><p>추가해택</p></th>
-              <td><p>해외배송</p></td>
+              <th><p>추가 해택</p></th>
+              <td>
+                <p>국내 유통 제품 중 최고 퀄리티 보장</p>
+                <p>프리미엄 검수 서비스 무료 제공</p>
+                <p>박스, 더스트백, 인증서 풀패키지 구성 (일부 품목 제외)</p>
+              </td>
             </tr>
             <tr>
               <th><p>제조사</p></th>
@@ -58,23 +62,23 @@
             </tr>
             </tbody>
           </div>
-<!--          totale price 코드 아까워서 살려둠 -->
-<!--          <div class="totalProducts">-->
-<!--            <p>{{ product.title }}</p>-->
-<!--            <div class="quantity_control">-->
-<!--              <button @click="decreaseQuantity">-</button>-->
-<!--              <span>{{ quantity }}</span>-->
-<!--              <button @click="increaseQuantity">+</button>-->
-<!--            </div>-->
-<!--            <p class="total_price">총 가격: {{ totalPrice | formatNumber}}원</p>-->
-<!--          </div>-->
-<!--          <div class="totalPrice">-->
-<!--            <p class="title">TOTAL <span>(QUANTITY)</span></p>-->
-<!--            <p class="total">{{ totalPrice | formatNumber }}원<span> ({{ quantity }}개)</span></p>-->
-<!--          </div>-->
+          <!--          totale price 코드 아까워서 살려둠 -->
+          <!--          <div class="totalProducts">-->
+          <!--            <p>{{ product.title }}</p>-->
+          <!--            <div class="quantity_control">-->
+          <!--              <button @click="decreaseQuantity">-</button>-->
+          <!--              <span>{{ quantity }}</span>-->
+          <!--              <button @click="increaseQuantity">+</button>-->
+          <!--            </div>-->
+          <!--            <p class="total_price">총 가격: {{ totalPrice | formatNumber}}원</p>-->
+          <!--          </div>-->
+          <!--          <div class="totalPrice">-->
+          <!--            <p class="title">TOTAL <span>(QUANTITY)</span></p>-->
+          <!--            <p class="total">{{ totalPrice | formatNumber }}원<span> ({{ quantity }}개)</span></p>-->
+          <!--          </div>-->
           <div class="btn_box">
             <button @click="setCartItem" class="cart">장바구니 담기</button>
-<!--            <button @click="directSell">바로 구매</button>-->
+            <!--            <button @click="directSell">바로 구매</button>-->
             <button @click="contact">바로 문의하기</button>
           </div>
         </div>
@@ -86,23 +90,26 @@
         <!--          <button :class="{ active: component === 'QnaList' }" @click="component = 'QnaList'">Q&A(0)</button>-->
         <!--        </div>-->
         <div class="tab_content">
-          <component :is="component" @changeComp="changeComp" :product="product"></component>
+          <component :is="component" @changeComp="changeComp" :product="product" :allProducts="allProducts"></component>
         </div>
       </div>
     </div>
+
+    <size-dialog v-if="sizeDialog" :visible.sync="sizeDialog" :product="product"/>
   </div>
 </template>
 
 <script>
   import {db} from "../../firebase";
   import {mapGetters} from "vuex";
-//  import firebase from "firebase";
+  //  import firebase from "firebase";
   import Description from "../category/detailBottomTab/Description"
   import ReviewList from "../category/detailBottomTab/ReviewList"
   import QnaList from "../category/detailBottomTab/QnaList"
   import NobleDetailBottom from "../category/detailBottomTab/NobleDetailBottom"
-  import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
+  import {Swiper, SwiperSlide} from 'vue-awesome-swiper';
   import 'swiper/css/swiper.css'
+  import SizeDialog from "../../components/dialog/sizeDialog";
 
   export default {
     name: "CategoryDetail",
@@ -111,7 +118,7 @@
       ReviewList,
       QnaList,
       NobleDetailBottom,
-      Swiper, SwiperSlide
+      Swiper, SwiperSlide, SizeDialog
     },
     data() {
       return {
@@ -128,9 +135,11 @@
             prevEl: '.swiper-button-prev',
           },
         },
+        allProducts:[],
         product: {},
         quantity: 1,
         component: 'NobleDetailBottom',
+        sizeDialog:false,
       };
     },
     computed: {
@@ -171,19 +180,18 @@
 
           const module = await import(`@/data/products/${category}.js`);
           const products = module.PRODUCTS;
-
           const matchedProduct = Object.values(products).find(p => String(p.id) === productId);
-
           if (matchedProduct) {
             this.product = matchedProduct;
-          } else {
-            console.error("상품을 찾을 수 없습니다.");
           }
+
+          const allModule = await import('@/data/products/index.js');
+          this.allProducts = Object.values(allModule.ALL_PRODUCTS);
         } catch (error) {
-          console.error("상품 데이터를 불러오는 중 오류 발생:", error);
+          console.error('상품 데이터를 불러오는 중 오류 발생:', error);
         }
       },
-      contact(){
+      contact() {
 
       },
 //      async directSell() {

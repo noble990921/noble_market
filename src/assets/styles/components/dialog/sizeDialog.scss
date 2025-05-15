@@ -1,0 +1,36 @@
+.dialog-size{
+  @media (max-width: 1024px) {
+    padding: 0 12px;
+  }
+  .el-dialog{
+    width: 500px;
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
+  }
+  .dialog_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+      width: 300px;
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
+    }
+    .size_table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      thead th {
+        background-color: #fafafa;
+        font-weight: 600;
+      }
+      th , td{
+        border: 1px solid #eee;
+        padding: 10px;
+        text-align: center;
+      }
+    }
+  }
+}
