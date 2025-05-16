@@ -73,3 +73,9 @@ export const SET_CATEGORY_MAP = {
   WATCH: "7",
   ACC: "8",
 };
+
+// 🔥 추가: 숫자 ➝ 영문 (라우터용)
+export const CATEGORY_CODE_TO_NAME = Object.entries(SET_CATEGORY_MAP).reduce((acc, [key, val]) => {
+  acc[val] = key; // ex: '1' ➝ 'outer'
+  return acc;
+}, {});

@@ -19,15 +19,15 @@ function getRandomDate() {
   return past.toISOString().slice(0, 10);
 }
 
-function getRandomImages(index) {
-  if (Math.random() < 0.6) {
-    const count = Math.floor(Math.random() * 3) + 1;
-    return Array.from({ length: count }, (_, i) =>
-        `require('@/assets/review_images/bag/${index + 1}-${i + 1}.jpg')`
-    );
-  }
-  return [];
-}
+//function getRandomImages(index) {
+//  if (Math.random() < 0.6) {
+//    const count = Math.floor(Math.random() * 3) + 1;
+//    return Array.from({ length: count }, (_, i) =>
+//        `require('@/assets/review_images/bag/${index + 1}-${i + 1}.jpg')`
+//    );
+//  }
+//  return [];
+//}
 
 function getRandomUsername() {
   const chars = "abcdefghijklmnopqrstuvwxyz";
@@ -46,7 +46,7 @@ function generateReviews(count = 10) {
     rating: Math.ceil(Math.random() * 5),
     content: sampleTexts[Math.floor(Math.random() * sampleTexts.length)],
     date: getRandomDate(),
-    images: getRandomImages(i)
+//    images: getRandomImages(i)
   }));
 }
 
@@ -61,7 +61,6 @@ ${reviews.map(r => `  {
     rating: ${r.rating},
     content: "${r.content}",
     date: "${r.date}",
-    images: [${r.images.join(", ")}]
   }`).join(",\n")}
 ];
 `;

@@ -41,6 +41,12 @@
             <!--              <td><p>{{product.delivery | formatNumber}}원</p></td>-->
             <!--            </tr>-->
             <tr>
+              <th><p>모델번호</p></th>
+              <td>
+                <p>{{product.modelNumber}}</p>
+              </td>
+            </tr>
+            <tr>
               <th><p>추가 해택</p></th>
               <td>
                 <p>국내 유통 제품 중 최고 퀄리티 보장</p>
@@ -119,6 +125,14 @@
       QnaList,
       NobleDetailBottom,
       Swiper, SwiperSlide, SizeDialog
+    },
+    watch: {
+      '$route.params.id': {
+        immediate: true,
+        handler() {
+          this.getData();
+        }
+      }
     },
     data() {
       return {

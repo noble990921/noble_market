@@ -39,6 +39,31 @@
 
     .detail_review {
       margin-top: 50px;
+      .review_top{
+        display: flex;
+        justify-content: space-between;
+        .review_make{
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+      .review_box{
+        .review_content{
+          padding: 15px 10px 10px;
+          border-bottom: 1px solid #939393;
+          .star{
+            margin-bottom: 8px;
+            display: flex;
+            i{
+              font-size: 14px;
+            }
+            .meta{
+              font-size: 13px;
+              padding: 0 5px;
+            }
+          }
+        }
+      }
     }
 
     .detail_related {

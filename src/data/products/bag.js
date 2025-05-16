@@ -1,6 +1,7 @@
 export const PRODUCTS = {
   "1": {
     id: 1,
+    modelNumber:'ITOAMM26QO5B',
     name:'에르메스 켈리 무브 백 스위프트 에토프',
     enName:'Hermes Kelly Move Bag Swift Etoupe',
     brand:'에르메스',
@@ -34,6 +35,7 @@ export const PRODUCTS = {
   },
   "2": {
     id: 2,
+    modelNumber:'ITJF6B6V894I',
     name:'에르메스 벌킨30 에토프 금장',
     enName:'Hermes Birkin30 Etoupe Gold',
     brand:'에르메스',
@@ -64,6 +66,7 @@ export const PRODUCTS = {
   },
   "3": {
     id: 3,
+    modelNumber:'A94485-Y61477-94305',
     name:'샤넬 가브리엘 백팩 스몰 빈티지 카프스킨 & 골드 실버 메탈 블랙',
     enName:'Chanel Small Gabrielle Backpack Aged Calfskin & Gold Silver Black',
     brand:'샤넬',
@@ -95,6 +98,38 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/3/wearingImg.png'),
       require('../../../public/media/products/bag/3/wearingImg2.png'),
       require('../../../public/media/products/bag/3/wearingImg3.png'),
+    ],
+  },
+  "4": {
+    id: 4,
+    modelNumber:'AS5293-B20304-94305',
+    name:'샤넬 25 스몰 핸드백 그레인드 카프스킨 & 골드 메탈 블랙',
+    enName:'Chanel 25 Small Handbag Grained Calfskin & Gold Black',
+    brand:'샤넬',
+    enBrand:'Chanel',
+    category: "6",
+    subCategory: {id:1, title: "미니백", img: "minibag" },
+//    sizeData: {
+//      type:'bag',
+//      img:require('../../../public/media/productDetail/bag_size.png'),
+//      size:[
+//        {unit:'free', x:30 ,y:16, z:22},
+//      ]
+//    },
+    mainImg:[
+      require('../../../public/media/products/bag/4/mainImg.png'),
+      require('../../../public/media/products/bag/4/mainImg2.png'),
+      require('../../../public/media/products/bag/4/mainImg3.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/4/detailImg.png'),
+      require('../../../public/media/products/bag/4/detailImg2.png'),
+      require('../../../public/media/products/bag/4/detailImg3.png'),
+    ],
+    wearingImg:[
+      require('../../../public/media/products/bag/4/wearingImg.png'),
+      require('../../../public/media/products/bag/4/wearingImg2.png'),
+      require('../../../public/media/products/bag/4/wearingImg3.png'),
     ],
   },
 }
