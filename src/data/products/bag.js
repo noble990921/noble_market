@@ -59,10 +59,10 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/2/detailImg2.png'),
       require('../../../public/media/products/bag/2/detailImg3.png'),
     ],
-    wearingImg:[
-//      require('../../../public/media/products/bag/1/wearingImg.png'),
-//      require('../../../public/media/products/bag/1/wearingImg2.png'),
-    ],
+//    wearingImg:[
+////      require('../../../public/media/products/bag/1/wearingImg.png'),
+////      require('../../../public/media/products/bag/1/wearingImg2.png'),
+//    ],
   },
   "3": {
     id: 3,
@@ -109,13 +109,13 @@ export const PRODUCTS = {
     enBrand:'Chanel',
     category: "6",
     subCategory: {id:1, title: "미니백", img: "minibag" },
-//    sizeData: {
-//      type:'bag',
-//      img:require('../../../public/media/productDetail/bag_size.png'),
-//      size:[
-//        {unit:'free', x:30 ,y:16, z:22},
-//      ]
-//    },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free', x:30 ,y:14, z:26},
+      ]
+    },
     mainImg:[
       require('../../../public/media/products/bag/4/mainImg.png'),
       require('../../../public/media/products/bag/4/mainImg2.png'),
@@ -130,6 +130,71 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/4/wearingImg.png'),
       require('../../../public/media/products/bag/4/wearingImg2.png'),
       require('../../../public/media/products/bag/4/wearingImg3.png'),
+    ],
+  },
+  "5": {
+    id: 5,
+    modelNumber:'AS5293-B20304-10601',
+    name:'샤넬 25 스몰 핸드백 그레인드 카프스킨 & 골드 메탈 화이트',
+    enName:'Chanel 25 Small Handbag Grained Calfskin & Gold White',
+    brand:'샤넬',
+    enBrand:'Chanel',
+    category: "6",
+    subCategory: {id:1, title: "미니백", img: "minibag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free', x:30 ,y:14, z:26},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/5/mainImg.png'),
+      require('../../../public/media/products/bag/5/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/5/detailImg.png'),
+      require('../../../public/media/products/bag/5/detailImg2.png'),
+      require('../../../public/media/products/bag/5/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/5/wearingImg.png'),
+//      require('../../../public/media/products/bag/5/wearingImg2.png'),
+//      require('../../../public/media/products/bag/5/wearingImg3.png'),
+//    ],
+  },
+  "6": {
+    id: 6,
+    modelNumber:'AS3260-B08037/B09584/B19059-94305',
+    name:'샤넬 22 스몰 핸드백 샤이니 카프스킨 & 골드 메탈 블랙',
+    enName:'Chanel 22 Small Handbag Shiny Calfskin & Gold Black',
+    brand:'샤넬',
+    enBrand:'Chanel',
+    category: "6",
+    subCategory: {id:1, title: "미니백", img: "minibag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free', x:37 ,y:7, z:35},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/6/mainImg1.png'),
+      require('../../../public/media/products/bag/6/mainImg2.png'),
+      require('../../../public/media/products/bag/6/mainImg3.png'),
+      require('../../../public/media/products/bag/6/mainImg4.png'),
+      require('../../../public/media/products/bag/6/mainImg5.png'),
+      require('../../../public/media/products/bag/6/mainImg6.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/6/detailImg.png'),
+      require('../../../public/media/products/bag/6/detailImg2.png'),
+      require('../../../public/media/products/bag/6/detailImg3.png'),
+    ],
+    wearingImg:[
+      require('../../../public/media/products/bag/6/wearingImg.png'),
+      require('../../../public/media/products/bag/6/wearingImg2.png'),
     ],
   },
 }

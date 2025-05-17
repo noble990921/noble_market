@@ -14,29 +14,34 @@
           <img :src="img">
         </div>
       </div>
-      <div class="detail_wearingImg">
-        <p class="title" style="margin: 30px 0">제품착샷</p>
+      <div class="detail_wearingImg" v-if="product.wearingImg">
+        <p class="title" style="margin: 120px 0 30px 0">제품착샷</p>
         <div class="detail_subImgBox" v-for="(img,i) in product.wearingImg" :key="i">
           <img :src="img">
         </div>
       </div>
       <div class="detail_notice">
-        <p class="title" style="margin: 30px 0">안내 사항</p>
+        <p class="title" style="margin: 120px 0 30px 0">안내 사항</p>
         <img src="../../../../public/media/productDetail/product_notice.png">
       </div>
       <div class="detail_review">
         <div class="review_top">
-          <p class="title">구매 후기 ({{ productReviews.length }})
-            <span class="stars">
+          <div>
+            <p class="title">구매 후기 ({{ productReviews.length }})
+              <span class="stars">
     <i
         class="el-icon-star-on"
         v-for="n in 5"
         :key="n"
         :style="{ color: n <= filledStars ? '#ff6600' : '#ccc' }"
     ></i>
-              <!--    <span class="avg">({{ averageRating }})</span>-->
+                <!--    <span class="avg">({{ averageRating }})</span>-->
   </span>
-          </p>
+            </p>
+            <p @click="showPhotoOnly = !showPhotoOnly" style="cursor: pointer;">
+              <i class="el-icon-picture-outline"></i> 포토 구매평만 보기
+            </p>
+          </div>
           <p class="review_make">리뷰작성</p>
         </div>
         <div class="review_box" v-if="productReviews.length">
@@ -63,6 +68,7 @@
                   :key="i"
                   :src="img"
                   class="thumb"
+                  @click="openImageModal(review.images, i)"
               />
             </div>
           </div>
@@ -72,7 +78,7 @@
 
       <div class="detail_related">
         <div class="related_product" v-if="relatedByCategory.length>0">
-          <p class="title">관련 상품</p>
+          <p class="title" style="margin-bottom: 20px">관련 상품</p>
           <div class="hot_item">
             <div class="item_box">
               <div class="item"  v-for="item in relatedByCategory" :key="item.id"
@@ -87,7 +93,7 @@
           </div>
         </div>
         <div class="related_product" v-if="relatedByBrand.length>0">
-          <p class="title">관련 브랜드</p>
+          <p class="title" style="margin-bottom: 20px">관련 브랜드</p>
           <div class="hot_item">
             <div class="item_box">
               <div class="item" v-for="item in relatedByBrand" :key="item.id"
@@ -103,15 +109,34 @@
         </div>
       </div>
     </div>
+    <div v-if="selectedImages.length" class="modal-overlay" @click.self="closeModal">
+      <div class="modal-content">
+        <swiper :options="swiperOption" ref="swiper">
+          <swiper-slide v-for="(img, idx) in selectedImages" :key="idx">
+            <img :src="img" class="modal-image" />
+          </swiper-slide>
+          <div class="swiper-pagination" slot="pagination"></div>
+          <div class="swiper-button-prev" slot="button-prev"></div>
+          <div class="swiper-button-next" slot="button-next"></div>
+        </swiper>
+        <button class="close-btn" @click="closeModal">닫기</button>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
   import {BAG_REVIEWS} from "../../../data/riviews/bagRiviews.js"
   import {CATEGORY_CODE_TO_NAME} from "../../../constants/Set"
+  import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
+  import 'swiper/css/swiper.css'
 
   export default {
     name: "NobleDetailBottom",
+    components: {
+      swiper: Swiper,
+      swiperSlide: SwiperSlide
+    },
     computed: {
       averageRating() {
         if (!this.productReviews.length) return 0;
@@ -143,8 +168,22 @@
     },
     data() {
       return {
+        selectedImages: [],
+        selectedImageIndex: 0,
         allReviews: BAG_REVIEWS,
-        CATEGORY_CODE_TO_NAME
+        CATEGORY_CODE_TO_NAME,
+        swiperOption: {
+          slidesPerView: 'auto',
+          autoplay: false,
+          freeMode: false,
+          initialSlide: 0,
+          pagination: { el: ".swiper-pagination", clickable: true },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+          }
+        },
+        showPhotoOnly: false,
       }
     },
     methods: {
@@ -156,7 +195,20 @@
         return arr
         .sort(() => 0.5 - Math.random())
         .slice(0, count);
-      }
+      },
+      openImageModal(images, index) {
+        this.selectedImages = images
+        this.selectedImageIndex = index
+        this.swiperOption.initialSlide = index
+        this.$nextTick(() => {
+          if (this.$refs.swiper && this.$refs.swiper.swiper) {
+            this.$refs.swiper.swiper.slideTo(index, 0)
+          }
+        })
+      },
+      closeModal() {
+        this.selectedImages = []
+      },
     }
   }
 </script>

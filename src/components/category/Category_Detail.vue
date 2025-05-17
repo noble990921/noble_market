@@ -15,13 +15,34 @@
           </div>
         </div>
         <div class="detail_content">
-          <p class="brand">{{product.enBrand}}</p>
-          <p class="enName">{{product.enName}}</p>
-          <p class="name">{{product.name}}</p>
-          <p class="price">₩가격 문의
-            <span @click="sizeDialog = true" v-if="product.sizeData">
+          <div class="content_header">
+            <p class="brand">{{product.enBrand}}</p>
+            <p class="enName">{{product.enName}}</p>
+            <p class="name">{{product.name}}</p>
+            <p class="price">₩가격 문의
+              <span @click="sizeDialog = true" v-if="product.sizeData">
               <img src="../../..//public/media/productDetail/ruller.svg">SIZE GUIDE</span>
-          </p>
+            </p>
+          </div>
+          <div class="product_detail_notice">
+            <div class="detail_notice_input">
+              <div class="input_area">
+                <button @click="clickInput">
+                  <p>PRODUCT DETAILS</p>
+                  <i class="el-icon-arrow-down"></i>
+                </button>
+              </div>
+              <div class="input_content" v-if="inputContent">
+                <ul>
+<!--                  <li> test</li>-->
+<!--                  <li> test</li>-->
+<!--                  <li> test</li>-->
+<!--                  <li> test</li>-->
+<!--                  <li> test</li>-->
+                </ul>
+              </div>
+            </div>
+          </div>
           <div class="detail_info">
             <tbody>
             <!--            <tr>-->
@@ -68,6 +89,14 @@
             </tr>
             </tbody>
           </div>
+          <el-select v-model="value" placeholder="사이즈 / 색상">
+              <el-option
+                  v-for="item in options"
+                  :key="item.value"
+                  :label="item.label"
+                  :value="item.value">
+              </el-option>
+            </el-select>
           <!--          totale price 코드 아까워서 살려둠 -->
           <!--          <div class="totalProducts">-->
           <!--            <p>{{ product.title }}</p>-->
@@ -154,6 +183,11 @@
         quantity: 1,
         component: 'NobleDetailBottom',
         sizeDialog:false,
+        value: "",
+        options: [
+          { value: "사이즈 / 색상 문의", label: "사이즈 / 색상 문의" },
+        ],
+        inputContent: false,
       };
     },
     computed: {
@@ -169,6 +203,13 @@
       }
     },
     methods: {
+      clickInput(){
+        if(this.inputContent == false){
+          return this.inputContent = true
+        }else{
+          return this.inputContent = false
+        }
+      },
       changeComp(newComp) {
         this.component = newComp;
       },
