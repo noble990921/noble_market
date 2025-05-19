@@ -13,6 +13,16 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
           </div>
+          <div class="thumbs_wrapper">
+            <div
+                v-for="(img, i) in product.mainImg"
+                :key="i"
+                :class="['thumb', { active: activeIndex === i }]"
+                @click="goToSlide(i)"
+            >
+              <img :src="img" />
+            </div>
+          </div>
         </div>
         <div class="detail_content">
           <div class="content_header">
@@ -170,7 +180,13 @@
           pagination: {
             el: '.swiper-pagination',
             clickable: true,
+            on: {
+              slideChange: () => {
+                this.activeIndex = this.$refs.mainSwiper.swiper.realIndex
+              }
+            }
           },
+          activeIndex:0,
           allowTouchMove: true,
           freeMode: false,
           navigation: {
@@ -203,6 +219,12 @@
       }
     },
     methods: {
+      goToSlide(index) {
+        this.$refs.mainSwiper.swiper.slideTo(index)
+      },
+      onSlideChange() {
+        this.activeIndex = this.$refs.mainSwiper.swiper.realIndex
+      },
       clickInput(){
         if(this.inputContent == false){
           return this.inputContent = true

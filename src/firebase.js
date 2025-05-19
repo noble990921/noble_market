@@ -4,13 +4,13 @@ import 'firebase/firestore';
 import 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC94GBOaPC0GxnCF_wrci4oWea8VN_C44c",
-  authDomain: "noble-df752.firebaseapp.com",
-  projectId: "noble-df752",
-  storageBucket: "noble-df752.firebasestorage.app",
-  messagingSenderId: "398613154754",
-  appId: "1:398613154754:web:6eb5fe3e4a1c1fe14e245b",
-  measurementId: "G-1JK849DGE0"
+  apiKey: "AIzaSyA6U238sA868KzlJu63gbDBD9i3zv0jfsw",
+  authDomain: "noblemarket-30d96.firebaseapp.com",
+  projectId: "noblemarket-30d96",
+  storageBucket: "noblemarket-30d96.firebasestorage.app",
+  messagingSenderId: "861313430404",
+  appId: "1:861313430404:web:f3fae70bca86f9cc8523d1",
+  measurementId: "G-2SK2YM2D98"
 };
 
 firebase.initializeApp(firebaseConfig);
