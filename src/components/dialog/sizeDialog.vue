@@ -21,6 +21,7 @@
        </tr>
        </tbody>
      </table>
+     <p style="margin-top: 10px;text-align: left">사이즈는 측정 기준에 따라 오차가 있을 수 있습니다.</p>
    </div>
   </el-dialog>
 </template>

@@ -40,9 +40,11 @@
                  class="product_list"
                  v-for="i in pagedItems"
                  :key="i.id">
-              <img :src="i.img">
-              <p class="name">{{ i.title }}</p>
-              <p class="price">{{ i.price | formatNumber }}원</p>
+              <img :src="i.mainImg[0]">
+              <p class="brand_name">{{ i.brand }}</p>
+              <p class="name">{{ i.enName }}</p>
+              <p class="text">{{ i.name }}</p>
+              <p class="price">가격문의</p>
             </div>
           </div>
           <el-pagination
@@ -62,7 +64,8 @@
 </template>
 
 <script>
-  import {db} from "@/firebase";
+//  import {db} from "@/firebase";
+  import * as productModules from '@/data/products/index.js'
 
   export default {
     name: "SearchView",
@@ -89,41 +92,75 @@
       },
     },
     methods: {
+//      async getData() {
+//        this.loading = true
+//        try {
+//          console.time("getProductData 응답시간");
+//
+//          const querySnapshot = await db.collection("products")
+//          .orderBy("createDate", "desc") // Firestore에서 정렬 적용
+//          .get();
+//
+//          this.product = querySnapshot.docs.map(doc => {
+//            const data = doc.data();
+//            return {
+//              id: doc.id,
+//              ...data,
+//              createDate: data.createDate?.toDate()
+//            };
+//          }).filter(item => {
+//            const keyword = this.searchText.toLowerCase();
+//            return (
+//                (item.title && item.title.toLowerCase().includes(keyword)) ||
+//                (item.brand && item.brand.toLowerCase().includes(keyword)) ||
+//                (item.category && item.category.toLowerCase().includes(keyword))
+//            );
+//          });
+//          this.total = this.product.length;
+//          this.updatePagedItems();
+//          console.log('testtttt', this.product)
+//
+////          console.log('sss', this.subCategory)
+//
+//          console.timeEnd("getProductData 응답시간");
+//        } catch (error) {
+//          console.error("상품 데이터를 가져오는 중 오류 발생:", error);
+//        }
+//        this.loading = false
+//      },
       async getData() {
-        this.loading = true
+        this.loading = true;
         try {
           console.time("getProductData 응답시간");
 
-          const querySnapshot = await db.collection("products")
-          .orderBy("createDate", "desc") // Firestore에서 정렬 적용
-          .get();
+          // 🔥 모든 PRODUCTS 합치기
+          const allProducts = Object.values(productModules).flatMap(module =>
+              Object.values(module)
+          );
 
-          this.product = querySnapshot.docs.map(doc => {
-            const data = doc.data();
-            return {
-              id: doc.id,
-              ...data,
-              createDate: data.createDate?.toDate()
-            };
-          }).filter(item => {
-            const keyword = this.searchText.toLowerCase();
+          // 🔍 검색 필터 적용
+          const keyword = this.searchText.toLowerCase();
+          this.product = allProducts.filter(item => {
             return (
-                (item.title && item.title.toLowerCase().includes(keyword)) ||
+                (item.modelNumber && item.modelNumber.toLowerCase().includes(keyword)) ||
+                (item.enBrand && item.enBrand.toLowerCase().includes(keyword)) ||
+                (item.enName && item.enName.toLowerCase().includes(keyword)) ||
+                (item.name && item.name.toLowerCase().includes(keyword)) ||
                 (item.brand && item.brand.toLowerCase().includes(keyword)) ||
                 (item.category && item.category.toLowerCase().includes(keyword))
             );
           });
+
           this.total = this.product.length;
           this.updatePagedItems();
-          console.log('testtttt', this.product)
 
-//          console.log('sss', this.subCategory)
-
+          console.log("필터링된 상품:", this.product);
           console.timeEnd("getProductData 응답시간");
+
         } catch (error) {
-          console.error("상품 데이터를 가져오는 중 오류 발생:", error);
+          console.error("로컬 상품 데이터를 가져오는 중 오류 발생:", error);
         }
-        this.loading = false
+        this.loading = false;
       },
       search() {
         return this.getData()

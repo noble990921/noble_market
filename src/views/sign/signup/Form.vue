@@ -190,11 +190,12 @@
           vm.$emit('changeComp', 'Comp');
         } catch (err) {
           console.error(err);
-          if (err.code === 'auth/email-already-in-use') {
+          if (err.code === "auth/email-already-in-use") {
             this.$alert("이 이메일 주소는 이미 사용 중입니다.");
-          }
+          }else{
 //          this.$alert("회원가입 중 오류가 발생했습니다: " + err.message);
-          this.$alert("회원가입 중 오류가 발생했습니다: ");
+            this.$alert("회원가입 중 오류가 발생했습니다: ");
+          }
         }
       }
     },

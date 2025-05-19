@@ -160,8 +160,8 @@
           margin-top: 22px;
           display: flex;
           flex-wrap: wrap;
-          gap: 20px;
-          row-gap: 60px;
+          gap: 12px;
+          row-gap: 20px;
           @media (max-width: 1024px) {
             gap: 12px;
             row-gap: 40px;
@@ -176,29 +176,64 @@
           }
 
           .product_list {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             //width: 23%;
-            width: calc((100% - 60px) / 4);
+            width: calc((100% - 60px) / 5);
             cursor: pointer;
-
-            img {
-              width: 100%;
-              object-fit: cover;
+            @media (max-width: 1024px) {
+              img{
+                width: 100% !important;
+              }
             }
 
+            img {
+              border-radius: 20px;
+              width: 230px;
+              height: 230px;
+              //width: 100%;
+              object-fit: cover;
+            }
+            .brand_name{
+              color: #222;
+              margin-top: 12px;
+              font-size: 12px;
+              font-weight: 700;
+              color: #222;
+              margin-bottom: 2px;
+            }
+            .text{
+              -webkit-line-clamp: 1;
+              -webkit-box-orient: vertical;
+              color: #222;
+              display: -webkit-box;
+              font-size: 13px;
+              line-height: 16px;
+              max-height: 34px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: normal;
+            }
             .name {
-              margin-top: 20px;
               font-size: 12px;
               line-height: 18px;
               text-align: left;
               white-space: normal;
-              color: #757575;
+              color: #222;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: normal;
+              -webkit-line-clamp: 1;
+              -webkit-box-orient: vertical;
+              display: -webkit-box;
             }
 
             .price {
+              font-weight: bold;
               margin-top: 10px;
               font-size: 14px;
-              color: #000000;
-              font-weight: bold;
+              color: rgb(34, 34, 34);
             }
           }
         }

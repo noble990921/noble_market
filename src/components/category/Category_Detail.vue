@@ -4,9 +4,9 @@
       <div class="detail_top">
         <div class="detail_img">
           <div class="swiper_wrapper">
-            <swiper :options="swiperOption">
+            <swiper ref="mainSwiper" :options="swiperOption" @slideChange="onSlideChange">
               <swiper-slide v-for="(img, i) in product.mainImg" :key="i">
-                <img :src="img"/>
+                <img :src="img" />
               </swiper-slide>
               <div class="swiper-pagination" slot="pagination"></div>
             </swiper>
@@ -180,20 +180,15 @@
           pagination: {
             el: '.swiper-pagination',
             clickable: true,
-            on: {
-              slideChange: () => {
-                this.activeIndex = this.$refs.mainSwiper.swiper.realIndex
-              }
-            }
           },
-          activeIndex:0,
-          allowTouchMove: true,
-          freeMode: false,
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
           },
+          observer: true,
+          observeParents: true,
         },
+        activeIndex:0,
         allProducts:[],
         product: {},
         quantity: 1,
@@ -220,10 +215,18 @@
     },
     methods: {
       goToSlide(index) {
-        this.$refs.mainSwiper.swiper.slideTo(index)
+        if (this.$refs.mainSwiper.$swiper) {
+          this.$refs.mainSwiper.$swiper.slideTo(index);
+          this.activeIndex = index;
+        }
       },
       onSlideChange() {
-        this.activeIndex = this.$refs.mainSwiper.swiper.realIndex
+        const swiper = this.$refs.mainSwiper.$swiper;
+//        console.log('dqwd',swiper)
+        if (swiper) {
+//          console.log('현재 인덱스:', swiper.realIndex);
+          this.activeIndex = swiper.realIndex;
+        }
       },
       clickInput(){
         if(this.inputContent == false){
@@ -368,6 +371,21 @@
           this.quantity--;
         }
       },
+    },
+    mounted() {
+      const tryInitSwiper = () => {
+        const swiper = this.$refs.mainSwiper.$swiper;
+        if (swiper) {
+          swiper.on('slideChange', () => {
+//            console.log('현재 인덱스:', swiper.realIndex);
+            this.activeIndex = swiper.realIndex;
+          });
+        } else {
+          // 아직 초기화 안 됐으면 조금 있다 다시 시도
+          setTimeout(tryInitSwiper, 100);
+        }
+      };
+      this.$nextTick(tryInitSwiper);
     },
     created() {
       this.getData();

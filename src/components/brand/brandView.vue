@@ -46,7 +46,7 @@
               >
                               <img :src="i.img" />
                 <p class="name">{{ i.title }}</p>
-                <p class="price">{{ i.price | formatNumber }}원</p>
+                <p class="price">가격문의</p>
               </div>
             </div>
           </div>
