@@ -36,7 +36,7 @@
             </el-select>
           </div>
           <div class="product_main">
-            <div @click="$router.push(`/${category}/detail/${i.id}`)"
+            <div @click="goToProductDetail(i)"
                  class="product_list"
                  v-for="i in pagedItems"
                  :key="i.id">
@@ -66,6 +66,7 @@
 <script>
 //  import {db} from "@/firebase";
   import * as productModules from '@/data/products/index.js'
+import {CATEGORY_CODE_TO_NAME} from "@/constants/Set";
 
   export default {
     name: "SearchView",
@@ -128,17 +129,19 @@
 //        }
 //        this.loading = false
 //      },
+      goToProductDetail(item) {
+        const categoryName = CATEGORY_CODE_TO_NAME[item.category];
+        this.$router.push(`/${categoryName}/detail/${item.id}`);
+      },
       async getData() {
         this.loading = true;
         try {
           console.time("getProductData 응답시간");
 
-          // 🔥 모든 PRODUCTS 합치기
           const allProducts = Object.values(productModules).flatMap(module =>
               Object.values(module)
           );
 
-          // 🔍 검색 필터 적용
           const keyword = this.searchText.toLowerCase();
           this.product = allProducts.filter(item => {
             return (
