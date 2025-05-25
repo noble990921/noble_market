@@ -804,9 +804,9 @@ export const PRODUCTS = {
   },
   "25": {
     id: 25,
-    modelNumber:'4WAY AP3753',
-    name:'샤넬 24 크루즈 캐비어 탑핸들 미니 백팩',
-    enName:'Chanel 24 Cruise Caviar Top Handle Mini Backpack',
+    modelNumber:'AP3753',
+    name:'샤넬 클래식 체인 핸드폰 홀더 샤이니 그레인드 카프스킨 블랙 금장',
+    enName:'Chanel Classic Phone Holder Clutch with Chain Grained Shiny Calfskin & Gold Black',
     brand:'샤넬',
     enBrand:'Chanel',
     category: "6",

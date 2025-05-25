@@ -20,14 +20,14 @@
       <div class="product_item_container">
         <div class="product_header">
           <p>총 <span>{{ total }}</span>개의 상품이 있습니다.</p>
-          <el-select v-model="value" placeholder="-정렬방식-">
-            <el-option
-                v-for="item in options"
-                :key="item.value"
-                :label="item.label"
-                :value="item.value">
-            </el-option>
-          </el-select>
+<!--          <el-select v-model="value" placeholder="-정렬방식-">-->
+<!--            <el-option-->
+<!--                v-for="item in options"-->
+<!--                :key="item.value"-->
+<!--                :label="item.label"-->
+<!--                :value="item.value">-->
+<!--            </el-option>-->
+<!--          </el-select>-->
         </div>
         <div class="product_main">
           <div @click="$router.push(`/${category}/detail/${i.id}`)"
@@ -40,7 +40,7 @@
             <p class="text">{{ i.name }}</p>
             <p class="price">가격문의</p>
           </div>
-          <p v-if="pagedItems.length<0">상품이 없습니다.</p>
+          <p v-if="!pagedItems.length">등록된 상품이 없습니다.</p>
         </div>
         <el-pagination
             class="da-pagination"
@@ -68,7 +68,7 @@
       return {
         SET_CATEGORY_MAP,
         total: 0,
-        size: 20,
+        size: 25,
         page: 1,
         options: [
           { value: "신상품", label: "신상품" },

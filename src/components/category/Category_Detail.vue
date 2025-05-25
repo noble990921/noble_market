@@ -8,12 +8,12 @@
               <swiper-slide v-for="(img, i) in product.mainImg" :key="i">
                 <img :src="img" />
               </swiper-slide>
-              <div class="swiper-pagination" slot="pagination"></div>
+              <div v-if="product.mainImg && product.mainImg.length > 1"> class="swiper-pagination" slot="pagination"></div>
             </swiper>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div v-if="product.mainImg && product.mainImg.length > 1"> class="swiper-button-next"></div>
+            <div v-if="product.mainImg && product.mainImg.length > 1"> class="swiper-button-prev"></div>
           </div>
-          <div class="thumbs_wrapper">
+          <div class="thumbs_wrapper" v-if="product.mainImg && product.mainImg.length > 1">
             <div
                 v-for="(img, i) in product.mainImg"
                 :key="i"

@@ -85,6 +85,18 @@ export const SET_PRODUCT_BRAND = {
     koName: "발렌시아가",
 //    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
 //    img: require('@/assets/images/home/section7/brand_logo9.png'),
+  },"14": {
+    id: 14,
+    enName: "Burberry",
+    koName: "버버리",
+//    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
+//    img: require('@/assets/images/home/section7/brand_logo9.png'),
+  },"15": {
+    id: 14,
+    enName: "생로랑",
+    koName: "Saint Laurent",
+//    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
+//    img: require('@/assets/images/home/section7/brand_logo9.png'),
   },
 };
 

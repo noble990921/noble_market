@@ -83,7 +83,7 @@
             <div class="item_box">
               <div class="item"  v-for="item in relatedByCategory" :key="item.id"
                    @click="goToProductDetail(item)">
-                <img :src="item.mainImg[0]"/>
+                <img v-if="item.mainImg && item.mainImg.length" :src="item.mainImg[0]"/>
                 <div class="info_box">
                   <p class="title">{{item.enName}}</p>
                   <p class="text">{{item.name}}</p>
@@ -98,7 +98,7 @@
             <div class="item_box">
               <div class="item" v-for="item in relatedByBrand" :key="item.id"
                    @click="goToProductDetail(item)">
-                <img :src="item.mainImg[0]"/>
+                <img v-if="item.mainImg && item.mainImg.length" :src="item.mainImg[0]"/>
                 <div class="info_box">
                   <p class="title">{{item.enName}}</p>
                   <p class="text">{{item.name}}</p>
@@ -218,6 +218,9 @@
       closeModal() {
         this.selectedImages = []
       },
+    },
+    created(){
+      this.allProducts
     }
   }
 </script>
