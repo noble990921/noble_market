@@ -60,7 +60,32 @@ export const SET_PRODUCT_BRAND = {
     koName: "프라다",
     mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
     img: require('@/assets/images/home/section7/brand_logo9.png'),
-  }
+  },
+  "10": {
+    id: 10,
+    enName: "Lemaire",
+    koName: "르메르",
+//    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
+//    img: require('@/assets/images/home/section7/brand_logo9.png'),
+  },"11": {
+    id: 11,
+    enName: "Maison Margiela",
+    koName: "메종 마르지엘라",
+//    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
+//    img: require('@/assets/images/home/section7/brand_logo9.png'),
+  },"12": {
+    id: 12,
+    enName: "Valentino",
+    koName: "발렌티노",
+//    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
+//    img: require('@/assets/images/home/section7/brand_logo9.png'),
+  },"13": {
+    id: 13,
+    enName: "BALENCIAGA",
+    koName: "발렌시아가",
+//    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
+//    img: require('@/assets/images/home/section7/brand_logo9.png'),
+  },
 };
 
 export const SET_CATEGORY_MAP = {

@@ -15,7 +15,7 @@ export const BAG_REVIEWS = [
     id: 2,
     productId: 1,
     user: "us******",
-    rating: 2,
+    rating: 5,
     content: "딱 생각했던 스타일이라 만족합니다.",
     date: "2025-05-11",
     images: [

@@ -850,7 +850,7 @@ export const PRODUCTS = {
       type:'bag',
       img:require('../../../public/media/productDetail/bag_size.png'),
       size:[
-        {unit:'free',x:17,y:12.5, z:5},
+        {unit:'free',x:17,y:5, z:12.5},
       ]
     },
     mainImg:[
@@ -869,5 +869,742 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/26/wearingImg2.png'),
       require('../../../public/media/products/bag/26/wearingImg3.png'),
     ],
+  },
+  "27": {
+    id: 27,
+    modelNumber:'M45985',
+    name:'루이비통 다이앤 모노그램 블랙',
+    enName:'Louis Vuitton Diane Monogram Black',
+    brand:'루이비통',
+    enBrand:'Louis Vuitton',
+    category: "6",
+    subCategory: {id:3, title: "숄더백", img: "shoulderbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:24,y:9, z:15},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/27/mainImg.png'),
+      require('../../../public/media/products/bag/27/mainImg2.png'),
+      require('../../../public/media/products/bag/27/mainImg3.png'),
+      require('../../../public/media/products/bag/27/mainImg4.png'),
+      require('../../../public/media/products/bag/27/mainImg5.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/27/detailImg.png'),
+      require('../../../public/media/products/bag/27/detailImg2.png'),
+      require('../../../public/media/products/bag/27/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/27/wearingImg.png'),
+//      require('../../../public/media/products/bag/27/wearingImg2.png'),
+//      require('../../../public/media/products/bag/27/wearingImg3.png'),
+//    ],
+  },
+  "28": {
+    id: 28,
+    modelNumber:'CHC21WS397E6690U',
+    name:'끌로에 우디 스몰 스트랩 토트백 브라운',
+    enName:'Chloe Woody Small Strap Tote Bag Brown',
+    brand:'끌로에',
+    enBrand:'Chloe',
+    category: "6",
+    subCategory: {id:4, title: "토트백", img: "totebag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:26.5,y:8, z:20},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/28/mainImg.png'),
+      require('../../../public/media/products/bag/28/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/28/detailImg.png'),
+      require('../../../public/media/products/bag/28/detailImg2.png'),
+      require('../../../public/media/products/bag/28/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/28/wearingImg.png'),
+//      require('../../../public/media/products/bag/28/wearingImg2.png'),
+//      require('../../../public/media/products/bag/28/wearingImg3.png'),
+//    ],
+  },
+  "29": {
+    id: 29,
+    modelNumber:'M20997',
+    name:'루이비통 락미 에버 미니 블랙',
+    enName:'Louis Vuitton Lockme Ever Mini Black',
+    brand:'루이비통',
+    enBrand:'Louis Vuitton',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:22,y:10, z:17},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/29/mainImg.png'),
+      require('../../../public/media/products/bag/29/mainImg2.png'),
+      require('../../../public/media/products/bag/29/mainImg3.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/29/detailImg.png'),
+      require('../../../public/media/products/bag/29/detailImg2.png'),
+      require('../../../public/media/products/bag/29/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/29/wearingImg.png'),
+//      require('../../../public/media/products/bag/29/wearingImg2.png'),
+//      require('../../../public/media/products/bag/29/wearingImg3.png'),
+//    ],
+  },
+  "30": {
+    id: 30,
+    modelNumber:'W1292L97BLPL',
+    name:'더 로우 테라스 백 레더 블랙',
+    enName:'The Row Terrasse Bag in Leather Black',
+    brand:'더 로우',
+    enBrand:'The Row',
+    category: "6",
+    subCategory: {id:3, title: "숄더백", img: "shoulderbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:40,y:18, z:20},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/30/mainImg.png'),
+      require('../../../public/media/products/bag/30/mainImg2.png'),
+      require('../../../public/media/products/bag/30/mainImg3.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/30/detailImg.png'),
+      require('../../../public/media/products/bag/30/detailImg2.png'),
+      require('../../../public/media/products/bag/30/detailImg3.png'),
+    ],
+    wearingImg:[
+      require('../../../public/media/products/bag/30/wearingImg.png'),
+      require('../../../public/media/products/bag/30/wearingImg2.png'),
+    ],
+  },
+  "31": {
+    id: 31,
+    modelNumber:'680218VCQC48425',
+    name:'보테가 베네타 스몰 레더 카세트 버킷백 블랙',
+    enName:'Bottega Veneta Small Leather Cassette Bucket Bag Black',
+    brand:'보테가 베네타',
+    enBrand:'Bottega Veneta',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:14,y:14, z:18},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/31/mainImg.png'),
+      require('../../../public/media/products/bag/31/mainImg2.png'),
+      require('../../../public/media/products/bag/31/mainImg3.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/31/detailImg.png'),
+      require('../../../public/media/products/bag/31/detailImg2.png'),
+      require('../../../public/media/products/bag/31/detailImg3.png'),
+    ],
+    wearingImg:[
+      require('../../../public/media/products/bag/31/wearingImg.png'),
+    ],
+  },
+  "32": {
+    id: 32,
+    modelNumber:'1BH204-NZV-F0632',
+    name:'프라다 리에디션 2005 사피아노 레더 숄더백 블랙',
+    enName:'Prada Re-Edition 2005 Saffiano Leather Shoulder Bag Black',
+    brand:'프라다',
+    enBrand:'Prada',
+    category: "6",
+    subCategory: {id:3, title: "숄더백", img: "shoulderbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:22,y:6, z:18},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/32/mainImg.png'),
+      require('../../../public/media/products/bag/32/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/32/detailImg.png'),
+      require('../../../public/media/products/bag/32/detailImg2.png'),
+      require('../../../public/media/products/bag/32/detailImg3.png'),
+    ],
+    wearingImg:[
+      require('../../../public/media/products/bag/32/wearingImg.png'),
+      require('../../../public/media/products/bag/32/wearingImg2.png'),
+    ],
+  },
+  "33": {
+    id: 33,
+    modelNumber:'118703GGT-38NO',
+    name:'셀린느 백팩 보니 스무스 카프스킨 블랙',
+    enName:'Celine Backpack Bonnie in Smooth Calfskin Black',
+    brand:'셀린느',
+    enBrand:'Celine',
+    category: "6",
+    subCategory: {id:2, title: "백팩", img: "backpack" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:18,y:13, z:25},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/33/mainImg.png'),
+      require('../../../public/media/products/bag/33/mainImg2.png'),
+      require('../../../public/media/products/bag/33/mainImg3.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/33/detailImg.png'),
+      require('../../../public/media/products/bag/33/detailImg2.png'),
+      require('../../../public/media/products/bag/33/detailImg3.png'),
+    ],
+    wearingImg:[
+      require('../../../public/media/products/bag/33/wearingImg.png'),
+      require('../../../public/media/products/bag/33/wearingImg2.png'),
+      require('../../../public/media/products/bag/33/wearingImg3.png'),
+    ],
+  },
+  "34": {
+    id: 34,
+    modelNumber:'5BP078 N88 F0002',
+    name:'미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 블랙',
+    enName:'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag Black',
+    brand:'미우 미우',
+    enBrand:'Miu Miu',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:17.5,y:5.5, z:14},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/34/mainImg.png'),
+      require('../../../public/media/products/bag/34/mainImg2.png'),
+      require('../../../public/media/products/bag/34/mainImg3.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/34/detailImg.png'),
+      require('../../../public/media/products/bag/34/detailImg2.png'),
+      require('../../../public/media/products/bag/34/detailImg3.png'),
+    ],
+    wearingImg:[
+      require('../../../public/media/products/bag/34/wearingImg.png'),
+      require('../../../public/media/products/bag/34/wearingImg2.png'),
+    ],
+  },
+  "35": {
+    id: 35,
+    modelNumber:'M58916',
+    name:'루이비통 쁘띠뜨 팔레 모노그램 앙프렝뜨 블랙',
+    enName:'Louis Vuitton Petit Palais Monogram Empreinte Black',
+    brand:'루이비통',
+    enBrand:'Louis Vuitton',
+    category: "6",
+    subCategory: {id:3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:28,y:12.5, z:20},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/35/mainImg.png'),
+      require('../../../public/media/products/bag/35/mainImg2.png'),
+      require('../../../public/media/products/bag/35/mainImg3.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/35/detailImg.png'),
+      require('../../../public/media/products/bag/35/detailImg2.png'),
+      require('../../../public/media/products/bag/35/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/35/wearingImg.png'),
+//      require('../../../public/media/products/bag/35/wearingImg2.png'),
+//    ],
+  },
+  "36": {
+    id: 36,
+    modelNumber:'1N204M-R064-F0002',
+    name:'프라다 리에디션 2005 리나일론 앤 사피아노 미니백 블랙',
+    enName:'Prada Re-Edition 2005 Re-Nylon and Saffiano Mini Bag Black',
+    brand:'프라다',
+    enBrand:'Prada',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:22,y:6, z:18},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/36/mainImg.png'),
+      require('../../../public/media/products/bag/36/mainImg2.png'),
+      require('../../../public/media/products/bag/36/mainImg3.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/36/detailImg.png'),
+      require('../../../public/media/products/bag/36/detailImg2.png'),
+      require('../../../public/media/products/bag/36/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/36/wearingImg.png'),
+//      require('../../../public/media/products/bag/36/wearingImg2.png'),
+//    ],
+  },
+  "37": {
+    id: 37,
+    modelNumber:'1BA217-2ERX-F0002',
+    name:'프라다 스몰 사피아노 레더 파니에백 블랙',
+    enName:'Prada Small Saffiano Leather Panier Bag Black',
+    brand:'프라다',
+    enBrand:'Prada',
+    category: "6",
+    subCategory: {id:3, title: "숄더백", img: "shoulderbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:18,y:10.5, z:17},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/37/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/37/detailImg.png'),
+      require('../../../public/media/products/bag/37/detailImg2.png'),
+      require('../../../public/media/products/bag/37/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/37/wearingImg.png'),
+//      require('../../../public/media/products/bag/37/wearingImg2.png'),
+//    ],
+  },
+  "38": {
+    id: 38,
+    modelNumber:'BG0001-LL095-999',
+    name:'르메르 미디움 크루아상 백 소프트 나파 레더 블랙',
+    enName:'Lemaire Medium Croissant Bag Soft Nappa Leather Black',
+    brand:'르메르',
+    enBrand:'Lemaire',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:47,y:7, z:22},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/38/mainImg.png'),
+      require('../../../public/media/products/bag/38/mainImg2.png'),
+      require('../../../public/media/products/bag/38/mainImg3.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/38/detailImg.png'),
+      require('../../../public/media/products/bag/38/detailImg2.png'),
+      require('../../../public/media/products/bag/38/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/38/wearingImg.png'),
+//      require('../../../public/media/products/bag/38/wearingImg2.png'),
+//    ],
+  },
+  "39": {
+    id: 39,
+    modelNumber:'SA3UI0008P4455T8013',
+    name:'메종 마르지엘라 포 스티치 체인 플랩 지갑 블랙',
+    enName:'Maison Margiela Four Stitches Chain Flap Wallet Black',
+    brand:'메종 마르지엘라',
+    enBrand:'Maison Margiela',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:19,y:4, z:11},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/39/mainImg.png'),
+      require('../../../public/media/products/bag/39/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/39/detailImg.png'),
+      require('../../../public/media/products/bag/39/detailImg2.png'),
+      require('../../../public/media/products/bag/39/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/39/wearingImg.png'),
+//      require('../../../public/media/products/bag/39/wearingImg2.png'),
+//    ],
+  },
+  "40": {
+    id: 40,
+    modelNumber:'P0T83HPF0NO',
+    name:'발렌티노 브이로고 시그니쳐 나파 체인 미니 버킷백 블랙',
+    enName:'Valentino Vlogo Signature Nappa Mini Bucket Bag with Chain Black',
+    brand:'발렌티노',
+    enBrand:'Valentino',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:20,y:8.5, z:17},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/40/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/40/detailImg.png'),
+      require('../../../public/media/products/bag/40/detailImg2.png'),
+      require('../../../public/media/products/bag/40/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/40/wearingImg.png'),
+//      require('../../../public/media/products/bag/40/wearingImg2.png'),
+//    ],
+  },
+  "41": {
+    id: 41,
+    modelNumber:'1ADPO093YKY-H28E',
+    name:'디올 새들백 베이지 & 블랙 디올 오블리크 자카드',
+    enName:'Dior Saddle Bag Beige & Black Dior Oblique Jacquard',
+    brand:'디올',
+    enBrand:'Dior',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:19.5,y:5.5, z:15},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/41/mainImg.png'),
+      require('../../../public/media/products/bag/41/mainImg2.png'),
+      require('../../../public/media/products/bag/41/mainImg3.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/41/detailImg.png'),
+      require('../../../public/media/products/bag/41/detailImg2.png'),
+      require('../../../public/media/products/bag/41/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/41/wearingImg.png'),
+//      require('../../../public/media/products/bag/41/wearingImg2.png'),
+//    ],
+  },
+  "42": {
+    id: 42,
+    modelNumber:'MAC083A-00198-001',
+    name:'톰브라운 RWB 스트랩 미디움 폴리오 클러치 블랙',
+    enName:'Thom Browne RWB Strap Medium Folio Clutch Black',
+    brand:'톰브라운',
+    enBrand:'Thom Browne',
+    category: "6",
+    subCategory: {id:6, title: "클러치", img: "clutch" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:30,y:2, z:22},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/42/mainImg.png'),
+      require('../../../public/media/products/bag/42/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/42/detailImg.png'),
+      require('../../../public/media/products/bag/42/detailImg2.png'),
+      require('../../../public/media/products/bag/42/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/42/wearingImg.png'),
+//      require('../../../public/media/products/bag/42/wearingImg2.png'),
+//    ],
+  },
+  "43": {
+    id: 43,
+    modelNumber:'666688VMAY19009',
+    name:'보테가 베네타 미니 레더 카세트백 화이트',
+    enName:'Bottega Veneta Mini Leather Cassette White',
+    brand:'보테가 베네타',
+    enBrand:'Bottega Veneta',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:18,y:5, z:10},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/43/mainImg.png'),
+      require('../../../public/media/products/bag/43/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/43/detailImg.png'),
+      require('../../../public/media/products/bag/43/detailImg2.png'),
+      require('../../../public/media/products/bag/43/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/43/wearingImg.png'),
+//      require('../../../public/media/products/bag/43/wearingImg2.png'),
+//    ],
+  },
+  "44": {
+    id: 44,
+    modelNumber:'M58009',
+    name:'루이비통 미니 포쉐트 악세수아 모노그램',
+    enName:'Louis Vuitton Mini Pochette Accessoires Monogram',
+    brand:'루이비통',
+    enBrand:'Louis Vuitton',
+    category: "6",
+    subCategory: {id:1, title: "미니백", img: "minibag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:15.5,y:4, z:10.5},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/44/mainImg.png'),
+      require('../../../public/media/products/bag/44/mainImg2.png'),
+      require('../../../public/media/products/bag/44/mainImg3.png'),
+      require('../../../public/media/products/bag/44/mainImg4.png'),
+      require('../../../public/media/products/bag/44/mainImg5.png'),
+      require('../../../public/media/products/bag/44/mainImg6.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/44/detailImg.png'),
+      require('../../../public/media/products/bag/44/detailImg2.png'),
+      require('../../../public/media/products/bag/44/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/44/wearingImg.png'),
+//      require('../../../public/media/products/bag/44/wearingImg2.png'),
+//    ],
+  },
+  "45": {
+    id: 45,
+    modelNumber:'743383 1VG9Y',
+    name:'발렌시아가 르카골 미디엄 더플 백',
+    enName:' BALENCIAGA Black Le Cagole M bag',
+    brand:'발렌시아가',
+    enBrand:'BALENCIAGA',
+    category: "6",
+    subCategory: {id:7, title: "더플백", img: "dufflebag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+//      size:[
+//        {unit:'free',x:15.5,y:4, z:10.5},
+//      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/45/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/45/detailImg.png'),
+      require('../../../public/media/products/bag/45/detailImg2.png'),
+      require('../../../public/media/products/bag/45/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/45/wearingImg.png'),
+//      require('../../../public/media/products/bag/45/wearingImg2.png'),
+//    ],
+  },
+  "46": {
+    id: 46,
+    modelNumber:'447632-DTD1T-1000',
+    name:'구찌 GG 마몽 마틀라세 스몰 체인 숄더백 블랙',
+    enName:'Gucci GG Marmont Matelasse Small Chain Shoulder Bag Black',
+    brand:'구찌',
+    enBrand:'Gucci',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:24,y:7, z:14},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/46/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/46/detailImg.png'),
+      require('../../../public/media/products/bag/46/detailImg2.png'),
+      require('../../../public/media/products/bag/46/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/46/wearingImg.png'),
+//      require('../../../public/media/products/bag/46/wearingImg2.png'),
+//    ],
+  },
+  "47": {
+    id: 47,
+    modelNumber:'SB1WG0021P4300T8013',
+    name:'메종 마르지엘라 글램 슬램 호보 마이크로 블랙',
+    enName:'Maison Margiela Glam Slam Hobo Micro Black',
+    brand:'메종 마르지엘라',
+    enBrand:'Maison Margiela',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:19,y:6, z:`10~14`},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/47/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/47/detailImg.png'),
+      require('../../../public/media/products/bag/47/detailImg2.png'),
+      require('../../../public/media/products/bag/47/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/47/wearingImg.png'),
+//      require('../../../public/media/products/bag/47/wearingImg2.png'),
+//    ],
+  },
+  "48": {
+    id: 48,
+    modelNumber:'M83113',
+    name:'루이비통 락커 돕 키트 모노그램 이클립스',
+    enName:'Louis Vuitton Locker Dopp Kit Monogram Eclipse',
+    brand:'루이비통',
+    enBrand:'Louis Vuitton',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:23,y:11, z:12},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/48/mainImg.png'),
+      require('../../../public/media/products/bag/48/mainImg2.png'),
+      require('../../../public/media/products/bag/48/mainImg3.png'),
+      require('../../../public/media/products/bag/48/mainImg4.png'),
+      require('../../../public/media/products/bag/48/mainImg5.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/48/detailImg.png'),
+      require('../../../public/media/products/bag/48/detailImg2.png'),
+      require('../../../public/media/products/bag/48/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/48/wearingImg.png'),
+//      require('../../../public/media/products/bag/48/wearingImg2.png'),
+//    ],
+  },
+  "49": {
+    id: 49,
+    modelNumber:'2ZH108-2DMH-F0002',
+    name:'프라다 리나일론 앤 사피아노 레더 스마트폰 케이스 블랙',
+    enName:'Prada Re-Nylon and Saffiano Leather Smartphone Case Black',
+    brand:'프라다',
+    enBrand:'Prada',
+    category: "6",
+    subCategory: {id:5, title: "크로스백", img: "crossbag" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:18,y:2.5, z:12.5},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/49/mainImg.png'),
+      require('../../../public/media/products/bag/49/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/49/detailImg.png'),
+      require('../../../public/media/products/bag/49/detailImg2.png'),
+      require('../../../public/media/products/bag/49/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/49/wearingImg.png'),
+//      require('../../../public/media/products/bag/49/wearingImg2.png'),
+//    ],
+  },
+  "50": {
+    id: 50,
+    modelNumber:'APMSENAT2-MM-01',
+    name:'고야드 세나 포쉐트 MM 블랙',
+    enName:'Goyard Senat Pochette MM Black',
+    brand:'고야드',
+    enBrand:'Goyard',
+    category: "6",
+    subCategory: {id:6, title: "클러치", img: "clutch" },
+    sizeData: {
+      type:'bag',
+      img:require('../../../public/media/productDetail/bag_size.png'),
+      size:[
+        {unit:'free',x:18,y:2.5, z:12.5},
+      ]
+    },
+    mainImg:[
+      require('../../../public/media/products/bag/50/mainImg.png'),
+      require('../../../public/media/products/bag/50/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/bag/50/detailImg.png'),
+      require('../../../public/media/products/bag/50/detailImg2.png'),
+      require('../../../public/media/products/bag/50/detailImg3.png'),
+    ],
+//    wearingImg:[
+//      require('../../../public/media/products/bag/50/wearingImg.png'),
+//      require('../../../public/media/products/bag/50/wearingImg2.png'),
+//    ],
   },
 }

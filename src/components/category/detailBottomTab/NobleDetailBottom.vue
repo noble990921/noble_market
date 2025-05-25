@@ -42,7 +42,7 @@
               <i class="el-icon-picture-outline"></i> 포토 구매평만 보기
             </p>
           </div>
-          <p class="review_make">리뷰작성</p>
+          <p @click="reviewWrite" class="review_make">리뷰작성</p>
         </div>
         <div class="review_box" v-if="productReviews.length">
           <div class="review_content" v-for="review in productReviews" :key="review.id" >
@@ -130,6 +130,7 @@
   import {CATEGORY_CODE_TO_NAME} from "../../../constants/Set"
   import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
   import 'swiper/css/swiper.css'
+  import {mapGetters} from "vuex";
 
   export default {
     name: "NobleDetailBottom",
@@ -138,6 +139,7 @@
       swiperSlide: SwiperSlide
     },
     computed: {
+      ...mapGetters("auth", ["isLogin", "user"]),
       averageRating() {
         if (!this.productReviews.length) return 0;
         const total = this.productReviews.reduce((sum, r) => sum + r.rating, 0);
@@ -187,6 +189,13 @@
       }
     },
     methods: {
+      reviewWrite(){
+        if(this.isLogin){
+          this.$alert('구매자만 리뷰를 작성할수있습니다.')
+        }else{
+          this.$alert('로그인 후 이용가능합니다.')
+        }
+      },
       goToProductDetail(item) {
         const categoryName = CATEGORY_CODE_TO_NAME[item.category];
         this.$router.push(`/${categoryName}/detail/${item.id}`);
