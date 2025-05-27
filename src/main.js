@@ -47,3 +47,17 @@ new Vue({
   store,
   render: h => h(App),
 }).$mount('#app')
+
+
+// F12, Ctrl+Shift+I 차단
+//document.addEventListener('keydown', function (e) {
+//  if ((e.ctrlKey && e.shiftKey && e.key === 'I') || e.key === 'F12') {
+//    e.preventDefault();
+////    alert('개발자 도구 차단됨');
+//    return;
+//  }
+//});
+//// 마우스 우클릭 차단
+//document.addEventListener('contextmenu', function (e) {
+//  e.preventDefault();
+//});

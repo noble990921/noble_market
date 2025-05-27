@@ -92,12 +92,19 @@ export const SET_PRODUCT_BRAND = {
 //    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
 //    img: require('@/assets/images/home/section7/brand_logo9.png'),
   },"15": {
-    id: 14,
-    enName: "생로랑",
-    koName: "Saint Laurent",
+    id: 15,
+    enName: "Saint Laurent",
+    koName: "생로랑",
+//    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
+//    img: require('@/assets/images/home/section7/brand_logo9.png'),
+  },"16": {
+    id: 16,
+    enName: "Homme",
+    koName: "옴므",
 //    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
 //    img: require('@/assets/images/home/section7/brand_logo9.png'),
   },
+
 };
 
 export const SET_CATEGORY_MAP = {

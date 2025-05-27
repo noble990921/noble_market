@@ -32,6 +32,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/1/wearingImg.png'),
       require('../../../public/media/products/bag/1/wearingImg2.png'),
     ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 스위프트 가죽 사용',
+        content:'정품과 동일한 프랑스산 스위프트 레더. 촉감과 광택까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'스티치 간격과 흐름까지 정품 기준으로 전 공정 핸드메이드 제작.'
+      },{
+        title:'에르메스 로고 정품 동일 각인',
+        content:'위치·소재·깊이까지 정품 사양 그대로 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'재질과 디자인은 물론, 컬러와 타이포까지 완벽 구현.'
+      },{
+        title:'무광 팔라디움 실버 하드웨어 사용',
+        content:'자물쇠, 버클 등 모든 하드웨어를 정품과 동일한 무광 실버로 제작.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'톤온톤 안감, 포켓 구성, 마감까지 정품 그대로 적용.'
+      },
+    ]
   },
   "2": {
     id: 2,
@@ -63,6 +85,28 @@ export const PRODUCTS = {
 ////      require('../../../public/media/products/bag/1/wearingImg.png'),
 ////      require('../../../public/media/products/bag/1/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 토고 가죽 사용',
+        content:'정품과 동일한 프랑스산 토고 레더. 견고한 입체감과 자연스러운 텍스처까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'스티치 간격과 흐름까지 정품 기준에 맞춘 전 공정 핸드메이드 작업.'
+      },{
+        title:'에르메스 로고 정품 동일 각인',
+        content:'로고의 위치, 깊이, 소재까지 정품 사양 그대로 재현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'벌킨 전용 택을 동일한 재질과 디자인, 타이포 구성으로 정밀 구현.'
+      },{
+        title:'유광 골드 하드웨어 사용',
+        content:'자물쇠, 클로슈, 버클 등 모든 부자재를 정품과 동일한 유광 골드 톤으로 제작.'
+      },{
+        title:'에토프 쉐브르 안감 및 내부 구성 동일 구현',
+        content:'정품과 동일한 에토프 컬러 쉐브르 안감 사용. 내부 포켓 구성과 마감 처리까지 정밀하게 재현.'
+      },
+    ]
   },
   "3": {
     id: 3,
@@ -99,6 +143,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/3/wearingImg2.png'),
       require('../../../public/media/products/bag/3/wearingImg3.png'),
     ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 빈티지 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 빈티지 가공 카프스킨. 유연한 질감과 자연스러운 에이징감까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'스티치 간격과 라인 흐름까지 정품 기준으로 수작업 완성.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'더블 C 로고 각인을 포함한 금속 디테일, 정품과 동일한 위치·깊이·소재로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'샤넬 전용 택을 동일한 재질과 구성으로 완성. 타이포와 소재감까지 정품 수준 재현.'
+      },{
+        title:'골드 & 실버 믹스 하드웨어 사용',
+        content:'가브리엘 특유의 골드·실버 혼합 체인과 하드웨어를 정품과 동일한 무게감·톤으로 정교하게 제작.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 블랙 패브릭 안감 사용. 내부 포켓 구성과 마감 처리까지 정확히 반영.'
+      },
+    ]
   },
   "4": {
     id: 4,
@@ -131,6 +197,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/4/wearingImg2.png'),
       require('../../../public/media/products/bag/4/wearingImg3.png'),
     ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 그레인드 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 그레인드 카프스킨. 은은한 광택과 내구성 높은 텍스처까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'스티치 간격, 밀도, 마감선까지 정품 기준에 맞춰 전 공정 수작업으로 완성.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'더블 C 로고를 포함한 하드웨어 각인은 정품과 동일한 위치, 깊이, 소재로 정밀하게 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'샤넬 전용 제품 택을 정품 기준의 재질, 타이포, 레이아웃으로 완벽 재현.'
+      },{
+        title:'유광 골드 메탈 하드웨어 사용',
+        content:'더블 C 락, 체인, 내부 부자재까지 모두 정품과 동일한 유광 골드 톤 하드웨어로 제작.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 버건디 컬러 패브릭 안감 사용. 내부 포켓 구성과 디테일도 정밀 재현.'
+      },
+    ]
   },
   "5": {
     id: 5,
@@ -162,6 +250,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/5/wearingImg2.png'),
 //      require('../../../public/media/products/bag/5/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 그레인드 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 그레인드 카프스킨. 매트한 결감과 청량한 화이트 톤까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'스티치 간격과 곡선 흐름까지 정품 기준으로 전 공정 수작업 완성.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'더블 C 로고 및 하드웨어 각인은 정품과 동일한 위치·깊이·소재로 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'샤넬 화이트 라인 전용 택을 동일한 재질과 레이아웃, 컬러감으로 정밀 재현.'
+      },{
+        title:'유광 골드 메탈 하드웨어 사용',
+        content:'더블 C 락, 체인, 내부 장식 등 모든 부자재를 정품과 동일한 유광 골드 톤으로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'화이트 라인에 사용되는 라이트 베이지 패브릭 안감 적용. 내부 포켓 구성 및 마감까지 정품 그대로 반영.'
+      },
+    ]
   },
   "6": {
     id: 6,
@@ -196,6 +306,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/6/wearingImg.png'),
       require('../../../public/media/products/bag/6/wearingImg2.png'),
     ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 샤이니 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 샤이니 카프스킨. 부드러운 광택과 유연한 주름감까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'스트링 라인, 외곽 마감 등 모든 스티치를 정품 기준에 따라 전 공정 수작업으로 구현.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'전면 골드 메탈 샤넬 로고와 내부 부자재 각인을 정품과 동일한 위치·소재·깊이로 정교하게 재현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'샤넬 22백 전용 택을 동일한 재질·사이즈·타이포로 구성. 소재감까지 정품과 일치.'
+      },{
+        title:'유광 골드 메탈 하드웨어 사용',
+        content:'체인 스트랩, 로고 장식, 내부 디테일까지 모두 정품과 동일한 유광 골드 메탈로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 블랙 패브릭 안감 사용. 내부 오픈 포켓, 지퍼 디테일까지 정확히 반영.'
+      },
+    ]
   },
   "7": {
     id: 7,
@@ -231,6 +363,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/7/wearingImg2.png'),
       require('../../../public/media/products/bag/7/wearingImg3.png'),
     ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 램스킨 사용',
+        content:'정품과 동일한 프랑스산 램스킨. 부드러운 촉감과 자연스러운 광택까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'플랩, 가장자리, 퀼팅 라인까지 정품 기준에 맞춰 전 공정 핸드메이드로 제작.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'더블 C 락과 내부 하드웨어 각인을 정품과 동일한 위치·소재·깊이로 정교하게 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'샤넬 미니 라인 전용 택을 동일한 재질, 타이포, 구성으로 정밀 제작.'
+      },{
+        title:'유광 골드 메탈 하드웨어 사용',
+        content:'더블 C 락, 체인 스트랩 등 모든 금속 부자재를 정품과 동일한 유광 골드 톤으로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 블랙 램스킨 안감 사용. 내부 포켓 구성과 마감 디테일까지 정확히 반영.'
+      },
+    ]
   },
   "8": {
     id: 8,
@@ -263,6 +417,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/7/wearingImg2.png'),
 //      require('../../../public/media/products/bag/7/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 그레인드 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 그레인드 카프스킨. 견고한 질감과 고급스러운 결감까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'플랩, 퀼팅 라인, 테두리까지 정품 기준에 따라 전 공정 수작업으로 완성.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'더블 C 락 및 내부 하드웨어 각인을 정품과 동일한 위치·소재·깊이로 정교하게 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'샤넬 클래식 라인 전용 택을 동일한 재질과 구성, 타이포까지 정밀 재현.'
+      },{
+        title:'유광 실버 메탈 하드웨어 사용',
+        content:'더블 C 락, 체인 스트랩 등 모든 금속 부자재를 정품과 동일한 유광 실버 톤으로 제작.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 버건디 컬러 레더 안감 사용. 내부 포켓과 마감 디테일까지 정확히 반영.'
+      },
+    ]
   },
   "9": {
     id: 9,
@@ -295,6 +471,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/7/wearingImg2.png'),
 //      require('../../../public/media/products/bag/7/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 샤이니 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 샤이니 카프스킨. 유연한 텍스처와 자연스러운 광택까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'스트링 라인과 외곽 마감까지 정품 기준에 따라 전 공정 핸드메이드로 완성.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'전면 골드 메탈 로고와 내부 하드웨어 각인을 정품과 동일한 위치·소재·깊이로 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'샤넬 22백 전용 택을 동일한 재질·사이즈·타이포로 구성. 소재감까지 정품 기준으로 구현.'
+      },{
+        title:'유광 골드 메탈 하드웨어 사용',
+        content:'체인 스트랩, 로고 장식 등 모든 금속 부자재를 정품과 동일한 유광 골드 메탈로 제작.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 블랙 패브릭 안감 사용. 내부 포켓, 지퍼 디테일까지 정밀 재현.'
+      },
+    ]
   },
   "10": {
     id: 10,
@@ -329,6 +527,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/7/wearingImg2.png'),
 //      require('../../../public/media/products/bag/7/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 클레망스 가죽 사용',
+        content:'정품과 동일한 프랑스산 클레망스 레더. 부드러운 질감과 텍스처, 유연한 드레이프감까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'H 펀칭 라인과 테두리 마감까지 정품 기준에 따라 전 공정 핸드메이드로 완성.'
+      },{
+        title:'에르메스 로고 정품 동일 각인',
+        content:'스트랩 연결부 및 하드웨어에 각인된 에르메스 로고를 정품과 동일한 깊이·위치·소재로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'에블린 라인 전용 제품 택을 동일한 재질, 타이포, 레이아웃으로 구성해 정품 퀄리티 재현.'
+      },{
+        title:'유광 골드 하드웨어 사용',
+        content:'스트랩 연결 고리, 버튼 등 모든 금속 부자재를 정품과 동일한 유광 골드 톤으로 제작.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 스웨이드 안감 사용. 내부 마감 및 단면 구조까지 정확하게 반영.'
+      },
+    ]
   },
   "11": {
     id: 11,
@@ -364,6 +584,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/7/wearingImg2.png'),
 //      require('../../../public/media/products/bag/7/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 그레인드 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 그레인드 카프스킨. 촘촘한 텍스처와 고급스러운 무광 결감까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'플랩, 퀼팅 라인, 탑 핸들 주변까지 정품 기준에 따라 전 공정 핸드메이드로 제작.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'더블 C 락과 핸들 베이스 하드웨어에 정품과 동일한 위치·깊이·소재로 각인 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'샤넬 탑 핸들 라인 전용 택을 동일한 재질과 구성, 타이포까지 완벽하게 구현.'
+      },{
+        title:'유광 골드 메탈 하드웨어 사용',
+        content:'체인 스트랩, 더블 C 락, 핸들 연결 부자재까지 모두 정품과 동일한 유광 골드 톤으로 제작.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 버건디 컬러 패브릭 안감 사용. 내부 포켓 구성과 마감 디테일까지 정밀하게 반영.'
+      },
+    ]
   },
   "12": {
     id: 12,
@@ -399,6 +641,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/12/wearingImg.png'),
       require('../../../public/media/products/bag/12/wearingImg2.png'),
     ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 빈티지 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 빈티지 가공 카프스킨. 유연한 텍스처와 광택, 에이징감까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'바디 라인, 지퍼 테두리, 바닥 곡선까지 정품 기준에 맞춰 전 공정 수작업으로 완성.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'더블 C 로고, 지퍼 풀러, 내부 하드웨어 각인을 정품과 동일한 위치·소재·깊이로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'가브리엘 호보 라인 전용 택을 동일한 재질, 구성, 타이포까지 정품 기준으로 재현.'
+      },{
+        title:'유광 골드 메탈 하드웨어 사용',
+        content:'혼합 체인 스트랩과 금속 장식 모두 정품과 동일한 유광 골드 메탈로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 레드 패브릭 안감 사용. 내부 포켓 구성과 마감 디테일까지 정밀 재현.'
+      },
+    ]
   },
   "13": {
     id: 13,
@@ -434,6 +698,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/13/wearingImg2.png'),
       require('../../../public/media/products/bag/13/wearingImg3.png'),
     ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 샤이니 빈티지 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 샤이니 빈티지 카프스킨. 주름결과 은은한 광택, 에이징 텍스처까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'가방 외곽 라인과 손잡이 연결부까지 정품 기준에 따라 전 공정 핸드메이드로 완성.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'전면 골드 메탈 로고 및 내부 금속 디테일 각인을 정품과 동일한 위치·소재·깊이로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'미니 쇼핑백 라인 전용 택을 동일한 재질, 타이포, 구성으로 완벽하게 구현.'
+      },{
+        title:'유광 골드 메탈 하드웨어 사용',
+        content:'체인 스트랩, 로고 장식, 연결 고리 등 모든 금속 부자재를 정품과 동일한 유광 골드 톤으로 제작.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 블랙 패브릭 안감 사용. 내부 수납 구조와 마감 디테일까지 정밀 재현.'
+      },
+    ]
   },
   "14": {
     id: 14,
@@ -467,6 +753,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/14/wearingImg2.png'),
 //      require('../../../public/media/products/bag/14/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 토고 가죽 사용',
+        content:'정품과 동일한 프랑스산 토고 레더. 자연스러운 입체 결감과 탄탄한 질감, 은은한 광택까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'플랩, 바디, 손잡이 라인까지 정품 기준에 따라 전 공정 핸드메이드로 섬세하게 완성.'
+      },{
+        title:'에르메스 로고 정품 동일 각인',
+        content:'플랩 하단 로고, 패드락, 클로슈 등 하드웨어 각인을 정품과 동일한 위치·소재·깊이로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'버킨 25 전용 택을 동일한 재질, 구성, 타이포까지 정품 기준으로 완벽 구현.'
+      },{
+        title:'유광 골드 하드웨어 사용',
+        content:'락 장식, 키 커버, 버클 등 모든 금속 부자재를 정품과 동일한 유광 골드 톤으로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 토노톤 스위프트 안감 사용. 내부 포켓 배치와 마감 디테일까지 정확하게 반영.'
+      },
+    ]
   },
   "15": {
     id: 15,
@@ -506,6 +814,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/15/wearingImg2.png'),
 //      require('../../../public/media/products/bag/15/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 네곤다 가죽 사용',
+        content:'정품과 동일한 프랑스산 네곤다 레더. 탄탄한 질감과 은은한 유분감, 균일한 엠보 텍스처까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'바디 라인, 핸들 연결부, 측면 버튼라인까지 정품 기준에 맞춰 전 공정 핸드메이드로 완성.'
+      },{
+        title:'에르메스 로고 정품 동일 각인',
+        content:'입구 스냅 버튼과 내부 금속 디테일의 로고 각인을 정품과 동일한 위치·소재·깊이로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'가든 파티 전용 제품 택을 동일한 재질, 타이포, 구성으로 완벽하게 구현.'
+      },{
+        title:'무광 팔라듐 하드웨어 사용',
+        content:'사이드 버튼, 스냅 클로저 등 모든 금속 부자재를 정품과 동일한 무광 팔라듐 톤으로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 캔버스 안감 사용. 내부 수납 구조와 마감 디테일까지 정밀 재현.'
+      },
+    ]
   },
   "16": {
     id: 16,
@@ -541,6 +871,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/16/wearingImg2.png'),
       require('../../../public/media/products/bag/16/wearingImg3.png'),
     ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 그레인드 샤이니 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 그레인드 샤이니 카프스킨. 은은한 광택과 견고한 질감, 텍스처까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'플랩, 바디 라인, 스트랩 고정부까지 정품 기준에 맞춰 전 공정 수작업으로 완성.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'더블 C 락과 내부 하드웨어 각인을 정품과 동일한 위치·소재·깊이로 정밀하게 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'샤넬 백팩 라인 전용 택을 동일한 재질, 타이포, 구성으로 완벽하게 재현.'
+      },{
+        title:'유광 골드 메탈 하드웨어 사용',
+        content:'체인 스트랩, 더블 C 장식, 버클 등 모든 금속 부자재를 정품과 동일한 유광 골드 톤으로 제작.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 블랙 패브릭 안감 사용. 내부 포켓 구성과 스트링 구조까지 정밀하게 재현.'
+      },
+    ]
   },
   "17": {
     id: 17,
@@ -573,6 +925,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/17/wearingImg2.png'),
       require('../../../public/media/products/bag/17/wearingImg3.png'),
     ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 샤이니 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 샤이니 카프스킨. 부드러운 질감과 자연스러운 광택, 주름감까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'스트링 라인, 바디 외곽, 체인 고정부까지 정품 기준에 따라 전 공정 수작업으로 완성.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'전면 실버 메탈 로고 및 내부 하드웨어 각인을 정품과 동일한 위치·소재·깊이로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'샤넬 22백 전용 택을 동일한 재질, 구성, 타이포까지 정품 기준으로 완벽하게 재현.'
+      },{
+        title:'유광 실버 메탈 하드웨어 사용',
+        content:'스트랩 체인, 로고 장식, 내부 디테일까지 정품과 동일한 유광 실버 메탈로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 블랙 패브릭 안감 사용. 내부 포켓 구성과 스트링 여밈 구조까지 정확하게 재현.'
+      },
+    ]
   },
   "18": {
     id: 18,
@@ -606,6 +980,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/18/wearingImg2.png'),
 //      require('../../../public/media/products/bag/18/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 H 베를린 캔버스 사용',
+        content:'정품과 동일한 프랑스산 H 베를린 캔버스. 단단한 짜임과 매트한 표면감, 탄탄한 내구성까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'플랩 가장자리, 바디 테두리, 손잡이 라인까지 정품 기준에 따라 전 공정 수작업으로 완성.'
+      },{
+        title:'에르메스 로고 정품 동일 각인',
+        content:'플랩 하단 로고, 지퍼 풀러, 내부 하드웨어 각인을 정품과 동일한 위치·소재·깊이로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'에르백 전용 택을 동일한 재질과 타이포, 구성으로 정품 사양에 맞춰 완벽 구현.'
+      },{
+        title:'무광 팔라듐 하드웨어 사용',
+        content:'지퍼, 버클, 스트랩 연결 부자재 등 모든 금속 요소를 정품과 동일한 무광 팔라듐 톤으로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 에크류 캔버스 안감 사용. 내부 포켓, 스냅 디테일, 여밈 구조까지 정확하게 반영.'
+      },
+    ]
   },
   "19": {
     id: 19,
@@ -640,6 +1036,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/19/wearingImg2.png'),
 //      require('../../../public/media/products/bag/19/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 오블리크 자카드 원단 사용',
+        content:'정품과 동일한 프랑스산 디올 오블리크 자카드. 촘촘한 직조감과 컬러톤, 입체 텍스처까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'파우치 외곽, 숄더 스트랩 연결부, 테두리 라인까지 정품 기준에 맞춰 전 공정 수작업으로 완성.'
+      },{
+        title:'디올 로고 정품 동일 각인',
+        content:'프론트 가죽 탭, 지퍼 풀러, 내부 메탈 디테일까지 정품과 동일한 위치·소재·깊이로 각인 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'디올 오블리크 라인 전용 택을 동일한 재질, 타이포, 구성으로 정품 기준에 맞춰 완벽하게 구현.'
+      },{
+        title:'무광 실버 하드웨어 사용',
+        content:'지퍼, 연결 고리, 스트랩 금속 부자재 모두 정품과 동일한 무광 실버 톤으로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 블랙 패브릭 안감 사용. 내부 수납 구조, 포켓 구성, 마감 디테일까지 정밀 재현.'
+      },
+    ]
   },
   "20": {
     id: 20,
@@ -672,6 +1090,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/20/wearingImg2.png'),
 //      require('../../../public/media/products/bag/20/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 오블리크 자카드 원단 사용',
+        content:'정품과 동일한 프랑스산 디올 오블리크 자카드. 선명한 패턴, 매트한 짜임, 베이지·블랙 톤까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'파우치 외곽, 지퍼 테두리, 가죽 트리밍까지 정품 기준에 따라 전 공정 수작업으로 완성.'
+      },{
+        title:'디올 로고 정품 동일 각인',
+        content:'프론트 가죽 탭 및 지퍼 풀러의 로고 각인을 정품과 동일한 위치·소재·깊이로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'디올 A4 파우치 전용 택을 동일한 재질, 구성, 타이포까지 정품 기준으로 완벽하게 재현.'
+      },{
+        title:'무광 실버 하드웨어 사용',
+        content:'지퍼, 고리 등 금속 부자재를 정품과 동일한 무광 실버 톤으로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 블랙 패브릭 안감 사용. 서류 수납에 적합한 내부 구조와 마감 디테일까지 정확하게 반영.'
+      },
+    ]
   },
   "21": {
     id: 21,
@@ -703,6 +1143,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/21/wearingImg2.png'),
 //      require('../../../public/media/products/bag/21/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 트리옹프 캔버스 사용',
+        content:'정품과 동일한 프랑스산 트리옹프 캔버스. 클래식 패턴과 톤 다운 컬러감, 매트한 텍스처까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'핸들 연결부, 측면 라인, 테두리 트리밍까지 정품 기준에 따라 전 공정 수작업으로 완성.'
+      },{
+        title:'셀린느 로고 정품 동일 프린트',
+        content:'전면 화이트 레터링 로고를 정품과 동일한 비율·질감·배치로 프린트 처리하여 완성도 높게 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'미니 카바스 라인 전용 제품 택을 동일한 재질, 타이포, 구성으로 정품 기준에 맞춰 재현.'
+      },{
+        title:'내추럴 텍스처 카프스킨 트리밍',
+        content:'핸들 및 테두리 트리밍은 정품과 동일한 컬러의 탄 카프스킨으로 구성. 결감과 톤까지 정확하게 구현.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 코튼 캔버스 안감 사용. 내부 마감과 스티치 구성까지 섬세하게 재현.'
+      },
+    ]
   },
   "22": {
     id: 22,
@@ -734,6 +1196,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/21/wearingImg2.png'),
 //      require('../../../public/media/products/bag/21/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'이탈리아 수입 오리지널 마이크로 시마 레더 사용',
+        content:'정품과 동일한 이탈리아산 마이크로 시마 엠보 레더. 입체적인 GG 패턴과 질감, 광택까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'바디 라인, 손잡이 연결부, 지퍼 테두리까지 정품 기준에 맞춰 전 공정 수작업으로 완성.'
+      },{
+        title:'구찌 로고 정품 동일 각인',
+        content:'전면 가죽 로고 탭, 지퍼 풀러, 내부 하드웨어 각인을 정품과 동일한 위치·소재·깊이로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'마이크로 시마 미니 돔 라인 전용 택을 동일한 재질, 타이포, 구성으로 정품 기준에 맞춰 제작.'
+      },{
+        title:'유광 실버 메탈 하드웨어 사용',
+        content:'지퍼, 핸들링 고리, D링 등 모든 금속 부자재를 정품과 동일한 유광 실버 톤으로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 라이트 베이지 패브릭 안감 사용. 내부 포켓 구성과 마감 디테일까지 정밀하게 반영.'
+      },
+    ]
   },
   "23": {
     id: 23,
@@ -766,6 +1250,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/21/wearingImg2.png'),
 //      require('../../../public/media/products/bag/21/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 트리옹프 캔버스 사용',
+        content:'정품과 동일한 프랑스산 트리옹프 캔버스. 모노그램 패턴과 텍스처, 탄 컬러 가죽까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'플랩, 스트랩 연결부, 바디 테두리까지 정품 기준에 따라 전 공정 핸드메이드로 섬세하게 마감.'
+      },{
+        title:'셀린느 로고 정품 동일 각인',
+        content:'플랩 중앙 골드 메탈 잠금장치에 정품과 동일한 로고 각인을 위치·깊이·소재 그대로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'틴 룰루 라인 전용 제품 택을 동일한 재질, 구성, 타이포로 정품 기준에 맞춰 완벽하게 재현.'
+      },{
+        title:'내추럴 텍스처 카프스킨 트리밍',
+        content:'플랩과 스트랩, 파이핑 부분은 정품과 동일한 탄 컬러 카프스킨으로 구성. 결감과 톤까지 정확히 반영.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 텍스타일 안감 사용. 메인 수납공간, 내부 포켓, 마감 디테일까지 정밀 재현.'
+      },
+    ]
   },
   "24": {
     id: 24,
@@ -801,6 +1307,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/21/wearingImg2.png'),
 //      require('../../../public/media/products/bag/21/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'이탈리아 수입 오리지널 리나일론 패브릭 사용',
+        content:'정품과 동일한 이탈리아산 리나일론 원단. 매트한 광택과 질감, 리사이클 섬유 특성까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'스트랩 부착부, 지퍼 라인, 바디 테두리까지 정품 기준에 따라 전 공정 핸드메이드로 섬세하게 마감.'
+      },{
+        title:'프라다 로고 정품 동일 각인',
+        content:'전면 에나멜 메탈 트라이앵글 로고 및 지퍼 풀러 각인을 정품과 동일한 위치·소재·깊이로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'리에디션 전용 내부 택을 동일한 재질, 타이포, 라벨 포지션까지 정품 사양에 맞춰 정확히 구현.'
+      },{
+        title:'실버 메탈 하드웨어 사용',
+        content:'지퍼, D링, 로고 프레임 등 모든 금속 부자재를 정품과 동일한 실버 톤으로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 나일론 안감 사용. 내부 수납 공간과 마감 디테일까지 정확하게 재현.'
+      },
+    ]
   },
   "25": {
     id: 25,
@@ -836,6 +1364,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/21/wearingImg2.png'),
 //      require('../../../public/media/products/bag/21/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 샤이니 그레인드 카프스킨 사용',
+        content:'정품과 동일한 프랑스산 샤이니 그레인드 카프스킨. 은은한 광택과 결감, 텍스처까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'플랩, 체인 연결부, 퀼팅 라인까지 정품 기준에 맞춰 전 공정 수작업으로 완성.'
+      },{
+        title:'샤넬 로고 정품 동일 각인',
+        content:'전면 더블 C 락과 내부 하드웨어 각인을 정품과 동일한 위치·소재·깊이로 정밀하게 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'핸드폰 홀더 전용 택을 동일한 재질, 타이포, 구성으로 정품 사양에 맞춰 정확히 재현.'
+      },{
+        title:'유광 골드 메탈 하드웨어 사용',
+        content:'체인 스트랩, 더블 C 락, 내부 금속 디테일까지 정품과 동일한 유광 골드 톤으로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 블랙 패브릭 안감 사용. 카드 슬롯과 간결한 수납 구조까지 정밀 재현.'
+      },
+    ]
   },
   "26": {
     id: 26,
@@ -869,6 +1419,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/26/wearingImg2.png'),
       require('../../../public/media/products/bag/26/wearingImg3.png'),
     ],
+    detailText:[
+      {
+        title:'프랑스 수입 오리지널 디올 오블리크 자카드 사용',
+        content:'정품과 동일한 프랑스산 블랙 디올 오블리크 자카드. 고밀도 직조감과 패턴, 매트한 질감까지 정밀 재현.'
+      },
+      {
+        title:'올 수공 스티치 마감',
+        content:'파우치 외곽, 숄더 스트랩 연결부, 지퍼 테두리까지 정품 기준에 맞춰 전 공정 수작업으로 완성.'
+      },{
+        title:'디올 로고 정품 동일 각인',
+        content:'프론트 가죽 탭, 지퍼 풀러, 내부 금속 디테일 각인을 정품과 동일한 위치·소재·깊이로 정밀 구현.'
+      },{
+        title:'전용 제품 택 정밀 재현',
+        content:'오블리크 파우치 전용 택을 동일한 재질, 구성, 타이포로 정품 기준에 맞춰 완벽하게 재현.'
+      },{
+        title:'무광 실버 메탈 하드웨어 사용',
+        content:'지퍼, 스트랩 연결 고리 등 모든 금속 부자재를 정품과 동일한 무광 실버 톤으로 구성.'
+      },{
+        title:'내부 안감 및 구조 동일 구현',
+        content:'정품과 동일한 블랙 패브릭 안감 사용. 내부 수납 공간, 포켓 구성, 마감 디테일까지 정밀하게 반영.'
+      },
+    ]
   },
   "27": {
     id: 27,
@@ -903,6 +1475,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/27/wearingImg2.png'),
 //      require('../../../public/media/products/bag/27/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "28": {
     id: 28,
@@ -934,6 +1528,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/28/wearingImg2.png'),
 //      require('../../../public/media/products/bag/28/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "29": {
     id: 29,
@@ -966,6 +1582,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/29/wearingImg2.png'),
 //      require('../../../public/media/products/bag/29/wearingImg3.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "30": {
     id: 30,
@@ -997,6 +1635,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/30/wearingImg.png'),
       require('../../../public/media/products/bag/30/wearingImg2.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "31": {
     id: 31,
@@ -1027,6 +1687,28 @@ export const PRODUCTS = {
     wearingImg:[
       require('../../../public/media/products/bag/31/wearingImg.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "32": {
     id: 32,
@@ -1057,6 +1739,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/32/wearingImg.png'),
       require('../../../public/media/products/bag/32/wearingImg2.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "33": {
     id: 33,
@@ -1089,6 +1793,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/33/wearingImg2.png'),
       require('../../../public/media/products/bag/33/wearingImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "34": {
     id: 34,
@@ -1120,6 +1846,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/bag/34/wearingImg.png'),
       require('../../../public/media/products/bag/34/wearingImg2.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "35": {
     id: 35,
@@ -1151,6 +1899,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/35/wearingImg.png'),
 //      require('../../../public/media/products/bag/35/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "36": {
     id: 36,
@@ -1182,6 +1952,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/36/wearingImg.png'),
 //      require('../../../public/media/products/bag/36/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "37": {
     id: 37,
@@ -1211,6 +2003,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/37/wearingImg.png'),
 //      require('../../../public/media/products/bag/37/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "38": {
     id: 38,
@@ -1242,6 +2056,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/38/wearingImg.png'),
 //      require('../../../public/media/products/bag/38/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "39": {
     id: 39,
@@ -1272,6 +2108,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/39/wearingImg.png'),
 //      require('../../../public/media/products/bag/39/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "40": {
     id: 40,
@@ -1301,6 +2159,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/40/wearingImg.png'),
 //      require('../../../public/media/products/bag/40/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "41": {
     id: 41,
@@ -1332,6 +2212,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/41/wearingImg.png'),
 //      require('../../../public/media/products/bag/41/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "42": {
     id: 42,
@@ -1362,6 +2264,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/42/wearingImg.png'),
 //      require('../../../public/media/products/bag/42/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "43": {
     id: 43,
@@ -1392,6 +2316,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/43/wearingImg.png'),
 //      require('../../../public/media/products/bag/43/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "44": {
     id: 44,
@@ -1426,6 +2372,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/44/wearingImg.png'),
 //      require('../../../public/media/products/bag/44/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "45": {
     id: 45,
@@ -1455,6 +2423,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/45/wearingImg.png'),
 //      require('../../../public/media/products/bag/45/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "46": {
     id: 46,
@@ -1484,6 +2474,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/46/wearingImg.png'),
 //      require('../../../public/media/products/bag/46/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "47": {
     id: 47,
@@ -1513,6 +2525,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/47/wearingImg.png'),
 //      require('../../../public/media/products/bag/47/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "48": {
     id: 48,
@@ -1546,6 +2580,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/48/wearingImg.png'),
 //      require('../../../public/media/products/bag/48/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "49": {
     id: 49,
@@ -1576,6 +2632,28 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/49/wearingImg.png'),
 //      require('../../../public/media/products/bag/49/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "50": {
     id: 50,
@@ -1606,5 +2684,27 @@ export const PRODUCTS = {
 //      require('../../../public/media/products/bag/50/wearingImg.png'),
 //      require('../../../public/media/products/bag/50/wearingImg2.png'),
 //    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
 }

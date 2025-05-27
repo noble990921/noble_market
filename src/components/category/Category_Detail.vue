@@ -6,21 +6,33 @@
           <div class="swiper_wrapper">
             <swiper ref="mainSwiper" :options="swiperOption" @slideChange="onSlideChange">
               <swiper-slide v-for="(img, i) in product.mainImg" :key="i">
-                <img :src="img" />
+                <img :src="img"/>
               </swiper-slide>
               <div v-if="product.mainImg && product.mainImg.length > 1"> class="swiper-pagination" slot="pagination"></div>
             </swiper>
-            <div v-if="product.mainImg && product.mainImg.length > 1"> class="swiper-button-next"></div>
-            <div v-if="product.mainImg && product.mainImg.length > 1"> class="swiper-button-prev"></div>
+            <div v-if="product.mainImg && product.mainImg.length > 1" class="swiper-button-next"></div>
+            <div v-if="product.mainImg && product.mainImg.length > 1" class="swiper-button-prev"></div>
           </div>
-          <div class="thumbs_wrapper" v-if="product.mainImg && product.mainImg.length > 1">
-            <div
-                v-for="(img, i) in product.mainImg"
-                :key="i"
-                :class="['thumb', { active: activeIndex === i }]"
-                @click="goToSlide(i)"
-            >
-              <img :src="img" />
+          <!--          <div class="thumbs_wrapper" v-if="product.mainImg && product.mainImg.length > 1">-->
+          <!--            <div-->
+          <!--                v-for="(img, i) in product.mainImg"-->
+          <!--                :key="i"-->
+          <!--                :class="['thumb', { active: activeIndex === i }]"-->
+          <!--                @click="goToSlide(i)"-->
+          <!--            >-->
+          <!--              <img :src="img" />-->
+          <!--            </div>-->
+          <!--          </div>-->
+          <div class="color_variants" v-if="colorVariants.length">
+            <div class="color_thumb_list">
+              <div
+                  v-for="variant in colorVariants"
+                  :key="variant.id"
+                  class="color_thumb"
+                  @click="goToColorVariant(variant)"
+              >
+                <img :src="variant.mainImg[0]" :alt="variant.name"/>
+              </div>
             </div>
           </div>
         </div>
@@ -44,12 +56,14 @@
               </div>
               <div class="input_content" v-if="inputContent">
                 <ul>
-<!--                  <li> test</li>-->
-<!--                  <li> test</li>-->
-<!--                  <li> test</li>-->
-<!--                  <li> test</li>-->
-<!--                  <li> test</li>-->
+                  <li v-for="(d,idx) in product.detailText" :key="idx">
+                    <p class="title">{{ d.title }}</p>
+                    <p class="content">{{ d.content }}</p>
+                  </li>
                 </ul>
+                <!--                <p class="bottom_notice">-->
+                <!--                  ※ 상세사진은 이슈로 인해 로고·TC코드 등은 제외되며, 가죽 질감 및 원단 퀄리티와 수공 스티치 확인용 참고 이미지로 확인 부탁드립니다.-->
+                <!--                </p>-->
               </div>
             </div>
           </div>
@@ -100,13 +114,13 @@
             </tbody>
           </div>
           <el-select v-model="value" placeholder="사이즈 / 색상">
-              <el-option
-                  v-for="item in options"
-                  :key="item.value"
-                  :label="item.label"
-                  :value="item.value">
-              </el-option>
-            </el-select>
+            <el-option
+                v-for="item in options"
+                :key="item.value"
+                :label="item.label"
+                :value="item.value">
+            </el-option>
+          </el-select>
           <!--          totale price 코드 아까워서 살려둠 -->
           <!--          <div class="totalProducts">-->
           <!--            <p>{{ product.title }}</p>-->
@@ -122,9 +136,9 @@
           <!--            <p class="total">{{ totalPrice | formatNumber }}원<span> ({{ quantity }}개)</span></p>-->
           <!--          </div>-->
           <div class="btn_box">
-            <button @click="setCartItem" class="cart">장바구니 담기</button>
+            <!--            <button @click="setCartItem" class="cart">장바구니 담기</button>-->
             <!--            <button @click="directSell">바로 구매</button>-->
-            <button @click="contact">바로 문의하기</button>
+            <button class="cart" @click="contact">제품 문의하기</button>
           </div>
         </div>
       </div>
@@ -188,17 +202,18 @@
           observer: true,
           observeParents: true,
         },
-        activeIndex:0,
-        allProducts:[],
+        activeIndex: 0,
+        allProducts: [],
         product: {},
         quantity: 1,
         component: 'NobleDetailBottom',
-        sizeDialog:false,
+        sizeDialog: false,
         value: "",
         options: [
-          { value: "사이즈 / 색상 문의", label: "사이즈 / 색상 문의" },
+          {value: "사이즈 / 색상 문의", label: "사이즈 / 색상 문의"},
         ],
         inputContent: false,
+        colorVariants: [],
       };
     },
     computed: {
@@ -214,6 +229,11 @@
       }
     },
     methods: {
+      goToColorVariant(variant) {
+        this.$router.push({
+          path: `/category/${variant.category}/${variant.id}`
+        });
+      },
       goToSlide(index) {
         if (this.$refs.mainSwiper.$swiper) {
           this.$refs.mainSwiper.$swiper.slideTo(index);
@@ -228,10 +248,10 @@
           this.activeIndex = swiper.realIndex;
         }
       },
-      clickInput(){
-        if(this.inputContent == false){
+      clickInput() {
+        if (this.inputContent == false) {
           return this.inputContent = true
-        }else{
+        } else {
           return this.inputContent = false
         }
       },
@@ -253,6 +273,24 @@
 //          console.error("상품 데이터를 가져오는 중 오류 발생:", error);
 //        }
 //      },
+//      async getData() {
+//        try {
+//          const category = this.$route.params.category.toLowerCase();
+//          const productId = this.$route.params.id;
+//
+//          const module = await import(`@/data/products/${category}.js`);
+//          const products = module.PRODUCTS;
+//          const matchedProduct = Object.values(products).find(p => String(p.id) === productId);
+//          if (matchedProduct) {
+//            this.product = matchedProduct;
+//          }
+//
+//          const allModule = await import('@/data/products/index.js');
+//          this.allProducts = Object.values(allModule.ALL_PRODUCTS);
+//        } catch (error) {
+//          console.error('상품 데이터를 불러오는 중 오류 발생:', error);
+//        }
+//      },
       async getData() {
         try {
           const category = this.$route.params.category.toLowerCase();
@@ -261,8 +299,15 @@
           const module = await import(`@/data/products/${category}.js`);
           const products = module.PRODUCTS;
           const matchedProduct = Object.values(products).find(p => String(p.id) === productId);
+
           if (matchedProduct) {
             this.product = matchedProduct;
+            // modelGroup 기준으로 다른 색상 모음 만들기
+            this.colorVariants = matchedProduct.modelGroup
+                ? Object.values(products).filter(
+                    p => p.modelGroup === matchedProduct.modelGroup && String(p.id) !== productId
+                )
+                : [];
           }
 
           const allModule = await import('@/data/products/index.js');

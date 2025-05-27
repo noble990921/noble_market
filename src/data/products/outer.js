@@ -20,6 +20,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/51/detailImg2.png'),
       require('../../../public/media/products/outer/51/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "52": {
     id: 52,
@@ -42,6 +64,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/52/detailImg2.png'),
       require('../../../public/media/products/outer/52/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "53": {
     id: 53,
@@ -64,6 +108,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/53/detailImg2.png'),
       require('../../../public/media/products/outer/53/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "54": {
     id: 54,
@@ -92,6 +158,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/54/wearingImg3.png'),
       require('../../../public/media/products/outer/54/wearingImg4.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "55": {
     id: 55,
@@ -114,6 +202,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/55/detailImg2.png'),
       require('../../../public/media/products/outer/55/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "56": {
     id: 56,
@@ -136,6 +246,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/56/detailImg2.png'),
       require('../../../public/media/products/outer/56/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "57": {
     id: 57,
@@ -158,6 +290,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/57/detailImg2.png'),
       require('../../../public/media/products/outer/57/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
 //  "58": {
 //    id: 58,
@@ -202,6 +356,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/59/detailImg2.png'),
       require('../../../public/media/products/outer/59/detailImg3.png'),
     ],
+      detailText:[
+        {
+          title:'',
+          content:''
+        },
+        {
+          title:'',
+          content:''
+        },{
+          title:'',
+          content:''
+        },{
+          title:'',
+          content:''
+        },{
+          title:'',
+          content:''
+        },{
+          title:'',
+          content:''
+        },
+      ]
   },
   "60": {
     id: 60,
@@ -225,6 +401,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/60/detailImg2.png'),
       require('../../../public/media/products/outer/60/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "61": {
     id: 61,
@@ -247,6 +445,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/61/detailImg2.png'),
       require('../../../public/media/products/outer/61/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "62": {
     id: 62,
@@ -270,6 +490,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/62/detailImg2.png'),
       require('../../../public/media/products/outer/62/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "64": {
     id: 64,
@@ -293,6 +535,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/64/detailImg2.png'),
       require('../../../public/media/products/outer/64/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "65": {
     id: 65,
@@ -315,6 +579,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/65/detailImg2.png'),
       require('../../../public/media/products/outer/65/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "66": {
     id: 66,
@@ -338,6 +624,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/66/detailImg2.png'),
       require('../../../public/media/products/outer/66/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
 //  "67": {
 //    id: 67,
@@ -383,6 +691,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/68/detailImg2.png'),
       require('../../../public/media/products/outer/68/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "69": {
     id: 69,
@@ -405,6 +735,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/69/detailImg2.png'),
       require('../../../public/media/products/outer/69/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "70": {
     id: 70,
@@ -427,6 +779,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/70/detailImg2.png'),
       require('../../../public/media/products/outer/70/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
 //  "71": {
 //    id: 71,
@@ -471,6 +845,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/73/detailImg2.png'),
       require('../../../public/media/products/outer/73/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "74": {
     id: 74,
@@ -493,6 +889,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/74/detailImg2.png'),
       require('../../../public/media/products/outer/74/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "75": {
     id: 75,
@@ -515,6 +933,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/76/detailImg2.png'),
       require('../../../public/media/products/outer/76/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "76": {
     id: 76,
@@ -537,6 +977,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/76/detailImg2.png'),
       require('../../../public/media/products/outer/76/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "77": {
     id: 77,
@@ -560,6 +1022,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/77/detailImg2.png'),
       require('../../../public/media/products/outer/77/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "78": {
     id: 78,
@@ -583,6 +1067,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/78/detailImg2.png'),
       require('../../../public/media/products/outer/78/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
 //  "79": {
 //    id: 79,
@@ -628,6 +1134,28 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/80/detailImg2.png'),
       require('../../../public/media/products/outer/80/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
   "81": {
     id: 81,
@@ -650,5 +1178,855 @@ export const PRODUCTS = {
       require('../../../public/media/products/outer/81/detailImg2.png'),
       require('../../../public/media/products/outer/81/detailImg3.png'),
     ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "82": {
+    id: 82,
+    modelNumber:'JD201',
+    name:'옴므 플리세 이세이 미야케 베이직 자켓 네이비',
+    enName:'Homme Plisse Issey Miyake Basics Jacket Navy',
+    brand:'옴므',
+    enBrand:'Homme',
+    category: "1",
+    subCategory: {id:8, title: "슈트/블레이저", img: "suit"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/82/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/82/detailImg.png'),
+      require('../../../public/media/products/outer/82/detailImg2.png'),
+      require('../../../public/media/products/outer/82/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "83": {
+    id: 83,
+    modelNumber:'J2-091-9B50700-A9341-999',
+    name:'몽클레르 패딩 울 가디건 블랙',
+    enName:'Moncler Padded Wool Cardigan Black',
+    brand:'몽클레르',
+    enBrand:'Moncler',
+    category: "1",
+    subCategory: {id:4, title: "가디건", img: "cardigan"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/83/mainImg.png'),
+      require('../../../public/media/products/outer/83/mainImg2.png'),
+      require('../../../public/media/products/outer/83/mainImg3.png'),
+      require('../../../public/media/products/outer/83/mainImg4.png'),
+      require('../../../public/media/products/outer/83/mainImg5.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/83/detailImg.png'),
+      require('../../../public/media/products/outer/83/detailImg2.png'),
+      require('../../../public/media/products/outer/83/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "84": {
+    id: 84,
+    modelNumber:'J2-091-1A53600-68950-999/U99',
+    name:'몽클레르 마야 쇼트 다운 자켓 블랙',
+    enName:'Moncler Maya Short Down Jacket Black',
+    brand:'몽클레르',
+    enBrand:'Moncler',
+    category: "1",
+    subCategory: {id:1, title: "패딩", img: "padding"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/84/mainImg.png'),
+      require('../../../public/media/products/outer/84/mainImg2.png'),
+      require('../../../public/media/products/outer/84/mainImg3.png'),
+      require('../../../public/media/products/outer/84/mainImg4.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/84/detailImg.png'),
+      require('../../../public/media/products/outer/84/detailImg2.png'),
+      require('../../../public/media/products/outer/84/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "85": {
+    id: 85,
+    modelNumber:'K1-091-1A00196-5968E-999',
+    name:'몽클레르 에티아슈 후드 레인 자켓 블랙',
+    enName:'Moncler Etiache Hooded Rain Jacket Black',
+    brand:'몽클레르',
+    enBrand:'Moncler',
+    category: "1",
+    subCategory: {id:2, title: "재킷", img: "jacket"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/84/mainImg.png'),
+      require('../../../public/media/products/outer/84/mainImg2.png'),
+      require('../../../public/media/products/outer/84/mainImg3.png'),
+      require('../../../public/media/products/outer/84/mainImg4.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/84/detailImg.png'),
+      require('../../../public/media/products/outer/84/detailImg2.png'),
+      require('../../../public/media/products/outer/84/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "86": {
+    id: 86,
+    modelNumber:'J1-091-9B00020-M1115-999',
+    name:'몽클레르 패딩 코튼 집업 가디건 블랙',
+    enName:'Moncler Padded Cotton Zip-Up Cardigan Black',
+    brand:'몽클레르',
+    enBrand:'Moncler',
+    category: "1",
+    subCategory: {id:4, title: "가디건", img: "cardigan"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/86/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/86/detailImg.png'),
+      require('../../../public/media/products/outer/86/detailImg2.png'),
+      require('../../../public/media/products/outer/86/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "87": {
+    id: 87,
+    modelNumber:'SGC220-1WQ9-F0002',
+    name:'프라다 리나일론 자켓 블랙',
+    enName:'Prada Re-Nylon Jacket Black',
+    brand:'프라다',
+    enBrand:'Prada',
+    category: "1",
+    subCategory: {id:2, title: "재킷", img: "jacket"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/87/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/87/detailImg.png'),
+      require('../../../public/media/products/outer/87/detailImg2.png'),
+      require('../../../public/media/products/outer/87/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "88": {
+    id: 88,
+    modelNumber:'712280TNQ22',
+    name:'발렌시아가 x 아디다스 퍼포먼스 포플린 트랙수트 자켓 블랙',
+    enName:'Balenciaga x Adidas Performance Poplin Tracksuit Jacket Black',
+    brand:'발렌시아가',
+    enBrand:'Balenciaga',
+    category: "1",
+    subCategory: {id:2, title: "재킷", img: "jacket"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/88/mainImg.png'),
+      require('../../../public/media/products/outer/88/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/88/detailImg.png'),
+      require('../../../public/media/products/outer/88/detailImg2.png'),
+      require('../../../public/media/products/outer/88/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "89": {
+    id: 89,
+    modelNumber:'SGB684-1WQ8-F0002',
+    name:'프라다 리나일론 집업 개버딘 블루종 자켓 블랙',
+    enName:'Prada Re-Nylon Zip Up Gabardine Blouson Jacket Black',
+    brand:'프라다',
+    enBrand:'Prada',
+    category: "1",
+    subCategory: {id:2, title: "재킷", img: "jacket"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/89/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/89/detailImg.png'),
+      require('../../../public/media/products/outer/89/detailImg2.png'),
+      require('../../../public/media/products/outer/89/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "90": {
+    id: 90,
+    modelNumber:'J2-091-1A00270-5968E-999',
+    name:'몽클레르 마야프 쇼트 다운 자켓 블랙',
+    enName:'Moncler Mayaf Short Down Jacket Black',
+    brand:'몽클레르',
+    enBrand:'Moncler',
+    category: "1",
+    subCategory: {id:1, title: "패딩", img: "padding"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/90/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/90/detailImg.png'),
+      require('../../../public/media/products/outer/90/detailImg2.png'),
+      require('../../../public/media/products/outer/90/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "91": {
+    id: 91,
+    modelNumber:'MJU490A-03788-415',
+    name:'톰브라운 코튼 언컨스트럭티드 싱글 브레스티드 사선 클래식 자켓 네이비',
+    enName:'Thom Browne Cotton Unconstructed Single Breasted 4-Bar Classic Jacket Navy',
+    brand:'톰브라운',
+    enBrand:'Thom Browne',
+    category: "1",
+    subCategory: {id:8, title: "슈트/블레이저", img: "suit"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/91/mainImg.png'),
+      require('../../../public/media/products/outer/91/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/91/detailImg.png'),
+      require('../../../public/media/products/outer/91/detailImg2.png'),
+      require('../../../public/media/products/outer/91/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "92": {
+    id: 92,
+    modelNumber:'J2-091-1A00205-53333-999/U99',
+    name:'몽클레르 베제르 쇼트 다운 자켓 블랙',
+    enName:'Moncler Vezere Short Down Jacket Black',
+    brand:'몽클레르',
+    enBrand:'Moncler',
+    category: "1",
+    subCategory: {id:1, title: "패딩", img: "padding"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/92/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/92/detailImg.png'),
+      require('../../../public/media/products/outer/92/detailImg2.png'),
+      require('../../../public/media/products/outer/92/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "93": {
+    id: 93,
+    modelNumber:'SGC584-1WQ8-F0002',
+    name:'프라다 리나일론 크롭 다운 재킷 블랙',
+    enName:'Prada Re-Nylon Crop Down Jacket Black',
+    brand:'프라다',
+    enBrand:'Prada',
+    category: "1",
+    subCategory: {id:1, title: "패딩", img: "padding"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/93/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/93/detailImg.png'),
+      require('../../../public/media/products/outer/93/detailImg2.png'),
+      require('../../../public/media/products/outer/93/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "94": {
+    id: 94,
+    modelNumber:'SGB999-12HO-F0002',
+    name:'프라다 벨벳 데님 블루종 자켓 블랙',
+    enName:'Prada Velvet Denim Blouson Jacket Black',
+    brand:'프라다',
+    enBrand:'Prada',
+    category: "1",
+    subCategory: {id:2, title: "재킷", img: "jacket"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/94/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/94/detailImg.png'),
+      require('../../../public/media/products/outer/94/detailImg2.png'),
+      require('../../../public/media/products/outer/94/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "95": {
+    id: 95,
+    modelNumber:'K1-091-2F00005-57448-999',
+    name:'몽클레르 코튼 개버딘 집업 셔츠 자켓 블랙',
+    enName:'Moncler Cotton Gabardine Zip Up Shirt Jacket Black ',
+    brand:'몽클레르',
+    enBrand:'Moncler',
+    category: "1",
+    subCategory: {id:2, title: "재킷", img: "jacket"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/95/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/95/detailImg.png'),
+      require('../../../public/media/products/outer/95/detailImg2.png'),
+      require('../../../public/media/products/outer/95/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "96": {
+    id: 96,
+    modelNumber:'8027097',
+    name:'버버리 리버시블 빈티지 체크 후드 자켓 아카이브 베이지',
+    enName:'Burberry Reversible Vintage Check Hooded Jacket Archive Beige',
+    brand:'버버리',
+    enBrand:'Burberry',
+    category: "1",
+    subCategory: {id:2, title: "재킷", img: "jacket"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/96/mainImg.png'),
+      require('../../../public/media/products/outer/96/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/96/detailImg.png'),
+      require('../../../public/media/products/outer/96/detailImg2.png'),
+      require('../../../public/media/products/outer/96/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "97": {
+    id: 97,
+    modelNumber:'674318TLS011000',
+    name:'발렌시아가 스포티 비 택시 블루종 블랙',
+    enName:'Balenciaga Sporty B Taxi Blouson Black',
+    brand:'발렌시아가',
+    enBrand:'Balenciaga',
+    category: "1",
+    subCategory: {id:2, title: "재킷", img: "jacket"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/97/mainImg.png'),
+      require('../../../public/media/products/outer/97/mainImg2.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/97/detailImg.png'),
+      require('../../../public/media/products/outer/97/detailImg2.png'),
+      require('../../../public/media/products/outer/97/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "98": {
+    id: 98,
+    modelNumber:'J2-093-1A00083-5963V-999',
+    name:'(W) 몽클레르 바야드 쇼트 다운 자켓 블랙',
+    enName:'(W) Moncler Bayard Short Down Jacket Black',
+    brand:'몽클레르',
+    enBrand:'Moncler',
+    category: "1",
+    subCategory: {id:1, title: "패딩", img: "padding"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/98/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/98/detailImg.png'),
+      require('../../../public/media/products/outer/98/detailImg2.png'),
+      require('../../../public/media/products/outer/98/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "99": {
+    id: 99,
+    modelNumber:'J2-091-9B50800-A9340-999',
+    name:'몽클레르 패딩 울 후드 블랙',
+    enName:'Moncler Padded Wool Hoodie Black',
+    brand:'몽클레르',
+    enBrand:'Moncler',
+    category: "1",
+    subCategory: {id:1, title: "패딩", img: "padding"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/99/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/99/detailImg.png'),
+      require('../../../public/media/products/outer/99/detailImg2.png'),
+      require('../../../public/media/products/outer/99/detailImg3.png'),
+    ],
+  },
+  "100": {
+    id: 100,
+    modelNumber:'J2-091-1A00115-68352-999',
+    name:'몽클레르 아미오트 숏 다운 자켓 블랙 ',
+    enName:'Moncler Amiot Short Down Jacket Black',
+    brand:'몽클레르',
+    enBrand:'Moncler',
+    category: "1",
+    subCategory: {id:1, title: "패딩", img: "padding"},
+    sizeData: {
+      type:'outer',
+      img:require('../../../public/media/productDetail/outer_size.png'),
+    },
+    mainImg:[
+      require('../../../public/media/products/outer/100/mainImg.png'),
+    ],
+    detailImg:[
+      require('../../../public/media/products/outer/100/detailImg.png'),
+      require('../../../public/media/products/outer/100/detailImg2.png'),
+      require('../../../public/media/products/outer/100/detailImg3.png'),
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
   },
 }
