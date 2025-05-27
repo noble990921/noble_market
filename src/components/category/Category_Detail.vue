@@ -4,35 +4,23 @@
       <div class="detail_top">
         <div class="detail_img">
           <div class="swiper_wrapper">
-            <swiper ref="mainSwiper" :options="swiperOption" @slideChange="onSlideChange">
+            <swiper :options="swiperOption">
               <swiper-slide v-for="(img, i) in product.mainImg" :key="i">
                 <img :src="img"/>
               </swiper-slide>
-              <div v-if="product.mainImg && product.mainImg.length > 1"> class="swiper-pagination" slot="pagination"></div>
+              <div class="swiper-pagination" slot="pagination"></div>
             </swiper>
-            <div v-if="product.mainImg && product.mainImg.length > 1" class="swiper-button-next"></div>
-            <div v-if="product.mainImg && product.mainImg.length > 1" class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
-          <!--          <div class="thumbs_wrapper" v-if="product.mainImg && product.mainImg.length > 1">-->
-          <!--            <div-->
-          <!--                v-for="(img, i) in product.mainImg"-->
-          <!--                :key="i"-->
-          <!--                :class="['thumb', { active: activeIndex === i }]"-->
-          <!--                @click="goToSlide(i)"-->
-          <!--            >-->
-          <!--              <img :src="img" />-->
-          <!--            </div>-->
-          <!--          </div>-->
-          <div class="color_variants" v-if="colorVariants.length">
-            <div class="color_thumb_list">
-              <div
-                  v-for="variant in colorVariants"
-                  :key="variant.id"
-                  class="color_thumb"
-                  @click="goToColorVariant(variant)"
-              >
-                <img :src="variant.mainImg[0]" :alt="variant.name"/>
-              </div>
+          <div class="thumbs_wrapper" v-if="colorVariants.length">
+            <div
+                v-for="variant in colorVariants"
+                :key="variant.id"
+                :class="['thumb', { active: variant.id == activeVariantId }]"
+                @click="goToColorVariant(variant)"
+            >
+              <img :src="variant.mainImg[0]" />
             </div>
           </div>
         </div>
@@ -214,6 +202,7 @@
         ],
         inputContent: false,
         colorVariants: [],
+        activeVariantId:null,
       };
     },
     computed: {
@@ -230,23 +219,10 @@
     },
     methods: {
       goToColorVariant(variant) {
+        const category = this.$route.params.category.toLowerCase();
         this.$router.push({
-          path: `/category/${variant.category}/${variant.id}`
+          path: `/${category}/detail/${variant.id}`
         });
-      },
-      goToSlide(index) {
-        if (this.$refs.mainSwiper.$swiper) {
-          this.$refs.mainSwiper.$swiper.slideTo(index);
-          this.activeIndex = index;
-        }
-      },
-      onSlideChange() {
-        const swiper = this.$refs.mainSwiper.$swiper;
-//        console.log('dqwd',swiper)
-        if (swiper) {
-//          console.log('현재 인덱스:', swiper.realIndex);
-          this.activeIndex = swiper.realIndex;
-        }
       },
       clickInput() {
         if (this.inputContent == false) {
@@ -273,24 +249,6 @@
 //          console.error("상품 데이터를 가져오는 중 오류 발생:", error);
 //        }
 //      },
-//      async getData() {
-//        try {
-//          const category = this.$route.params.category.toLowerCase();
-//          const productId = this.$route.params.id;
-//
-//          const module = await import(`@/data/products/${category}.js`);
-//          const products = module.PRODUCTS;
-//          const matchedProduct = Object.values(products).find(p => String(p.id) === productId);
-//          if (matchedProduct) {
-//            this.product = matchedProduct;
-//          }
-//
-//          const allModule = await import('@/data/products/index.js');
-//          this.allProducts = Object.values(allModule.ALL_PRODUCTS);
-//        } catch (error) {
-//          console.error('상품 데이터를 불러오는 중 오류 발생:', error);
-//        }
-//      },
       async getData() {
         try {
           const category = this.$route.params.category.toLowerCase();
@@ -302,12 +260,15 @@
 
           if (matchedProduct) {
             this.product = matchedProduct;
-            // modelGroup 기준으로 다른 색상 모음 만들기
-            this.colorVariants = matchedProduct.modelGroup
+            const sameGroup = matchedProduct.modelGroup
                 ? Object.values(products).filter(
-                    p => p.modelGroup === matchedProduct.modelGroup && String(p.id) !== productId
+                    p => p.modelGroup === matchedProduct.modelGroup
                 )
                 : [];
+
+            // 현재 상품이 목록 중 몇 번째인지 찾기 위해 변수 추가
+            this.colorVariants = sameGroup;
+            this.activeVariantId = matchedProduct.id;
           }
 
           const allModule = await import('@/data/products/index.js');
@@ -418,19 +379,7 @@
       },
     },
     mounted() {
-      const tryInitSwiper = () => {
-        const swiper = this.$refs.mainSwiper.$swiper;
-        if (swiper) {
-          swiper.on('slideChange', () => {
-//            console.log('현재 인덱스:', swiper.realIndex);
-            this.activeIndex = swiper.realIndex;
-          });
-        } else {
-          // 아직 초기화 안 됐으면 조금 있다 다시 시도
-          setTimeout(tryInitSwiper, 100);
-        }
-      };
-      this.$nextTick(tryInitSwiper);
+
     },
     created() {
       this.getData();
