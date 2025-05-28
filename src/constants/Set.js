@@ -109,6 +109,12 @@ export const SET_PRODUCT_BRAND = {
     koName: "우영미",
 //    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
 //    img: require('@/assets/images/home/section7/brand_logo9.png'),
+  },"18": {
+    id: 18,
+    enName: "Vivienne",
+    koName: "비비안",
+//    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
+//    img: require('@/assets/images/home/section7/brand_logo9.png'),
   },
 };
 
