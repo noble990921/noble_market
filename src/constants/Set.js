@@ -103,8 +103,13 @@ export const SET_PRODUCT_BRAND = {
     koName: "옴므",
 //    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
 //    img: require('@/assets/images/home/section7/brand_logo9.png'),
+  },"17": {
+    id: 17,
+    enName: "Wooyoungmi",
+    koName: "우영미",
+//    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
+//    img: require('@/assets/images/home/section7/brand_logo9.png'),
   },
-
 };
 
 export const SET_CATEGORY_MAP = {
