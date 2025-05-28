@@ -11,15 +11,15 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "맨투맨/스웨트", img: "sweatshirt"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/101/mainImg.png'),
+      '/media/products/top/101/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/101/detailImg.png'),
-      require('../../../public/media/products/top/101/detailImg2.png'),
-      require('../../../public/media/products/top/101/detailImg3.png'),
+      '/media/products/top/101/detailImg.png',
+      '/media/products/top/101/detailImg2.png',
+      '/media/products/top/101/detailImg3.png',
     ],
     detailText:[
       {
@@ -56,16 +56,16 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "맨투맨/스웨트", img: "sweatshirt"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/102/mainImg.png'),
-      require('../../../public/media/products/top/102/mainImg.png'),
+      '/media/products/top/102/mainImg.png',
+      '/media/products/top/102/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/101/detailImg.png'),
-      require('../../../public/media/products/top/101/detailImg2.png'),
-      require('../../../public/media/products/top/101/detailImg3.png'),
+      '/media/products/top/101/detailImg.png',
+      '/media/products/top/101/detailImg2.png',
+      '/media/products/top/101/detailImg3.png',
     ],
     detailText:[
       {
@@ -102,16 +102,16 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/103/mainImg.png'),
-      require('../../../public/media/products/top/103/mainImg.png'),
+      '/media/products/top/103/mainImg.png',
+      '/media/products/top/103/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/103/detailImg.png'),
-      require('../../../public/media/products/top/103/detailImg2.png'),
-      require('../../../public/media/products/top/103/detailImg3.png'),
+      '/media/products/top/103/detailImg.png',
+      '/media/products/top/103/detailImg2.png',
+      '/media/products/top/103/detailImg3.png',
     ],
     detailText:[
       {
@@ -148,15 +148,15 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/104/mainImg.png'),
+      '/media/products/top/104/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/104/detailImg.png'),
-      require('../../../public/media/products/top/104/detailImg2.png'),
-      require('../../../public/media/products/top/104/detailImg3.png'),
+      '/media/products/top/104/detailImg.png',
+      '/media/products/top/104/detailImg2.png',
+      '/media/products/top/104/detailImg3.png',
     ],
     detailText:[
       {
@@ -193,15 +193,15 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/105/mainImg.png'),
+      '/media/products/top/105/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/105/detailImg.png'),
-      require('../../../public/media/products/top/105/detailImg2.png'),
-      require('../../../public/media/products/top/105/detailImg3.png'),
+      '/media/products/top/105/detailImg.png',
+      '/media/products/top/105/detailImg2.png',
+      '/media/products/top/105/detailImg3.png',
     ],
     detailText:[
       {
@@ -238,15 +238,15 @@ export const PRODUCTS = {
     subCategory: {id:6, title: "피케/카라", img: "polo" },
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/106/mainImg.png'),
+      '/media/products/top/106/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/106/detailImg.png'),
-      require('../../../public/media/products/top/106/detailImg2.png'),
-      require('../../../public/media/products/top/106/detailImg3.png'),
+      '/media/products/top/106/detailImg.png',
+      '/media/products/top/106/detailImg2.png',
+      '/media/products/top/106/detailImg3.png',
     ],
     detailText:[
       {
@@ -283,15 +283,15 @@ export const PRODUCTS = {
     subCategory: {id:6, title: "피케/카라", img: "polo" },
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/107/mainImg.png'),
+      '/media/products/top/107/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/106/detailImg.png'),
-      require('../../../public/media/products/top/106/detailImg2.png'),
-      require('../../../public/media/products/top/106/detailImg3.png'),
+      '/media/products/top/106/detailImg.png',
+      '/media/products/top/106/detailImg2.png',
+      '/media/products/top/106/detailImg3.png',
     ],
     detailText:[
       {
@@ -328,15 +328,15 @@ export const PRODUCTS = {
     subCategory: {id:8, title: "셔츠/블라우스", img: "shirtblouse"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/108/mainImg.png'),
+      '/media/products/top/108/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/108/detailImg.png'),
-      require('../../../public/media/products/top/108/detailImg2.png'),
-      require('../../../public/media/products/top/108/detailImg3.png'),
+      '/media/products/top/108/detailImg.png',
+      '/media/products/top/108/detailImg2.png',
+      '/media/products/top/108/detailImg3.png',
     ],
     detailText:[
       {
@@ -373,15 +373,15 @@ export const PRODUCTS = {
     subCategory: {id:8, title: "셔츠/블라우스", img: "shirtblouse"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/109/mainImg.png'),
+      '/media/products/top/109/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/108/detailImg.png'),
-      require('../../../public/media/products/top/108/detailImg2.png'),
-      require('../../../public/media/products/top/108/detailImg3.png'),
+      '/media/products/top/108/detailImg.png',
+      '/media/products/top/108/detailImg2.png',
+      '/media/products/top/108/detailImg3.png',
     ],
     detailText:[
       {
@@ -418,15 +418,15 @@ export const PRODUCTS = {
     subCategory: {id:8, title: "셔츠/블라우스", img: "shirtblouse"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/110/mainImg.png'),
+      '/media/products/top/110/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/108/detailImg.png'),
-      require('../../../public/media/products/top/108/detailImg2.png'),
-      require('../../../public/media/products/top/108/detailImg3.png'),
+      '/media/products/top/108/detailImg.png',
+      '/media/products/top/108/detailImg2.png',
+      '/media/products/top/108/detailImg3.png',
     ],
     detailText:[
       {
@@ -463,15 +463,15 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/111/mainImg.png'),
+      '/media/products/top/111/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/111/detailImg.png'),
-      require('../../../public/media/products/top/111/detailImg2.png'),
-      require('../../../public/media/products/top/111/detailImg3.png'),
+      '/media/products/top/111/detailImg.png',
+      '/media/products/top/111/detailImg2.png',
+      '/media/products/top/111/detailImg3.png',
     ],
     detailText:[
       {
@@ -508,15 +508,15 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/112/mainImg.png'),
+      '/media/products/top/112/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/111/detailImg.png'),
-      require('../../../public/media/products/top/111/detailImg2.png'),
-      require('../../../public/media/products/top/111/detailImg3.png'),
+      '/media/products/top/111/detailImg.png',
+      '/media/products/top/111/detailImg2.png',
+      '/media/products/top/111/detailImg3.png',
     ],
     detailText:[
       {
@@ -553,15 +553,15 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/113/mainImg.png'),
+      '/media/products/top/113/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/111/detailImg.png'),
-      require('../../../public/media/products/top/111/detailImg2.png'),
-      require('../../../public/media/products/top/111/detailImg3.png'),
+      '/media/products/top/111/detailImg.png',
+      '/media/products/top/111/detailImg2.png',
+      '/media/products/top/111/detailImg3.png',
     ],
     detailText:[
       {
@@ -598,16 +598,16 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/114/mainImg.png'),
-      require('../../../public/media/products/top/114/mainImg2.png'),
+      '/media/products/top/114/mainImg.png',
+      '/media/products/top/114/mainImg2.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/111/detailImg.png'),
-      require('../../../public/media/products/top/111/detailImg2.png'),
-      require('../../../public/media/products/top/111/detailImg3.png'),
+      '/media/products/top/111/detailImg.png',
+      '/media/products/top/111/detailImg2.png',
+      '/media/products/top/111/detailImg3.png',
     ],
     detailText:[
       {
@@ -644,15 +644,15 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/115/mainImg.png'),
+      '/media/products/top/115/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/111/detailImg.png'),
-      require('../../../public/media/products/top/111/detailImg2.png'),
-      require('../../../public/media/products/top/111/detailImg3.png'),
+      '/media/products/top/111/detailImg.png',
+      '/media/products/top/111/detailImg2.png',
+      '/media/products/top/111/detailImg3.png',
     ],
     detailText:[
       {
@@ -689,16 +689,16 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/116/mainImg.png'),
-      require('../../../public/media/products/top/116/mainImg2.png'),
+      '/media/products/top/116/mainImg.png',
+      '/media/products/top/116/mainImg2.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/111/detailImg.png'),
-      require('../../../public/media/products/top/111/detailImg2.png'),
-      require('../../../public/media/products/top/111/detailImg3.png'),
+      '/media/products/top/111/detailImg.png',
+      '/media/products/top/111/detailImg2.png',
+      '/media/products/top/111/detailImg3.png',
     ],
     detailText:[
       {
@@ -735,16 +735,16 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/117/mainImg.png'),
-      require('../../../public/media/products/top/117/mainImg2.png'),
+      '/media/products/top/117/mainImg.png',
+      '/media/products/top/117/mainImg2.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/111/detailImg.png'),
-      require('../../../public/media/products/top/111/detailImg2.png'),
-      require('../../../public/media/products/top/111/detailImg3.png'),
+      '/media/products/top/111/detailImg.png',
+      '/media/products/top/111/detailImg2.png',
+      '/media/products/top/111/detailImg3.png',
     ],
     detailText:[
       {
@@ -781,15 +781,15 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type:'outer',
-      img:require('../../../public/media/productDetail/outer_size.png'),
+      img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      require('../../../public/media/products/top/118/mainImg.png'),
+      '/media/products/top/118/mainImg.png',
     ],
     detailImg:[
-      require('../../../public/media/products/top/111/detailImg.png'),
-      require('../../../public/media/products/top/111/detailImg2.png'),
-      require('../../../public/media/products/top/111/detailImg3.png'),
+      '/media/products/top/111/detailImg.png',
+      '/media/products/top/111/detailImg2.png',
+      '/media/products/top/111/detailImg3.png',
     ],
     detailText:[
       {
@@ -835,6 +835,142 @@ export const PRODUCTS = {
       '/media/products/top/111/detailImg.png',
       '/media/products/top/111/detailImg2.png',
       '/media/products/top/111/detailImg3.png'
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "120": {
+    id: 120,
+    modelNumber:'FJP052G-07976-100',
+    name:'(W) 톰브라운 클래식 피케 사선 숏슬리브 폴로 화이트',
+    enName:'(W) Thom Browne Classic Pique 4-Bar Short Sleeve Polo White',
+    brand:'톰브라운',
+    enBrand:'Thom Browne',
+    category: "2",
+    modelGroup:'FJP052G-07976-100',
+    subCategory: {id:6, title: "피케/카라", img: "polo" },
+    sizeData: {
+      type:'outer',
+      img:'/media/productDetail/outer_size.png',
+    },
+    mainImg:[
+      '/media/products/top/120/mainImg.png',
+    ],
+    detailImg:[
+      '/media/products/top/120/detailImg.png',
+      '/media/products/top/120/detailImg2.png',
+      '/media/products/top/120/detailImg3.png'
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "121": {
+    id: 121,
+    modelNumber:'FJP052G-07976-740',
+    name:'(W) 톰브라운 사선 숏슬리브 폴로 탑 옐로우',
+    enName:'(W) Thom Browne 4-Bar Short Sleeve Polo Top Yellow',
+    brand:'톰브라운',
+    enBrand:'Thom Browne',
+    category: "2",
+    modelGroup:'FJP052G-07976-100',
+    subCategory: {id:6, title: "피케/카라", img: "polo" },
+    sizeData: {
+      type:'outer',
+      img:'/media/productDetail/outer_size.png',
+    },
+    mainImg:[
+      '/media/products/top/121/mainImg.png',
+      '/media/products/top/121/mainImg2.png',
+    ],
+    detailImg:[
+      '/media/products/top/120/detailImg.png',
+      '/media/products/top/120/detailImg2.png',
+      '/media/products/top/120/detailImg3.png'
+    ],
+    detailText:[
+      {
+        title:'',
+        content:''
+      },
+      {
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },{
+        title:'',
+        content:''
+      },
+    ]
+  },
+  "122": {
+    id: 122,
+    modelNumber:'FJP052G-07976-330',
+    name:'(W) 톰브라운 클래식 피케 사선 숏슬리브 폴로 그린',
+    enName:'(W) Thom Browne Classic Pique 4-Bar Short Sleeve Polo Green',
+    brand:'톰브라운',
+    enBrand:'Thom Browne',
+    category: "2",
+    modelGroup:'FJP052G-07976-100',
+    subCategory: {id:6, title: "피케/카라", img: "polo" },
+    sizeData: {
+      type:'outer',
+      img:'/media/productDetail/outer_size.png',
+    },
+    mainImg:[
+      '/media/products/top/122/mainImg.png',
+    ],
+    detailImg:[
+      '/media/products/top/120/detailImg.png',
+      '/media/products/top/120/detailImg2.png',
+      '/media/products/top/120/detailImg3.png'
     ],
     detailText:[
       {

@@ -11,27 +11,27 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19.5, y: 6.5, z: 11},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/1/mainImg.png'),
-      require('../../../public/media/products/bag/1/mainImg2.png'),
-      require('../../../public/media/products/bag/1/mainImg3.png'),
-      require('../../../public/media/products/bag/1/mainImg4.png'),
-      require('../../../public/media/products/bag/1/mainImg5.png'),
-      require('../../../public/media/products/bag/1/mainImg6.png')
+      '/media/products/bag/1/mainImg.png',
+      '/media/products/bag/1/mainImg2.png',
+      '/media/products/bag/1/mainImg3.png',
+      '/media/products/bag/1/mainImg4.png',
+      '/media/products/bag/1/mainImg5.png',
+      '/media/products/bag/1/mainImg6.png'
     ],
     detailImg: [
-      require('../../../public/media/products/bag/1/detailImg.png'),
-      require('../../../public/media/products/bag/1/detailImg2.png'),
-      require('../../../public/media/products/bag/1/detailImg3.png'),
+      '/media/products/bag/1/detailImg.png',
+      '/media/products/bag/1/detailImg2.png',
+      '/media/products/bag/1/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/1/wearingImg.png'),
-      require('../../../public/media/products/bag/1/wearingImg2.png'),
+      '/media/products/bag/1/wearingImg.png',
+      '/media/products/bag/1/wearingImg2.png',
     ],
     detailText: [
       {
@@ -67,24 +67,24 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 16, z: 22},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/2/mainImg.png'),
-      require('../../../public/media/products/bag/2/mainImg2.png'),
-      require('../../../public/media/products/bag/2/mainImg3.png'),
+      '/media/products/bag/2/mainImg.png',
+      '/media/products/bag/2/mainImg2.png',
+      '/media/products/bag/2/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/2/detailImg.png'),
-      require('../../../public/media/products/bag/2/detailImg2.png'),
-      require('../../../public/media/products/bag/2/detailImg3.png'),
+      '/media/products/bag/2/detailImg.png',
+      '/media/products/bag/2/detailImg2.png',
+      '/media/products/bag/2/detailImg3.png',
     ],
 //    wearingImg:[
-////      require('../../../public/media/products/bag/1/wearingImg.png'),
-////      require('../../../public/media/products/bag/1/wearingImg2.png'),
+////      '/media/products/bag/1/wearingImg.png',
+////      '/media/products/bag/1/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -120,29 +120,29 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
 //    sizeData: {
 //      type:'bag',
-//      img:require('../../../public/media/productDetail/bag_size.png'),
+//      img:'/media/productDetail/bag_size.png',
 //      size:[
 //        {unit:'free', x:30 ,y:16, z:22},
 //      ]
 //    },
     mainImg: [
-      require('../../../public/media/products/bag/3/mainImg.png'),
-      require('../../../public/media/products/bag/3/mainImg2.png'),
-      require('../../../public/media/products/bag/3/mainImg3.png'),
-      require('../../../public/media/products/bag/3/mainImg4.png'),
-      require('../../../public/media/products/bag/3/mainImg5.png'),
-      require('../../../public/media/products/bag/3/mainImg6.png'),
-      require('../../../public/media/products/bag/3/mainImg7.png'),
+      '/media/products/bag/3/mainImg.png',
+      '/media/products/bag/3/mainImg2.png',
+      '/media/products/bag/3/mainImg3.png',
+      '/media/products/bag/3/mainImg4.png',
+      '/media/products/bag/3/mainImg5.png',
+      '/media/products/bag/3/mainImg6.png',
+      '/media/products/bag/3/mainImg7.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/3/detailImg.png'),
-      require('../../../public/media/products/bag/3/detailImg2.png'),
-      require('../../../public/media/products/bag/3/detailImg3.png'),
+      '/media/products/bag/3/detailImg.png',
+      '/media/products/bag/3/detailImg2.png',
+      '/media/products/bag/3/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/3/wearingImg.png'),
-      require('../../../public/media/products/bag/3/wearingImg2.png'),
-      require('../../../public/media/products/bag/3/wearingImg3.png'),
+      '/media/products/bag/3/wearingImg.png',
+      '/media/products/bag/3/wearingImg2.png',
+      '/media/products/bag/3/wearingImg3.png',
     ],
     detailText: [
       {
@@ -178,25 +178,25 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 14, z: 26},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/4/mainImg.png'),
-      require('../../../public/media/products/bag/4/mainImg2.png'),
-      require('../../../public/media/products/bag/4/mainImg3.png'),
+      '/media/products/bag/4/mainImg.png',
+      '/media/products/bag/4/mainImg2.png',
+      '/media/products/bag/4/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/4/detailImg.png'),
-      require('../../../public/media/products/bag/4/detailImg2.png'),
-      require('../../../public/media/products/bag/4/detailImg3.png'),
+      '/media/products/bag/4/detailImg.png',
+      '/media/products/bag/4/detailImg2.png',
+      '/media/products/bag/4/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/4/wearingImg.png'),
-      require('../../../public/media/products/bag/4/wearingImg2.png'),
-      require('../../../public/media/products/bag/4/wearingImg3.png'),
+      '/media/products/bag/4/wearingImg.png',
+      '/media/products/bag/4/wearingImg2.png',
+      '/media/products/bag/4/wearingImg3.png',
     ],
     detailText: [
       {
@@ -232,24 +232,24 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 14, z: 26},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/5/mainImg.png'),
-      require('../../../public/media/products/bag/5/mainImg2.png'),
+      '/media/products/bag/5/mainImg.png',
+      '/media/products/bag/5/mainImg2.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/5/detailImg.png'),
-      require('../../../public/media/products/bag/5/detailImg2.png'),
-      require('../../../public/media/products/bag/5/detailImg3.png'),
+      '/media/products/bag/5/detailImg.png',
+      '/media/products/bag/5/detailImg2.png',
+      '/media/products/bag/5/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/5/wearingImg.png'),
-//      require('../../../public/media/products/bag/5/wearingImg2.png'),
-//      require('../../../public/media/products/bag/5/wearingImg3.png'),
+//      '/media/products/bag/5/wearingImg.png',
+//      '/media/products/bag/5/wearingImg2.png',
+//      '/media/products/bag/5/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -285,27 +285,27 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/6/mainImg1.png'),
-      require('../../../public/media/products/bag/6/mainImg2.png'),
-      require('../../../public/media/products/bag/6/mainImg3.png'),
-      require('../../../public/media/products/bag/6/mainImg4.png'),
-      require('../../../public/media/products/bag/6/mainImg5.png'),
-      require('../../../public/media/products/bag/6/mainImg6.png'),
+      '/media/products/bag/6/mainImg1.png',
+      '/media/products/bag/6/mainImg2.png',
+      '/media/products/bag/6/mainImg3.png',
+      '/media/products/bag/6/mainImg4.png',
+      '/media/products/bag/6/mainImg5.png',
+      '/media/products/bag/6/mainImg6.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/6/detailImg.png'),
-      require('../../../public/media/products/bag/6/detailImg2.png'),
-      require('../../../public/media/products/bag/6/detailImg3.png'),
+      '/media/products/bag/6/detailImg.png',
+      '/media/products/bag/6/detailImg2.png',
+      '/media/products/bag/6/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/6/wearingImg.png'),
-      require('../../../public/media/products/bag/6/wearingImg2.png'),
+      '/media/products/bag/6/wearingImg.png',
+      '/media/products/bag/6/wearingImg2.png',
     ],
     detailText: [
       {
@@ -341,28 +341,28 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 6, z: 12},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/7/mainImg.png'),
-      require('../../../public/media/products/bag/7/mainImg2.png'),
-      require('../../../public/media/products/bag/7/mainImg3.png'),
-      require('../../../public/media/products/bag/7/mainImg4.png'),
-      require('../../../public/media/products/bag/7/mainImg5.png'),
-      require('../../../public/media/products/bag/7/mainImg6.png'),
+      '/media/products/bag/7/mainImg.png',
+      '/media/products/bag/7/mainImg2.png',
+      '/media/products/bag/7/mainImg3.png',
+      '/media/products/bag/7/mainImg4.png',
+      '/media/products/bag/7/mainImg5.png',
+      '/media/products/bag/7/mainImg6.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/7/detailImg.png'),
-      require('../../../public/media/products/bag/7/detailImg2.png'),
-      require('../../../public/media/products/bag/7/detailImg3.png'),
+      '/media/products/bag/7/detailImg.png',
+      '/media/products/bag/7/detailImg2.png',
+      '/media/products/bag/7/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/7/wearingImg.png'),
-      require('../../../public/media/products/bag/7/wearingImg2.png'),
-      require('../../../public/media/products/bag/7/wearingImg3.png'),
+      '/media/products/bag/7/wearingImg.png',
+      '/media/products/bag/7/wearingImg2.png',
+      '/media/products/bag/7/wearingImg3.png',
     ],
     detailText: [
       {
@@ -398,25 +398,25 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 6.5, z: 15.5},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/8/mainImg.png'),
-      require('../../../public/media/products/bag/8/mainImg2.png'),
-      require('../../../public/media/products/bag/8/mainImg3.png'),
+      '/media/products/bag/8/mainImg.png',
+      '/media/products/bag/8/mainImg2.png',
+      '/media/products/bag/8/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/8/detailImg.png'),
-      require('../../../public/media/products/bag/8/detailImg2.png'),
-      require('../../../public/media/products/bag/8/detailImg3.png'),
+      '/media/products/bag/8/detailImg.png',
+      '/media/products/bag/8/detailImg2.png',
+      '/media/products/bag/8/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/7/wearingImg.png'),
-//      require('../../../public/media/products/bag/7/wearingImg2.png'),
-//      require('../../../public/media/products/bag/7/wearingImg3.png'),
+//      '/media/products/bag/7/wearingImg.png',
+//      '/media/products/bag/7/wearingImg2.png',
+//      '/media/products/bag/7/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -452,25 +452,25 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/9/mainImg.png'),
-      require('../../../public/media/products/bag/9/mainImg2.png'),
-      require('../../../public/media/products/bag/9/mainImg3.png'),
+      '/media/products/bag/9/mainImg.png',
+      '/media/products/bag/9/mainImg2.png',
+      '/media/products/bag/9/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/9/detailImg.png'),
-      require('../../../public/media/products/bag/9/detailImg2.png'),
-      require('../../../public/media/products/bag/9/detailImg3.png'),
+      '/media/products/bag/9/detailImg.png',
+      '/media/products/bag/9/detailImg2.png',
+      '/media/products/bag/9/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/7/wearingImg.png'),
-//      require('../../../public/media/products/bag/7/wearingImg2.png'),
-//      require('../../../public/media/products/bag/7/wearingImg3.png'),
+//      '/media/products/bag/7/wearingImg.png',
+//      '/media/products/bag/7/wearingImg2.png',
+//      '/media/products/bag/7/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -506,27 +506,27 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/10/mainImg.png'),
-      require('../../../public/media/products/bag/10/mainImg2.png'),
-      require('../../../public/media/products/bag/10/mainImg3.png'),
-      require('../../../public/media/products/bag/10/mainImg4.png'),
-      require('../../../public/media/products/bag/10/mainImg5.png'),
+      '/media/products/bag/10/mainImg.png',
+      '/media/products/bag/10/mainImg2.png',
+      '/media/products/bag/10/mainImg3.png',
+      '/media/products/bag/10/mainImg4.png',
+      '/media/products/bag/10/mainImg5.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/10/detailImg.png'),
-      require('../../../public/media/products/bag/10/detailImg2.png'),
-      require('../../../public/media/products/bag/10/detailImg3.png'),
+      '/media/products/bag/10/detailImg.png',
+      '/media/products/bag/10/detailImg2.png',
+      '/media/products/bag/10/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/7/wearingImg.png'),
-//      require('../../../public/media/products/bag/7/wearingImg2.png'),
-//      require('../../../public/media/products/bag/7/wearingImg3.png'),
+//      '/media/products/bag/7/wearingImg.png',
+//      '/media/products/bag/7/wearingImg2.png',
+//      '/media/products/bag/7/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -562,28 +562,28 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 14},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/11/mainImg.png'),
-      require('../../../public/media/products/bag/11/mainImg2.png'),
-      require('../../../public/media/products/bag/11/mainImg3.png'),
-      require('../../../public/media/products/bag/11/mainImg4.png'),
-      require('../../../public/media/products/bag/11/mainImg5.png'),
-      require('../../../public/media/products/bag/11/mainImg6.png'),
+      '/media/products/bag/11/mainImg.png',
+      '/media/products/bag/11/mainImg2.png',
+      '/media/products/bag/11/mainImg3.png',
+      '/media/products/bag/11/mainImg4.png',
+      '/media/products/bag/11/mainImg5.png',
+      '/media/products/bag/11/mainImg6.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/11/detailImg.png'),
-      require('../../../public/media/products/bag/11/detailImg2.png'),
-      require('../../../public/media/products/bag/11/detailImg3.png'),
+      '/media/products/bag/11/detailImg.png',
+      '/media/products/bag/11/detailImg2.png',
+      '/media/products/bag/11/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/7/wearingImg.png'),
-//      require('../../../public/media/products/bag/7/wearingImg2.png'),
-//      require('../../../public/media/products/bag/7/wearingImg3.png'),
+//      '/media/products/bag/7/wearingImg.png',
+//      '/media/products/bag/7/wearingImg2.png',
+//      '/media/products/bag/7/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -619,28 +619,28 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22.5, y: 10.5, z: 23},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/12/mainImg.png'),
-      require('../../../public/media/products/bag/12/mainImg2.png'),
-      require('../../../public/media/products/bag/12/mainImg3.png'),
-      require('../../../public/media/products/bag/12/mainImg4.png'),
-      require('../../../public/media/products/bag/12/mainImg5.png'),
-      require('../../../public/media/products/bag/12/mainImg6.png'),
-      require('../../../public/media/products/bag/12/mainImg7.png'),
+      '/media/products/bag/12/mainImg.png',
+      '/media/products/bag/12/mainImg2.png',
+      '/media/products/bag/12/mainImg3.png',
+      '/media/products/bag/12/mainImg4.png',
+      '/media/products/bag/12/mainImg5.png',
+      '/media/products/bag/12/mainImg6.png',
+      '/media/products/bag/12/mainImg7.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/12/detailImg.png'),
-      require('../../../public/media/products/bag/12/detailImg2.png'),
-      require('../../../public/media/products/bag/12/detailImg3.png'),
+      '/media/products/bag/12/detailImg.png',
+      '/media/products/bag/12/detailImg2.png',
+      '/media/products/bag/12/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/12/wearingImg.png'),
-      require('../../../public/media/products/bag/12/wearingImg2.png'),
+      '/media/products/bag/12/wearingImg.png',
+      '/media/products/bag/12/wearingImg2.png',
     ],
     detailText: [
       {
@@ -676,28 +676,28 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19, y: 7, z: 13},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/13/mainImg.png'),
-      require('../../../public/media/products/bag/13/mainImg2.png'),
-      require('../../../public/media/products/bag/13/mainImg3.png'),
-      require('../../../public/media/products/bag/13/mainImg4.png'),
-      require('../../../public/media/products/bag/13/mainImg5.png'),
-      require('../../../public/media/products/bag/13/mainImg6.png'),
+      '/media/products/bag/13/mainImg.png',
+      '/media/products/bag/13/mainImg2.png',
+      '/media/products/bag/13/mainImg3.png',
+      '/media/products/bag/13/mainImg4.png',
+      '/media/products/bag/13/mainImg5.png',
+      '/media/products/bag/13/mainImg6.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/13/detailImg.png'),
-      require('../../../public/media/products/bag/13/detailImg2.png'),
-      require('../../../public/media/products/bag/13/detailImg3.png'),
+      '/media/products/bag/13/detailImg.png',
+      '/media/products/bag/13/detailImg2.png',
+      '/media/products/bag/13/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/13/wearingImg.png'),
-      require('../../../public/media/products/bag/13/wearingImg2.png'),
-      require('../../../public/media/products/bag/13/wearingImg3.png'),
+      '/media/products/bag/13/wearingImg.png',
+      '/media/products/bag/13/wearingImg2.png',
+      '/media/products/bag/13/wearingImg3.png',
     ],
     detailText: [
       {
@@ -733,26 +733,26 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 14, z: 19.5},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/14/mainImg.png'),
-      require('../../../public/media/products/bag/14/mainImg2.png'),
-      require('../../../public/media/products/bag/14/mainImg3.png'),
-      require('../../../public/media/products/bag/14/mainImg4.png'),
+      '/media/products/bag/14/mainImg.png',
+      '/media/products/bag/14/mainImg2.png',
+      '/media/products/bag/14/mainImg3.png',
+      '/media/products/bag/14/mainImg4.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/14/detailImg.png'),
-      require('../../../public/media/products/bag/14/detailImg2.png'),
-      require('../../../public/media/products/bag/14/detailImg3.png'),
+      '/media/products/bag/14/detailImg.png',
+      '/media/products/bag/14/detailImg2.png',
+      '/media/products/bag/14/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/14/wearingImg.png'),
-//      require('../../../public/media/products/bag/14/wearingImg2.png'),
-//      require('../../../public/media/products/bag/14/wearingImg3.png'),
+//      '/media/products/bag/14/wearingImg.png',
+//      '/media/products/bag/14/wearingImg2.png',
+//      '/media/products/bag/14/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -788,32 +788,32 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/15/mainImg.png'),
-      require('../../../public/media/products/bag/15/mainImg2.png'),
-      require('../../../public/media/products/bag/15/mainImg3.png'),
-      require('../../../public/media/products/bag/15/mainImg4.png'),
-      require('../../../public/media/products/bag/15/mainImg5.png'),
-      require('../../../public/media/products/bag/15/mainImg6.png'),
-      require('../../../public/media/products/bag/15/mainImg7.png'),
-      require('../../../public/media/products/bag/15/mainImg8.png'),
-      require('../../../public/media/products/bag/15/mainImg9.png'),
-      require('../../../public/media/products/bag/15/mainImg10.png'),
+      '/media/products/bag/15/mainImg.png',
+      '/media/products/bag/15/mainImg2.png',
+      '/media/products/bag/15/mainImg3.png',
+      '/media/products/bag/15/mainImg4.png',
+      '/media/products/bag/15/mainImg5.png',
+      '/media/products/bag/15/mainImg6.png',
+      '/media/products/bag/15/mainImg7.png',
+      '/media/products/bag/15/mainImg8.png',
+      '/media/products/bag/15/mainImg9.png',
+      '/media/products/bag/15/mainImg10.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/15/detailImg.png'),
-      require('../../../public/media/products/bag/15/detailImg2.png'),
-      require('../../../public/media/products/bag/15/detailImg3.png'),
+      '/media/products/bag/15/detailImg.png',
+      '/media/products/bag/15/detailImg2.png',
+      '/media/products/bag/15/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/15/wearingImg.png'),
-//      require('../../../public/media/products/bag/15/wearingImg2.png'),
-//      require('../../../public/media/products/bag/15/wearingImg3.png'),
+//      '/media/products/bag/15/wearingImg.png',
+//      '/media/products/bag/15/wearingImg2.png',
+//      '/media/products/bag/15/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -849,28 +849,28 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
 //      size:[
 //        {unit:'free', x:30 ,y:13, z:21},
 //      ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/16/mainImg.png'),
-      require('../../../public/media/products/bag/16/mainImg2.png'),
-      require('../../../public/media/products/bag/16/mainImg3.png'),
-      require('../../../public/media/products/bag/16/mainImg4.png'),
-      require('../../../public/media/products/bag/16/mainImg5.png'),
-      require('../../../public/media/products/bag/16/mainImg6.png'),
+      '/media/products/bag/16/mainImg.png',
+      '/media/products/bag/16/mainImg2.png',
+      '/media/products/bag/16/mainImg3.png',
+      '/media/products/bag/16/mainImg4.png',
+      '/media/products/bag/16/mainImg5.png',
+      '/media/products/bag/16/mainImg6.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/16/detailImg.png'),
-      require('../../../public/media/products/bag/16/detailImg2.png'),
-      require('../../../public/media/products/bag/16/detailImg3.png'),
+      '/media/products/bag/16/detailImg.png',
+      '/media/products/bag/16/detailImg2.png',
+      '/media/products/bag/16/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/16/wearingImg.png'),
-      require('../../../public/media/products/bag/16/wearingImg2.png'),
-      require('../../../public/media/products/bag/16/wearingImg3.png'),
+      '/media/products/bag/16/wearingImg.png',
+      '/media/products/bag/16/wearingImg2.png',
+      '/media/products/bag/16/wearingImg3.png',
     ],
     detailText: [
       {
@@ -906,25 +906,25 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/17/mainImg.png'),
-      require('../../../public/media/products/bag/17/mainImg2.png'),
-      require('../../../public/media/products/bag/17/mainImg3.png'),
+      '/media/products/bag/17/mainImg.png',
+      '/media/products/bag/17/mainImg2.png',
+      '/media/products/bag/17/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/17/detailImg.png'),
-      require('../../../public/media/products/bag/17/detailImg2.png'),
-      require('../../../public/media/products/bag/17/detailImg3.png'),
+      '/media/products/bag/17/detailImg.png',
+      '/media/products/bag/17/detailImg2.png',
+      '/media/products/bag/17/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/17/wearingImg.png'),
-      require('../../../public/media/products/bag/17/wearingImg2.png'),
-      require('../../../public/media/products/bag/17/wearingImg3.png'),
+      '/media/products/bag/17/wearingImg.png',
+      '/media/products/bag/17/wearingImg2.png',
+      '/media/products/bag/17/wearingImg3.png',
     ],
     detailText: [
       {
@@ -960,26 +960,26 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 31, y: 10, z: 25},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/18/mainImg.png'),
-      require('../../../public/media/products/bag/18/mainImg2.png'),
-      require('../../../public/media/products/bag/18/mainImg3.png'),
-      require('../../../public/media/products/bag/18/mainImg4.png'),
+      '/media/products/bag/18/mainImg.png',
+      '/media/products/bag/18/mainImg2.png',
+      '/media/products/bag/18/mainImg3.png',
+      '/media/products/bag/18/mainImg4.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/18/detailImg.png'),
-      require('../../../public/media/products/bag/18/detailImg2.png'),
-      require('../../../public/media/products/bag/18/detailImg3.png'),
+      '/media/products/bag/18/detailImg.png',
+      '/media/products/bag/18/detailImg2.png',
+      '/media/products/bag/18/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/18/wearingImg.png'),
-//      require('../../../public/media/products/bag/18/wearingImg2.png'),
-//      require('../../../public/media/products/bag/18/wearingImg3.png'),
+//      '/media/products/bag/18/wearingImg.png',
+//      '/media/products/bag/18/wearingImg2.png',
+//      '/media/products/bag/18/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -1015,27 +1015,27 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17, y: 5, z: 12.5},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/19/mainImg.png'),
-      require('../../../public/media/products/bag/19/mainImg2.png'),
-      require('../../../public/media/products/bag/19/mainImg3.png'),
-      require('../../../public/media/products/bag/19/mainImg4.png'),
-      require('../../../public/media/products/bag/19/mainImg5.png'),
+      '/media/products/bag/19/mainImg.png',
+      '/media/products/bag/19/mainImg2.png',
+      '/media/products/bag/19/mainImg3.png',
+      '/media/products/bag/19/mainImg4.png',
+      '/media/products/bag/19/mainImg5.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/19/detailImg.png'),
-      require('../../../public/media/products/bag/19/detailImg2.png'),
-      require('../../../public/media/products/bag/19/detailImg3.png'),
+      '/media/products/bag/19/detailImg.png',
+      '/media/products/bag/19/detailImg2.png',
+      '/media/products/bag/19/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/19/wearingImg.png'),
-//      require('../../../public/media/products/bag/19/wearingImg2.png'),
-//      require('../../../public/media/products/bag/19/wearingImg3.png'),
+//      '/media/products/bag/19/wearingImg.png',
+//      '/media/products/bag/19/wearingImg2.png',
+//      '/media/products/bag/19/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -1071,25 +1071,25 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 35.5, y: 2, z: 24},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/20/mainImg.png'),
-      require('../../../public/media/products/bag/20/mainImg2.png'),
-      require('../../../public/media/products/bag/20/mainImg3.png'),
+      '/media/products/bag/20/mainImg.png',
+      '/media/products/bag/20/mainImg2.png',
+      '/media/products/bag/20/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/20/detailImg.png'),
-      require('../../../public/media/products/bag/20/detailImg2.png'),
-      require('../../../public/media/products/bag/20/detailImg3.png'),
+      '/media/products/bag/20/detailImg.png',
+      '/media/products/bag/20/detailImg2.png',
+      '/media/products/bag/20/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/20/wearingImg.png'),
-//      require('../../../public/media/products/bag/20/wearingImg2.png'),
-//      require('../../../public/media/products/bag/20/wearingImg3.png'),
+//      '/media/products/bag/20/wearingImg.png',
+//      '/media/products/bag/20/wearingImg2.png',
+//      '/media/products/bag/20/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -1125,24 +1125,24 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17, y: 6, z: 20},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/21/mainImg.png'),
-      require('../../../public/media/products/bag/21/mainImg2.png'),
+      '/media/products/bag/21/mainImg.png',
+      '/media/products/bag/21/mainImg2.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/21/detailImg.png'),
-      require('../../../public/media/products/bag/21/detailImg2.png'),
-      require('../../../public/media/products/bag/21/detailImg3.png'),
+      '/media/products/bag/21/detailImg.png',
+      '/media/products/bag/21/detailImg2.png',
+      '/media/products/bag/21/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/21/wearingImg.png'),
-//      require('../../../public/media/products/bag/21/wearingImg2.png'),
-//      require('../../../public/media/products/bag/21/wearingImg3.png'),
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -1178,24 +1178,24 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 18},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/22/mainImg.png'),
-      require('../../../public/media/products/bag/22/mainImg2.png'),
+      '/media/products/bag/22/mainImg.png',
+      '/media/products/bag/22/mainImg2.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/22/detailImg.png'),
-      require('../../../public/media/products/bag/22/detailImg2.png'),
-      require('../../../public/media/products/bag/22/detailImg3.png'),
+      '/media/products/bag/22/detailImg.png',
+      '/media/products/bag/22/detailImg2.png',
+      '/media/products/bag/22/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/21/wearingImg.png'),
-//      require('../../../public/media/products/bag/21/wearingImg2.png'),
-//      require('../../../public/media/products/bag/21/wearingImg3.png'),
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -1231,25 +1231,25 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 21, y: 5, z: 24},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/23/mainImg.png'),
-      require('../../../public/media/products/bag/23/mainImg2.png'),
-      require('../../../public/media/products/bag/23/mainImg3.png'),
+      '/media/products/bag/23/mainImg.png',
+      '/media/products/bag/23/mainImg2.png',
+      '/media/products/bag/23/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/23/detailImg.png'),
-      require('../../../public/media/products/bag/23/detailImg2.png'),
-      require('../../../public/media/products/bag/23/detailImg3.png'),
+      '/media/products/bag/23/detailImg.png',
+      '/media/products/bag/23/detailImg2.png',
+      '/media/products/bag/23/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/21/wearingImg.png'),
-//      require('../../../public/media/products/bag/21/wearingImg2.png'),
-//      require('../../../public/media/products/bag/21/wearingImg3.png'),
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -1285,28 +1285,28 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 17},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/24/mainImg.png'),
-      require('../../../public/media/products/bag/24/mainImg2.png'),
-      require('../../../public/media/products/bag/24/mainImg3.png'),
-      require('../../../public/media/products/bag/24/mainImg4.png'),
-      require('../../../public/media/products/bag/24/mainImg5.png'),
-      require('../../../public/media/products/bag/24/mainImg6.png'),
+      '/media/products/bag/24/mainImg.png',
+      '/media/products/bag/24/mainImg2.png',
+      '/media/products/bag/24/mainImg3.png',
+      '/media/products/bag/24/mainImg4.png',
+      '/media/products/bag/24/mainImg5.png',
+      '/media/products/bag/24/mainImg6.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/24/detailImg.png'),
-      require('../../../public/media/products/bag/24/detailImg2.png'),
-      require('../../../public/media/products/bag/24/detailImg3.png'),
+      '/media/products/bag/24/detailImg.png',
+      '/media/products/bag/24/detailImg2.png',
+      '/media/products/bag/24/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/21/wearingImg.png'),
-//      require('../../../public/media/products/bag/21/wearingImg2.png'),
-//      require('../../../public/media/products/bag/21/wearingImg3.png'),
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -1342,28 +1342,28 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 13, y: 9, z: 18},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/25/mainImg.png'),
-      require('../../../public/media/products/bag/25/mainImg2.png'),
-      require('../../../public/media/products/bag/25/mainImg3.png'),
-      require('../../../public/media/products/bag/25/mainImg4.png'),
-      require('../../../public/media/products/bag/25/mainImg5.png'),
-      require('../../../public/media/products/bag/25/mainImg6.png'),
+      '/media/products/bag/25/mainImg.png',
+      '/media/products/bag/25/mainImg2.png',
+      '/media/products/bag/25/mainImg3.png',
+      '/media/products/bag/25/mainImg4.png',
+      '/media/products/bag/25/mainImg5.png',
+      '/media/products/bag/25/mainImg6.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/25/detailImg.png'),
-      require('../../../public/media/products/bag/25/detailImg2.png'),
-      require('../../../public/media/products/bag/25/detailImg3.png'),
+      '/media/products/bag/25/detailImg.png',
+      '/media/products/bag/25/detailImg2.png',
+      '/media/products/bag/25/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/21/wearingImg.png'),
-//      require('../../../public/media/products/bag/21/wearingImg2.png'),
-//      require('../../../public/media/products/bag/21/wearingImg3.png'),
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -1399,26 +1399,26 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17, y: 5, z: 12.5},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/26/mainImg.png'),
-      require('../../../public/media/products/bag/26/mainImg2.png'),
-      require('../../../public/media/products/bag/26/mainImg3.png'),
-      require('../../../public/media/products/bag/26/mainImg4.png'),
+      '/media/products/bag/26/mainImg.png',
+      '/media/products/bag/26/mainImg2.png',
+      '/media/products/bag/26/mainImg3.png',
+      '/media/products/bag/26/mainImg4.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/26/detailImg.png'),
-      require('../../../public/media/products/bag/26/detailImg2.png'),
-      require('../../../public/media/products/bag/26/detailImg3.png'),
+      '/media/products/bag/26/detailImg.png',
+      '/media/products/bag/26/detailImg2.png',
+      '/media/products/bag/26/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/26/wearingImg.png'),
-      require('../../../public/media/products/bag/26/wearingImg2.png'),
-      require('../../../public/media/products/bag/26/wearingImg3.png'),
+      '/media/products/bag/26/wearingImg.png',
+      '/media/products/bag/26/wearingImg2.png',
+      '/media/products/bag/26/wearingImg3.png',
     ],
     detailText: [
       {
@@ -1454,27 +1454,27 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 9, z: 15},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/27/mainImg.png'),
-      require('../../../public/media/products/bag/27/mainImg2.png'),
-      require('../../../public/media/products/bag/27/mainImg3.png'),
-      require('../../../public/media/products/bag/27/mainImg4.png'),
-      require('../../../public/media/products/bag/27/mainImg5.png'),
+      '/media/products/bag/27/mainImg.png',
+      '/media/products/bag/27/mainImg2.png',
+      '/media/products/bag/27/mainImg3.png',
+      '/media/products/bag/27/mainImg4.png',
+      '/media/products/bag/27/mainImg5.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/27/detailImg.png'),
-      require('../../../public/media/products/bag/27/detailImg2.png'),
-      require('../../../public/media/products/bag/27/detailImg3.png'),
+      '/media/products/bag/27/detailImg.png',
+      '/media/products/bag/27/detailImg2.png',
+      '/media/products/bag/27/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/27/wearingImg.png'),
-//      require('../../../public/media/products/bag/27/wearingImg2.png'),
-//      require('../../../public/media/products/bag/27/wearingImg3.png'),
+//      '/media/products/bag/27/wearingImg.png',
+//      '/media/products/bag/27/wearingImg2.png',
+//      '/media/products/bag/27/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -1510,24 +1510,24 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26.5, y: 8, z: 20},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/28/mainImg.png'),
-      require('../../../public/media/products/bag/28/mainImg2.png'),
+      '/media/products/bag/28/mainImg.png',
+      '/media/products/bag/28/mainImg2.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/28/detailImg.png'),
-      require('../../../public/media/products/bag/28/detailImg2.png'),
-      require('../../../public/media/products/bag/28/detailImg3.png'),
+      '/media/products/bag/28/detailImg.png',
+      '/media/products/bag/28/detailImg2.png',
+      '/media/products/bag/28/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/28/wearingImg.png'),
-//      require('../../../public/media/products/bag/28/wearingImg2.png'),
-//      require('../../../public/media/products/bag/28/wearingImg3.png'),
+//      '/media/products/bag/28/wearingImg.png',
+//      '/media/products/bag/28/wearingImg2.png',
+//      '/media/products/bag/28/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -1563,25 +1563,25 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 10, z: 17},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/29/mainImg.png'),
-      require('../../../public/media/products/bag/29/mainImg2.png'),
-      require('../../../public/media/products/bag/29/mainImg3.png'),
+      '/media/products/bag/29/mainImg.png',
+      '/media/products/bag/29/mainImg2.png',
+      '/media/products/bag/29/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/29/detailImg.png'),
-      require('../../../public/media/products/bag/29/detailImg2.png'),
-      require('../../../public/media/products/bag/29/detailImg3.png'),
+      '/media/products/bag/29/detailImg.png',
+      '/media/products/bag/29/detailImg2.png',
+      '/media/products/bag/29/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/29/wearingImg.png'),
-//      require('../../../public/media/products/bag/29/wearingImg2.png'),
-//      require('../../../public/media/products/bag/29/wearingImg3.png'),
+//      '/media/products/bag/29/wearingImg.png',
+//      '/media/products/bag/29/wearingImg2.png',
+//      '/media/products/bag/29/wearingImg3.png',
 //    ],
     detailText: [
       {
@@ -1617,24 +1617,24 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 40, y: 18, z: 20},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/30/mainImg.png'),
-      require('../../../public/media/products/bag/30/mainImg2.png'),
-      require('../../../public/media/products/bag/30/mainImg3.png'),
+      '/media/products/bag/30/mainImg.png',
+      '/media/products/bag/30/mainImg2.png',
+      '/media/products/bag/30/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/30/detailImg.png'),
-      require('../../../public/media/products/bag/30/detailImg2.png'),
-      require('../../../public/media/products/bag/30/detailImg3.png'),
+      '/media/products/bag/30/detailImg.png',
+      '/media/products/bag/30/detailImg2.png',
+      '/media/products/bag/30/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/30/wearingImg.png'),
-      require('../../../public/media/products/bag/30/wearingImg2.png'),
+      '/media/products/bag/30/wearingImg.png',
+      '/media/products/bag/30/wearingImg2.png',
     ],
     detailText: [
       {
@@ -1670,23 +1670,23 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/31/mainImg.png'),
-      require('../../../public/media/products/bag/31/mainImg2.png'),
-      require('../../../public/media/products/bag/31/mainImg3.png'),
+      '/media/products/bag/31/mainImg.png',
+      '/media/products/bag/31/mainImg2.png',
+      '/media/products/bag/31/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/31/detailImg.png'),
-      require('../../../public/media/products/bag/31/detailImg2.png'),
-      require('../../../public/media/products/bag/31/detailImg3.png'),
+      '/media/products/bag/31/detailImg.png',
+      '/media/products/bag/31/detailImg2.png',
+      '/media/products/bag/31/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/31/wearingImg.png'),
+      '/media/products/bag/31/wearingImg.png',
     ],
     detailText: [
       {
@@ -1722,23 +1722,23 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/32/mainImg.png'),
-      require('../../../public/media/products/bag/32/mainImg2.png'),
+      '/media/products/bag/32/mainImg.png',
+      '/media/products/bag/32/mainImg2.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/32/detailImg.png'),
-      require('../../../public/media/products/bag/32/detailImg2.png'),
-      require('../../../public/media/products/bag/32/detailImg3.png'),
+      '/media/products/bag/32/detailImg.png',
+      '/media/products/bag/32/detailImg2.png',
+      '/media/products/bag/32/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/32/wearingImg.png'),
-      require('../../../public/media/products/bag/32/wearingImg2.png'),
+      '/media/products/bag/32/wearingImg.png',
+      '/media/products/bag/32/wearingImg2.png',
     ],
     detailText: [
       {
@@ -1774,25 +1774,25 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 13, z: 25},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/33/mainImg.png'),
-      require('../../../public/media/products/bag/33/mainImg2.png'),
-      require('../../../public/media/products/bag/33/mainImg3.png'),
+      '/media/products/bag/33/mainImg.png',
+      '/media/products/bag/33/mainImg2.png',
+      '/media/products/bag/33/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/33/detailImg.png'),
-      require('../../../public/media/products/bag/33/detailImg2.png'),
-      require('../../../public/media/products/bag/33/detailImg3.png'),
+      '/media/products/bag/33/detailImg.png',
+      '/media/products/bag/33/detailImg2.png',
+      '/media/products/bag/33/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/33/wearingImg.png'),
-      require('../../../public/media/products/bag/33/wearingImg2.png'),
-      require('../../../public/media/products/bag/33/wearingImg3.png'),
+      '/media/products/bag/33/wearingImg.png',
+      '/media/products/bag/33/wearingImg2.png',
+      '/media/products/bag/33/wearingImg3.png',
     ],
     detailText: [
       {
@@ -1832,24 +1832,24 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/34/mainImg.png'),
-      require('../../../public/media/products/bag/34/mainImg2.png'),
-      require('../../../public/media/products/bag/34/mainImg3.png'),
+      '/media/products/bag/34/mainImg.png',
+      '/media/products/bag/34/mainImg2.png',
+      '/media/products/bag/34/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/34/detailImg.png'),
-      require('../../../public/media/products/bag/34/detailImg2.png'),
-      require('../../../public/media/products/bag/34/detailImg3.png'),
+      '/media/products/bag/34/detailImg.png',
+      '/media/products/bag/34/detailImg2.png',
+      '/media/products/bag/34/detailImg3.png',
     ],
     wearingImg: [
-      require('../../../public/media/products/bag/34/wearingImg.png'),
-      require('../../../public/media/products/bag/34/wearingImg2.png'),
+      '/media/products/bag/34/wearingImg.png',
+      '/media/products/bag/34/wearingImg2.png',
     ],
     detailText: [
       {
@@ -1889,24 +1889,24 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 28, y: 12.5, z: 20},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/35/mainImg.png'),
-      require('../../../public/media/products/bag/35/mainImg2.png'),
-      require('../../../public/media/products/bag/35/mainImg3.png'),
+      '/media/products/bag/35/mainImg.png',
+      '/media/products/bag/35/mainImg2.png',
+      '/media/products/bag/35/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/35/detailImg.png'),
-      require('../../../public/media/products/bag/35/detailImg2.png'),
-      require('../../../public/media/products/bag/35/detailImg3.png'),
+      '/media/products/bag/35/detailImg.png',
+      '/media/products/bag/35/detailImg2.png',
+      '/media/products/bag/35/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/35/wearingImg.png'),
-//      require('../../../public/media/products/bag/35/wearingImg2.png'),
+//      '/media/products/bag/35/wearingImg.png',
+//      '/media/products/bag/35/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -1946,24 +1946,24 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/36/mainImg.png'),
-      require('../../../public/media/products/bag/36/mainImg2.png'),
-      require('../../../public/media/products/bag/36/mainImg3.png'),
+      '/media/products/bag/36/mainImg.png',
+      '/media/products/bag/36/mainImg2.png',
+      '/media/products/bag/36/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/36/detailImg.png'),
-      require('../../../public/media/products/bag/36/detailImg2.png'),
-      require('../../../public/media/products/bag/36/detailImg3.png'),
+      '/media/products/bag/36/detailImg.png',
+      '/media/products/bag/36/detailImg2.png',
+      '/media/products/bag/36/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/36/wearingImg.png'),
-//      require('../../../public/media/products/bag/36/wearingImg2.png'),
+//      '/media/products/bag/36/wearingImg.png',
+//      '/media/products/bag/36/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2003,22 +2003,22 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 10.5, z: 17},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/37/mainImg.png'),
+      '/media/products/bag/37/mainImg.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/37/detailImg.png'),
-      require('../../../public/media/products/bag/37/detailImg2.png'),
-      require('../../../public/media/products/bag/37/detailImg3.png'),
+      '/media/products/bag/37/detailImg.png',
+      '/media/products/bag/37/detailImg2.png',
+      '/media/products/bag/37/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/37/wearingImg.png'),
-//      require('../../../public/media/products/bag/37/wearingImg2.png'),
+//      '/media/products/bag/37/wearingImg.png',
+//      '/media/products/bag/37/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2058,24 +2058,24 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 47, y: 7, z: 22},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/38/mainImg.png'),
-      require('../../../public/media/products/bag/38/mainImg2.png'),
-      require('../../../public/media/products/bag/38/mainImg3.png'),
+      '/media/products/bag/38/mainImg.png',
+      '/media/products/bag/38/mainImg2.png',
+      '/media/products/bag/38/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/38/detailImg.png'),
-      require('../../../public/media/products/bag/38/detailImg2.png'),
-      require('../../../public/media/products/bag/38/detailImg3.png'),
+      '/media/products/bag/38/detailImg.png',
+      '/media/products/bag/38/detailImg2.png',
+      '/media/products/bag/38/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/38/wearingImg.png'),
-//      require('../../../public/media/products/bag/38/wearingImg2.png'),
+//      '/media/products/bag/38/wearingImg.png',
+//      '/media/products/bag/38/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2115,23 +2115,23 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19, y: 4, z: 11},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/39/mainImg.png'),
-      require('../../../public/media/products/bag/39/mainImg2.png'),
+      '/media/products/bag/39/mainImg.png',
+      '/media/products/bag/39/mainImg2.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/39/detailImg.png'),
-      require('../../../public/media/products/bag/39/detailImg2.png'),
-      require('../../../public/media/products/bag/39/detailImg3.png'),
+      '/media/products/bag/39/detailImg.png',
+      '/media/products/bag/39/detailImg2.png',
+      '/media/products/bag/39/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/39/wearingImg.png'),
-//      require('../../../public/media/products/bag/39/wearingImg2.png'),
+//      '/media/products/bag/39/wearingImg.png',
+//      '/media/products/bag/39/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2171,22 +2171,22 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 8.5, z: 17},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/40/mainImg.png'),
+      '/media/products/bag/40/mainImg.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/40/detailImg.png'),
-      require('../../../public/media/products/bag/40/detailImg2.png'),
-      require('../../../public/media/products/bag/40/detailImg3.png'),
+      '/media/products/bag/40/detailImg.png',
+      '/media/products/bag/40/detailImg2.png',
+      '/media/products/bag/40/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/40/wearingImg.png'),
-//      require('../../../public/media/products/bag/40/wearingImg2.png'),
+//      '/media/products/bag/40/wearingImg.png',
+//      '/media/products/bag/40/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2226,24 +2226,24 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19.5, y: 5.5, z: 15},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/41/mainImg.png'),
-      require('../../../public/media/products/bag/41/mainImg2.png'),
-      require('../../../public/media/products/bag/41/mainImg3.png'),
+      '/media/products/bag/41/mainImg.png',
+      '/media/products/bag/41/mainImg2.png',
+      '/media/products/bag/41/mainImg3.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/41/detailImg.png'),
-      require('../../../public/media/products/bag/41/detailImg2.png'),
-      require('../../../public/media/products/bag/41/detailImg3.png'),
+      '/media/products/bag/41/detailImg.png',
+      '/media/products/bag/41/detailImg2.png',
+      '/media/products/bag/41/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/41/wearingImg.png'),
-//      require('../../../public/media/products/bag/41/wearingImg2.png'),
+//      '/media/products/bag/41/wearingImg.png',
+//      '/media/products/bag/41/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2283,23 +2283,23 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 2, z: 22},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/42/mainImg.png'),
-      require('../../../public/media/products/bag/42/mainImg2.png'),
+      '/media/products/bag/42/mainImg.png',
+      '/media/products/bag/42/mainImg2.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/42/detailImg.png'),
-      require('../../../public/media/products/bag/42/detailImg2.png'),
-      require('../../../public/media/products/bag/42/detailImg3.png'),
+      '/media/products/bag/42/detailImg.png',
+      '/media/products/bag/42/detailImg2.png',
+      '/media/products/bag/42/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/42/wearingImg.png'),
-//      require('../../../public/media/products/bag/42/wearingImg2.png'),
+//      '/media/products/bag/42/wearingImg.png',
+//      '/media/products/bag/42/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2339,23 +2339,23 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 5, z: 10},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/43/mainImg.png'),
-      require('../../../public/media/products/bag/43/mainImg2.png'),
+      '/media/products/bag/43/mainImg.png',
+      '/media/products/bag/43/mainImg2.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/43/detailImg.png'),
-      require('../../../public/media/products/bag/43/detailImg2.png'),
-      require('../../../public/media/products/bag/43/detailImg3.png'),
+      '/media/products/bag/43/detailImg.png',
+      '/media/products/bag/43/detailImg2.png',
+      '/media/products/bag/43/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/43/wearingImg.png'),
-//      require('../../../public/media/products/bag/43/wearingImg2.png'),
+//      '/media/products/bag/43/wearingImg.png',
+//      '/media/products/bag/43/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2395,27 +2395,27 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 15.5, y: 4, z: 10.5},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/44/mainImg.png'),
-      require('../../../public/media/products/bag/44/mainImg2.png'),
-      require('../../../public/media/products/bag/44/mainImg3.png'),
-      require('../../../public/media/products/bag/44/mainImg4.png'),
-      require('../../../public/media/products/bag/44/mainImg5.png'),
-      require('../../../public/media/products/bag/44/mainImg6.png'),
+      '/media/products/bag/44/mainImg.png',
+      '/media/products/bag/44/mainImg2.png',
+      '/media/products/bag/44/mainImg3.png',
+      '/media/products/bag/44/mainImg4.png',
+      '/media/products/bag/44/mainImg5.png',
+      '/media/products/bag/44/mainImg6.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/44/detailImg.png'),
-      require('../../../public/media/products/bag/44/detailImg2.png'),
-      require('../../../public/media/products/bag/44/detailImg3.png'),
+      '/media/products/bag/44/detailImg.png',
+      '/media/products/bag/44/detailImg2.png',
+      '/media/products/bag/44/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/44/wearingImg.png'),
-//      require('../../../public/media/products/bag/44/wearingImg2.png'),
+//      '/media/products/bag/44/wearingImg.png',
+//      '/media/products/bag/44/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2455,22 +2455,22 @@ export const PRODUCTS = {
     subCategory: {id: 7, title: "더플백", img: "dufflebag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
 //      size:[
 //        {unit:'free',x:15.5,y:4, z:10.5},
 //      ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/45/mainImg.png'),
+      '/media/products/bag/45/mainImg.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/45/detailImg.png'),
-      require('../../../public/media/products/bag/45/detailImg2.png'),
-      require('../../../public/media/products/bag/45/detailImg3.png'),
+      '/media/products/bag/45/detailImg.png',
+      '/media/products/bag/45/detailImg2.png',
+      '/media/products/bag/45/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/45/wearingImg.png'),
-//      require('../../../public/media/products/bag/45/wearingImg2.png'),
+//      '/media/products/bag/45/wearingImg.png',
+//      '/media/products/bag/45/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2510,22 +2510,22 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 7, z: 14},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/46/mainImg.png'),
+      '/media/products/bag/46/mainImg.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/46/detailImg.png'),
-      require('../../../public/media/products/bag/46/detailImg2.png'),
-      require('../../../public/media/products/bag/46/detailImg3.png'),
+      '/media/products/bag/46/detailImg.png',
+      '/media/products/bag/46/detailImg2.png',
+      '/media/products/bag/46/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/46/wearingImg.png'),
-//      require('../../../public/media/products/bag/46/wearingImg2.png'),
+//      '/media/products/bag/46/wearingImg.png',
+//      '/media/products/bag/46/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2565,22 +2565,22 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19, y: 6, z: `10~14`},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/47/mainImg.png'),
+      '/media/products/bag/47/mainImg.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/47/detailImg.png'),
-      require('../../../public/media/products/bag/47/detailImg2.png'),
-      require('../../../public/media/products/bag/47/detailImg3.png'),
+      '/media/products/bag/47/detailImg.png',
+      '/media/products/bag/47/detailImg2.png',
+      '/media/products/bag/47/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/47/wearingImg.png'),
-//      require('../../../public/media/products/bag/47/wearingImg2.png'),
+//      '/media/products/bag/47/wearingImg.png',
+//      '/media/products/bag/47/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2620,26 +2620,26 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 23, y: 11, z: 12},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/48/mainImg.png'),
-      require('../../../public/media/products/bag/48/mainImg2.png'),
-      require('../../../public/media/products/bag/48/mainImg3.png'),
-      require('../../../public/media/products/bag/48/mainImg4.png'),
-      require('../../../public/media/products/bag/48/mainImg5.png'),
+      '/media/products/bag/48/mainImg.png',
+      '/media/products/bag/48/mainImg2.png',
+      '/media/products/bag/48/mainImg3.png',
+      '/media/products/bag/48/mainImg4.png',
+      '/media/products/bag/48/mainImg5.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/48/detailImg.png'),
-      require('../../../public/media/products/bag/48/detailImg2.png'),
-      require('../../../public/media/products/bag/48/detailImg3.png'),
+      '/media/products/bag/48/detailImg.png',
+      '/media/products/bag/48/detailImg2.png',
+      '/media/products/bag/48/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/48/wearingImg.png'),
-//      require('../../../public/media/products/bag/48/wearingImg2.png'),
+//      '/media/products/bag/48/wearingImg.png',
+//      '/media/products/bag/48/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2679,23 +2679,23 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 2.5, z: 12.5},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/49/mainImg.png'),
-      require('../../../public/media/products/bag/49/mainImg2.png'),
+      '/media/products/bag/49/mainImg.png',
+      '/media/products/bag/49/mainImg2.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/49/detailImg.png'),
-      require('../../../public/media/products/bag/49/detailImg2.png'),
-      require('../../../public/media/products/bag/49/detailImg3.png'),
+      '/media/products/bag/49/detailImg.png',
+      '/media/products/bag/49/detailImg2.png',
+      '/media/products/bag/49/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/49/wearingImg.png'),
-//      require('../../../public/media/products/bag/49/wearingImg2.png'),
+//      '/media/products/bag/49/wearingImg.png',
+//      '/media/products/bag/49/wearingImg2.png',
 //    ],
     detailText: [
       {
@@ -2735,23 +2735,23 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: require('../../../public/media/productDetail/bag_size.png'),
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 2.5, z: 12.5},
       ]
     },
     mainImg: [
-      require('../../../public/media/products/bag/50/mainImg.png'),
-      require('../../../public/media/products/bag/50/mainImg2.png'),
+      '/media/products/bag/50/mainImg.png',
+      '/media/products/bag/50/mainImg2.png',
     ],
     detailImg: [
-      require('../../../public/media/products/bag/50/detailImg.png'),
-      require('../../../public/media/products/bag/50/detailImg2.png'),
-      require('../../../public/media/products/bag/50/detailImg3.png'),
+      '/media/products/bag/50/detailImg.png',
+      '/media/products/bag/50/detailImg2.png',
+      '/media/products/bag/50/detailImg3.png',
     ],
 //    wearingImg:[
-//      require('../../../public/media/products/bag/50/wearingImg.png'),
-//      require('../../../public/media/products/bag/50/wearingImg2.png'),
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
 //    ],
     detailText: [
       {
