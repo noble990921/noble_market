@@ -34,7 +34,9 @@
                class="product_list"
                v-for="i in pagedItems"
                :key="i.id">
-            <img :src="i.mainImg[0]">
+            <div class="img_box">
+              <img :src="i.mainImg[0]">
+            </div>
             <p class="brand_name">{{ i.brand }}</p>
             <p class="name">{{ i.enName }}</p>
             <p class="text">{{ i.name }}</p>
@@ -47,11 +49,11 @@
             :background="true"
             :hide-on-single-page="false"
             :page-size="size"
-            :total="total"
+            :total="filteredProducts.length"
             @current-change="handlePageChange"
             :current-page="page"
-            layout="prev, pager, next">
-        </el-pagination>
+            layout="prev, pager, next"
+        />
       </div>
     </div>
   </div>
@@ -90,6 +92,13 @@
       selectedSubCategory() {
         this.page = 1;
         this.updatePagedItems();
+      },
+      '$route'(to) {
+        const { page, sub } = to.query;
+        this.page = page ? parseInt(page) : 1;
+        this.selectedSubCategory = sub || "전체";
+        this.updatePagedItems();
+        this.getData();
       },
     },
     computed: {
@@ -177,12 +186,10 @@
         this.loading = true;
         try {
           const module = await import(`../../data/products/${this.category.toLowerCase()}.js`);
-          this.product = Object.values(module.PRODUCTS); // outer.js 파일에 export const PRODUCTS = { ... }
-
+          this.product = Object.values(module.PRODUCTS);
           this.total = this.product.length;
-          this.updatePagedItems();
 
-          // 하위 카테고리 정리
+          // 서브카테고리 설정만
           const subCategoryMap = new Map();
           this.product.forEach((p) => {
             const title = p.subCategory?.title ?? "전체";
@@ -192,16 +199,13 @@
               subCategoryMap.set(title, { img, id });
             }
           });
-          const subCategoryList = [
+          this.subCategory = [
             { title: "전체", img: "all", id: 0 },
             ...Array.from(subCategoryMap.entries())
             .filter(([title]) => title !== "전체")
             .map(([title, { img, id }]) => ({ title, img, id }))
             .sort((a, b) => a.id - b.id),
           ];
-
-          this.subCategory = subCategoryList;
-
         } catch (e) {
           console.error("카테고리 데이터 로딩 실패:", e);
         }
@@ -214,21 +218,39 @@
       },
       handlePageChange(newPage) {
         this.page = newPage;
+        this.$router.replace({
+          query: {
+            ...this.$route.query,
+            page: newPage,
+          },
+        });
         this.updatePagedItems();
       },
-      sortItems() {
-        if (this.value === "낮은가격") {
-          this.product.sort((a, b) => a.price - b.price);
-        } else if (this.value === "높은가격") {
-          this.product.sort((a, b) => b.price - a.price);
-        } else if (this.value === "신상품") {
-          this.product.sort((a, b) => b.createDate - a.createDate);
-        }
-        this.updatePagedItems();
-      },
+//      sortItems() {
+//        if (this.value === "낮은가격") {
+//          this.product.sort((a, b) => a.price - b.price);
+//        } else if (this.value === "높은가격") {
+//          this.product.sort((a, b) => b.price - a.price);
+//        } else if (this.value === "신상품") {
+//          this.product.sort((a, b) => b.createDate - a.createDate);
+//        }
+//        this.updatePagedItems();
+//      },
     },
     created() {
-      this.getData();
+//      this.getData();
     },
+    mounted() {
+      const { page, sub } = this.$route.query;
+      const parsedPage = page ? parseInt(page) : 1;
+      const selectedSub = sub || "전체";
+
+      this.getData().then(() => {
+        this.page = parsedPage; // getData() 후에 설정
+        this.selectedSubCategory = selectedSub;
+        this.updatePagedItems();
+      });
+    }
+
   };
 </script>

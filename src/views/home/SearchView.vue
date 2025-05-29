@@ -40,7 +40,9 @@
                  class="product_list"
                  v-for="i in pagedItems"
                  :key="i.id">
-              <img :src="i.mainImg[0]">
+              <div class="img_box">
+                <img :src="i.mainImg[0]">
+              </div>
               <p class="brand_name">{{ i.brand }}</p>
               <p class="name">{{ i.enName }}</p>
               <p class="text">{{ i.name }}</p>

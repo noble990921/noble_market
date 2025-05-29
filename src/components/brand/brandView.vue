@@ -13,14 +13,14 @@
                 <p class="etitle">{{ brandInfo.enName }}</p>
                 <p class="ktitle">{{ brandInfo.koName }}</p>
               </div>
-<!--              <el-select v-model="value" placeholder="-정렬방식-">-->
-<!--                <el-option-->
-<!--                    v-for="item in options"-->
-<!--                    :key="item.value"-->
-<!--                    :label="item.label"-->
-<!--                    :value="item.value">-->
-<!--                </el-option>-->
-<!--              </el-select>-->
+              <!--              <el-select v-model="value" placeholder="-정렬방식-">-->
+              <!--                <el-option-->
+              <!--                    v-for="item in options"-->
+              <!--                    :key="item.value"-->
+              <!--                    :label="item.label"-->
+              <!--                    :value="item.value">-->
+              <!--                </el-option>-->
+              <!--              </el-select>-->
             </div>
             <div class="category_box">
               <ul>
@@ -44,7 +44,9 @@
                   class="product_list"
                   @click="$router.push(`/${brand}/detail/${i.id}`)"
               >
-                              <img :src="i.img" />
+                <div class="img_box">
+                  <img :src="i.mainImg[0]">
+                </div>
                 <p class="name">{{ i.title }}</p>
                 <p class="price">가격문의</p>
               </div>
@@ -69,15 +71,16 @@
 <script>
   import {SET_CATEGORY_MAP, SET_PRODUCT_BRAND} from "@/constants/Set";
   import {db} from "@/firebase";
+
   const reverseCategoryMap = {
-    "1": { label: "아우터", img: "outer" },
-    "2": { label: "상의", img: "top" },
-    "3": { label: "하의", img: "bottom" },
-    "4": { label: "신발", img: "shoes" },
-    "5": { label: "지갑", img: "wallet" },
-    "6": { label: "가방", img: "bag" },
-    "7": { label: "시계", img: "watch" },
-    "8": { label: "악세사리", img: "accessory" },
+    "1": {label: "아우터", img: "outer"},
+    "2": {label: "상의", img: "top"},
+    "3": {label: "하의", img: "bottom"},
+    "4": {label: "신발", img: "shoes"},
+    "5": {label: "지갑", img: "wallet"},
+    "6": {label: "가방", img: "bag"},
+    "7": {label: "시계", img: "watch"},
+    "8": {label: "악세사리", img: "accessory"},
   };
   export default {
     name: "brandView",
@@ -93,7 +96,7 @@
       },
     },
     computed: {
-      deskWidth(){
+      deskWidth() {
         return this.windowWidth < 1024
       },
       displayedProducts() {
@@ -116,22 +119,22 @@
         total: 0,
         size: 20,
         page: 1,
-        pagedItems:[],
+        pagedItems: [],
         options: [
-          { value: "신상품", label: "신상품" },
-          { value: "낮은가격", label: "낮은가격" },
-          { value: "높은가격", label: "높은가격" },
+          {value: "신상품", label: "신상품"},
+          {value: "낮은가격", label: "낮은가격"},
+          {value: "높은가격", label: "높은가격"},
         ],
         value: "",
         products: [],     // 전체 상품
         filteredProducts: [],  // 현재 브랜드에 속하는 상품
         categories: [],
         selectedCategory: "전체",
-        loading:false,
+        loading: false,
         windowWidth: window.innerWidth
       };
     },
-    methods:{
+    methods: {
       async getData() {
         this.loading = true;
         const querySnapshot = await db.collection("products").orderBy("createDate", "desc").get();
@@ -148,7 +151,7 @@
         this.filteredProducts = this.products.filter(product =>
             product.brand == this.brandInfo.id
         );
-        console.log('123123',this.products)
+        console.log('123123', this.products)
 
         // 카테고리 뽑기
         const categorySet = new Set(
@@ -156,10 +159,9 @@
         );
         this.categories = ["전체", ...Array.from(categorySet)];
 
-
         this.loading = false;
       },
-      updateWidth(){
+      updateWidth() {
         this.windowWidth = window.innerWidth
       },
       getCategoryId() {
@@ -185,8 +187,8 @@
         this.updatePagedItems();
       },
     },
-    mounted(){
-      window.addEventListener('resize',this.updateWidth)
+    mounted() {
+      window.addEventListener('resize', this.updateWidth)
     },
     created() {
       this.getData();

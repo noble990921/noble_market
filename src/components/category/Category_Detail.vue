@@ -6,7 +6,9 @@
           <div class="swiper_wrapper">
             <swiper :options="swiperOption">
               <swiper-slide v-for="(img, i) in product.mainImg" :key="i">
-                <img :src="img"/>
+                <div class="img_box">
+                  <img :src="img"/>
+                </div>
               </swiper-slide>
 <!--              <div v-if="product.mainImg && product.mainImg.length > 1" class="swiper-pagination" slot="pagination"></div>-->
               <div class="swiper-pagination" slot="pagination"></div>
