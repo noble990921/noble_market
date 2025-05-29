@@ -115,6 +115,12 @@ export const SET_PRODUCT_BRAND = {
     koName: "비비안",
 //    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
 //    img: require('@/assets/images/home/section7/brand_logo9.png'),
+  },"19": {
+    id: 19,
+    enName: "Maison",
+    koName: "메종",
+//    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
+//    img: require('@/assets/images/home/section7/brand_logo9.png'),
   },
 };
 
