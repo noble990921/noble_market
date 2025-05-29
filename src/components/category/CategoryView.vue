@@ -82,7 +82,7 @@
         pagedItems:[],
         subCategory: [], // subCategory를 배열로 초기화
         selectedSubCategory: "전체", // 전체 카테고리 선택,
-        loading:false
+        loading:false,
       };
     },
     watch: {
@@ -91,6 +91,16 @@
       },
       selectedSubCategory() {
         this.page = 1;
+        this.updatePagedItems();
+      },
+      page(newPage) {
+        this.$router.replace({
+          query: {
+            ...this.$route.query,
+            page: newPage,
+            sub: this.selectedSubCategory
+          }
+        });
         this.updatePagedItems();
       },
       '$route'(to) {
@@ -206,6 +216,7 @@
             .map(([title, { img, id }]) => ({ title, img, id }))
             .sort((a, b) => a.id - b.id),
           ];
+          this.updatePagedItems()
         } catch (e) {
           console.error("카테고리 데이터 로딩 실패:", e);
         }

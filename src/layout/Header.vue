@@ -215,7 +215,8 @@
         if (m.func) {
           this.exeFunc(m.func);
         } else if (m.url) {
-          this.goToUrl(m.url);
+//          this.goToUrl(m.url);
+          this.$router.push(m.url)
         }
         this.asideOpen = false;
       },

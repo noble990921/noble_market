@@ -1371,7 +1371,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/131/mainImg',
+      '/media/products/top/131/mainImg.png',
     ],
     detailImg:[
       '/media/products/top/131/detailImg.png',
@@ -1416,7 +1416,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/132/mainImg',
+      '/media/products/top/132/mainImg.png',
     ],
 //    detailImg:[
 //      '/media/products/top/131/detailImg.png',
@@ -1461,7 +1461,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/133/mainImg',
+      '/media/products/top/133/mainImg.png',
     ],
     detailImg:[
       '/media/products/top/133/detailImg.png',
@@ -1506,7 +1506,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/134/mainImg',
+      '/media/products/top/134/mainImg.png',
     ],
 //    detailImg:[
 //      '/media/products/top/133/detailImg.png',
@@ -1551,7 +1551,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/135/mainImg',
+      '/media/products/top/135/mainImg.png',
     ],
 //    detailImg:[
 //      '/media/products/top/133/detailImg.png',
@@ -1596,7 +1596,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/136/mainImg',
+      '/media/products/top/136/mainImg.png',
       '/media/products/top/136/mainImg2',
       '/media/products/top/136/mainImg3',
       '/media/products/top/136/mainImg4',
@@ -1645,7 +1645,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/137/mainImg',
+      '/media/products/top/137/mainImg.png',
       '/media/products/top/137/mainImg2',
     ],
 //    detailImg:[
@@ -1691,7 +1691,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/138/mainImg',
+      '/media/products/top/138/mainImg.png',
     ],
     detailImg:[
       '/media/products/top/138/detailImg.png',
@@ -1736,7 +1736,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/139/mainImg',
+      '/media/products/top/139/mainImg.png',
     ],
 //    detailImg:[
 //      '/media/products/top/138/detailImg.png',
@@ -1781,7 +1781,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/140/mainImg',
+      '/media/products/top/140/mainImg.png',
     ],
 //    detailImg:[
 //      '/media/products/top/138/detailImg.png',
@@ -1826,7 +1826,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/141/mainImg',
+      '/media/products/top/141/mainImg.png',
     ],
 //    detailImg:[
 //      '/media/products/top/138/detailImg.png',
@@ -1871,7 +1871,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/142/mainImg',
+      '/media/products/top/142/mainImg.png',
     ],
     detailImg:[
       '/media/products/top/142/detailImg.png',
@@ -1916,7 +1916,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/143/mainImg',
+      '/media/products/top/143/mainImg.png',
     ],
 //    detailImg:[
 //      '/media/products/top/142/detailImg.png',
@@ -1961,7 +1961,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/144/mainImg',
+      '/media/products/top/144/mainImg.png',
     ],
 //    detailImg:[
 //      '/media/products/top/142/detailImg.png',
@@ -2006,7 +2006,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/145/mainImg',
+      '/media/products/top/145/mainImg.png',
     ],
     detailImg:[
       '/media/products/top/145/detailImg.png',
@@ -2051,7 +2051,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/146/mainImg',
+      '/media/products/top/146/mainImg.png',
     ],
 //    detailImg:[
 //      '/media/products/top/145/detailImg.png',
@@ -2096,7 +2096,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/147/mainImg',
+      '/media/products/top/147/mainImg.png',
     ],
 //    detailImg:[
 //      '/media/products/top/145/detailImg.png',
@@ -2141,7 +2141,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/148/mainImg',
+      '/media/products/top/148/mainImg.png',
     ],
     detailImg:[
       '/media/products/top/148/detailImg.png',
@@ -2186,7 +2186,7 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/top/150/mainImg',
+      '/media/products/top/150/mainImg.png',
     ],
 //    detailImg:[
 //      '/media/products/top/148/detailImg.png',
