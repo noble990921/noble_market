@@ -121,6 +121,12 @@ export const SET_PRODUCT_BRAND = {
     koName: "메종",
 //    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
 //    img: require('@/assets/images/home/section7/brand_logo9.png'),
+  }, "20": {
+    id: 20,
+    enName: "Chrome Hearts",
+    koName: "크롬하츠",
+//    mimg: require('@/assets/images/home/section7/mbrand_logo9.png'),
+//    img: require('@/assets/images/home/section7/brand_logo9.png'),
   },
 };
 

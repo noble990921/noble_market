@@ -29,6 +29,33 @@
 <!--        <p class="notice">{{ sizeNotice }}</p>-->
       </template>
 
+      <template v-if="product.sizeData.type === 'bottom'">
+        <img :src="product.sizeData.img">
+        <table class="size_table">
+          <thead>
+          <tr><th></th><th>총 기장</th><th>허리단면</th><th>허벅지단면</th><th>밑단단면</th><th>밑위</th></tr>
+          </thead>
+          <tbody v-for="(p,idx) in product.sizeData.size" :key="idx">
+          <tr><th>{{p.unit}}</th><td>{{p.totalLength}}</td><td>{{p.waistSection}}</td><td>{{p.crossSection}}</td>
+            <td>{{p.bottomSection}}</td><td>{{p.rise}}</td></tr>
+          </tbody>
+        </table>
+        <p class="notice">{{ sizeNotice }}</p>
+      </template>
+
+      <template v-if="product.sizeData.type === 'skirt'">
+        <img :src="product.sizeData.img">
+        <table class="size_table">
+          <thead>
+          <tr><th></th><th>총 기장</th><th>허리단면</th><th>힙단면</th>
+          </thead>
+          <tbody v-for="(p,idx) in product.sizeData.size" :key="idx">
+          <tr><th>{{p.unit}}</th><td>{{p.totalLength}}</td><td>{{p.hipSection}}</td>
+          </tbody>
+        </table>
+        <p class="notice">{{ sizeNotice }}</p>
+      </template>
+
       <!-- 기본 fallback -->
       <template v-else>
         <p>사이즈 정보가 준비되지 않았습니다.</p>
@@ -52,6 +79,8 @@
             return '사이즈는 측정 기준에 따라 오차가 있을 수 있습니다.';
           case 'outer':
             return '사이즈는 상품별로 약간의 편차가 있을 수 있습니다.';
+          case 'bottom':
+            return '참고: 위 치수는 유사 제품의 평균적인 수치를 기반으로 한 추정치이며, 실제 제품과 차이가 있을 수 있습니다.';
           case 'shoes':
             return '발볼 넓이 및 발등 높이에 따라 착화감이 다를 수 있습니다.';
           default:

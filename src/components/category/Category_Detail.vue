@@ -131,7 +131,7 @@
           <div class="btn_box">
             <!--            <button @click="setCartItem" class="cart">장바구니 담기</button>-->
             <!--            <button @click="directSell">바로 구매</button>-->
-            <button class="cart" @click="contact">제품 문의하기</button>
+            <button class="cart" @click="contact">가격 문의하기</button>
           </div>
         </div>
       </div>

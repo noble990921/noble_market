@@ -1023,7 +1023,7 @@ export const PRODUCTS = {
     mainImg: [
       '/media/products/bag/19/mainImg.png',
       '/media/products/bag/19/mainImg2.png',
-      '/media/products/bag/19/mainImg3.png',
+//      '/media/products/bag/19/mainImg3.png',
       '/media/products/bag/19/mainImg4.png',
       '/media/products/bag/19/mainImg5.png',
     ],
