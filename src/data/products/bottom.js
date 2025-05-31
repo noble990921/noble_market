@@ -2282,4 +2282,261 @@ export const PRODUCTS = {
       },
     ]
   },
+  "218": {
+    id: 218,
+    modelNumber: '2Z732519U-38NO',
+    name: '셀린느 나일론 트리옹프 스윔 쇼츠 블랙',
+    enName: 'Celine Triomphe Swim Shorts in Nylon Black',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "3",
+//    modelGroup:'768810TKP271000',
+    subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { "unit": "", "totalLength": 99, "waistSection": 33, "crossSection": 28, "bottomSection": 22,  },
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bottom/218/mainImg.png',
+      '/media/products/bottom/218/mainImg2.png',
+    ],
+    detailImg: [
+      '/media/products/bottom/218/detailImg.png',
+      '/media/products/bottom/218/detailImg2.png',
+      '/media/products/bottom/218/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "219": {
+    id: 219,
+    modelNumber: '2Z732519U-38NO',
+    name: '셀린느 나일론 스윔 쇼츠 블랙',
+    enName: 'Celine Swim Shorts in Nylon Black',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "3",
+//    modelGroup:'2Z732519U-38NO',
+    subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
+    sizeData: {
+      type: 'bottom',
+      img: '/media/productDetail/bottom_size.png',
+      size: [
+        { "unit": "XS", "totalLength": 37, "waistSection": 35, "crossSection": 31, "bottomSection": 27, "rise": 27 },
+        { "unit": "S", "totalLength": 38, "waistSection": 37, "crossSection": 32, "bottomSection": 28, "rise": 28 },
+        { "unit": "M", "totalLength": 39, "waistSection": 39, "crossSection": 33, "bottomSection": 29, "rise": 29 },
+        { "unit": "L", "totalLength": 40, "waistSection": 41, "crossSection": 34, "bottomSection": 30, "rise": 30 },
+        { "unit": "XL", "totalLength": 41, "waistSection": 43, "crossSection": 35, "bottomSection": 31, "rise": 31 },
+        { "unit": "XXL", "totalLength": 42, "waistSection": 45, "crossSection": 36, "bottomSection": 32, "rise": 32 }
+      ]
+    },
+    mainImg: [
+      '/media/products/bottom/219/mainImg.png',
+      '/media/products/bottom/219/mainImg2.png',
+    ],
+    detailImg: [
+      '/media/products/bottom/219/detailImg.png',
+      '/media/products/bottom/219/detailImg2.png',
+      '/media/products/bottom/219/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "220": {
+    id: 220,
+    modelNumber: 'P71203',
+    name: '샤넬 트위드 미니 스커트',
+    enName: 'Chanel Tweed Mini Skirt',
+    brand: '샤넬',
+    enBrand: 'Chanel',
+    category: "3",
+//    modelGroup:'768810TKP271000',
+    subCategory:  {id:6, title: "원피스/스커트", img: "dressskirt"},
+    sizeData: {
+      type: 'skirt',
+      img: '/media/productDetail/skirt_size.png',
+      size: [
+        { "unit": "34 (XS)", "totalLength": 38, "waistSection": 31, "hipSection": 43 },
+        { "unit": "36 (S)",  "totalLength": 39, "waistSection": 33, "hipSection": 45 },
+        { "unit": "38 (M)",  "totalLength": 40, "waistSection": 35, "hipSection": 47 },
+        { "unit": "40 (L)",  "totalLength": 41, "waistSection": 37, "hipSection": 49 },
+        { "unit": "42 (XL)", "totalLength": 42, "waistSection": 39, "hipSection": 51 },
+        { "unit": "44 (XXL)","totalLength": 43, "waistSection": 41, "hipSection": 53 }
+      ]
+    },
+    mainImg: [
+      '/media/products/bottom/220/mainImg.png',
+    ],
+    detailImg: [
+      '/media/products/bottom/220/detailImg.png',
+      '/media/products/bottom/220/detailImg2.png',
+      '/media/products/bottom/220/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "221": {
+    id: 221,
+    modelNumber: '2J821383Z-33NK',
+    name: '(W) 셀린느 트리옹프 미니 스커트 더블 페이스 울 트리코틴 잉크',
+    enName: '(W) Celine Trapeze Mini Skirt in Double Faced Wool Tricotine Ink(W) Celine Trapeze Mini Skirt in Double Faced Wool Tricotine Ink',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "3",
+//    modelGroup:'768810TKP271000',
+    subCategory:  {id:6, title: "원피스/스커트", img: "dressskirt"},
+    sizeData: {
+      type: 'skirt',
+      img: '/media/productDetail/skirt_size.png',
+      size: [
+        { "unit": "34 (XS)", "totalLength": 38, "waistSection": 31, "hipSection": 43 },
+        { "unit": "36 (S)",  "totalLength": 39, "waistSection": 33, "hipSection": 45 },
+        { "unit": "38 (M)",  "totalLength": 40, "waistSection": 35, "hipSection": 47 },
+        { "unit": "40 (L)",  "totalLength": 41, "waistSection": 37, "hipSection": 49 },
+        { "unit": "42 (XL)", "totalLength": 42, "waistSection": 39, "hipSection": 51 },
+        { "unit": "44 (XXL)","totalLength": 43, "waistSection": 41, "hipSection": 53 }
+      ]
+    },
+    mainImg: [
+      '/media/products/bottom/221/mainImg.png',
+    ],
+    detailImg: [
+      '/media/products/bottom/221/detailImg.png',
+      '/media/products/bottom/221/detailImg2.png',
+      '/media/products/bottom/221/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "222": {
+    id: 222,
+    modelNumber: '2J821383Z-33NK',
+    name: '루이비통 LVxYK 테크니컬 개버딘 미디 스커트 38 화이트',
+    enName: 'Louis Vuitton LVYK Technical Gabardine Midi Skirt 38 White',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "3",
+//    modelGroup:'768810TKP271000',
+    subCategory:  {id:6, title: "원피스/스커트", img: "dressskirt"},
+    sizeData: {
+      type: 'skirt',
+      img: '/media/productDetail/skirt_size.png',
+      size: [
+        { "unit": "38", "totalLength": 90, "waistSection": 36, "hipSection": 53 }
+      ]
+    },
+    mainImg: [
+      '/media/products/bottom/222/mainImg.png',
+    ],
+    detailImg: [
+      '/media/products/bottom/222/detailImg.png',
+      '/media/products/bottom/222/detailImg2.png',
+      '/media/products/bottom/222/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
 }
