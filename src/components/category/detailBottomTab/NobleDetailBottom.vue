@@ -8,7 +8,7 @@
           <img :src="img">
         </div>
       </div>
-      <div class="detail_subImg">
+      <div class="detail_subImg" v-if="product.detailImg">
         <p class="title">제품상세</p>
         <div class="detail_subImgBox" v-for="(img,i) in product.detailImg" :key="i">
           <img :src="img">

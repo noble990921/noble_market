@@ -47,10 +47,10 @@
         <img :src="product.sizeData.img">
         <table class="size_table">
           <thead>
-          <tr><th></th><th>총 기장</th><th>허리단면</th><th>힙단면</th>
+          <tr><th></th><th>총 기장</th><th>허리단면</th><th>힙단면</th></tr>
           </thead>
           <tbody v-for="(p,idx) in product.sizeData.size" :key="idx">
-          <tr><th>{{p.unit}}</th><td>{{p.totalLength}}</td><td>{{p.hipSection}}</td>
+          <tr><th>{{p.unit}}</th><td>{{p.totalLength}}</td><td>{{p.hipSection}}</td></tr>
           </tbody>
         </table>
         <p class="notice">{{ sizeNotice }}</p>
