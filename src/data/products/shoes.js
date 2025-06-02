@@ -4605,4 +4605,3882 @@ export const PRODUCTS = {
       },
     ]
   },
+  "310": {
+    id: 310,
+    modelNumber: '651306V0GV19031',
+    name: '보테가 베네타 인트레치아토 레이스업 플랫 스니커즈 씨 솔트',
+    enName: 'Bottega Veneta Intrecciato Lace-Up Plat Sneaker Sea Salt',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'651306V0GV19031',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/310/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/310/detailImg.png',
+      '/media/products/shoes/310/detailImg2.png',
+      '/media/products/shoes/310/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "311": {
+    id: 311,
+    modelNumber: '651306V0GV13223',
+    name: '보테가 베네타 인트레치아토 레이스업 플랫 스니커즈 캠핑',
+    enName: 'Bottega Veneta Intrecciato Lace-Up Plat Sneaker Camping',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'651306V0GV19031',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/311/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/310/detailImg.png',
+//      '/media/products/shoes/310/detailImg2.png',
+//      '/media/products/shoes/310/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "312": {
+    id: 312,
+    modelNumber: '651306V0GV13730',
+    name: '보테가 베네타 인트레치아토 레이스업 플랫 스니커즈 그래스',
+    enName: 'Bottega Veneta Intrecciato Lace-Up Plat Sneaker Grass',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'651306V0GV19031',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/312/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/310/detailImg.png',
+//      '/media/products/shoes/310/detailImg2.png',
+//      '/media/products/shoes/310/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "313": {
+    id: 313,
+    modelNumber: '651306V0GV11000',
+    name: '보테가 베네타 인트레치아토 레이스업 플랫 스니커즈 블랙',
+    enName: 'Bottega Veneta Intrecciato Lace-Up Plat Sneaker Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'651306V0GV19031',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/313/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/310/detailImg.png',
+//      '/media/products/shoes/310/detailImg2.png',
+//      '/media/products/shoes/310/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "314": {
+    id: 314,
+    modelNumber: '651306V0GV13025',
+    name: '보테가 베네타 인트레치아토 레이스업 플랫 스니커즈 트래버틴',
+    enName: 'Bottega Veneta Intrecciato Lace-Up Plat Sneaker Travertine',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'651306V0GV19031',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/314/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/310/detailImg.png',
+//      '/media/products/shoes/310/detailImg2.png',
+//      '/media/products/shoes/310/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "315": {
+    id: 315,
+    modelNumber: '3SA135ZSA-H969',
+    name: '디올 아쿠아 샌들 블랙 디올 오블리크 자카드',
+    enName: 'Dior Aqua Sandal Black Dior Oblique Jacquard',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'3SA135ZSA-H969',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/315/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/315/detailImg.png',
+      '/media/products/shoes/315/detailImg2.png',
+      '/media/products/shoes/315/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "316": {
+    id: 316,
+    modelNumber: '3SA135ZSA-H561',
+    name: '디올 아쿠아 샌들 베이지 블랙',
+    enName: 'Dior Aqua Sandal Beige Black',
+    brand: '디올 베네타',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SA135ZSA-H969',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/316/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/315/detailImg.png',
+      '/media/products/shoes/315/detailImg2.png',
+      '/media/products/shoes/315/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "317": {
+    id: 317,
+    modelNumber: '3SN249ZSA-H961',
+    name: '디올 B23 로우탑 스니커즈 디올 오블리크 자카드 베이지 블랙',
+    enName: 'Dior B23 Low-Top Sneakers Dior Oblique Jacquard Beige Black',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN249ZSA-H961',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/317/mainImg.webp',
+      '/media/products/shoes/317/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/317/detailImg.png',
+      '/media/products/shoes/317/detailImg2.png',
+      '/media/products/shoes/317/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "318": {
+    id: 318,
+    modelNumber: '3SN249ZSA-H969',
+    name: '디올 B23 로우탑 스니커즈 디올 오블리크 자카드 블랙',
+    enName: 'Dior B23 Low-Top Sneakers Dior Oblique Jacquard Black',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN249ZSA-H961',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/318/mainImg.webp',
+      '/media/products/shoes/318/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/317/detailImg.png',
+//      '/media/products/shoes/317/detailImg2.png',
+//      '/media/products/shoes/317/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "319": {
+    id: 319,
+    modelNumber: '603223-1JZ10-9030',
+    name: '생로랑 퍼포레이티드 스무스 레더 코트 클래식 SL/10 스니커즈 옵틱 화이트',
+    enName: 'Saint Laurent Court Classic SL/10 Sneakers in Perforated Smooth Leather Optic White',
+    brand: '생로랑',
+    enBrand: 'Saint Laurent',
+    category: "4",
+    modelGroup:'603223-1JZ10-9030',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/319/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/319/detailImg.png',
+      '/media/products/shoes/319/detailImg2.png',
+      '/media/products/shoes/319/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "320": {
+    id: 320,
+    modelNumber: '603223-1JZ30-1000',
+    name: '생로랑 퍼포레이티드 레더 스웨이드 코트 클래식 SL/10 스니커즈 블랙',
+    enName: 'Saint Laurent Court Classic SL/10 Sneakers in Perforated Leather and Suede Black',
+    brand: '생로랑',
+    enBrand: 'Saint Laurent',
+    category: "4",
+    modelGroup:'603223-1JZ10-9030',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/320/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/319/detailImg.png',
+//      '/media/products/shoes/319/detailImg2.png',
+//      '/media/products/shoes/319/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "321": {
+    id: 321,
+    modelNumber: 'H041141ZH01',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 누아',
+    enName: 'Hermes Izmir Sandal Calfskin & Noir',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/321/mainImg.webp',
+      '/media/products/shoes/321/mainImg2.webp',
+      '/media/products/shoes/321/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/321/detailImg.png',
+      '/media/products/shoes/321/detailImg2.png',
+      '/media/products/shoes/321/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "322": {
+    id: 322,
+    modelNumber: 'H221826ZHA3',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 나뛰렐',
+    enName: 'Hermes Izmir Sandal Calfskin & Naturel',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/322/mainImg.webp',
+      '/media/products/shoes/322/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "323": {
+    id: 323,
+    modelNumber: 'H222845ZHV1',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 베르 뚠드라',
+    enName: 'Hermes Izmir Sandal Calfskin & Vert Toundra',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/323/mainImg.webp',
+      '/media/products/shoes/323/mainImg2.webp',
+      '/media/products/shoes/323/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "324": {
+    id: 324,
+    modelNumber: 'H222845ZH01',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 누아',
+    enName: 'Hermes Izmir Sandal Calfskin & Noir',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/324/mainImg.webp',
+      '/media/products/shoes/324/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "325": {
+    id: 325,
+    modelNumber: 'H221826ZHI2',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 마린',
+    enName: 'Hermes Izmir Sandal Calfskin & Marine',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/325/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "326": {
+    id: 326,
+    modelNumber: 'H222845ZHI2',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 마린',
+    enName: 'Hermes Izmir Sandal Calfskin & Marine',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/326/mainImg.webp',
+      '/media/products/shoes/326/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "327": {
+    id: 327,
+    modelNumber: 'H241869ZH02',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 누아',
+    enName: 'Hermes Izmir Sandal Calfskin & Noir',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/327/mainImg.webp',
+      '/media/products/shoes/327/mainImg2.webp',
+      '/media/products/shoes/327/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "328": {
+    id: 328,
+    modelNumber: 'H041141ZH05',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 모까',
+    enName: 'Hermes Izmir Sandal Calfskin & Moka',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/328/mainImg.webp',
+      '/media/products/shoes/328/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "329": {
+    id: 329,
+    modelNumber: 'H041141ZH03',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 골드',
+    enName: 'Hermes Izmir Sandal Calfskin & Gold',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/329/mainImg.webp',
+      '/media/products/shoes/329/mainImg2.webp',
+      '/media/products/shoes/329/mainImg3.webp',
+      '/media/products/shoes/329/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "330": {
+    id: 330,
+    modelNumber: 'H231913ZH01',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 누아',
+    enName: 'Hermes Izmir Sandal Calfskin & Noir',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/330/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "331": {
+    id: 331,
+    modelNumber: 'H211860ZHF5',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 브룬 아카쥬 블루 셀레스트',
+    enName: 'Hermes Izmir Sandal Calfskin & Brun Acajou Bleu Celeste',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/331/mainImg.webp',
+      '/media/products/shoes/331/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "332": {
+    id: 332,
+    modelNumber: 'H172460ZHVD',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 베르 도으 블랑',
+    enName: 'Hermes Izmir Sandal Calfskin & Vert Deau Blanc',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/332/mainImg.webp',
+      '/media/products/shoes/332/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "333": {
+    id: 333,
+    modelNumber: 'H041141ZH02',
+    name: '에르메스 이즈미르 샌들 카프스킨 & 블랑',
+    enName: 'Hermes Izmir Sandal Calfskin & Blanc',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H041141ZH01',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/333/mainImg.webp',
+      '/media/products/shoes/333/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/321/detailImg.png',
+//      '/media/products/shoes/321/detailImg2.png',
+//      '/media/products/shoes/321/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "334": {
+    id: 334,
+    modelNumber: '500877-DRW00-9522',
+    name: '구찌 롸이톤 레더 스니커즈 띠 로고',
+    enName: 'Gucci Rhyton Leather Sneakers Logo',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "4",
+//    modelGroup:'H041141ZH01',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/334/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/334/detailImg.png',
+      '/media/products/shoes/334/detailImg2.png',
+      '/media/products/shoes/334/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "335": {
+    id: 335,
+    modelNumber: '2EE369-3LFV-F0964',
+    name: '프라다 리나일론 스니커즈 화이트',
+    enName: 'Prada Re-Nylon Sneakers White',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "4",
+    modelGroup:'2EE369-3LFV-F0964',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/335/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/335/detailImg.png',
+      '/media/products/shoes/335/detailImg2.png',
+      '/media/products/shoes/335/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "336": {
+    id: 336,
+    modelNumber: '2EE369-3LFV-F0632',
+    name: '프라다 리나일론 스니커즈 블랙 화이트',
+    enName: 'Prada Re-Nylon Sneakers Black White',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "4",
+    modelGroup:'2EE369-3LFV-F0964',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/336/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/335/detailImg.png',
+//      '/media/products/shoes/335/detailImg2.png',
+//      '/media/products/shoes/335/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "337": {
+    id: 337,
+    modelNumber: '2EE375-3LFV-F0002',
+    name: '프라다 리나일론 스니커즈 블랙',
+    enName: 'Prada Re-Nylon Sneakers Black',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "4",
+    modelGroup:'2EE375-3LFV-F0002',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/337/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/337/detailImg.png',
+      '/media/products/shoes/337/detailImg2.png',
+      '/media/products/shoes/337/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "338": {
+    id: 338,
+    modelNumber: '2EE375-3LFV-F0009',
+    name: '프라다 리나일론 스니커즈 화이트',
+    enName: 'Prada Re-Nylon Sneakers White',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "4",
+    modelGroup:'2EE375-3LFV-F0002',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/338/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/338/detailImg.png',
+//      '/media/products/shoes/338/detailImg2.png',
+//      '/media/products/shoes/338/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "339": {
+    id: 339,
+    modelNumber: '741339V11T03708',
+    name: '보테가 베네타 비비 클로그 패러킷',
+    enName: 'Bottega Veneta Beebee Clog Parakeet',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'741339V11T03708',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/339/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/339/detailImg.png',
+      '/media/products/shoes/339/detailImg2.png',
+      '/media/products/shoes/339/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "340": {
+    id: 340,
+    modelNumber: '741339V11T01000',
+    name: '보테가 베네타 비비 클로그 블랙',
+    enName: 'Bottega Veneta Beebee Clog Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'741339V11T03708',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/340/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/339/detailImg.png',
+//      '/media/products/shoes/339/detailImg2.png',
+//      '/media/products/shoes/339/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "341": {
+    id: 341,
+    modelNumber: '741339V11T09031',
+    name: '보테가 베네타 비비 클로그 씨 솔트',
+    enName: 'Bottega Veneta Beebee Clog Sea Salt',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'741339V11T03708',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/341/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/339/detailImg.png',
+//      '/media/products/shoes/339/detailImg2.png',
+//      '/media/products/shoes/339/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "342": {
+    id: 342,
+    modelNumber: '741339V11T07803',
+    name: '보테가 베네타 비비 클로그 메탈릭 미스트',
+    enName: 'Bottega Veneta Beebee Clog Metallic Mist',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'741339V11T03708',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/342/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/339/detailImg.png',
+//      '/media/products/shoes/339/detailImg2.png',
+//      '/media/products/shoes/339/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "343": {
+    id: 343,
+    modelNumber: '651402V0GV01000',
+    name: '보테가 베네타 플랫 뮬 블랙',
+    enName: 'Bottega Veneta Plat Mule Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'651402V0GV01000',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/343/mainImg.webp',
+      '/media/products/shoes/343/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/343/detailImg.png',
+      '/media/products/shoes/343/detailImg2.png',
+      '/media/products/shoes/343/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "344": {
+    id: 344,
+    modelNumber: '651402V0GV07593',
+    name: '보테가 베네타 플랫 뮬 탠저린',
+    enName: 'Bottega Veneta Plat Mule Tangerine',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'651402V0GV01000',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/344/mainImg.webp',
+      '/media/products/shoes/344/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/343/detailImg.png',
+//      '/media/products/shoes/343/detailImg2.png',
+//      '/media/products/shoes/343/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "345": {
+    id: 345,
+    modelNumber: '651402V0GV04006',
+    name: '보테가 베네타 플랫 뮬 네이비',
+    enName: 'Bottega Veneta Plat Mule Navy',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'651402V0GV01000',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/345/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/343/detailImg.png',
+//      '/media/products/shoes/343/detailImg2.png',
+//      '/media/products/shoes/343/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "346": {
+    id: 346,
+    modelNumber: '651402V0GV07278',
+    name: '보테가 베네타 플랫 뮬 키위',
+    enName: 'Bottega Veneta Plat Mule Kiwi',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'651402V0GV01000',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/346/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/343/detailImg.png',
+//      '/media/products/shoes/343/detailImg2.png',
+//      '/media/products/shoes/343/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "347": {
+    id: 347,
+    modelNumber: '651402V0GV03227',
+    name: '보테가 베네타 플랫 뮬 에시드 터콰이즈',
+    enName: 'Bottega Veneta Plat Mule Acid Turquoise',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'651402V0GV01000',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/347/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/343/detailImg.png',
+//      '/media/products/shoes/343/detailImg2.png',
+//      '/media/products/shoes/343/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "348": {
+    id: 348,
+    modelNumber: '651402V0GV03730',
+    name: '보테가 베네타 플랫 뮬 그래스',
+    enName: 'Bottega Veneta Plat Mule Grass',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "4",
+    modelGroup:'651402V0GV01000',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/348/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/343/detailImg.png',
+//      '/media/products/shoes/343/detailImg2.png',
+//      '/media/products/shoes/343/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "349": {
+    id: 349,
+    modelNumber: '7E1392AJZHF1HGR',
+    name: '펜디 플로우 레더 로우탑 스니커즈 화이트',
+    enName: 'Fendi Flow Leather Low-Top Sneakers White',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "4",
+    modelGroup:'7E1392AJZHF1HGR',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/349/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/349/detailImg.png',
+      '/media/products/shoes/349/detailImg2.png',
+      '/media/products/shoes/349/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "350": {
+    id: 350,
+    modelNumber: '7E1392AK1QF1HGQ',
+    name: '펜디 플로우 레더 로우탑 스니커즈 화이트',
+    enName: 'Fendi Flow Leather Low-Top Sneakers White',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "4",
+    modelGroup:'7E1392AJZHF1HGR',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/350/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/349/detailImg.png',
+//      '/media/products/shoes/349/detailImg2.png',
+//      '/media/products/shoes/349/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "351": {
+    id: 351,
+    modelNumber: '7E1392AJZHF1DV5',
+    name: '펜디 플로우 레더 로우탑 스니커즈 블랙',
+    enName: 'Fendi Flow Leather Low-Top Sneakers Black',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "4",
+    modelGroup:'7E1392AJZHF1HGR',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/351/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/349/detailImg.png',
+//      '/media/products/shoes/349/detailImg2.png',
+//      '/media/products/shoes/349/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "352": {
+    id: 352,
+    modelNumber: '7E1392AJZHF1MDD',
+    name: '펜디 플로우 레더 로우탑 스니커즈 그레이',
+    enName: 'Fendi Flow Leather Low-Top Sneakers Grey',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "4",
+    modelGroup:'7E1392AJZHF1HGR',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/352/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/349/detailImg.png',
+//      '/media/products/shoes/349/detailImg2.png',
+//      '/media/products/shoes/349/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "353": {
+    id: 353,
+    modelNumber: '7E1392AJZHF1MDC',
+    name: '펜디 플로우 레더 로우탑 스니커즈 베이지',
+    enName: 'Fendi Flow Leather Low-Top Sneakers Beige',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "4",
+    modelGroup:'7E1392AJZHF1HGR',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/353/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/349/detailImg.png',
+//      '/media/products/shoes/349/detailImg2.png',
+//      '/media/products/shoes/349/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "354": {
+    id: 354,
+    modelNumber: '3SA081YXV-H961',
+    name: '디올 알파 샌들 베이지 & 블랙 디올 오블리크 자카드',
+    enName: 'Dior Alpha Sandal Beige & Black Dior Oblique Jacquard',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SA081YXV-H961',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/354/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/354/detailImg.png',
+      '/media/products/shoes/354/detailImg2.png',
+      '/media/products/shoes/354/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "355": {
+    id: 355,
+    modelNumber: '3SA081YXV-H969',
+    name: '디올 알파 샌들 디올 오블리크 자카드 블랙',
+    enName: 'Dior Alpha Sandal Dior Oblique Jacquard Black',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SA081YXV-H961',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/355/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/354/detailImg.png',
+//      '/media/products/shoes/354/detailImg2.png',
+//      '/media/products/shoes/354/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "356": {
+    id: 356,
+    modelNumber: '3SA081YXV-H060',
+    name: '디올 알파 샌들 디올 오블리크 자카드 오프 화이트',
+    enName: 'Dior Alpha Sandal Dior Oblique Jacquard Off White',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SA081YXV-H961',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/356/mainImg.webp',
+      '/media/products/shoes/356/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/354/detailImg.png',
+//      '/media/products/shoes/354/detailImg2.png',
+//      '/media/products/shoes/354/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "357": {
+    id: 357,
+    modelNumber: '3SA081YXV-H767',
+    name: '디올 알파 샌들 디올 오블리크 자카드 에보니',
+    enName: 'Dior Alpha Sandal Dior Oblique Jacquard Ebony',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SA081YXV-H961',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/357/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/354/detailImg.png',
+//      '/media/products/shoes/354/detailImg2.png',
+//      '/media/products/shoes/354/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "358": {
+    id: 358,
+    modelNumber: '3SA081YXV-H910',
+    name: '디올 알파 샌들 블랙 디올 오블리크 자카드',
+    enName: 'Dior Alpha Sandal Black Dior Oblique Jacquard',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SA081YXV-H961',
+    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/358/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/354/detailImg.png',
+//      '/media/products/shoes/354/detailImg2.png',
+//      '/media/products/shoes/354/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "359": {
+    id: 359,
+    modelNumber: 'MFD002H-00198-001',
+    name: '톰브라운 클래식 롱윙 브로그 슈즈 블랙',
+    enName: 'Thom Browne Classic Longwing Brogue Shoes Black',
+    brand: '톰브라운',
+    enBrand: 'Thom Browne',
+    category: "4",
+//    modelGroup:'3SA081YXV-H961',
+    subCategory: {id:2, title: "구두/로퍼", img: "loafers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/359/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/359/detailImg.png',
+      '/media/products/shoes/359/detailImg2.png',
+      '/media/products/shoes/359/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "360": {
+    id: 360,
+    modelNumber: 'H212857ZH90',
+    name: '에르메스 딥 스니커즈 카프스킨 & 블랑',
+    enName: 'Hermes Deep Sneakers Calfskin & Blanc',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H212857ZH90',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/360/mainImg.webp',
+      '/media/products/shoes/360/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/360/detailImg.png',
+      '/media/products/shoes/360/detailImg2.png',
+      '/media/products/shoes/360/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "361": {
+    id: 361,
+    modelNumber: 'H212857ZH02',
+    name: '에르메스 딥 스니커즈 카프스킨 & 누아',
+    enName: 'Hermes Deep Sneakers Calfskin & Noir',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H212857ZH90',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/361/mainImg.webp',
+      '/media/products/shoes/361/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/360/detailImg.png',
+//      '/media/products/shoes/360/detailImg2.png',
+//      '/media/products/shoes/360/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "362": {
+    id: 362,
+    modelNumber: 'H212857ZH7Q',
+    name: '에르메스 딥 스니커즈 카프스킨 & 블랑 블루 블루에',
+    enName: 'Hermes Deep Sneakers Calfskin & Blanc Bleu Bleuet',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H212857ZH90',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/362/mainImg.webp',
+      '/media/products/shoes/362/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/360/detailImg.png',
+//      '/media/products/shoes/360/detailImg2.png',
+//      '/media/products/shoes/360/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "363": {
+    id: 363,
+    modelNumber: 'H242850ZH01',
+    name: '에르메스 딥 스니커즈 카프스킨 & 누아',
+    enName: 'Hermes Deep Sneakers Calfskin & Noir',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H212857ZH90',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/363/mainImg.webp',
+      '/media/products/shoes/363/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/360/detailImg.png',
+//      '/media/products/shoes/360/detailImg2.png',
+//      '/media/products/shoes/360/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "364": {
+    id: 364,
+    modelNumber: 'H212857ZHA3',
+    name: '에르메스 딥 스니커즈 카프스킨 & 블랑 나뛰렐',
+    enName: 'Hermes Deep Sneakers Calfskin & Blanc Naturel',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H212857ZH90',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/364/mainImg.webp',
+      '/media/products/shoes/364/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/360/detailImg.png',
+//      '/media/products/shoes/360/detailImg2.png',
+//      '/media/products/shoes/360/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "365": {
+    id: 365,
+    modelNumber: 'H212857ZH05',
+    name: '에르메스 딥 스니커즈 카프스킨 & 누아 누아',
+    enName: 'Hermes Deep Sneakers Calfskin & Noir Noir',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "4",
+    modelGroup:'H212857ZH90',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/365/mainImg.webp',
+      '/media/products/shoes/365/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/360/detailImg.png',
+//      '/media/products/shoes/360/detailImg2.png',
+//      '/media/products/shoes/360/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "366": {
+    id: 366,
+    modelNumber: '3SN272ZIR-H165',
+    name: '디올 B27 로우탑 스니커즈 그레이',
+    enName: 'Dior B27 Low-Top Sneakers Gray',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/366/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/shoes/366/detailImg.png',
+      '/media/products/shoes/366/detailImg2.png',
+      '/media/products/shoes/366/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "367": {
+    id: 367,
+    modelNumber: '3SN272ZIR-H965',
+    name: '디올 B27 로우탑 스니커즈 블랙',
+    enName: 'Dior B27 Low-Top Sneakers Black',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/367/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "368": {
+    id: 368,
+    modelNumber: '3SN272ZIR-H068',
+    name: '디올 B27 로우탑 스니커즈 오프 화이트',
+    enName: 'Dior B27 Low-Top Sneakers Off White',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/368/mainImg.webp',
+      '/media/products/shoes/368/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "369": {
+    id: 369,
+    modelNumber: '3SN272ZTY-H868',
+    name: '디올 B27 로우탑 스니커즈 앤트러사이트 그레이 화이트',
+    enName: 'Dior B27 Low-Top Sneakers Anthracite Grey White',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/369/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "370": {
+    id: 370,
+    modelNumber: '3SN272ZPR-H969',
+    name: '디올 B27 로우탑 스니커즈 블랙',
+    enName: 'Dior B27 Low-Top Sneakers Black',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/370/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "371": {
+    id: 371,
+    modelNumber: '3SN272ZIJ-H890',
+    name: '디올 B27 로우탑 스니커즈 그레이 화이트',
+    enName: 'Dior B27 Low-Top Sneakers Grey White',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/371/mainImg.webp',
+      '/media/products/shoes/371/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "372": {
+    id: 372,
+    modelNumber: '3SN272ZIR-H661',
+    name: '디올 B27 로우탑 스니커즈 올리브 크림',
+    enName: 'Dior B27 Low-Top Sneakers Olive Cream',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/372/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "373": {
+    id: 373,
+    modelNumber: '3SN272ZIR-H580',
+    name: '디올 B27 로우탑 스니커즈 라이트 블루 화이트',
+    enName: 'Dior B27 Low-Top Sneakers Light Blue White',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/373/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "374": {
+    id: 374,
+    modelNumber: '3SN272ZIR-H568',
+    name: '디올 B27 로우탑 스니커즈 블루 크림',
+    enName: 'Dior B27 Low-Top Sneakers Blue Cream',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/374/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "375": {
+    id: 375,
+    modelNumber: '3SN272ZIJ-H163',
+    name: '디올 B27 로우탑 스니커즈 블랙 화이트 베이지',
+    enName: 'Dior B27 Low-Top Sneakers Black White Beige',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/375/mainImg.webp',
+      '/media/products/shoes/375/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "376": {
+    id: 376,
+    modelNumber: '3SN272ZIR-H066',
+    name: '디올 B27 로우탑 스니커즈 터콰이즈 크림',
+    enName: 'Dior B27 Low-Top Sneakers Turquoise Cream',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/376/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "377": {
+    id: 377,
+    modelNumber: '3SN272ZIJ-H063',
+    name: '디올 B27 로우탑 스니커즈 화이트 레드',
+    enName: 'Dior B27 Low-Top Sneakers White Red',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/377/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "378": {
+    id: 378,
+    modelNumber: '3SN272ZIJ-H820',
+    name: '디올 B27 로우탑 스니커즈 딥 블루 화이트',
+    enName: 'Dior B27 Low-Top Sneakers Deep Blue White',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/378/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "379": {
+    id: 379,
+    modelNumber: '3SN272ZIJ-H580',
+    name: '디올 B27 로우탑 스니커즈 블루 화이트',
+    enName: 'Dior B27 Low-Top Sneakers Blue White',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/379/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "380": {
+    id: 380,
+    modelNumber: '3SN272ZIR-H763',
+    name: '디올 B27 로우탑 스니커즈 핑크 크림',
+    enName: 'Dior B27 Low-Top Sneakers Pink Cream',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/380/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "381": {
+    id: 381,
+    modelNumber: '3SN272ZIJ-H868',
+    name: '디올 B27 로우탑 스니커즈 그레이',
+    enName: 'Dior B27 Low-Top Sneakers Grey',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/381/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "382": {
+    id: 382,
+    modelNumber: '3SN272ZSB-H000',
+    name: '디올 B27 로우탑 스니커즈 화이트',
+    enName: 'Dior B27 Low-Top Sneakers White',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/382/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "383": {
+    id: 383,
+    modelNumber: '3SN272ZIJ-H068',
+    name: '디올 B27 로우탑 스니커즈 화이트 그레이',
+    enName: 'Dior B27 Low-Top Sneakers White Grey',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "4",
+    modelGroup:'3SN272ZIR-H165',
+    subCategory: {id:1, title: "스니커즈", img: "sneakers"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/shoes/383/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/shoes/366/detailImg.png',
+//      '/media/products/shoes/366/detailImg2.png',
+//      '/media/products/shoes/366/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
 }
