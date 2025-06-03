@@ -83,7 +83,9 @@
             <div class="item_box">
               <div class="item"  v-for="item in relatedByCategory" :key="item.id"
                    @click="goToProductDetail(item)">
-                <img v-if="item.mainImg && item.mainImg.length" :src="item.mainImg[0]"/>
+                <div class="img_box">
+                  <img v-if="item.mainImg && item.mainImg.length" :src="item.mainImg[0]"/>
+                </div>
                 <div class="info_box">
                   <p class="title">{{item.enName}}</p>
                   <p class="text">{{item.name}}</p>
@@ -98,7 +100,9 @@
             <div class="item_box">
               <div class="item" v-for="item in relatedByBrand" :key="item.id"
                    @click="goToProductDetail(item)">
-                <img v-if="item.mainImg && item.mainImg.length" :src="item.mainImg[0]"/>
+                <div class="img_box">
+                  <img v-if="item.mainImg && item.mainImg.length" :src="item.mainImg[0]"/>
+                </div>
                 <div class="info_box">
                   <p class="title">{{item.enName}}</p>
                   <p class="text">{{item.name}}</p>
