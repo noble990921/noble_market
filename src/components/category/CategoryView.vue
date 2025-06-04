@@ -70,7 +70,7 @@
       return {
         SET_CATEGORY_MAP,
         total: 0,
-        size: 25,
+        size: 30,
         page: 1,
         options: [
           { value: "신상품", label: "신상품" },
