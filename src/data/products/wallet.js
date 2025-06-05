@@ -5395,4 +5395,3668 @@ export const PRODUCTS = {
       },
     ]
   },
+  "485": {
+    id: 485,
+    modelNumber: '2ESCH135YSE-H05E',
+    name: '디올 카드 홀더 베이지 & 블랙 디올 오블리크 자카드',
+    enName: 'Dior Card Holder Beige & Black Dior Oblique Jacquard',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "5",
+    modelGroup:'2ESCH135YSE-H05E',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/485/mainImg.webp',
+      '/media/products/wallet/485/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/485/detailImg.png',
+      '/media/products/wallet/485/detailImg2.png',
+      '/media/products/wallet/485/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "486": {
+    id: 486,
+    modelNumber: '2ESCH135YSE-H03E',
+    name: '디올 카드 홀더 블랙 디올 오블리크 자카드',
+    enName: 'Dior Card Holder Black Dior Oblique Jacquard',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "5",
+    modelGroup:'2ESCH135YSE-H05E',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/486/mainImg.webp',
+      '/media/products/wallet/486/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/486/detailImg.png',
+//      '/media/products/wallet/486/detailImg2.png',
+//      '/media/products/wallet/486/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "487": {
+    id: 487,
+    modelNumber: '592619VCPQ48803/749417VCPQ48803',
+    name: '보테가 베네타 플랩 카드 케이스 블랙',
+    enName: 'Bottega Veneta Flap Card Case Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/487/mainImg.webp',
+      '/media/products/wallet/487/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/487/detailImg.png',
+      '/media/products/wallet/487/detailImg2.png',
+      '/media/products/wallet/487/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "488": {
+    id: 488,
+    modelNumber: '592619VCPQ41242',
+    name: '보테가 베네타 플랩 카드 케이스 썬더',
+    enName: 'Bottega Veneta Flap Card Case Thunder',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/488/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "489": {
+    id: 489,
+    modelNumber: '592619VCPQ42919',
+    name: '보테가 베네타 인트레치아토 플랩 카드 케이스 트래버틴',
+    enName: 'Bottega Veneta Intrecciato Flap Card Case Travertine',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/489/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "490": {
+    id: 490,
+    modelNumber: '592619VCPQ43009',
+    name: '보테가 베네타 플랩 카드 케이스 다크 그린',
+    enName: 'Bottega Veneta Flap Card Case Dark Green',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/490/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "491": {
+    id: 491,
+    modelNumber: '592619VCPQ43203',
+    name: '보테가 베네타 플랩 카드 케이스 캠핑',
+    enName: 'Bottega Veneta Flap Card Case Camping',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/491/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "492": {
+    id: 492,
+    modelNumber: '592619VCPQ44102',
+    name: '보테가 베네타 플랩 카드 케이스 크루즈',
+    enName: 'Bottega Veneta Flap Card Case Cruise',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/492/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "493": {
+    id: 493,
+    modelNumber: '592619VCPQ44617',
+    name: '보테가 베네타 플랩 카드 케이스 풀',
+    enName: 'Bottega Veneta Flap Card Case Pool',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/493/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "494": {
+    id: 494,
+    modelNumber: '592619VCPQ47718',
+    name: '보테가 베네타 플랩 카드 케이스 에이콘',
+    enName: 'Bottega Veneta Flap Card Case Acorn',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/494/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "495": {
+    id: 495,
+    modelNumber: '592619VCPQ61027',
+    name: '보테가 베네타 플랩 카드 케이스 블랙 그래스',
+    enName: 'Bottega Veneta Flap Card Case Black Grass',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/495/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "496": {
+    id: 496,
+    modelNumber: '592619VCPQ61127',
+    name: '보테가 베네타 플랩 카드 케이스 블랙 레드스톤',
+    enName: 'Bottega Veneta Flap Card Case Black Redstone',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/496/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "497": {
+    id: 497,
+    modelNumber: '592619VCPQ61249',
+    name: '보테가 베네타 플랩 카드 케이스 썬더 풀',
+    enName: 'Bottega Veneta Flap Card Case Thunder Pool',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/497/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "498": {
+    id: 498,
+    modelNumber: '592619VCPQ62257',
+    name: '보테가 베네타 플랩 카드 케이스 바롤로 크루즈',
+    enName: 'Bottega Veneta Flap Card Case Barolo Cruise',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/498/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "499": {
+    id: 499,
+    modelNumber: '592619VCPQ62920',
+    name: '보테가 베네타 플랩 카드 케이스 트래버틴 패러킷',
+    enName: 'Bottega Veneta Flap Card Case Travertine Parakeet',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/499/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "500": {
+    id: 500,
+    modelNumber: '592619VCPQ63019',
+    name: '보테가 베네타 플랩 카드 케이스 잉크웰 페일 블루',
+    enName: 'Bottega Veneta Flap Card Case Inkwell Pale Blue',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/500/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "501": {
+    id: 501,
+    modelNumber: '592619VCPQ43724',
+    name: '보테가 베네타 플랩 카드 케이스 패러킷',
+    enName: 'Bottega Veneta Flap Card Case Parakeet',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/501/mainImg.webp',
+      '/media/products/wallet/501/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "502": {
+    id: 502,
+    modelNumber: '592619VCPQ49762',
+    name: '보테가 베네타 플랩 카드 케이스 포리지',
+    enName: 'Bottega Veneta Flap Card Case Porridge',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/502/mainImg.webp',
+      '/media/products/wallet/502/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "503": {
+    id: 503,
+    modelNumber: '592619VCPQ48997',
+    name: '보테가 베네타 플랩 카드 케이스 폰덴테',
+    enName: 'Bottega Veneta Flap Card Case Fondant',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/503/mainImg.webp',
+      '/media/products/wallet/503/mainImg2.webp',
+      '/media/products/wallet/503/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "504": {
+    id: 504,
+    modelNumber: '592619VCPQ43121',
+    name: '보테가 베네타 플랩 카드 케이스 딥 블루',
+    enName: 'Bottega Veneta Flap Card Case Deep blue',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/504/mainImg.webp',
+      '/media/products/wallet/504/mainImg2.webp',
+      '/media/products/wallet/504/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "505": {
+    id: 505,
+    modelNumber: '592619VCPQ61001',
+    name: '보테가 베네타 플랩 카드 케이스 블랙 파파야',
+    enName: 'Bottega Veneta Flap Card Case Black Papaya',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/505/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "506": {
+    id: 506,
+    modelNumber: '592619VCPQ63208',
+    name: '보테가 베네타 플랩 카드 케이스 캠핑 버블 검',
+    enName: 'Bottega Veneta Flap Card Case Camping Bubble Gum',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'592619VCPQ48803/749417VCPQ48803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/506/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/487/detailImg.png',
+//      '/media/products/wallet/487/detailImg2.png',
+//      '/media/products/wallet/487/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "507": {
+    id: 507,
+    modelNumber: '649602VBWD28803/748053VBWD28803',
+    name: '보테가 베네타 플랩 카드 케이스 블랙',
+    enName: 'Bottega Veneta Flap Card Case Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'649602VBWD28803/748053VBWD28803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/507/mainImg.webp',
+      '/media/products/wallet/507/mainImg2.webp',
+      '/media/products/wallet/507/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/507/detailImg.png',
+      '/media/products/wallet/507/detailImg2.png',
+      '/media/products/wallet/507/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "508": {
+    id: 508,
+    modelNumber: '649602VBWD23724/748053VBWD23724',
+    name: '보테가 베네타 플랩 카드 케이스 패러킷',
+    enName: 'Bottega Veneta Flap Card Case Parakeet',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'649602VBWD28803/748053VBWD28803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/508/mainImg.webp',
+      '/media/products/wallet/508/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/507/detailImg.png',
+//      '/media/products/wallet/507/detailImg2.png',
+//      '/media/products/wallet/507/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "509": {
+    id: 509,
+    modelNumber: '649602VBWD21242',
+    name: '보테가 베네타 플랩 카드 케이스 썬더',
+    enName: 'Bottega Veneta Flap Card Case Thunder',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'649602VBWD28803/748053VBWD28803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/509/mainImg.webp',
+      '/media/products/wallet/509/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/507/detailImg.png',
+//      '/media/products/wallet/507/detailImg2.png',
+//      '/media/products/wallet/507/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "510": {
+    id: 510,
+    modelNumber: '649602VBWD22145',
+    name: '보테가 베네타 플랩 카드 케이스 폰단테',
+    enName: 'Bottega Veneta Flap Card Case Fondant',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'649602VBWD28803/748053VBWD28803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/510/mainImg.webp',
+      '/media/products/wallet/510/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/507/detailImg.png',
+//      '/media/products/wallet/507/detailImg2.png',
+//      '/media/products/wallet/507/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "511": {
+    id: 511,
+    modelNumber: '649602VBWD22245',
+    name: '보테가 베네타 플랩 카드 케이스 바롤로',
+    enName: 'Bottega Veneta Flap Card Case Barolo',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'649602VBWD28803/748053VBWD28803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/511/mainImg.webp',
+      '/media/products/wallet/511/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/507/detailImg.png',
+//      '/media/products/wallet/507/detailImg2.png',
+//      '/media/products/wallet/507/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "512": {
+    id: 512,
+    modelNumber: '649602VBWD23244',
+    name: '보테가 베네타 플랩 카드 케이스 다크 모스',
+    enName: 'Bottega Veneta Flap Card Case Dark Moss',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'649602VBWD28803/748053VBWD28803',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/512/mainImg.webp',
+      '/media/products/wallet/512/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/507/detailImg.png',
+//      '/media/products/wallet/507/detailImg2.png',
+//      '/media/products/wallet/507/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "513": {
+    id: 513,
+    modelNumber: '2MO513-QHH-F0002',
+    name: '프라다 사피아노 레더 지갑 블랙',
+    enName: 'Prada Saffiano Leather Wallet Black',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "5",
+    modelGroup:'2MO513-QHH-F0002',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/513/mainImg.webp',
+      '/media/products/wallet/513/mainImg2.webp',
+      '/media/products/wallet/513/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/513/detailImg.png',
+      '/media/products/wallet/513/detailImg2.png',
+      '/media/products/wallet/513/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "514": {
+    id: 514,
+    modelNumber: '2MO513-QHH-F0002',
+    name: '프라다 사피아노 레더 지갑 세이지 그린',
+    enName: 'Prada Saffiano Leather Wallet Sage Green',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "5",
+    modelGroup:'2MO513-QHH-F0002',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/514/mainImg.webp',
+      '/media/products/wallet/514/mainImg2.webp',
+      '/media/products/wallet/514/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/513/detailImg.png',
+//      '/media/products/wallet/513/detailImg2.png',
+//      '/media/products/wallet/513/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "515": {
+    id: 515,
+    modelNumber: '2MO513-QHH-F03OE',
+    name: '프라다 사피아노 레더 지갑 카라멜',
+    enName: 'Prada Saffiano Leather Wallet Caramel',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "5",
+    modelGroup:'2MO513-QHH-F0002',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/515/mainImg.webp',
+      '/media/products/wallet/515/mainImg2.webp',
+      '/media/products/wallet/515/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/513/detailImg.png',
+//      '/media/products/wallet/513/detailImg2.png',
+//      '/media/products/wallet/513/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "516": {
+    id: 516,
+    modelNumber: '2MO513-QHH-F0K74',
+    name: '프라다 사피아노 레더 지갑 초크 화이트',
+    enName: 'Prada Saffiano Leather Wallet Chalk White',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "5",
+    modelGroup:'2MO513-QHH-F0002',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/516/mainImg.webp',
+      '/media/products/wallet/516/mainImg2.webp',
+      '/media/products/wallet/516/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/513/detailImg.png',
+//      '/media/products/wallet/513/detailImg2.png',
+//      '/media/products/wallet/513/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "517": {
+    id: 517,
+    modelNumber: '2MO513-QHH-F0216',
+    name: '프라다 사피아노 레더 지갑 발틱 블루',
+    enName: 'Prada Saffiano Leather Wallet Baltic Blue',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "5",
+    modelGroup:'2MO513-QHH-F0002',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/517/mainImg.webp',
+      '/media/products/wallet/517/mainImg2.webp',
+      '/media/products/wallet/517/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/513/detailImg.png',
+//      '/media/products/wallet/513/detailImg2.png',
+//      '/media/products/wallet/513/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "518": {
+    id: 518,
+    modelNumber: '2MO513-QHH-F0S73',
+    name: '프라다 사피아노 레더 지갑 파파야',
+    enName: 'Prada Saffiano Leather Wallet Papaya',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "5",
+    modelGroup:'2MO513-QHH-F0002',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/517/mainImg.webp',
+      '/media/products/wallet/517/mainImg2.webp',
+      '/media/products/wallet/517/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/513/detailImg.png',
+//      '/media/products/wallet/513/detailImg2.png',
+//      '/media/products/wallet/513/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "519": {
+    id: 519,
+    modelNumber: '2MO513-QHH-F0016',
+    name: '프라다 사피아노 레더 지갑 블루에뜨',
+    enName: 'Prada Saffiano Leather Wallet Bluette',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "5",
+    modelGroup:'2MO513-QHH-F0002',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/518/mainImg.webp',
+      '/media/products/wallet/518/mainImg2.webp',
+      '/media/products/wallet/518/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/513/detailImg.png',
+//      '/media/products/wallet/513/detailImg2.png',
+//      '/media/products/wallet/513/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "520": {
+    id: 520,
+    modelNumber: '2ESBC252YSE-H05E',
+    name: '디올 지퍼 장지갑 베이지 & 블랙 디올 오블리크 자카드',
+    enName: 'Dior Zipped Long Wallet Beige & Black Dior Oblique Jacquard',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "5",
+    modelGroup:'2ESBC252YSE-H05E',
+    subCategory: {id:1, title: "장지갑", img: "longwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/520/mainImg.webp',
+      '/media/products/wallet/520/mainImg2.webp',
+      '/media/products/wallet/520/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/520/detailImg.png',
+      '/media/products/wallet/520/detailImg2.png',
+      '/media/products/wallet/520/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "521": {
+    id: 521,
+    modelNumber: '2ESBC252YSE-H03E',
+    name: '디올 지퍼 장지갑 블랙 디올 오블리크 자카드',
+    enName: 'Dior Zipped Long Wallet Black Dior Oblique Jacquard',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "5",
+    modelGroup:'2ESBC252YSE-H05E',
+    subCategory: {id:1, title: "장지갑", img: "longwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/521/mainImg.webp',
+      '/media/products/wallet/521/mainImg2.webp',
+      '/media/products/wallet/521/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/520/detailImg.png',
+//      '/media/products/wallet/520/detailImg2.png',
+//      '/media/products/wallet/520/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "522": {
+    id: 522,
+    modelNumber: 'M61696',
+    name: '루이비통 포켓 오거나이저 모노그램 이클립스',
+    enName: 'Louis Vuitton Pocket Organizer Monogram Eclipse',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "5",
+    modelGroup:'M61696',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/522/mainImg.webp',
+      '/media/products/wallet/522/mainImg2.webp',
+      '/media/products/wallet/522/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/522/detailImg.png',
+      '/media/products/wallet/522/detailImg2.png',
+      '/media/products/wallet/522/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "523": {
+    id: 523,
+    modelNumber: 'M60502',
+    name: '루이비통 포켓 오거나이저 모노그램',
+    enName: 'Louis Vuitton Pocket Organizer Monogram',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "5",
+    modelGroup:'M61696',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/523/mainImg.webp',
+      '/media/products/wallet/523/mainImg2.webp',
+      '/media/products/wallet/523/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/522/detailImg.png',
+//      '/media/products/wallet/522/detailImg2.png',
+//      '/media/products/wallet/522/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "524": {
+    id: 524,
+    modelNumber: 'M30301',
+    name: '루이비통 포켓 오거나이저 네이비 블루',
+    enName: 'Louis Vuitton Pocket Organizer Navy Blue',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "5",
+    modelGroup:'M61696',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/524/mainImg.webp',
+      '/media/products/wallet/524/mainImg2.webp',
+      '/media/products/wallet/524/mainImg3.webp',
+      '/media/products/wallet/524/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/522/detailImg.png',
+//      '/media/products/wallet/522/detailImg2.png',
+//      '/media/products/wallet/522/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "525": {
+    id: 525,
+    modelNumber: 'M30823',
+    name: '루이비통 포켓 오거나이저 파이어리 레드',
+    enName: 'Louis Vuitton Pocket Organizer Fiery Red',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "5",
+    modelGroup:'M61696',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/525/mainImg.webp',
+      '/media/products/wallet/525/mainImg2.webp',
+      '/media/products/wallet/525/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/522/detailImg.png',
+//      '/media/products/wallet/522/detailImg2.png',
+//      '/media/products/wallet/522/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "526": {
+    id: 526,
+    modelNumber: 'M61695',
+    name: '루이비통 멀티플 월렛 모노그램 이클립스',
+    enName: 'Louis Vuitton Multiple Wallet Monogram Eclipse',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "5",
+    modelGroup:'M61695',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/526/mainImg.webp',
+      '/media/products/wallet/526/mainImg2.webp',
+      '/media/products/wallet/526/mainImg3.webp',
+      '/media/products/wallet/526/mainImg4.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/526/detailImg.png',
+      '/media/products/wallet/526/detailImg2.png',
+      '/media/products/wallet/526/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "527": {
+    id: 527,
+    modelNumber: 'M60895',
+    name: '루이비통 멀티플 월렛 모노그램',
+    enName: 'Louis Vuitton Multiple Wallet Monogram',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "5",
+    modelGroup:'M61695',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/527/mainImg.webp',
+      '/media/products/wallet/527/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/526/detailImg.png',
+//      '/media/products/wallet/526/detailImg2.png',
+//      '/media/products/wallet/526/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "528": {
+    id: 528,
+    modelNumber: 'M62901',
+    name: '루이비통 멀티플 월렛 모노그램 쉐도우 블랙',
+    enName: 'Louis Vuitton Multiple Wallet Monogram Shadow',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "5",
+    modelGroup:'M61695',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/528/mainImg.webp',
+      '/media/products/wallet/528/mainImg2.webp',
+      '/media/products/wallet/528/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/526/detailImg.png',
+//      '/media/products/wallet/526/detailImg2.png',
+//      '/media/products/wallet/526/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "529": {
+    id: 529,
+    modelNumber: 'M81383',
+    name: '루이비통 멀티플 월렛 모노그램 쉐도우 앙트라시트 그레이',
+    enName: 'Louis Vuitton Multiple Wallet Monogram Shadow Anthracite Grey',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "5",
+    modelGroup:'M61695',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/529/mainImg.webp',
+      '/media/products/wallet/529/mainImg2.webp',
+      '/media/products/wallet/529/mainImg3.webp',
+      '/media/products/wallet/529/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/526/detailImg.png',
+//      '/media/products/wallet/526/detailImg2.png',
+//      '/media/products/wallet/526/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "530": {
+    id: 530,
+    modelNumber: 'M80422',
+    name: '루이비통 멀티플 월렛 네이비 블루',
+    enName: 'Louis Vuitton Multiple Wallet Navy Blue',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "5",
+    modelGroup:'M61695',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/530/mainImg.webp',
+      '/media/products/wallet/530/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/526/detailImg.png',
+//      '/media/products/wallet/526/detailImg2.png',
+//      '/media/products/wallet/526/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "531": {
+    id: 531,
+    modelNumber: 'M60662',
+    name: '루이비통 멀티플 월렛 에피 블랙',
+    enName: 'Louis Vuitton Multiple Wallet Epi Black',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "5",
+    modelGroup:'M60662',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/531/mainImg.webp',
+      '/media/products/wallet/531/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/531/detailImg.png',
+      '/media/products/wallet/531/detailImg2.png',
+      '/media/products/wallet/531/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "532": {
+    id: 532,
+    modelNumber: 'M61825',
+    name: '루이비통 멀티플 월렛 에피 네이비 블루',
+    enName: 'Louis Vuitton Multiple Wallet Epi Navy Blue',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "5",
+    modelGroup:'M60662',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/532/mainImg.webp',
+      '/media/products/wallet/532/mainImg2.webp',
+      '/media/products/wallet/532/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/532/detailImg.png',
+//      '/media/products/wallet/532/detailImg2.png',
+//      '/media/products/wallet/532/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "533": {
+    id: 533,
+    modelNumber: '766155VCPQ38803',
+    name: '보테가 베네타 인트레치아토 롱 지퍼 카드 케이스 블랙',
+    enName: 'Bottega Veneta Intrecciato Long Zippered Card Case Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'766155VCPQ38803',
+    subCategory: {id:2, title: "중지갑", img: "mediumwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/533/mainImg.webp',
+      '/media/products/wallet/533/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/533/detailImg.png',
+      '/media/products/wallet/533/detailImg2.png',
+      '/media/products/wallet/533/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "534": {
+    id: 534,
+    modelNumber: '766155VCPQA1883',
+    name: '보테가 베네타 인트레치아토 롱 지퍼 카드 케이스 다크 그린 머드',
+    enName: 'Bottega Veneta Intrecciato Long Zippered Card Case Dark Green Mud',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'766155VCPQ38803',
+    subCategory: {id:2, title: "중지갑", img: "mediumwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/534/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/533/detailImg.png',
+//      '/media/products/wallet/533/detailImg2.png',
+//      '/media/products/wallet/533/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "535": {
+    id: 535,
+    modelNumber: '766155VCPQA4177',
+    name: '보테가 베네타 인트레치아토 롱 지퍼 카드 케이스 스페이스 뉴 소지',
+    enName: 'Bottega Veneta Intrecciato Long Zippered Card Case Space New Sauge',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'766155VCPQ38803',
+    subCategory: {id:2, title: "중지갑", img: "mediumwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/535/mainImg.webp',
+      '/media/products/wallet/535/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/533/detailImg.png',
+//      '/media/products/wallet/533/detailImg2.png',
+//      '/media/products/wallet/533/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "536": {
+    id: 536,
+    modelNumber: '766155VCPQA3372',
+    name: '보테가 베네타 인트레치아토 롱 지퍼 카드 케이스 카키 다크 프랄린',
+    enName: 'Bottega Veneta Intrecciato Long Zippered Card Case Kaki Dark Praline',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'766155VCPQ38803',
+    subCategory: {id:2, title: "중지갑", img: "mediumwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/536/mainImg.webp',
+      '/media/products/wallet/536/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/533/detailImg.png',
+//      '/media/products/wallet/533/detailImg2.png',
+//      '/media/products/wallet/533/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "537": {
+    id: 537,
+    modelNumber: '510643V46511000',
+    name: '보테가 베네타 집 어라운드 장지갑 블랙',
+    enName: 'Bottega Veneta Zip Around Long Wallet Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'510643V46511000',
+    subCategory: {id:1, title: "장지갑", img: "longwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/537/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/537/detailImg.png',
+      '/media/products/wallet/537/detailImg2.png',
+      '/media/products/wallet/537/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "538": {
+    id: 538,
+    modelNumber: '510643V46514013',
+    name: '보테가 베네타 집 어라운드 장지갑 네이비',
+    enName: 'Bottega Veneta Zip Around Long Wallet Navy',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'510643V46511000',
+    subCategory: {id:1, title: "장지갑", img: "longwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/538/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/538/detailImg.png',
+//      '/media/products/wallet/538/detailImg2.png',
+//      '/media/products/wallet/538/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "539": {
+    id: 539,
+    modelNumber: '162150V001N1000',
+    name: '보테가 베네타 신용카드 케이스 블랙',
+    enName: 'Bottega Veneta Credit Card Case Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'162150V001N1000',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/539/mainImg.webp',
+      '/media/products/wallet/539/mainImg2.webp',
+      '/media/products/wallet/539/mainImg3.webp',
+      '/media/products/wallet/539/mainImg4.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/539/detailImg.png',
+      '/media/products/wallet/539/detailImg2.png',
+      '/media/products/wallet/539/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "540": {
+    id: 540,
+    modelNumber: '162150V001N4014',
+    name: '보테가 베네타 신용카드 케이스 네이비',
+    enName: 'Bottega Veneta Credit Card Case Navy',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'162150V001N1000',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/540/mainImg.webp',
+      '/media/products/wallet/540/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/539/detailImg.png',
+//      '/media/products/wallet/539/detailImg2.png',
+//      '/media/products/wallet/539/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "541": {
+    id: 541,
+    modelNumber: '162150V001N7611',
+    name: '보테가 베네타 신용카드 케이스 오렌지',
+    enName: 'Bottega Veneta Credit Card Case Orange',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'162150V001N1000',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/541/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/539/detailImg.png',
+//      '/media/products/wallet/539/detailImg2.png',
+//      '/media/products/wallet/539/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "542": {
+    id: 542,
+    modelNumber: '162150V001N8522',
+    name: '보테가 베네타 신용카드 케이스 그레이',
+    enName: 'Bottega Veneta Credit Card Case Grey',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'162150V001N1000',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/542/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/539/detailImg.png',
+//      '/media/products/wallet/539/detailImg2.png',
+//      '/media/products/wallet/539/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "543": {
+    id: 543,
+    modelNumber: '162150V001N7615',
+    name: '보테가 베네타 신용카드 케이스 오렌지',
+    enName: 'Bottega Veneta Credit Card Case Orange',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+    modelGroup:'162150V001N1000',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/543/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/539/detailImg.png',
+//      '/media/products/wallet/539/detailImg2.png',
+//      '/media/products/wallet/539/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "544": {
+    id: 544,
+    modelNumber: '768249-FACQC-9773',
+    name: '구찌 브라운 인테리어 GG 롱 카드 케이스 베이지 에보니',
+    enName: 'Gucci Brown Interior GG Long Card Case Beige Ebony',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "5",
+//    modelGroup:'162150V001N1000',
+    subCategory: {id:2, title: "중지갑", img: "mediumwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/544/mainImg.webp',
+      '/media/products/wallet/544/mainImg2.webp',
+      '/media/products/wallet/544/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/544/detailImg.png',
+      '/media/products/wallet/544/detailImg2.png',
+      '/media/products/wallet/544/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "545": {
+    id: 545,
+    modelNumber: '5943091IZI31090',
+    name: '발렌시아가 캐쉬 카드 홀더 블랙',
+    enName: 'Balenciaga Cash Card Holder Black',
+    brand: '발렌시아가',
+    enBrand: 'Balenciaga',
+    category: "5",
+    modelGroup:'5943091IZI31090',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/545/mainImg.webp',
+      '/media/products/wallet/545/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/545/detailImg.png',
+      '/media/products/wallet/545/detailImg2.png',
+      '/media/products/wallet/545/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "546": {
+    id: 546,
+    modelNumber: '5943091IZI37562',
+    name: '발렌시아가 캐쉬 카드 홀더 오렌지 블랙',
+    enName: 'Balenciaga Cash Card Holder Orange Black',
+    brand: '발렌시아가',
+    enBrand: 'Balenciaga',
+    category: "5",
+    modelGroup:'5943091IZI31090',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/546/mainImg.webp',
+      '/media/products/wallet/546/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/545/detailImg.png',
+//      '/media/products/wallet/545/detailImg2.png',
+//      '/media/products/wallet/545/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "547": {
+    id: 547,
+    modelNumber: '5943091IZI33590',
+    name: '발렌시아가 캐쉬 카드 홀더 다크 그린',
+    enName: 'Balenciaga Cash Card Holder Dark Green',
+    brand: '발렌시아가',
+    enBrand: 'Balenciaga',
+    category: "5",
+    modelGroup:'5943091IZI31090',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/547/mainImg.webp',
+      '/media/products/wallet/547/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/545/detailImg.png',
+//      '/media/products/wallet/545/detailImg2.png',
+//      '/media/products/wallet/545/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "548": {
+    id: 548,
+    modelNumber: '5943091IZI34791',
+    name: '발렌시아가 캐쉬 카드 홀더 블루',
+    enName: 'Balenciaga Cash Card Holder Blue',
+    brand: '발렌시아가',
+    enBrand: 'Balenciaga',
+    category: "5",
+    modelGroup:'5943091IZI31090',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/548/mainImg.webp',
+      '/media/products/wallet/548/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/545/detailImg.png',
+//      '/media/products/wallet/545/detailImg2.png',
+//      '/media/products/wallet/545/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "549": {
+    id: 549,
+    modelNumber: '5943091IZI31063',
+    name: '발렌시아가 캐쉬 카드 홀더 블랙 그린',
+    enName: 'Balenciaga Cash Card Holder Black Green',
+    brand: '발렌시아가',
+    enBrand: 'Balenciaga',
+    category: "5",
+    modelGroup:'5943091IZI31090',
+    subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/549/mainImg.webp',
+      '/media/products/wallet/549/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/545/detailImg.png',
+//      '/media/products/wallet/545/detailImg2.png',
+//      '/media/products/wallet/545/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "550": {
+    id: 550,
+    modelNumber: '607727-1JB0E-1000',
+    name: '생로랑 매트 레더 타이니 카산드라 이스트/웨스트 지갑 블랙',
+    enName: 'Saint Laurent Tiny Cassandre East/West Wallet in Matte Leather Black',
+    brand: '생로랑',
+    enBrand: 'Saint Laurent',
+    category: "5",
+    modelGroup:'607727-1JB0E-1000',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/550/mainImg.webp',
+      '/media/products/wallet/550/mainImg2.webp',
+      '/media/products/wallet/550/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/550/detailImg.png',
+      '/media/products/wallet/550/detailImg2.png',
+      '/media/products/wallet/550/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "551": {
+    id: 551,
+    modelNumber: '607727-02G0W-1000',
+    name: '생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙',
+    enName: 'Saint Laurent Tiny Cassandre East/West Wallet in Shiny Leather Black',
+    brand: '생로랑',
+    enBrand: 'Saint Laurent',
+    category: "5",
+    modelGroup:'607727-1JB0E-1000',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/551/mainImg.webp',
+      '/media/products/wallet/551/mainImg2.webp',
+      '/media/products/wallet/551/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/wallet/551/detailImg.png',
+//      '/media/products/wallet/551/detailImg2.png',
+//      '/media/products/wallet/551/detailImg3.png'
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "552": {
+    id: 552,
+    modelNumber: '453276-C9H0U-1000',
+    name: '생로랑 크로커다일 엠보스드 레더 카산드라 이스트/웨스트 지갑 블랙',
+    enName: 'Saint Laurent Cassandre East/West Wallet in Crocodile Embossed Leather Black',
+    brand: '생로랑',
+    enBrand: 'Saint Laurent',
+    category: "5",
+//    modelGroup:'453276-C9H0U-1000',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/552/mainImg.webp',
+      '/media/products/wallet/552/mainImg2.webp',
+      '/media/products/wallet/552/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/552/detailImg.png',
+      '/media/products/wallet/552/detailImg2.png',
+      '/media/products/wallet/552/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "553": {
+    id: 553,
+    modelNumber: '743004VBWD28803',
+    name: '보테가 베네타 카세트 폴딩 반지갑',
+    enName: 'Bottega Veneta Cassette folding wallet',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "5",
+//    modelGroup:'453276-C9H0U-1000',
+    subCategory: {id:3, title: "반지갑", img: "shortwallet"},
+//    sizeData: {
+//      type: 'bottom',
+//      img: '/media/productDetail/bottom_size.png',
+//      size: [
+//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+//      ]
+//    },
+    mainImg: [
+      '/media/products/wallet/553/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/wallet/553/detailImg.png',
+      '/media/products/wallet/553/detailImg2.png',
+      '/media/products/wallet/553/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
 }

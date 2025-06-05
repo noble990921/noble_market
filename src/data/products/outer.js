@@ -926,12 +926,12 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/outer/76/mainImg.png',
+      '/media/products/outer/75/mainImg.png',
     ],
     detailImg:[
-      '/media/products/outer/76/detailImg.png',
-      '/media/products/outer/76/detailImg2.png',
-      '/media/products/outer/76/detailImg3.png',
+      '/media/products/outer/75/detailImg.png',
+      '/media/products/outer/75/detailImg2.png',
+      '/media/products/outer/75/detailImg3.png',
     ],
     detailText:[
       {
@@ -1354,15 +1354,12 @@ export const PRODUCTS = {
       img:'/media/productDetail/outer_size.png',
     },
     mainImg:[
-      '/media/products/outer/84/mainImg.png',
-      '/media/products/outer/84/mainImg2.png',
-      '/media/products/outer/84/mainImg3.png',
-      '/media/products/outer/84/mainImg4.png',
+      '/media/products/outer/85/mainImg.png',
     ],
     detailImg:[
-      '/media/products/outer/84/detailImg.png',
-      '/media/products/outer/84/detailImg2.png',
-      '/media/products/outer/84/detailImg3.png',
+      '/media/products/outer/85/detailImg.png',
+      '/media/products/outer/85/detailImg2.png',
+      '/media/products/outer/85/detailImg3.png',
     ],
     detailText:[
       {
