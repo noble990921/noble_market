@@ -1,7 +1,7 @@
 <template>
   <div class="product_category" :id="`${category}_View`">
     <div class="pc_container" v-loading="loading">
-      <div class="category_box">
+      <div class="category_box" v-if="subCategory.length > 2">
         <ul>
           <li v-for="(s, idx) in subCategory" :key="idx"
               :class="{ active: selectedSubCategory === s.title }"
