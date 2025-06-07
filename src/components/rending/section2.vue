@@ -44,7 +44,7 @@
             </div>
           </div>
           <div class="item" @click="$router.push('/OUTER/detail/53')">
-            <img src="/media/products/OUTER/53/mainImg.png">
+            <img src="/media/products/outer/53/mainImg.webp">
             <div class="info_box">
               <p class="title">Thom Browne</p>
               <p class="text">(W) 톰브라운 파인 메리노 울 밀라노 스티치 사선 클래식 브이넥 가디건 네이비</p>
