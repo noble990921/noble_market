@@ -543,7 +543,7 @@ export const PRODUCTS = {
   },
   "233": {
     id: 233,
-    modelNumber: 'H221898ZHNL',
+    modelNumber: 'H221898ZHQ8',
     name: '에르메스 바운싱 스니커즈 카프스킨 스웨이드 고트스킨 & 블루 셀레스트',
     enName: 'Hermes Bouncing Sneakers Calfskin Suede Goatskin & Bleu Celeste',
     brand: '에르메스',
@@ -885,10 +885,9 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/240/mainImg.png',
-      '/media/products/shoes/240/mainImg2.png',
-      '/media/products/shoes/240/mainImg3.png',
-      '/media/products/shoes/240/mainImg4.png',
+      '/media/products/shoes/239/mainImg.png',
+      '/media/products/shoes/239/mainImg2.png',
+      '/media/products/shoes/239/mainImg3.png',
     ],
 //    detailImg: [
 //      '/media/products/shoes/223/detailImg.png',
@@ -1882,9 +1881,9 @@ export const PRODUCTS = {
   },
   "258": {
     id: 258,
-    modelNumber: 'H202230Z8E',
-    name: '(W) 에르메스 오란 샌들 카프스킨 & 로즈 브아즈',
-    enName: '(W) Hermes Oran Sandal Calfskin & Rose Boise',
+    modelNumber: 'H021056Z02',
+    name: '(W) 에르메스 오란 샌들 카프스킨 & 블랑 피케르 아반',
+    enName: '(W) Hermes Oran Sandal Calfskin & Blanc Piqures Havane',
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "4",
@@ -1902,8 +1901,8 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/257/mainImg.png',
-      '/media/products/shoes/257/mainImg2.png',
+      '/media/products/shoes/258/mainImg.png',
+      '/media/products/shoes/258/mainImg2.png',
     ],
 //    detailImg: [
 //      '/media/products/shoes/241/detailImg.png',

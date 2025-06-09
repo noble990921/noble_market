@@ -1943,8 +1943,8 @@ export const PRODUCTS = {
   "211": {
     id: 211,
     modelNumber: '768810TKP279509',
-    name: '발렌시아가 플레어 카고 팬츠 블랙',
-    enName: 'Balenciaga Flared Cargo Pants Black',
+    name: '발렌시아가 플레어 카고 팬츠 베이지',
+    enName: 'Balenciaga Flared Cargo Pants Beige',
     brand: '발렌시아가',
     enBrand: 'Balenciaga',
     category: "3",
@@ -2044,7 +2044,7 @@ export const PRODUCTS = {
   "213": {
     id: 213,
     modelNumber: 'P75503',
-    name: '샤넬 23FW 새틴 스커트',
+    name: '샤넬 새틴 스커트',
     enName: 'Chanel 23FW Satin Skirt',
     brand: '샤넬',
     enBrand: 'Chanel',
@@ -2187,7 +2187,7 @@ export const PRODUCTS = {
   },
   "216": {
     id: 216,
-//    modelNumber: 'FR6239',
+    modelNumber: 'ITLHJ45BFVI6',
     name: '셀린느 트리옹프 실크 팬츠 38 브론즈골드',
     enName: 'Celine Triomphe Silk Pants 38 Bronze Gold',
     brand: '셀린느',
@@ -2493,7 +2493,7 @@ export const PRODUCTS = {
   },
   "222": {
     id: 222,
-    modelNumber: '2J821383Z-33NK',
+    modelNumber: 'ITORKGIFDSOL',
     name: '루이비통 LVxYK 테크니컬 개버딘 미디 스커트 38 화이트',
     enName: 'Louis Vuitton LVYK Technical Gabardine Midi Skirt 38 White',
     brand: '루이비통',
