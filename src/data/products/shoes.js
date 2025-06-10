@@ -6130,214 +6130,214 @@ export const PRODUCTS = {
       },
     ]
   },
-  "339": {
-    id: 339,
-    modelNumber: '741339V11T03708',
-    name: '보테가 베네타 비비 클로그 패러킷',
-    enName: 'Bottega Veneta Beebee Clog Parakeet',
-    brand: '보테가 베네타',
-    enBrand: 'Bottega Veneta',
-    category: "4",
-    modelGroup:'741339V11T03708',
-    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
-//    sizeData: {
-//      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
-//      size: [
-//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
-//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
-//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
-//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
-//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
-//      ]
-//    },
-    mainImg: [
-      '/media/products/shoes/339/mainImg.webp',
-    ],
-    detailImg: [
-      '/media/products/shoes/339/detailImg.png',
-      '/media/products/shoes/339/detailImg2.png',
-      '/media/products/shoes/339/detailImg3.png'
-    ],
-    detailText: [
-      {
-        title: '',
-        content: ''
-      },
-      {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      },
-    ]
-  },
-  "340": {
-    id: 340,
-    modelNumber: '741339V11T01000',
-    name: '보테가 베네타 비비 클로그 블랙',
-    enName: 'Bottega Veneta Beebee Clog Black',
-    brand: '보테가 베네타',
-    enBrand: 'Bottega Veneta',
-    category: "4",
-    modelGroup:'741339V11T03708',
-    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
-//    sizeData: {
-//      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
-//      size: [
-//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
-//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
-//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
-//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
-//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
-//      ]
-//    },
-    mainImg: [
-      '/media/products/shoes/340/mainImg.webp',
-    ],
+//  "339": {
+//    id: 339,
+//    modelNumber: '741339V11T03708',
+//    name: '보테가 베네타 비비 클로그 패러킷',
+//    enName: 'Bottega Veneta Beebee Clog Parakeet',
+//    brand: '보테가 베네타',
+//    enBrand: 'Bottega Veneta',
+//    category: "4",
+//    modelGroup:'741339V11T03708',
+//    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+////    sizeData: {
+////      type: 'bottom',
+////      img: '/media/productDetail/bottom_size.png',
+////      size: [
+////        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+////        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+////        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+////        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+////        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+////      ]
+////    },
+//    mainImg: [
+//      '/media/products/shoes/339/mainImg.webp',
+//    ],
 //    detailImg: [
 //      '/media/products/shoes/339/detailImg.png',
 //      '/media/products/shoes/339/detailImg2.png',
 //      '/media/products/shoes/339/detailImg3.png'
 //    ],
-    detailText: [
-      {
-        title: '',
-        content: ''
-      },
-      {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      },
-    ]
-  },
-  "341": {
-    id: 341,
-    modelNumber: '741339V11T09031',
-    name: '보테가 베네타 비비 클로그 씨 솔트',
-    enName: 'Bottega Veneta Beebee Clog Sea Salt',
-    brand: '보테가 베네타',
-    enBrand: 'Bottega Veneta',
-    category: "4",
-    modelGroup:'741339V11T03708',
-    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
-//    sizeData: {
-//      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
-//      size: [
-//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
-//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
-//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
-//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
-//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
-//      ]
-//    },
-    mainImg: [
-      '/media/products/shoes/341/mainImg.webp',
-    ],
-//    detailImg: [
-//      '/media/products/shoes/339/detailImg.png',
-//      '/media/products/shoes/339/detailImg2.png',
-//      '/media/products/shoes/339/detailImg3.png'
+//    detailText: [
+//      {
+//        title: '',
+//        content: ''
+//      },
+//      {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      },
+//    ]
+//  },
+//  "340": {
+//    id: 340,
+//    modelNumber: '741339V11T01000',
+//    name: '보테가 베네타 비비 클로그 블랙',
+//    enName: 'Bottega Veneta Beebee Clog Black',
+//    brand: '보테가 베네타',
+//    enBrand: 'Bottega Veneta',
+//    category: "4",
+//    modelGroup:'741339V11T03708',
+//    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+////    sizeData: {
+////      type: 'bottom',
+////      img: '/media/productDetail/bottom_size.png',
+////      size: [
+////        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+////        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+////        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+////        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+////        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+////      ]
+////    },
+//    mainImg: [
+//      '/media/products/shoes/340/mainImg.webp',
 //    ],
-    detailText: [
-      {
-        title: '',
-        content: ''
-      },
-      {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      },
-    ]
-  },
-  "342": {
-    id: 342,
-    modelNumber: '741339V11T07803',
-    name: '보테가 베네타 비비 클로그 메탈릭 미스트',
-    enName: 'Bottega Veneta Beebee Clog Metallic Mist',
-    brand: '보테가 베네타',
-    enBrand: 'Bottega Veneta',
-    category: "4",
-    modelGroup:'741339V11T03708',
-    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
-//    sizeData: {
-//      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
-//      size: [
-//        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
-//        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
-//        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
-//        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
-//        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
-//      ]
-//    },
-    mainImg: [
-      '/media/products/shoes/342/mainImg.webp',
-    ],
-//    detailImg: [
-//      '/media/products/shoes/339/detailImg.png',
-//      '/media/products/shoes/339/detailImg2.png',
-//      '/media/products/shoes/339/detailImg3.png'
+////    detailImg: [
+////      '/media/products/shoes/339/detailImg.png',
+////      '/media/products/shoes/339/detailImg2.png',
+////      '/media/products/shoes/339/detailImg3.png'
+////    ],
+//    detailText: [
+//      {
+//        title: '',
+//        content: ''
+//      },
+//      {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      },
+//    ]
+//  },
+//  "341": {
+//    id: 341,
+//    modelNumber: '741339V11T09031',
+//    name: '보테가 베네타 비비 클로그 씨 솔트',
+//    enName: 'Bottega Veneta Beebee Clog Sea Salt',
+//    brand: '보테가 베네타',
+//    enBrand: 'Bottega Veneta',
+//    category: "4",
+//    modelGroup:'741339V11T03708',
+//    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+////    sizeData: {
+////      type: 'bottom',
+////      img: '/media/productDetail/bottom_size.png',
+////      size: [
+////        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+////        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+////        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+////        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+////        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+////      ]
+////    },
+//    mainImg: [
+//      '/media/products/shoes/341/mainImg.webp',
 //    ],
-    detailText: [
-      {
-        title: '',
-        content: ''
-      },
-      {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      },
-    ]
-  },
+////    detailImg: [
+////      '/media/products/shoes/339/detailImg.png',
+////      '/media/products/shoes/339/detailImg2.png',
+////      '/media/products/shoes/339/detailImg3.png'
+////    ],
+//    detailText: [
+//      {
+//        title: '',
+//        content: ''
+//      },
+//      {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      },
+//    ]
+//  },
+//  "342": {
+//    id: 342,
+//    modelNumber: '741339V11T07803',
+//    name: '보테가 베네타 비비 클로그 메탈릭 미스트',
+//    enName: 'Bottega Veneta Beebee Clog Metallic Mist',
+//    brand: '보테가 베네타',
+//    enBrand: 'Bottega Veneta',
+//    category: "4",
+//    modelGroup:'741339V11T03708',
+//    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
+////    sizeData: {
+////      type: 'bottom',
+////      img: '/media/productDetail/bottom_size.png',
+////      size: [
+////        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
+////        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
+////        { unit: 'L (3)', totalLength: 40, waistSection: 40, crossSection: 32, bottomSection: 30, rise: 29 },
+////        { unit: 'XL (4)', totalLength: 41, waistSection: 42, crossSection: 33, bottomSection: 31, rise: 30 },
+////        { unit: 'XXL (5)', totalLength: 42, waistSection: 44, crossSection: 34, bottomSection: 32, rise: 31 }
+////      ]
+////    },
+//    mainImg: [
+//      '/media/products/shoes/342/mainImg.webp',
+//    ],
+////    detailImg: [
+////      '/media/products/shoes/339/detailImg.png',
+////      '/media/products/shoes/339/detailImg2.png',
+////      '/media/products/shoes/339/detailImg3.png'
+////    ],
+//    detailText: [
+//      {
+//        title: '',
+//        content: ''
+//      },
+//      {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      },
+//    ]
+//  },
   "343": {
     id: 343,
     modelNumber: '651402V0GV01000',
@@ -6655,8 +6655,8 @@ export const PRODUCTS = {
   "349": {
     id: 349,
     modelNumber: '7E1392AJZHF1HGR',
-    name: '펜디 플로우 레더 로우탑 스니커즈 화이트',
-    enName: 'Fendi Flow Leather Low-Top Sneakers White',
+    name: '펜디 플로우 레더 로우탑 스니커즈',
+    enName: 'Fendi Flow Leather Low-Top Sneakers',
     brand: '펜디',
     enBrand: 'Fendi',
     category: "4",
@@ -6707,8 +6707,8 @@ export const PRODUCTS = {
   "350": {
     id: 350,
     modelNumber: '7E1392AK1QF1HGQ',
-    name: '펜디 플로우 레더 로우탑 스니커즈 화이트',
-    enName: 'Fendi Flow Leather Low-Top Sneakers White',
+    name: '펜디 플로우 레더 로우탑 스니커즈',
+    enName: 'Fendi Flow Leather Low-Top Sneakers',
     brand: '펜디',
     enBrand: 'Fendi',
     category: "4",

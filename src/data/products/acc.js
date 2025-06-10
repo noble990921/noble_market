@@ -3597,4 +3597,584 @@ export const PRODUCTS = {
       },
     ]
   },
+  "686": {
+    id: 686,
+    modelNumber: '20087491_c',
+    name: '다미아니 플래티늄 인게이지먼트 링',
+    enName: 'Damiani Platinum Engagement Ring',
+    brand: '다미아니',
+    enBrand: 'Damiani',
+    category: "8",
+    modelGroup: '20087491_c',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/686/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/686/detailImg.png',
+      '/media/products/acc/686/detailImg2.png',
+      '/media/products/acc/686/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "687": {
+    id: 687,
+    modelNumber: '20087485_c',
+    name: '다미아니 화이트 골드 인게이지먼트 링',
+    enName: 'Damiani White Gold Engagement Ring',
+    brand: '다미아니',
+    enBrand: 'Damiani',
+    category: "8",
+    modelGroup: '20087491_c',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/687/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/687/detailImg.png',
+      '/media/products/acc/687/detailImg2.png',
+      '/media/products/acc/687/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "688": {
+    id: 688,
+    modelNumber: '67797388',
+    name: '티파니 앤 코 티파니 T T1 링 로즈 골드',
+    enName: 'Tiffany & Co. Tiffany T T1 Ring Rose Gold',
+    brand: '티파니 앤 코',
+    enBrand: 'Tiffany & Co',
+    category: "8",
+    modelGroup: '67797388',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/688/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/688/detailImg.png',
+      '/media/products/acc/688/detailImg2.png',
+      '/media/products/acc/688/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "689": {
+    id: 689,
+    modelNumber: '67796934',
+    name: '티파니 앤 코 티파니 T T1 링 엘로우 골드',
+    enName: 'Tiffany & Co. Tiffany T T1 Ring Yellow Gold',
+    brand: '티파니 앤 코',
+    enBrand: 'Tiffany & Co',
+    category: "8",
+    modelGroup: '67797388',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/689/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/689/detailImg.png',
+      '/media/products/acc/689/detailImg2.png',
+      '/media/products/acc/689/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "690": {
+    id: 690,
+    modelNumber: '69278191',
+    name: '티파니 앤 코 티파니 T T1 링 화이트 골드',
+    enName: 'Tiffany & Co. Tiffany T T1 Ring White Gold',
+    brand: '티파니 앤 코',
+    enBrand: 'Tiffany & Co',
+    category: "8",
+    modelGroup: '67797388',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/690/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/690/detailImg.png',
+      '/media/products/acc/690/detailImg2.png',
+      '/media/products/acc/690/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "691": {
+    id: 691,
+    modelNumber: '67795342',
+    name: '티파니 앤 코 티파니 T T1 링 로즈 골드 다이아몬드 세팅',
+    enName: 'Tiffany & Co. Tiffany T T1 Ring Rose Gold Diamond Setting',
+    brand: '티파니 앤 코',
+    enBrand: 'Tiffany & Co',
+    category: "8",
+    modelGroup: '67795342',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/691/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/691/detailImg.png',
+      '/media/products/acc/691/detailImg2.png',
+      '/media/products/acc/691/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "692": {
+    id: 692,
+    modelNumber: '67795113',
+    name: '티파니 앤 코 티파니 T T1 링 옐로우 골드 다이아몬드 세팅',
+    enName: 'Tiffany & Co. Tiffany T T1 Ring Yellow Gold Diamond Setting',
+    brand: '티파니 앤 코',
+    enBrand: 'Tiffany & Co',
+    category: "8",
+    modelGroup: '67795342',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/692/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/692/detailImg.png',
+      '/media/products/acc/692/detailImg2.png',
+      '/media/products/acc/692/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "693": {
+    id: 693,
+    modelNumber: '67795555',
+    name: '티파니 앤 코 티파니 T T1 링 화이트 골드 다이아몬드 세팅',
+    enName: 'Tiffany & Co. Tiffany T T1 Ring White Gold Diamond Setting',
+    brand: '티파니 앤 코',
+    enBrand: 'Tiffany & Co',
+    category: "8",
+    modelGroup: '67795342',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/693/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/693/detailImg.png',
+      '/media/products/acc/693/detailImg2.png',
+      '/media/products/acc/693/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "694": {
+    id: 694,
+    modelNumber: 'B40851',
+    name: '까르띠에 러브 웨딩 밴드 화이트 골드',
+    enName: 'Cartier Love Wedding Band White Gold',
+    brand: '까르띠에',
+    enBrand: 'Cartier',
+    category: "8",
+    modelGroup: 'B40851',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/694/mainImg.webp',
+      '/media/products/acc/694/mainImg2.webp',
+      '/media/products/acc/694/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/694/detailImg.png',
+      '/media/products/acc/694/detailImg2.png',
+      '/media/products/acc/694/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "695": {
+    id: 695,
+    modelNumber: 'B40850',
+    name: '까르띠에 러브 웨딩 밴드 옐로우 골드',
+    enName: 'Cartier Love Wedding Band Yellow Gold',
+    brand: '까르띠에',
+    enBrand: 'Cartier',
+    category: "8",
+    modelGroup: 'B40851',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/695/mainImg.webp',
+      '/media/products/acc/695/mainImg2.webp',
+      '/media/products/acc/695/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/695/detailImg.png',
+      '/media/products/acc/695/detailImg2.png',
+      '/media/products/acc/695/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "696": {
+    id: 696,
+    modelNumber: 'B40852',
+    name: '까르띠에 러브 웨딩 밴드 로즈 골드',
+    enName: 'Cartier Love Wedding Band Rose Gold',
+    brand: '까르띠에',
+    enBrand: 'Cartier',
+    category: "8",
+    modelGroup: 'B40851',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/696/mainImg.webp',
+      '/media/products/acc/696/mainImg2.webp',
+      '/media/products/acc/696/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/696/detailImg.png',
+      '/media/products/acc/696/detailImg2.png',
+      '/media/products/acc/696/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "697": {
+    id: 697,
+    modelNumber: 'B40853',
+    name: '까르띠에 러브 웨딩 밴드 플래티넘',
+    enName: 'Cartier Love Wedding Band Platinum',
+    brand: '까르띠에',
+    enBrand: 'Cartier',
+    category: "8",
+    modelGroup: 'B40851',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/697/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/697/detailImg.png',
+      '/media/products/acc/697/detailImg2.png',
+      '/media/products/acc/697/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "698": {
+    id: 698,
+    modelNumber: 'R1140DVOCY-D301',
+    name: '(W) 디올 디오레볼루션 링 골드 피니쉬 메탈 화이트 크리스탈',
+    enName: '(W) Dior Dio(r)evolution Ring Gold Finish Metal White Crystals',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "8",
+    modelGroup: 'R1140DVOCY-D301',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/698/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/698/detailImg.png',
+      '/media/products/acc/698/detailImg2.png',
+      '/media/products/acc/698/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "699": {
+    id: 699,
+    modelNumber: 'R1140DVOCY-D13S',
+    name: '(W) 디올 디오레볼루션 링 골드 피니쉬 메탈 실버 톤 크리스탈',
+    enName: '(W) Dior Dio(r)evolution Ring Gold Finish Metal Silver Tone Crystals',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "8",
+    modelGroup: 'R1140DVOCY-D301',
+    subCategory: {id:3, title: "반지", img: "ring"},
+    mainImg: [
+      '/media/products/acc/699/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/acc/699/detailImg.png',
+      '/media/products/acc/699/detailImg2.png',
+      '/media/products/acc/699/detailImg3.png'
+    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
 }
