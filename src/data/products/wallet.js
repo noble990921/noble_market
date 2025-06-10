@@ -1015,7 +1015,7 @@ export const PRODUCTS = {
   "403": {
     id: 403,
     modelNumber: '649597VBWD31814',
-    name: '보테가 베네타 카세트 크레딧 카드 케이스 글레이셔',
+    name: '보테가 베네타 카드 케이스 글레이셔',
     enName: 'Bottega Veneta Cassette Credit Card Case Glacier',
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
