@@ -2299,7 +2299,7 @@ export const PRODUCTS = {
   "427": {
     id: 427,
     modelNumber: '428726-1T56F-4236',
-    name: '구찌 GG 마몽 레더 폴더형 지갑 로얄 블루 레더',
+    name: '구찌 GG 마몽 레더 반지갑 로얄 블루',
     enName: 'Gucci GG Marmont Leather Bi-Fold Wallet Royal Blue Leather',
     brand: '구찌',
     enBrand: 'Gucci',

@@ -208,6 +208,7 @@
         inputContent: false,
         colorVariants: [],
         activeVariantId:null,
+        loginCheck:false,
       };
     },
     computed: {
@@ -223,6 +224,18 @@
       }
     },
     methods: {
+      productDetailAlert(){
+        if(this.loginCheck){
+          this.$alert("로그인 후 이용 가능한 기능입니다.");
+        }
+      },
+      isLoginCheck(){
+        if(!this.isLogin && !this.user){
+          this.loginCheck =  false;
+        }else {
+          this.loginCheck =  true;
+        }
+      },
       goToColorVariant(variant) {
         const category = this.$route.params.category.toLowerCase();
         this.$router.push({
@@ -230,9 +243,11 @@
         });
       },
       clickInput() {
-        if (this.inputContent == false) {
+        if(!this.loginCheck){
+          this.$alert("로그인 후 이용 가능한 기능입니다.");
+        }else if (this.inputContent == false) {
           return this.inputContent = true
-        } else {
+        } else{
           return this.inputContent = false
         }
       },
@@ -388,6 +403,8 @@
     },
     created() {
       this.getData();
+      this.isLoginCheck()
+      console.log('123123',this.loginCheck)
     },
   };
 </script>

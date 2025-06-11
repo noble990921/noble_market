@@ -8,19 +8,22 @@
           <img :src="img">
         </div>
       </div>
-      <div class="detail_subImg" v-if="product.detailImg">
+      <div class="detail_subImg" v-if="product.detailImg"
+           :class="{ 'blur-overlay': !isLogin || !user }">
         <p class="title">제품상세</p>
         <div class="detail_subImgBox" v-for="(img,i) in product.detailImg" :key="i">
           <img :src="img">
         </div>
       </div>
-      <div class="detail_wearingImg" v-if="product.wearingImg">
+      <div class="detail_wearingImg" v-if="product.wearingImg"
+           :class="{ 'blur-overlay': !isLogin || !user }">
         <p class="title" style="margin: 120px 0 30px 0">제품착샷</p>
         <div class="detail_subImgBox" v-for="(img,i) in product.wearingImg" :key="i">
           <img :src="img">
         </div>
       </div>
-      <div class="detail_notice">
+      <div class="detail_notice"
+           :class="{ 'blur-overlay': !isLogin || !user }">
         <p class="title" style="margin: 120px 0 30px 0">안내 사항</p>
         <img src="../../../../public/media/productDetail/product_notice.png">
       </div>

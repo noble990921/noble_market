@@ -180,6 +180,30 @@
         }
       }
     }
+    .blur-overlay {
+      position: relative;
+      overflow: hidden;
+    }
+    .blur-overlay img {
+      filter: blur(10px); /* 흐림 효과 */
+      pointer-events: none; /* 클릭 방지 */
+      user-select: none;
+    }
+    .blur-overlay::after {
+      content: "로그인 후 확인 가능합니다.";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 30px;
+      color: white;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px 15px;
+      border-radius: 5px;
+      z-index: 1;
+      text-align: center;
+    }
   }
 
   .modal-overlay{
