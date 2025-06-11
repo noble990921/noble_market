@@ -254,6 +254,15 @@
             color: #333;
             top: 50%;
             transform: translateY(-50%);
+            width: 24px;
+            height: 24px;
+            &::after {
+              font-size: 30px; // 기본 아이콘의 글자 크기 (기본은 44px)
+            }
+          }
+
+          .swiper-button-disabled{
+            opacity: 0.1 !important;
           }
           .swiper-container{
             width: 100%;

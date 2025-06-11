@@ -13,6 +13,7 @@
       <div class="search_area">
         <div class="search">
           <input
+              ref="searchInput"
               v-model="searchText"
               @keyup.enter="search"
               type="text"
@@ -87,6 +88,17 @@
 
   export default {
     name: "SearchDrawer",
+    watch: {
+      visible(val) {
+        if (val) {
+          this.$nextTick(() => {
+            setTimeout(() => {
+              this.$refs.searchInput?.focus();
+            }, 100);
+          });
+        }
+      }
+    },
     props: {
       visible: Boolean,
     },
@@ -146,6 +158,7 @@
       }
     },
     created() {
+
     }
   }
 </script>
