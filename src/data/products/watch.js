@@ -1683,7 +1683,7 @@ export const PRODUCTS = {
   },
   "596": {
     id: 596,
-    modelNumber: '26331ST.OO.1220ST.01',
+    modelNumber: '26331ST-OO-1220ST-01',
     name: '오데마 피게 로얄 오크 크로노그래프 26331ST',
     enName: 'Royal Oak Selfwinding Chronograph 41mm Stainless Steel Blue Dial',
     brand: '오데마 피게',
@@ -1723,7 +1723,7 @@ export const PRODUCTS = {
   },
   "597": {
     id: 597,
-    modelNumber: '26400SO.OO.A002CA.01.',
+    modelNumber: '26400SO-OO-A002CA-01',
     name: '오데마 피게 로얄 오크 오프쇼어 크로노그래프 26400SO',
     enName: 'Royal Oak Offshore Chronograph 44mm',
     brand: '오데마 피게',
@@ -1763,7 +1763,7 @@ export const PRODUCTS = {
   },
   "598": {
     id: 598,
-    modelNumber: '15340ST.OO.D002CA.01',
+    modelNumber: '15340ST-OO-D002CA-01',
     name: '오데마 피게 로얄 오크 오프쇼어 스쿠버 웸페 15340ST',
     enName: 'Royal Oak Offshore Scuba Wempe Limited Edition',
     brand: '오데마 피게',

@@ -90,6 +90,13 @@ import {CATEGORY_CODE_TO_NAME} from "@/constants/Set";
       }
     },
     watch: {
+      '$route.query.keyword': {
+        immediate: true,
+        handler(newKeyword) {
+          this.searchText = newKeyword;
+          this.getData();
+        }
+      },
       value() {
         this.sortItems();
       },
@@ -144,15 +151,15 @@ import {CATEGORY_CODE_TO_NAME} from "@/constants/Set";
               Object.values(module)
           );
 
-          const keyword = this.searchText.toLowerCase();
+          const keyword = this.searchText.toLowerCase().replace(/\s+/g, '');
           this.product = allProducts.filter(item => {
             return (
-                (item.modelNumber && item.modelNumber.toLowerCase().includes(keyword)) ||
-                (item.enBrand && item.enBrand.toLowerCase().includes(keyword)) ||
-                (item.enName && item.enName.toLowerCase().includes(keyword)) ||
-                (item.name && item.name.toLowerCase().includes(keyword)) ||
-                (item.brand && item.brand.toLowerCase().includes(keyword)) ||
-                (item.category && item.category.toLowerCase().includes(keyword))
+                (item.modelNumber && item.modelNumber.toLowerCase().replace(/\s+/g, '').includes(keyword)) ||
+                (item.enBrand && item.enBrand.toLowerCase().replace(/\s+/g, '').includes(keyword)) ||
+                (item.enName && item.enName.toLowerCase().replace(/\s+/g, '').includes(keyword)) ||
+                (item.name && item.name.toLowerCase().replace(/\s+/g, '').includes(keyword)) ||
+                (item.brand && item.brand.toLowerCase().replace(/\s+/g, '').includes(keyword)) ||
+                (item.category && item.category.toLowerCase().replace(/\s+/g, '').includes(keyword))
             );
           });
 

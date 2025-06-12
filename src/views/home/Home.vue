@@ -10,7 +10,7 @@
       <Section9/>
       <Section12/>
       <Section13/>
-<!--      <Section14/>-->
+      <Section14/>
       <Section8/>
 <!--      <Section4/>-->
 <!--      <Section5/>-->
@@ -33,7 +33,7 @@
   import Section11 from "../../components/rending/section11";
   import Section12 from "../../components/rending/section12";
   import Section13 from "../../components/rending/section13";
-//  import Section14 from "../../components/rending/section14";
+  import Section14 from "../../components/rending/section14";
 
 export default {
   components:{
@@ -45,8 +45,7 @@ export default {
     Section8,
 //    Section6
     Section9,
-    Section10,Section11,Section12,Section13,
-//    Section14
+    Section10,Section11,Section12,Section13, Section14
   },
 }
 </script>

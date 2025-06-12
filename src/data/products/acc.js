@@ -10,12 +10,12 @@ export const PRODUCTS = {
     modelGroup: 'H147992FO49',
     subCategory: {id:1, title: "목걸이", img: "necklace"},
     mainImg: [
-      '/media/products/acc/559/mainImg.webp',
+      '/media/products/acc/599/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/acc/559/detailImg.png',
-      '/media/products/acc/559/detailImg2.png',
-      '/media/products/acc/559/detailImg3.png'
+      '/media/products/acc/599/detailImg.png',
+      '/media/products/acc/599/detailImg2.png',
+      '/media/products/acc/599/detailImg3.png'
     ],
     detailText: [
       {

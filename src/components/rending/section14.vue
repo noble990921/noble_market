@@ -2,8 +2,8 @@
   <section id="section2">
     <div class="s2_container">
       <div class="hot_item">
-        <p class="title">Top Clothes</p>
-        <p class="sub_text">인기 의류</p>
+        <p class="title">Top ACC</p>
+        <p class="sub_text">인기 악세사리</p>
 <!--        <div class="item_box">-->
 <!--          <div class="item" v-for=" h in HOTITEM" :key="h.id">-->
 <!--            <img :src="h.img">-->
@@ -15,45 +15,53 @@
 <!--          </div>-->
 <!--        </div>-->
         <div class="item_box">
-          <div class="item" @click="$router.push('/TOP/detail/103')">
-            <img src="/media/products/top/103/mainImg.png">
+          <div class="item" @click="$router.push('/ACC/detail/623')">
+            <img src="/media/products/acc/103/mainImg.webp">
             <div class="info_box">
-              <p class="title">Wooyoungmi</p>
-              <p class="text">우영미 3D 플라워 백로고 티셔츠 블랙</p>
+              <p class="title">Damiani</p>
+              <p class="text">다미아니 벨에포크 다이아몬드 네클리스 화이트 골드</p>
             </div>
           </div>
-          <div class="item" @click="$router.push('/TOP/detail/137')">
-            <img src="/media/products/top/137/mainImg.png">
+        </div>
+        <div class="item_box">
+          <div class="item" @click="$router.push('/ACC/detail/638')">
+            <img src="/media/products/acc/638/mainImg.webp">
             <div class="info_box">
-              <p class="title">Wooyoungmi</p>
-              <p class="text">우영미 코튼 백로고 티셔츠 블랙</p>
+              <p class="title">Cartier</p>
+              <p class="text">까르띠에 러브 브레이슬릿 스몰 옐로우 골드</p>
             </div>
           </div>
-          <div class="item" @click="$router.push('/TOP/detail/147')">
-            <img src="/media/products/top/147/mainImg.png">
+        </div>
+        <div class="item_box">
+          <div class="item" @click="$router.push('/ACC/detail/638')">
+            <img src="/media/products/acc/638/mainImg.webp">
             <div class="info_box">
-              <p class="title">Moncler</p>
-              <p class="text">몽클레르 트라이컬러 트림 코튼 티셔츠 오프 화이트</p>
+              <p class="title">Bulgari</p>
+              <p class="text">불가리 세이브 더 칠드런 네클리스 스털링 실버</p>
             </div>
           </div>
-          <div class="item" @click="$router.push('/TOP/detail/162')">
-            <img src="/media/products/top/162/mainImg.png">
+        </div>
+        <div class="item_box">
+          <div class="item" @click="$router.push('/ACC/detail/695')">
+            <img src="/media/products/acc/695/mainImg.webp">
             <div class="info_box">
-              <p class="title">Dior</p>
-              <p class="text">디올 자카드 오블리크 폴로 셔츠 화이트 블루 브라운</p>
+              <p class="title">Cartier</p>
+              <p class="text">까르띠에 러브 웨딩 밴드 옐로우 골드</p>
             </div>
           </div>
-          <div class="item" @click="$router.push('/OUTER/detail/53')">
-            <img src="/media/products/OUTER/53/mainImg.png">
+        </div>
+        <div class="item_box">
+          <div class="item" @click="$router.push('/ACC/detail/657')">
+            <img src="/media/products/acc/657/mainImg.webp">
             <div class="info_box">
-              <p class="title">Thom Browne</p>
-              <p class="text">(W) 톰브라운 파인 메리노 울 밀라노 스티치 사선 클래식 브이넥 가디건 네이비</p>
+              <p class="title">Hermes</p>
+              <p class="text">(W) 에르메스 클릭아슈 브레이슬릿 로즈 골드 하드웨어 & 블랑</p>
             </div>
           </div>
         </div>
       </div>
       <div class="btn_box">
-        <button @click="$router.push('/product/TOP')">
+        <button @click="$router.push('/product/ACC')">
           더보기
         </button>
       </div>
@@ -62,43 +70,6 @@
 </template>
 
 <script>
-  const HOTITEM = [
-    {
-      id:'1',
-      img: require('../../assets/images/home/section2/1.jpg'),
-      title:'까르띠에',
-      text:'까르띠에 러브 팔찌',
-      price:'123,123'
-    },
-    {
-      id:'2',
-      img: require('../../assets/images/home/section2/2.jpg'),
-      title:'까르띠에',
-      text:'까르띠에 러브링 웨딩 밴드',
-      price:'123,123'
-    },
-    {
-      id:'3',
-      img: require('../../assets/images/home/section2/3.png'),
-      title:'오데마피게',
-      text:'오데마피게 로얄오크 15400ST 스틸 검판',
-      price:'123,123'
-    },
-    {
-      id:'4',
-      img: require('../../assets/images/home/section2/4.jpg'),
-      title:'오데마피게',
-      text:'오데마피게 로얄오크',
-      price:'123,123'
-    },
-    {
-      id:'5',
-      img: require('../../assets/images/home/section2/5.jpg'),
-      title:'오데마피게',
-      text:'오데마피게 로얄오크',
-      price:'123,123'
-    },
-  ]
   import 'swiper/css/swiper.css'
   export default {
     name: "section2",
@@ -106,8 +77,6 @@
     },
     data() {
       return {
-        HOTITEM
-
       }
     },
     methods:{
