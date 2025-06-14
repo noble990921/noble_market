@@ -64,29 +64,38 @@
         }
         .info_box{
           padding: 12px 4px 0;
-          .title{
+          .brand_name{
             color: #222;
+            margin-top: 12px;
             font-size: 12px;
             font-weight: 700;
+            color: #222;
+            margin-bottom: 2px;
           }
           .text{
             -webkit-line-clamp: 1;
-              -webkit-box-orient: vertical;
-              color: #a7a7a7;
-              display: -webkit-box;
-              font-size: 11px;
-              line-height: 16px;
-              max-height: 34px;
-              overflow: hidden;
-              text-overflow: ellipsis;
-              white-space: normal;
+            -webkit-box-orient: vertical;
+            color: #a7a7a7;
+            display: -webkit-box;
+            font-size: 11px;
+            line-height: 16px;
+            max-height: 34px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
           }
-          .price{
-            margin-top: 10px;
-            color: rgb(34, 34, 34);
-            font-size: 14px;
-            font-weight: 700;
-            line-height: 17px;
+          .name {
+            font-size: 12px;
+            line-height: 18px;
+            text-align: left;
+            white-space: normal;
+            color: #222;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
           }
         }
       }

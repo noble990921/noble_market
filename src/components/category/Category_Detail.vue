@@ -87,9 +87,12 @@
             <tr>
               <th><p>추가 해택</p></th>
               <td>
-                <p>국내 유통 제품 중 최고 퀄리티 보장</p>
-                <p>프리미엄 검수 서비스 무료 제공</p>
-                <p>박스, 더스트백, 인증서 풀패키지 구성 (일부 품목 제외)</p>
+                <p>- 국내 유통 제품 중 최고 퀄리티 보장</p>
+                <p>- 프리미엄 검수 서비스 무료 제공</p>
+                <p v-if="!deskWidth">- 박스, 더스트백, 인증서 풀패키지 구성
+                  (일부 품목 제외)</p>
+                <p v-else>- 박스, 더스트백, 인증서 풀패키지 구성 <br>
+                  (일부 품목 제외)</p>
               </td>
             </tr>
             <tr>
@@ -209,6 +212,7 @@
         colorVariants: [],
         activeVariantId: null,
         loginCheck: false,
+        windowWidth: window.innerWidth
       };
     },
     computed: {
@@ -221,9 +225,15 @@
       },
       delivery() {
         return this.product.delivery || 0
-      }
+      },
+      deskWidth(){
+        return this.windowWidth < 1024
+      },
     },
     methods: {
+      updateWidth(){
+        this.windowWidth = window.innerWidth
+      },
       productDetailAlert() {
         if (this.loginCheck) {
           this.$alert("로그인 후 이용 가능한 기능입니다.");
@@ -412,7 +422,7 @@
     created() {
       this.getData();
       this.isLoginCheck()
-      console.log('123123', this.loginCheck)
+      window.addEventListener('resize',this.updateWidth)
     },
   };
 </script>

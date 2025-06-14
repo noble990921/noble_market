@@ -64,7 +64,7 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/top/102/mainImg.png',
-      '/media/products/top/102/mainImg.png',
+      '/media/products/top/102/mainImg2.png',
     ],
 //    detailImg:[
 //      '/media/products/top/101/detailImg.png',
@@ -114,7 +114,7 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/top/103/mainImg.png',
-      '/media/products/top/103/mainImg.png',
+      '/media/products/top/103/mainImg2.png',
     ],
     detailImg: [
       '/media/products/top/103/detailImg.png',

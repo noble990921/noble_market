@@ -125,7 +125,7 @@ export const SET_PRODUCT_BRAND = {
     listImg: require('@/assets/images/home/section7/brandList_logo14.png'),
     url:'/brand/Rolex'
   },
-  "15": {
+  "르메르": {
     id: 15,
     enName: "Lemaire",
     koName: "르메르",
@@ -161,7 +161,7 @@ export const SET_PRODUCT_BRAND = {
     listImg: require('@/assets/images/home/section7/brandList_logo18.png'),
     url:'/brand/MiuMiu'
   },
-  "19": {
+  "반 클리프": {
     id: 19,
     enName: "Van Cleef",
     koName: "반 클리프",
@@ -267,6 +267,15 @@ export const SET_PRODUCT_BRAND = {
     mimg: require('@/assets/images/home/section7/mbrand_logo30.png'),
     img: require('@/assets/images/home/section7/brand_logo30.png'),
     listImg: require('@/assets/images/home/section7/brandList_logo30.png'),
+    url:'/brand/Fendi'
+  },
+  "생로랑": {
+    id: 30,
+    enName: "Fendi",
+    koName: "Saint Laurent",
+    mimg: require('@/assets/images/home/section7/mbrand_logo31.png'),
+    img: require('@/assets/images/home/section7/brand_logo31.png'),
+    listImg: require('@/assets/images/home/section7/brandList_logo31.png'),
     url:'/brand/Fendi'
   },
 };

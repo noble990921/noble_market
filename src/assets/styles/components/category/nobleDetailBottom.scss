@@ -190,8 +190,13 @@
       pointer-events: none; /* 클릭 방지 */
       user-select: none;
     }
+    @media (max-width: 1024px) {
+      .blur-overlay::after {
+        font-size: 13px !important;
+      }
+    }
     .blur-overlay::after {
-      content: "로그인 후 확인 가능합니다.";
+      content: "로그인 후 확인 가능합니다";
       position: absolute;
       top: 50%;
       left: 50%;

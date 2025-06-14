@@ -8,36 +8,41 @@
           <div class="item" @click="$router.push('/Wallet/detail/384')">
             <img src="/media/products/wallet/384/mainImg.webp">
             <div class="info_box">
-              <p class="title">Dior</p>
-              <p class="text">디올 새들 플랩 카드 홀더 블루 디올 오블리크 자카드</p>
+              <p class="brand_name">Dior</p>
+              <p class="name">디올 새들 플랩 카드 홀더 블루 디올 오블리크 자카드</p>
+              <p class="text">S5611CTZQ-M928/928U</p>
             </div>
           </div>
           <div class="item" @click="$router.push('/Wallet/detail/544')">
             <img src="/media/products/wallet/544/mainImg.webp">
             <div class="info_box">
-              <p class="title">Gucci</p>
-              <p class="text">구찌 브라운 인테리어 GG 롱 카드 케이스 베이지 에보니</p>
+              <p class="brand_name">Gucci</p>
+              <p class="name">구찌 브라운 인테리어 GG 롱 카드 케이스 베이지 에보니</p>
+              <p class="text">768249-FACQC-9773</p>
             </div>
           </div>
           <div class="item" @click="$router.push('/Wallet/detail/424')">
             <img src="/media/products/wallet/424/mainImg.webp">
             <div class="info_box">
-              <p class="title">Celine</p>
-              <p class="text">셀린느 트리옹프 캔버스 플랩 카드 홀더 탄</p>
+              <p class="brand_name">Celine</p>
+              <p class="name">셀린느 트리옹프 캔버스 플랩 카드 홀더 탄</p>
+              <p class="text">10I582CPJ-04LU</p>
             </div>
           </div>
           <div class="item" @click="$router.push('/Wallet/detail/485')">
             <img src="/media/products/wallet/485/mainImg.webp">
             <div class="info_box">
-              <p class="title">Dior</p>
-              <p class="text">디올 카드 홀더 베이지 & 블랙 디올 오블리크 자카드</p>
+              <p class="brand_name">Dior</p>
+              <p class="name">디올 카드 홀더 베이지 & 블랙 디올 오블리크 자카드</p>
+              <p class="text">2ESCH135YSE-H05E</p>
             </div>
           </div>
           <div class="item" @click="$router.push('/Wallet/detail/490')">
             <img src="/media/products/wallet/490/mainImg.webp">
             <div class="info_box">
-              <p class="title">Bottega Veneta</p>
-              <p class="text">보테가 베네타 플랩 카드 케이스 다크 그린</p>
+              <p class="brand_name">Bottega Veneta</p>
+              <p class="name">보테가 베네타 플랩 카드 케이스 다크 그린</p>
+              <p class="text">592619VCPQ43009</p>
             </div>
           </div>
         </div>
