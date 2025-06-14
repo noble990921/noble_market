@@ -206,7 +206,7 @@
         sizeDialog: false,
         value: "",
         options: [
-          {value: "사이즈 / 색상 문의", label: "사이즈 / 색상 문의"},
+          {value: "사이즈 / 색상 문의", label: "모든 사이즈 및 색상 구매 가능하니 문의 부탁드랍니다"},
         ],
         inputContent: false,
         colorVariants: [],

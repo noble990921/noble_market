@@ -214,7 +214,12 @@
               }
             }
             @media (max-width: 1024px) {
+              img {
+                width: 50px !important;
+                height: 50px !important;
+              }
               ul {
+                gap: 0px!important;
                 justify-content: flex-start; // 왼쪽 정렬
                 flex-wrap: nowrap; // 줄바꿈 없음
                 overflow-x: auto;
@@ -300,7 +305,7 @@
               white-space: normal;
               }
               .name {
-                font-size: 12px;
+                font-size: 13px;
                 line-height: 18px;
                 text-align: left;
                 white-space: normal;

@@ -217,6 +217,7 @@
             @media (max-width: 1024px) {
               img{
                 width: 100% !important;
+                height: 100% !important;
               }
             }
 
@@ -248,17 +249,17 @@
               white-space: normal;
             }
             .name {
-              font-size: 12px;
-              line-height: 18px;
-              text-align: left;
-              white-space: normal;
-              color: #222;
-              overflow: hidden;
-              text-overflow: ellipsis;
-              white-space: normal;
-              -webkit-line-clamp: 1;
-              -webkit-box-orient: vertical;
-              display: -webkit-box;
+              font-size: 13px;
+                line-height: 18px;
+                text-align: left;
+                white-space: normal;
+                color: #222;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: normal;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
             }
 
             .price {

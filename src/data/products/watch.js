@@ -625,7 +625,7 @@ export const PRODUCTS = {
     name: '리차드밀 블랙카본 라파엘 나달',
     enName: 'Richard Mille Black Carbon Rafael Nadal',
     brand: '리차드밀',
-    enBrand: 'Richard',
+    enBrand: 'Richard Mille',
     category: "7",
     modelGroup:'RM35-02',
     mainImg: [
@@ -669,7 +669,7 @@ export const PRODUCTS = {
     name: '리차드밀 레드카본 라파엘 나달',
     enName: 'Richard Mille Red Carbon Rafael Nadal',
     brand: '리차드밀',
-    enBrand: 'Richard',
+    enBrand: 'Richard Mille',
     category: "7",
     modelGroup:'RM35-02',
     mainImg: [
@@ -713,7 +713,7 @@ export const PRODUCTS = {
     name: '리차드밀 플라이백 크로노그래프',
     enName: 'Richard Mille Flyback Chronograph',
     brand: '리차드밀',
-    enBrand: 'Richard',
+    enBrand: 'Richard Mille',
     category: "7",
     modelGroup:'RM35-02',
     mainImg: [
