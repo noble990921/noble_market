@@ -14,23 +14,26 @@
           </ul>
           <p class="p1">쇼핑몰 기본정보</p>
           <ul>
-            <li><span>상호명:</span><p>레플릭스</p></li>
-            <li><span>대표자명:</span><p>송송</p></li>
+            <li><span>상호명:</span><p>노블</p></li>
+            <li><span>대표자명:</span><p>노블</p></li>
             <li><span>사업자주소:</span><p>서울특별시 강남구 강남빌딩</p></li>
           </ul>
           <ul>
             <li><span>대표번호:</span><p>02-3134-1231</p></li>
-            <li><span>사업자 등록번호:</span><p>931-23-31399</p></li>
-            <li><span>통신판매업 신고번호</span></li>
+            <li><span>인스타 정보:</span><p>n_oble_official</p></li>
+<!--            <li><span>사업자 등록번호:</span><p>931-23-31399</p></li>-->
+<!--            <li><span>통신판매업 신고번호</span></li>-->
+            <li><span>통신판매업</span></li>
           </ul>
         </div>
         <div class="second_content">
           <p class="p1">고객센터 정보</p>
-          <p class="p2" style="margin-bottom: 10px">상담/주문 전화: <span class="p3">010-2333-3133</span></p>
+          <p class="p2" style="margin-bottom: 10px">상담/주문 전화: <span class="p3">카카오톡(기타SNS) 문의</span></p>
           <p class="p2">상담/주문 이메일</p>
-          <p class="p3">test@nate.com</p>
+          <p class="p3">noble@gmail.com</p>
           <p class="p2">CS운영시간</p>
-          <p class="p3">AM 09:00 ~ PM 06:00 (토,일,공휴일 휴무)</p>
+<!--          <p class="p3">AM 09:00 ~ PM 12:00 (토,일,공휴일 휴무)</p>-->
+          <p class="p3">AM 12:00 ~ PM 12:00 (토,일,공휴일 포함)</p>
         </div>
         <div class="third_content">
           <p class="p1">결제정보</p>

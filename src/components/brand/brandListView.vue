@@ -12,7 +12,7 @@
       </div>
       <ul class="brand_list">
         <li v-for="f in filteredBrands" :key="f.id" @click="$router.push(`/brand/${f.enName.replace(/\s+/g, '')}`)">
-          <img :src="f.mimg"/>
+          <img :src="f.listImg"/>
           <div class="text">
             <strong>{{ f.enName }}</strong>
             <p>{{ f.koName }}</p>
@@ -24,8 +24,9 @@
 </template>
 
 <script>
-  import { db } from "@/firebase";
-  import {SET_PRODUCT_BRAND} from "../../constants/Set"
+//  import { db } from "@/firebase";
+  import {ALL_PRODUCTS} from "@/data/products";
+import {SET_PRODUCT_BRAND} from "../../constants/Set"
   export default {
     name: "BrandListView",
     data() {
@@ -77,27 +78,49 @@
         const chosungIndex = Math.floor(code / 588); // 초성 인덱스 계산
         return CHOSUNG_LIST[chosungIndex]; // 초성 리턴
       },
-      async fetchBrandsFromProducts() {
-        this.loading =true
-        try {
-          const snapshot = await db.collection("products").get();
-          const brandKeySet = new Set();
+      fetchBrandsFromProducts() {
+        this.loading = true;
 
-          snapshot.forEach(doc => {
-            const data = doc.data();
-            const brandKey = data.brand; // 예: "1", "2" 같은 값
-            if (brandKey && SET_PRODUCT_BRAND[brandKey]) {
-              brandKeySet.add(brandKey);
+        const brandKeySet = new Set();
+        for (const key in ALL_PRODUCTS) {
+          const product = ALL_PRODUCTS[key];
+
+          if (product.brand) {
+            const cleanBrand = product.brand.replace(/\s+/g, ''); // 공백 제거
+            if (SET_PRODUCT_BRAND[cleanBrand]) {
+              brandKeySet.add(cleanBrand);
             }
-          });
-
-          this.brands = Array.from(brandKeySet).map(key => SET_PRODUCT_BRAND[key]);
-          console.log('brands',this.brands)
-        } catch (err) {
-          console.error("브랜드 목록 가져오기 실패:", err);
+          }
         }
-        this.loading =false
-      }
+
+        this.brands = Array.from(brandKeySet).map(
+            (key) => SET_PRODUCT_BRAND[key]
+        );
+
+        console.log("brands", this.brands);
+        this.loading = false;
+      },
+//      async fetchBrandsFromProducts() {
+//        this.loading =true
+//        try {
+//          const snapshot = await db.collection("products").get();
+//          const brandKeySet = new Set();
+//
+//          snapshot.forEach(doc => {
+//            const data = doc.data();
+//            const brandKey = data.brand; // 예: "1", "2" 같은 값
+//            if (brandKey && SET_PRODUCT_BRAND[brandKey]) {
+//              brandKeySet.add(brandKey);
+//            }
+//          });
+//
+//          this.brands = Array.from(brandKeySet).map(key => SET_PRODUCT_BRAND[key]);
+//          console.log('brands',this.brands)
+//        } catch (err) {
+//          console.error("브랜드 목록 가져오기 실패:", err);
+//        }
+//        this.loading =false
+//      }
       },
     created() {
       this.fetchBrandsFromProducts()

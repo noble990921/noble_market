@@ -75,6 +75,7 @@
 
         img {
           width: 60px;
+          border-radius: 50px;
         }
 
         .text {
@@ -197,87 +198,86 @@
             }
           }
         }
-
         .product_main {
-          margin-top: 22px;
+          width: 100%;
+          border-top: 1px solid #ddd;
           display: flex;
-          flex-wrap: wrap;
-          gap: 12px;
-          row-gap: 20px;
-          @media (max-width: 1024px) {
-            gap: 12px;
-            row-gap: 40px;
-            .product_list {
-              width: calc((100% - 12px) / 2) !important;
-            }
-          }
-          @media (min-width: 1024px) {
-            img{
-              height: 285px;
-            }
-          }
-          .img_box{
-            background: #f2f2f2;
-          }
-          .product_list {
+          justify-content: center;
+
+          .main_container {
+            width: 100%;
+            max-width: 1200px;
+
+            margin-top: 22px;
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            //width: 23%;
-            width: calc((100% - 60px) / 5);
-            cursor: pointer;
+            flex-wrap: wrap;
+            gap: 12px;
+            row-gap: 20px;
             @media (max-width: 1024px) {
-              img{
-                width: 100% !important;
+              gap: 12px;
+              row-gap: 40px;
+              .product_list {
+                width: calc((100% - 12px) / 2) !important;
+              }
+            }
+            @media (min-width: 1024px) {
+              img {
+                height: 285px;
               }
             }
 
-            img {
-              border-radius: 20px;
-              width: 230px;
-              height: 230px;
-              //width: 100%;
-              object-fit: cover;
-            }
-            .brand_name{
-              color: #222;
-              margin-top: 12px;
-              font-size: 12px;
-              font-weight: 700;
-              color: #222;
-              margin-bottom: 2px;
-            }
-            .text{
-              -webkit-line-clamp: 1;
-              -webkit-box-orient: vertical;
-              color: #222;
-              display: -webkit-box;
-              font-size: 13px;
-              line-height: 16px;
-              max-height: 34px;
-              overflow: hidden;
-              text-overflow: ellipsis;
-              white-space: normal;
-            }
-            .name {
-              font-size: 12px;
-              line-height: 18px;
-              text-align: left;
-              white-space: normal;
-              color: #222;
-              overflow: hidden;
-              text-overflow: ellipsis;
-              white-space: normal;
-              -webkit-line-clamp: 1;
-              -webkit-box-orient: vertical;
-              display: -webkit-box;
-            }
+            .product_list {
+              .img_box{
+                background: #f2f2f2;
+              }
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              //width: 23%;
+              width: calc((100% - 60px) / 5);
+              cursor: pointer;
+              @media (max-width: 1024px) {
+                img{
+                  width: 100% !important;
+                }
+              }
+              img {
+                width: 100%;
+                object-fit: cover;
+              }
 
-            .price {
-              font-weight: bold;
-              margin-top: 10px;
-              font-size: 14px;
-              color: rgb(34, 34, 34);
+              .text{
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                color: #222;
+                display: -webkit-box;
+                font-size: 13px;
+                line-height: 16px;
+                max-height: 34px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: normal;
+              }
+              .name {
+                font-size: 12px;
+                line-height: 18px;
+                text-align: left;
+                white-space: normal;
+                color: #222;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: normal;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+              }
+
+              .price {
+                margin-top: 10px;
+                font-size: 14px;
+                color: #000000;
+                font-weight: bold;
+              }
             }
           }
         }

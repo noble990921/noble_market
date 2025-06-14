@@ -2,15 +2,12 @@
   <Section id="section7">
     <div class="s7_container">
       <div class="brand_item">
-        <div class="item_box" v-for="b in BRANDITEM" :key="b.id" @click="$router.push(b.url)">
-          <div v-if="b.img">
+        <div class="item_box" v-for="b in brandList" :key="b.id" @click="$router.push(b.url)">
+          <div class="brand_img">
             <img :src="b.img" v-if="!deskWidth">
             <img :src="b.mimg" v-else>
           </div>
-          <div class="add_item" v-else>
-            <i class="el-icon-arrow-right"></i>
-          </div>
-            <p class="title">{{b.title}}</p>
+            <p class="title">{{b.koName}}</p>
 <!--          <div class="add_item" v-else>-->
 <!--            <div>-->
 <!--              <i class="el-icon-arrow-right"></i>-->
@@ -24,77 +21,7 @@
 </template>
 
 <script>
-  const BRANDITEM = [
-    {
-      id:'1',
-      img: require('../../assets/images/home/section7/brand_logo.png'),
-      mimg: require('../../assets/images/home/section7/mbrand_logo.png'),
-      title:'구찌',
-      url:'/brand/Gucci'
-    },{
-      id:'2',
-      img: require('../../assets/images/home/section7/brand_logo2.png'),
-      mimg: require('../../assets/images/home/section7/mbrand_logo2.png'),
-      title:'디올',
-      url:'/brand/ChristianDior'
-    },{
-      id:'3',
-      img: require('../../assets/images/home/section7/brand_logo3.png'),
-      mimg: require('../../assets/images/home/section7/mbrand_logo3.png'),
-      title:'루이비통',
-      url:'/brand/LouisVuitton'
-    },{
-      id:'4',
-      img: require('../../assets/images/home/section7/brand_logo4.png'),
-      mimg: require('../../assets/images/home/section7/mbrand_logo4.png'),
-      title:'몽클',
-      url:'/brand/Moncler'
-    },{
-      id:'5',
-      img: require('../../assets/images/home/section7/brand_logo5.png'),
-      mimg: require('../../assets/images/home/section7/mbrand_logo5.png'),
-      title:'보테가',
-      url:'/brand/BottegaVeneta'
-    },{
-      id:'6',
-      img: require('../../assets/images/home/section7/brand_logo6.png'),
-      mimg: require('../../assets/images/home/section7/mbrand_logo6.png'),
-      title:'샤넬',
-      url:'/brand/Chanel'
-    },{
-      id:'7',
-      img: require('../../assets/images/home/section7/brand_logo7.png'),
-      mimg: require('../../assets/images/home/section7/mbrand_logo7.png'),
-      title:'에르메스',
-      url:'/brand/Hermes'
-    },
-//    {
-//      id:'8',
-//      img: require('../../assets/images/home/section7/brand_logo8.png'),
-//      mimg: require('../../assets/images/home/section7/mbrand_logo8.png'),
-//      title:'입생로랑',
-//      url:'/brand/ThomBrowne'
-//    },
-    {
-      id:'9',
-      img: require('../../assets/images/home/section7/brand_logo9.png'),
-      mimg: require('../../assets/images/home/section7/mbrand_logo9.png'),
-      title:'톰브',
-      url:'/brand/ThomBrowne'
-    },{
-      id:'10',
-      img: require('../../assets/images/home/section7/brand_logo10.png'),
-      mimg: require('../../assets/images/home/section7/mbrand_logo10.png'),
-      title:'프라다',
-      url:'/brand/Prada'
-    },{
-      id:'11',
-//      img: require('../../assets/images/home/section7/brand_logo10.png'),
-//      mimg: require('../../assets/images/home/section7/mbrand_logo10.png'),
-      title:'더보기',
-      url:'/brand'
-    },
-  ]
+  import { SET_PRODUCT_BRAND } from "../../constants/Set";
   export default {
     name: "section7",
     components: {
@@ -102,20 +29,65 @@
     computed:{
       deskWidth(){
         return this.windowWidth < 1024
-      }
+      },
     },
     data() {
       return {
-        BRANDITEM,
+        SET_PRODUCT_BRAND,
+        brandList: [],
         windowWidth: window.innerWidth
       }
     },
     methods:{
       updateWidth(){
         this.windowWidth = window.innerWidth
-      }
+      },
+      //      localStorage를 활용해 "brandList-2025-6-13" 같은 키로 하루 기준 캐시를 유지합니다.
+//
+//      날짜가 바뀌면 자동으로 새로운 9개를 Fisher-Yates Shuffle을 통해 추출합니다.
+//
+//      koName을 제목으로 출력하고, 이미지는 deskWidth 기준으로 데스크탑/모바일 구분합니다.
+      getTodayKey() {
+        const today = new Date();
+        return `brandList-${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+      },
+      initializeBrandList() {
+        const todayKey = this.getTodayKey();
+        const saved = localStorage.getItem(todayKey);
+
+        if (saved) {
+          this.brandList = JSON.parse(saved);
+        } else {
+          const allBrands = Object.values(SET_PRODUCT_BRAND);
+
+          // "더보기" 같은 고정 id 혹은 koName은 제외
+          const filtered = allBrands.filter(b => b.koName !== "더보기");
+
+          // 랜덤 셔플
+          for (let i = filtered.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
+          }
+
+          const random9 = filtered.slice(0, 9);
+
+          // "더보기" 항목 정의 (10번째 고정)
+          const moreItem = {
+            id: "more",
+            koName: "더보기",
+            img: require('../../assets/images/home/section7/add.png'),
+            mimg: require('../../assets/images/home/section7/add.png'),
+            url: "/brand"
+          };
+
+          const finalList = [...random9, moreItem];
+          this.brandList = finalList;
+          localStorage.setItem(todayKey, JSON.stringify(finalList));
+        }
+      },
     },
     mounted(){
+      this.initializeBrandList();
       window.addEventListener('resize',this.updateWidth)
     }
   }

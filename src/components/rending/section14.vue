@@ -16,14 +16,12 @@
 <!--        </div>-->
         <div class="item_box">
           <div class="item" @click="$router.push('/ACC/detail/623')">
-            <img src="/media/products/acc/103/mainImg.webp">
+            <img src="/media/products/acc/623/mainImg.webp">
             <div class="info_box">
               <p class="title">Damiani</p>
               <p class="text">다미아니 벨에포크 다이아몬드 네클리스 화이트 골드</p>
             </div>
           </div>
-        </div>
-        <div class="item_box">
           <div class="item" @click="$router.push('/ACC/detail/638')">
             <img src="/media/products/acc/638/mainImg.webp">
             <div class="info_box">
@@ -31,8 +29,6 @@
               <p class="text">까르띠에 러브 브레이슬릿 스몰 옐로우 골드</p>
             </div>
           </div>
-        </div>
-        <div class="item_box">
           <div class="item" @click="$router.push('/ACC/detail/638')">
             <img src="/media/products/acc/638/mainImg.webp">
             <div class="info_box">
@@ -40,8 +36,6 @@
               <p class="text">불가리 세이브 더 칠드런 네클리스 스털링 실버</p>
             </div>
           </div>
-        </div>
-        <div class="item_box">
           <div class="item" @click="$router.push('/ACC/detail/695')">
             <img src="/media/products/acc/695/mainImg.webp">
             <div class="info_box">
@@ -49,8 +43,6 @@
               <p class="text">까르띠에 러브 웨딩 밴드 옐로우 골드</p>
             </div>
           </div>
-        </div>
-        <div class="item_box">
           <div class="item" @click="$router.push('/ACC/detail/657')">
             <img src="/media/products/acc/657/mainImg.webp">
             <div class="info_box">

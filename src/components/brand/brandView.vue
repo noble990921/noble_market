@@ -47,7 +47,8 @@
                 <div class="img_box">
                   <img :src="i.mainImg[0]">
                 </div>
-                <p class="name">{{ i.title }}</p>
+                <p class="name">{{ i.enName }}</p>
+                <p class="text">{{ i.name }}</p>
                 <p class="price">가격문의</p>
               </div>
             </div>
@@ -70,7 +71,8 @@
 
 <script>
   import {SET_CATEGORY_MAP, SET_PRODUCT_BRAND} from "@/constants/Set";
-  import {db} from "@/firebase";
+//  import {db} from "@/firebase";
+  import { ALL_PRODUCTS } from "@/data/products";
 
   const reverseCategoryMap = {
     "1": {label: "아우터", img: "outer"},
@@ -135,29 +137,57 @@
       };
     },
     methods: {
-      async getData() {
+//      async getData() {
+//        this.loading = true;
+//        const querySnapshot = await db.collection("products").orderBy("createDate", "desc").get();
+//        this.products = querySnapshot.docs.map(doc => {
+//          const data = doc.data();
+//          return {
+//            id: doc.id,
+//            ...data,
+//            createDate: data.createDate ? data.createDate.toDate() : null,
+//          };
+//        });
+//
+//        // 브랜드별 필터
+//        this.filteredProducts = this.products.filter(product =>
+//            product.brand == this.brandInfo.id
+//        );
+//        console.log('123123', this.products)
+//
+//        // 카테고리 뽑기
+//        const categorySet = new Set(
+//            this.filteredProducts.map(product => product.category)
+//        );
+//        this.categories = ["전체", ...Array.from(categorySet)];
+//
+//        this.loading = false;
+//      },
+      getData() {
         this.loading = true;
-        const querySnapshot = await db.collection("products").orderBy("createDate", "desc").get();
-        this.products = querySnapshot.docs.map(doc => {
-          const data = doc.data();
-          return {
-            id: doc.id,
-            ...data,
-            createDate: data.createDate ? data.createDate.toDate() : null,
-          };
-        });
 
-        // 브랜드별 필터
+        // 1. 전체 상품 가져오기
+        const all = Object.entries(ALL_PRODUCTS).map(([id, data]) => ({
+          id,
+          ...data,
+          createDate: data.createDate ? new Date(data.createDate) : null,
+        }));
+
+        this.products = all;
+
+        // 2. 브랜드 필터링 (공백 제거 기준 일치)
         this.filteredProducts = this.products.filter(product =>
-            product.brand == this.brandInfo.id
+            product.brand.replace(/\s+/g, '') === this.brandInfo.koName.replace(/\s+/g, '')
         );
-        console.log('123123', this.products)
 
-        // 카테고리 뽑기
+        // 3. 카테고리 추출
         const categorySet = new Set(
             this.filteredProducts.map(product => product.category)
         );
         this.categories = ["전체", ...Array.from(categorySet)];
+
+        // 4. 페이징 아이템 업데이트
+        this.updatePagedItems();
 
         this.loading = false;
       },
