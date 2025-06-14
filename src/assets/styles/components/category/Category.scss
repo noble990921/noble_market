@@ -306,6 +306,7 @@
         }
         @media (min-width: 1024px) {
           .thumbs_wrapper{
+            padding-top: 20px;
             justify-content: center;
           }
         }
@@ -411,7 +412,7 @@
           .detail_notice_input{
             position: relative;
             padding: 0px 14px;
-            background-color:#efefef;
+            background-color:#f2f2f2;
             border-radius: 6px;
             .input_area{
               position: relative;
@@ -430,7 +431,7 @@
             .input_content{
               display: block;
               ul{
-                padding-top: 16px;
+                padding-top: 8px;
                 //border-bottom: 1px  solid #e4e4e4;
                 border-top: 1px  solid #e4e4e4;
                 li:before {

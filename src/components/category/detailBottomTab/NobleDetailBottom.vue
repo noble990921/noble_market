@@ -27,57 +27,57 @@
         <p class="title" style="margin: 120px 0 30px 0">안내 사항</p>
         <img src="../../../../public/media/productDetail/product_notice.png">
       </div>
-      <div class="detail_review">
-        <div class="review_top">
-          <div>
-            <p class="title">구매 후기 ({{ productReviews.length }})
-              <span class="stars">
-    <i
-        class="el-icon-star-on"
-        v-for="n in 5"
-        :key="n"
-        :style="{ color: n <= filledStars ? '#ff6600' : '#ccc' }"
-    ></i>
-                <!--    <span class="avg">({{ averageRating }})</span>-->
-  </span>
-            </p>
-            <p @click="showPhotoOnly = !showPhotoOnly" style="cursor: pointer;">
-              <i class="el-icon-picture-outline"></i> 포토 구매평만 보기
-            </p>
-          </div>
-          <p @click="reviewWrite" class="review_make">리뷰작성</p>
-        </div>
-        <div class="review_box" v-if="productReviews.length">
-          <div class="review_content" v-for="review in productReviews" :key="review.id" >
-            <!-- 별점 -->
-            <div class="star">
-              <i
-                  class="el-icon-star-on"
-                  v-for="n in 5"
-                  :key="n"
-                  :style="{ color: n <= review.rating ? '#000' : '#ccc' }"
-              ></i>
+<!--      <div class="detail_review">-->
+<!--        <div class="review_top">-->
+<!--          <div>-->
+<!--            <p class="title">구매 후기 ({{ productReviews.length }})-->
+<!--              <span class="stars">-->
+<!--    <i-->
+<!--        class="el-icon-star-on"-->
+<!--        v-for="n in 5"-->
+<!--        :key="n"-->
+<!--        :style="{ color: n <= filledStars ? '#ff6600' : '#ccc' }"-->
+<!--    ></i>-->
+<!--                &lt;!&ndash;    <span class="avg">({{ averageRating }})</span>&ndash;&gt;-->
+<!--  </span>-->
+<!--            </p>-->
+<!--            <p @click="showPhotoOnly = !showPhotoOnly" style="cursor: pointer;">-->
+<!--              <i class="el-icon-picture-outline"></i> 포토 구매평만 보기-->
+<!--            </p>-->
+<!--          </div>-->
+<!--          <p @click="reviewWrite" class="review_make">리뷰작성</p>-->
+<!--        </div>-->
+<!--        <div class="review_box" v-if="productReviews.length">-->
+<!--          <div class="review_content" v-for="review in productReviews" :key="review.id" >-->
+<!--            &lt;!&ndash; 별점 &ndash;&gt;-->
+<!--            <div class="star">-->
+<!--              <i-->
+<!--                  class="el-icon-star-on"-->
+<!--                  v-for="n in 5"-->
+<!--                  :key="n"-->
+<!--                  :style="{ color: n <= review.rating ? '#000' : '#ccc' }"-->
+<!--              ></i>-->
 
-              <p class="meta">{{ review.user }}</p>
-            </div>
+<!--              <p class="meta">{{ review.user }}</p>-->
+<!--            </div>-->
 
-            <!-- 내용 -->
-            <p class="content">{{ review.content }}</p>
+<!--            &lt;!&ndash; 내용 &ndash;&gt;-->
+<!--            <p class="content">{{ review.content }}</p>-->
 
-            <!-- 이미지 썸네일 -->
-            <div v-if="review.images.length" class="thumbs">
-              <img
-                  v-for="(img, i) in review.images"
-                  :key="i"
-                  :src="img"
-                  class="thumb"
-                  @click="openImageModal(review.images, i)"
-              />
-            </div>
-          </div>
-        </div>
-        <p v-else style="margin-top: 15px">이 상품의 첫번째 리뷰를 작성해보세요.</p>
-      </div>
+<!--            &lt;!&ndash; 이미지 썸네일 &ndash;&gt;-->
+<!--            <div v-if="review.images.length" class="thumbs">-->
+<!--              <img-->
+<!--                  v-for="(img, i) in review.images"-->
+<!--                  :key="i"-->
+<!--                  :src="img"-->
+<!--                  class="thumb"-->
+<!--                  @click="openImageModal(review.images, i)"-->
+<!--              />-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <p v-else style="margin-top: 15px">이 상품의 첫번째 리뷰를 작성해보세요.</p>-->
+<!--      </div>-->
 
       <div class="detail_related">
         <div class="related_product" v-if="relatedByCategory.length>0">

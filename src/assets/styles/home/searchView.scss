@@ -184,6 +184,13 @@
           flex-wrap: wrap;
           gap: 12px;
           row-gap: 20px;
+          justify-content: center;
+          .main_text{
+            text-align: center;
+            .p1{
+              color: rgba(34, 34, 34, .5);
+            }
+          }
           @media (max-width: 1024px) {
             gap: 12px;
             row-gap: 40px;

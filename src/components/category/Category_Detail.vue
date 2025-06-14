@@ -4,17 +4,17 @@
       <div class="detail_top">
         <div class="detail_img">
           <div class="swiper_wrapper">
-            <swiper :options="swiperOption">
+            <swiper ref="productSwiper" :options="swiperOption">
               <swiper-slide v-for="(img, i) in product.mainImg" :key="i">
                 <div class="img_box">
                   <img :src="img"/>
                 </div>
               </swiper-slide>
-<!--              <div v-if="product.mainImg && product.mainImg.length > 1" class="swiper-pagination" slot="pagination"></div>-->
+              <!--              <div v-if="product.mainImg && product.mainImg.length > 1" class="swiper-pagination" slot="pagination"></div>-->
               <div class="swiper-pagination" slot="pagination"></div>
             </swiper>
-<!--            <div v-if="product.mainImg && product.mainImg.length > 1" class="swiper-button-next"></div>-->
-<!--            <div v-if="product.mainImg && product.mainImg.length > 1" class="swiper-button-prev"></div>-->
+            <!--            <div v-if="product.mainImg && product.mainImg.length > 1" class="swiper-button-next"></div>-->
+            <!--            <div v-if="product.mainImg && product.mainImg.length > 1" class="swiper-button-prev"></div>-->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
           </div>
@@ -25,16 +25,16 @@
                 :class="['thumb', { active: variant.id == activeVariantId }]"
                 @click="goToColorVariant(variant)"
             >
-              <img :src="variant.mainImg[0]" />
+              <img :src="variant.mainImg[0]"/>
             </div>
           </div>
         </div>
         <div class="detail_content">
           <div class="content_header">
             <p class="brand">{{product.enBrand}}</p>
-            <p class="enName">{{product.enName}}</p>
-            <p class="name">{{product.name}}</p>
-            <p class="price">₩가격 문의
+            <p class="enName">{{product.name}}</p>
+            <p class="name">{{product.enName}}</p>
+            <p class="price">₩ 가격 문의
               <span @click="sizeDialog = true" v-if="product.sizeData">
               <img src="../../..//public/media/productDetail/ruller.svg">SIZE GUIDE</span>
             </p>
@@ -207,8 +207,8 @@
         ],
         inputContent: false,
         colorVariants: [],
-        activeVariantId:null,
-        loginCheck:false,
+        activeVariantId: null,
+        loginCheck: false,
       };
     },
     computed: {
@@ -224,30 +224,30 @@
       }
     },
     methods: {
-      productDetailAlert(){
-        if(this.loginCheck){
+      productDetailAlert() {
+        if (this.loginCheck) {
           this.$alert("로그인 후 이용 가능한 기능입니다.");
         }
       },
-      isLoginCheck(){
-        if(!this.isLogin && !this.user){
-          this.loginCheck =  false;
-        }else {
-          this.loginCheck =  true;
+      isLoginCheck() {
+        if (!this.isLogin && !this.user) {
+          this.loginCheck = false;
+        } else {
+          this.loginCheck = true;
         }
       },
       goToColorVariant(variant) {
         const category = this.$route.params.category.toLowerCase();
-        this.$router.push({
+        this.$router.replace({
           path: `/${category}/detail/${variant.id}`
         });
       },
       clickInput() {
-        if(!this.loginCheck){
+        if (!this.loginCheck) {
           this.$alert("로그인 후 이용 가능한 기능입니다.");
-        }else if (this.inputContent == false) {
+        } else if (this.inputContent == false) {
           return this.inputContent = true
-        } else{
+        } else {
           return this.inputContent = false
         }
       },
@@ -281,18 +281,26 @@
           if (matchedProduct) {
             this.product = matchedProduct;
             const sameGroup = matchedProduct.modelGroup
-                ? Object.values(products).filter(
-                    p => p.modelGroup === matchedProduct.modelGroup
-                )
+                ? Object.values(products).filter(p => p.modelGroup === matchedProduct.modelGroup)
                 : [];
 
-            // 현재 상품이 목록 중 몇 번째인지 찾기 위해 변수 추가
             this.colorVariants = sameGroup;
             this.activeVariantId = matchedProduct.id;
           }
 
           const allModule = await import('@/data/products/index.js');
           this.allProducts = Object.values(allModule.ALL_PRODUCTS);
+
+          // ✅ Swiper 초기화는 여기에서!
+          this.$nextTick(() => {
+            const swiperInstance = this.$refs.productSwiper?.$swiper || this.$refs.productSwiper?.swiper;
+            if (swiperInstance) {
+              swiperInstance.slideTo(0, 0);
+            } else {
+              console.warn('swiper 인스턴스를 찾을 수 없습니다.');
+            }
+          });
+
         } catch (error) {
           console.error('상품 데이터를 불러오는 중 오류 발생:', error);
         }
@@ -404,7 +412,7 @@
     created() {
       this.getData();
       this.isLoginCheck()
-      console.log('123123',this.loginCheck)
+      console.log('123123', this.loginCheck)
     },
   };
 </script>

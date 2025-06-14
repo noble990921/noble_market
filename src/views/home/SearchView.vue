@@ -36,6 +36,10 @@
 <!--            </el-select>-->
           </div>
           <div class="product_main">
+            <div class="main_text" v-if="pagedItems.length < 1">
+             <p>검색하신 결과가 없습니다.</p> <br/>
+             <p class="p1">상품 등록 요청은 1:1 문의하기로 요청해주세요.</p>
+            </div>
             <div @click="goToProductDetail(i)"
                  class="product_list"
                  v-for="i in pagedItems"
