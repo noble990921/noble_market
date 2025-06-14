@@ -8,19 +8,19 @@ export const SET_PRODUCT_BRAND = {
     listImg: require('@/assets/images/home/section7/brandList_logo.png'),
     url:'/brand/Gucci'
   },
-  "크리스챤 디올": {
+  "디올": {
     id: 2,
     enName: "Christian Dior",
-    koName: "크리스챤 디올",
+    koName: "디올",
     mimg: require('@/assets/images/home/section7/mbrand_logo2.png'),
     img: require('@/assets/images/home/section7/brand_logo2.png'),
     listImg: require('@/assets/images/home/section7/brandList_logo2.png'),
     url:'/brand/ChristianDior'
   },
-  "루이 비통": {
+  "루이비통": {
     id: 3,
     enName: "Louis Vuitton",
-    koName: "루이 비통",
+    koName: "루이비통",
     mimg: require('@/assets/images/home/section7/mbrand_logo3.png'),
     img: require('@/assets/images/home/section7/brand_logo3.png'),
     listImg: require('@/assets/images/home/section7/brandList_logo3.png'),
@@ -163,7 +163,7 @@ export const SET_PRODUCT_BRAND = {
   },
   "반 클리프": {
     id: 19,
-    enName: "Van Cleef",
+    enName: "Van Cleef & Arpels",
     koName: "반 클리프",
     mimg: require('@/assets/images/home/section7/mbrand_logo19.png'),
     img: require('@/assets/images/home/section7/brand_logo19.png'),
@@ -270,9 +270,9 @@ export const SET_PRODUCT_BRAND = {
     url:'/brand/Fendi'
   },
   "생로랑": {
-    id: 30,
-    enName: "Fendi",
-    koName: "Saint Laurent",
+    id: 31,
+    enName: "Saint Laurent",
+    koName: "생로랑",
     mimg: require('@/assets/images/home/section7/mbrand_logo31.png'),
     img: require('@/assets/images/home/section7/brand_logo31.png'),
     listImg: require('@/assets/images/home/section7/brandList_logo31.png'),

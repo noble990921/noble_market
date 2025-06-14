@@ -236,7 +236,7 @@
       },
       productDetailAlert() {
         if (this.loginCheck) {
-          this.$alert("로그인 후 이용 가능한 기능입니다.");
+          this.$alert("회원 전용 서비스입니다");
         }
       },
       isLoginCheck() {
@@ -254,7 +254,7 @@
       },
       clickInput() {
         if (!this.loginCheck) {
-          this.$alert("로그인 후 이용 가능한 기능입니다.");
+          this.$alert("회원 전용 서비스입니다");
         } else if (this.inputContent == false) {
           return this.inputContent = true
         } else {

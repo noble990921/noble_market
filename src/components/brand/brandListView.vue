@@ -88,7 +88,8 @@ import {SET_PRODUCT_BRAND} from "../../constants/Set"
           const product = ALL_PRODUCTS[key];
 
           if (product.brand) {
-            const cleanBrand = product.brand.replace(/\s+/g, ''); // 공백 제거
+//            const cleanBrand = product.brand.replace(/\s+/g, ''); // 공백 제거
+            const cleanBrand = product.brand
             if (SET_PRODUCT_BRAND[cleanBrand]) {
               brandKeySet.add(cleanBrand);
             }
@@ -98,7 +99,6 @@ import {SET_PRODUCT_BRAND} from "../../constants/Set"
         this.brands = Array.from(brandKeySet).map(
             (key) => SET_PRODUCT_BRAND[key]
         );
-
         console.log("brands", this.brands);
         this.loading = false;
       },

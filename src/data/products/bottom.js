@@ -521,9 +521,10 @@ export const PRODUCTS = {
       }
     ]
   },
+  modelNumber: '-',
   "184": {
     id: 184,
-//    modelNumber: 'FGC402V-06146-415',
+    modelNumber: '-',
     name: '크롬하츠 홀스슈 로고 백 포켓 스웨트팬츠 블랙',
     enName: 'Chrome Hearts Horseshoe Logo Back Pocket Sweatpants Black',
     brand: '크롬하츠',
@@ -931,7 +932,7 @@ export const PRODUCTS = {
   },
   "191": {
     id: 191,
-//    modelNumber: 'MJQ008H-00535-068',
+    modelNumber: '-',
     name: '크롬하츠 메쉬 바시티 팬츠 블랙',
     enName: 'Chrome Hearts Mesh Varsity Pants Black',
     brand: '톰브라운',
@@ -1099,7 +1100,7 @@ export const PRODUCTS = {
   },
   "194": {
     id: 194,
-//    modelNumber: '8013879',
+    modelNumber: '-',
     name: '크롬하츠 메쉬 바시티 쇼츠 블랙',
     enName: 'Chrome Hearts Mesh Varsity Shorts Black',
     brand: '버버리',
@@ -1561,7 +1562,7 @@ export const PRODUCTS = {
   },
   "202": {
     id: 202,
-//    modelNumber: '724778THW254245',
+    modelNumber: '-',
     name: '크롬하츠 세메터리 프린트 홀스슈 스웨트쇼츠 블랙',
     enName: 'Chrome Hearts Cemetery Print Horseshoe Sweatshorts Black',
     brand: '크롬하츠',
@@ -1972,7 +1973,7 @@ export const PRODUCTS = {
   },
   "209": {
     id: 209,
-//    modelNumber: 'MTT029A-07538-100',
+    modelNumber: '-',
     name: '크롬하츠 스크롤 로고 스펠아웃 스웨트팬츠 블랙',
     enName: 'Chrome Hearts Scroll Logo Spellout Sweatpants Black',
     brand: '크롬하츠',
