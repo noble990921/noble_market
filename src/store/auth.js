@@ -5,7 +5,7 @@ export default {
   state: {
     user: JSON.parse(localStorage.getItem('user')) || null,
     isLogin: localStorage.getItem('isLogin') === 'true',
-    partnerInfo: null,
+    partnerInfo: JSON.parse(localStorage.getItem('partnerInfo')) || null, // 추가
   },
   mutations: {
     SET_USER(state, user) {
@@ -17,6 +17,7 @@ export default {
       } else {
         localStorage.removeItem('user');
         localStorage.setItem('isLogin', 'false');
+        localStorage.removeItem('partnerInfo');
       }
     },
     LOGOUT(state) {
@@ -27,6 +28,7 @@ export default {
     },
     SET_PARTNER_INFO(state, info) {
       state.partnerInfo = info;
+      localStorage.setItem("partnerInfo", JSON.stringify(info));
     },
   },
   actions: {

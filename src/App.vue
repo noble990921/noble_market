@@ -4,8 +4,8 @@
       <router-view></router-view>
     </component>
     <img
-        v-if="isLogin && partnerInfo && partnerInfo.kakaoURL"
-        @click="goToUrl(partnerInfo.kakaoURL)"
+        v-if="isLogin && partnerInfo && partnerInfo.kakaoUrl"
+        @click="goToUrl(partnerInfo.kakaoUrl)"
         class="kakao_icon"
         src="../public/media/kakao_icon.png"
     />
@@ -34,6 +34,6 @@
       goToUrl(url) {
         if (url) window.open(url, "_blank");
       }
-    }
+    },
   }
 </script>
