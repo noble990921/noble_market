@@ -1300,7 +1300,7 @@ export const PRODUCTS = {
     modelNumber: 'JD201',
     name: '옴므 플리세 이세이 미야케 베이직 자켓 네이비',
     enName: 'Homme Plisse Issey Miyake Basics Jacket Navy',
-    brand: '옴므',
+    brand: '옴므 플리세',
     enBrand: 'Homme',
     category: "1",
     subCategory: {id: 8, title: "슈트/블레이저", img: "suit"},

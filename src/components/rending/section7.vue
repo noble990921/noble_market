@@ -76,7 +76,7 @@
             id: "more",
             koName: "더보기",
             img: require('../../assets/images/home/section7/add.png'),
-            mimg: require('../../assets/images/home/section7/add.png'),
+            mimg: require('../../assets/images/home/section7/madd.png'),
             url: "/brand"
           };
 

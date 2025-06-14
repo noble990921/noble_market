@@ -2,13 +2,16 @@
   <div class="product_brand" :id="`${brand}_View`">
     <div class="pb_container">
       <div id="brand_section1">
-        <img v-if="!deskWidth" :src="require(`../../../public/media/brand/${brand}.png`)">
-        <img v-else :src="require(`../../../public/media/brand/m${brand}.png`)">
+        <!--        <img v-if="!deskWidth" :src="require(`../../../public/media/brand/${brand}.png`)">-->
+        <!--        <img v-else :src="require(`../../../public/media/brand/m${brand}.png`)">-->
       </div>
       <div id="brand_section2">
         <div class="product_item_container" v-loading="loading">
           <div class="product_item_container_top">
             <div class="product_header">
+              <div class="img_box">
+                <img :src="brandInfo.listImg">
+              </div>
               <div class="text">
                 <p class="etitle">{{ brandInfo.enName }}</p>
                 <p class="ktitle">{{ brandInfo.koName }}</p>
@@ -30,8 +33,9 @@
                     :class="{ active: selectedCategory === c }"
                     @click="selectedCategory = c"
                 >
-                  <!--                <img :src="require(`@/assets/category/${reverseCategoryMap[c].img}.png`)">-->
-                  <p>{{ reverseCategoryMap[c] ? reverseCategoryMap[c].label : '전체' }}</p>
+                  <img :src="`/media/category/${reverseCategoryMap[c]?.img || 'all'}.png`" />
+                                    <p>{{ reverseCategoryMap[c] ? reverseCategoryMap[c].label : '전체' }}</p>
+<!--                                    <p>{{reverseCategoryMap[c]}}</p>-->
                 </li>
               </ul>
             </div>
@@ -47,9 +51,10 @@
                 <div class="img_box">
                   <img :src="i.mainImg[0]">
                 </div>
-                <p class="name">{{ i.enName }}</p>
-                <p class="text">{{ i.name }}</p>
-                <p class="price">가격문의</p>
+                <p class="brand_name">{{ i.enBrand }}</p>
+                <p class="name">{{ i.name }}</p>
+                <p class="text">{{ i.modelNumber }}</p>
+<!--                <p class="price">가격문의</p>-->
               </div>
             </div>
           </div>
@@ -71,18 +76,18 @@
 
 <script>
   import {SET_CATEGORY_MAP, SET_PRODUCT_BRAND} from "@/constants/Set";
-//  import {db} from "@/firebase";
-  import { ALL_PRODUCTS } from "@/data/products";
+  //  import {db} from "@/firebase";
+  import {ALL_PRODUCTS} from "@/data/products";
 
   const reverseCategoryMap = {
-    "1": {label: "아우터", img: "outer"},
-    "2": {label: "상의", img: "top"},
-    "3": {label: "하의", img: "bottom"},
-    "4": {label: "신발", img: "shoes"},
-    "5": {label: "지갑", img: "wallet"},
-    "6": {label: "가방", img: "bag"},
+    "1": {label: "아우터", img: "padding"},
+    "2": {label: "상의", img: "sweatshirt"},
+    "3": {label: "하의", img: "slacks"},
+    "4": {label: "신발", img: "sneakers"},
+    "5": {label: "지갑", img: "mediumwallet"},
+    "6": {label: "가방", img: "minibag"},
     "7": {label: "시계", img: "watch"},
-    "8": {label: "악세사리", img: "accessory"},
+    "8": {label: "악세사리", img: "bracelet"},
   };
   export default {
     name: "brandView",

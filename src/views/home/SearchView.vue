@@ -43,10 +43,10 @@
               <div class="img_box">
                 <img :src="i.mainImg[0]">
               </div>
-              <p class="brand_name">{{ i.brand }}</p>
-              <p class="name">{{ i.enName }}</p>
-              <p class="text">{{ i.name }}</p>
-              <p class="price">가격문의</p>
+              <p class="brand_name">{{ i.enBrand }}</p>
+              <p class="name">{{ i.name }}</p>
+              <p class="text">{{ i.modelNumber }}</p>
+<!--              <p class="price">가격문의</p>-->
             </div>
           </div>
           <el-pagination

@@ -12,7 +12,7 @@
             <img :src="i.img">
             <div class="cart_info">
               <p style="font-weight: bold;">{{ i.title }}</p>
-              <p>가격문의</p>
+<!--              <p>가격문의</p>-->
               <p>배송비: {{i.delivery | formatNumber}}원</p>
             </div>
             <i @click="RemoveItem(i)" class="el-icon-close"></i>

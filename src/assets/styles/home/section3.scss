@@ -70,15 +70,15 @@
           }
           .text{
             -webkit-line-clamp: 1;
-            -webkit-box-orient: vertical;
-            color: #222;
-            display: -webkit-box;
-            font-size: 13px;
-            line-height: 16px;
-            max-height: 34px;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: normal;
+              -webkit-box-orient: vertical;
+              color: #a7a7a7;
+              display: -webkit-box;
+              font-size: 11px;
+              line-height: 16px;
+              max-height: 34px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: normal;
           }
           .price{
             margin-top: 10px;

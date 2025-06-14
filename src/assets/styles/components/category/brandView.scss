@@ -39,7 +39,7 @@
         padding: 30px 0;
         display: flex;
         justify-content: space-between;
-        border-bottom: 1px solid #1a1a1a;
+        border-bottom: 1px solid rgb(233, 236, 239);
 
         li {
           border: 1px solid #7d7d7d;
@@ -69,18 +69,36 @@
       li {
         display: flex;
         align-items: center;
-        border-bottom: 1px solid #1a1a1a;
-        padding: 12px 0;
+        border-bottom: 1px solid rgb(233, 236, 239);
+        padding: 16px 32px;
         cursor: pointer;
+        .img_box{
+          height: 50px;
+          background: #000;
+          border-radius: 50px;
+        }
 
         img {
-          width: 60px;
+          width: 50px;
           border-radius: 50px;
         }
 
         .text {
           margin-left: 20px;
-
+          .enName{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 700;
+            color: rgb(33, 39, 42);
+            height: 24px;
+          }
+          .koName{
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 400;
+            color: rgb(76, 84, 91);
+            height: 22px;
+          }
         }
       }
     }
@@ -136,11 +154,24 @@
 
           .product_header {
             display: flex;
-            justify-content: space-between;
             padding: 20px 0;
-            border-bottom: 1px solid #000;
+            border-bottom: 1px solid rgb(233, 236, 239);
+
+            .img_box{
+              width: 60px;
+              height: 60px;
+              background: #000;
+              border-radius: 50px;
+              img{
+                width: 60px;
+              }
+            }
 
             .text {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              margin-left: 20px;
               .etitle {
                 font-size: 24px;
                 font-weight: bold;
@@ -156,7 +187,7 @@
 
           .category_box {
             ul {
-              padding-top: 30px;
+              padding-top: 40px;
               display: flex;
               justify-content: center;
               gap: 24px;
@@ -167,17 +198,18 @@
                 cursor: pointer;
 
                 img {
-                  width: 80px;
-                  height: 80px;
+                  width: 60px;
+                  height: 60px;
                 }
                 p {
+                  margin-top: 5px;
                   font-size: 13px;
                   color: #222;
                 }
 
                 &.active p {
                   font-weight: bold;
-                  border-bottom: 5px solid #000;
+                  //border-bottom: 5px solid #000;
                 }
               }
             }
@@ -200,7 +232,7 @@
         }
         .product_main {
           width: 100%;
-          border-top: 1px solid #ddd;
+          //border-top: 1px solid #ddd;
           display: flex;
           justify-content: center;
 
@@ -208,7 +240,7 @@
             width: 100%;
             max-width: 1200px;
 
-            margin-top: 22px;
+            margin-top: 40px;
             display: flex;
             flex-wrap: wrap;
             gap: 12px;
@@ -228,6 +260,7 @@
 
             .product_list {
               .img_box{
+                border-radius:12px;
                 background: #f2f2f2;
               }
               display: flex;
@@ -242,21 +275,29 @@
                 }
               }
               img {
-                width: 100%;
+                width: 230px;
+                height: 230px;
                 object-fit: cover;
               }
-
+              .brand_name{
+                color: #222;
+                margin-top: 12px;
+                font-size: 12px;
+                font-weight: 800;
+                color: #222;
+                margin-bottom: 2px;
+              }
               .text{
                 -webkit-line-clamp: 1;
-                -webkit-box-orient: vertical;
-                color: #222;
-                display: -webkit-box;
-                font-size: 13px;
-                line-height: 16px;
-                max-height: 34px;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: normal;
+              -webkit-box-orient: vertical;
+              color: #a7a7a7;
+              display: -webkit-box;
+              font-size: 11px;
+              line-height: 16px;
+              max-height: 34px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: normal;
               }
               .name {
                 font-size: 12px;

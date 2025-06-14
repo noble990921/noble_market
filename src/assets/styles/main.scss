@@ -84,3 +84,9 @@ html, body, #app {
     }
   }
 }
+
+.el-message-box__btns .el-button--primary {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fff !important;
+}

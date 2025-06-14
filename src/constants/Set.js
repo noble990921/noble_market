@@ -233,10 +233,10 @@ export const SET_PRODUCT_BRAND = {
     listImg: require('@/assets/images/home/section7/brandList_logo26.png'),
     url:'/brand/AudemarsPiguet'
   },
-  "옴므": {
+  "옴므 플리세": {
     id: 27,
     enName: "Homme Plisse",
-    koName: "옴므",
+    koName: "옴므 플리세",
     mimg: require('@/assets/images/home/section7/mbrand_logo27.png'),
     img: require('@/assets/images/home/section7/brand_logo27.png'),
     listImg: require('@/assets/images/home/section7/brandList_logo27.png'),

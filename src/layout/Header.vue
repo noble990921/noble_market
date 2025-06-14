@@ -104,16 +104,16 @@
           </div>
           <div class="right_icon">
             <i class="el-icon-search" @click="searchDrawer = true"></i>
-            <el-dropdown trigger="hover">
-              <span class="el-dropdown-link">
-                <i class="el-icon-user"></i>
-              </span>
-              <el-dropdown-menu slot="dropdown">
-                <el-dropdown-item><a style="color: #000" href="/order_list">주문목록</a></el-dropdown-item>
-                <el-dropdown-item><a style="color: #000" href="/order_list">취소/반품</a></el-dropdown-item>
-                <el-dropdown-item><a style="color: #000" href="/order_list">찜 리스트</a></el-dropdown-item>
-              </el-dropdown-menu>
-            </el-dropdown>
+<!--            <el-dropdown trigger="hover">-->
+<!--              <span class="el-dropdown-link">-->
+<!--                <i class="el-icon-user"></i>-->
+<!--              </span>-->
+<!--              <el-dropdown-menu slot="dropdown">-->
+<!--                <el-dropdown-item><a style="color: #000" href="/order_list">주문목록</a></el-dropdown-item>-->
+<!--                <el-dropdown-item><a style="color: #000" href="/order_list">취소/반품</a></el-dropdown-item>-->
+<!--                <el-dropdown-item><a style="color: #000" href="/order_list">찜 리스트</a></el-dropdown-item>-->
+<!--              </el-dropdown-menu>-->
+<!--            </el-dropdown>-->
 
             <i class="el-icon-goods" @click="$router.push('/cart_view')"></i>
           </div>
@@ -146,7 +146,7 @@
     {id: "0", title: "관리자페이지", url: "/admin/dashboard", type: "3"},
     {id: "1", title: "로그인", url: "/login", type: "1"},
     {id: "2", title: "회원가입", url: "/signup", type: "1"},
-    {id: "3", title: "주문목록", url: "/order_list", type: "2"},
+//    {id: "3", title: "주문목록", url: "/order_list", type: "2"},
     {id: "4", title: "장바구니", url: "/cart_view", type: "2"},
     {id: "5", title: "고객센터", type: "2"},
     {id: "6", title: "로그아웃", func: "logout", type: "0"},
