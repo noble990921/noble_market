@@ -33,8 +33,8 @@
                     :class="{ active: selectedCategory === c }"
                     @click="selectedCategory = c"
                 >
-                  <img :src="`/media/category/${reverseCategoryMap[c]?.img || 'all'}.png`" />
-                                    <p>{{ reverseCategoryMap[c] ? reverseCategoryMap[c].label : '전체' }}</p>
+                  <img :src="`/media/category/${reverseCategoryMap[c] && reverseCategoryMap[c].img ? reverseCategoryMap[c].img : 'all'}.png`" />
+                  <p>{{ reverseCategoryMap[c] ? reverseCategoryMap[c].label : '전체' }}</p>
 <!--                                    <p>{{reverseCategoryMap[c]}}</p>-->
                 </li>
               </ul>
@@ -114,7 +114,7 @@
       },
       brandInfo() {
         return Object.values(SET_PRODUCT_BRAND).find(b =>
-            b.enName.replace(/\s+/g, '') === this.brand
+            b.enName.replace(/\s+/g, '') === this.brand.replace(/\s+/g, '')
         ) || {}; // 못 찾으면 빈 객체
       },
 
@@ -169,7 +169,7 @@
 //        this.loading = false;
 //      },
       getData() {
-        this.loading = true;
+//        this.loading = true;
 
         // 1. 전체 상품 가져오기
         const all = Object.entries(ALL_PRODUCTS).map(([id, data]) => ({
@@ -180,10 +180,12 @@
 
         this.products = all;
 
+
         // 2. 브랜드 필터링 (공백 제거 기준 일치)
         this.filteredProducts = this.products.filter(product =>
-            product.brand.replace(/\s+/g, '') === this.brandInfo.koName.replace(/\s+/g, '')
+            product.brand === this.brandInfo.koName
         );
+        console.log('1111',this.filteredProducts)
 
         // 3. 카테고리 추출
         const categorySet = new Set(

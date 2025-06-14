@@ -10,7 +10,7 @@ export const SET_PRODUCT_BRAND = {
   },
   "디올": {
     id: 2,
-    enName: "Christian Dior",
+    enName: "Dior",
     koName: "디올",
     mimg: require('@/assets/images/home/section7/mbrand_logo2.png'),
     img: require('@/assets/images/home/section7/brand_logo2.png'),
