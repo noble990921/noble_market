@@ -148,7 +148,7 @@
     {id: "2", title: "회원가입", url: "/signup", type: "1"},
 //    {id: "3", title: "주문목록", url: "/order_list", type: "2"},
     {id: "4", title: "장바구니", url: "/cart_view", type: "2"},
-    {id: "5", title: "고객센터", type: "2"},
+    {id: "5", title: "고객센터", url: "/service/contact", type: "2"},
     {id: "6", title: "로그아웃", func: "logout", type: "0"},
   ];
 

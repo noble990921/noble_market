@@ -65,6 +65,8 @@ html, body, #app {
   height: 100%;
 
   .kakao_icon {
+    border-radius: 50px;
+    background: #fff;
     cursor: pointer;
     position: fixed;
     bottom: 10px;

@@ -216,7 +216,7 @@
       };
     },
     computed: {
-      ...mapGetters("auth", ["isLogin", "user"]),
+      ...mapGetters("auth", ["isLogin", "user","partnerInfo"]),
 //      totalPrice() {
 //        return this.quantity * this.product.price + this.product.delivery;
 //      },
@@ -316,7 +316,15 @@
         }
       },
       contact() {
-
+        if(this.partnerInfo && this.partnerInfo.kakaoUrl){
+          window.open(this.partnerInfo.kakaoUrl, "_blank");
+        }else if(this.partnerInfo && this.partnerInfo.teleUrl){
+          window.open(this.partnerInfo.teleUrl, "_blank");
+        }else if(this.partnerInfo && this.partnerInfo.instaUrl){
+          window.open(this.partnerInfo.instaUrl, "_blank");
+        }else{
+          window.open('https://open.kakao.com/o/ssxNLKBh', "_blank");
+        }
       },
 //      async directSell() {
 //        if (!this.isLogin) {

@@ -161,10 +161,10 @@ export const SET_PRODUCT_BRAND = {
     listImg: require('@/assets/images/home/section7/brandList_logo18.png'),
     url:'/brand/MiuMiu'
   },
-  "반 클리프": {
+  "반 클리프 & 아펠": {
     id: 19,
     enName: "Van Cleef & Arpels",
-    koName: "반 클리프",
+    koName: "반 클리프 & 아펠",
     mimg: require('@/assets/images/home/section7/mbrand_logo19.png'),
     img: require('@/assets/images/home/section7/brand_logo19.png'),
     listImg: require('@/assets/images/home/section7/brandList_logo19.png'),

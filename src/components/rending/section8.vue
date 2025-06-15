@@ -22,8 +22,8 @@
   const SERVICEITEM =[
     {
       id:1,
-      title:'정품 인증서',
-      sub:'정품과 동일한 포맷의 인증서 복제본 제공',
+      title:'인증서',
+      sub:'포맷의 인증서 복제본 제공',
       img:require('../../assets/images/home/section8/s8_img.png')
     },{
       id:2,
