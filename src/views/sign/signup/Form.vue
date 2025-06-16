@@ -148,7 +148,7 @@
         }
 
         try {
-          const snapshot = await db.collection("users").where("code", "==", code).get();
+          const snapshot = await db.collection("users").where("partnerCode", "==", code).get();
           if (!snapshot.empty) {
             this.isPartnerVerify = 2;
             this.$alert("추천코드가 확인되었습니다.");
