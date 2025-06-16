@@ -20,7 +20,7 @@
           </ul>
           <ul>
             <li><span>대표번호:</span><p>02-3134-1231</p></li>
-            <li><span>인스타 정보:</span><p>n_oble_official</p></li>
+            <li><span>인스타 정보:</span><p>n0ble.offcial</p></li>
 <!--            <li><span>사업자 등록번호:</span><p>931-23-31399</p></li>-->
 <!--            <li><span>통신판매업 신고번호</span></li>-->
             <li><span>통신판매업</span></li>
