@@ -47,9 +47,31 @@ export default {
 
       if (userData?.partnerCode) {
         console.log("✅ partnerCode 있음:", userData.partnerCode);
-        await dispatch("fetchPartnerInfo", userData.partnerCode);
+
+        // ➕ 만약 유저가 partner라면, partnerCode 기준 admin만 찾기
+        if (userData.role === 'partner') {
+          console.log("🔁 partner이므로 admin 기준으로 fetch");
+          await dispatch("fetchAdminInfoByPartnerCode", userData.partnerCode);
+        } else {
+          await dispatch("fetchPartnerInfo", userData.partnerCode);
+        }
       } else {
         console.warn("❌ partnerCode 없음!");
+      }
+    },
+    async fetchAdminInfoByPartnerCode({ commit }) {
+      const snapshot = await db
+      .collection("users")
+      .where("partnerCode", "==", "main")
+      .where("role", "==", "admin")
+      .get();
+
+      if (!snapshot.empty) {
+        const adminData = snapshot.docs[0].data();
+        console.log("👑 admin info 로드됨:", adminData);
+        commit("SET_PARTNER_INFO", adminData);
+      } else {
+        console.warn("❗ partnerCode로 admin 유저 못 찾음");
       }
     },
 
