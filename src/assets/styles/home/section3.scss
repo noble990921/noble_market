@@ -62,13 +62,13 @@
           border-radius: 12px;
         }
         .info_box{
-          padding: 12px 4px 0;
-          @media (max-width: 1024px) {
-            padding: 0px 4px 0 !important;
-          }
+          //padding: 12px 4px 0;
+          //@media (max-width: 1024px) {
+          padding: 0px 4px 0 !important;
+          //}
           .brand_name{
             color: #222;
-            //margin-top: 12px;
+            margin-top: 12px;
             font-size: 12px;
             font-weight: 700;
             color: #222;
