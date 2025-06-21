@@ -33,7 +33,7 @@
             <img src="/media/products/watch/590/mainImg.webp">
             <div class="info_box">
               <p class="brand_name">Rolex</p>
-              <p class="name">롤렉스 GMT-마스터 2 40mm 블랙 오이스터</p>
+              <p class="name">롤렉스 GMT-마스터 2 배트걸 오이스터</p>
               <p class="text">126710BLRO</p>
             </div>
           </div>

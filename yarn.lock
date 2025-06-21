@@ -9504,6 +9504,11 @@ vue-color@^2.8.1:
     material-colors "^1.0.0"
     tinycolor2 "^1.1.2"
 
+vue-cookies@^1.8.6:
+  version "1.8.6"
+  resolved "https://registry.npmjs.org/vue-cookies/-/vue-cookies-1.8.6.tgz#31b05e39b8c3dfe5012b5013395b4f6b86f86c3a"
+  integrity sha512-e2kYaHj1Y/zVsBSM3KWlOoVJ5o3l4QZjytNU7xdCgmkw3521CMUerqHekBGZKXXC1oRxYljBeeOK2SCel6cKuw==
+
 vue-demi@^0.13.11:
   version "0.13.11"
   resolved "https://registry.npmjs.org/vue-demi/-/vue-demi-0.13.11.tgz#7d90369bdae8974d87b1973564ad390182410d99"

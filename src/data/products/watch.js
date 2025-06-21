@@ -1547,7 +1547,7 @@ export const PRODUCTS = {
   "589": {
     id: 589,
     modelNumber: '126710BLRO',
-    name: '롤렉스 GMT-마스터 2 40mm 블랙 쥬빌리',
+    name: '롤렉스 GMT-마스터 2 배트걸 쥬빌리',
     enName: 'Rolex GMT-Master II 40mm Black Jubilee',
     brand: '롤렉스',
     enBrand: 'Rolex',
@@ -1591,7 +1591,7 @@ export const PRODUCTS = {
   "590": {
     id: 590,
     modelNumber: '126710BLRO',
-    name: '롤렉스 GMT-마스터 2 40mm 블랙 오이스터',
+    name: '롤렉스 GMT-마스터 2 배트걸 오이스터',
     enName: 'Rolex GMT-Master II 40mm Black Oyster',
     brand: '롤렉스',
     enBrand: 'Rolex',

@@ -12,6 +12,8 @@ import BootstrapVue from 'bootstrap-vue';
 //import 'bootstrap/dist/css/bootstrap.css';
 //import 'bootstrap-vue/dist/bootstrap-vue.css';
 import VueMoment from 'vue-moment'
+import VueCookies from 'vue-cookies'
+Vue.use(VueCookies)
 
 
 
