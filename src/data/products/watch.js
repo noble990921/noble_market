@@ -180,7 +180,7 @@ export const PRODUCTS = {
   "558": {
     id: 558,
     modelNumber: '124060',
-    name: '롤렉스 서브마리너 41mm 124060 블랙 오이스터',
+    name: '롤렉스 서브마리너 41mm 블랙 오이스터',
     enName: 'Rolex Submariner 41mm 124060 Black Oyster',
     brand: '롤렉스',
     enBrand: 'Rolex',
@@ -224,7 +224,7 @@ export const PRODUCTS = {
   "559": {
     id: 559,
     modelNumber: '126234',
-    name: '롤렉스 데이트저스트 36mm 126234 브라이트 블루 쥬빌리',
+    name: '롤렉스 데이트저스트 36mm 브라이트 블루 쥬빌리',
     enName: 'Rolex Datejust 36mm 126234 Bright Blue Jubilee',
     brand: '롤렉스',
     enBrand: 'Rolex',
@@ -268,7 +268,7 @@ export const PRODUCTS = {
   "560": {
     id: 560,
     modelNumber: '126234',
-    name: '롤렉스 데이트저스트 36mm 126234 브라이트 블루 오이스터',
+    name: '롤렉스 데이트저스트 36mm 브라이트 블루 오이스터',
     enName: 'Rolex Datejust 36mm 126234 Bright Blue Oyster',
     brand: '롤렉스',
     enBrand: 'Rolex',
@@ -313,7 +313,7 @@ export const PRODUCTS = {
   "561": {
     id: 561,
     modelNumber: '126610LV',
-    name: '롤렉스 서브마리너 데이트 41mm 126610LV 블랙 오이스터',
+    name: '롤렉스 서브마리너 데이트 41mm 블랙 오이스터',
     enName: 'Rolex Submariner Date 41mm 126610LV Black Oyster',
     brand: '롤렉스',
     enBrand: 'Rolex',
@@ -358,7 +358,7 @@ export const PRODUCTS = {
   "562": {
     id: 562,
     modelNumber: '126610LN',
-    name: '롤렉스 서브마리너 데이트 41mm 126610LN 블랙 오이스터',
+    name: '롤렉스 서브마리너 데이트 41mm 블랙 오이스터',
     enName: 'Rolex Submariner Date 41mm 126610LN Black Oyster',
     brand: '롤렉스',
     enBrand: 'Rolex',
@@ -446,7 +446,7 @@ export const PRODUCTS = {
   "564": {
     id: 564,
     modelNumber: '124270',
-    name: '롤렉스 익스플로러 36mm 124270 블랙 오이스터',
+    name: '롤렉스 익스플로러 36mm 블랙 오이스터',
     enName: 'Rolex Explorer 36mm 124270 Black Oyster',
     brand: '롤렉스',
     enBrand: 'Rolex',
@@ -1767,7 +1767,7 @@ export const PRODUCTS = {
   "594": {
     id: 594,
     modelNumber: '15500ST-OO-1220ST-03',
-    name: '오데마 피게 로얄 오크 15500ST 검판',
+    name: '오데마 피게 로얄 오크 검판',
     enName: 'Audemars Piguet Royal Oak Selfwinding 41mm Steel Bracelet Black',
     brand: '오데마 피게',
     enBrand: 'Audemars Piguet',
@@ -1855,7 +1855,7 @@ export const PRODUCTS = {
   "596": {
     id: 596,
     modelNumber: '26331ST-OO-1220ST-01',
-    name: '오데마 피게 로얄 오크 크로노그래프 26331ST',
+    name: '오데마 피게 로얄 오크 크로노그래프',
     enName: 'Royal Oak Selfwinding Chronograph 41mm Stainless Steel Blue Dial',
     brand: '오데마 피게',
     enBrand: 'Audemars Piguet',
@@ -1899,7 +1899,7 @@ export const PRODUCTS = {
   "597": {
     id: 597,
     modelNumber: '26400SO-OO-A002CA-01',
-    name: '오데마 피게 로얄 오크 오프쇼어 크로노그래프 26400SO',
+    name: '오데마 피게 로얄 오크 오프쇼어 크로노그래프',
     enName: 'Royal Oak Offshore Chronograph 44mm',
     brand: '오데마 피게',
     enBrand: 'Audemars Piguet',
@@ -1943,7 +1943,7 @@ export const PRODUCTS = {
   "598": {
     id: 598,
     modelNumber: '15340ST-OO-D002CA-01',
-    name: '오데마 피게 로얄 오크 오프쇼어 스쿠버 웸페 15340ST',
+    name: '오데마 피게 로얄 오크 오프쇼어 스쿠버 웸페',
     enName: 'Royal Oak Offshore Scuba Wempe Limited Edition',
     brand: '오데마 피게',
     enBrand: 'Audemars Piguet',
