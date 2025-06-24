@@ -1,4 +1,4 @@
-<template>
+<template v-if="$route.path === '/'">
   <el-dialog :close-on-click-modal="false" :close-on-press-escape="false" :visible.sync="visible"
              class="ft-dialog-popup" :width="width" append-to-body v-show="true"
              :class="popup.type == 1 ? 'imgPopup' : 'textPopup'">

@@ -50,6 +50,13 @@
         if (url) window.open(url, "_blank");
       },
       setupPopups() {
+        const isHome = this.$route.path === '/';
+
+        if (!isHome) {
+          this.popupList = [];
+          return;
+        }
+
         const allPopups = [
           { id: 1, content: '/media/popup_img.png', type: 1, isShow: false, width: '384px' },
         ];
@@ -60,7 +67,9 @@
       }
     },
     created() {
-      this.setupPopups();
+      if (this.$route.path === '/') {
+        this.setupPopups();
+      }
     },
   }
 </script>
