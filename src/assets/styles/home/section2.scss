@@ -28,11 +28,11 @@
       }
     }
     .item_box{
-      //column-gap: 12px;
-      //grid-template-columns: repeat(5, minmax(0, 1fr));
-      //display: grid;
-      //row-gap: 28px;
-      //cursor: pointer;
+      column-gap: 12px;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      display: grid;
+      row-gap: 28px;
+      cursor: pointer;
 
       @media (max-width: 1024px) {
         display: flex;
