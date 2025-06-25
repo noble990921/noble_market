@@ -199,5 +199,12 @@
         }
       }
     },
+    mounted() {
+      const code = this.$route.query.partnerCode;
+      if (code) {
+        this.partnerCode = code;
+        this.partnerVerify();
+      }
+    }
   }
 </script>
