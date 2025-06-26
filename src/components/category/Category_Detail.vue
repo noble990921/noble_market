@@ -18,7 +18,7 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
           </div>
-          <div class="thumbs_wrapper" v-if="colorVariants.length">
+          <div class="thumbs_wrapper" v-if="colorVariants.length && deskWidth">
             <div
                 v-for="variant in colorVariants"
                 :key="variant.id"
@@ -27,6 +27,26 @@
             >
               <img :src="variant.mainImg[0]"/>
             </div>
+          </div>
+          <div class="thumbs_wrapper22" v-else-if="colorVariants.length && !deskWidth">
+            <button class="thumb-nav prev" @click="prevThumbPage" :disabled="currentThumbPage === 0">
+              &lt;
+            </button>
+
+            <div class="thumbs_inner">
+              <div
+                  v-for="variant in paginatedThumbs"
+                  :key="variant.id"
+                  :class="['thumb', { active: variant.id == activeVariantId }]"
+                  @click="goToColorVariant(variant)"
+              >
+                <img :src="variant.mainImg[0]" />
+              </div>
+            </div>
+
+            <button class="thumb-nav next" @click="nextThumbPage" :disabled="currentThumbPage >= totalThumbPages - 1">
+              &gt;
+            </button>
           </div>
         </div>
         <div class="detail_content">
@@ -185,6 +205,8 @@
     },
     data() {
       return {
+        currentThumbPage: 0,
+        thumbsPerPage: 7,
         swiperOption: {
           slidesPerView: 1,
           pagination: {
@@ -216,6 +238,14 @@
       };
     },
     computed: {
+      paginatedThumbs() {
+        const start = this.currentThumbPage * this.thumbsPerPage;
+        const end = start + this.thumbsPerPage;
+        return this.colorVariants.slice(start, end);
+      },
+      totalThumbPages() {
+        return Math.ceil(this.colorVariants.length / this.thumbsPerPage);
+      },
       ...mapGetters("auth", ["isLogin", "user","partnerInfo"]),
 //      totalPrice() {
 //        return this.quantity * this.product.price + this.product.delivery;
@@ -231,6 +261,16 @@
       },
     },
     methods: {
+      nextThumbPage() {
+        if (this.currentThumbPage < this.totalThumbPages - 1) {
+          this.currentThumbPage++;
+        }
+      },
+      prevThumbPage() {
+        if (this.currentThumbPage > 0) {
+          this.currentThumbPage--;
+        }
+      },
       updateWidth(){
         this.windowWidth = window.innerWidth
       },
@@ -431,6 +471,7 @@
       this.getData();
       this.isLoginCheck()
       window.addEventListener('resize',this.updateWidth)
+      console.log('dddd',this.updateWidth)
     },
   };
 </script>
