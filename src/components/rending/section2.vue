@@ -3,7 +3,7 @@
     <div class="s2_container">
       <div class="hot_item">
         <p class="title">Top Clothes</p>
-        <p class="sub_text">인기 의류 <span>더보기</span></p>
+        <p class="sub_text">인기 의류 <span @click="$router.push('/product/TOP')">더보기</span></p>
 <!--        <div class="item_box">-->
 <!--          <div class="item" v-for=" h in HOTITEM" :key="h.id">-->
 <!--            <img :src="h.img">-->
@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="btn_box">
-        <button @click="$router.push('/product/TOP')">
+        <button 류>
           더보기
         </button>
       </div>
