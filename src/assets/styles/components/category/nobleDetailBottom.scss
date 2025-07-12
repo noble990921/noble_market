@@ -10,6 +10,9 @@
     }
 
     .title {
+      @media (max-width: 1024px) {
+        font-size: 17px !important;
+      }
       font-size: 22px;
       font-weight: 700;
       line-height: 30px;
@@ -19,16 +22,31 @@
     max-width: 900px;
 
     .detail_mainImg {
+      @media (max-width: 1024px) {
+        .title{
+          margin-bottom: 10px !important;
+        }
+      }
       .title{
         margin-bottom: 30px;
       }
       .mainImgBox {
+        @media (max-width: 1024px) {
+          margin-bottom: 15px !important;
+        }
         background: #f2f2f2;
         width: 100%;
         margin-bottom: 30px;
       }
     }
 
+    .detail_notice{
+      @media (max-width: 1024px) {
+        .title{
+          margin:56px 0 10px !important;
+        }
+      }
+    }
     .detail_subImg {
       margin-top: 90px;
       .detail_subImgBox {
@@ -91,18 +109,8 @@
         //.title{
         //  margin-bottom: 20px;
         //}
-        .hot_item {
-          .sub_text {
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 1;
-            color: rgba(34, 34, 34, .5);
-            margin-top: 2px;
-            margin-bottom: 16px;
-          }
-        }
 
-        .item_box {
+        .item_box{
           column-gap: 12px;
           grid-template-columns: repeat(5, minmax(0, 1fr));
           display: grid;
@@ -116,7 +124,7 @@
             overflow-x: auto;
             scrollbar-width: none;
             width: 100%;
-            .item {
+            .item{
               width: 152px !important;
               flex: 0 0 auto;
               margin: 0;
@@ -127,54 +135,65 @@
             }
           }
 
-          .item {
+          .item{
             width: 100%;
             background-color: #fff;
             border-radius: 12px;
             display: block;
-            .img_box{
-              border-radius:12px;
+            img{
               background: #f2f2f2;
-              img {
-                width: 100%;
-                border-radius: 12px;
-              }
+              width: 100%;
+              border-radius: 12px;
             }
+            .info_box{
+              //padding: 12px 4px 0;
+              //@media (max-width: 1024px) {
+              padding: 0px 4px 0 !important;
+              //}
 
-            .info_box {
-              padding: 12px 4px 0;
-
-              .title {
-                -webkit-line-clamp: 1;
-                -webkit-box-orient: vertical;
+              @media (max-width: 1024px) {
+                .brand_name{
+                  margin-top: 10px!important;
+                }
+                .name {
+                  -webkit-line-clamp: 2 !important;
+                }
+                .text{
+                  font-size: 10px!important;
+                }
+              }
+              .brand_name{
                 color: #222;
-                display: -webkit-box;
+                margin-top: 12px;
                 font-size: 12px;
                 font-weight: 700;
+                color: #222;
+                margin-bottom: 2px;
+              }
+              .text{
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                color: #a7a7a7;
+                display: -webkit-box;
+                font-size: 11px;
+                line-height: 16px;
+                max-height: 34px;
                 overflow: hidden;
                 text-overflow: ellipsis;
                 white-space: normal;
               }
-
-              .text {
+              .name {
+                font-size: 13px;
+                line-height: 18px;
+                text-align: left;
+                white-space: normal;
+                color: #222;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: normal;
                 -webkit-line-clamp: 1;
-              -webkit-box-orient: vertical;
-              color: #a7a7a7;
-              display: -webkit-box;
-              font-size: 11px;
-              line-height: 16px;
-              max-height: 34px;
-              overflow: hidden;
-              text-overflow: ellipsis;
-              white-space: normal;
-              }
-
-              .price {
-                margin-top: 10px;
-                color: rgb(34, 34, 34);
-                font-size: 14px;
-                font-weight: 700;
-                line-height: 17px;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
               }
             }
           }

@@ -64,7 +64,8 @@
               <div class="input_area">
                 <button @click="clickInput">
                   <p>PRODUCT DETAILS</p>
-                  <i class="el-icon-arrow-down"></i>
+                  <i v-if="!inputContent" class="el-icon-plus"></i>
+                  <i v-else class="el-icon-minus"></i>
                 </button>
               </div>
               <div class="input_content" v-if="inputContent">
@@ -105,18 +106,15 @@
               </td>
             </tr>
             <tr>
-              <th><p>추가 해택</p></th>
+              <th><p>추가혜택</p></th>
               <td>
                 <p>- 국내 유통 제품 중 최고 퀄리티 보장</p>
                 <p>- 프리미엄 검수 서비스 무료 제공</p>
-                <p v-if="!deskWidth">- 박스, 더스트백, 인증서 풀패키지 구성
-                  (일부 품목 제외)</p>
-                <p v-else>- 박스, 더스트백, 인증서 풀패키지 구성 <br>
-                  (일부 품목 제외)</p>
+                <p>- 내장칩 포함 풀패키지 구성</p>
               </td>
             </tr>
             <tr>
-              <th><p>제조사</p></th>
+              <th><p>상품제조</p></th>
               <td><p>중국</p></td>
             </tr>
             <tr>
@@ -125,7 +123,7 @@
             </tr>
             <tr>
               <th><p>배송기간</p></th>
-              <td><p>2~3주 소요 (주문 즉시 출고)</p></td>
+              <td><p>2~3주 소요</p></td>
             </tr>
             </tbody>
           </div>
@@ -228,7 +226,7 @@
         sizeDialog: false,
         value: "",
         options: [
-          {value: "사이즈 / 색상 문의", label: "모든 사이즈 및 색상 구매 가능하니 문의 부탁드랍니다"},
+          {value: "사이즈 / 색상 문의", label: "모든 사이즈 및 색상 구매 가능하니 문의 부탁드립니다"},
         ],
         inputContent: false,
         colorVariants: [],

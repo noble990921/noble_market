@@ -90,8 +90,9 @@
                   <img v-if="item.mainImg && item.mainImg.length" :src="item.mainImg[0]"/>
                 </div>
                 <div class="info_box">
-                  <p class="title">{{item.enName}}</p>
-                  <p class="text">{{item.name}}</p>
+                  <p class="brand_name">{{item.enBrand}}</p>
+                  <p class="name">{{item.name}}</p>
+                  <p class="text">{{item.modelNumber}}</p>
                 </div>
               </div>
             </div>
@@ -107,8 +108,9 @@
                   <img v-if="item.mainImg && item.mainImg.length" :src="item.mainImg[0]"/>
                 </div>
                 <div class="info_box">
-                  <p class="title">{{item.enName}}</p>
-                  <p class="text">{{item.name}}</p>
+                  <p class="brand_name">{{item.enBrand}}</p>
+                  <p class="name">{{item.name}}</p>
+                  <p class="text">{{item.modelNumber}}</p>
                 </div>
               </div>
             </div>

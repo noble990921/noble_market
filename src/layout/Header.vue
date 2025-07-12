@@ -62,6 +62,7 @@
           <div class="aside_top">
             <ul>
               <li
+                  :class="{ active: $route.path === m.url }"
                   v-for="m in MENU"
                   :key="m.id" @click="handleMenuClick(m)">
                 <p>{{m.title}}</p>

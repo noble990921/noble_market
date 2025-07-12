@@ -44,9 +44,13 @@
   }
 }
 
+//팝업 다이아 로그
 .ft-dialog-popup {
 
   .el-dialog {
+    @media (max-width: 1024px) {
+      width: 90% !important;
+    }
     border-radius: 4px;
     background: #323337;
   }
@@ -111,7 +115,7 @@
     padding: 0;
 
     .footer-btns {
-      padding: 16px;
+      padding: 14px;
 
       .fl-left {
         float: left;

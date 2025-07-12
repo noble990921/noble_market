@@ -57,7 +57,7 @@
       </template>
 
       <!-- 기본 fallback -->
-      <template v-else>
+      <template v-if="!product.sizeData">
         <p>사이즈 정보가 준비되지 않았습니다.</p>
       </template>
     </div>

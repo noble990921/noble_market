@@ -3,7 +3,7 @@
     <div class="s2_container">
       <div class="hot_item">
         <p class="title">Top Bag</p>
-        <p class="sub_text">인기 가방</p>
+        <p class="sub_text">인기 가방 <span>더보기</span></p>
         <div class="item_box">
           <div class="item" @click="$router.push('/Bag/detail/14')">
             <img src="/media/products/bag/14/mainImg.png">

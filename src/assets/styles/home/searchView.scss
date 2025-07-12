@@ -120,6 +120,15 @@
         }
 
         @media (max-width: 1024px) {
+          img {
+            width: 60px !important;
+            height: 60px !important;
+          }
+          p {
+            margin-top: 5px;
+            font-size: 12px !important;
+            color: #222;
+          }
           ul {
             justify-content: flex-start; // 왼쪽 정렬
             flex-wrap: nowrap; // 줄바꿈 없음
@@ -183,7 +192,7 @@
           display: flex;
           flex-wrap: wrap;
           gap: 12px;
-          row-gap: 20px;
+          row-gap: 30px;
           .main_text{
             text-align: center;
             width: 100%;
@@ -193,7 +202,7 @@
           }
           @media (max-width: 1024px) {
             gap: 12px;
-            row-gap: 40px;
+            row-gap: 20px;
             .product_list {
               width: calc((100% - 12px) / 2) !important;
             }
@@ -201,6 +210,15 @@
           @media (min-width: 1024px) {
             img{
               height: 285px;
+            }
+            .brand_name{
+              margin-top: 10px!important;
+            }
+            //.name {
+            //  -webkit-line-clamp: 2 !important;
+            //}
+            .text{
+              font-size: 10px !important;
             }
           }
           .img_box{

@@ -58,7 +58,7 @@
         }
 
         const allPopups = [
-          { id: 1, content: '/media/popup_img.png', type: 1, isShow: false, width: '384px' },
+          { id: 1, content: '/media/popup_img.jpg', type: 1, isShow: false, width: '384px' },
         ];
 
         this.popupList = allPopups

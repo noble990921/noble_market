@@ -25,6 +25,20 @@
         color: rgba(34, 34, 34, .5);
         margin-top: 2px;
         margin-bottom: 16px;
+        @media (min-width: 1024px) {
+          span{
+            display: none;
+          }
+        }
+        @media (max-width: 1024px) {
+          font-size: 14px;
+          display: flex;
+          justify-content: space-between;
+        }
+        span{
+          font-size: 12px;
+          text-decoration: underline;
+        }
       }
     }
     .item_box{
@@ -67,6 +81,18 @@
           //@media (max-width: 1024px) {
             padding: 0px 4px 0 !important;
           //}
+
+          @media (max-width: 1024px) {
+            .brand_name{
+              margin-top: 10px!important;
+            }
+            .name {
+              -webkit-line-clamp: 2 !important;
+            }
+            .text{
+              font-size: 10px!important;
+            }
+          }
           .brand_name{
             color: #222;
             margin-top: 12px;
@@ -104,12 +130,15 @@
       }
     }
     .btn_box{
+      @media (max-width: 1024px) {
+        display: none;
+      }
       text-align: center;
       button{
         font-size: 14px;
         height: 42px;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 30px;
         padding: 0 30px;
         border: 1px solid #d3d3d3;
         color: rgba(34, 34, 34, .8);

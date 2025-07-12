@@ -48,7 +48,7 @@
         },
         mobileSwiperOption: {
           slidesPerView: 2.7,
-          spaceBetween: 12,
+          spaceBetween: 8,
           autoplay: false,
           centerInsufficientSlides: true,
           allowTouchMove: true,
