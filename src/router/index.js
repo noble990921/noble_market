@@ -30,7 +30,7 @@ router.beforeEach((to, from, next) => {
   }
 
   if (requiredRole) {
-    if(!isLogin || !user || user.role !== 'admin'){
+    if (!isLogin || !user || !(user.role === 'admin' || user.role === 'partner')) {
       Vue.prototype.$alert('관리자 권한이 필요합니다. 관리자 계정으로 로그인 해주세요.', '알림');
       next('/');
       return;

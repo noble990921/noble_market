@@ -205,7 +205,7 @@
       loginMenu() {
         return this.ASIDEMENU.filter((menu) => {
           if (menu.type === "3") {
-            return this.isLogin && this.user?.role === "admin";
+            return this.isLogin && (this.user?.role === "admin" || this.user?.role === "partner");
           }
           return menu.type === "2" || (this.isLogin ? menu.type === "0" : menu.type === "1");
         });

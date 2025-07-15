@@ -3,29 +3,29 @@
     <MyChart
         :key="chartKey"
         class="chart"
-        :chartData="sales_chartData"
+        :chartData="user_chartData"
         :chartOptions="chartOptions"
         chartType="line"
-        name="판매량"
+        name="회원수"
     />
-    <div class="slice_chart">
-      <MyChart
-          :key="chartKey"
-          class="chart"
-          :chartData="user_chartData"
-          :chartOptions="chartOptions"
-          chartType="line"
-          name="회원수"
-      />
-      <MyChart
-          :key="chartKey"
-          class="chart"
-          :chartData="proceeds_chartData"
-          :chartOptions="chartOptions"
-          chartType="bar"
-          name="매출량"
-      />
-    </div>
+<!--    <div class="slice_chart">-->
+<!--      <MyChart-->
+<!--          :key="chartKey"-->
+<!--          class="chart"-->
+<!--          :chartData="sales_chartData"-->
+<!--          :chartOptions="chartOptions"-->
+<!--          chartType="line"-->
+<!--          name="판매량"-->
+<!--      />-->
+<!--      <MyChart-->
+<!--          :key="chartKey"-->
+<!--          class="chart"-->
+<!--          :chartData="proceeds_chartData"-->
+<!--          :chartOptions="chartOptions"-->
+<!--          chartType="bar"-->
+<!--          name="매출량"-->
+<!--      />-->
+<!--    </div>-->
   </div>
 </template>
 
@@ -33,10 +33,15 @@
   import MyChart from "./ChartCard";
   import firebase from "firebase/app";
   import "firebase/firestore";
+  import { mapGetters } from "vuex";
+
 
   export default {
     name: "DashbordManage",
     components:{MyChart},
+    computed: {
+      ...mapGetters("auth", ["user"])
+    },
     data() {
       return {
         chartKey: 0,
@@ -101,41 +106,47 @@
         const currentYear = this.selectedYear;
 
         try {
-          // 12개월 데이터를 담을 배열 초기화
           let salesData = new Array(12).fill(0);
           let userData = new Array(12).fill(0);
           let proceedsData = new Array(12).fill(0);
 
-          // 🔹 회원 수 가져오기
-          const usersSnapshot = await db.collection("users").get();
+          const isPartner = this.user.role === 'partner';
+          const partnerCode = this.user.partnerCode;
+
+          // 🔹 회원 수
+          let userQuery = db.collection("users");
+          if (isPartner) {
+            userQuery = userQuery.where("partnerCode", "==", partnerCode);
+          }
+          const usersSnapshot = await userQuery.get();
           usersSnapshot.forEach(doc => {
             const data = doc.data();
-            const createdAt = data.createdAt ? data.createdAt.toDate() : null;
+            const createdAt = data.createdAt?.toDate?.();
             if (createdAt && createdAt.getFullYear() === currentYear) {
-              const month = createdAt.getMonth(); // 0~11 (1월=0, 12월=11)
+              const month = createdAt.getMonth();
               userData[month] += 1;
             }
           });
 
-          // 🔹 주문 데이터 가져오기 (매출량, 판매량)
-          const ordersSnapshot = await db.collection("orders").get();
+          // 🔹 주문 수
+          let orderQuery = db.collection("orders");
+          if (isPartner) {
+            orderQuery = orderQuery.where("partnerCode", "==", partnerCode);
+          }
+          const ordersSnapshot = await orderQuery.get();
           ordersSnapshot.forEach(doc => {
             const data = doc.data();
-            const createdAt = data.createdAt ? data.createdAt.toDate() : null;
+            const createdAt = data.createdAt?.toDate?.();
             if (createdAt && createdAt.getFullYear() === currentYear) {
               const month = createdAt.getMonth();
-              proceedsData[month] += data.finalTotalPrice || 0; // 매출량 (가격 합산)
-              salesData[month] += data.cartQty || 0; // 판매량 (상품 개수)
+              proceedsData[month] += data.finalTotalPrice || 0;
+              salesData[month] += data.cartQty || 0;
             }
           });
 
-          // 🔹 차트 데이터 업데이트
           this.sales_chartData.datasets[0].data = salesData;
-//          console.log('salesData:',salesData)
           this.user_chartData.datasets[0].data = userData;
-//          console.log('userData:',userData)
           this.proceeds_chartData.datasets[0].data = proceedsData;
-//          console.log('proceedsData:',proceedsData)
           this.chartKey += 1;
         } catch (error) {
           console.error("차트 데이터 가져오기 실패:", error);

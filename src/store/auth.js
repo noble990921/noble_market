@@ -42,7 +42,7 @@ export default {
       const userDoc = await db.collection("users").doc(authUser.uid).get();
       const userData = userDoc.data();
 
-      console.log("📄 유저 정보 로드됨:", userData);
+//      console.log("📄 유저 정보 로드됨:", userData);
       commit("SET_USER", userData);
 
       if (userData?.partnerCode) {
@@ -88,7 +88,7 @@ export default {
       .where("role", "in", ["admin", "partner"])
       .get();
 
-      console.log("🔥 partner snapshot", snapshot.empty ? '비어있음' : snapshot.docs[0].data());
+//      console.log("🔥 partner snapshot", snapshot.empty ? '비어있음' : snapshot.docs[0].data());
 
       if (!snapshot.empty) {
         const partnerData = snapshot.docs[0].data();

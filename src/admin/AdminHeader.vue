@@ -25,9 +25,9 @@
 <script>
   const MENU = [
     {id: "1", title: "대시보드", url: "/admin/dashboard"},
-    {id: "2", title: "상품 관리", url: "/admin/product/management"},
-    {id: "3", title: "신규 주문", url: "/admin/new_order/management"},
-    {id: "4", title: "주문 내역", url: "/admin/order_detail/management"},
+//    {id: "2", title: "상품 관리", url: "/admin/product/management"},
+//    {id: "3", title: "신규 주문", url: "/admin/new_order/management"},
+//    {id: "4", title: "주문 내역", url: "/admin/order_detail/management"},
     {id: "5", title: "회원 관리", url: "/admin/user/management"},
   ];
   export default {
