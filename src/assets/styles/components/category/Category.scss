@@ -412,12 +412,47 @@
           margin-top: 10px;
           width: 100%;
           display: flex;
+          align-items: center;
           gap: 9px;
+          .thumb-nav {
+            margin: 0 !important;
+            background-color: #fff;
+            border: 1px solid #d1d1d1;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+            &:hover {
+              background-color: #f0f0f0;
+            }
+
+            &:disabled {
+              cursor: not-allowed;
+              opacity: 0.4;
+            }
+
+            &.prev {
+              margin-right: 10px;
+            }
+
+            &.next {
+              margin-left: 10px;
+            }
+          }
 
           .thumbs_inner {
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            gap: 8px;
           }
 
           .thumb {
@@ -425,8 +460,8 @@
             cursor: pointer;
 
             &.active {
-              height: 95%;
-              border: 2px solid black;
+              height: 64px;
+              border: 1px solid black;
             }
 
             img {

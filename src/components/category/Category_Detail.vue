@@ -29,7 +29,7 @@
             </div>
           </div>
           <div class="thumbs_wrapper22" v-else-if="colorVariants.length && !deskWidth">
-            <button class="thumb-nav prev" @click="prevThumbPage" :disabled="currentThumbPage === 0">
+            <button v-if="colorVariants.length > 7" class="thumb-nav prev" @click="prevThumbPage" :disabled="currentThumbPage === 0">
               &lt;
             </button>
 
@@ -44,7 +44,7 @@
               </div>
             </div>
 
-            <button class="thumb-nav next" @click="nextThumbPage" :disabled="currentThumbPage >= totalThumbPages - 1">
+            <button v-if="colorVariants.length > 7" class="thumb-nav next" @click="nextThumbPage" :disabled="currentThumbPage >= totalThumbPages - 1">
               &gt;
             </button>
           </div>
