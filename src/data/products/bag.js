@@ -1546,7 +1546,7 @@ export const PRODUCTS = {
       type: 'bag',
       img: '/media/productDetail/bag_size.png',
       size: [
-        {unit: 'free', x: 20, y: 6, z: 12},ㅛ
+        {unit: 'free', x: 20, y: 6, z: 12},
       ]
     },
     mainImg: [
