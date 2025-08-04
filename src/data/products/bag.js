@@ -406,9 +406,9 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/602/mainImg.png',
-      '/media/products/bag/602/mainImg2.png',
-      '/media/products/bag/602/mainImg3.png',
+      '/media/products/bag/602/mainImg.webp?v=2',
+      '/media/products/bag/602/mainImg2.webp?v=2',
+      '/media/products/bag/602/mainImg3.webp?v=2',
     ],
 //    detailImg: [
 //      '/media/products/bag/4/detailImg.png',
@@ -903,8 +903,8 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/bag/609/mainImg.webp?v=2',
-      '/media/products/bag/609/mainImg2.webp?v=1',
-      '/media/products/bag/609/mainImg3.webp?v=1',
+      '/media/products/bag/609/mainImg2.webp?v=2',
+      '/media/products/bag/609/mainImg3.webp?v=2',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -957,8 +957,8 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/bag/610/mainImg.webp?v=2',
-      '/media/products/bag/610/mainImg2.webp?v=1',
-      '/media/products/bag/610/mainImg3.webp?v=1',
+      '/media/products/bag/610/mainImg2.webp?v=2',
+      '/media/products/bag/610/mainImg3.webp?v=2',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1011,8 +1011,8 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/bag/611/mainImg.webp?v=2',
-      '/media/products/bag/611/mainImg2.webp?v=1',
-      '/media/products/bag/611/mainImg3.webp?v=1',
+      '/media/products/bag/611/mainImg2.webp?v=2',
+      '/media/products/bag/611/mainImg3.webp?v=2',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1065,8 +1065,8 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/bag/612/mainImg.webp?v=2',
-      '/media/products/bag/612/mainImg2.webp?v=1',
-      '/media/products/bag/612/mainImg3.webp?v=1',
+      '/media/products/bag/612/mainImg2.webp?v=2',
+      '/media/products/bag/612/mainImg3.webp?v=2',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1119,8 +1119,8 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/bag/613/mainImg.webp?v=2',
-      '/media/products/bag/613/mainImg2.webp?v=1',
-      '/media/products/bag/613/mainImg3.webp?v=1',
+      '/media/products/bag/613/mainImg2.webp?v=2',
+      '/media/products/bag/613/mainImg3.webp?v=2',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1173,8 +1173,8 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/bag/614/mainImg.webp?v=2',
-      '/media/products/bag/614/mainImg2.webp?v=1',
-      '/media/products/bag/614/mainImg3.webp?v=1',
+      '/media/products/bag/614/mainImg2.webp?v=2',
+      '/media/products/bag/614/mainImg3.webp?v=2',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1227,8 +1227,8 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/bag/615/mainImg.webp?v=2',
-      '/media/products/bag/615/mainImg2.webp?v=1',
-      '/media/products/bag/615/mainImg3.webp?v=1',
+      '/media/products/bag/615/mainImg2.webp?v=2',
+      '/media/products/bag/615/mainImg3.webp?v=2',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1333,8 +1333,8 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/bag/617/mainImg.webp?v=2',
-      '/media/products/bag/617/mainImg2.webp?v=1',
-      '/media/products/bag/617/mainImg3.webp?v=1',
+      '/media/products/bag/617/mainImg2.webp?v=2',
+      '/media/products/bag/617/mainImg3.webp?v=2',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1387,7 +1387,7 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/bag/618/mainImg.webp?v=2',
-      '/media/products/bag/618/mainImg2.webp?v=1',
+      '/media/products/bag/618/mainImg2.webp?v=2',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1440,7 +1440,7 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/bag/619/mainImg.webp?v=2',
-      '/media/products/bag/619/mainImg2.webp?v=1',
+      '/media/products/bag/619/mainImg2.webp?v=2',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
