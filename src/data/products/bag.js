@@ -902,9 +902,9 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/609/mainImg1.webp',
-      '/media/products/bag/609/mainImg2.webp',
-      '/media/products/bag/609/mainImg3.webp',
+      '/media/products/bag/609/mainImg1.webp?v=1',
+      '/media/products/bag/609/mainImg2.webp?v=1',
+      '/media/products/bag/609/mainImg3.webp?v=1',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -956,9 +956,9 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/610/mainImg1.webp',
-      '/media/products/bag/610/mainImg2.webp',
-      '/media/products/bag/610/mainImg3.webp',
+      '/media/products/bag/610/mainImg1.webp?v=1',
+      '/media/products/bag/610/mainImg2.webp?v=1',
+      '/media/products/bag/610/mainImg3.webp?v=1',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1010,9 +1010,9 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/611/mainImg1.webp',
-      '/media/products/bag/611/mainImg2.webp',
-      '/media/products/bag/611/mainImg3.webp',
+      '/media/products/bag/611/mainImg1.webp?v=1',
+      '/media/products/bag/611/mainImg2.webp?v=1',
+      '/media/products/bag/611/mainImg3.webp?v=1',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1064,9 +1064,9 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/612/mainImg1.webp',
-      '/media/products/bag/612/mainImg2.webp',
-      '/media/products/bag/612/mainImg3.webp',
+      '/media/products/bag/612/mainImg1.webp?v=1',
+      '/media/products/bag/612/mainImg2.webp?v=1',
+      '/media/products/bag/612/mainImg3.webp?v=1',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1118,9 +1118,9 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/613/mainImg1.webp',
-      '/media/products/bag/613/mainImg2.webp',
-      '/media/products/bag/613/mainImg3.webp',
+      '/media/products/bag/613/mainImg1.webp?v=1',
+      '/media/products/bag/613/mainImg2.webp?v=1',
+      '/media/products/bag/613/mainImg3.webp?v=1',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1172,9 +1172,9 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/614/mainImg1.webp',
-      '/media/products/bag/614/mainImg2.webp',
-      '/media/products/bag/614/mainImg3.webp',
+      '/media/products/bag/614/mainImg1.webp?v=1',
+      '/media/products/bag/614/mainImg2.webp?v=1',
+      '/media/products/bag/614/mainImg3.webp?v=1',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1226,9 +1226,9 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/615/mainImg1.webp',
-      '/media/products/bag/615/mainImg2.webp',
-      '/media/products/bag/615/mainImg3.webp',
+      '/media/products/bag/615/mainImg1.webp?v=1',
+      '/media/products/bag/615/mainImg2.webp?v=1',
+      '/media/products/bag/615/mainImg3.webp?v=1',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1332,9 +1332,9 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/617/mainImg1.webp',
-      '/media/products/bag/617/mainImg2.webp',
-      '/media/products/bag/617/mainImg3.webp',
+      '/media/products/bag/617/mainImg1.webp?v=1',
+      '/media/products/bag/617/mainImg2.webp?v=1',
+      '/media/products/bag/617/mainImg3.webp?v=1',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1386,8 +1386,8 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/618/mainImg1.webp',
-      '/media/products/bag/618/mainImg2.webp',
+      '/media/products/bag/618/mainImg1.webp?v=1',
+      '/media/products/bag/618/mainImg2.webp?v=1',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1439,8 +1439,8 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/619/mainImg1.webp',
-      '/media/products/bag/619/mainImg2.webp',
+      '/media/products/bag/619/mainImg1.webp?v=1',
+      '/media/products/bag/619/mainImg2.webp?v=1',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
@@ -1546,7 +1546,7 @@ export const PRODUCTS = {
       type: 'bag',
       img: '/media/productDetail/bag_size.png',
       size: [
-        {unit: 'free', x: 20, y: 6, z: 12},
+        {unit: 'free', x: 20, y: 6, z: 12},ㅛ
       ]
     },
     mainImg: [
@@ -5335,6 +5335,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
+    modelGroup:'AS3787-B10184-94305/AS3787-B16985-94305',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -5384,6 +5385,115 @@ export const PRODUCTS = {
       },
     ]
   },
+  "681": {
+    id: 681,
+    modelNumber: 'AS3787-B10184-NM368',
+    name: '샤넬 스몰 백팩 그레인드 샤이니 카프스킨 & 골드 메탈 라일락',
+    enName: 'Chanel Small Backpack Grained Shiny Calfskin & Gold Lilac',
+    brand: '샤넬',
+    enBrand: 'Chanel',
+    category: "6",
+    modelGroup:'AS3787-B10184-94305/AS3787-B16985-94305',
+    subCategory: {id: 2, title: "백팩", img: "backpack"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+//      size:[
+//        {unit:'free', x:30 ,y:13, z:21},
+//      ]
+    },
+    mainImg: [
+      '/media/products/bag/681/mainImg.webp',
+      '/media/products/bag/681/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/16/detailImg.png',
+//      '/media/products/bag/16/detailImg2.png',
+//      '/media/products/bag/16/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/16/wearingImg.png',
+//      '/media/products/bag/16/wearingImg2.png',
+//      '/media/products/bag/16/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "682": {
+    id: 682,
+    modelNumber: 'AS3787-B10184-NM366',
+    name: '샤넬 스몰 백팩 그레인드 샤이니 카프스킨 & 골드 메탈 다크 베이지',
+    enName: 'Chanel Small Backpack Grained Shiny Calfskin & Gold Dark Beige',
+    brand: '샤넬',
+    enBrand: 'Chanel',
+    category: "6",
+    modelGroup:'AS3787-B10184-94305/AS3787-B16985-94305',
+    subCategory: {id: 2, title: "백팩", img: "backpack"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+//      size:[
+//        {unit:'free', x:30 ,y:13, z:21},
+//      ]
+    },
+    mainImg: [
+      '/media/products/bag/682/mainImg.webp',
+      '/media/products/bag/682/mainImg2.webp',
+      '/media/products/bag/682/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/16/detailImg.png',
+//      '/media/products/bag/16/detailImg2.png',
+//      '/media/products/bag/16/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/16/wearingImg.png',
+//      '/media/products/bag/16/wearingImg2.png',
+//      '/media/products/bag/16/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "17": {
     id: 17,
     modelNumber: 'AS3260-B08872/B19057-94305',
@@ -5392,6 +5502,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
+    modelGroup:'AS3260-B08872/B19057-94305',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -5438,6 +5549,60 @@ export const PRODUCTS = {
       },
     ]
   },
+  "683": {
+    id: 683,
+    modelNumber: 'AS3260-B08872-10601',
+    name: '샤넬 22 스몰 핸드백 샤이니 카프스킨 & 실버 메탈 화이트',
+    enName: 'Chanel 22 Small Handbag Shiny Calfskin & Silver White',
+    brand: '샤넬',
+    enBrand: 'Chanel',
+    category: "6",
+    modelGroup:'AS3260-B08872/B19057-94305',
+    subCategory: {id: 2, title: "백팩", img: "backpack"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 37, y: 7, z: 35},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/683/mainImg.webp',
+      '/media/products/bag/683/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/17/detailImg.png',
+//      '/media/products/bag/17/detailImg2.png',
+//      '/media/products/bag/17/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/17/wearingImg.png',
+//      '/media/products/bag/17/wearingImg2.png',
+//      '/media/products/bag/17/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "18": {
     id: 18,
     modelNumber: 'H072069CKAA',
@@ -5446,6 +5611,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
+    modelGroup:'H072069CKAA',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5490,6 +5656,393 @@ export const PRODUCTS = {
       }, {
         title: '내부 안감 및 구조 동일 구현',
         content: '정품과 동일한 에크류 캔버스 안감 사용. 내부 포켓, 스냅 디테일, 여밈 구조까지 정확하게 반영.'
+      },
+    ]
+  },
+  "684": {
+    id: 684,
+    modelNumber: 'H072069CKBC',
+    name: '에르메스 에르백 집 31 백 셀리에 H 베를린 캔버스 & 팔라듐 하드웨어 카방 에크류 누아 블루 인디고',
+    enName: 'Hermes Herbag Zip 31 Bag Sellier H Berllin Canvas & Palladium Caban Ecru Noir Bleu Indigo',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "6",
+    modelGroup:'H072069CKAA',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 31, y: 10, z: 25},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/684/mainImg.webp',
+      '/media/products/bag/684/mainImg2.webp',
+      '/media/products/bag/684/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/18/detailImg.png',
+//      '/media/products/bag/18/detailImg2.png',
+//      '/media/products/bag/18/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/18/wearingImg.png',
+//      '/media/products/bag/18/wearingImg2.png',
+//      '/media/products/bag/18/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "685": {
+    id: 685,
+    modelNumber: 'H072069CKBJ',
+    name: '에르메스 에르백 집 31 백 셀리에 H 베를린 캔버스 & 팔라듐 하드웨어 누아 에크류 나뚜르',
+    enName: 'Hermes Herbag Zip 31 Bag Sellier H Berlin Canvas & Palladium Noir Ecru Nature',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "6",
+    modelGroup:'H072069CKAA',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 31, y: 10, z: 25},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/685/mainImg.webp',
+      '/media/products/bag/685/mainImg2.webp',
+      '/media/products/bag/685/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/18/detailImg.png',
+//      '/media/products/bag/18/detailImg2.png',
+//      '/media/products/bag/18/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/18/wearingImg.png',
+//      '/media/products/bag/18/wearingImg2.png',
+//      '/media/products/bag/18/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "686": {
+    id: 686,
+    modelNumber: 'H072069CKAX',
+    name: '에르메스 에르백 집 31 백 셀리에 H 베를린 캔버스 & 팔라듐 하드웨어 까시스 루즈 셀리에',
+    enName: 'Hermes Herbag Zip 31 Bag Sellier H Berllin Canvas & Palladium Cassis Rouge Sellier',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "6",
+    modelGroup:'H072069CKAA',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 31, y: 10, z: 25},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/686/mainImg.webp',
+      '/media/products/bag/686/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/18/detailImg.png',
+//      '/media/products/bag/18/detailImg2.png',
+//      '/media/products/bag/18/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/18/wearingImg.png',
+//      '/media/products/bag/18/wearingImg2.png',
+//      '/media/products/bag/18/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "687": {
+    id: 687,
+    modelNumber: 'H072069CKAU',
+    name: '에르메스 에르백 집 31 백 셀리에 H 베를린 캔버스 & 팔라듐 하드웨어 오랑쥬 메카노 포브',
+    enName: 'Hermes Herbag Zip 31 Bag Sellier H Berllin Canvas & Palladium Orange Mecano Fauve',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "6",
+    modelGroup:'H072069CKAA',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 31, y: 10, z: 25},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/687/mainImg.webp',
+      '/media/products/bag/687/mainImg2.webp',
+      '/media/products/bag/687/mainImg3.webp',
+      '/media/products/bag/687/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/18/detailImg.png',
+//      '/media/products/bag/18/detailImg2.png',
+//      '/media/products/bag/18/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/18/wearingImg.png',
+//      '/media/products/bag/18/wearingImg2.png',
+//      '/media/products/bag/18/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "688": {
+    id: 688,
+    modelNumber: 'H072069CKBD',
+    name: '에르메스 에르백 집 31 백 셀리에 H 베를린 캔버스 & 팔라듐 하드웨어 에벤 에크류 누아 에벤',
+    enName: 'Hermes Herbag Zip 31 Bag Sellier H Berllin Canvas & Palladium Ebene Ecru Noir Ebene',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "6",
+    modelGroup:'H072069CKAA',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 31, y: 10, z: 25},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/688/mainImg.webp',
+      '/media/products/bag/688/mainImg2.webp',
+      '/media/products/bag/688/mainImg3.webp',
+      '/media/products/bag/688/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/18/detailImg.png',
+//      '/media/products/bag/18/detailImg2.png',
+//      '/media/products/bag/18/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/18/wearingImg.png',
+//      '/media/products/bag/18/wearingImg2.png',
+//      '/media/products/bag/18/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "689": {
+    id: 689,
+    modelNumber: 'H072069CKBK',
+    name: '에르메스 에르백 집 31 백 셀리에 H 베를린 캔버스 & 팔라듐 하드웨어 아르두아즈 에크류 누아 누아',
+    enName: 'Hermes Herbag Zip 31 Bag Sellier H Berllin Canvas & Palladium Ardoise Ecru Noir Noir',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "6",
+    modelGroup:'H072069CKAA',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 31, y: 10, z: 25},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/689/mainImg.webp',
+      '/media/products/bag/689/mainImg2.webp',
+      '/media/products/bag/689/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/18/detailImg.png',
+//      '/media/products/bag/18/detailImg2.png',
+//      '/media/products/bag/18/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/18/wearingImg.png',
+//      '/media/products/bag/18/wearingImg2.png',
+//      '/media/products/bag/18/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "690": {
+    id: 690,
+    modelNumber: 'H082270CKAB',
+    name: '에르메스 에르백 집 31 백 셀리에 캔버스 & 팔라듐 하드웨어 듄 매그놀리아 포브',
+    enName: 'Hermes Herbag Zip 31 Bag Sellier Canvas & Palladium Dune Magnolia Fauve',
+    brand: '에르메스',
+    enBrand: 'Hermes',
+    category: "6",
+    modelGroup:'H072069CKAA',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 31, y: 10, z: 25},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/690/mainImg.webp',
+      '/media/products/bag/690/mainImg2.webp',
+      '/media/products/bag/690/mainImg3.webp',
+      '/media/products/bag/690/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/18/detailImg.png',
+//      '/media/products/bag/18/detailImg2.png',
+//      '/media/products/bag/18/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/18/wearingImg.png',
+//      '/media/products/bag/18/wearingImg2.png',
+//      '/media/products/bag/18/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
       },
     ]
   },
