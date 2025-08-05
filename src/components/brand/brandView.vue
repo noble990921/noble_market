@@ -46,7 +46,7 @@
                   v-for="i in displayedProducts"
                   :key="i.id"
                   class="product_list"
-                  @click="$router.push(`/${brand}/detail/${i.id}`)"
+                  @click="$router.push(`/${CATEGORY_CODE_TO_NAME[i.category]}/detail/${i.id}`)"
               >
                 <div class="img_box">
                   <img :src="i.mainImg[0]">
@@ -75,7 +75,7 @@
 </template>
 
 <script>
-  import {SET_CATEGORY_MAP, SET_PRODUCT_BRAND} from "@/constants/Set";
+  import {SET_CATEGORY_MAP, SET_PRODUCT_BRAND,CATEGORY_CODE_TO_NAME} from "@/constants/Set";
   //  import {db} from "@/firebase";
   import {ALL_PRODUCTS} from "@/data/products";
 
@@ -121,6 +121,7 @@
     },
     data() {
       return {
+        CATEGORY_CODE_TO_NAME,
         reverseCategoryMap,
         SET_PRODUCT_BRAND,
         total: 0,
