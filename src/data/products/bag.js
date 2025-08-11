@@ -845,7 +845,7 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/6/mainImg.png',
+      '/media/products/bag/6/mainImg1.png?v=1',
       '/media/products/bag/6/mainImg2.png',
       '/media/products/bag/6/mainImg3.png',
       '/media/products/bag/6/mainImg4.png',
@@ -1280,7 +1280,7 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/616/mainImg.png',
+      '/media/products/bag/616/mainImg.webp?v=1',
     ],
 //    detailImg: [
 //      '/media/products/bag/6/detailImg.png',
