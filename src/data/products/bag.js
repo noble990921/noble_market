@@ -6110,6 +6110,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
+    modelGroup:'2ESCA339YSE-H05E',
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
@@ -6156,6 +6157,61 @@ export const PRODUCTS = {
       },
     ]
   },
+  "691": {
+    id: 691,
+    modelNumber: '2ESCA339YSE-H03E',
+    name: '디올 A4 파우치 블랙 디올 오블리크 자카드',
+    enName: 'Dior A4 Pouch Black Dior Oblique Jacquard',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'2ESCA339YSE-H05E',
+    subCategory: {id: 6, title: "클러치", img: "clutch"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 35.5, y: 2, z: 24},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/691/mainImg.webp',
+      '/media/products/bag/691/mainImg2.webp',
+      '/media/products/bag/691/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/20/detailImg.png',
+//      '/media/products/bag/20/detailImg2.png',
+//      '/media/products/bag/20/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/20/wearingImg.png',
+//      '/media/products/bag/20/wearingImg2.png',
+//      '/media/products/bag/20/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "21": {
     id: 21,
     modelNumber: '194372BZK-04LU',
@@ -6164,6 +6220,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
+    modelGroup:'194372BZK-04LU',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -6209,6 +6266,115 @@ export const PRODUCTS = {
       },
     ]
   },
+  "692": {
+    id: 692,
+    modelNumber: '194372BZK-01BC',
+    name: '셀린느 트리옹프 캔버스 & 셀린느 프린트 카프스킨 미니 버티컬 카바스 화이트',
+    enName: 'Celine Mini Vertical Cabas in Triomphe Canvas and Calfskin with Celine Print White',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'194372BZK-04LU',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17, y: 6, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/692/mainImg.webp',
+      '/media/products/bag/692/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/21/detailImg.png',
+//      '/media/products/bag/21/detailImg2.png',
+//      '/media/products/bag/21/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "693": {
+    id: 693,
+    modelNumber: '194372FLT-02GR',
+    name: '셀린느 트리옹프 캔버스 카프스킨 미니 버티컬 카바스 그레지',
+    enName: 'Celine Mini Vertical Cabas in Triomphe Canvas and Calfskin Grege',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'194372BZK-04LU',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17, y: 6, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/693/mainImg.webp',
+      '/media/products/bag/693/mainImg2.webp',
+      '/media/products/bag/693/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/21/detailImg.png',
+//      '/media/products/bag/21/detailImg2.png',
+//      '/media/products/bag/21/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "22": {
     id: 22,
     modelNumber: '449654-BMJ1G-1000',
@@ -6217,6 +6383,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
+    modelGroup:'449654-BMJ1G-1000',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -6262,6 +6429,115 @@ export const PRODUCTS = {
       },
     ]
   },
+  "694": {
+    id: 694,
+    modelNumber: '449654-BMJ1G-1226',
+    name: '구찌 마이크로 시마 미니 돔 토트백 그레이',
+    enName: 'Gucci Micro Ssima Mini Dome Tote Bag Grey',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'449654-BMJ1G-1000',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 10, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/694/mainImg.webp',
+      '/media/products/bag/694/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/22/detailImg.png',
+//      '/media/products/bag/22/detailImg2.png',
+//      '/media/products/bag/22/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "695": {
+    id: 695,
+    modelNumber: '449654-BMJ1G-6420',
+    name: '구찌 마이크로 시마 미니 돔 토트백 레드',
+    enName: 'Gucci Micro Ssima Mini Dome Tote Bag Red',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'449654-BMJ1G-1000',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 10, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/695/mainImg.webp',
+      '/media/products/bag/695/mainImg2.webp',
+      '/media/products/bag/695/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/22/detailImg.png',
+//      '/media/products/bag/22/detailImg2.png',
+//      '/media/products/bag/22/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "23": {
     id: 23,
     modelNumber: '120722FQM-04LU',
@@ -6270,6 +6546,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
+    modelGroup:'120722FQM-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6316,6 +6593,171 @@ export const PRODUCTS = {
       },
     ]
   },
+  "696": {
+    id: 696,
+    modelNumber: '120723DPJ-38NO',
+    name: '셀린느 틴 룰루 서플 그레인 카프스킨 블랙',
+    enName: 'Celine Teen Lulu in Supple Grained Calfskin Black',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'120722FQM-04LU',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 21, y: 5, z: 24},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/696/mainImg.webp',
+      '/media/products/bag/696/mainImg2.webp',
+      '/media/products/bag/696/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/23/detailImg.png',
+//      '/media/products/bag/23/detailImg2.png',
+//      '/media/products/bag/23/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "697": {
+    id: 697,
+    modelNumber: '120723DPJ-01RC',
+    name: '셀린느 틴 룰루 서플 그레인 카프스킨 라이스',
+    enName: 'Celine Teen Lulu in Supple Grained Calfskin Rice',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'120722FQM-04LU',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 21, y: 5, z: 24},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/697/mainImg.webp',
+      '/media/products/bag/697/mainImg2.webp',
+      '/media/products/bag/697/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/23/detailImg.png',
+//      '/media/products/bag/23/detailImg2.png',
+//      '/media/products/bag/23/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "698": {
+    id: 698,
+    modelNumber: '120723DPJ-08GL',
+    name: '셀린느 틴 룰루 서플 그레인 카프스킨 글레이셔',
+    enName: 'Celine Teen Lulu in Supple Grained Calfskin Glacier',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'120722FQM-04LU',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 21, y: 5, z: 24},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/698/mainImg.webp',
+      '/media/products/bag/698/mainImg2.webp',
+      '/media/products/bag/698/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/23/detailImg.png',
+//      '/media/products/bag/23/detailImg2.png',
+//      '/media/products/bag/23/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "24": {
     id: 24,
     modelNumber: '1NE515-2DH0/RDH0-F0002',
@@ -6324,6 +6766,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
+    modelGroup:'1NE515-2DH0/RDH0-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6373,6 +6816,442 @@ export const PRODUCTS = {
       },
     ]
   },
+  "699": {
+    id: 699,
+    modelNumber: '1NE515-RDH0-F0009',
+    name: '프라다 리나일론 리에디션 2000 미니백 화이트',
+    enName: 'Prada Re-Nylon Re-Edition 2000 Mini Bag White',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/699/mainImg.webp',
+      '/media/products/bag/699/mainImg2.webp',
+      '/media/products/bag/699/mainImg3.webp',
+      '/media/products/bag/699/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/24/detailImg.png',
+//      '/media/products/bag/24/detailImg2.png',
+//      '/media/products/bag/24/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "700": {
+    id: 700,
+    modelNumber: '1NE515-RDH0-F0E18',
+    name: '프라다 리나일론 리에디션 2000 미니백 앨러배스터 핑크',
+    enName: 'Prada Re-Nylon Re-Edition 2000 Mini Bag Alabaster Pink',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/700/mainImg.webp',
+      '/media/products/bag/700/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/24/detailImg.png',
+//      '/media/products/bag/24/detailImg2.png',
+//      '/media/products/bag/24/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "701": {
+    id: 701,
+    modelNumber: '1NE515-RDH0-F0322',
+    name: '프라다 리나일론 리에디션 2000 미니백 시트론 옐로우',
+    enName: 'Prada Re-Nylon Re-Edition 2000 Mini Bag Citron Yellow',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/701/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/24/detailImg.png',
+//      '/media/products/bag/24/detailImg2.png',
+//      '/media/products/bag/24/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "702": {
+    id: 702,
+    modelNumber: '1NE515-RDH0-F0F24',
+    name: '프라다 리나일론 리에디션 2000 미니백 데저트 베이지',
+    enName: 'Prada Re-Nylon Re-Edition 2000 Mini Bag Desert Beige',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/702/mainImg.webp',
+      '/media/products/bag/702/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/24/detailImg.png',
+//      '/media/products/bag/24/detailImg2.png',
+//      '/media/products/bag/24/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "703": {
+    id: 703,
+    modelNumber: '1NE515-RDH0-F0230',
+    name: '프라다 리에디션 2000 리나일론 미니 숄더백 위스테리아',
+    enName: 'Prada Re-Edition 2000 Re-Nylon Mini Shoulder Bag Wisteria',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/703/mainImg.webp',
+      '/media/products/bag/703/mainImg2.webp',
+      '/media/products/bag/703/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/24/detailImg.png',
+//      '/media/products/bag/24/detailImg2.png',
+//      '/media/products/bag/24/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "704": {
+    id: 704,
+    modelNumber: '1NE515-RDH0-F0076',
+    name: '프라다 리나일론 리에디션 2000 미니백 라이트 블루',
+    enName: 'Prada Re-Nylon Re-Edition 2000 Mini Bag Light Blue',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/704/mainImg.webp',
+      '/media/products/bag/704/mainImg2.webp',
+      '/media/products/bag/704/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/24/detailImg.png',
+//      '/media/products/bag/24/detailImg2.png',
+//      '/media/products/bag/24/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "705": {
+    id: 705,
+    modelNumber: '1NE515-RDH0-F0591',
+    name: '프라다 리나일론 리에디션 2000 미니백 콘플라워',
+    enName: 'Prada Re-Nylon Re-Edition 2000 Mini Bag Cornflower',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/705/mainImg.webp',
+      '/media/products/bag/705/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/24/detailImg.png',
+//      '/media/products/bag/24/detailImg2.png',
+//      '/media/products/bag/24/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "706": {
+    id: 706,
+    modelNumber: '1NE515-RDH0-F0008',
+    name: '프라다 리에디션 2000 리나일론 미니 숄더백 네이비',
+    enName: 'Prada Re-Edition 2000 Re-Nylon Mini Shoulder Bag Navy',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/706/mainImg.webp',
+      '/media/products/bag/706/mainImg2.webp',
+      '/media/products/bag/706/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/24/detailImg.png',
+//      '/media/products/bag/24/detailImg2.png',
+//      '/media/products/bag/24/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "25": {
     id: 25,
     modelNumber: 'AP3753',
@@ -6381,6 +7260,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
+    modelGroup:'AP3753',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -6427,6 +7307,61 @@ export const PRODUCTS = {
       }, {
         title: '내부 안감 및 구조 동일 구현',
         content: '정품과 동일한 블랙 패브릭 안감 사용. 카드 슬롯과 간결한 수납 구조까지 정밀 재현.'
+      },
+    ]
+  },
+  "707": {
+    id: 707,
+    modelNumber: 'AP3753-B15532-C3906',
+    name: '샤넬 클래식 핸드폰 홀더 체인 달린 샤이니 그레인드 카프스킨 & 실버 메탈 블랙',
+    enName: 'Chanel Classic Phone Holder Clutch with Chain Shiny Grained Calfskin & Silver Black',
+    brand: '샤넬',
+    enBrand: 'Chanel',
+    category: "6",
+    modelGroup:'AP3753',
+    subCategory: {id: 2, title: "백팩", img: "backpack"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 13, y: 9, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/707/mainImg.webp',
+      '/media/products/bag/707/mainImg2.webp',
+      '/media/products/bag/707/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/25/detailImg.png',
+//      '/media/products/bag/25/detailImg2.png',
+//      '/media/products/bag/25/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/21/wearingImg.png',
+//      '/media/products/bag/21/wearingImg2.png',
+//      '/media/products/bag/21/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
       },
     ]
   },
@@ -6493,6 +7428,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
+    modelGroup:'M45985',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6541,6 +7477,171 @@ export const PRODUCTS = {
       },
     ]
   },
+  "708": {
+    id: 708,
+    modelNumber: 'M46049',
+    name: '루이비통 다이앤 모노그램 푸시아',
+    enName: 'Louis Vuitton Diane Monogram Fuchsia',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 9, z: 15},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/708/mainImg.webp',
+      '/media/products/bag/708/mainImg2.webp',
+      '/media/products/bag/708/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/27/detailImg.png',
+//      '/media/products/bag/27/detailImg2.png',
+//      '/media/products/bag/27/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/27/wearingImg.png',
+//      '/media/products/bag/27/wearingImg2.png',
+//      '/media/products/bag/27/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "709": {
+    id: 709,
+    modelNumber: 'M13070',
+    name: '루이비통 다이앤 데님 블루',
+    enName: 'Louis Vuitton Diane Denim Blue',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 9, z: 15},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/709/mainImg.webp',
+      '/media/products/bag/709/mainImg2.webp',
+      '/media/products/bag/709/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/27/detailImg.png',
+//      '/media/products/bag/27/detailImg2.png',
+//      '/media/products/bag/27/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/27/wearingImg.png',
+//      '/media/products/bag/27/wearingImg2.png',
+//      '/media/products/bag/27/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "710": {
+    id: 710,
+    modelNumber: 'M14214',
+    name: '루이비통 다이앤 그레이 쿼츠 핑크 베이지',
+    enName: 'Louis Vuitton Diane Grey Quartz Pink Beige',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 9, z: 15},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/710/mainImg.webp',
+      '/media/products/bag/710/mainImg2.webp',
+      '/media/products/bag/710/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/27/detailImg.png',
+//      '/media/products/bag/27/detailImg2.png',
+//      '/media/products/bag/27/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/27/wearingImg.png',
+//      '/media/products/bag/27/wearingImg2.png',
+//      '/media/products/bag/27/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "28": {
     id: 28,
     modelNumber: 'CHC21WS397E6690U',
@@ -6549,6 +7650,7 @@ export const PRODUCTS = {
     brand: '끌로에',
     enBrand: 'Chloe',
     category: "6",
+    modelGroup:'M45985',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -6594,6 +7696,489 @@ export const PRODUCTS = {
       },
     ]
   },
+  "711": {
+    id: 711,
+    modelNumber: 'CHC22AS397I2690U/CHC22AS397J0890U',
+    name: '끌로에 우디 스몰 토트백 화이트 브라운',
+    enName: 'Chloe Woody Small Tote Bag White Brown',
+    brand: '끌로에',
+    enBrand: 'Chloe',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26.5, y: 8, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/711/mainImg.webp',
+      '/media/products/bag/711/mainImg2.webp',
+      '/media/products/bag/711/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/28/detailImg.png',
+//      '/media/products/bag/28/detailImg2.png',
+//      '/media/products/bag/28/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/28/wearingImg.png',
+//      '/media/products/bag/28/wearingImg2.png',
+//      '/media/products/bag/28/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "712": {
+    id: 712,
+    modelNumber: 'CHC22AS397J2890U',
+    name: '끌로에 우디 스몰 토트백 화이트 브라운',
+    enName: 'Chloe Woody Small Tote Bag White Brown',
+    brand: '끌로에',
+    enBrand: 'Chloe',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26.5, y: 8, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/712/mainImg.webp',
+      '/media/products/bag/712/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/28/detailImg.png',
+//      '/media/products/bag/28/detailImg2.png',
+//      '/media/products/bag/28/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/28/wearingImg.png',
+//      '/media/products/bag/28/wearingImg2.png',
+//      '/media/products/bag/28/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "713": {
+    id: 713,
+    modelNumber: 'CHC23AS397L1726Y',
+    name: '끌로에 우디 스몰 토트백 블러쉬 베이지',
+    enName: 'Chloe Woody Small Tote Bag Blushy Beige',
+    brand: '끌로에',
+    enBrand: 'Chloe',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26.5, y: 8, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/713/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/28/detailImg.png',
+//      '/media/products/bag/28/detailImg2.png',
+//      '/media/products/bag/28/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/28/wearingImg.png',
+//      '/media/products/bag/28/wearingImg2.png',
+//      '/media/products/bag/28/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "714": {
+    id: 714,
+    modelNumber: 'CHC22AS397I266J5',
+    name: '끌로에 우디 스몰 토트백 시멘트 핑크',
+    enName: 'Chloe Woody Small Tote Bag Cement Pink',
+    brand: '끌로에',
+    enBrand: 'Chloe',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26.5, y: 8, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/714/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/28/detailImg.png',
+//      '/media/products/bag/28/detailImg2.png',
+//      '/media/products/bag/28/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/28/wearingImg.png',
+//      '/media/products/bag/28/wearingImg2.png',
+//      '/media/products/bag/28/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "715": {
+    id: 715,
+    modelNumber: 'CHC22AS397I26-746',
+    name: '끌로에 우디 스몰 토트백 허니 골드',
+    enName: 'Chloe Woody Small Tote Bag Honey Gold',
+    brand: '끌로에',
+    enBrand: 'Chloe',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26.5, y: 8, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/715/mainImg.webp',
+      '/media/products/bag/715/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/28/detailImg.png',
+//      '/media/products/bag/28/detailImg2.png',
+//      '/media/products/bag/28/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/28/wearingImg.png',
+//      '/media/products/bag/28/wearingImg2.png',
+//      '/media/products/bag/28/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "716": {
+    id: 716,
+    modelNumber: 'CHC22AS397I2600O',
+    name: '끌로에 우디 스몰 토트백 머스크 그레이',
+    enName: 'Chloe Woody Small Tote Bag Musk Grey',
+    brand: '끌로에',
+    enBrand: 'Chloe',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26.5, y: 8, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/716/mainImg.webp',
+      '/media/products/bag/716/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/28/detailImg.png',
+//      '/media/products/bag/28/detailImg2.png',
+//      '/media/products/bag/28/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/28/wearingImg.png',
+//      '/media/products/bag/28/wearingImg2.png',
+//      '/media/products/bag/28/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "717": {
+    id: 717,
+    modelNumber: 'CHC25SS397O81074',
+    name: '끌로에 우디 스몰 토트백 그레이',
+    enName: 'Chloe Woody Small Tote Bag Gray',
+    brand: '끌로에',
+    enBrand: 'Chloe',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26.5, y: 8, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/717/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/28/detailImg.png',
+//      '/media/products/bag/28/detailImg2.png',
+//      '/media/products/bag/28/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/28/wearingImg.png',
+//      '/media/products/bag/28/wearingImg2.png',
+//      '/media/products/bag/28/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "718": {
+    id: 718,
+    modelNumber: 'CHC22AS397J2891J',
+    name: '끌로에 우디 스몰 스트랩 토트백 화이트 블루',
+    enName: 'Chloe Woody Small Strap Tote Bag White Blue',
+    brand: '끌로에',
+    enBrand: 'Chloe',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26.5, y: 8, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/718/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/28/detailImg.png',
+//      '/media/products/bag/28/detailImg2.png',
+//      '/media/products/bag/28/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/28/wearingImg.png',
+//      '/media/products/bag/28/wearingImg2.png',
+//      '/media/products/bag/28/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "719": {
+    id: 719,
+    modelNumber: 'CHC22AS397I2691J',
+    name: '끌로에 우디 스몰 스트랩 토트백 네이비',
+    enName: 'Chloe Woody Small Strap Tote Bag Navy',
+    brand: '끌로에',
+    enBrand: 'Chloe',
+    category: "6",
+    modelGroup:'M45985',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26.5, y: 8, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/719/mainImg.webp',
+      '/media/products/bag/719/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/28/detailImg.png',
+//      '/media/products/bag/28/detailImg2.png',
+//      '/media/products/bag/28/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/28/wearingImg.png',
+//      '/media/products/bag/28/wearingImg2.png',
+//      '/media/products/bag/28/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "29": {
     id: 29,
     modelNumber: 'M20997',
@@ -6602,6 +8187,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
+    modelGroup:'M20997',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -6648,6 +8234,61 @@ export const PRODUCTS = {
       },
     ]
   },
+  "720": {
+    id: 720,
+    modelNumber: 'M21052',
+    name: '루이비통 락미 에버 미니 그레이지',
+    enName: 'Louis Vuitton Lockme Ever Mini Greige',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M20997',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 10, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/720/mainImg.webp',
+      '/media/products/bag/720/mainImg2.webp',
+      '/media/products/bag/720/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/29/detailImg.png',
+//      '/media/products/bag/29/detailImg2.png',
+//      '/media/products/bag/29/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/29/wearingImg.png',
+//      '/media/products/bag/29/wearingImg2.png',
+//      '/media/products/bag/29/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "30": {
     id: 30,
     modelNumber: 'W1292L97BLPL',
@@ -6656,6 +8297,7 @@ export const PRODUCTS = {
     brand: '더 로우',
     enBrand: 'The Row',
     category: "6",
+    modelGroup:'W1292L97BLPL',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6701,6 +8343,214 @@ export const PRODUCTS = {
       },
     ]
   },
+  "721": {
+    id: 721,
+    modelNumber: 'W1292L72MUSHG',
+    name: '더 로우 테라스 레더 백 무스치오',
+    enName: 'The Row Terrasse Bag in Leather Muschio',
+    brand: '더 로우',
+    enBrand: 'The Row',
+    category: "6",
+    modelGroup:'W1292L97BLPL',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 40, y: 18, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/721/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/30/detailImg.png',
+//      '/media/products/bag/30/detailImg2.png',
+//      '/media/products/bag/30/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/30/wearingImg.png',
+//      '/media/products/bag/30/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "722": {
+    id: 722,
+    modelNumber: 'W1292L133NDP',
+    name: '더 로우 테라스 레더 백 인디고',
+    enName: 'The Row Terrasse Bag in Leather indigo',
+    brand: '더 로우',
+    enBrand: 'The Row',
+    category: "6",
+    modelGroup:'W1292L97BLPL',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 40, y: 18, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/722/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/30/detailImg.png',
+//      '/media/products/bag/30/detailImg2.png',
+//      '/media/products/bag/30/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/30/wearingImg.png',
+//      '/media/products/bag/30/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "723": {
+    id: 723,
+    modelNumber: 'W1292L23DBP',
+    name: '더 로우 테라스 그레인드 디어스킨 레더 백 다크 브라운',
+    enName: 'The Row Terrasse Bag in Grained Deerskin Leather Dark Brown',
+    brand: '더 로우',
+    enBrand: 'The Row',
+    category: "6",
+    modelGroup:'W1292L97BLPL',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 40, y: 18, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/723/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/30/detailImg.png',
+//      '/media/products/bag/30/detailImg2.png',
+//      '/media/products/bag/30/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/30/wearingImg.png',
+//      '/media/products/bag/30/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "724": {
+    id: 724,
+    modelNumber: 'W1292L23IVPD',
+    name: '더 로우 테라스 그레인드 디어스킨 레더 백 아이보리',
+    enName: 'The Row Terrasse Bag in Grained Deerskin Leather Ivory',
+    brand: '더 로우',
+    enBrand: 'The Row',
+    category: "6",
+    modelGroup:'W1292L97BLPL',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 40, y: 18, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/724/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/30/detailImg.png',
+//      '/media/products/bag/30/detailImg2.png',
+//      '/media/products/bag/30/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/30/wearingImg.png',
+//      '/media/products/bag/30/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "31": {
     id: 31,
     modelNumber: '680218VCQC48425',
@@ -6709,6 +8559,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
+    modelGroup:'680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -6753,6 +8604,742 @@ export const PRODUCTS = {
       },
     ]
   },
+  "725": {
+    id: 725,
+    modelNumber: '680218VCQC49776',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 포리지',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Porridge',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/725/mainImg.webp',
+      '/media/products/bag/725/mainImg2.webp',
+      '/media/products/bag/725/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "726": {
+    id: 726,
+    modelNumber: '680218VCQC49009',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 화이트',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag White',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/726/mainImg.webp',
+      '/media/products/bag/726/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "727": {
+    id: 727,
+    modelNumber: '680218VCQC43722',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 패러킷',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Parakeet',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/727/mainImg.webp',
+      '/media/products/bag/727/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "728": {
+    id: 728,
+    modelNumber: '680218VCQC42593',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 카멜',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Camel',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/728/mainImg.webp',
+      '/media/products/bag/728/mainImg2.webp',
+      '/media/products/bag/728/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "729": {
+    id: 729,
+    modelNumber: '680218VCQC47344',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 폴른',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Pollen',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/729/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "730": {
+    id: 730,
+    modelNumber: '680218VCQC41556',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 그레이',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Grey',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/730/mainImg.webp',
+      '/media/products/bag/730/mainImg2.webp',
+      '/media/products/bag/730/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "731": {
+    id: 731,
+    modelNumber: '680218VCQC43902',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 틸 워시드',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Teal Washed',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/731/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "732": {
+    id: 732,
+    modelNumber: '680218VCQC43403',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 뉴 소지',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag New Sauge',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/732/mainImg.webp',
+      '/media/products/bag/732/mainImg2.webp',
+      '/media/products/bag/732/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "733": {
+    id: 733,
+    modelNumber: '680218VCQC43035',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 레인트리',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Raintree',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/733/mainImg.webp',
+      '/media/products/bag/733/mainImg2.webp',
+      '/media/products/bag/733/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "734": {
+    id: 734,
+    modelNumber: '680218VCQC42916',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 트래버틴',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Travertine',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/734/mainImg.webp',
+      '/media/products/bag/734/mainImg2.webp',
+      '/media/products/bag/734/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "735": {
+    id: 735,
+    modelNumber: '680218VCQC42132',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 폰덴테',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Fondant',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/735/mainImg.webp',
+      '/media/products/bag/735/mainImg2.webp',
+      '/media/products/bag/735/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "736": {
+    id: 736,
+    modelNumber: '680218VCQC42700',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 아몬드',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Almond',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/736/mainImg.webp',
+      '/media/products/bag/736/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "737": {
+    id: 737,
+    modelNumber: '680218VCQC46705',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 멜론 워시드',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Melon Washed',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/737/mainImg.webp',
+      '/media/products/bag/737/mainImg2.webp',
+      '/media/products/bag/737/mainImg3.webp',
+      '/media/products/bag/737/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "738": {
+    id: 738,
+    modelNumber: '680218VCQC49412',
+    name: '보테가 베네타 스몰 레더 카세트 버킷백 레몬 워시드',
+    enName: 'Bottega Veneta Small Leather Cassette Bucket Bag Lemon Washed',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'680218VCQC48425',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 14, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/738/mainImg.webp',
+      '/media/products/bag/738/mainImg2.webp',
+      '/media/products/bag/738/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/31/detailImg.png',
+//      '/media/products/bag/31/detailImg2.png',
+//      '/media/products/bag/31/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/31/wearingImg.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "32": {
     id: 32,
     modelNumber: '1BH204-NZV-F0632',
@@ -6761,6 +9348,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
+    modelGroup:'1BH204-NZV-F0632',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6802,6 +9390,113 @@ export const PRODUCTS = {
       }, {
         title: '내부 안감 및 구조 동일 구현',
         content: '정품과 동일한 패브릭 안감 사용. 내부 포켓 구성과 수납 디테일까지 정확하게 반영. '
+      },
+    ]
+  },
+  "739": {
+    id: 739,
+    modelNumber: '1BH204-NZV-F02EN',
+    name: '프라다 리에디션 2005 사피아노 레더 숄더백 화이트',
+    enName: 'Prada Re-Edition 2005 Saffiano Leather Shoulder Bag White',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BH204-NZV-F0632',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/739/mainImg.webp',
+      '/media/products/bag/739/mainImg2.webp',
+      '/media/products/bag/739/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/32/detailImg.png',
+//      '/media/products/bag/32/detailImg2.png',
+//      '/media/products/bag/32/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/32/wearingImg.png',
+//      '/media/products/bag/32/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "740": {
+    id: 740,
+    modelNumber: '1BH204-NZV-F0MUH',
+    name: '프라다 리에디션 2005 사피아노 레더 숄더백 카메오 베이지',
+    enName: 'Prada Re-Edition 2005 Saffiano Leather Shoulder Bag Cameo Beige',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BH204-NZV-F0632',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/740/mainImg.webp',
+      '/media/products/bag/740/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/32/detailImg.png',
+//      '/media/products/bag/32/detailImg2.png',
+//      '/media/products/bag/32/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/32/wearingImg.png',
+//      '/media/products/bag/32/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
       },
     ]
   },
