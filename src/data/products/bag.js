@@ -11415,9 +11415,9 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/37/mainImg.webp',
-      '/media/products/bag/37/mainImg2.webp',
-      '/media/products/bag/37/mainImg3.webp',
+      '/media/products/bag/771/mainImg.webp',
+      '/media/products/bag/771/mainImg2.webp',
+      '/media/products/bag/771/mainImg3.webp',
     ],
 //    detailImg: [
 //      '/media/products/bag/771/detailImg.webp',
@@ -11942,6 +11942,7 @@ export const PRODUCTS = {
     brand: '발렌티노',
     enBrand: 'Valentino',
     category: "6",
+    modelGroup:'P0T83HPF0NO',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -11989,6 +11990,429 @@ export const PRODUCTS = {
       }
     ]
   },
+  "779": {
+    id: 779,
+    modelNumber: 'P0T83HPFI16',
+    name: '발렌티노 브이로고 시그니쳐 나파 체인 미니 버킷백 라이트 아이보리',
+    enName: 'Valentino Vlogo Signature Nappa Mini Bucket Bag with Chain Light Ivory',
+    brand: '발렌티노',
+    enBrand: 'Valentino',
+    category: "6",
+    modelGroup:'P0T83HPF0NO',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 20, y: 8.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/779/mainImg.webp',
+      '/media/products/bag/779/mainImg2.webp',
+      '/media/products/bag/779/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/779/detailImg.png',
+//      '/media/products/bag/779/detailImg2.png',
+//      '/media/products/bag/779/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/40/wearingImg.png',
+//      '/media/products/bag/40/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "780": {
+    id: 780,
+    modelNumber: 'P0T83HPFKN8',
+    name: '발렌티노 브이로고 시그니쳐 미니 버킷백 옐로우',
+    enName: 'Valentino Vlogo Signature Mini Bucket Bag Yellow',
+    brand: '발렌티노',
+    enBrand: 'Valentino',
+    category: "6",
+    modelGroup:'P0T83HPF0NO',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 20, y: 8.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/780/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/779/detailImg.png',
+//      '/media/products/bag/779/detailImg2.png',
+//      '/media/products/bag/779/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/40/wearingImg.png',
+//      '/media/products/bag/40/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "781": {
+    id: 781,
+    modelNumber: 'P0T83HPFZQQ',
+    name: '발렌티노 브이로고 시그니쳐 나파 체인 미니 버킷백 핑크',
+    enName: 'Valentino Vlogo Signature Nappa Mini Bucket Bag with Chain Pink',
+    brand: '발렌티노',
+    enBrand: 'Valentino',
+    category: "6",
+    modelGroup:'P0T83HPF0NO',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 20, y: 8.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/781/mainImg.webp',
+      '/media/products/bag/781/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/779/detailImg.png',
+//      '/media/products/bag/779/detailImg2.png',
+//      '/media/products/bag/779/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/40/wearingImg.png',
+//      '/media/products/bag/40/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "782": {
+    id: 782,
+    modelNumber: 'P0T83HPFA76',
+    name: '발렌티노 브이로고 시그니쳐 나파 체인 미니 버킷백 캔디 로즈',
+    enName: 'Valentino Vlogo Signature Nappa Mini Bucket Bag with Chain Candy Rose',
+    brand: '발렌티노',
+    enBrand: 'Valentino',
+    category: "6",
+    modelGroup:'P0T83HPF0NO',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 20, y: 8.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/782/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/779/detailImg.png',
+//      '/media/products/bag/779/detailImg2.png',
+//      '/media/products/bag/779/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/40/wearingImg.png',
+//      '/media/products/bag/40/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "783": {
+    id: 783,
+    modelNumber: 'P0T83HPFGF9',
+    name: '발렌티노 브이로고 시그니쳐 나파 체인 미니 버킷백 로즈 카넬',
+    enName: 'Valentino Vlogo Signature Nappa Mini Bucket Bag with Chain Rose Cannelle',
+    brand: '발렌티노',
+    enBrand: 'Valentino',
+    category: "6",
+    modelGroup:'P0T83HPF0NO',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 20, y: 8.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/783/mainImg.webp',
+      '/media/products/bag/783/mainImg2.webp',
+      '/media/products/bag/783/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/779/detailImg.png',
+//      '/media/products/bag/779/detailImg2.png',
+//      '/media/products/bag/779/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/40/wearingImg.png',
+//      '/media/products/bag/40/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "784": {
+    id: 784,
+    modelNumber: 'P0T83HPFJU5',
+    name: '발렌티노 브이로고 시그니쳐 나파 체인 미니 버킷백 루즈 퓌르',
+    enName: 'Valentino Vlogo Signature Nappa Mini Bucket Bag with Chain Rouge Pur',
+    brand: '발렌티노',
+    enBrand: 'Valentino',
+    category: "6",
+    modelGroup:'P0T83HPF0NO',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 20, y: 8.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/784/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/779/detailImg.png',
+//      '/media/products/bag/779/detailImg2.png',
+//      '/media/products/bag/779/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/40/wearingImg.png',
+//      '/media/products/bag/40/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "785": {
+    id: 785,
+    modelNumber: 'P0T83HPF6E0',
+    name: '발렌티노 브이로고 시그니쳐 나파 체인 미니 버킷백 워터 라일락',
+    enName: 'Valentino Vlogo Signature Nappa Mini Bucket Bag with Chain Water Lilac',
+    brand: '발렌티노',
+    enBrand: 'Valentino',
+    category: "6",
+    modelGroup:'P0T83HPF0NO',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 20, y: 8.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/785/mainImg.webp',
+      '/media/products/bag/785/mainImg2.webp',
+      '/media/products/bag/785/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/779/detailImg.png',
+//      '/media/products/bag/779/detailImg2.png',
+//      '/media/products/bag/779/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/40/wearingImg.png',
+//      '/media/products/bag/40/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "786": {
+    id: 786,
+    modelNumber: 'P0T83HPFEW5',
+    name: '발렌티노 브이로고 시그니쳐 미니 버킷백 그린',
+    enName: 'Valentino Vlogo Signature Mini Bucket Bag Green',
+    brand: '발렌티노',
+    enBrand: 'Valentino',
+    category: "6",
+    modelGroup:'P0T83HPF0NO',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 20, y: 8.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/786/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/779/detailImg.png',
+//      '/media/products/bag/779/detailImg2.png',
+//      '/media/products/bag/779/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/40/wearingImg.png',
+//      '/media/products/bag/40/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "41": {
     id: 41,
     modelNumber: '1ADPO093YKY-H28E',
@@ -11997,6 +12421,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
+    modelGroup:'1ADPO093YKY-H28E',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12044,6 +12469,60 @@ export const PRODUCTS = {
         title: '내부 안감 및 구조 동일 구현',
         content: '정품과 동일한 코튼 및 테크니컬 패브릭 혼방 안감 사용. 내부 수납공간과 여밈 구조까지 정확하게 반영.'
       }
+    ]
+  },
+  "787": {
+    id: 787,
+    modelNumber: '1ADPO093YKY-H00N',
+    name: '디올 새들백 블랙 디올 오블리크 자카드',
+    enName: 'Dior Saddle Bag Black Dior Oblique Jacquard',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'1ADPO093YKY-H28E',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 19.5, y: 5.5, z: 15},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/787/mainImg.webp',
+      '/media/products/bag/787/mainImg2.webp',
+      '/media/products/bag/787/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/41/detailImg.png',
+//      '/media/products/bag/41/detailImg2.png',
+//      '/media/products/bag/41/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/41/wearingImg.png',
+//      '/media/products/bag/41/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
     ]
   },
   "42": {
