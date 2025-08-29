@@ -9500,6 +9500,377 @@ export const PRODUCTS = {
       },
     ]
   },
+  "741": {
+    id: 741,
+    modelNumber: '1BH204-NZV-F0CZG',
+    name: '프라다 리에디션 2005 사피아노 레더 백 슬레이트',
+    enName: 'Prada Re-Edition 2005 Saffiano Leather Bag Slate',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BH204-NZV-F0632',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/741/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/32/detailImg.png',
+//      '/media/products/bag/32/detailImg2.png',
+//      '/media/products/bag/32/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/32/wearingImg.png',
+//      '/media/products/bag/32/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "742": {
+    id: 742,
+    modelNumber: '1BH204-NZV-F0EMZ',
+    name: '프라다 리에디션 2005 사피아노 레더 백 페일 블루',
+    enName: 'Prada Re-Edition 2005 Saffiano Leather Bag Pale Blue',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BH204-NZV-F0632',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/742/mainImg.webp',
+      '/media/products/bag/742/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/32/detailImg.png',
+//      '/media/products/bag/32/detailImg2.png',
+//      '/media/products/bag/32/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/32/wearingImg.png',
+//      '/media/products/bag/32/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "743": {
+    id: 743,
+    modelNumber: '1BH204-NZV-F0ETB',
+    name: '프라다 리에디션 2005 사피아노 레더 백 위스테리아',
+    enName: 'Prada Re-Edition 2005 Saffiano Leather Bag Wisteria',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BH204-NZV-F0632',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/743/mainImg.webp',
+      '/media/products/bag/743/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/32/detailImg.png',
+//      '/media/products/bag/32/detailImg2.png',
+//      '/media/products/bag/32/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/32/wearingImg.png',
+//      '/media/products/bag/32/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "744": {
+    id: 744,
+    modelNumber: '1BH204-NZV-F0IS6',
+    name: '프라다 리에디션 2005 사피아노 레더 백 페탈 핑크',
+    enName: 'Prada Re-Edition 2005 Saffiano Leather Bag Petal Pink',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BH204-NZV-F0632',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/744/mainImg.webp',
+      '/media/products/bag/744/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/32/detailImg.png',
+//      '/media/products/bag/32/detailImg2.png',
+//      '/media/products/bag/32/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/32/wearingImg.png',
+//      '/media/products/bag/32/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "745": {
+    id: 745,
+    modelNumber: '1BH204-NZV-F0PCL',
+    name: '프라다 리에디션 2005 사피아노 레더 백 망고',
+    enName: 'Prada Re-Edition 2005 Saffiano Leather Bag Mango',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BH204-NZV-F0632',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/745/mainImg.webp',
+      '/media/products/bag/745/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/32/detailImg.png',
+//      '/media/products/bag/32/detailImg2.png',
+//      '/media/products/bag/32/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/32/wearingImg.png',
+//      '/media/products/bag/32/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "746": {
+    id: 746,
+    modelNumber: '1BH204-NZV-F0WHB',
+    name: '프라다 리에디션 2005 사피아노 레더 백 패스코',
+    enName: 'Prada Re-Edition 2005 Saffiano Leather Bag Pesco',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BH204-NZV-F0632',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/746/mainImg.webp',
+      '/media/products/bag/746/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/32/detailImg.png',
+//      '/media/products/bag/32/detailImg2.png',
+//      '/media/products/bag/32/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/32/wearingImg.png',
+//      '/media/products/bag/32/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "747": {
+    id: 747,
+    modelNumber: '1BH204-NZV-F0WZT',
+    name: '프라다 리에디션 2005 사피아노 레더 숄더백 알라바스터',
+    enName: 'Prada Re-Edition 2005 Saffiano Leather Shoulder Bag Alabaster',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BH204-NZV-F0632',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/747/mainImg.webp',
+      '/media/products/bag/747/mainImg2.webp',
+      '/media/products/bag/747/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/32/detailImg.png',
+//      '/media/products/bag/32/detailImg2.png',
+//      '/media/products/bag/32/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/32/wearingImg.png',
+//      '/media/products/bag/32/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "33": {
     id: 33,
     modelNumber: '118703GGT-38NO',
@@ -9508,6 +9879,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
+    modelGroup:'118703GGT-38NO',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -9558,14 +9930,235 @@ export const PRODUCTS = {
       }
     ]
   },
+  "748": {
+    id: 748,
+    modelNumber: '118703GGT-01RC',
+    name: '셀린느 백팩 보니 스무스 카프스킨 라이스',
+    enName: 'Celine Backpack Bonnie in Smooth Calfskin Rice',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'118703GGT-38NO',
+    subCategory: {id: 2, title: "백팩", img: "backpack"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 13, z: 25},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/748/mainImg.webp',
+      '/media/products/bag/748/mainImg2.webp',
+      '/media/products/bag/748/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/33/detailImg.png',
+//      '/media/products/bag/33/detailImg2.png',
+//      '/media/products/bag/33/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/33/wearingImg.png',
+//      '/media/products/bag/33/wearingImg2.png',
+//      '/media/products/bag/33/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "749": {
+    id: 749,
+    modelNumber: '118703GGT-07FV',
+    name: '셀린느 백팩 보니 스무스 카프스킨 아이스 블루',
+    enName: 'Celine Backpack Bonnie in Smooth Calfskin Ice Blue',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'118703GGT-38NO',
+    subCategory: {id: 2, title: "백팩", img: "backpack"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 13, z: 25},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/749/mainImg.webp',
+      '/media/products/bag/749/mainImg2.webp',
+      '/media/products/bag/749/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/33/detailImg.png',
+//      '/media/products/bag/33/detailImg2.png',
+//      '/media/products/bag/33/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/33/wearingImg.png',
+//      '/media/products/bag/33/wearingImg2.png',
+//      '/media/products/bag/33/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "750": {
+    id: 750,
+    modelNumber: '118702CAS-04LU',
+    name: '셀린느 백팩 보니 트리옹프 캔버스 카프스킨 탄',
+    enName: 'Celine Backpack Bonnie in Triomphe Canvas and Calfskin Tan',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'118703GGT-38NO',
+    subCategory: {id: 2, title: "백팩", img: "backpack"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 13, z: 25},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/750/mainImg.webp',
+      '/media/products/bag/750/mainImg2.webp',
+      '/media/products/bag/750/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/33/detailImg.png',
+//      '/media/products/bag/33/detailImg2.png',
+//      '/media/products/bag/33/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/33/wearingImg.png',
+//      '/media/products/bag/33/wearingImg2.png',
+//      '/media/products/bag/33/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "751": {
+    id: 751,
+    modelNumber: '118702GN3-07EW',
+    name: '셀린느 백팩 보니 텍스타일 트리옹프 올오버 데님 화이트',
+    enName: 'Celine Backpack Bonnie in Textile with Triomphe All-Over Denim White',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'118703GGT-38NO',
+    subCategory: {id: 2, title: "백팩", img: "backpack"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 13, z: 25},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/751/mainImg.webp',
+      '/media/products/bag/751/mainImg2.webp',
+      '/media/products/bag/751/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/33/detailImg.png',
+//      '/media/products/bag/33/detailImg2.png',
+//      '/media/products/bag/33/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/33/wearingImg.png',
+//      '/media/products/bag/33/wearingImg2.png',
+//      '/media/products/bag/33/wearingImg3.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "34": {
     id: 34,
-    modelNumber: '5BP078 N88 F0002',
+    modelNumber: '5BP078-N88-F0002/5BP078-AN88-F0002',
     name: '미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 블랙',
     enName: 'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag Black',
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
+    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -9615,6 +10208,541 @@ export const PRODUCTS = {
       }
     ]
   },
+  "752": {
+    id: 752,
+    modelNumber: '5BP078-N88-F0118/5BP078-AN88-F0118',
+    name: '미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 실버',
+    enName: 'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag Silver',
+    brand: '미우 미우',
+    enBrand: 'Miu Miu',
+    category: "6",
+    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 5.5, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/752/mainImg.webp',
+      '/media/products/bag/752/mainImg2.webp',
+      '/media/products/bag/752/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/34/detailImg.png',
+//      '/media/products/bag/34/detailImg2.png',
+//      '/media/products/bag/34/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/34/wearingImg.png',
+//      '/media/products/bag/34/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "753": {
+    id: 753,
+    modelNumber: '5BP078-N88-F0E18',
+    name: '미우 미우 완더 마테라쎄 나파 레더 호보백 미니백 알라바스터 핑크',
+    enName: 'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag Alabaster Pink',
+    brand: '미우 미우',
+    enBrand: 'Miu Miu',
+    category: "6",
+    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 5.5, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/753/mainImg.webp',
+      '/media/products/bag/753/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/34/detailImg.png',
+//      '/media/products/bag/34/detailImg2.png',
+//      '/media/products/bag/34/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/34/wearingImg.png',
+//      '/media/products/bag/34/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "754": {
+    id: 754,
+    modelNumber: '5BP078-N88-F0638',
+    name: '미우 미우 완더 마테라쎄 나파 레더 호보 미니백 베고니아 핑크',
+    enName: 'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag Begonia Pink',
+    brand: '미우 미우',
+    enBrand: 'Miu Miu',
+    category: "6",
+    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 5.5, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/754/mainImg.webp',
+      '/media/products/bag/754/mainImg2.webp',
+      '/media/products/bag/754/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/34/detailImg.png',
+//      '/media/products/bag/34/detailImg2.png',
+//      '/media/products/bag/34/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/34/wearingImg.png',
+//      '/media/products/bag/34/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "755": {
+    id: 755,
+    modelNumber: '5BP078-N88-F0011',
+    name: '미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 레드',
+    enName: 'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag Red',
+    brand: '미우 미우',
+    enBrand: 'Miu Miu',
+    category: "6",
+    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 5.5, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/755/mainImg.webp',
+      '/media/products/bag/755/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/34/detailImg.png',
+//      '/media/products/bag/34/detailImg2.png',
+//      '/media/products/bag/34/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/34/wearingImg.png',
+//      '/media/products/bag/34/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "756": {
+    id: 756,
+    modelNumber: '5BP078-AN88-F0035',
+    name: '미우 미우 완더 마테라쎄 나파 레더 호보 미니 백 메리골드',
+    enName: 'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag Marigold',
+    brand: '미우 미우',
+    enBrand: 'Miu Miu',
+    category: "6",
+    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 5.5, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/756/mainImg.webp',
+      '/media/products/bag/756/mainImg2.webp',
+      '/media/products/bag/756/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/34/detailImg.png',
+//      '/media/products/bag/34/detailImg2.png',
+//      '/media/products/bag/34/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/34/wearingImg.png',
+//      '/media/products/bag/34/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "757": {
+    id: 757,
+    modelNumber: '5BP078-AN88-F0846',
+    name: '미우 미우 완더 마테라쎄 나파 레더 호보 미니 백 파이라이트',
+    enName: 'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag Pyrite',
+    brand: '미우 미우',
+    enBrand: 'Miu Miu',
+    category: "6",
+    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 5.5, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/757/mainImg.webp',
+      '/media/products/bag/757/mainImg2.webp',
+      '/media/products/bag/757/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/34/detailImg.png',
+//      '/media/products/bag/34/detailImg2.png',
+//      '/media/products/bag/34/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/34/wearingImg.png',
+//      '/media/products/bag/34/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "758": {
+    id: 758,
+    modelNumber: '5BP078-N88-F0009',
+    name: '미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 화이트',
+    enName: 'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag White',
+    brand: '미우 미우',
+    enBrand: 'Miu Miu',
+    category: "6",
+    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 5.5, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/758/mainImg.webp',
+      '/media/products/bag/758/mainImg2.webp',
+      '/media/products/bag/758/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/34/detailImg.png',
+//      '/media/products/bag/34/detailImg2.png',
+//      '/media/products/bag/34/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/34/wearingImg.png',
+//      '/media/products/bag/34/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "759": {
+    id: 759,
+    modelNumber: '5BP078-N88-F0591',
+    name: '미우 미우 완더 마테라쎄 나파 레더 호보 미니백 콘플라워',
+    enName: 'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag Cornflower',
+    brand: '미우 미우',
+    enBrand: 'Miu Miu',
+    category: "6",
+    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 5.5, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/759/mainImg.webp',
+      '/media/products/bag/759/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/34/detailImg.png',
+//      '/media/products/bag/34/detailImg2.png',
+//      '/media/products/bag/34/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/34/wearingImg.png',
+//      '/media/products/bag/34/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "760": {
+    id: 760,
+    modelNumber: '5BP078-N88-F0030',
+    name: '미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 바이올렛',
+    enName: 'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag Violet',
+    brand: '미우 미우',
+    enBrand: 'Miu Miu',
+    category: "6",
+    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 5.5, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/760/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/34/detailImg.png',
+//      '/media/products/bag/34/detailImg2.png',
+//      '/media/products/bag/34/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/34/wearingImg.png',
+//      '/media/products/bag/34/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "761": {
+    id: 761,
+    modelNumber: '5BP078-N88-F0K41',
+    name: '미우 미우 완더 마테라쎄 나파 레더 호보백 미니백 라군 블루',
+    enName: 'Miu Miu Wander Matelasse Nappa Leather Hobo Mini Bag Lagoon Blue',
+    brand: '미우 미우',
+    enBrand: 'Miu Miu',
+    category: "6",
+    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 5.5, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/761/mainImg.webp',
+      '/media/products/bag/761/mainImg2.webp',
+      '/media/products/bag/761/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/34/detailImg.png',
+//      '/media/products/bag/34/detailImg2.png',
+//      '/media/products/bag/34/detailImg3.png',
+//    ],
+//    wearingImg: [
+//      '/media/products/bag/34/wearingImg.png',
+//      '/media/products/bag/34/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "35": {
     id: 35,
     modelNumber: 'M58916',
@@ -9623,6 +10751,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
+    modelGroup:'M58916',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9672,6 +10801,115 @@ export const PRODUCTS = {
       }
     ]
   },
+  "762": {
+    id: 762,
+    modelNumber: 'M58913',
+    name: '루이비통 쁘띠뜨 팔레 모노그램 앙프렝뜨 블랙',
+    enName: 'Louis Vuitton Petit Palais Monogram Empreinte Black',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M58916',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 28, y: 12.5, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/762/mainImg.webp',
+      '/media/products/bag/762/mainImg2.webp',
+      '/media/products/bag/762/mainImg3.webp',
+      '/media/products/bag/762/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/35/detailImg.png',
+//      '/media/products/bag/35/detailImg2.png',
+//      '/media/products/bag/35/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/35/wearingImg.png',
+//      '/media/products/bag/35/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "763": {
+    id: 763,
+    modelNumber: 'M58914',
+    name: '루이비통 쁘띠뜨 팔레 바이 컬러 모노그램 앙프렝뜨 크림',
+    enName: 'Louis Vuitton Petit Palais Bicolor Monogram Empreinte Cream',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M58916',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 28, y: 12.5, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/763/mainImg.webp',
+      '/media/products/bag/763/mainImg2.webp',
+      '/media/products/bag/763/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/35/detailImg.png',
+//      '/media/products/bag/35/detailImg2.png',
+//      '/media/products/bag/35/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/35/wearingImg.png',
+//      '/media/products/bag/35/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "36": {
     id: 36,
     modelNumber: '1N204M-R064-F0002',
@@ -9680,6 +10918,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
+    modelGroup:'1N204M-R064-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -9729,6 +10968,379 @@ export const PRODUCTS = {
       }
     ]
   },
+  "764": {
+    id: 764,
+    modelNumber: '1N204M-R064-F0E18',
+    name: '프라다 리에디션 2005 리나일론 앤 사피아노 미니 백 알라바스터 핑크',
+    enName: 'Prada Re-Edition 2005 Re-Nylon and Saffiano Mini Bag Alabaster Pink',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1N204M-R064-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/764/mainImg.webp',
+      '/media/products/bag/764/mainImg2.webp',
+      '/media/products/bag/764/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/36/detailImg.png',
+//      '/media/products/bag/36/detailImg2.png',
+//      '/media/products/bag/36/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/36/wearingImg.png',
+//      '/media/products/bag/36/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "765": {
+    id: 765,
+    modelNumber: '1N204M-R064-F0DMH',
+    name: '프라다 리에디션 2005 리나일론 앤 사피아노 미니 백 발틱 블루',
+    enName: 'Prada Re-Edition 2005 Re-Nylon and Saffiano Mini Bag Baltic Blue',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1N204M-R064-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/765/mainImg.webp',
+      '/media/products/bag/765/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/36/detailImg.png',
+//      '/media/products/bag/36/detailImg2.png',
+//      '/media/products/bag/36/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/36/wearingImg.png',
+//      '/media/products/bag/36/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "766": {
+    id: 766,
+    modelNumber: '1N204M-R064-F0EMZ',
+    name: '프라다 리에디션 2005 리나일론 앤 사피아노 미니 백 페일 블루',
+    enName: 'Prada Re-Edition 2005 Re-Nylon and Saffiano Mini Bag Pale Blue',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1N204M-R064-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/766/mainImg.webp',
+      '/media/products/bag/766/mainImg2.webp',
+      '/media/products/bag/766/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/36/detailImg.png',
+//      '/media/products/bag/36/detailImg2.png',
+//      '/media/products/bag/36/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/36/wearingImg.png',
+//      '/media/products/bag/36/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "767": {
+    id: 767,
+    modelNumber: '1N204M-R064-F0BR5',
+    name: '프라다 리에디션 2005 리나일론 앤 사피아노 미니백 브랜디',
+    enName: 'Prada Re-Edition 2005 Re-Nylon and Saffiano Mini Bag Brandy',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1N204M-R064-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/767/mainImg.webp',
+      '/media/products/bag/767/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/36/detailImg.png',
+//      '/media/products/bag/36/detailImg2.png',
+//      '/media/products/bag/36/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/36/wearingImg.png',
+//      '/media/products/bag/36/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "768": {
+    id: 768,
+    modelNumber: '1N204M-R064-F0QEY',
+    name: '프라다 리에디션 2005 리나일론 앤 사피아노 미니 백 아이비 그린',
+    enName: 'Prada Re-Edition 2005 Re-Nylon and Saffiano Mini Bag Ivy Green',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1N204M-R064-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/768/mainImg.webp',
+      '/media/products/bag/768/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/36/detailImg.png',
+//      '/media/products/bag/36/detailImg2.png',
+//      '/media/products/bag/36/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/36/wearingImg.png',
+//      '/media/products/bag/36/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "769": {
+    id: 769,
+    modelNumber: '1N204M-R064-F0IJX',
+    name: '프라다 리에디션 2005 리나일론 앤 사피아노 미니 백 앰버',
+    enName: 'Prada Re-Edition 2005 Re-Nylon and Saffiano Mini Bag Amber',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1N204M-R064-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/769/mainImg.webp',
+      '/media/products/bag/769/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/36/detailImg.png',
+//      '/media/products/bag/36/detailImg2.png',
+//      '/media/products/bag/36/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/36/wearingImg.png',
+//      '/media/products/bag/36/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "770": {
+    id: 770,
+    modelNumber: '1N204M-R064-F0Y8C',
+    name: '프라다 리에디션 2005 리나일론 앤 사피아노 미니백 카멜',
+    enName: 'Prada Re-Edition 2005 Re-Nylon and Saffiano Mini Bag Camel',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1N204M-R064-F0002',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 6, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/770/mainImg.webp',
+      '/media/products/bag/770/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/36/detailImg.png',
+//      '/media/products/bag/36/detailImg2.png',
+//      '/media/products/bag/36/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/36/wearingImg.png',
+//      '/media/products/bag/36/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "37": {
     id: 37,
     modelNumber: '1BA217-2ERX-F0002',
@@ -9737,6 +11349,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
+    modelGroup:'1BA217-2ERX-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9782,6 +11395,430 @@ export const PRODUCTS = {
         title: '내부 안감 및 구조 동일 구현',
         content: '정품과 동일한 나파 가죽 안감 사용. 내부 수납공간과 여밈 구조까지 정확하게 반영.'
       }
+    ]
+  },
+  "771": {
+    id: 771,
+    modelNumber: '1BA217-2ERX-F0LJ4',
+    name: '프라다 스몰 사피아노 레더 파니에백 블랙 파이어리 레드',
+    enName: 'Prada Small Saffiano Leather Panier Bag Black Fiery Red',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA217-2ERX-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 10.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/37/mainImg.webp',
+      '/media/products/bag/37/mainImg2.webp',
+      '/media/products/bag/37/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/771/detailImg.webp',
+//      '/media/products/bag/771/detailImg2.webp',
+//      '/media/products/bag/771/detailImg3.webp',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/37/wearingImg.png',
+//      '/media/products/bag/37/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "772": {
+    id: 772,
+    modelNumber: '1BA217-2ERX-F0G3Z',
+    name: '프라다 스몰 사피아노 레더 파니에백 화이트 블랙',
+    enName: 'Prada Small Saffiano Leather Paneer Bag White Black',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA217-2ERX-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 10.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/772/mainImg.webp',
+      '/media/products/bag/772/mainImg2.webp',
+      '/media/products/bag/772/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/771/detailImg.webp',
+//      '/media/products/bag/771/detailImg2.webp',
+//      '/media/products/bag/771/detailImg3.webp',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/37/wearingImg.png',
+//      '/media/products/bag/37/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "773": {
+    id: 773,
+    modelNumber: '1BA217-2ERX-F0YOH',
+    name: '프라다 파니에 사피아노 레더 파니에백 핑크',
+    enName: 'Prada Panier Saffiano Leather Panier Bag Pink',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA217-2ERX-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 10.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/773/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/771/detailImg.webp',
+//      '/media/products/bag/771/detailImg2.webp',
+//      '/media/products/bag/771/detailImg3.webp',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/37/wearingImg.png',
+//      '/media/products/bag/37/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "774": {
+    id: 774,
+    modelNumber: '1BA217-2ERX-F0CF5',
+    name: '프라다 스몰 사피아노 레더 파니에백 레드',
+    enName: 'Prada Small Saffiano Leather Panier Bag Red',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA217-2ERX-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 10.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/774/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/771/detailImg.webp',
+//      '/media/products/bag/771/detailImg2.webp',
+//      '/media/products/bag/771/detailImg3.webp',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/37/wearingImg.png',
+//      '/media/products/bag/37/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "775": {
+    id: 775,
+    modelNumber: '1BA217-2ERX-F0049',
+    name: '프라다 스몰 사피아노 레더 파니에백 오렌지',
+    enName: 'Prada Small Saffiano Leather Panier Bag Orange',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA217-2ERX-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 10.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/775/mainImg.webp',
+      '/media/products/bag/775/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/771/detailImg.webp',
+//      '/media/products/bag/771/detailImg2.webp',
+//      '/media/products/bag/771/detailImg3.webp',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/37/wearingImg.png',
+//      '/media/products/bag/37/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "776": {
+    id: 776,
+    modelNumber: '1BA217-2ERX-F0UDW',
+    name: '프라다 스몰 사피아노 레더 프라다 파니에 백 파우더 핑크 블랙',
+    enName: 'Prada Small Saffiano Leather Prada Panier Bag Powder Pink Black',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA217-2ERX-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 10.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/776/mainImg.webp',
+      '/media/products/bag/776/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/771/detailImg.webp',
+//      '/media/products/bag/771/detailImg2.webp',
+//      '/media/products/bag/771/detailImg3.webp',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/37/wearingImg.png',
+//      '/media/products/bag/37/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "777": {
+    id: 777,
+    modelNumber: '1BA217-2ERX-F0E18',
+    name: '프라다 스몰 사피아노 레더 프라다 파니에 백 알라바스터 핑크',
+    enName: 'Prada Small Saffiano Leather Prada Panier Bag Alabaster Pink',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA217-2ERX-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 10.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/777/mainImg.webp',
+      '/media/products/bag/777/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/771/detailImg.webp',
+//      '/media/products/bag/771/detailImg2.webp',
+//      '/media/products/bag/771/detailImg3.webp',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/37/wearingImg.png',
+//      '/media/products/bag/37/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "778": {
+    id: 778,
+    modelNumber: '1BA217-2ERX-F03OE',
+    name: '프라다 스몰 사피아노 레더 프라다 파니에 백 카라멜',
+    enName: 'Prada Small Saffiano Leather Prada Panier Bag Caramel',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA217-2ERX-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 10.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/778/mainImg.webp',
+      '/media/products/bag/778/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/771/detailImg.webp',
+//      '/media/products/bag/771/detailImg2.webp',
+//      '/media/products/bag/771/detailImg3.webp',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/37/wearingImg.png',
+//      '/media/products/bag/37/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
     ]
   },
   "38": {
