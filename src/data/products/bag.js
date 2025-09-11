@@ -12821,9 +12821,8 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/792/mainImg.webp',
-      '/media/products/bag/792/mainImg2.webp',
       '/media/products/bag/792/mainImg3.webp',
+      '/media/products/bag/792/mainImg2.webp',
       '/media/products/bag/792/mainImg4.webp',
     ],
 //    detailImg: [
