@@ -1,22 +1,22 @@
-detailText: [
-  {
-    title: '',
-    content: ''
-  },
-  {
-    title: '',
-    content: ''
-  }, {
-    title: '',
-    content: ''
-  }, {
-    title: '',
-    content: ''
-  }, {
-    title: '',
-    content: ''
-  }, {
-    title: '',
-    content: ''
-  },
-]
+//detailText: [
+//  {
+//    title: '',
+//    content: ''
+//  },
+//  {
+//    title: '',
+//    content: ''
+//  }, {
+//    title: '',
+//    content: ''
+//  }, {
+//    title: '',
+//    content: ''
+//  }, {
+//    title: '',
+//    content: ''
+//  }, {
+//    title: '',
+//    content: ''
+//  },
+//]

@@ -12581,6 +12581,283 @@ export const PRODUCTS = {
       }
     ]
   },
+  "788": {
+    id: 788,
+    modelNumber: '666688VMAY18425',
+    name: '보테가 베네타 미니 레더 카세트백 블랙',
+    enName: 'Bottega Veneta Mini Leather Cassette Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'666688VMAY19009',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 5, z: 10},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/788/mainImg.webp',
+      '/media/products/bag/788/mainImg2.webp',
+      '/media/products/bag/788/mainImg3.webp',
+      '/media/products/bag/788/mainImg4.webp',
+      '/media/products/bag/788/mainImg5.webp',
+      '/media/products/bag/788/mainImg6.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/43/detailImg.png',
+//      '/media/products/bag/43/detailImg2.png',
+//      '/media/products/bag/43/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/43/wearingImg.png',
+//      '/media/products/bag/43/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "789": {
+    id: 789,
+    modelNumber: '666688VMAY12714',
+    name: '보테가 베네타 미니 레더 카세트백 아몬드',
+    enName: 'Bottega Veneta Mini Leather Cassette Almond',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'666688VMAY19009',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 5, z: 10},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/789/mainImg.webp',
+      '/media/products/bag/789/mainImg2.webp',
+      '/media/products/bag/789/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/43/detailImg.png',
+//      '/media/products/bag/43/detailImg2.png',
+//      '/media/products/bag/43/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/43/wearingImg.png',
+//      '/media/products/bag/43/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "790": {
+    id: 790,
+    modelNumber: '666688VMAY13722',
+    name: '보테가 베네타 미니 레더 카세트백 패러킷',
+    enName: 'Bottega Veneta Mini Leather Cassette Parakeet',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'666688VMAY19009',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 5, z: 10},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/790/mainImg.webp',
+      '/media/products/bag/790/mainImg2.webp',
+      '/media/products/bag/790/mainImg3.webp',
+      '/media/products/bag/790/mainImg4.webp',
+      '/media/products/bag/790/mainImg5.webp',
+      '/media/products/bag/790/mainImg6.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/43/detailImg.png',
+//      '/media/products/bag/43/detailImg2.png',
+//      '/media/products/bag/43/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/43/wearingImg.png',
+//      '/media/products/bag/43/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "791": {
+    id: 791,
+    modelNumber: '666688VMAY17745',
+    name: '보테가 베네타 미니 레더 카세트백 에이콘',
+    enName: 'Bottega Veneta Mini Leather Cassette Acorn',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'666688VMAY19009',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 5, z: 10},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/791/mainImg.webp',
+      '/media/products/bag/791/mainImg2.webp',
+      '/media/products/bag/791/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/43/detailImg.png',
+//      '/media/products/bag/43/detailImg2.png',
+//      '/media/products/bag/43/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/43/wearingImg.png',
+//      '/media/products/bag/43/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "792": {
+    id: 792,
+    modelNumber: '666688VMAY19776',
+    name: '보테가 베네타 미니 레더 카세트백 포리지',
+    enName: 'Bottega Veneta Mini Leather Cassette Porridge',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'666688VMAY19009',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 5, z: 10},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/792/mainImg.webp',
+      '/media/products/bag/792/mainImg2.webp',
+      '/media/products/bag/792/mainImg3.webp',
+      '/media/products/bag/792/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/43/detailImg.png',
+//      '/media/products/bag/43/detailImg2.png',
+//      '/media/products/bag/43/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/43/wearingImg.png',
+//      '/media/products/bag/43/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
   "43": {
     id: 43,
     modelNumber: '666688VMAY19009',
@@ -12645,6 +12922,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
+    modelGroup:'M58009',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -12695,6 +12973,218 @@ export const PRODUCTS = {
         title: '내부 안감 및 구조 동일 구현',
         content: '정품과 동일한 텍스타일 안감 사용. 내부 수납공간과 여밈 구조까지 정확하게 반영.'
       }
+    ]
+  },
+  "793": {
+    id: 793,
+    modelNumber: 'M82510',
+    name: '루이비통 미니 포쉐트 악세수아 온 체인 모노그램',
+    enName: 'Louis Vuitton Mini Pochette Accessoires on Chain Monogram',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M58009',
+    subCategory: {id: 1, title: "미니백", img: "minibag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 15.5, y: 4, z: 10.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/793/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/44/detailImg.png',
+//      '/media/products/bag/44/detailImg2.png',
+//      '/media/products/bag/44/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/44/wearingImg.png',
+//      '/media/products/bag/44/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "794": {
+    id: 794,
+    modelNumber: 'N58009',
+    name: '루이비통 미니 포쉐트 악세수아 다미에 에벤',
+    enName: 'Louis Vuitton Mini Pochette Accessoires Damier Ebene',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M58009',
+    subCategory: {id: 1, title: "미니백", img: "minibag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 15.5, y: 4, z: 10.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/794/mainImg.webp',
+      '/media/products/bag/794/mainImg2.webp',
+      '/media/products/bag/794/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/44/detailImg.png',
+//      '/media/products/bag/44/detailImg2.png',
+//      '/media/products/bag/44/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/44/wearingImg.png',
+//      '/media/products/bag/44/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "795": {
+    id: 795,
+    modelNumber: 'N58010',
+    name: '루이비통 미니 포쉐트 악세수아 다미에 아주르',
+    enName: 'Louis Vuitton Mini Pochette Accessoires Damier Azur',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M58009',
+    subCategory: {id: 1, title: "미니백", img: "minibag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 15.5, y: 4, z: 10.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/795/mainImg.webp',
+      '/media/products/bag/795/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/44/detailImg.png',
+//      '/media/products/bag/44/detailImg2.png',
+//      '/media/products/bag/44/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/44/wearingImg.png',
+//      '/media/products/bag/44/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "796": {
+    id: 796,
+    modelNumber: 'M80732',
+    name: '루이비통 미니 포쉐트 악세수아 바이 컬러 모노그램 앙프렝뜨 블랙 베이지',
+    enName: 'Louis Vuitton Mini Pochette Accessoires Bicolor Monogram Empreinte Black Beige',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M58009',
+    subCategory: {id: 1, title: "미니백", img: "minibag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 15.5, y: 4, z: 10.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/796/mainImg.webp',
+      '/media/products/bag/796/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/44/detailImg.png',
+//      '/media/products/bag/44/detailImg2.png',
+//      '/media/products/bag/44/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/44/wearingImg.png',
+//      '/media/products/bag/44/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
     ]
   },
   "45": {
@@ -12760,6 +13250,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
+    modelGroup:'447632-DTD1T-1000',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12805,6 +13296,115 @@ export const PRODUCTS = {
         title: '내부 안감 및 구조 동일 구현',
         content: '정품과 동일한 마이크로파이버 안감 사용. 내부 수납공간과 여밈 구조까지 정확하게 반영.'
       }
+    ]
+  },
+  "797": {
+    id: 797,
+    modelNumber: '447632-DTD1T-9022',
+    name: '구찌 GG 마몽 마틀라세 스몰 체인 숄더백 화이트',
+    enName: 'Gucci GG Marmont Matelasse Small Chain Shoulder Bag White',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'447632-DTD1T-1000',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 7, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/797/mainImg.webp',
+      '/media/products/bag/797/mainImg2.webp',
+      '/media/products/bag/797/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/46/detailImg.png',
+//      '/media/products/bag/46/detailImg2.png',
+//      '/media/products/bag/46/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/46/wearingImg.png',
+//      '/media/products/bag/46/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "798": {
+    id: 798,
+    modelNumber: '447632-DTD1T-5729',
+    name: '구찌 GG 마몽 마틀라세 스몰 체인 숄더백 더스티 핑크',
+    enName: 'Gucci GG Marmont Matelasse Small Chain Shoulder Bag Dusty Pink',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'447632-DTD1T-1000',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 7, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/798/mainImg.webp',
+      '/media/products/bag/798/mainImg2.webp',
+      '/media/products/bag/798/mainImg3.webp',
+      '/media/products/bag/798/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/46/detailImg.png',
+//      '/media/products/bag/46/detailImg2.png',
+//      '/media/products/bag/46/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/46/wearingImg.png',
+//      '/media/products/bag/46/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
     ]
   },
   "47": {
@@ -12870,6 +13470,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
+    modelGroup:'M83113',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12919,6 +13520,60 @@ export const PRODUCTS = {
         title: '내부 안감 및 구조 동일 구현',
         content: '정품과 동일한 워셔블 텍스타일 안감 사용. 내부 수납공간과 여밈 구조까지 정확하게 반영.'
       }
+    ]
+  },
+  "799": {
+    id: 799,
+    modelNumber: 'M83112',
+    name: '루이비통 락커 돕 키트 모노그램',
+    enName: 'Louis Vuitton Locker Dopp Kit Monogram',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M83113',
+    subCategory: {id: 5, title: "크로스백", img: "crossbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 23, y: 11, z: 12},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/799/mainImg.webp',
+      '/media/products/bag/799/mainImg2.webp',
+      '/media/products/bag/799/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/48/detailImg.png',
+//      '/media/products/bag/48/detailImg2.png',
+//      '/media/products/bag/48/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/48/wearingImg.png',
+//      '/media/products/bag/48/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
     ]
   },
   "49": {
@@ -12985,6 +13640,7 @@ export const PRODUCTS = {
     brand: '고야드',
     enBrand: 'Goyard',
     category: "6",
+    modelGroup:'APMSENAT2-MM-01',
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
@@ -13031,6 +13687,271 @@ export const PRODUCTS = {
         title: '내부 안감 및 구조 동일 구현',
         content: '정품과 동일한 옐로우 코튼 안감 사용. 내부 수납공간과 여밈 구조까지 정확하게 반영.'
       }
+    ]
+  },
+  "800": {
+    id: 800,
+    modelNumber: 'APMSENAT2-MM-03',
+    name: '고야드 세나 포쉐트 MM 블랙 탄',
+    enName: 'Goyard Senat Pochette MM Black Tan',
+    brand: '고야드',
+    enBrand: 'Goyard',
+    category: "6",
+    modelGroup:'APMSENAT2-MM-01',
+    subCategory: {id: 6, title: "클러치", img: "clutch"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 2.5, z: 12.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/800/mainImg.webp',
+      '/media/products/bag/800/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/50/detailImg.png',
+//      '/media/products/bag/50/detailImg2.png',
+//      '/media/products/bag/50/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "801": {
+    id: 801,
+    modelNumber: 'APMSENAT2-MM-50',
+    name: '고야드 세나 포쉐트 MM 화이트',
+    enName: 'Goyard Senat Pochette MM White',
+    brand: '고야드',
+    enBrand: 'Goyard',
+    category: "6",
+    modelGroup:'APMSENAT2-MM-01',
+    subCategory: {id: 6, title: "클러치", img: "clutch"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 2.5, z: 12.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/801/mainImg.webp',
+      '/media/products/bag/801/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/50/detailImg.png',
+//      '/media/products/bag/50/detailImg2.png',
+//      '/media/products/bag/50/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "802": {
+    id: 802,
+    modelNumber: 'APMSENAT2-MM-51',
+    name: '고야드 세나 포쉐트 MM 그레이',
+    enName: 'Goyard Senat Pochette MM Grey',
+    brand: '고야드',
+    enBrand: 'Goyard',
+    category: "6",
+    modelGroup:'APMSENAT2-MM-01',
+    subCategory: {id: 6, title: "클러치", img: "clutch"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 2.5, z: 12.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/802/mainImg.webp',
+      '/media/products/bag/802/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/50/detailImg.png',
+//      '/media/products/bag/50/detailImg2.png',
+//      '/media/products/bag/50/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "803": {
+    id: 803,
+    modelNumber: 'APMSENAT2-MM-09',
+    name: '고야드 세나 포쉐트 MM 그린',
+    enName: 'Goyard Senat Pochette MM Green',
+    brand: '고야드',
+    enBrand: 'Goyard',
+    category: "6",
+    modelGroup:'APMSENAT2-MM-01',
+    subCategory: {id: 6, title: "클러치", img: "clutch"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 2.5, z: 12.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/803/mainImg.webp',
+      '/media/products/bag/803/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/50/detailImg.png',
+//      '/media/products/bag/50/detailImg2.png',
+//      '/media/products/bag/50/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "804": {
+    id: 804,
+    modelNumber: 'APMSENAT2-MM-12',
+    name: '고야드 세나 포쉐트 MM 네이비 블루',
+    enName: 'Goyard Senat Pochette MM Navy Blue',
+    brand: '고야드',
+    enBrand: 'Goyard',
+    category: "6",
+    modelGroup:'APMSENAT2-MM-01',
+    subCategory: {id: 6, title: "클러치", img: "clutch"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18, y: 2.5, z: 12.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/804/mainImg.webp',
+      '/media/products/bag/804/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/50/detailImg.png',
+//      '/media/products/bag/50/detailImg2.png',
+//      '/media/products/bag/50/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
     ]
   },
 }
