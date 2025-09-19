@@ -12974,58 +12974,58 @@ export const PRODUCTS = {
       }
     ]
   },
-  "793": {
-    id: 793,
-    modelNumber: 'M82510',
-    name: '루이비통 미니 포쉐트 악세수아 온 체인 모노그램',
-    enName: 'Louis Vuitton Mini Pochette Accessoires on Chain Monogram',
-    brand: '루이비통',
-    enBrand: 'Louis Vuitton',
-    category: "6",
-    modelGroup:'M58009',
-    subCategory: {id: 1, title: "미니백", img: "minibag"},
-    sizeData: {
-      type: 'bag',
-      img: '/media/productDetail/bag_size.png',
-      size: [
-        {unit: 'free', x: 15.5, y: 4, z: 10.5},
-      ]
-    },
-    mainImg: [
-      '/media/products/bag/793/mainImg.webp',
-    ],
-//    detailImg: [
-//      '/media/products/bag/44/detailImg.png',
-//      '/media/products/bag/44/detailImg2.png',
-//      '/media/products/bag/44/detailImg3.png',
+//  "793": {
+//    id: 793,
+//    modelNumber: 'M82510',
+//    name: '루이비통 미니 포쉐트 악세수아 온 체인 모노그램',
+//    enName: 'Louis Vuitton Mini Pochette Accessoires on Chain Monogram',
+//    brand: '루이비통',
+//    enBrand: 'Louis Vuitton',
+//    category: "6",
+//    modelGroup:'M58009',
+//    subCategory: {id: 1, title: "미니백", img: "minibag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 15.5, y: 4, z: 10.5},
+//      ]
+//    },
+//    mainImg: [
+//      '/media/products/bag/793/mainImg.webp',
 //    ],
-//    wearingImg:[
-//      '/media/products/bag/44/wearingImg.png',
-//      '/media/products/bag/44/wearingImg2.png',
-//    ],
-    detailText: [
-      {
-        title: '',
-        content: ''
-      },
-      {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      }, {
-        title: '',
-        content: ''
-      },
-    ]
-  },
+////    detailImg: [
+////      '/media/products/bag/44/detailImg.png',
+////      '/media/products/bag/44/detailImg2.png',
+////      '/media/products/bag/44/detailImg3.png',
+////    ],
+////    wearingImg:[
+////      '/media/products/bag/44/wearingImg.png',
+////      '/media/products/bag/44/wearingImg2.png',
+////    ],
+//    detailText: [
+//      {
+//        title: '',
+//        content: ''
+//      },
+//      {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      },
+//    ]
+//  },
   "794": {
     id: 794,
     modelNumber: 'N58009',
@@ -13044,7 +13044,6 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/794/mainImg.webp',
       '/media/products/bag/794/mainImg2.webp',
       '/media/products/bag/794/mainImg3.webp',
     ],
@@ -13098,7 +13097,6 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/795/mainImg.webp',
       '/media/products/bag/795/mainImg2.webp',
     ],
 //    detailImg: [
@@ -13706,7 +13704,6 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/800/mainImg.webp',
       '/media/products/bag/800/mainImg2.webp',
     ],
 //    detailImg: [
@@ -13759,7 +13756,7 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/801/mainImg.webp',
+//      '/media/products/bag/801/mainImg.webp',
       '/media/products/bag/801/mainImg2.webp',
     ],
 //    detailImg: [
@@ -13813,7 +13810,7 @@ export const PRODUCTS = {
     },
     mainImg: [
       '/media/products/bag/802/mainImg.webp',
-      '/media/products/bag/802/mainImg2.webp',
+//      '/media/products/bag/802/mainImg2.webp',
     ],
 //    detailImg: [
 //      '/media/products/bag/50/detailImg.png',
@@ -13865,7 +13862,7 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/803/mainImg.webp',
+//      '/media/products/bag/803/mainImg.webp',
       '/media/products/bag/803/mainImg2.webp',
     ],
 //    detailImg: [
@@ -13918,7 +13915,7 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/804/mainImg.webp',
+//      '/media/products/bag/804/mainImg.webp',
       '/media/products/bag/804/mainImg2.webp',
     ],
 //    detailImg: [
@@ -14077,7 +14074,7 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/807/mainImg.webp',
+//      '/media/products/bag/807/mainImg.webp',
       '/media/products/bag/807/mainImg2.webp',
     ],
     detailImg: [
@@ -14184,7 +14181,7 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/809/mainImg.webp',
+//      '/media/products/bag/809/mainImg.webp',
       '/media/products/bag/809/mainImg2.webp',
     ],
 //    detailImg: [
@@ -14990,7 +14987,6 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/824/mainImg.webp',
       '/media/products/bag/824/mainImg2.webp',
       '/media/products/bag/824/mainImg3.webp',
     ],
@@ -15311,7 +15307,6 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/830/mainImg.webp',
       '/media/products/bag/830/mainImg2.webp',
       '/media/products/bag/830/mainImg3.webp',
       '/media/products/bag/830/mainImg4.webp',
@@ -15366,7 +15361,6 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/831/mainImg.webp',
       '/media/products/bag/831/mainImg2.webp',
       '/media/products/bag/831/mainImg3.webp',
       '/media/products/bag/831/mainImg4.webp',
