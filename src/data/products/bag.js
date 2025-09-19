@@ -13953,4 +13953,3480 @@ export const PRODUCTS = {
       },
     ]
   },
+  "805": {
+    id: 805,
+    modelNumber: '443497-DTDIT-1000',
+    name: '구찌 GG 마몽 마틀라세 스몰 숄더백 블랙',
+    enName: 'Gucci GG Marmont Matelasse Small Shoulder Bag Black',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'443497-DTDIT-1000',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25.4, y: 7.6, z: 15.2},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/805/mainImg.webp',
+      '/media/products/bag/805/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/805/detailImg.png',
+      '/media/products/bag/805/detailImg2.png',
+      '/media/products/bag/805/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "806": {
+    id: 806,
+    modelNumber: '443497-DTDIT-9022',
+    name: '구찌 GG 마몽 마틀라세 스몰 숄더백 화이트',
+    enName: 'Gucci GG Marmont Matelasse Small Shoulder Bag White',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'443497-DTDIT-1000',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25.4, y: 7.6, z: 15.2},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/806/mainImg.webp',
+      '/media/products/bag/806/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/806/detailImg.png',
+//      '/media/products/bag/806/detailImg2.png',
+//      '/media/products/bag/806/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "807": {
+    id: 807,
+    modelNumber: '443497-DTDIT-5729',
+    name: '구찌 GG 마몽 마틀라세 스몰 숄더백 더스티 핑크',
+    enName: 'Gucci GG Marmont Matelasse Small Shoulder Bag Dusty Pink',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'443497-DTDIT-1000',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25.4, y: 7.6, z: 15.2},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/807/mainImg.webp',
+      '/media/products/bag/807/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/807/detailImg.png',
+      '/media/products/bag/807/detailImg2.png',
+      '/media/products/bag/807/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "808": {
+    id: 808,
+    modelNumber: '782849-AADDX-1060',
+    name: '구찌 재키 스몰 숄더백 블랙 레더',
+    enName: 'Gucci Jackie Small Shoulder Bag Black Leather',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'782849-AADDX-1060',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 27.5, y: 4, z: 19},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/808/mainImg.webp',
+      '/media/products/bag/808/mainImg2.webp',
+      '/media/products/bag/808/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/808/detailImg.png',
+      '/media/products/bag/808/detailImg2.png',
+      '/media/products/bag/808/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "809": {
+    id: 809,
+    modelNumber: '782849-AADDX-2246',
+    name: '구찌 재키 스몰 숄더백 브라운 레더',
+    enName: 'Gucci Jackie Small Shoulder Bag Brown Leather',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'782849-AADDX-1060',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 27.5, y: 4, z: 19},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/809/mainImg.webp',
+      '/media/products/bag/809/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/809/detailImg.png',
+//      '/media/products/bag/809/detailImg2.png',
+//      '/media/products/bag/809/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "810": {
+    id: 810,
+    modelNumber: '8BP129ABVEF0KUR',
+    name: '펜디 퍼스트 스몰 나파 레더 백 블랙',
+    enName: 'Fendi First Small Nappa Leather Bag Black',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "6",
+    modelGroup:'8BP129ABVEF0KUR',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26, y: 9.5, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/810/mainImg.webp',
+      '/media/products/bag/810/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/810/detailImg.png',
+      '/media/products/bag/810/detailImg2.png',
+      '/media/products/bag/810/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "811": {
+    id: 811,
+    modelNumber: '8BP129ABVEF0E65',
+    name: '펜디 퍼스트 스몰 나파 레더 백 도브 그레이',
+    enName: 'Fendi First Small Nappa Leather Bag Dove Grey',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "6",
+    modelGroup:'8BP129ABVEF0KUR',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26, y: 9.5, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/811/mainImg.webp',
+      '/media/products/bag/811/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/810/detailImg.png',
+//      '/media/products/bag/810/detailImg2.png',
+//      '/media/products/bag/810/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "812": {
+    id: 812,
+    modelNumber: '8BP129ABVEF1I2A',
+    name: '펜디 퍼스트 스몰 레더 백 샌드',
+    enName: 'Fendi First Small Leather Bag Sand',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "6",
+    modelGroup:'8BP129ABVEF0KUR',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26, y: 9.5, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/812/mainImg.webp',
+      '/media/products/bag/812/mainImg2.webp',
+      '/media/products/bag/812/mainImg3.webp',
+      '/media/products/bag/812/mainImg4.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/812/detailImg.png',
+      '/media/products/bag/812/detailImg2.png',
+      '/media/products/bag/812/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "813": {
+    id: 813,
+    modelNumber: '8BP129ABVEF0NYJ',
+    name: '펜디 퍼스트 스몰 나파 레더 백 브라운',
+    enName: 'Fendi First Small Nappa Leather Bag Brown',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "6",
+    modelGroup:'8BP129ABVEF0KUR',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 26, y: 9.5, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/813/mainImg.webp',
+      '/media/products/bag/813/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/810/detailImg.png',
+//      '/media/products/bag/810/detailImg2.png',
+//      '/media/products/bag/810/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "814": {
+    id: 814,
+    modelNumber: '10G342CAM-04BT',
+    name: '셀린느 스트랩 라운드 퍼스 트리옹프 캔버스 & 램스킨 블랙 탄',
+    enName: 'Celine Round Purse On Strap in Triomphe Canvas and Lambskin Black Tan',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'10G342CAM-04BT',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 4.4, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/814/mainImg.webp',
+      '/media/products/bag/814/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/814/detailImg.png',
+      '/media/products/bag/814/detailImg2.png',
+      '/media/products/bag/814/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "815": {
+    id: 815,
+    modelNumber: '10G342CAM-01TA',
+    name: '셀린느 트리옹프 캔버스 & 램스킨 스트랩 라운드 퍼스 화이트 탄',
+    enName: 'Celine Round Purse on Strap in Triomphe Canvas and Lambskin White Tan',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'10G342CAM-04BT',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 14, y: 4.4, z: 14},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/815/mainImg.webp',
+      '/media/products/bag/815/mainImg2.webp',
+      '/media/products/bag/815/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/815/detailImg.png',
+//      '/media/products/bag/815/detailImg2.png',
+//      '/media/products/bag/815/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "816": {
+    id: 816,
+    modelNumber: '190402DCI-02NT',
+    name: '셀린느 버티컬 카바스 토트백 내츄럴 탄',
+    enName: 'Celine Vertical Cabas Tote Bag Natural Tan',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 36.5, y: 9, z: 39},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/816/mainImg.webp',
+      '/media/products/bag/816/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/816/detailImg.png',
+      '/media/products/bag/816/detailImg2.png',
+      '/media/products/bag/816/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "817": {
+    id: 817,
+    modelNumber: '114492BZJ-04LU',
+    name: '셀린느 미디움 아바 트리옹프 백 트리옹프 캔버스 카프스킨 탄',
+    enName: 'Celine Medium Ava Triomphe Bag in Triomphe Canvas Calfskin Tan',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'114492BZJ-04LU',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24.5, y: 9, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/817/mainImg.webp',
+      '/media/products/bag/817/mainImg2.webp',
+      '/media/products/bag/817/mainImg3.webp',
+      '/media/products/bag/817/mainImg4.webp',
+      '/media/products/bag/817/mainImg5.webp',
+      '/media/products/bag/817/mainImg6.webp',
+      '/media/products/bag/817/mainImg7.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/817/detailImg.png',
+      '/media/products/bag/817/detailImg2.png',
+      '/media/products/bag/817/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "818": {
+    id: 818,
+    modelNumber: '114493DGQ-38NO',
+    name: '셀린느 미디움 아바 트리옹프 백 스무스 카프스킨 블랙',
+    enName: 'Celine Medium Ava Triomphe Bag in Smooth Calfskin Black',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'114492BZJ-04LU',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24.5, y: 9, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/818/mainImg.webp',
+      '/media/products/bag/818/mainImg2.webp',
+      '/media/products/bag/818/mainImg3.webp',
+      '/media/products/bag/818/mainImg4.webp',
+      '/media/products/bag/818/mainImg5.webp',
+      '/media/products/bag/818/mainImg6.webp',
+      '/media/products/bag/818/mainImg7.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/816/detailImg.png',
+//      '/media/products/bag/816/detailImg2.png',
+//      '/media/products/bag/816/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+//  "819": {
+//    id: 819,
+//    modelNumber: '114493DGQ-04LU',
+//    name: '셀린느 미디움 아바 트리옹프 백 스무스 카프스킨 탄',
+//    enName: 'Celine Medium Ava Triomphe Bag in Smooth Calfskin Tan',
+//    brand: '셀린느',
+//    enBrand: 'Celine',
+//    category: "6",
+//    modelGroup:'114492BZJ-04LU',
+//    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24.5, y: 9, z: 17},
+//      ]
+//    },
+//    mainImg: [
+//      '/media/products/bag/819/mainImg.webp',
+//    ],
+////    detailImg: [
+////      '/media/products/bag/816/detailImg.png',
+////      '/media/products/bag/816/detailImg2.png',
+////      '/media/products/bag/816/detailImg3.png',
+////    ],
+////    wearingImg:[
+////      '/media/products/bag/50/wearingImg.png',
+////      '/media/products/bag/50/wearingImg2.png',
+////    ],
+//    detailText: [
+//      {
+//        title: '',
+//        content: ''
+//      },
+//      {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      },
+//    ]
+//  },
+//  "820": {
+//    id: 820,
+//    modelNumber: '114493DGQ-03ND',
+//    name: '셀린느 스무스 카프스킨 아바 트리옹프 백 누드',
+//    enName: 'Celine Ava Triomphe Bag in Smooth Calfskin Nude',
+//    brand: '셀린느',
+//    enBrand: 'Celine',
+//    category: "6",
+//    modelGroup:'114492BZJ-04LU',
+//    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24.5, y: 9, z: 17},
+//      ]
+//    },
+//    mainImg: [
+//      '/media/products/bag/820/mainImg.webp',
+//      '/media/products/bag/820/mainImg2.webp',
+//    ],
+////    detailImg: [
+////      '/media/products/bag/816/detailImg.png',
+////      '/media/products/bag/816/detailImg2.png',
+////      '/media/products/bag/816/detailImg3.png',
+////    ],
+////    wearingImg:[
+////      '/media/products/bag/50/wearingImg.png',
+////      '/media/products/bag/50/wearingImg2.png',
+////    ],
+//    detailText: [
+//      {
+//        title: '',
+//        content: ''
+//      },
+//      {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      }, {
+//        title: '',
+//        content: ''
+//      },
+//    ]
+//  },
+  "821": {
+    id: 821,
+    modelNumber: '114493DGQ-03PH',
+    name: '셀린느 스무스 카프스킨 미디움 아바 트리옹프 백 소프트 피치',
+    enName: 'Celine Medium Ava Triomphe Bag in Smooth Calfskin Soft Peach',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'114492BZJ-04LU',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24.5, y: 9, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/821/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/816/detailImg.png',
+//      '/media/products/bag/816/detailImg2.png',
+//      '/media/products/bag/816/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "822": {
+    id: 822,
+    modelNumber: '114493DGQ-24PP',
+    name: '셀린느 미디움 아바 트리옹프 백 스무스 카프스킨 파스텔 핑크',
+    enName: 'Celine Medium Ava Triomphe Bag in Smooth Calfskin Pastel Pink',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'114492BZJ-04LU',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24.5, y: 9, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/822/mainImg.webp',
+      '/media/products/bag/822/mainImg2.webp',
+      '/media/products/bag/822/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/816/detailImg.png',
+//      '/media/products/bag/816/detailImg2.png',
+//      '/media/products/bag/816/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "823": {
+    id: 823,
+    modelNumber: '114493DGQ-00WC',
+    name: '셀린느 스무스 카프스킨 미디움 아바 트리옹프 백 화이트 코튼',
+    enName: 'Celine Medium Ava Triomphe Bag in Smooth Calfskin White Cotton',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'114492BZJ-04LU',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24.5, y: 9, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/823/mainImg.webp',
+      '/media/products/bag/823/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/816/detailImg.png',
+//      '/media/products/bag/816/detailImg2.png',
+//      '/media/products/bag/816/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "824": {
+    id: 824,
+    modelNumber: '114493DGQ-18BU',
+    name: '셀린느 미디움 아바 트리옹프 백 스무스 카프스킨 브론즈',
+    enName: 'Celine Medium Ava Triomphe Bag in Smooth Calfskin Bronze',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'114492BZJ-04LU',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24.5, y: 9, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/824/mainImg.webp',
+      '/media/products/bag/824/mainImg2.webp',
+      '/media/products/bag/824/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/816/detailImg.png',
+//      '/media/products/bag/816/detailImg2.png',
+//      '/media/products/bag/816/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "825": {
+    id: 825,
+    modelNumber: 'M21619',
+    name: '루이비통 x 야요이 쿠사마 쿠상 PM 화이트',
+    enName: 'Louis Vuitton x YK Coussin PM White',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M21619',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24.5, y: 9, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/825/mainImg.webp',
+      '/media/products/bag/825/mainImg2.webp',
+      '/media/products/bag/825/mainImg3.webp',
+      '/media/products/bag/825/mainImg4.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/825/detailImg.png',
+      '/media/products/bag/825/detailImg2.png',
+      '/media/products/bag/825/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "826": {
+    id: 826,
+    modelNumber: 'M11370',
+    name: '루이비통 쿠상 PM H32 블랙',
+    enName: 'Louis Vuitton Coussin PM H32 Black',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M21619',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24.5, y: 9, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/825/mainImg.webp',
+      '/media/products/bag/825/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/825/detailImg.png',
+//      '/media/products/bag/825/detailImg2.png',
+//      '/media/products/bag/825/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "827": {
+    id: 827,
+    modelNumber: 'M13313',
+    name: '루이비통 쿠상 PM 워시드 핑크',
+    enName: 'Louis Vuitton Coussin PM Washed Pink',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M21619',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24.5, y: 9, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/827/mainImg.webp',
+      '/media/products/bag/827/mainImg2.webp',
+      '/media/products/bag/827/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/825/detailImg.png',
+//      '/media/products/bag/825/detailImg2.png',
+//      '/media/products/bag/825/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "828": {
+    id: 828,
+    modelNumber: 'M12448',
+    name: '루이비통 쿠상 PM 블랙 골드',
+    enName: 'Louis Vuitton Coussin PM Black Gold',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M21619',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24.5, y: 9, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/828/mainImg.webp',
+      '/media/products/bag/828/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/825/detailImg.png',
+//      '/media/products/bag/825/detailImg2.png',
+//      '/media/products/bag/825/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "829": {
+    id: 829,
+    modelNumber: '660195-UD0AT-2546',
+    name: '구찌 다이애나 스몰 토트백 브라운 레더',
+    enName: 'Gucci Diana Small Tote Bag Brown Leather',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'660195-UD0AT-2546',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 28, y: 11, z: 24},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/829/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/829/detailImg.png',
+      '/media/products/bag/829/detailImg2.png',
+      '/media/products/bag/829/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "830": {
+    id: 830,
+    modelNumber: '702721-FACPO-4948',
+    name: '구찌 다이애나 스몰 토트백 페일 블루 레더',
+    enName: 'Gucci Diana Small Tote Bag Pale Blue Leather',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'660195-UD0AT-2546',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 28, y: 11, z: 24},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/830/mainImg.webp',
+      '/media/products/bag/830/mainImg2.webp',
+      '/media/products/bag/830/mainImg3.webp',
+      '/media/products/bag/830/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/829/detailImg.png',
+//      '/media/products/bag/829/detailImg2.png',
+//      '/media/products/bag/829/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "831": {
+    id: 831,
+    modelNumber: '702721-FACPO-3442',
+    name: '구찌 다이애나 스몰 토트백 페일 그린 레더',
+    enName: 'Gucci Diana Small Tote Bag Pale Green Leather',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'660195-UD0AT-2546',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 28, y: 11, z: 24},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/831/mainImg.webp',
+      '/media/products/bag/831/mainImg2.webp',
+      '/media/products/bag/831/mainImg3.webp',
+      '/media/products/bag/831/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/829/detailImg.png',
+//      '/media/products/bag/829/detailImg2.png',
+//      '/media/products/bag/829/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "832": {
+    id: 832,
+    modelNumber: 'M1296ZRIW',
+    name: '디올 미디움 북 토트백 블루 디올 오블리크 자수',
+    enName: 'Dior Medium Book Tote Blue Dior Oblique Embroidery',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M1296ZRIW',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 36, y: 16.5, z: 27.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/832/mainImg.webp',
+      '/media/products/bag/832/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/832/detailImg.png',
+      '/media/products/bag/832/detailImg2.png',
+      '/media/products/bag/832/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "833": {
+    id: 833,
+    modelNumber: 'M1296ZRIW-M932',
+    name: '디올 미디움 북 토트백 그레이 디올 오블리크 자수',
+    enName: 'Dior Medium Book Tote Grey Dior Oblique Embroidery',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M1296ZRIW',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 36, y: 16.5, z: 27.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/833/mainImg.webp',
+      '/media/products/bag/833/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/832/detailImg.png',
+//      '/media/products/bag/832/detailImg2.png',
+//      '/media/products/bag/832/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "834": {
+    id: 834,
+    modelNumber: 'M1324CZBB-M928',
+    name: '디올 미디움 북 토트백 블루 디올 오블리크 자수 카프 스킨',
+    enName: 'Dior Medium Book Tote Blue Dior Oblique Embroidery Calf Skin',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M1296ZRIW',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 36, y: 16.5, z: 27.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/834/mainImg.webp',
+      '/media/products/bag/834/mainImg2.webp',
+      '/media/products/bag/834/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/832/detailImg.png',
+//      '/media/products/bag/832/detailImg2.png',
+//      '/media/products/bag/832/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "835": {
+    id: 835,
+    modelNumber: 'M1324CZBB-M20I',
+    name: '디올 미디움 북 토트 그레이 디올 오블리크 자수 앤 카프스킨',
+    enName: 'Dior Medium Book Tote Gray Dior Oblique Embroidery and Calfskin',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M1296ZRIW',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 36, y: 16.5, z: 27.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/835/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/832/detailImg.png',
+//      '/media/products/bag/832/detailImg2.png',
+//      '/media/products/bag/832/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "836": {
+    id: 836,
+    modelNumber: 'M1324CZBB-M925',
+    name: '디올 미디움 디올 북 토트 오블리크 자수 앤 카프스킨 내츄럴',
+    enName: 'Dior Medium Dior Book Tote Oblique Embroidery and Calfskin Natural',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M1296ZRIW',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 36, y: 16.5, z: 27.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/836/mainImg.webp',
+      '/media/products/bag/836/mainImg2.webp',
+      '/media/products/bag/836/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/832/detailImg.png',
+//      '/media/products/bag/832/detailImg2.png',
+//      '/media/products/bag/832/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "837": {
+    id: 837,
+    modelNumber: 'M1296ZTDT-M808',
+    name: '디올 미디움 북 토트백 블루 트왈 드 주이 자수',
+    enName: 'Dior Medium Book Tote Blue Toile de Jouy Embroidery',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M1296ZRIW',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 36, y: 16.5, z: 27.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/837/mainImg.webp',
+      '/media/products/bag/837/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/832/detailImg.png',
+//      '/media/products/bag/832/detailImg2.png',
+//      '/media/products/bag/832/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "838": {
+    id: 838,
+    modelNumber: 'M1296ZTDT-M932/M20I',
+    name: '디올 미디움 북 토트백 그레이 트왈 드 주이 자수',
+    enName: 'Dior Medium Book Tote Gray Toile de Jouy Embroidery',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M1296ZRIW',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 36, y: 16.5, z: 27.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/838/mainImg.webp',
+      '/media/products/bag/838/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/832/detailImg.png',
+//      '/media/products/bag/832/detailImg2.png',
+//      '/media/products/bag/832/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "839": {
+    id: 839,
+    modelNumber: 'S5225UDAX-M900',
+    name: '디올 미스 카로 파우치 체인 매크로까나쥬 램스킨 블랙',
+    enName: 'Dior Miss Caro Pouch with Chain Macrocannage Lambskin Blac',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'S5225UDAX-M900',
+    subCategory: {id: 1, title: "미니백", img: "minibag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 19, y: 4.5, z: 11},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/839/mainImg.webp',
+      '/media/products/bag/839/mainImg2.webp',
+      '/media/products/bag/839/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/839/detailImg.png',
+      '/media/products/bag/839/detailImg2.png',
+      '/media/products/bag/839/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "840": {
+    id: 840,
+    modelNumber: 'S5225UDAX-M030',
+    name: '디올 미스 카로 파우치 체인 매크로까나쥬 램스킨 라떼',
+    enName: 'Dior Miss Caro Pouch with Chain Latte Macrocannage Lambskin Latte',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'S5225UDAX-M900',
+    subCategory: {id: 1, title: "미니백", img: "minibag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 19, y: 4.5, z: 11},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/840/mainImg.webp',
+      '/media/products/bag/840/mainImg2.webp',
+      '/media/products/bag/840/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/839/detailImg.png',
+//      '/media/products/bag/839/detailImg2.png',
+//      '/media/products/bag/839/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "841": {
+    id: 841,
+    modelNumber: 'S5225UDAX-M413',
+    name: '디올 미스 카로 파우치 체인 매크로까나쥬 램스킨 파우더 핑크',
+    enName: 'Dior Miss Caro Pouch with Chain Macrocannage Lambskin Powder Pink',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'S5225UDAX-M900',
+    subCategory: {id: 1, title: "미니백", img: "minibag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 19, y: 4.5, z: 11},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/841/mainImg.webp',
+      '/media/products/bag/841/mainImg2.webp',
+      '/media/products/bag/841/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/839/detailImg.png',
+//      '/media/products/bag/839/detailImg2.png',
+//      '/media/products/bag/839/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "842": {
+    id: 842,
+    modelNumber: 'M9242UWHC-M900',
+    name: '디올 미디움 카로백 서플 까나쥬 카프스킨 블랙',
+    enName: 'Dior Medium Caro Bag Supple Cannage Calfskin Black',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M9242UWHC-M900',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25.5, y: 9, z: 15.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/842/mainImg.webp',
+      '/media/products/bag/842/mainImg2.webp',
+      '/media/products/bag/842/mainImg3.webp',
+      '/media/products/bag/842/mainImg4.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/842/detailImg.png',
+      '/media/products/bag/842/detailImg2.png',
+      '/media/products/bag/842/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "843": {
+    id: 843,
+    modelNumber: 'M9242UWHC-M84P',
+    name: '디올 미디움 카로백 서플 까나쥬 카프스킨 샌드 핑크',
+    enName: 'Dior Medium Caro Bag Supple Cannage Calfskin Sand pink',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M9242UWHC-M900',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25.5, y: 9, z: 15.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/843/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/842/detailImg.png',
+//      '/media/products/bag/842/detailImg2.png',
+//      '/media/products/bag/842/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "844": {
+    id: 844,
+    modelNumber: 'M9242UWHC-M39U',
+    name: '디올 미디움 카로백 서플 까나쥬 카프스킨 베이지',
+    enName: 'Dior Medium Caro Bag Supple Cannage Calfskin Beige',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M9242UWHC-M900',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25.5, y: 9, z: 15.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/844/mainImg.webp',
+      '/media/products/bag/844/mainImg2.webp',
+      '/media/products/bag/844/mainImg3.webp',
+      '/media/products/bag/844/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/842/detailImg.png',
+//      '/media/products/bag/842/detailImg2.png',
+//      '/media/products/bag/842/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "845": {
+    id: 845,
+    modelNumber: 'M9242UWHC-M35U',
+    name: '디올 미디움 카로백 서플 까나쥬 카프스킨 아이보리',
+    enName: 'Dior Medium Caro Bag Supple Cannage Calfskin Ivory',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M9242UWHC-M900',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25.5, y: 9, z: 15.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/845/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/842/detailImg.png',
+//      '/media/products/bag/842/detailImg2.png',
+//      '/media/products/bag/842/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "846": {
+    id: 846,
+    modelNumber: 'M0565ONGE-M900',
+    name: '디올 미디움 레이디백 까나쥬 램스킨 블랙 골드',
+    enName: 'Dior Medium Lady Bag Cannage Lambskin Black Gold',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M0565ONGE-M900',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 12, z: 21},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/846/mainImg.webp',
+      '/media/products/bag/846/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/846/detailImg.png',
+      '/media/products/bag/846/detailImg2.png',
+      '/media/products/bag/846/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "847": {
+    id: 847,
+    modelNumber: 'M0565ONGE-M030',
+    name: '디올 미디움 레이디 백 까나쥬 램스킨 라떼',
+    enName: 'Dior Medium Lady Bag Cannage Lambskin Latte',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M0565ONGE-M900',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 12, z: 21},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/847/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/846/detailImg.png',
+//      '/media/products/bag/846/detailImg2.png',
+//      '/media/products/bag/846/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "848": {
+    id: 848,
+    modelNumber: 'M0565ONGE-M50P',
+    name: '디올 미디움 레이디백 까나쥬 램스킨 블러쉬',
+    enName: 'Dior Medium Lady Bag Cannage Lambskin Blush',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M0565ONGE-M900',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 12, z: 21},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/848/mainImg.webp',
+      '/media/products/bag/848/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/846/detailImg.png',
+//      '/media/products/bag/846/detailImg2.png',
+//      '/media/products/bag/846/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "849": {
+    id: 849,
+    modelNumber: 'M0565ONGE-M53U',
+    name: '디올 미디움 레이디 백 까나쥬 램스킨 미디움 탄',
+    enName: 'Dior Medium Lady Bag Cannage Lambskin Medium Tan',
+    brand: '디올',
+    enBrand: 'Dior',
+    category: "6",
+    modelGroup:'M0565ONGE-M900',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 12, z: 21},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/849/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/846/detailImg.png',
+//      '/media/products/bag/846/detailImg2.png',
+//      '/media/products/bag/846/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "850": {
+    id: 850,
+    modelNumber: 'M58727',
+    name: '루이비통 LV 퐁 뇌프 소프트 PM 블랙',
+    enName: 'Louis Vuitton LV Pont 9 Soft PM Black',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M58727',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 20, y: 7, z: 16},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/850/mainImg.webp',
+      '/media/products/bag/850/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/850/detailImg.png',
+      '/media/products/bag/850/detailImg2.png',
+      '/media/products/bag/850/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "851": {
+    id: 851,
+    modelNumber: 'M59386',
+    name: '루이비통 부시 에피 블랙',
+    enName: 'Louis Vuitton Buci Epi Black',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M59386',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24.5, y: 9, z: 15.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/851/mainImg.webp',
+      '/media/products/bag/851/mainImg2.webp',
+      '/media/products/bag/851/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/851/detailImg.png',
+      '/media/products/bag/851/detailImg2.png',
+      '/media/products/bag/851/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "852": {
+    id: 852,
+    modelNumber: 'M59457',
+    name: '루이비통 부시 에피 쿼츠',
+    enName: 'Louis Vuitton Buci Epi Quartz',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M59386',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24.5, y: 9, z: 15.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/852/mainImg.webp',
+      '/media/products/bag/852/mainImg2.webp',
+      '/media/products/bag/852/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/852/detailImg.png',
+//      '/media/products/bag/852/detailImg2.png',
+//      '/media/products/bag/852/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "853": {
+    id: 853,
+    modelNumber: 'M94755',
+    name: '루이비통 카퓌신 BB 토뤼옹 블랙',
+    enName: 'Louis Vuitton Capucines BB Taurillon Black',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M94755',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 27, y: 9, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/853/mainImg.webp',
+      '/media/products/bag/853/mainImg2.webp',
+      '/media/products/bag/853/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/853/detailImg.png',
+      '/media/products/bag/853/detailImg2.png',
+      '/media/products/bag/853/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "854": {
+    id: 854,
+    modelNumber: 'M94634',
+    name: '루이비통 카퓌신 BB 토뤼옹 갈렛 그레이',
+    enName: 'Louis Vuitton Capucines BB Taurillon Galet Gray',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M94755',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 27, y: 9, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/854/mainImg.webp',
+      '/media/products/bag/854/mainImg2.webp',
+      '/media/products/bag/854/mainImg3.webp',
+      '/media/products/bag/854/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/853/detailImg.png',
+//      '/media/products/bag/853/detailImg2.png',
+//      '/media/products/bag/853/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "855": {
+    id: 855,
+    modelNumber: 'M42258',
+    name: '루이비통 카퓌신 BB 토뤼옴 핑크',
+    enName: 'Louis Vuitton Capucines BB Taurillon Pink',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M94755',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 27, y: 9, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/855/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/855/detailImg.png',
+      '/media/products/bag/855/detailImg2.png',
+      '/media/products/bag/855/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "856": {
+    id: 856,
+    modelNumber: 'M59466',
+    name: '루이비통 카퓌신 BB 토뤼옹 블랙 아리조나',
+    enName: 'Louis Vuitton Capucines BB Taurillon Black Arizona',
+    brand: '루이비통',
+    enBrand: 'Louis Vuitton',
+    category: "6",
+    modelGroup:'M94755',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 27, y: 9, z: 18},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/856/mainImg.webp',
+      '/media/products/bag/856/mainImg2.webp',
+      '/media/products/bag/856/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/853/detailImg.png',
+//      '/media/products/bag/853/detailImg2.png',
+//      '/media/products/bag/853/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "857": {
+    id: 857,
+    modelNumber: '666873VCQ719009',
+    name: '보테가 베네타 아르코 레더 미니 탑 핸들백 화이트',
+    enName: 'Bottega Veneta Arco Leather Mini Top Handle Bag White',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'666873VCQ719009',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25, y: 8, z: 16},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/857/mainImg.webp',
+      '/media/products/bag/857/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/857/detailImg.png',
+      '/media/products/bag/857/detailImg2.png',
+      '/media/products/bag/857/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "858": {
+    id: 858,
+    modelNumber: '600606VMAP15903',
+    name: '보테가 베네타 아르코 레더 미니 탑 핸들백 블리스 워시드',
+    enName: 'Bottega Veneta Arco Leather Mini Top Handle Bag Bliss Washed',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'666873VCQ719009',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25, y: 8, z: 16},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/858/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/857/detailImg.png',
+//      '/media/products/bag/857/detailImg2.png',
+//      '/media/products/bag/857/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "859": {
+    id: 859,
+    modelNumber: '600606VMAP12714',
+    name: '보테가 베네타 아르코 레더 미니 탑 핸들백 아몬드',
+    enName: 'Bottega Veneta Arco Leather Mini Top Handle Bag Almond',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'666873VCQ719009',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25, y: 8, z: 16},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/859/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/857/detailImg.png',
+//      '/media/products/bag/857/detailImg2.png',
+//      '/media/products/bag/857/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "860": {
+    id: 860,
+    modelNumber: '600606VCP119850',
+    name: '보테가 베네타 아르코 레더 미니 탑 핸들백 카라멜',
+    enName: 'Bottega Veneta Arco Leather Mini Top Handle Bag Caramel',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'666873VCQ719009',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25, y: 8, z: 16},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/860/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/857/detailImg.png',
+//      '/media/products/bag/857/detailImg2.png',
+//      '/media/products/bag/857/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "861": {
+    id: 861,
+    modelNumber: '600606VMAP11229',
+    name: '보테가 베네타 아르코 레더 미니 탑 핸들백 블랙',
+    enName: 'Bottega Veneta Arco Leather Mini Top Handle Bag Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'666873VCQ719009',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 25, y: 8, z: 16},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/861/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/857/detailImg.png',
+//      '/media/products/bag/857/detailImg2.png',
+//      '/media/products/bag/857/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "862": {
+    id: 862,
+    modelNumber: 'AS3176-Y33352/B09731/B10583-94305',
+    name: '샤넬 미니 버킷백 그레인드 카프스킨 & 골드 메탈 블랙',
+    enName: 'Chanel Mini Bucket Bag Grained Calfskin & Gold Black',
+    brand: '샤넬',
+    enBrand: 'Chanel',
+    category: "6",
+    modelGroup:'AS3176-Y33352/B09731/B10583-94305',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17, y: 10, z: 15.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/862/mainImg.webp',
+      '/media/products/bag/862/mainImg2.webp',
+      '/media/products/bag/862/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/862/detailImg.png',
+      '/media/products/bag/862/detailImg2.png',
+      '/media/products/bag/862/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "863": {
+    id: 863,
+    modelNumber: '193953DGQ-04LU',
+    name: '셀린느 스무스 카프스킨 아바백 탄',
+    enName: 'Celine Ava Bag in Smooth Calfskin Tan',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'193953DGQ-04LU',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24.5, y: 9, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/863/mainImg.webp',
+      '/media/products/bag/863/mainImg2.webp',
+      '/media/products/bag/863/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/863/detailImg.png',
+      '/media/products/bag/863/detailImg2.png',
+      '/media/products/bag/863/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "864": {
+    id: 864,
+    modelNumber: '193953DGQ-11OY',
+    name: '셀린느 스무스 카프스킨 아바백 소프트 옐로우',
+    enName: 'Celine Ava Bag in Smooth Calfskin Soft Yellow',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'193953DGQ-04LU',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24.5, y: 9, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/864/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/864/detailImg.png',
+//      '/media/products/bag/864/detailImg2.png',
+//      '/media/products/bag/864/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "865": {
+    id: 865,
+    modelNumber: '1BA381-2DYI-F0002',
+    name: '프라다 문 패딩 나파 레더 백 블랙',
+    enName: 'Prada Moon Padded Nappa Leather Bag Black',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA381-2DYI-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 7, z: 16},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/865/mainImg.webp',
+      '/media/products/bag/865/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/865/detailImg.png',
+      '/media/products/bag/865/detailImg2.png',
+      '/media/products/bag/865/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "866": {
+    id: 866,
+    modelNumber: '1BA381-2DYI-F0009',
+    name: '프라다 문 패딩 나파 레더 백 화이트',
+    enName: 'Prada Moon Padded Nappa Leather Bag White',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA381-2DYI-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 7, z: 16},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/866/mainImg.webp',
+      '/media/products/bag/866/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/866/detailImg.png',
+//      '/media/products/bag/866/detailImg2.png',
+//      '/media/products/bag/866/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "867": {
+    id: 867,
+    modelNumber: '1BA381-2DYI-F098L',
+    name: '프라다 문 패딩 나파 레더 백 카라멜',
+    enName: 'Prada Moon Padded Nappa Leather Bag Caramel',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA381-2DYI-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 22, y: 7, z: 16},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/867/mainImg.webp',
+      '/media/products/bag/867/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/866/detailImg.png',
+//      '/media/products/bag/866/detailImg2.png',
+//      '/media/products/bag/866/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "868": {
+    id: 868,
+    modelNumber: '476466-K9GVT-8856',
+    name: '구찌 GG 메신저백 베이지 에보니',
+    enName: 'Gucci GG Messenger Bag Beige Ebony',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+//    modelGroup:'1BA381-2DYI-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 7.5, z: 15},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/868/mainImg.webp',
+      '/media/products/bag/868/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/868/detailImg.png',
+      '/media/products/bag/868/detailImg2.png',
+      '/media/products/bag/868/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "869": {
+    id: 869,
+    modelNumber: '1BZ677-RV44/V44-F0002',
+    name: '프라다 리나일론 스몰 백팩 블랙',
+    enName: 'Prada Re-Nylon Small Backpack Black',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+//    modelGroup:'1BA381-2DYI-F0002',
+    subCategory: {id: 2, title: "백팩", img: "backpack"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24, y: 7.5, z: 15},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/869/mainImg.webp',
+      '/media/products/bag/869/mainImg2.webp',
+      '/media/products/bag/869/mainImg3.webp',
+      '/media/products/bag/869/mainImg4.webp',
+      '/media/products/bag/869/mainImg5.webp',
+      '/media/products/bag/869/mainImg6.webp',
+      '/media/products/bag/869/mainImg7.webp',
+      '/media/products/bag/869/mainImg8.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/869/detailImg.png',
+      '/media/products/bag/869/detailImg2.png',
+      '/media/products/bag/869/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
 }
