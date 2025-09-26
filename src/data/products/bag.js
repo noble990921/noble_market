@@ -341,7 +341,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup:'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -396,7 +396,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup:'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -451,7 +451,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup:'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -506,7 +506,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup:'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -561,7 +561,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup:'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -616,7 +616,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup:'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -671,7 +671,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup:'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -726,7 +726,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup:'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -781,7 +781,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup:'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3881,20 +3881,20 @@ export const PRODUCTS = {
   },
   "12": {
     id: 12,
-    modelNumber: 'A94485-Y61477-94305',
-    name: '샤넬 가브리엘 백팩 스몰 빈티지 카프스킨 & 골드 실버 메탈 블랙',
-    enName: 'Chanel Small Gabrielle Backpack Aged Calfskin & Gold Silver Black',
+    modelNumber: 'A91810-Y61477-94305',
+    name: '샤넬 가브리엘 스몰 호보백 빈티지 카프스킨 & 골드 메탈 블랙',
+    enName: 'Chanel Gabrielle Small Hobo Bag Aged Calfskin & Gold Black',
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
     subCategory: {id: 1, title: "미니백", img: "minibag"},
-    sizeData: {
-      type: 'bag',
-      img: '/media/productDetail/bag_size.png',
-      size: [
-        {unit: 'free', x: 22.5, y: 10.5, z: 23},
-      ]
-    },
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 22.5, y: 10.5, z: 23},
+//      ]
+//    },
     mainImg: [
       '/media/products/bag/12/mainImg.png',
       '/media/products/bag/12/mainImg2.png',
@@ -17396,6 +17396,2209 @@ export const PRODUCTS = {
       '/media/products/bag/869/detailImg2.png',
       '/media/products/bag/869/detailImg3.png',
     ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "870": {
+    id: 870,
+    modelNumber: '1BG422-2A2T-F0009',
+    name: '프라다 스몰 크로셰 토트백 화이트',
+    enName: 'Prada Small Crochet Tote Bag White',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BG422-2A2T-F0009',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24, y: 7.5, z: 15},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/870/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/870/detailImg.png',
+      '/media/products/bag/870/detailImg2.png',
+      '/media/products/bag/870/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "871": {
+    id: 871,
+    modelNumber: '1BG422-2A2T-F0002',
+    name: '프라다 스몰 크로쉐 토트백 블랙',
+    enName: 'Prada Small Crochet Tote Bag Black',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BG422-2A2T-F0009',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24, y: 7.5, z: 15},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/871/mainImg.webp',
+      '/media/products/bag/871/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/871/detailImg.png',
+//      '/media/products/bag/871/detailImg2.png',
+//      '/media/products/bag/871/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "872": {
+    id: 872,
+    modelNumber: '1BG422-2A2T-F0E18-V-OOL',
+    name: '프라다 스몰 크로쉐 토트백 앨러배스터 핑크',
+    enName: 'Prada Small Crochet Tote Bag Alabaster Pink',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BG422-2A2T-F0009',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24, y: 7.5, z: 15},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/872/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/872/detailImg.png',
+      '/media/products/bag/872/detailImg2.png',
+      '/media/products/bag/872/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "873": {
+    id: 873,
+    modelNumber: '1BG422-2A2T-F0018',
+    name: '프라다 스몰 라피아 토트백 탄',
+    enName: 'Prada Small Raffia Tote Bag Tan',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BG422-2A2T-F0009',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24, y: 7.5, z: 15},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/873/mainImg.webp',
+      '/media/products/bag/873/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/873/detailImg.png',
+//      '/media/products/bag/873/detailImg2.png',
+//      '/media/products/bag/873/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "874": {
+    id: 874,
+    modelNumber: '1BG422-2A2T-F0018',
+    name: '프라다 스몰 라피아 토트백 탄',
+    enName: 'Prada Small Raffia Tote Bag Tan',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BG422-2A2T-F0009',
+    subCategory: {id: 4, title: "토트백", img: "totebag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24, y: 7.5, z: 15},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/874/mainImg.webp',
+      '/media/products/bag/874/mainImg2.webp',
+      '/media/products/bag/874/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/874/detailImg.png',
+//      '/media/products/bag/874/detailImg2.png',
+//      '/media/products/bag/874/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "875": {
+    id: 875,
+    modelNumber: '1BA366-2DDJ-F0002',
+    name: '프라다 레더 슈퍼노바 스몰 핸드백 블랙',
+    enName: 'Prada Leather Supernova Small Handbag Black',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA366-2DDJ-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24, y: 7.5, z: 15},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/875/mainImg.webp',
+      '/media/products/bag/875/mainImg2.webp',
+      '/media/products/bag/875/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/875/detailImg.png',
+      '/media/products/bag/875/detailImg2.png',
+      '/media/products/bag/875/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "876": {
+    id: 876,
+    modelNumber: '1BA365-2DDJ-F0002',
+    name: '프라다 레더 슈퍼노바 미디움 핸드백 블랙',
+    enName: 'Prada Leather Supernova Medium Handbag Black',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA366-2DDJ-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 24, y: 7.5, z: 15},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/876/mainImg.webp',
+      '/media/products/bag/876/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/876/detailImg.png',
+      '/media/products/bag/876/detailImg2.png',
+      '/media/products/bag/876/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "877": {
+    id: 877,
+    modelNumber: '1BH038-RV44/V44-F0002',
+    name: '프라다 듀엣 리나일론 숄더백 블랙 골드',
+    enName: 'Prada Duet Re-Nylon Shoulder Bag Black Gold',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA366-2DDJ-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 12, z: 22.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/877/mainImg.webp',
+      '/media/products/bag/877/mainImg2.webp',
+      '/media/products/bag/877/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/877/detailImg.png',
+      '/media/products/bag/877/detailImg2.png',
+      '/media/products/bag/877/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "878": {
+    id: 878,
+    modelNumber: '1BH038-RV44-F0009',
+    name: '프라다 듀엣 리나일론 숄더백 화이트',
+    enName: 'Prada Duet Re-Nylon Shoulder Bag White',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA366-2DDJ-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 12, z: 22.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/878/mainImg.webp',
+      '/media/products/bag/878/mainImg2.webp',
+      '/media/products/bag/878/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/878/detailImg.png',
+      '/media/products/bag/878/detailImg2.png',
+      '/media/products/bag/878/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "879": {
+    id: 879,
+    modelNumber: '1BH038-RV44-F0F24',
+    name: '프라다 듀엣 리나일론 숄더백 데저트 베이지',
+    enName: 'Prada Duet Re-Nylon Shoulder Bag Desert Beige',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA366-2DDJ-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 12, z: 22.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/879/mainImg.webp',
+      '/media/products/bag/879/mainImg2.webp',
+      '/media/products/bag/879/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/879/detailImg.png',
+      '/media/products/bag/879/detailImg2.png',
+      '/media/products/bag/879/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "880": {
+    id: 880,
+    modelNumber: '1BH038-RV44-F0134',
+    name: '프라다 듀엣 리나일론 숄더백 브랜디',
+    enName: 'Prada Duet Re-Nylon Shoulder Bag Brandy',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA366-2DDJ-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 12, z: 22.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/880/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/880/detailImg.png',
+//      '/media/products/bag/880/detailImg2.png',
+//      '/media/products/bag/880/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "881": {
+    id: 881,
+    modelNumber: '1BH038-RV44-F0E18',
+    name: '프라다 듀엣 리나일론 숄더백 앨러배스터 핑크',
+    enName: 'Prada Duet Re-Nylon Shoulder Bag Alabaster Pink',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA366-2DDJ-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 12, z: 22.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/881/mainImg.webp',
+      '/media/products/bag/881/mainImg2.webp',
+      '/media/products/bag/881/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/881/detailImg.png',
+      '/media/products/bag/881/detailImg2.png',
+      '/media/products/bag/881/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "882": {
+    id: 882,
+    modelNumber: '1BH038-RV44-F0008',
+    name: '프라다 듀엣 리나일론 숄더백 네이비',
+    enName: 'Prada Duet Re-Nylon Shoulder Bag Navy',
+    brand: '프라다',
+    enBrand: 'Prada',
+    category: "6",
+    modelGroup:'1BA366-2DDJ-F0002',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 12, z: 22.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/882/mainImg.webp',
+      '/media/products/bag/882/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/882/detailImg.png',
+//      '/media/products/bag/882/detailImg2.png',
+//      '/media/products/bag/882/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "883": {
+    id: 883,
+    modelNumber: '742431-AAB32-1000',
+    name: '생로랑 제이미 4.3 램스킨 블랙',
+    enName: 'Saint Laurent Jamie 4.3 in Lambskin Black',
+    brand: '생로랑',
+    enBrand: 'Saint Laurent',
+    category: "6",
+    modelGroup:'742431-AAB32-1000',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 43, y: 9, z: 29},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/883/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/883/detailImg.png',
+      '/media/products/bag/883/detailImg2.png',
+      '/media/products/bag/883/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "884": {
+    id: 884,
+    modelNumber: '600279-BRM07-1000',
+    name: '생로랑 퀼티드 레더 컬리지 미디움 체인백 블랙',
+    enName: 'Saint Laurent College Medium Chain Bag in Quilted Leather Black',
+    brand: '생로랑',
+    enBrand: 'Saint Laurent',
+    category: "6",
+    modelGroup:'742431-AAB32-1000',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 6.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/884/mainImg.webp',
+      '/media/products/bag/884/mainImg2.webp',
+      '/media/products/bag/884/mainImg3.webp',
+      '/media/products/bag/884/mainImg4.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/884/detailImg.png',
+      '/media/products/bag/884/detailImg2.png',
+      '/media/products/bag/884/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "885": {
+    id: 885,
+    modelNumber: '600279-BRM07-9207',
+    name: '생로랑 컬리지 미디움 체인 백 퀼티드 레더 블랑 빈티지',
+    enName: 'Saint Laurent College Medium Chain Bag In Quilted Leather Blanc Vintage',
+    brand: '생로랑',
+    enBrand: 'Saint Laurent',
+    category: "6",
+    modelGroup:'742431-AAB32-1000',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 6.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/885/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/885/detailImg.png',
+      '/media/products/bag/885/detailImg2.png',
+      '/media/products/bag/885/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "886": {
+    id: 886,
+    modelNumber: '600279-BRM04-1000',
+    name: '생로랑 마틀라세 레더 실버 모노그램 컬리지 미디움 체인백 블랙',
+    enName: 'Saint Laurent Silver Monogram College Medium Chain Bag in Matelasse Leather Black',
+    brand: '생로랑',
+    enBrand: 'Saint Laurent',
+    category: "6",
+    modelGroup:'742431-AAB32-1000',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 6.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/886/mainImg.webp',
+      '/media/products/bag/886/mainImg2.webp',
+      '/media/products/bag/886/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/886/detailImg.png',
+      '/media/products/bag/886/detailImg2.png',
+      '/media/products/bag/886/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "887": {
+    id: 887,
+    modelNumber: '600279-BRM08-1000',
+    name: '생로랑 컬리지 미디움 체인 백 퀼티드 레더 블랙',
+    enName: 'Saint Laurent College Medium Chain Bag In Quilted Leather Black',
+    brand: '생로랑',
+    enBrand: 'Saint Laurent',
+    category: "6",
+    modelGroup:'742431-AAB32-1000',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 24, y: 6.5, z: 17},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/887/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/887/detailImg.png',
+//      '/media/products/bag/887/detailImg2.png',
+//      '/media/products/bag/887/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "888": {
+    id: 888,
+    modelNumber: '197662CAS-04LU',
+    name: '생로랑 컬리지 미디움 체인 백 퀼티드 레더 블랙',
+    enName: 'Saint Laurent College Medium Chain Bag In Quilted Leather Black',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'197662CAS-04LU',
+    subCategory: {id: 2, title: "백팩", img: "backpack"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18.5, y: 10, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/888/mainImg.webp',
+      '/media/products/bag/888/mainImg2.webp',
+      '/media/products/bag/888/mainImg3.webp',
+      '/media/products/bag/888/mainImg4.webp',
+      '/media/products/bag/888/mainImg5.webp',
+      '/media/products/bag/888/mainImg6.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/888/detailImg.png',
+      '/media/products/bag/888/detailImg2.png',
+      '/media/products/bag/888/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "889": {
+    id: 889,
+    modelNumber: '197662CAS-01BC',
+    name: '셀린느 미니 풀코 백팩 트리옹프 캔버스 카프스킨 화이트',
+    enName: 'Celine Mini Folco Backpack in Triomphe Canvas Calfskin White',
+    brand: '셀린느',
+    enBrand: 'Celine',
+    category: "6",
+    modelGroup:'197662CAS-04LU',
+    subCategory: {id: 2, title: "백팩", img: "backpack"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 18.5, y: 10, z: 20},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/889/mainImg.webp',
+      '/media/products/bag/889/mainImg2.webp',
+      '/media/products/bag/889/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/888/detailImg.png',
+//      '/media/products/bag/888/detailImg2.png',
+//      '/media/products/bag/888/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "890": {
+    id: 890,
+    modelNumber: 'A923PM1X01-3627',
+    name: '로에베 스몰 루나백 사틴 카프스킨 앤 자카드 피칸',
+    enName: 'Loewe Small Luna Bag in Satin Calfskin and Jacquard Pecan',
+    brand: '로에베',
+    enBrand: 'Loewe',
+    category: "6",
+    modelGroup:'A923PM1X01-3627',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/890/mainImg.webp',
+      '/media/products/bag/890/mainImg2.webp',
+      '/media/products/bag/890/mainImg3.webp',
+      '/media/products/bag/890/mainImg4.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/890/detailImg.png',
+      '/media/products/bag/890/detailImg2.png',
+      '/media/products/bag/890/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "891": {
+    id: 891,
+    modelNumber: 'A923PM1X01-9100',
+    name: '로에베 스몰 루나백 사틴 카프스킨 앤 자카드 오렌지',
+    enName: 'Loewe Small Luna Bag in Satin Calfskin and Jacquard Orange',
+    brand: '로에베',
+    enBrand: 'Loewe',
+    category: "6",
+    modelGroup:'A923PM1X01-3627',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/891/mainImg.webp',
+      '/media/products/bag/891/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/890/detailImg.png',
+//      '/media/products/bag/890/detailImg2.png',
+//      '/media/products/bag/890/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "892": {
+    id: 892,
+    modelNumber: 'A923PM1X01-1809',
+    name: '로에베 스몰 루나백 사틴 카프스킨 앤 자카드 오닉스 블루',
+    enName: 'Loewe Small Luna Bag in Satin Calfskin and Jacquard Onyx Blue',
+    brand: '로에베',
+    enBrand: 'Loewe',
+    category: "6",
+    modelGroup:'A923PM1X01-3627',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/892/mainImg.webp',
+      '/media/products/bag/892/mainImg2.webp',
+      '/media/products/bag/892/mainImg3.webp',
+      '/media/products/bag/892/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/890/detailImg.png',
+//      '/media/products/bag/890/detailImg2.png',
+//      '/media/products/bag/890/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "893": {
+    id: 893,
+    modelNumber: 'A923PM1X01-1100',
+    name: '로에베 스몰 루나백 사틴 카프스킨 앤 자카드 블랙',
+    enName: 'Loewe Small Luna Bag in Satin Calfskin and Jacquard Black',
+    brand: '로에베',
+    enBrand: 'Loewe',
+    category: "6",
+    modelGroup:'A923PM1X01-3627',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/893/mainImg.webp',
+      '/media/products/bag/893/mainImg2.webp',
+      '/media/products/bag/893/mainImg3.webp',
+      '/media/products/bag/893/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/890/detailImg.png',
+//      '/media/products/bag/890/detailImg2.png',
+//      '/media/products/bag/890/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "894": {
+    id: 894,
+    modelNumber: 'A923PM1X01-2461',
+    name: '로에베 스몰 루나백 사틴 카프스킨 앤 자카드 라이트 오트',
+    enName: 'Loewe Small Luna Bag in Satin Calfskin and Jacquard Light Oat',
+    brand: '로에베',
+    enBrand: 'Loewe',
+    category: "6",
+    modelGroup:'A923PM1X01-3627',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/894/mainImg.webp',
+      '/media/products/bag/894/mainImg2.webp',
+      '/media/products/bag/894/mainImg3.webp',
+      '/media/products/bag/894/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/890/detailImg.png',
+//      '/media/products/bag/890/detailImg2.png',
+//      '/media/products/bag/890/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "895": {
+    id: 895,
+    modelNumber: 'A923PM1X01-1150',
+    name: '로에베 스몰 루나백 사틴 카프스킨 앤 자카드 펄 그레이',
+    enName: 'Loewe Small Luna Bag in Satin Calfskin and Jacquard Pearl Grey',
+    brand: '로에베',
+    enBrand: 'Loewe',
+    category: "6",
+    modelGroup:'A923PM1X01-3627',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/895/mainImg.webp',
+      '/media/products/bag/895/mainImg2.webp',
+      '/media/products/bag/895/mainImg3.webp',
+      '/media/products/bag/895/mainImg4.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/890/detailImg.png',
+//      '/media/products/bag/890/detailImg2.png',
+//      '/media/products/bag/890/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "896": {
+    id: 896,
+    modelNumber: 'A510P88X26-2530',
+    name: '로에베 미니 퍼즐 백 인 클래식 카프스킨 탄',
+    enName: 'Loewe Mini Puzzle Bag In Classic Calfskin Tan',
+    brand: '로에베',
+    enBrand: 'Loewe',
+    category: "6",
+    modelGroup:'A510P88X26-2530',
+    subCategory: {id: 1, title: "미니백", img: "minibag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/896/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/896/detailImg.png',
+      '/media/products/bag/896/detailImg2.png',
+      '/media/products/bag/896/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "897": {
+    id: 896,
+    modelNumber: 'A510P88X26-1100',
+    name: '로에베 미니 퍼즐 백 인 클래식 카프스킨 블랙',
+    enName: 'Loewe Mini Puzzle Bag In Classic Calfskin Black',
+    brand: '로에베',
+    enBrand: 'Loewe',
+    category: "6",
+    modelGroup:'A510P88X26-2530',
+    subCategory: {id: 1, title: "미니백", img: "minibag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/897/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/897/detailImg.png',
+      '/media/products/bag/897/detailImg2.png',
+      '/media/products/bag/897/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "898": {
+    id: 898,
+    modelNumber: 'A510P88X26-3969',
+    name: '로에베 클래식 카프스킨 미니 퍼즐 백 다크 카키 그린',
+    enName: 'Loewe Mini Puzzle Bag in Classic Calfskin Dark Khaki Green',
+    brand: '로에베',
+    enBrand: 'Loewe',
+    category: "6",
+    modelGroup:'A510P88X26-2530',
+    subCategory: {id: 1, title: "미니백", img: "minibag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/898/mainImg.webp',
+      '/media/products/bag/898/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/898/detailImg.png',
+      '/media/products/bag/898/detailImg2.png',
+      '/media/products/bag/898/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "899": {
+    id: 899,
+    modelNumber: '631421VBWZ03722',
+    name: '보테가 베네타 체인 카세트백 패러킷',
+    enName: 'Bottega Veneta Chain Cassette Parakeet',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'631421VBWZ03722',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/899/mainImg.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/899/detailImg.png',
+      '/media/products/bag/899/detailImg2.png',
+      '/media/products/bag/899/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "900": {
+    id: 900,
+    modelNumber: '631421VBWZ09143',
+    name: '보테가 베네타 체인 카세트백 초크',
+    enName: 'Bottega Veneta Chain Cassette Chalk',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'631421VBWZ03722',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/900/mainImg.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/899/detailImg.png',
+//      '/media/products/bag/899/detailImg2.png',
+//      '/media/products/bag/899/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "901": {
+    id: 901,
+    modelNumber: '631421VBWZ08425',
+    name: '보테가 베네타 레더 체인 카세트백 블랙',
+    enName: 'Bottega Veneta Leather Chain Cassette Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'631421VBWZ03722',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/901/mainImg.webp',
+      '/media/products/bag/901/mainImg2.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/901/detailImg.png',
+      '/media/products/bag/901/detailImg2.png',
+      '/media/products/bag/901/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "902": {
+    id: 902,
+    modelNumber: '631421VBWZ01229',
+    name: '보테가 베네타 패딩 레더 체인 카세트백 블랙',
+    enName: 'Bottega Veneta Padded Leather Chain Cassette Black',
+    brand: '보테가 베네타',
+    enBrand: 'Bottega Veneta',
+    category: "6",
+    modelGroup:'631421VBWZ03722',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/902/mainImg.webp',
+      '/media/products/bag/902/mainImg2.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/902/detailImg.png',
+//      '/media/products/bag/902/detailImg2.png',
+//      '/media/products/bag/902/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "903": {
+    id: 903,
+    modelNumber: '476433-DTD5N-1000',
+    name: '구찌 GG 마몽 슈퍼 미니백 블랙',
+    enName: 'Gucci GG Marmont Super Mini Bag Black',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'476433-DTD5N-1000',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/903/mainImg.webp',
+      '/media/products/bag/903/mainImg2.webp',
+      '/media/products/bag/903/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/903/detailImg.png',
+      '/media/products/bag/903/detailImg2.png',
+      '/media/products/bag/903/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "904": {
+    id: 904,
+    modelNumber: '476433-DTD5N-9022',
+    name: '구찌 GG 마몽 슈퍼 미니백 화이트',
+    enName: 'Gucci GG Marmont Super Mini Bag White',
+    brand: '구찌',
+    enBrand: 'Gucci',
+    category: "6",
+    modelGroup:'476433-DTD5N-1000',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 20.3, y: 10, z: 17},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/904/mainImg.webp',
+      '/media/products/bag/904/mainImg2.webp',
+      '/media/products/bag/904/mainImg3.webp',
+      '/media/products/bag/904/mainImg4.webp',
+      '/media/products/bag/904/mainImg5.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/904/detailImg.png',
+      '/media/products/bag/904/detailImg2.png',
+      '/media/products/bag/904/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "905": {
+    id: 905,
+    modelNumber: 'M43514',
+    name: '루이비통 쁘띠뜨 부아뜨 샤포 모노그램',
+    enName: 'Louis Vuitton Petite Boite Chapeau Monogram',
+    brand: '루이비통',
+    category: "6",
+//    modelGroup:'476433-DTD5N-1000',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+    sizeData: {
+      type: 'bag',
+      img: '/media/productDetail/bag_size.png',
+      size: [
+        {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
+      ]
+    },
+    mainImg: [
+      '/media/products/bag/905/mainImg.webp',
+      '/media/products/bag/905/mainImg2.webp',
+      '/media/products/bag/905/mainImg3.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/905/detailImg.png',
+      '/media/products/bag/905/detailImg2.png',
+      '/media/products/bag/905/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "906": {
+    id: 906,
+    modelNumber: '8BR798A5DYF1HEL',
+    name: '펜디 펜디그라피 스몰백 레더 화이트',
+    enName: 'Fendi Fendigraphy Small Bag Leather White',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "6",
+    modelGroup:'8BR798A5DYF1HEL',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/906/mainImg.webp',
+      '/media/products/bag/906/mainImg2.webp',
+      '/media/products/bag/906/mainImg3.webp',
+      '/media/products/bag/906/mainImg4.webp',
+      '/media/products/bag/906/mainImg5.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/906/detailImg.png',
+      '/media/products/bag/906/detailImg2.png',
+      '/media/products/bag/906/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "907": {
+    id: 907,
+    modelNumber: '8BR798A5DYF1HEJ',
+    name: '펜디 펜디그라피 스몰백 레더 블랙',
+    enName: 'Fendi Fendigraphy Small Bag Leather Black',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "6",
+    modelGroup:'8BR798A5DYF1HEL',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/907/mainImg.webp',
+      '/media/products/bag/907/mainImg2.webp',
+      '/media/products/bag/907/mainImg3.webp',
+      '/media/products/bag/907/mainImg4.webp',
+    ],
+    detailImg: [
+      '/media/products/bag/907/detailImg.png',
+      '/media/products/bag/907/detailImg2.png',
+      '/media/products/bag/907/detailImg3.png',
+    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "908": {
+    id: 908,
+    modelNumber: '8BR798A5DYF1HZK',
+    name: '펜디 펜디그라피 스몰백 레더 다크 그레이',
+    enName: 'Fendi Fendigraphy Small Bag Leather Dark Grey',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "6",
+    modelGroup:'8BR798A5DYF1HEL',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/908/mainImg.webp',
+      '/media/products/bag/908/mainImg2.webp',
+      '/media/products/bag/908/mainImg3.webp',
+      '/media/products/bag/908/mainImg4.webp',
+      '/media/products/bag/908/mainImg5.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/907/detailImg.png',
+//      '/media/products/bag/907/detailImg2.png',
+//      '/media/products/bag/907/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "909": {
+    id: 909,
+    modelNumber: '8BR798A5DYF1HZJ',
+    name: '펜디 펜디그라피 스몰백 레더 베이지',
+    enName: 'Fendi Fendigraphy Small Bag Leather Beige',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "6",
+    modelGroup:'8BR798A5DYF1HEL',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/909/mainImg.webp',
+      '/media/products/bag/909/mainImg2.webp',
+      '/media/products/bag/909/mainImg3.webp',
+      '/media/products/bag/909/mainImg4.webp',
+      '/media/products/bag/909/mainImg5.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/907/detailImg.png',
+//      '/media/products/bag/907/detailImg2.png',
+//      '/media/products/bag/907/detailImg3.png',
+//    ],
+//    wearingImg:[
+//      '/media/products/bag/50/wearingImg.png',
+//      '/media/products/bag/50/wearingImg2.png',
+//    ],
+    detailText: [
+      {
+        title: '',
+        content: ''
+      },
+      {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      }, {
+        title: '',
+        content: ''
+      },
+    ]
+  },
+  "910": {
+    id: 910,
+    modelNumber: '8BR798A5DYF1HD6',
+    name: '펜디 펜디그라피 스몰백 레더 페일 핑크',
+    enName: 'Fendi Fendigraphy Small Bag Leather Pale Pink',
+    brand: '펜디',
+    enBrand: 'Fendi',
+    category: "6",
+    modelGroup:'8BR798A5DYF1HEL',
+    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
+//    sizeData: {
+//      type: 'bag',
+//      img: '/media/productDetail/bag_size.png',
+//      size: [
+//        {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
+//      ]
+//    },
+    mainImg: [
+      '/media/products/bag/910/mainImg.webp',
+      '/media/products/bag/910/mainImg2.webp',
+      '/media/products/bag/910/mainImg3.webp',
+    ],
+//    detailImg: [
+//      '/media/products/bag/907/detailImg.png',
+//      '/media/products/bag/907/detailImg2.png',
+//      '/media/products/bag/907/detailImg3.png',
+//    ],
 //    wearingImg:[
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
