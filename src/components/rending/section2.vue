@@ -67,43 +67,6 @@
 </template>
 
 <script>
-  const HOTITEM = [
-    {
-      id:'1',
-      img: require('../../assets/images/home/section2/1.jpg'),
-      title:'까르띠에',
-      text:'까르띠에 러브 팔찌',
-      price:'123,123'
-    },
-    {
-      id:'2',
-      img: require('../../assets/images/home/section2/2.jpg'),
-      title:'까르띠에',
-      text:'까르띠에 러브링 웨딩 밴드',
-      price:'123,123'
-    },
-    {
-      id:'3',
-      img: require('../../assets/images/home/section2/3.png'),
-      title:'오데마피게',
-      text:'오데마피게 로얄오크 15400ST 스틸 검판',
-      price:'123,123'
-    },
-    {
-      id:'4',
-      img: require('../../assets/images/home/section2/4.jpg'),
-      title:'오데마피게',
-      text:'오데마피게 로얄오크',
-      price:'123,123'
-    },
-    {
-      id:'5',
-      img: require('../../assets/images/home/section2/5.jpg'),
-      title:'오데마피게',
-      text:'오데마피게 로얄오크',
-      price:'123,123'
-    },
-  ]
   import 'swiper/css/swiper.css'
   export default {
     name: "section2",
@@ -111,7 +74,6 @@
     },
     data() {
       return {
-        HOTITEM
 
       }
     },
