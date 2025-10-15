@@ -6,13 +6,22 @@
         <p class="sub_text">셀럽 픽</p>
         <div class="swiper_box">
           <swiper :key="swiperKey" :options="currentSwiperOption">
-            <swiper-slide v-for="h in INFLUENCER_IMG_DATA" :key="h.id">
-              <img :src="h.img">
+            <swiper-slide v-for="product in displayProducts" :key="product.id">
+              <div class="product_item" @click="goToProduct(product)">
+                <img :src="product.thumbnail" :alt="product.name">
+                <div class="product_info">
+                  <p class="brand">{{ product.brand }}</p>
+                  <p class="name">{{ product.name }}</p>
+                </div>
+              </div>
             </swiper-slide>
           </swiper>
           <!--          <div v-if="!mobileVersion" class="swiper-pagination2"></div>-->
           <div v-if="!mobileVersion" class="swiper-button-next"></div>
           <div v-if="!mobileVersion" class="swiper-button-prev"></div>
+        </div>
+        <div class="view_more">
+          <button @click="viewMore">더보기</button>
         </div>
       </div>
     </div>
@@ -25,7 +34,7 @@
   import 'swiper/css/swiper.css'
 
   export default {
-    name: "section2",
+    name: "section9",
     components: {
       Swiper, SwiperSlide
     },

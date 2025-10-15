@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="btn_box">
-        <button 류>
+        <button @click="$router.push('/product/TOP')">
           더보기
         </button>
       </div>

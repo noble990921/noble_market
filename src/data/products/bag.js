@@ -117,7 +117,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup: 'A94485-Y61477-94305',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
 //    sizeData: {
 //      type:'bag',
@@ -176,7 +176,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup: 'A94485-Y61477-94305',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
 //    sizeData: {
 //      type:'bag',
@@ -231,7 +231,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup: 'A94485-Y61477-94305',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
 //    sizeData: {
 //      type:'bag',
@@ -286,7 +286,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A94485-Y61477-94305',
+    modelGroup: 'A94485-Y61477-94305',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
 //    sizeData: {
 //      type:'bag',
@@ -341,7 +341,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS5293-B20304-94305',
+    modelGroup: 'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -396,7 +396,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS5293-B20304-94305',
+    modelGroup: 'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -451,7 +451,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS5293-B20304-94305',
+    modelGroup: 'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -506,7 +506,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS5293-B20304-94305',
+    modelGroup: 'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -561,7 +561,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS5293-B20304-94305',
+    modelGroup: 'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -616,7 +616,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS5293-B20304-94305',
+    modelGroup: 'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -671,7 +671,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS5293-B20304-94305',
+    modelGroup: 'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -726,7 +726,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS5293-B20304-94305',
+    modelGroup: 'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -781,7 +781,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS5293-B20304-94305',
+    modelGroup: 'AS5293-B20304-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -835,7 +835,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -892,7 +892,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -946,7 +946,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1000,7 +1000,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1054,7 +1054,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1108,7 +1108,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1162,7 +1162,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1216,7 +1216,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1270,7 +1270,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1322,7 +1322,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1376,7 +1376,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1429,7 +1429,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08037/B09584/B19059-94305',
+    modelGroup: 'AS3260-B08037/B09584/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1482,7 +1482,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A69900-Y04059-94305',
+    modelGroup: 'A69900-Y04059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1540,7 +1540,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A69900-Y04059-94305',
+    modelGroup: 'A69900-Y04059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1595,7 +1595,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A69900-Y04059-94305',
+    modelGroup: 'A69900-Y04059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1648,7 +1648,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A69900-Y04059-94305',
+    modelGroup: 'A69900-Y04059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1701,7 +1701,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A69900-Y04059-94305',
+    modelGroup: 'A69900-Y04059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1756,7 +1756,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A69900-Y04059-94305',
+    modelGroup: 'A69900-Y04059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1810,7 +1810,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A69900-Y04059-94305',
+    modelGroup: 'A69900-Y04059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1863,7 +1863,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A01112-Y01588-C3906',
+    modelGroup: 'A01112-Y01588-C3906',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1918,7 +1918,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A01112-Y01588-C3906',
+    modelGroup: 'A01112-Y01588-C3906',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -1973,7 +1973,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3261-B08037/B19059-94305',
+    modelGroup: 'AS3261-B08037/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2028,7 +2028,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3261-B08037/B19059-94305',
+    modelGroup: 'AS3261-B08037/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2083,7 +2083,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3261-B08037/B19059-94305',
+    modelGroup: 'AS3261-B08037/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2138,7 +2138,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3261-B08037/B19059-94305',
+    modelGroup: 'AS3261-B08037/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2192,7 +2192,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3261-B08037/B19059-94305',
+    modelGroup: 'AS3261-B08037/B19059-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2247,7 +2247,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2304,7 +2304,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2362,7 +2362,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2415,7 +2415,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2469,7 +2469,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2522,7 +2522,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2575,7 +2575,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2630,7 +2630,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2685,7 +2685,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2740,7 +2740,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2794,7 +2794,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2847,7 +2847,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2901,7 +2901,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -2956,7 +2956,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3009,7 +3009,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3064,7 +3064,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3117,7 +3117,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3173,7 +3173,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3228,7 +3228,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3283,7 +3283,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3338,7 +3338,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H069426CCCI/H085945CCAC',
+    modelGroup: 'H069426CCCI/H085945CCAC',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3391,7 +3391,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A92990-B05061-94305',
+    modelGroup: 'A92990-B05061-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3449,7 +3449,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A92990-B05061-94305',
+    modelGroup: 'A92990-B05061-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3504,7 +3504,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A92990-B05061-94305',
+    modelGroup: 'A92990-B05061-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3557,7 +3557,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A92990-B05061-94305',
+    modelGroup: 'A92990-B05061-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3612,7 +3612,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A92990-B05061-94305',
+    modelGroup: 'A92990-B05061-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3667,7 +3667,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A92990-B05061-94305',
+    modelGroup: 'A92990-B05061-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3722,7 +3722,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A92990-B05061-94305',
+    modelGroup: 'A92990-B05061-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3777,7 +3777,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A92990-B05061-94305',
+    modelGroup: 'A92990-B05061-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3832,7 +3832,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'A92990-B05061-94305',
+    modelGroup: 'A92990-B05061-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -3943,7 +3943,7 @@ export const PRODUCTS = {
     enName: 'Chanel Mini Shopping Bag Shiny Aged Calfskin & Gold Black',
     brand: '샤넬',
     enBrand: 'Chanel',
-    modelGroup:'AS4416-B14296-94305/AS4416-B15566-94305',
+    modelGroup: 'AS4416-B14296-94305/AS4416-B15566-94305',
     category: "6",
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
@@ -4002,7 +4002,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS4416-B14296-94305/AS4416-B15566-94305',
+    modelGroup: 'AS4416-B14296-94305/AS4416-B15566-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -4057,7 +4057,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS4416-B14296-94305/AS4416-B15566-94305',
+    modelGroup: 'AS4416-B14296-94305/AS4416-B15566-94305',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -4112,7 +4112,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H041344CC37',
+    modelGroup: 'H041344CC37',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4168,7 +4168,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H041344CC37',
+    modelGroup: 'H041344CC37',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4222,7 +4222,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H041344CC37',
+    modelGroup: 'H041344CC37',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4277,7 +4277,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H041344CC37',
+    modelGroup: 'H041344CC37',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4332,7 +4332,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H041344CC37',
+    modelGroup: 'H041344CC37',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4387,7 +4387,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H041344CC37',
+    modelGroup: 'H041344CC37',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4440,7 +4440,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H041344CC37',
+    modelGroup: 'H041344CC37',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4495,7 +4495,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4557,7 +4557,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4612,7 +4612,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4667,7 +4667,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4722,7 +4722,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4777,7 +4777,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4831,7 +4831,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4886,7 +4886,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4940,7 +4940,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -4999,7 +4999,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5053,7 +5053,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5112,7 +5112,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5171,7 +5171,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5226,7 +5226,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5280,7 +5280,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H051568CK89',
+    modelGroup: 'H051568CK89',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5335,7 +5335,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3787-B10184-94305/AS3787-B16985-94305',
+    modelGroup: 'AS3787-B10184-94305/AS3787-B16985-94305',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -5393,7 +5393,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3787-B10184-94305/AS3787-B16985-94305',
+    modelGroup: 'AS3787-B10184-94305/AS3787-B16985-94305',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -5447,7 +5447,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3787-B10184-94305/AS3787-B16985-94305',
+    modelGroup: 'AS3787-B10184-94305/AS3787-B16985-94305',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -5502,7 +5502,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08872/B19057-94305',
+    modelGroup: 'AS3260-B08872/B19057-94305',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -5557,7 +5557,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3260-B08872/B19057-94305',
+    modelGroup: 'AS3260-B08872/B19057-94305',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -5611,7 +5611,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H072069CKAA',
+    modelGroup: 'H072069CKAA',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5667,7 +5667,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H072069CKAA',
+    modelGroup: 'H072069CKAA',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5722,7 +5722,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H072069CKAA',
+    modelGroup: 'H072069CKAA',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5777,7 +5777,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H072069CKAA',
+    modelGroup: 'H072069CKAA',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5831,7 +5831,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H072069CKAA',
+    modelGroup: 'H072069CKAA',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5887,7 +5887,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H072069CKAA',
+    modelGroup: 'H072069CKAA',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5943,7 +5943,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H072069CKAA',
+    modelGroup: 'H072069CKAA',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -5998,7 +5998,7 @@ export const PRODUCTS = {
     brand: '에르메스',
     enBrand: 'Hermes',
     category: "6",
-    modelGroup:'H072069CKAA',
+    modelGroup: 'H072069CKAA',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -6110,7 +6110,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'2ESCA339YSE-H05E',
+    modelGroup: '2ESCA339YSE-H05E',
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
@@ -6165,7 +6165,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'2ESCA339YSE-H05E',
+    modelGroup: '2ESCA339YSE-H05E',
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
@@ -6220,7 +6220,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'194372BZK-04LU',
+    modelGroup: '194372BZK-04LU',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -6274,7 +6274,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'194372BZK-04LU',
+    modelGroup: '194372BZK-04LU',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -6328,7 +6328,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'194372BZK-04LU',
+    modelGroup: '194372BZK-04LU',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -6383,7 +6383,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'449654-BMJ1G-1000',
+    modelGroup: '449654-BMJ1G-1000',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -6437,7 +6437,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'449654-BMJ1G-1000',
+    modelGroup: '449654-BMJ1G-1000',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -6491,7 +6491,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'449654-BMJ1G-1000',
+    modelGroup: '449654-BMJ1G-1000',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -6546,7 +6546,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'120722FQM-04LU',
+    modelGroup: '120722FQM-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6601,7 +6601,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'120722FQM-04LU',
+    modelGroup: '120722FQM-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6656,7 +6656,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'120722FQM-04LU',
+    modelGroup: '120722FQM-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6711,7 +6711,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'120722FQM-04LU',
+    modelGroup: '120722FQM-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6766,7 +6766,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    modelGroup: '1NE515-2DH0/RDH0-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6824,7 +6824,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    modelGroup: '1NE515-2DH0/RDH0-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6880,7 +6880,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    modelGroup: '1NE515-2DH0/RDH0-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6934,7 +6934,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    modelGroup: '1NE515-2DH0/RDH0-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -6987,7 +6987,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    modelGroup: '1NE515-2DH0/RDH0-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -7041,7 +7041,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    modelGroup: '1NE515-2DH0/RDH0-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -7096,7 +7096,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    modelGroup: '1NE515-2DH0/RDH0-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -7151,7 +7151,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    modelGroup: '1NE515-2DH0/RDH0-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -7205,7 +7205,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1NE515-2DH0/RDH0-F0002',
+    modelGroup: '1NE515-2DH0/RDH0-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -7260,7 +7260,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AP3753',
+    modelGroup: 'AP3753',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -7318,7 +7318,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AP3753',
+    modelGroup: 'AP3753',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -7428,7 +7428,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -7485,7 +7485,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -7540,7 +7540,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -7595,7 +7595,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -7650,7 +7650,7 @@ export const PRODUCTS = {
     brand: '끌로에',
     enBrand: 'Chloe',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -7704,7 +7704,7 @@ export const PRODUCTS = {
     brand: '끌로에',
     enBrand: 'Chloe',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -7759,7 +7759,7 @@ export const PRODUCTS = {
     brand: '끌로에',
     enBrand: 'Chloe',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -7813,7 +7813,7 @@ export const PRODUCTS = {
     brand: '끌로에',
     enBrand: 'Chloe',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -7866,7 +7866,7 @@ export const PRODUCTS = {
     brand: '끌로에',
     enBrand: 'Chloe',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -7919,7 +7919,7 @@ export const PRODUCTS = {
     brand: '끌로에',
     enBrand: 'Chloe',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -7973,7 +7973,7 @@ export const PRODUCTS = {
     brand: '끌로에',
     enBrand: 'Chloe',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -8027,7 +8027,7 @@ export const PRODUCTS = {
     brand: '끌로에',
     enBrand: 'Chloe',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -8080,7 +8080,7 @@ export const PRODUCTS = {
     brand: '끌로에',
     enBrand: 'Chloe',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -8133,7 +8133,7 @@ export const PRODUCTS = {
     brand: '끌로에',
     enBrand: 'Chloe',
     category: "6",
-    modelGroup:'M45985',
+    modelGroup: 'M45985',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -8187,7 +8187,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M20997',
+    modelGroup: 'M20997',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -8242,7 +8242,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M20997',
+    modelGroup: 'M20997',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -8297,7 +8297,7 @@ export const PRODUCTS = {
     brand: '더 로우',
     enBrand: 'The Row',
     category: "6",
-    modelGroup:'W1292L97BLPL',
+    modelGroup: 'W1292L97BLPL',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -8351,7 +8351,7 @@ export const PRODUCTS = {
     brand: '더 로우',
     enBrand: 'The Row',
     category: "6",
-    modelGroup:'W1292L97BLPL',
+    modelGroup: 'W1292L97BLPL',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -8403,7 +8403,7 @@ export const PRODUCTS = {
     brand: '더 로우',
     enBrand: 'The Row',
     category: "6",
-    modelGroup:'W1292L97BLPL',
+    modelGroup: 'W1292L97BLPL',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -8455,7 +8455,7 @@ export const PRODUCTS = {
     brand: '더 로우',
     enBrand: 'The Row',
     category: "6",
-    modelGroup:'W1292L97BLPL',
+    modelGroup: 'W1292L97BLPL',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -8507,7 +8507,7 @@ export const PRODUCTS = {
     brand: '더 로우',
     enBrand: 'The Row',
     category: "6",
-    modelGroup:'W1292L97BLPL',
+    modelGroup: 'W1292L97BLPL',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -8559,7 +8559,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -8612,7 +8612,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -8665,7 +8665,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -8717,7 +8717,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -8769,7 +8769,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -8822,7 +8822,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -8873,7 +8873,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -8926,7 +8926,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -8977,7 +8977,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -9030,7 +9030,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -9083,7 +9083,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -9136,7 +9136,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -9189,7 +9189,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -9241,7 +9241,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -9295,7 +9295,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'680218VCQC48425',
+    modelGroup: '680218VCQC48425',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -9348,7 +9348,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BH204-NZV-F0632',
+    modelGroup: '1BH204-NZV-F0632',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9401,7 +9401,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BH204-NZV-F0632',
+    modelGroup: '1BH204-NZV-F0632',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9455,7 +9455,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BH204-NZV-F0632',
+    modelGroup: '1BH204-NZV-F0632',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9508,7 +9508,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BH204-NZV-F0632',
+    modelGroup: '1BH204-NZV-F0632',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9560,7 +9560,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BH204-NZV-F0632',
+    modelGroup: '1BH204-NZV-F0632',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9613,7 +9613,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BH204-NZV-F0632',
+    modelGroup: '1BH204-NZV-F0632',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9666,7 +9666,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BH204-NZV-F0632',
+    modelGroup: '1BH204-NZV-F0632',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9719,7 +9719,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BH204-NZV-F0632',
+    modelGroup: '1BH204-NZV-F0632',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9772,7 +9772,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BH204-NZV-F0632',
+    modelGroup: '1BH204-NZV-F0632',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9825,7 +9825,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BH204-NZV-F0632',
+    modelGroup: '1BH204-NZV-F0632',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -9879,7 +9879,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'118703GGT-38NO',
+    modelGroup: '118703GGT-38NO',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -9938,7 +9938,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'118703GGT-38NO',
+    modelGroup: '118703GGT-38NO',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -9993,7 +9993,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'118703GGT-38NO',
+    modelGroup: '118703GGT-38NO',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -10048,7 +10048,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'118703GGT-38NO',
+    modelGroup: '118703GGT-38NO',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -10103,7 +10103,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'118703GGT-38NO',
+    modelGroup: '118703GGT-38NO',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -10158,7 +10158,7 @@ export const PRODUCTS = {
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
-    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    modelGroup: '5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10216,7 +10216,7 @@ export const PRODUCTS = {
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
-    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    modelGroup: '5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10270,7 +10270,7 @@ export const PRODUCTS = {
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
-    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    modelGroup: '5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10323,7 +10323,7 @@ export const PRODUCTS = {
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
-    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    modelGroup: '5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10377,7 +10377,7 @@ export const PRODUCTS = {
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
-    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    modelGroup: '5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10430,7 +10430,7 @@ export const PRODUCTS = {
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
-    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    modelGroup: '5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10484,7 +10484,7 @@ export const PRODUCTS = {
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
-    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    modelGroup: '5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10538,7 +10538,7 @@ export const PRODUCTS = {
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
-    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    modelGroup: '5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10592,7 +10592,7 @@ export const PRODUCTS = {
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
-    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    modelGroup: '5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10645,7 +10645,7 @@ export const PRODUCTS = {
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
-    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    modelGroup: '5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10697,7 +10697,7 @@ export const PRODUCTS = {
     brand: '미우 미우',
     enBrand: 'Miu Miu',
     category: "6",
-    modelGroup:'5BP078-N88-F0002/5BP078-AN88-F0002',
+    modelGroup: '5BP078-N88-F0002/5BP078-AN88-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10751,7 +10751,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M58916',
+    modelGroup: 'M58916',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -10809,7 +10809,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M58916',
+    modelGroup: 'M58916',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -10864,7 +10864,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M58916',
+    modelGroup: 'M58916',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -10918,7 +10918,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1N204M-R064-F0002',
+    modelGroup: '1N204M-R064-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -10976,7 +10976,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1N204M-R064-F0002',
+    modelGroup: '1N204M-R064-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -11030,7 +11030,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1N204M-R064-F0002',
+    modelGroup: '1N204M-R064-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -11083,7 +11083,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1N204M-R064-F0002',
+    modelGroup: '1N204M-R064-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -11137,7 +11137,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1N204M-R064-F0002',
+    modelGroup: '1N204M-R064-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -11190,7 +11190,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1N204M-R064-F0002',
+    modelGroup: '1N204M-R064-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -11243,7 +11243,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1N204M-R064-F0002',
+    modelGroup: '1N204M-R064-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -11296,7 +11296,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1N204M-R064-F0002',
+    modelGroup: '1N204M-R064-F0002',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -11349,7 +11349,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA217-2ERX-F0002',
+    modelGroup: '1BA217-2ERX-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -11405,7 +11405,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA217-2ERX-F0002',
+    modelGroup: '1BA217-2ERX-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -11459,7 +11459,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA217-2ERX-F0002',
+    modelGroup: '1BA217-2ERX-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -11513,7 +11513,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA217-2ERX-F0002',
+    modelGroup: '1BA217-2ERX-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -11565,7 +11565,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA217-2ERX-F0002',
+    modelGroup: '1BA217-2ERX-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -11617,7 +11617,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA217-2ERX-F0002',
+    modelGroup: '1BA217-2ERX-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -11670,7 +11670,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA217-2ERX-F0002',
+    modelGroup: '1BA217-2ERX-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -11723,7 +11723,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA217-2ERX-F0002',
+    modelGroup: '1BA217-2ERX-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -11776,7 +11776,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA217-2ERX-F0002',
+    modelGroup: '1BA217-2ERX-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -11851,6 +11851,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/38/wearingImg.png',
 //      '/media/products/bag/38/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/38/cpImg.png'
+    ],
     detailText: [
       {
         title: '이탈리아 수입 오리지널 소프트 나파 레더 사용',
@@ -11942,7 +11945,7 @@ export const PRODUCTS = {
     brand: '발렌티노',
     enBrand: 'Valentino',
     category: "6",
-    modelGroup:'P0T83HPF0NO',
+    modelGroup: 'P0T83HPF0NO',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -11998,7 +12001,7 @@ export const PRODUCTS = {
     brand: '발렌티노',
     enBrand: 'Valentino',
     category: "6",
-    modelGroup:'P0T83HPF0NO',
+    modelGroup: 'P0T83HPF0NO',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12052,7 +12055,7 @@ export const PRODUCTS = {
     brand: '발렌티노',
     enBrand: 'Valentino',
     category: "6",
-    modelGroup:'P0T83HPF0NO',
+    modelGroup: 'P0T83HPF0NO',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12104,7 +12107,7 @@ export const PRODUCTS = {
     brand: '발렌티노',
     enBrand: 'Valentino',
     category: "6",
-    modelGroup:'P0T83HPF0NO',
+    modelGroup: 'P0T83HPF0NO',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12157,7 +12160,7 @@ export const PRODUCTS = {
     brand: '발렌티노',
     enBrand: 'Valentino',
     category: "6",
-    modelGroup:'P0T83HPF0NO',
+    modelGroup: 'P0T83HPF0NO',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12209,7 +12212,7 @@ export const PRODUCTS = {
     brand: '발렌티노',
     enBrand: 'Valentino',
     category: "6",
-    modelGroup:'P0T83HPF0NO',
+    modelGroup: 'P0T83HPF0NO',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12263,7 +12266,7 @@ export const PRODUCTS = {
     brand: '발렌티노',
     enBrand: 'Valentino',
     category: "6",
-    modelGroup:'P0T83HPF0NO',
+    modelGroup: 'P0T83HPF0NO',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12315,7 +12318,7 @@ export const PRODUCTS = {
     brand: '발렌티노',
     enBrand: 'Valentino',
     category: "6",
-    modelGroup:'P0T83HPF0NO',
+    modelGroup: 'P0T83HPF0NO',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12369,7 +12372,7 @@ export const PRODUCTS = {
     brand: '발렌티노',
     enBrand: 'Valentino',
     category: "6",
-    modelGroup:'P0T83HPF0NO',
+    modelGroup: 'P0T83HPF0NO',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12421,7 +12424,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'1ADPO093YKY-H28E',
+    modelGroup: '1ADPO093YKY-H28E',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12444,6 +12447,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/41/wearingImg.png',
 //      '/media/products/bag/41/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/41/cpImg.png'
+    ],
     detailText: [
       {
         title: '프랑스 수입 오리지널 디올 오블리크 자카드 사용',
@@ -12479,7 +12485,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'1ADPO093YKY-H28E',
+    modelGroup: '1ADPO093YKY-H28E',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12589,7 +12595,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'666688VMAY19009',
+    modelGroup: '666688VMAY19009',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12646,7 +12652,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'666688VMAY19009',
+    modelGroup: '666688VMAY19009',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12700,7 +12706,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'666688VMAY19009',
+    modelGroup: '666688VMAY19009',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12757,7 +12763,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'666688VMAY19009',
+    modelGroup: '666688VMAY19009',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12811,7 +12817,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'666688VMAY19009',
+    modelGroup: '666688VMAY19009',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -12921,7 +12927,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M58009',
+    modelGroup: 'M58009',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -13034,7 +13040,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M58009',
+    modelGroup: 'M58009',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -13087,7 +13093,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M58009',
+    modelGroup: 'M58009',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -13139,7 +13145,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M58009',
+    modelGroup: 'M58009',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -13247,7 +13253,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'447632-DTD1T-1000',
+    modelGroup: '447632-DTD1T-1000',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -13303,7 +13309,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'447632-DTD1T-1000',
+    modelGroup: '447632-DTD1T-1000',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -13357,7 +13363,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'447632-DTD1T-1000',
+    modelGroup: '447632-DTD1T-1000',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -13467,7 +13473,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M83113',
+    modelGroup: 'M83113',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -13527,7 +13533,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M83113',
+    modelGroup: 'M83113',
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
@@ -13637,7 +13643,7 @@ export const PRODUCTS = {
     brand: '고야드',
     enBrand: 'Goyard',
     category: "6",
-    modelGroup:'APMSENAT2-MM-01',
+    modelGroup: 'APMSENAT2-MM-01',
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
@@ -13694,7 +13700,7 @@ export const PRODUCTS = {
     brand: '고야드',
     enBrand: 'Goyard',
     category: "6",
-    modelGroup:'APMSENAT2-MM-01',
+    modelGroup: 'APMSENAT2-MM-01',
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
@@ -13746,7 +13752,7 @@ export const PRODUCTS = {
     brand: '고야드',
     enBrand: 'Goyard',
     category: "6",
-    modelGroup:'APMSENAT2-MM-01',
+    modelGroup: 'APMSENAT2-MM-01',
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
@@ -13799,7 +13805,7 @@ export const PRODUCTS = {
     brand: '고야드',
     enBrand: 'Goyard',
     category: "6",
-    modelGroup:'APMSENAT2-MM-01',
+    modelGroup: 'APMSENAT2-MM-01',
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
@@ -13852,7 +13858,7 @@ export const PRODUCTS = {
     brand: '고야드',
     enBrand: 'Goyard',
     category: "6",
-    modelGroup:'APMSENAT2-MM-01',
+    modelGroup: 'APMSENAT2-MM-01',
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
@@ -13905,7 +13911,7 @@ export const PRODUCTS = {
     brand: '고야드',
     enBrand: 'Goyard',
     category: "6",
-    modelGroup:'APMSENAT2-MM-01',
+    modelGroup: 'APMSENAT2-MM-01',
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
@@ -13958,7 +13964,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'443497-DTDIT-1000',
+    modelGroup: '443497-DTDIT-1000',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -13980,6 +13986,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/805/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -14011,7 +14020,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'443497-DTDIT-1000',
+    modelGroup: '443497-DTDIT-1000',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14064,7 +14073,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'443497-DTDIT-1000',
+    modelGroup: '443497-DTDIT-1000',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14117,7 +14126,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'782849-AADDX-1060',
+    modelGroup: '782849-AADDX-1060',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14140,6 +14149,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/808/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -14171,7 +14183,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'782849-AADDX-1060',
+    modelGroup: '782849-AADDX-1060',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14224,7 +14236,7 @@ export const PRODUCTS = {
     brand: '펜디',
     enBrand: 'Fendi',
     category: "6",
-    modelGroup:'8BP129ABVEF0KUR',
+    modelGroup: '8BP129ABVEF0KUR',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14277,7 +14289,7 @@ export const PRODUCTS = {
     brand: '펜디',
     enBrand: 'Fendi',
     category: "6",
-    modelGroup:'8BP129ABVEF0KUR',
+    modelGroup: '8BP129ABVEF0KUR',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14330,7 +14342,7 @@ export const PRODUCTS = {
     brand: '펜디',
     enBrand: 'Fendi',
     category: "6",
-    modelGroup:'8BP129ABVEF0KUR',
+    modelGroup: '8BP129ABVEF0KUR',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14354,6 +14366,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/812/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -14385,7 +14400,7 @@ export const PRODUCTS = {
     brand: '펜디',
     enBrand: 'Fendi',
     category: "6",
-    modelGroup:'8BP129ABVEF0KUR',
+    modelGroup: '8BP129ABVEF0KUR',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14438,7 +14453,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'10G342CAM-04BT',
+    modelGroup: '10G342CAM-04BT',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14460,6 +14475,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/814/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -14491,7 +14509,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'10G342CAM-04BT',
+    modelGroup: '10G342CAM-04BT',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14566,6 +14584,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/816/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -14597,7 +14618,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'114492BZJ-04LU',
+    modelGroup: '114492BZJ-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14624,6 +14645,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/817/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -14655,7 +14679,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'114492BZJ-04LU',
+    modelGroup: '114492BZJ-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14818,7 +14842,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'114492BZJ-04LU',
+    modelGroup: '114492BZJ-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14870,7 +14894,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'114492BZJ-04LU',
+    modelGroup: '114492BZJ-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14924,7 +14948,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'114492BZJ-04LU',
+    modelGroup: '114492BZJ-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -14977,7 +15001,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'114492BZJ-04LU',
+    modelGroup: '114492BZJ-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -15030,7 +15054,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M21619',
+    modelGroup: 'M21619',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -15054,6 +15078,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/825/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -15085,7 +15112,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M21619',
+    modelGroup: 'M21619',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -15138,7 +15165,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M21619',
+    modelGroup: 'M21619',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -15192,7 +15219,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M21619',
+    modelGroup: 'M21619',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -15245,7 +15272,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'660195-UD0AT-2546',
+    modelGroup: '660195-UD0AT-2546',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -15266,6 +15293,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/829/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -15297,7 +15327,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'660195-UD0AT-2546',
+    modelGroup: '660195-UD0AT-2546',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -15351,7 +15381,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'660195-UD0AT-2546',
+    modelGroup: '660195-UD0AT-2546',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -15405,7 +15435,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M1296ZRIW',
+    modelGroup: 'M1296ZRIW',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -15427,6 +15457,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/832/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -15458,7 +15491,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M1296ZRIW',
+    modelGroup: 'M1296ZRIW',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -15511,7 +15544,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M1296ZRIW',
+    modelGroup: 'M1296ZRIW',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -15565,7 +15598,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M1296ZRIW',
+    modelGroup: 'M1296ZRIW',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -15617,7 +15650,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M1296ZRIW',
+    modelGroup: 'M1296ZRIW',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -15671,7 +15704,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M1296ZRIW',
+    modelGroup: 'M1296ZRIW',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -15724,7 +15757,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M1296ZRIW',
+    modelGroup: 'M1296ZRIW',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -15777,7 +15810,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'S5225UDAX-M900',
+    modelGroup: 'S5225UDAX-M900',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -15831,7 +15864,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'S5225UDAX-M900',
+    modelGroup: 'S5225UDAX-M900',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -15885,7 +15918,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'S5225UDAX-M900',
+    modelGroup: 'S5225UDAX-M900',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
@@ -15939,7 +15972,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M9242UWHC-M900',
+    modelGroup: 'M9242UWHC-M900',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -15963,6 +15996,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/842/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -15994,7 +16030,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M9242UWHC-M900',
+    modelGroup: 'M9242UWHC-M900',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16046,7 +16082,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M9242UWHC-M900',
+    modelGroup: 'M9242UWHC-M900',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16101,7 +16137,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M9242UWHC-M900',
+    modelGroup: 'M9242UWHC-M900',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16153,7 +16189,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M0565ONGE-M900',
+    modelGroup: 'M0565ONGE-M900',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16175,6 +16211,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/846/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -16206,7 +16245,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M0565ONGE-M900',
+    modelGroup: 'M0565ONGE-M900',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16258,7 +16297,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M0565ONGE-M900',
+    modelGroup: 'M0565ONGE-M900',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16311,7 +16350,7 @@ export const PRODUCTS = {
     brand: '디올',
     enBrand: 'Dior',
     category: "6",
-    modelGroup:'M0565ONGE-M900',
+    modelGroup: 'M0565ONGE-M900',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16363,7 +16402,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M58727',
+    modelGroup: 'M58727',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16385,6 +16424,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/850/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -16416,7 +16458,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M59386',
+    modelGroup: 'M59386',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16470,7 +16512,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M59386',
+    modelGroup: 'M59386',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16524,7 +16566,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M94755',
+    modelGroup: 'M94755',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16578,7 +16620,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M94755',
+    modelGroup: 'M94755',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16633,7 +16675,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M94755',
+    modelGroup: 'M94755',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16654,6 +16696,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/855/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -16685,7 +16730,7 @@ export const PRODUCTS = {
     brand: '루이비통',
     enBrand: 'Louis Vuitton',
     category: "6",
-    modelGroup:'M94755',
+    modelGroup: 'M94755',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -16739,7 +16784,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'666873VCQ719009',
+    modelGroup: '666873VCQ719009',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -16761,6 +16806,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/857/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -16792,7 +16840,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'666873VCQ719009',
+    modelGroup: '666873VCQ719009',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -16844,7 +16892,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'666873VCQ719009',
+    modelGroup: '666873VCQ719009',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -16896,7 +16944,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'666873VCQ719009',
+    modelGroup: '666873VCQ719009',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -16948,7 +16996,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'666873VCQ719009',
+    modelGroup: '666873VCQ719009',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
@@ -17000,7 +17048,7 @@ export const PRODUCTS = {
     brand: '샤넬',
     enBrand: 'Chanel',
     category: "6",
-    modelGroup:'AS3176-Y33352/B09731/B10583-94305',
+    modelGroup: 'AS3176-Y33352/B09731/B10583-94305',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -17054,7 +17102,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'193953DGQ-04LU',
+    modelGroup: '193953DGQ-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -17077,6 +17125,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/812/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -17108,7 +17159,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'193953DGQ-04LU',
+    modelGroup: '193953DGQ-04LU',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -17160,7 +17211,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA381-2DYI-F0002',
+    modelGroup: '1BA381-2DYI-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -17182,6 +17233,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/865/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -17213,7 +17267,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA381-2DYI-F0002',
+    modelGroup: '1BA381-2DYI-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -17266,7 +17320,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA381-2DYI-F0002',
+    modelGroup: '1BA381-2DYI-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -17431,7 +17485,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BG422-2A2T-F0009',
+    modelGroup: '1BG422-2A2T-F0009',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
 //    sizeData: {
 //      type: 'bag',
@@ -17483,7 +17537,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BG422-2A2T-F0009',
+    modelGroup: '1BG422-2A2T-F0009',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
 //    sizeData: {
 //      type: 'bag',
@@ -17536,7 +17590,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BG422-2A2T-F0009',
+    modelGroup: '1BG422-2A2T-F0009',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
 //    sizeData: {
 //      type: 'bag',
@@ -17557,6 +17611,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/872/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -17588,7 +17645,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BG422-2A2T-F0009',
+    modelGroup: '1BG422-2A2T-F0009',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
 //    sizeData: {
 //      type: 'bag',
@@ -17641,7 +17698,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BG422-2A2T-F0009',
+    modelGroup: '1BG422-2A2T-F0009',
     subCategory: {id: 4, title: "토트백", img: "totebag"},
 //    sizeData: {
 //      type: 'bag',
@@ -17695,7 +17752,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA366-2DDJ-F0002',
+    modelGroup: '1BA366-2DDJ-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -17718,6 +17775,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/875/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -17749,7 +17809,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA366-2DDJ-F0002',
+    modelGroup: '1BA366-2DDJ-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -17802,7 +17862,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA366-2DDJ-F0002',
+    modelGroup: '1BA366-2DDJ-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -17825,6 +17885,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+        celebImg:[
+      '/media/products/bag/877/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -17856,7 +17919,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA366-2DDJ-F0002',
+    modelGroup: '1BA366-2DDJ-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -17910,7 +17973,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA366-2DDJ-F0002',
+    modelGroup: '1BA366-2DDJ-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -17964,7 +18027,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA366-2DDJ-F0002',
+    modelGroup: '1BA366-2DDJ-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -18016,7 +18079,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA366-2DDJ-F0002',
+    modelGroup: '1BA366-2DDJ-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -18070,7 +18133,7 @@ export const PRODUCTS = {
     brand: '프라다',
     enBrand: 'Prada',
     category: "6",
-    modelGroup:'1BA366-2DDJ-F0002',
+    modelGroup: '1BA366-2DDJ-F0002',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -18123,7 +18186,7 @@ export const PRODUCTS = {
     brand: '생로랑',
     enBrand: 'Saint Laurent',
     category: "6",
-    modelGroup:'742431-AAB32-1000',
+    modelGroup: '742431-AAB32-1000',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -18144,6 +18207,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg: [
+      '/media/products/bag/883/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -18175,7 +18241,7 @@ export const PRODUCTS = {
     brand: '생로랑',
     enBrand: 'Saint Laurent',
     category: "6",
-    modelGroup:'742431-AAB32-1000',
+    modelGroup: '742431-AAB32-1000',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -18230,7 +18296,7 @@ export const PRODUCTS = {
     brand: '생로랑',
     enBrand: 'Saint Laurent',
     category: "6",
-    modelGroup:'742431-AAB32-1000',
+    modelGroup: '742431-AAB32-1000',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -18251,6 +18317,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+        celebImg:[
+      '/media/products/bag/885/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -18282,7 +18351,7 @@ export const PRODUCTS = {
     brand: '생로랑',
     enBrand: 'Saint Laurent',
     category: "6",
-    modelGroup:'742431-AAB32-1000',
+    modelGroup: '742431-AAB32-1000',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -18336,7 +18405,7 @@ export const PRODUCTS = {
     brand: '생로랑',
     enBrand: 'Saint Laurent',
     category: "6",
-    modelGroup:'742431-AAB32-1000',
+    modelGroup: '742431-AAB32-1000',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
@@ -18388,7 +18457,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'197662CAS-04LU',
+    modelGroup: '197662CAS-04LU',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -18414,6 +18483,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg:[
+      '/media/products/bag/888/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -18445,7 +18517,7 @@ export const PRODUCTS = {
     brand: '셀린느',
     enBrand: 'Celine',
     category: "6",
-    modelGroup:'197662CAS-04LU',
+    modelGroup: '197662CAS-04LU',
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
@@ -18499,7 +18571,7 @@ export const PRODUCTS = {
     brand: '로에베',
     enBrand: 'Loewe',
     category: "6",
-    modelGroup:'A923PM1X01-3627',
+    modelGroup: 'A923PM1X01-3627',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -18523,6 +18595,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg:[
+      '/media/products/bag/890/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -18554,7 +18629,7 @@ export const PRODUCTS = {
     brand: '로에베',
     enBrand: 'Loewe',
     category: "6",
-    modelGroup:'A923PM1X01-3627',
+    modelGroup: 'A923PM1X01-3627',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -18607,7 +18682,7 @@ export const PRODUCTS = {
     brand: '로에베',
     enBrand: 'Loewe',
     category: "6",
-    modelGroup:'A923PM1X01-3627',
+    modelGroup: 'A923PM1X01-3627',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -18662,7 +18737,7 @@ export const PRODUCTS = {
     brand: '로에베',
     enBrand: 'Loewe',
     category: "6",
-    modelGroup:'A923PM1X01-3627',
+    modelGroup: 'A923PM1X01-3627',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -18717,7 +18792,7 @@ export const PRODUCTS = {
     brand: '로에베',
     enBrand: 'Loewe',
     category: "6",
-    modelGroup:'A923PM1X01-3627',
+    modelGroup: 'A923PM1X01-3627',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -18772,7 +18847,7 @@ export const PRODUCTS = {
     brand: '로에베',
     enBrand: 'Loewe',
     category: "6",
-    modelGroup:'A923PM1X01-3627',
+    modelGroup: 'A923PM1X01-3627',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -18827,7 +18902,7 @@ export const PRODUCTS = {
     brand: '로에베',
     enBrand: 'Loewe',
     category: "6",
-    modelGroup:'A510P88X26-2530',
+    modelGroup: 'A510P88X26-2530',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
 //    sizeData: {
 //      type: 'bag',
@@ -18848,6 +18923,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+        celebImg:[
+      '/media/products/bag/896/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -18872,14 +18950,14 @@ export const PRODUCTS = {
     ]
   },
   "897": {
-    id: 896,
+    id: 897,
     modelNumber: 'A510P88X26-1100',
     name: '로에베 미니 퍼즐 백 인 클래식 카프스킨 블랙',
     enName: 'Loewe Mini Puzzle Bag In Classic Calfskin Black',
     brand: '로에베',
     enBrand: 'Loewe',
     category: "6",
-    modelGroup:'A510P88X26-2530',
+    modelGroup: 'A510P88X26-2530',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
 //    sizeData: {
 //      type: 'bag',
@@ -18931,7 +19009,7 @@ export const PRODUCTS = {
     brand: '로에베',
     enBrand: 'Loewe',
     category: "6",
-    modelGroup:'A510P88X26-2530',
+    modelGroup: 'A510P88X26-2530',
     subCategory: {id: 1, title: "미니백", img: "minibag"},
 //    sizeData: {
 //      type: 'bag',
@@ -18984,7 +19062,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'631421VBWZ03722',
+    modelGroup: '631421VBWZ03722',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -19005,6 +19083,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+    celebImg:[
+      '/media/products/bag/899/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -19036,7 +19117,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'631421VBWZ03722',
+    modelGroup: '631421VBWZ03722',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -19088,7 +19169,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'631421VBWZ03722',
+    modelGroup: '631421VBWZ03722',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -19141,7 +19222,7 @@ export const PRODUCTS = {
     brand: '보테가 베네타',
     enBrand: 'Bottega Veneta',
     category: "6",
-    modelGroup:'631421VBWZ03722',
+    modelGroup: '631421VBWZ03722',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -19194,7 +19275,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'476433-DTD5N-1000',
+    modelGroup: '476433-DTD5N-1000',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -19217,6 +19298,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+        celebImg:[
+      '/media/products/bag/903/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -19248,7 +19332,7 @@ export const PRODUCTS = {
     brand: '구찌',
     enBrand: 'Gucci',
     category: "6",
-    modelGroup:'476433-DTD5N-1000',
+    modelGroup: '476433-DTD5N-1000',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -19326,6 +19410,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+        celebImg:[
+      '/media/products/bag/905/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -19357,7 +19444,7 @@ export const PRODUCTS = {
     brand: '펜디',
     enBrand: 'Fendi',
     category: "6",
-    modelGroup:'8BR798A5DYF1HEL',
+    modelGroup: '8BR798A5DYF1HEL',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -19382,6 +19469,9 @@ export const PRODUCTS = {
 //      '/media/products/bag/50/wearingImg.png',
 //      '/media/products/bag/50/wearingImg2.png',
 //    ],
+        celebImg:[
+      '/media/products/bag/906/cpImg.png'
+    ],
     detailText: [
       {
         title: '',
@@ -19413,7 +19503,7 @@ export const PRODUCTS = {
     brand: '펜디',
     enBrand: 'Fendi',
     category: "6",
-    modelGroup:'8BR798A5DYF1HEL',
+    modelGroup: '8BR798A5DYF1HEL',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -19468,7 +19558,7 @@ export const PRODUCTS = {
     brand: '펜디',
     enBrand: 'Fendi',
     category: "6",
-    modelGroup:'8BR798A5DYF1HEL',
+    modelGroup: '8BR798A5DYF1HEL',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -19524,7 +19614,7 @@ export const PRODUCTS = {
     brand: '펜디',
     enBrand: 'Fendi',
     category: "6",
-    modelGroup:'8BR798A5DYF1HEL',
+    modelGroup: '8BR798A5DYF1HEL',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
@@ -19580,7 +19670,7 @@ export const PRODUCTS = {
     brand: '펜디',
     enBrand: 'Fendi',
     category: "6",
-    modelGroup:'8BR798A5DYF1HEL',
+    modelGroup: '8BR798A5DYF1HEL',
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
