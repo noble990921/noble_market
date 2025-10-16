@@ -11,7 +11,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -21,15 +21,15 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/223/mainImg.png',
-      '/media/products/shoes/223/mainImg2.png',
-      '/media/products/shoes/223/mainImg3.png',
-      '/media/products/shoes/223/mainImg4.png',
+      '/media/products/shoes/223/mainImg.webp',
+      '/media/products/shoes/223/mainImg2.webp',
+      '/media/products/shoes/223/mainImg3.webp',
+      '/media/products/shoes/223/mainImg4.webp',
     ],
     detailImg: [
-      '/media/products/shoes/223/detailImg.png',
-      '/media/products/shoes/223/detailImg2.png',
-      '/media/products/shoes/223/detailImg3.png'
+      '/media/products/shoes/223/detailImg.webp',
+      '/media/products/shoes/223/detailImg2.webp',
+      '/media/products/shoes/223/detailImg3.webp'
     ],
     detailText: [
       {
@@ -70,7 +70,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -80,19 +80,19 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/224/mainImg.png',
-      '/media/products/shoes/224/mainImg2.png',
-      '/media/products/shoes/224/mainImg3.png',
-      '/media/products/shoes/224/mainImg4.png',
-      '/media/products/shoes/224/mainImg5.png',
-      '/media/products/shoes/224/mainImg6.png',
-      '/media/products/shoes/224/mainImg7.png',
-      '/media/products/shoes/224/mainImg8.png',
+      '/media/products/shoes/224/mainImg.webp',
+      '/media/products/shoes/224/mainImg2.webp',
+      '/media/products/shoes/224/mainImg3.webp',
+      '/media/products/shoes/224/mainImg4.webp',
+      '/media/products/shoes/224/mainImg5.webp',
+      '/media/products/shoes/224/mainImg6.webp',
+      '/media/products/shoes/224/mainImg7.webp',
+      '/media/products/shoes/224/mainImg8.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -133,7 +133,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -143,13 +143,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/225/mainImg.png',
-      '/media/products/shoes/225/mainImg2.png',
+      '/media/products/shoes/225/mainImg.webp',
+      '/media/products/shoes/225/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -190,7 +190,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -200,13 +200,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-//      '/media/products/shoes/225/mainImg.png',
-      '/media/products/shoes/226/mainImg2.png',
+//      '/media/products/shoes/225/mainImg.webp',
+      '/media/products/shoes/226/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -247,7 +247,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -257,14 +257,14 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/227/mainImg.png',
-      '/media/products/shoes/227/mainImg2.png',
-      '/media/products/shoes/227/mainImg3.png',
+      '/media/products/shoes/227/mainImg.webp',
+      '/media/products/shoes/227/mainImg2.webp',
+      '/media/products/shoes/227/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -305,7 +305,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -315,14 +315,14 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/228/mainImg.png',
-      '/media/products/shoes/228/mainImg2.png',
-      '/media/products/shoes/228/mainImg3.png',
+      '/media/products/shoes/228/mainImg.webp',
+      '/media/products/shoes/228/mainImg2.webp',
+      '/media/products/shoes/228/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -363,7 +363,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -373,14 +373,14 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/229/mainImg.png',
-      '/media/products/shoes/229/mainImg2.png',
-      '/media/products/shoes/229/mainImg3.png',
+      '/media/products/shoes/229/mainImg.webp',
+      '/media/products/shoes/229/mainImg2.webp',
+      '/media/products/shoes/229/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -421,7 +421,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -431,13 +431,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/230/mainImg.png',
-      '/media/products/shoes/230/mainImg2.png',
+      '/media/products/shoes/230/mainImg.webp',
+      '/media/products/shoes/230/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -478,7 +478,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -488,13 +488,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/231/mainImg.png',
-      '/media/products/shoes/231/mainImg2.png',
+      '/media/products/shoes/231/mainImg.webp',
+      '/media/products/shoes/231/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -535,7 +535,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -545,14 +545,14 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/232/mainImg.png',
-      '/media/products/shoes/232/mainImg2.png',
-      '/media/products/shoes/232/mainImg3.png',
+      '/media/products/shoes/232/mainImg.webp',
+      '/media/products/shoes/232/mainImg2.webp',
+      '/media/products/shoes/232/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -593,7 +593,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -603,14 +603,14 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/233/mainImg.png',
-      '/media/products/shoes/233/mainImg2.png',
-      '/media/products/shoes/233/mainImg3.png',
+      '/media/products/shoes/233/mainImg.webp',
+      '/media/products/shoes/233/mainImg2.webp',
+      '/media/products/shoes/233/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -651,7 +651,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -661,15 +661,15 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/234/mainImg.png',
-      '/media/products/shoes/234/mainImg2.png',
-      '/media/products/shoes/234/mainImg3.png',
-      '/media/products/shoes/234/mainImg4.png',
+      '/media/products/shoes/234/mainImg.webp',
+      '/media/products/shoes/234/mainImg2.webp',
+      '/media/products/shoes/234/mainImg3.webp',
+      '/media/products/shoes/234/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -710,7 +710,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -720,14 +720,14 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/235/mainImg.png',
-      '/media/products/shoes/235/mainImg2.png',
-      '/media/products/shoes/235/mainImg3.png',
+      '/media/products/shoes/235/mainImg.webp',
+      '/media/products/shoes/235/mainImg2.webp',
+      '/media/products/shoes/235/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -768,7 +768,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -778,13 +778,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/236/mainImg.png',
-      '/media/products/shoes/236/mainImg2.png',
+      '/media/products/shoes/236/mainImg.webp',
+      '/media/products/shoes/236/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -825,7 +825,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -835,13 +835,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/237/mainImg.png',
-      '/media/products/shoes/237/mainImg2.png',
+      '/media/products/shoes/237/mainImg.webp',
+      '/media/products/shoes/237/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -882,7 +882,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -892,13 +892,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/238/mainImg.png',
-      '/media/products/shoes/238/mainImg2.png',
+      '/media/products/shoes/238/mainImg.webp',
+      '/media/products/shoes/238/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -939,7 +939,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -949,14 +949,14 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/239/mainImg.png',
-      '/media/products/shoes/239/mainImg2.png',
-      '/media/products/shoes/239/mainImg3.png',
+      '/media/products/shoes/239/mainImg.webp',
+      '/media/products/shoes/239/mainImg2.webp',
+      '/media/products/shoes/239/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -997,7 +997,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1007,15 +1007,15 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/240/mainImg.png',
-      '/media/products/shoes/240/mainImg2.png',
-      '/media/products/shoes/240/mainImg3.png',
-      '/media/products/shoes/240/mainImg4.png',
+      '/media/products/shoes/240/mainImg.webp',
+      '/media/products/shoes/240/mainImg2.webp',
+      '/media/products/shoes/240/mainImg3.webp',
+      '/media/products/shoes/240/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/223/detailImg.png',
-//      '/media/products/shoes/223/detailImg2.png',
-//      '/media/products/shoes/223/detailImg3.png'
+//      '/media/products/shoes/223/detailImg.webp',
+//      '/media/products/shoes/223/detailImg2.webp',
+//      '/media/products/shoes/223/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1056,7 +1056,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1066,13 +1066,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/241/mainImg.png',
-      '/media/products/shoes/241/mainImg2.png',
+      '/media/products/shoes/241/mainImg.webp',
+      '/media/products/shoes/241/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/shoes/241/detailImg.png',
-      '/media/products/shoes/241/detailImg2.png',
-      '/media/products/shoes/241/detailImg3.png'
+      '/media/products/shoes/241/detailImg.webp',
+      '/media/products/shoes/241/detailImg2.webp',
+      '/media/products/shoes/241/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1113,7 +1113,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1123,15 +1123,15 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/242/mainImg.png',
-      '/media/products/shoes/242/mainImg2.png',
-      '/media/products/shoes/242/mainImg3.png',
-      '/media/products/shoes/242/mainImg4.png',
+      '/media/products/shoes/242/mainImg.webp',
+      '/media/products/shoes/242/mainImg2.webp',
+      '/media/products/shoes/242/mainImg3.webp',
+      '/media/products/shoes/242/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1172,7 +1172,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1182,13 +1182,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/243/mainImg.png',
-      '/media/products/shoes/243/mainImg2.png',
+      '/media/products/shoes/243/mainImg.webp',
+      '/media/products/shoes/243/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1229,7 +1229,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1239,13 +1239,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/244/mainImg.png',
-      '/media/products/shoes/244/mainImg2.png',
+      '/media/products/shoes/244/mainImg.webp',
+      '/media/products/shoes/244/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1286,7 +1286,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1296,13 +1296,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/245/mainImg.png',
-      '/media/products/shoes/245/mainImg2.png',
+      '/media/products/shoes/245/mainImg.webp',
+      '/media/products/shoes/245/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1343,7 +1343,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1353,13 +1353,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/246/mainImg.png',
-      '/media/products/shoes/246/mainImg2.png',
+      '/media/products/shoes/246/mainImg.webp',
+      '/media/products/shoes/246/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1400,7 +1400,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1410,13 +1410,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/247/mainImg.png',
-      '/media/products/shoes/247/mainImg2.png',
+      '/media/products/shoes/247/mainImg.webp',
+      '/media/products/shoes/247/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1457,7 +1457,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1467,13 +1467,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/248/mainImg.png',
-      '/media/products/shoes/248/mainImg2.png',
+      '/media/products/shoes/248/mainImg.webp',
+      '/media/products/shoes/248/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1514,7 +1514,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1524,13 +1524,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/249/mainImg.png',
-      '/media/products/shoes/249/mainImg2.png',
+      '/media/products/shoes/249/mainImg.webp',
+      '/media/products/shoes/249/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1571,7 +1571,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1581,14 +1581,14 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/250/mainImg.png',
-      '/media/products/shoes/250/mainImg2.png',
-      '/media/products/shoes/250/mainImg3.png',
+      '/media/products/shoes/250/mainImg.webp',
+      '/media/products/shoes/250/mainImg2.webp',
+      '/media/products/shoes/250/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1629,7 +1629,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1639,14 +1639,14 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/251/mainImg.png',
-      '/media/products/shoes/251/mainImg2.png',
-      '/media/products/shoes/251/mainImg3.png',
+      '/media/products/shoes/251/mainImg.webp',
+      '/media/products/shoes/251/mainImg2.webp',
+      '/media/products/shoes/251/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1687,7 +1687,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1697,13 +1697,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/252/mainImg.png',
-      '/media/products/shoes/252/mainImg2.png',
+      '/media/products/shoes/252/mainImg.webp',
+      '/media/products/shoes/252/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1744,7 +1744,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1754,13 +1754,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/253/mainImg.png',
-      '/media/products/shoes/253/mainImg2.png',
+      '/media/products/shoes/253/mainImg.webp',
+      '/media/products/shoes/253/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1801,7 +1801,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1811,14 +1811,14 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/254/mainImg.png',
-      '/media/products/shoes/254/mainImg2.png',
-      '/media/products/shoes/254/mainImg3.png',
+      '/media/products/shoes/254/mainImg.webp',
+      '/media/products/shoes/254/mainImg2.webp',
+      '/media/products/shoes/254/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1859,7 +1859,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1869,14 +1869,14 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/255/mainImg.png',
-      '/media/products/shoes/255/mainImg2.png',
-      '/media/products/shoes/255/mainImg3.png',
+      '/media/products/shoes/255/mainImg.webp',
+      '/media/products/shoes/255/mainImg2.webp',
+      '/media/products/shoes/255/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1917,7 +1917,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1927,13 +1927,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/256/mainImg.png',
-      '/media/products/shoes/256/mainImg2.png',
+      '/media/products/shoes/256/mainImg.webp',
+      '/media/products/shoes/256/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1974,7 +1974,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1984,13 +1984,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/257/mainImg.png',
-      '/media/products/shoes/257/mainImg2.png',
+      '/media/products/shoes/257/mainImg.webp',
+      '/media/products/shoes/257/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2031,7 +2031,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2041,13 +2041,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/258/mainImg.png',
-      '/media/products/shoes/258/mainImg2.png',
+      '/media/products/shoes/258/mainImg.webp',
+      '/media/products/shoes/258/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/241/detailImg.png',
-//      '/media/products/shoes/241/detailImg2.png',
-//      '/media/products/shoes/241/detailImg3.png'
+//      '/media/products/shoes/241/detailImg.webp',
+//      '/media/products/shoes/241/detailImg2.webp',
+//      '/media/products/shoes/241/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2088,7 +2088,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2098,13 +2098,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/259/mainImg.png',
-      '/media/products/shoes/259/mainImg2.png',
+      '/media/products/shoes/259/mainImg.webp',
+      '/media/products/shoes/259/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/shoes/259/detailImg.png',
-      '/media/products/shoes/259/detailImg2.png',
-      '/media/products/shoes/259/detailImg3.png'
+      '/media/products/shoes/259/detailImg.webp',
+      '/media/products/shoes/259/detailImg2.webp',
+      '/media/products/shoes/259/detailImg3.webp'
     ],
     detailText: [
       {
@@ -2145,7 +2145,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2155,13 +2155,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/260/mainImg.png',
-      '/media/products/shoes/260/mainImg2.png',
+      '/media/products/shoes/260/mainImg.webp',
+      '/media/products/shoes/260/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/shoes/260/detailImg.png',
-      '/media/products/shoes/260/detailImg2.png',
-      '/media/products/shoes/260/detailImg3.png'
+      '/media/products/shoes/260/detailImg.webp',
+      '/media/products/shoes/260/detailImg2.webp',
+      '/media/products/shoes/260/detailImg3.webp'
     ],
     detailText: [
       {
@@ -2202,7 +2202,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2212,13 +2212,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/261/mainImg.png',
-      '/media/products/shoes/261/mainImg2.png',
+      '/media/products/shoes/261/mainImg.webp',
+      '/media/products/shoes/261/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/260/detailImg.png',
-//      '/media/products/shoes/260/detailImg2.png',
-//      '/media/products/shoes/260/detailImg3.png'
+//      '/media/products/shoes/260/detailImg.webp',
+//      '/media/products/shoes/260/detailImg2.webp',
+//      '/media/products/shoes/260/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2259,7 +2259,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2269,12 +2269,12 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/262/mainImg.png',
+      '/media/products/shoes/262/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/260/detailImg.png',
-//      '/media/products/shoes/260/detailImg2.png',
-//      '/media/products/shoes/260/detailImg3.png'
+//      '/media/products/shoes/260/detailImg.webp',
+//      '/media/products/shoes/260/detailImg2.webp',
+//      '/media/products/shoes/260/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2315,7 +2315,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2325,12 +2325,12 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/263/mainImg.png',
+      '/media/products/shoes/263/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/260/detailImg.png',
-//      '/media/products/shoes/260/detailImg2.png',
-//      '/media/products/shoes/260/detailImg3.png'
+//      '/media/products/shoes/260/detailImg.webp',
+//      '/media/products/shoes/260/detailImg2.webp',
+//      '/media/products/shoes/260/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2371,7 +2371,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2381,12 +2381,12 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/264/mainImg.png',
+      '/media/products/shoes/264/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/260/detailImg.png',
-//      '/media/products/shoes/260/detailImg2.png',
-//      '/media/products/shoes/260/detailImg3.png'
+//      '/media/products/shoes/260/detailImg.webp',
+//      '/media/products/shoes/260/detailImg2.webp',
+//      '/media/products/shoes/260/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2427,7 +2427,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2437,13 +2437,13 @@ export const PRODUCTS = {
 //      ]
 //    },
     mainImg: [
-      '/media/products/shoes/265/mainImg.png',
-      '/media/products/shoes/265/mainImg2.png',
+      '/media/products/shoes/265/mainImg.webp',
+      '/media/products/shoes/265/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/260/detailImg.png',
-//      '/media/products/shoes/260/detailImg2.png',
-//      '/media/products/shoes/260/detailImg3.png'
+//      '/media/products/shoes/260/detailImg.webp',
+//      '/media/products/shoes/260/detailImg2.webp',
+//      '/media/products/shoes/260/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2484,7 +2484,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2497,9 +2497,9 @@ export const PRODUCTS = {
       '/media/products/shoes/266/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/266/detailImg.png',
-      '/media/products/shoes/266/detailImg2.png',
-      '/media/products/shoes/266/detailImg3.png'
+      '/media/products/shoes/266/detailImg.webp',
+      '/media/products/shoes/266/detailImg2.webp',
+      '/media/products/shoes/266/detailImg3.webp'
     ],
     detailText: [
       {
@@ -2540,7 +2540,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2553,9 +2553,9 @@ export const PRODUCTS = {
       '/media/products/shoes/267/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/266/detailImg.png',
-//      '/media/products/shoes/266/detailImg2.png',
-//      '/media/products/shoes/266/detailImg3.png'
+//      '/media/products/shoes/266/detailImg.webp',
+//      '/media/products/shoes/266/detailImg2.webp',
+//      '/media/products/shoes/266/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2596,7 +2596,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2610,9 +2610,9 @@ export const PRODUCTS = {
       '/media/products/shoes/268/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/shoes/268/detailImg.png',
-      '/media/products/shoes/268/detailImg2.png',
-      '/media/products/shoes/268/detailImg3.png'
+      '/media/products/shoes/268/detailImg.webp',
+      '/media/products/shoes/268/detailImg2.webp',
+      '/media/products/shoes/268/detailImg3.webp'
     ],
     detailText: [
       {
@@ -2653,7 +2653,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2666,9 +2666,9 @@ export const PRODUCTS = {
       '/media/products/shoes/269/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/268/detailImg.png',
-//      '/media/products/shoes/268/detailImg2.png',
-//      '/media/products/shoes/268/detailImg3.png'
+//      '/media/products/shoes/268/detailImg.webp',
+//      '/media/products/shoes/268/detailImg2.webp',
+//      '/media/products/shoes/268/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2709,7 +2709,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2722,9 +2722,9 @@ export const PRODUCTS = {
       '/media/products/shoes/270/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/268/detailImg.png',
-//      '/media/products/shoes/268/detailImg2.png',
-//      '/media/products/shoes/268/detailImg3.png'
+//      '/media/products/shoes/268/detailImg.webp',
+//      '/media/products/shoes/268/detailImg2.webp',
+//      '/media/products/shoes/268/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2765,7 +2765,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2779,9 +2779,9 @@ export const PRODUCTS = {
       '/media/products/shoes/271/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/shoes/271/detailImg.png',
-      '/media/products/shoes/271/detailImg2.png',
-      '/media/products/shoes/271/detailImg3.png'
+      '/media/products/shoes/271/detailImg.webp',
+      '/media/products/shoes/271/detailImg2.webp',
+      '/media/products/shoes/271/detailImg3.webp'
     ],
     detailText: [
       {
@@ -2822,7 +2822,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2836,9 +2836,9 @@ export const PRODUCTS = {
       '/media/products/shoes/272/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/271/detailImg.png',
-//      '/media/products/shoes/271/detailImg2.png',
-//      '/media/products/shoes/271/detailImg3.png'
+//      '/media/products/shoes/271/detailImg.webp',
+//      '/media/products/shoes/271/detailImg2.webp',
+//      '/media/products/shoes/271/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2879,7 +2879,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2892,9 +2892,9 @@ export const PRODUCTS = {
       '/media/products/shoes/273/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/273/detailImg.png',
-      '/media/products/shoes/273/detailImg2.png',
-      '/media/products/shoes/273/detailImg3.png'
+      '/media/products/shoes/273/detailImg.webp',
+      '/media/products/shoes/273/detailImg2.webp',
+      '/media/products/shoes/273/detailImg3.webp'
     ],
     detailText: [
       {
@@ -2935,7 +2935,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2949,9 +2949,9 @@ export const PRODUCTS = {
       '/media/products/shoes/274/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/273/detailImg.png',
-//      '/media/products/shoes/273/detailImg2.png',
-//      '/media/products/shoes/273/detailImg3.png'
+//      '/media/products/shoes/273/detailImg.webp',
+//      '/media/products/shoes/273/detailImg2.webp',
+//      '/media/products/shoes/273/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2992,7 +2992,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3006,9 +3006,9 @@ export const PRODUCTS = {
       '/media/products/shoes/275/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/shoes/275/detailImg.png',
-      '/media/products/shoes/275/detailImg2.png',
-      '/media/products/shoes/275/detailImg3.png'
+      '/media/products/shoes/275/detailImg.webp',
+      '/media/products/shoes/275/detailImg2.webp',
+      '/media/products/shoes/275/detailImg3.webp'
     ],
     detailText: [
       {
@@ -3049,7 +3049,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3064,9 +3064,9 @@ export const PRODUCTS = {
       '/media/products/shoes/276/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/276/detailImg.png',
-//      '/media/products/shoes/276/detailImg2.png',
-//      '/media/products/shoes/276/detailImg3.png'
+//      '/media/products/shoes/276/detailImg.webp',
+//      '/media/products/shoes/276/detailImg2.webp',
+//      '/media/products/shoes/276/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3107,7 +3107,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3120,9 +3120,9 @@ export const PRODUCTS = {
       '/media/products/shoes/277/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/277/detailImg.png',
-      '/media/products/shoes/277/detailImg2.png',
-      '/media/products/shoes/277/detailImg3.png'
+      '/media/products/shoes/277/detailImg.webp',
+      '/media/products/shoes/277/detailImg2.webp',
+      '/media/products/shoes/277/detailImg3.webp'
     ],
     detailText: [
       {
@@ -3163,7 +3163,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3176,9 +3176,9 @@ export const PRODUCTS = {
       '/media/products/shoes/278/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/277/detailImg.png',
-//      '/media/products/shoes/277/detailImg2.png',
-//      '/media/products/shoes/277/detailImg3.png'
+//      '/media/products/shoes/277/detailImg.webp',
+//      '/media/products/shoes/277/detailImg2.webp',
+//      '/media/products/shoes/277/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3219,7 +3219,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3232,9 +3232,9 @@ export const PRODUCTS = {
       '/media/products/shoes/279/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/277/detailImg.png',
-//      '/media/products/shoes/277/detailImg2.png',
-//      '/media/products/shoes/277/detailImg3.png'
+//      '/media/products/shoes/277/detailImg.webp',
+//      '/media/products/shoes/277/detailImg2.webp',
+//      '/media/products/shoes/277/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3275,7 +3275,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3289,9 +3289,9 @@ export const PRODUCTS = {
       '/media/products/shoes/280/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/shoes/280/detailImg.png',
-      '/media/products/shoes/280/detailImg2.png',
-      '/media/products/shoes/280/detailImg3.png'
+      '/media/products/shoes/280/detailImg.webp',
+      '/media/products/shoes/280/detailImg2.webp',
+      '/media/products/shoes/280/detailImg3.webp'
     ],
     detailText: [
       {
@@ -3332,7 +3332,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3345,9 +3345,9 @@ export const PRODUCTS = {
       '/media/products/shoes/281/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/281/detailImg.png',
-//      '/media/products/shoes/281/detailImg2.png',
-//      '/media/products/shoes/281/detailImg3.png'
+//      '/media/products/shoes/281/detailImg.webp',
+//      '/media/products/shoes/281/detailImg2.webp',
+//      '/media/products/shoes/281/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3388,7 +3388,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3401,9 +3401,9 @@ export const PRODUCTS = {
       '/media/products/shoes/282/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/282/detailImg.png',
-      '/media/products/shoes/282/detailImg2.png',
-      '/media/products/shoes/282/detailImg3.png'
+      '/media/products/shoes/282/detailImg.webp',
+      '/media/products/shoes/282/detailImg2.webp',
+      '/media/products/shoes/282/detailImg3.webp'
     ],
     detailText: [
       {
@@ -3444,7 +3444,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3457,9 +3457,9 @@ export const PRODUCTS = {
       '/media/products/shoes/283/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/282/detailImg.png',
-//      '/media/products/shoes/282/detailImg2.png',
-//      '/media/products/shoes/282/detailImg3.png'
+//      '/media/products/shoes/282/detailImg.webp',
+//      '/media/products/shoes/282/detailImg2.webp',
+//      '/media/products/shoes/282/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3500,7 +3500,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3513,9 +3513,9 @@ export const PRODUCTS = {
       '/media/products/shoes/284/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/282/detailImg.png',
-//      '/media/products/shoes/282/detailImg2.png',
-//      '/media/products/shoes/282/detailImg3.png'
+//      '/media/products/shoes/282/detailImg.webp',
+//      '/media/products/shoes/282/detailImg2.webp',
+//      '/media/products/shoes/282/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3556,7 +3556,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3569,9 +3569,9 @@ export const PRODUCTS = {
       '/media/products/shoes/285/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/282/detailImg.png',
-//      '/media/products/shoes/282/detailImg2.png',
-//      '/media/products/shoes/282/detailImg3.png'
+//      '/media/products/shoes/282/detailImg.webp',
+//      '/media/products/shoes/282/detailImg2.webp',
+//      '/media/products/shoes/282/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3612,7 +3612,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3626,9 +3626,9 @@ export const PRODUCTS = {
       '/media/products/shoes/286/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/shoes/286/detailImg.png',
-      '/media/products/shoes/286/detailImg2.png',
-      '/media/products/shoes/286/detailImg3.png'
+      '/media/products/shoes/286/detailImg.webp',
+      '/media/products/shoes/286/detailImg2.webp',
+      '/media/products/shoes/286/detailImg3.webp'
     ],
     detailText: [
       {
@@ -3669,7 +3669,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3682,9 +3682,9 @@ export const PRODUCTS = {
       '/media/products/shoes/287/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/286/detailImg.png',
-//      '/media/products/shoes/286/detailImg2.png',
-//      '/media/products/shoes/286/detailImg3.png'
+//      '/media/products/shoes/286/detailImg.webp',
+//      '/media/products/shoes/286/detailImg2.webp',
+//      '/media/products/shoes/286/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3725,7 +3725,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3738,9 +3738,9 @@ export const PRODUCTS = {
       '/media/products/shoes/288/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/286/detailImg.png',
-//      '/media/products/shoes/286/detailImg2.png',
-//      '/media/products/shoes/286/detailImg3.png'
+//      '/media/products/shoes/286/detailImg.webp',
+//      '/media/products/shoes/286/detailImg2.webp',
+//      '/media/products/shoes/286/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3781,7 +3781,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3794,9 +3794,9 @@ export const PRODUCTS = {
       '/media/products/shoes/289/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/289/detailImg.png',
-      '/media/products/shoes/289/detailImg2.png',
-      '/media/products/shoes/289/detailImg3.png'
+      '/media/products/shoes/289/detailImg.webp',
+      '/media/products/shoes/289/detailImg2.webp',
+      '/media/products/shoes/289/detailImg3.webp'
     ],
     detailText: [
       {
@@ -3837,7 +3837,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3850,9 +3850,9 @@ export const PRODUCTS = {
       '/media/products/shoes/290/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/290/detailImg.png',
-      '/media/products/shoes/290/detailImg2.png',
-      '/media/products/shoes/290/detailImg3.png'
+      '/media/products/shoes/290/detailImg.webp',
+      '/media/products/shoes/290/detailImg2.webp',
+      '/media/products/shoes/290/detailImg3.webp'
     ],
     detailText: [
       {
@@ -3893,7 +3893,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3906,9 +3906,9 @@ export const PRODUCTS = {
       '/media/products/shoes/291/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3949,7 +3949,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3962,9 +3962,9 @@ export const PRODUCTS = {
       '/media/products/shoes/292/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4005,7 +4005,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4018,9 +4018,9 @@ export const PRODUCTS = {
       '/media/products/shoes/293/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4061,7 +4061,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4074,9 +4074,9 @@ export const PRODUCTS = {
       '/media/products/shoes/294/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4117,7 +4117,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4131,9 +4131,9 @@ export const PRODUCTS = {
       '/media/products/shoes/295/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4174,7 +4174,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4188,9 +4188,9 @@ export const PRODUCTS = {
       '/media/products/shoes/296/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4232,7 +4232,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4245,9 +4245,9 @@ export const PRODUCTS = {
       '/media/products/shoes/297/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4288,7 +4288,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4301,9 +4301,9 @@ export const PRODUCTS = {
       '/media/products/shoes/298/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4344,7 +4344,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4357,9 +4357,9 @@ export const PRODUCTS = {
       '/media/products/shoes/299/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4400,7 +4400,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4413,9 +4413,9 @@ export const PRODUCTS = {
       '/media/products/shoes/300/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4456,7 +4456,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4469,9 +4469,9 @@ export const PRODUCTS = {
       '/media/products/shoes/301/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4512,7 +4512,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4525,9 +4525,9 @@ export const PRODUCTS = {
       '/media/products/shoes/302/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4568,7 +4568,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4581,9 +4581,9 @@ export const PRODUCTS = {
       '/media/products/shoes/303/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4624,7 +4624,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4637,9 +4637,9 @@ export const PRODUCTS = {
       '/media/products/shoes/304/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4680,7 +4680,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4694,9 +4694,9 @@ export const PRODUCTS = {
       '/media/products/shoes/305/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4737,7 +4737,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4751,9 +4751,9 @@ export const PRODUCTS = {
       '/media/products/shoes/306/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4794,7 +4794,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4807,9 +4807,9 @@ export const PRODUCTS = {
       '/media/products/shoes/307/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4850,7 +4850,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4866,9 +4866,9 @@ export const PRODUCTS = {
       '/media/products/shoes/308/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4909,7 +4909,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4922,9 +4922,9 @@ export const PRODUCTS = {
       '/media/products/shoes/309/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/290/detailImg.png',
-//      '/media/products/shoes/290/detailImg2.png',
-//      '/media/products/shoes/290/detailImg3.png'
+//      '/media/products/shoes/290/detailImg.webp',
+//      '/media/products/shoes/290/detailImg2.webp',
+//      '/media/products/shoes/290/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4965,7 +4965,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4978,9 +4978,9 @@ export const PRODUCTS = {
       '/media/products/shoes/310/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/310/detailImg.png',
-      '/media/products/shoes/310/detailImg2.png',
-      '/media/products/shoes/310/detailImg3.png'
+      '/media/products/shoes/310/detailImg.webp',
+      '/media/products/shoes/310/detailImg2.webp',
+      '/media/products/shoes/310/detailImg3.webp'
     ],
     detailText: [
       {
@@ -5021,7 +5021,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5034,9 +5034,9 @@ export const PRODUCTS = {
       '/media/products/shoes/311/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/310/detailImg.png',
-//      '/media/products/shoes/310/detailImg2.png',
-//      '/media/products/shoes/310/detailImg3.png'
+//      '/media/products/shoes/310/detailImg.webp',
+//      '/media/products/shoes/310/detailImg2.webp',
+//      '/media/products/shoes/310/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5077,7 +5077,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5090,9 +5090,9 @@ export const PRODUCTS = {
       '/media/products/shoes/312/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/310/detailImg.png',
-//      '/media/products/shoes/310/detailImg2.png',
-//      '/media/products/shoes/310/detailImg3.png'
+//      '/media/products/shoes/310/detailImg.webp',
+//      '/media/products/shoes/310/detailImg2.webp',
+//      '/media/products/shoes/310/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5133,7 +5133,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5146,9 +5146,9 @@ export const PRODUCTS = {
       '/media/products/shoes/313/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/310/detailImg.png',
-//      '/media/products/shoes/310/detailImg2.png',
-//      '/media/products/shoes/310/detailImg3.png'
+//      '/media/products/shoes/310/detailImg.webp',
+//      '/media/products/shoes/310/detailImg2.webp',
+//      '/media/products/shoes/310/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5189,7 +5189,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5202,9 +5202,9 @@ export const PRODUCTS = {
       '/media/products/shoes/314/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/310/detailImg.png',
-//      '/media/products/shoes/310/detailImg2.png',
-//      '/media/products/shoes/310/detailImg3.png'
+//      '/media/products/shoes/310/detailImg.webp',
+//      '/media/products/shoes/310/detailImg2.webp',
+//      '/media/products/shoes/310/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5245,7 +5245,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5258,9 +5258,9 @@ export const PRODUCTS = {
       '/media/products/shoes/315/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/315/detailImg.png',
-      '/media/products/shoes/315/detailImg2.png',
-      '/media/products/shoes/315/detailImg3.png'
+      '/media/products/shoes/315/detailImg.webp',
+      '/media/products/shoes/315/detailImg2.webp',
+      '/media/products/shoes/315/detailImg3.webp'
     ],
     detailText: [
       {
@@ -5301,7 +5301,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5314,9 +5314,9 @@ export const PRODUCTS = {
       '/media/products/shoes/316/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/315/detailImg.png',
-      '/media/products/shoes/315/detailImg2.png',
-      '/media/products/shoes/315/detailImg3.png'
+      '/media/products/shoes/315/detailImg.webp',
+      '/media/products/shoes/315/detailImg2.webp',
+      '/media/products/shoes/315/detailImg3.webp'
     ],
     detailText: [
       {
@@ -5357,7 +5357,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5371,9 +5371,9 @@ export const PRODUCTS = {
       '/media/products/shoes/317/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/shoes/317/detailImg.png',
-      '/media/products/shoes/317/detailImg2.png',
-      '/media/products/shoes/317/detailImg3.png'
+      '/media/products/shoes/317/detailImg.webp',
+      '/media/products/shoes/317/detailImg2.webp',
+      '/media/products/shoes/317/detailImg3.webp'
     ],
     detailText: [
       {
@@ -5414,7 +5414,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5428,9 +5428,9 @@ export const PRODUCTS = {
       '/media/products/shoes/318/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/317/detailImg.png',
-//      '/media/products/shoes/317/detailImg2.png',
-//      '/media/products/shoes/317/detailImg3.png'
+//      '/media/products/shoes/317/detailImg.webp',
+//      '/media/products/shoes/317/detailImg2.webp',
+//      '/media/products/shoes/317/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5471,7 +5471,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5484,9 +5484,9 @@ export const PRODUCTS = {
       '/media/products/shoes/319/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/319/detailImg.png',
-      '/media/products/shoes/319/detailImg2.png',
-      '/media/products/shoes/319/detailImg3.png'
+      '/media/products/shoes/319/detailImg.webp',
+      '/media/products/shoes/319/detailImg2.webp',
+      '/media/products/shoes/319/detailImg3.webp'
     ],
     detailText: [
       {
@@ -5527,7 +5527,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5540,9 +5540,9 @@ export const PRODUCTS = {
       '/media/products/shoes/320/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/319/detailImg.png',
-//      '/media/products/shoes/319/detailImg2.png',
-//      '/media/products/shoes/319/detailImg3.png'
+//      '/media/products/shoes/319/detailImg.webp',
+//      '/media/products/shoes/319/detailImg2.webp',
+//      '/media/products/shoes/319/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5584,7 +5584,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5599,9 +5599,9 @@ export const PRODUCTS = {
       '/media/products/shoes/321/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/shoes/321/detailImg.png',
-      '/media/products/shoes/321/detailImg2.png',
-      '/media/products/shoes/321/detailImg3.png'
+      '/media/products/shoes/321/detailImg.webp',
+      '/media/products/shoes/321/detailImg2.webp',
+      '/media/products/shoes/321/detailImg3.webp'
     ],
     detailText: [
       {
@@ -5642,7 +5642,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5656,9 +5656,9 @@ export const PRODUCTS = {
       '/media/products/shoes/322/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5699,7 +5699,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5714,9 +5714,9 @@ export const PRODUCTS = {
       '/media/products/shoes/323/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5757,7 +5757,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5771,9 +5771,9 @@ export const PRODUCTS = {
       '/media/products/shoes/324/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5814,7 +5814,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5827,9 +5827,9 @@ export const PRODUCTS = {
       '/media/products/shoes/325/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5870,7 +5870,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5884,9 +5884,9 @@ export const PRODUCTS = {
       '/media/products/shoes/326/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5927,7 +5927,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5942,9 +5942,9 @@ export const PRODUCTS = {
       '/media/products/shoes/327/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5986,7 +5986,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6000,9 +6000,9 @@ export const PRODUCTS = {
       '/media/products/shoes/328/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6043,7 +6043,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6059,9 +6059,9 @@ export const PRODUCTS = {
       '/media/products/shoes/329/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6102,7 +6102,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6115,9 +6115,9 @@ export const PRODUCTS = {
       '/media/products/shoes/330/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6158,7 +6158,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6172,9 +6172,9 @@ export const PRODUCTS = {
       '/media/products/shoes/331/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6215,7 +6215,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6229,9 +6229,9 @@ export const PRODUCTS = {
       '/media/products/shoes/332/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6272,7 +6272,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6286,9 +6286,9 @@ export const PRODUCTS = {
       '/media/products/shoes/333/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/321/detailImg.png',
-//      '/media/products/shoes/321/detailImg2.png',
-//      '/media/products/shoes/321/detailImg3.png'
+//      '/media/products/shoes/321/detailImg.webp',
+//      '/media/products/shoes/321/detailImg2.webp',
+//      '/media/products/shoes/321/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6329,7 +6329,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6342,9 +6342,9 @@ export const PRODUCTS = {
       '/media/products/shoes/334/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/334/detailImg.png',
-      '/media/products/shoes/334/detailImg2.png',
-      '/media/products/shoes/334/detailImg3.png'
+      '/media/products/shoes/334/detailImg.webp',
+      '/media/products/shoes/334/detailImg2.webp',
+      '/media/products/shoes/334/detailImg3.webp'
     ],
     detailText: [
       {
@@ -6385,7 +6385,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6398,9 +6398,9 @@ export const PRODUCTS = {
       '/media/products/shoes/335/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/335/detailImg.png',
-      '/media/products/shoes/335/detailImg2.png',
-      '/media/products/shoes/335/detailImg3.png'
+      '/media/products/shoes/335/detailImg.webp',
+      '/media/products/shoes/335/detailImg2.webp',
+      '/media/products/shoes/335/detailImg3.webp'
     ],
     detailText: [
       {
@@ -6441,7 +6441,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6454,9 +6454,9 @@ export const PRODUCTS = {
       '/media/products/shoes/336/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/335/detailImg.png',
-//      '/media/products/shoes/335/detailImg2.png',
-//      '/media/products/shoes/335/detailImg3.png'
+//      '/media/products/shoes/335/detailImg.webp',
+//      '/media/products/shoes/335/detailImg2.webp',
+//      '/media/products/shoes/335/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6497,7 +6497,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6510,9 +6510,9 @@ export const PRODUCTS = {
       '/media/products/shoes/337/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/337/detailImg.png',
-      '/media/products/shoes/337/detailImg2.png',
-      '/media/products/shoes/337/detailImg3.png'
+      '/media/products/shoes/337/detailImg.webp',
+      '/media/products/shoes/337/detailImg2.webp',
+      '/media/products/shoes/337/detailImg3.webp'
     ],
     detailText: [
       {
@@ -6553,7 +6553,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6566,9 +6566,9 @@ export const PRODUCTS = {
       '/media/products/shoes/338/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/338/detailImg.png',
-//      '/media/products/shoes/338/detailImg2.png',
-//      '/media/products/shoes/338/detailImg3.png'
+//      '/media/products/shoes/338/detailImg.webp',
+//      '/media/products/shoes/338/detailImg2.webp',
+//      '/media/products/shoes/338/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6609,7 +6609,7 @@ export const PRODUCTS = {
 //    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 ////    sizeData: {
 ////      type: 'bottom',
-////      img: '/media/productDetail/bottom_size.png',
+////      img: '/media/productDetail/bottom_size.webp',
 ////      size: [
 ////        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 ////        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6622,9 +6622,9 @@ export const PRODUCTS = {
 //      '/media/products/shoes/339/mainImg.webp',
 //    ],
 //    detailImg: [
-//      '/media/products/shoes/339/detailImg.png',
-//      '/media/products/shoes/339/detailImg2.png',
-//      '/media/products/shoes/339/detailImg3.png'
+//      '/media/products/shoes/339/detailImg.webp',
+//      '/media/products/shoes/339/detailImg2.webp',
+//      '/media/products/shoes/339/detailImg3.webp'
 //    ],
 //    detailText: [
 //      {
@@ -6661,7 +6661,7 @@ export const PRODUCTS = {
 //    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 ////    sizeData: {
 ////      type: 'bottom',
-////      img: '/media/productDetail/bottom_size.png',
+////      img: '/media/productDetail/bottom_size.webp',
 ////      size: [
 ////        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 ////        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6674,9 +6674,9 @@ export const PRODUCTS = {
 //      '/media/products/shoes/340/mainImg.webp',
 //    ],
 ////    detailImg: [
-////      '/media/products/shoes/339/detailImg.png',
-////      '/media/products/shoes/339/detailImg2.png',
-////      '/media/products/shoes/339/detailImg3.png'
+////      '/media/products/shoes/339/detailImg.webp',
+////      '/media/products/shoes/339/detailImg2.webp',
+////      '/media/products/shoes/339/detailImg3.webp'
 ////    ],
 //    detailText: [
 //      {
@@ -6713,7 +6713,7 @@ export const PRODUCTS = {
 //    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 ////    sizeData: {
 ////      type: 'bottom',
-////      img: '/media/productDetail/bottom_size.png',
+////      img: '/media/productDetail/bottom_size.webp',
 ////      size: [
 ////        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 ////        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6726,9 +6726,9 @@ export const PRODUCTS = {
 //      '/media/products/shoes/341/mainImg.webp',
 //    ],
 ////    detailImg: [
-////      '/media/products/shoes/339/detailImg.png',
-////      '/media/products/shoes/339/detailImg2.png',
-////      '/media/products/shoes/339/detailImg3.png'
+////      '/media/products/shoes/339/detailImg.webp',
+////      '/media/products/shoes/339/detailImg2.webp',
+////      '/media/products/shoes/339/detailImg3.webp'
 ////    ],
 //    detailText: [
 //      {
@@ -6765,7 +6765,7 @@ export const PRODUCTS = {
 //    subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 ////    sizeData: {
 ////      type: 'bottom',
-////      img: '/media/productDetail/bottom_size.png',
+////      img: '/media/productDetail/bottom_size.webp',
 ////      size: [
 ////        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 ////        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6778,9 +6778,9 @@ export const PRODUCTS = {
 //      '/media/products/shoes/342/mainImg.webp',
 //    ],
 ////    detailImg: [
-////      '/media/products/shoes/339/detailImg.png',
-////      '/media/products/shoes/339/detailImg2.png',
-////      '/media/products/shoes/339/detailImg3.png'
+////      '/media/products/shoes/339/detailImg.webp',
+////      '/media/products/shoes/339/detailImg2.webp',
+////      '/media/products/shoes/339/detailImg3.webp'
 ////    ],
 //    detailText: [
 //      {
@@ -6817,7 +6817,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6831,9 +6831,9 @@ export const PRODUCTS = {
       '/media/products/shoes/343/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/shoes/343/detailImg.png',
-      '/media/products/shoes/343/detailImg2.png',
-      '/media/products/shoes/343/detailImg3.png'
+      '/media/products/shoes/343/detailImg.webp',
+      '/media/products/shoes/343/detailImg2.webp',
+      '/media/products/shoes/343/detailImg3.webp'
     ],
     detailText: [
       {
@@ -6874,7 +6874,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6888,9 +6888,9 @@ export const PRODUCTS = {
       '/media/products/shoes/344/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/343/detailImg.png',
-//      '/media/products/shoes/343/detailImg2.png',
-//      '/media/products/shoes/343/detailImg3.png'
+//      '/media/products/shoes/343/detailImg.webp',
+//      '/media/products/shoes/343/detailImg2.webp',
+//      '/media/products/shoes/343/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6931,7 +6931,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6944,9 +6944,9 @@ export const PRODUCTS = {
       '/media/products/shoes/345/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/343/detailImg.png',
-//      '/media/products/shoes/343/detailImg2.png',
-//      '/media/products/shoes/343/detailImg3.png'
+//      '/media/products/shoes/343/detailImg.webp',
+//      '/media/products/shoes/343/detailImg2.webp',
+//      '/media/products/shoes/343/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6987,7 +6987,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7000,9 +7000,9 @@ export const PRODUCTS = {
       '/media/products/shoes/346/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/343/detailImg.png',
-//      '/media/products/shoes/343/detailImg2.png',
-//      '/media/products/shoes/343/detailImg3.png'
+//      '/media/products/shoes/343/detailImg.webp',
+//      '/media/products/shoes/343/detailImg2.webp',
+//      '/media/products/shoes/343/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7043,7 +7043,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7056,9 +7056,9 @@ export const PRODUCTS = {
       '/media/products/shoes/347/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/343/detailImg.png',
-//      '/media/products/shoes/343/detailImg2.png',
-//      '/media/products/shoes/343/detailImg3.png'
+//      '/media/products/shoes/343/detailImg.webp',
+//      '/media/products/shoes/343/detailImg2.webp',
+//      '/media/products/shoes/343/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7099,7 +7099,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7112,9 +7112,9 @@ export const PRODUCTS = {
       '/media/products/shoes/348/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/343/detailImg.png',
-//      '/media/products/shoes/343/detailImg2.png',
-//      '/media/products/shoes/343/detailImg3.png'
+//      '/media/products/shoes/343/detailImg.webp',
+//      '/media/products/shoes/343/detailImg2.webp',
+//      '/media/products/shoes/343/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7155,7 +7155,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7168,9 +7168,9 @@ export const PRODUCTS = {
       '/media/products/shoes/349/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/349/detailImg.png',
-      '/media/products/shoes/349/detailImg2.png',
-      '/media/products/shoes/349/detailImg3.png'
+      '/media/products/shoes/349/detailImg.webp',
+      '/media/products/shoes/349/detailImg2.webp',
+      '/media/products/shoes/349/detailImg3.webp'
     ],
     detailText: [
       {
@@ -7211,7 +7211,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7224,9 +7224,9 @@ export const PRODUCTS = {
       '/media/products/shoes/350/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/349/detailImg.png',
-//      '/media/products/shoes/349/detailImg2.png',
-//      '/media/products/shoes/349/detailImg3.png'
+//      '/media/products/shoes/349/detailImg.webp',
+//      '/media/products/shoes/349/detailImg2.webp',
+//      '/media/products/shoes/349/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7267,7 +7267,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7280,9 +7280,9 @@ export const PRODUCTS = {
       '/media/products/shoes/351/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/349/detailImg.png',
-//      '/media/products/shoes/349/detailImg2.png',
-//      '/media/products/shoes/349/detailImg3.png'
+//      '/media/products/shoes/349/detailImg.webp',
+//      '/media/products/shoes/349/detailImg2.webp',
+//      '/media/products/shoes/349/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7323,7 +7323,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7336,9 +7336,9 @@ export const PRODUCTS = {
       '/media/products/shoes/352/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/349/detailImg.png',
-//      '/media/products/shoes/349/detailImg2.png',
-//      '/media/products/shoes/349/detailImg3.png'
+//      '/media/products/shoes/349/detailImg.webp',
+//      '/media/products/shoes/349/detailImg2.webp',
+//      '/media/products/shoes/349/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7379,7 +7379,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7392,9 +7392,9 @@ export const PRODUCTS = {
       '/media/products/shoes/353/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/349/detailImg.png',
-//      '/media/products/shoes/349/detailImg2.png',
-//      '/media/products/shoes/349/detailImg3.png'
+//      '/media/products/shoes/349/detailImg.webp',
+//      '/media/products/shoes/349/detailImg2.webp',
+//      '/media/products/shoes/349/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7435,7 +7435,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7448,9 +7448,9 @@ export const PRODUCTS = {
       '/media/products/shoes/354/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/354/detailImg.png',
-      '/media/products/shoes/354/detailImg2.png',
-      '/media/products/shoes/354/detailImg3.png'
+      '/media/products/shoes/354/detailImg.webp',
+      '/media/products/shoes/354/detailImg2.webp',
+      '/media/products/shoes/354/detailImg3.webp'
     ],
     detailText: [
       {
@@ -7491,7 +7491,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7504,9 +7504,9 @@ export const PRODUCTS = {
       '/media/products/shoes/355/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/354/detailImg.png',
-//      '/media/products/shoes/354/detailImg2.png',
-//      '/media/products/shoes/354/detailImg3.png'
+//      '/media/products/shoes/354/detailImg.webp',
+//      '/media/products/shoes/354/detailImg2.webp',
+//      '/media/products/shoes/354/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7547,7 +7547,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7561,9 +7561,9 @@ export const PRODUCTS = {
       '/media/products/shoes/356/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/354/detailImg.png',
-//      '/media/products/shoes/354/detailImg2.png',
-//      '/media/products/shoes/354/detailImg3.png'
+//      '/media/products/shoes/354/detailImg.webp',
+//      '/media/products/shoes/354/detailImg2.webp',
+//      '/media/products/shoes/354/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7604,7 +7604,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7617,9 +7617,9 @@ export const PRODUCTS = {
       '/media/products/shoes/357/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/354/detailImg.png',
-//      '/media/products/shoes/354/detailImg2.png',
-//      '/media/products/shoes/354/detailImg3.png'
+//      '/media/products/shoes/354/detailImg.webp',
+//      '/media/products/shoes/354/detailImg2.webp',
+//      '/media/products/shoes/354/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7660,7 +7660,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "샌들/슬리퍼", img: "sandals"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7673,9 +7673,9 @@ export const PRODUCTS = {
       '/media/products/shoes/358/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/354/detailImg.png',
-//      '/media/products/shoes/354/detailImg2.png',
-//      '/media/products/shoes/354/detailImg3.png'
+//      '/media/products/shoes/354/detailImg.webp',
+//      '/media/products/shoes/354/detailImg2.webp',
+//      '/media/products/shoes/354/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7716,7 +7716,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "구두/로퍼", img: "loafers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7729,9 +7729,9 @@ export const PRODUCTS = {
       '/media/products/shoes/359/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/359/detailImg.png',
-      '/media/products/shoes/359/detailImg2.png',
-      '/media/products/shoes/359/detailImg3.png'
+      '/media/products/shoes/359/detailImg.webp',
+      '/media/products/shoes/359/detailImg2.webp',
+      '/media/products/shoes/359/detailImg3.webp'
     ],
     detailText: [
       {
@@ -7772,7 +7772,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7786,9 +7786,9 @@ export const PRODUCTS = {
       '/media/products/shoes/360/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/shoes/360/detailImg.png',
-      '/media/products/shoes/360/detailImg2.png',
-      '/media/products/shoes/360/detailImg3.png'
+      '/media/products/shoes/360/detailImg.webp',
+      '/media/products/shoes/360/detailImg2.webp',
+      '/media/products/shoes/360/detailImg3.webp'
     ],
     detailText: [
       {
@@ -7829,7 +7829,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7843,9 +7843,9 @@ export const PRODUCTS = {
       '/media/products/shoes/361/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/360/detailImg.png',
-//      '/media/products/shoes/360/detailImg2.png',
-//      '/media/products/shoes/360/detailImg3.png'
+//      '/media/products/shoes/360/detailImg.webp',
+//      '/media/products/shoes/360/detailImg2.webp',
+//      '/media/products/shoes/360/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7886,7 +7886,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7900,9 +7900,9 @@ export const PRODUCTS = {
       '/media/products/shoes/362/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/360/detailImg.png',
-//      '/media/products/shoes/360/detailImg2.png',
-//      '/media/products/shoes/360/detailImg3.png'
+//      '/media/products/shoes/360/detailImg.webp',
+//      '/media/products/shoes/360/detailImg2.webp',
+//      '/media/products/shoes/360/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7943,7 +7943,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7957,9 +7957,9 @@ export const PRODUCTS = {
       '/media/products/shoes/363/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/360/detailImg.png',
-//      '/media/products/shoes/360/detailImg2.png',
-//      '/media/products/shoes/360/detailImg3.png'
+//      '/media/products/shoes/360/detailImg.webp',
+//      '/media/products/shoes/360/detailImg2.webp',
+//      '/media/products/shoes/360/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8000,7 +8000,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8014,9 +8014,9 @@ export const PRODUCTS = {
       '/media/products/shoes/364/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/360/detailImg.png',
-//      '/media/products/shoes/360/detailImg2.png',
-//      '/media/products/shoes/360/detailImg3.png'
+//      '/media/products/shoes/360/detailImg.webp',
+//      '/media/products/shoes/360/detailImg2.webp',
+//      '/media/products/shoes/360/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8057,7 +8057,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8071,9 +8071,9 @@ export const PRODUCTS = {
       '/media/products/shoes/365/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/360/detailImg.png',
-//      '/media/products/shoes/360/detailImg2.png',
-//      '/media/products/shoes/360/detailImg3.png'
+//      '/media/products/shoes/360/detailImg.webp',
+//      '/media/products/shoes/360/detailImg2.webp',
+//      '/media/products/shoes/360/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8114,7 +8114,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8127,9 +8127,9 @@ export const PRODUCTS = {
       '/media/products/shoes/366/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/shoes/366/detailImg.png',
-      '/media/products/shoes/366/detailImg2.png',
-      '/media/products/shoes/366/detailImg3.png'
+      '/media/products/shoes/366/detailImg.webp',
+      '/media/products/shoes/366/detailImg2.webp',
+      '/media/products/shoes/366/detailImg3.webp'
     ],
     detailText: [
       {
@@ -8170,7 +8170,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8183,9 +8183,9 @@ export const PRODUCTS = {
       '/media/products/shoes/367/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8226,7 +8226,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8240,9 +8240,9 @@ export const PRODUCTS = {
       '/media/products/shoes/368/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8283,7 +8283,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8296,9 +8296,9 @@ export const PRODUCTS = {
       '/media/products/shoes/369/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8339,7 +8339,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8352,9 +8352,9 @@ export const PRODUCTS = {
       '/media/products/shoes/370/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8395,7 +8395,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8409,9 +8409,9 @@ export const PRODUCTS = {
       '/media/products/shoes/371/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8452,7 +8452,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8465,9 +8465,9 @@ export const PRODUCTS = {
       '/media/products/shoes/372/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8508,7 +8508,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8521,9 +8521,9 @@ export const PRODUCTS = {
       '/media/products/shoes/373/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8564,7 +8564,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8577,9 +8577,9 @@ export const PRODUCTS = {
       '/media/products/shoes/374/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8620,7 +8620,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8634,9 +8634,9 @@ export const PRODUCTS = {
       '/media/products/shoes/375/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8677,7 +8677,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8690,9 +8690,9 @@ export const PRODUCTS = {
       '/media/products/shoes/376/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8733,7 +8733,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8746,9 +8746,9 @@ export const PRODUCTS = {
       '/media/products/shoes/377/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8789,7 +8789,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8802,9 +8802,9 @@ export const PRODUCTS = {
       '/media/products/shoes/378/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8845,7 +8845,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8858,9 +8858,9 @@ export const PRODUCTS = {
       '/media/products/shoes/379/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8901,7 +8901,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8914,9 +8914,9 @@ export const PRODUCTS = {
       '/media/products/shoes/380/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8957,7 +8957,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8970,9 +8970,9 @@ export const PRODUCTS = {
       '/media/products/shoes/381/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -9013,7 +9013,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9026,9 +9026,9 @@ export const PRODUCTS = {
       '/media/products/shoes/382/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -9069,7 +9069,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "스니커즈", img: "sneakers"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9082,9 +9082,9 @@ export const PRODUCTS = {
       '/media/products/shoes/383/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/shoes/366/detailImg.png',
-//      '/media/products/shoes/366/detailImg2.png',
-//      '/media/products/shoes/366/detailImg3.png'
+//      '/media/products/shoes/366/detailImg.webp',
+//      '/media/products/shoes/366/detailImg2.webp',
+//      '/media/products/shoes/366/detailImg3.webp'
 //    ],
     detailText: [
       {

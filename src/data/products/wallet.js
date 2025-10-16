@@ -11,7 +11,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -28,9 +28,9 @@ export const PRODUCTS = {
       '/media/products/wallet/384/mainImg5.webp',
     ],
     detailImg: [
-      '/media/products/wallet/384/detailImg.png',
-      '/media/products/wallet/384/detailImg2.png',
-      '/media/products/wallet/384/detailImg3.png'
+      '/media/products/wallet/384/detailImg.webp',
+      '/media/products/wallet/384/detailImg2.webp',
+      '/media/products/wallet/384/detailImg3.webp'
     ],
     detailText: [
       {
@@ -71,7 +71,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -85,9 +85,9 @@ export const PRODUCTS = {
       '/media/products/wallet/385/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/384/detailImg.png',
-//      '/media/products/wallet/384/detailImg2.png',
-//      '/media/products/wallet/384/detailImg3.png'
+//      '/media/products/wallet/384/detailImg.webp',
+//      '/media/products/wallet/384/detailImg2.webp',
+//      '/media/products/wallet/384/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -128,7 +128,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -144,9 +144,9 @@ export const PRODUCTS = {
       '/media/products/wallet/386/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/384/detailImg.png',
-//      '/media/products/wallet/384/detailImg2.png',
-//      '/media/products/wallet/384/detailImg3.png'
+//      '/media/products/wallet/384/detailImg.webp',
+//      '/media/products/wallet/384/detailImg2.webp',
+//      '/media/products/wallet/384/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -187,7 +187,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -202,9 +202,9 @@ export const PRODUCTS = {
       '/media/products/wallet/387/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/387/detailImg.png',
-      '/media/products/wallet/387/detailImg2.png',
-      '/media/products/wallet/387/detailImg3.png'
+      '/media/products/wallet/387/detailImg.webp',
+      '/media/products/wallet/387/detailImg2.webp',
+      '/media/products/wallet/387/detailImg3.webp'
     ],
     detailText: [
       {
@@ -245,7 +245,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -260,9 +260,9 @@ export const PRODUCTS = {
       '/media/products/wallet/388/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/388/detailImg.png',
-//      '/media/products/wallet/388/detailImg2.png',
-//      '/media/products/wallet/388/detailImg3.png'
+//      '/media/products/wallet/388/detailImg.webp',
+//      '/media/products/wallet/388/detailImg2.webp',
+//      '/media/products/wallet/388/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -303,7 +303,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -317,9 +317,9 @@ export const PRODUCTS = {
       '/media/products/wallet/389/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/wallet/389/detailImg.png',
-      '/media/products/wallet/389/detailImg2.png',
-      '/media/products/wallet/389/detailImg3.png'
+      '/media/products/wallet/389/detailImg.webp',
+      '/media/products/wallet/389/detailImg2.webp',
+      '/media/products/wallet/389/detailImg3.webp'
     ],
     detailText: [
       {
@@ -360,7 +360,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -373,9 +373,9 @@ export const PRODUCTS = {
       '/media/products/wallet/390/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/390/detailImg.png',
-//      '/media/products/wallet/390/detailImg2.png',
-//      '/media/products/wallet/390/detailImg3.png'
+//      '/media/products/wallet/390/detailImg.webp',
+//      '/media/products/wallet/390/detailImg2.webp',
+//      '/media/products/wallet/390/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -416,7 +416,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -431,9 +431,9 @@ export const PRODUCTS = {
       '/media/products/wallet/391/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/391/detailImg.png',
-      '/media/products/wallet/391/detailImg2.png',
-      '/media/products/wallet/391/detailImg3.png'
+      '/media/products/wallet/391/detailImg.webp',
+      '/media/products/wallet/391/detailImg2.webp',
+      '/media/products/wallet/391/detailImg3.webp'
     ],
     detailText: [
       {
@@ -474,7 +474,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -488,9 +488,9 @@ export const PRODUCTS = {
       '/media/products/wallet/392/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/391/detailImg.png',
-//      '/media/products/wallet/391/detailImg2.png',
-//      '/media/products/wallet/391/detailImg3.png'
+//      '/media/products/wallet/391/detailImg.webp',
+//      '/media/products/wallet/391/detailImg2.webp',
+//      '/media/products/wallet/391/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -531,7 +531,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -546,9 +546,9 @@ export const PRODUCTS = {
       '/media/products/wallet/393/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/391/detailImg.png',
-//      '/media/products/wallet/391/detailImg2.png',
-//      '/media/products/wallet/391/detailImg3.png'
+//      '/media/products/wallet/391/detailImg.webp',
+//      '/media/products/wallet/391/detailImg2.webp',
+//      '/media/products/wallet/391/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -589,7 +589,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -604,9 +604,9 @@ export const PRODUCTS = {
       '/media/products/wallet/394/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/391/detailImg.png',
-//      '/media/products/wallet/391/detailImg2.png',
-//      '/media/products/wallet/391/detailImg3.png'
+//      '/media/products/wallet/391/detailImg.webp',
+//      '/media/products/wallet/391/detailImg2.webp',
+//      '/media/products/wallet/391/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -647,7 +647,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -663,9 +663,9 @@ export const PRODUCTS = {
       '/media/products/wallet/395/mainImg4.webp',
     ],
     detailImg: [
-      '/media/products/wallet/395/detailImg.png',
-      '/media/products/wallet/395/detailImg2.png',
-      '/media/products/wallet/395/detailImg3.png'
+      '/media/products/wallet/395/detailImg.webp',
+      '/media/products/wallet/395/detailImg2.webp',
+      '/media/products/wallet/395/detailImg3.webp'
     ],
     detailText: [
       {
@@ -707,7 +707,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -721,9 +721,9 @@ export const PRODUCTS = {
       '/media/products/wallet/396/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -764,7 +764,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -777,9 +777,9 @@ export const PRODUCTS = {
       '/media/products/wallet/397/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -820,7 +820,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -833,9 +833,9 @@ export const PRODUCTS = {
       '/media/products/wallet/398/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -876,7 +876,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -889,9 +889,9 @@ export const PRODUCTS = {
       '/media/products/wallet/399/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -932,7 +932,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -945,9 +945,9 @@ export const PRODUCTS = {
       '/media/products/wallet/400/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -988,7 +988,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1001,9 +1001,9 @@ export const PRODUCTS = {
       '/media/products/wallet/401/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1044,7 +1044,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1058,9 +1058,9 @@ export const PRODUCTS = {
       '/media/products/wallet/402/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1101,7 +1101,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1115,9 +1115,9 @@ export const PRODUCTS = {
 //      '/media/products/wallet/403/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1158,7 +1158,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1172,9 +1172,9 @@ export const PRODUCTS = {
       '/media/products/wallet/404/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1215,7 +1215,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1229,9 +1229,9 @@ export const PRODUCTS = {
       '/media/products/wallet/405/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1272,7 +1272,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1286,9 +1286,9 @@ export const PRODUCTS = {
       '/media/products/wallet/406/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1329,7 +1329,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1343,9 +1343,9 @@ export const PRODUCTS = {
       '/media/products/wallet/407/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1386,7 +1386,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1400,9 +1400,9 @@ export const PRODUCTS = {
       '/media/products/wallet/408/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1443,7 +1443,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1457,9 +1457,9 @@ export const PRODUCTS = {
       '/media/products/wallet/409/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/395/detailImg.png',
-//      '/media/products/wallet/395/detailImg2.png',
-//      '/media/products/wallet/395/detailImg3.png'
+//      '/media/products/wallet/395/detailImg.webp',
+//      '/media/products/wallet/395/detailImg2.webp',
+//      '/media/products/wallet/395/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1500,7 +1500,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1515,9 +1515,9 @@ export const PRODUCTS = {
       '/media/products/wallet/410/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/410/detailImg.png',
-      '/media/products/wallet/410/detailImg2.png',
-      '/media/products/wallet/410/detailImg3.png'
+      '/media/products/wallet/410/detailImg.webp',
+      '/media/products/wallet/410/detailImg2.webp',
+      '/media/products/wallet/410/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1558,7 +1558,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1573,9 +1573,9 @@ export const PRODUCTS = {
       '/media/products/wallet/411/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1616,7 +1616,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1630,9 +1630,9 @@ export const PRODUCTS = {
       '/media/products/wallet/412/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1673,7 +1673,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1688,9 +1688,9 @@ export const PRODUCTS = {
       '/media/products/wallet/413/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1731,7 +1731,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1744,9 +1744,9 @@ export const PRODUCTS = {
       '/media/products/wallet/414/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1787,7 +1787,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1801,9 +1801,9 @@ export const PRODUCTS = {
       '/media/products/wallet/415/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1844,7 +1844,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1859,9 +1859,9 @@ export const PRODUCTS = {
       '/media/products/wallet/416/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1902,7 +1902,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1916,9 +1916,9 @@ export const PRODUCTS = {
       '/media/products/wallet/417/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -1959,7 +1959,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -1974,9 +1974,9 @@ export const PRODUCTS = {
       '/media/products/wallet/418/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2017,7 +2017,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2031,9 +2031,9 @@ export const PRODUCTS = {
       '/media/products/wallet/419/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2074,7 +2074,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2088,9 +2088,9 @@ export const PRODUCTS = {
       '/media/products/wallet/420/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2131,7 +2131,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2146,9 +2146,9 @@ export const PRODUCTS = {
       '/media/products/wallet/421/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2189,7 +2189,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2204,9 +2204,9 @@ export const PRODUCTS = {
       '/media/products/wallet/422/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2247,7 +2247,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2262,9 +2262,9 @@ export const PRODUCTS = {
       '/media/products/wallet/423/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/410/detailImg.png',
-//      '/media/products/wallet/410/detailImg2.png',
-//      '/media/products/wallet/410/detailImg3.png'
+//      '/media/products/wallet/410/detailImg.webp',
+//      '/media/products/wallet/410/detailImg2.webp',
+//      '/media/products/wallet/410/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2305,7 +2305,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2322,9 +2322,9 @@ export const PRODUCTS = {
       '/media/products/wallet/424/mainImg5.webp',
     ],
     detailImg: [
-      '/media/products/wallet/424/detailImg.png',
-      '/media/products/wallet/424/detailImg2.png',
-      '/media/products/wallet/424/detailImg3.png'
+      '/media/products/wallet/424/detailImg.webp',
+      '/media/products/wallet/424/detailImg2.webp',
+      '/media/products/wallet/424/detailImg3.webp'
     ],
     detailText: [
       {
@@ -2365,7 +2365,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2380,9 +2380,9 @@ export const PRODUCTS = {
       '/media/products/wallet/425/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/425/detailImg.png',
-      '/media/products/wallet/425/detailImg2.png',
-      '/media/products/wallet/425/detailImg3.png'
+      '/media/products/wallet/425/detailImg.webp',
+      '/media/products/wallet/425/detailImg2.webp',
+      '/media/products/wallet/425/detailImg3.webp'
     ],
     detailText: [
       {
@@ -2423,7 +2423,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2438,9 +2438,9 @@ export const PRODUCTS = {
       '/media/products/wallet/426/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/425/detailImg.png',
-//      '/media/products/wallet/425/detailImg2.png',
-//      '/media/products/wallet/425/detailImg3.png'
+//      '/media/products/wallet/425/detailImg.webp',
+//      '/media/products/wallet/425/detailImg2.webp',
+//      '/media/products/wallet/425/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2481,7 +2481,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2496,9 +2496,9 @@ export const PRODUCTS = {
       '/media/products/wallet/427/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/425/detailImg.png',
-//      '/media/products/wallet/425/detailImg2.png',
-//      '/media/products/wallet/425/detailImg3.png'
+//      '/media/products/wallet/425/detailImg.webp',
+//      '/media/products/wallet/425/detailImg2.webp',
+//      '/media/products/wallet/425/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2539,7 +2539,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2553,9 +2553,9 @@ export const PRODUCTS = {
       '/media/products/wallet/428/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/wallet/428/detailImg.png',
-      '/media/products/wallet/428/detailImg2.png',
-      '/media/products/wallet/428/detailImg3.png'
+      '/media/products/wallet/428/detailImg.webp',
+      '/media/products/wallet/428/detailImg2.webp',
+      '/media/products/wallet/428/detailImg3.webp'
     ],
     detailText: [
       {
@@ -2596,7 +2596,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2610,9 +2610,9 @@ export const PRODUCTS = {
       '/media/products/wallet/429/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/428/detailImg.png',
-//      '/media/products/wallet/428/detailImg2.png',
-//      '/media/products/wallet/428/detailImg3.png'
+//      '/media/products/wallet/428/detailImg.webp',
+//      '/media/products/wallet/428/detailImg2.webp',
+//      '/media/products/wallet/428/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2653,7 +2653,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2667,9 +2667,9 @@ export const PRODUCTS = {
       '/media/products/wallet/430/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/428/detailImg.png',
-//      '/media/products/wallet/428/detailImg2.png',
-//      '/media/products/wallet/428/detailImg3.png'
+//      '/media/products/wallet/428/detailImg.webp',
+//      '/media/products/wallet/428/detailImg2.webp',
+//      '/media/products/wallet/428/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2710,7 +2710,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2724,9 +2724,9 @@ export const PRODUCTS = {
       '/media/products/wallet/431/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/428/detailImg.png',
-//      '/media/products/wallet/428/detailImg2.png',
-//      '/media/products/wallet/428/detailImg3.png'
+//      '/media/products/wallet/428/detailImg.webp',
+//      '/media/products/wallet/428/detailImg2.webp',
+//      '/media/products/wallet/428/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2767,7 +2767,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2781,9 +2781,9 @@ export const PRODUCTS = {
       '/media/products/wallet/432/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/428/detailImg.png',
-//      '/media/products/wallet/428/detailImg2.png',
-//      '/media/products/wallet/428/detailImg3.png'
+//      '/media/products/wallet/428/detailImg.webp',
+//      '/media/products/wallet/428/detailImg2.webp',
+//      '/media/products/wallet/428/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2824,7 +2824,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2838,9 +2838,9 @@ export const PRODUCTS = {
       '/media/products/wallet/433/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/428/detailImg.png',
-//      '/media/products/wallet/428/detailImg2.png',
-//      '/media/products/wallet/428/detailImg3.png'
+//      '/media/products/wallet/428/detailImg.webp',
+//      '/media/products/wallet/428/detailImg2.webp',
+//      '/media/products/wallet/428/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2881,7 +2881,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2895,9 +2895,9 @@ export const PRODUCTS = {
       '/media/products/wallet/434/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/428/detailImg.png',
-//      '/media/products/wallet/428/detailImg2.png',
-//      '/media/products/wallet/428/detailImg3.png'
+//      '/media/products/wallet/428/detailImg.webp',
+//      '/media/products/wallet/428/detailImg2.webp',
+//      '/media/products/wallet/428/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2938,7 +2938,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -2952,9 +2952,9 @@ export const PRODUCTS = {
       '/media/products/wallet/435/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/428/detailImg.png',
-//      '/media/products/wallet/428/detailImg2.png',
-//      '/media/products/wallet/428/detailImg3.png'
+//      '/media/products/wallet/428/detailImg.webp',
+//      '/media/products/wallet/428/detailImg2.webp',
+//      '/media/products/wallet/428/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -2995,7 +2995,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3009,9 +3009,9 @@ export const PRODUCTS = {
       '/media/products/wallet/436/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/428/detailImg.png',
-//      '/media/products/wallet/428/detailImg2.png',
-//      '/media/products/wallet/428/detailImg3.png'
+//      '/media/products/wallet/428/detailImg.webp',
+//      '/media/products/wallet/428/detailImg2.webp',
+//      '/media/products/wallet/428/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3052,7 +3052,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3066,9 +3066,9 @@ export const PRODUCTS = {
       '/media/products/wallet/437/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/428/detailImg.png',
-//      '/media/products/wallet/428/detailImg2.png',
-//      '/media/products/wallet/428/detailImg3.png'
+//      '/media/products/wallet/428/detailImg.webp',
+//      '/media/products/wallet/428/detailImg2.webp',
+//      '/media/products/wallet/428/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3109,7 +3109,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3123,9 +3123,9 @@ export const PRODUCTS = {
       '/media/products/wallet/438/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/428/detailImg.png',
-//      '/media/products/wallet/428/detailImg2.png',
-//      '/media/products/wallet/428/detailImg3.png'
+//      '/media/products/wallet/428/detailImg.webp',
+//      '/media/products/wallet/428/detailImg2.webp',
+//      '/media/products/wallet/428/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3166,7 +3166,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3181,9 +3181,9 @@ export const PRODUCTS = {
       '/media/products/wallet/439/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/439/detailImg.png',
-      '/media/products/wallet/439/detailImg2.png',
-      '/media/products/wallet/439/detailImg3.png'
+      '/media/products/wallet/439/detailImg.webp',
+      '/media/products/wallet/439/detailImg2.webp',
+      '/media/products/wallet/439/detailImg3.webp'
     ],
     detailText: [
       {
@@ -3224,7 +3224,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3239,9 +3239,9 @@ export const PRODUCTS = {
       '/media/products/wallet/440/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/440/detailImg.png',
-      '/media/products/wallet/440/detailImg2.png',
-      '/media/products/wallet/440/detailImg3.png'
+      '/media/products/wallet/440/detailImg.webp',
+      '/media/products/wallet/440/detailImg2.webp',
+      '/media/products/wallet/440/detailImg3.webp'
     ],
     detailText: [
       {
@@ -3282,7 +3282,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3297,9 +3297,9 @@ export const PRODUCTS = {
       '/media/products/wallet/441/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3340,7 +3340,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3355,9 +3355,9 @@ export const PRODUCTS = {
       '/media/products/wallet/442/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3398,7 +3398,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3414,9 +3414,9 @@ export const PRODUCTS = {
       '/media/products/wallet/443/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3457,7 +3457,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3472,9 +3472,9 @@ export const PRODUCTS = {
       '/media/products/wallet/444/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3515,7 +3515,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3528,9 +3528,9 @@ export const PRODUCTS = {
       '/media/products/wallet/445/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3571,7 +3571,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3584,9 +3584,9 @@ export const PRODUCTS = {
       '/media/products/wallet/446/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3627,7 +3627,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3642,9 +3642,9 @@ export const PRODUCTS = {
       '/media/products/wallet/447/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3685,7 +3685,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3700,9 +3700,9 @@ export const PRODUCTS = {
       '/media/products/wallet/448/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3743,7 +3743,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3757,9 +3757,9 @@ export const PRODUCTS = {
       '/media/products/wallet/449/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3800,7 +3800,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3814,9 +3814,9 @@ export const PRODUCTS = {
       '/media/products/wallet/450/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3857,7 +3857,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3871,9 +3871,9 @@ export const PRODUCTS = {
       '/media/products/wallet/451/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3914,7 +3914,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3929,9 +3929,9 @@ export const PRODUCTS = {
       '/media/products/wallet/452/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -3972,7 +3972,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -3988,9 +3988,9 @@ export const PRODUCTS = {
       '/media/products/wallet/453/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/440/detailImg.png',
-//      '/media/products/wallet/440/detailImg2.png',
-//      '/media/products/wallet/440/detailImg3.png'
+//      '/media/products/wallet/440/detailImg.webp',
+//      '/media/products/wallet/440/detailImg2.webp',
+//      '/media/products/wallet/440/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4031,7 +4031,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4046,9 +4046,9 @@ export const PRODUCTS = {
       '/media/products/wallet/454/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/454/detailImg.png',
-      '/media/products/wallet/454/detailImg2.png',
-      '/media/products/wallet/454/detailImg3.png'
+      '/media/products/wallet/454/detailImg.webp',
+      '/media/products/wallet/454/detailImg2.webp',
+      '/media/products/wallet/454/detailImg3.webp'
     ],
     detailText: [
       {
@@ -4089,7 +4089,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4106,9 +4106,9 @@ export const PRODUCTS = {
       '/media/products/wallet/455/mainImg5.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/454/detailImg.png',
-//      '/media/products/wallet/454/detailImg2.png',
-//      '/media/products/wallet/454/detailImg3.png'
+//      '/media/products/wallet/454/detailImg.webp',
+//      '/media/products/wallet/454/detailImg2.webp',
+//      '/media/products/wallet/454/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4149,7 +4149,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4163,9 +4163,9 @@ export const PRODUCTS = {
       '/media/products/wallet/456/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/454/detailImg.png',
-//      '/media/products/wallet/454/detailImg2.png',
-//      '/media/products/wallet/454/detailImg3.png'
+//      '/media/products/wallet/454/detailImg.webp',
+//      '/media/products/wallet/454/detailImg2.webp',
+//      '/media/products/wallet/454/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4206,7 +4206,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4224,9 +4224,9 @@ export const PRODUCTS = {
       '/media/products/wallet/457/mainImg6.webp',
     ],
     detailImg: [
-      '/media/products/wallet/457/detailImg.png',
-      '/media/products/wallet/457/detailImg2.png',
-      '/media/products/wallet/457/detailImg3.png'
+      '/media/products/wallet/457/detailImg.webp',
+      '/media/products/wallet/457/detailImg2.webp',
+      '/media/products/wallet/457/detailImg3.webp'
     ],
     detailText: [
       {
@@ -4267,7 +4267,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4282,9 +4282,9 @@ export const PRODUCTS = {
       '/media/products/wallet/458/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/457/detailImg.png',
-//      '/media/products/wallet/457/detailImg2.png',
-//      '/media/products/wallet/457/detailImg3.png'
+//      '/media/products/wallet/457/detailImg.webp',
+//      '/media/products/wallet/457/detailImg2.webp',
+//      '/media/products/wallet/457/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4325,7 +4325,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4341,9 +4341,9 @@ export const PRODUCTS = {
       '/media/products/wallet/459/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/457/detailImg.png',
-//      '/media/products/wallet/457/detailImg2.png',
-//      '/media/products/wallet/457/detailImg3.png'
+//      '/media/products/wallet/457/detailImg.webp',
+//      '/media/products/wallet/457/detailImg2.webp',
+//      '/media/products/wallet/457/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4384,7 +4384,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4400,9 +4400,9 @@ export const PRODUCTS = {
       '/media/products/wallet/460/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/457/detailImg.png',
-//      '/media/products/wallet/457/detailImg2.png',
-//      '/media/products/wallet/457/detailImg3.png'
+//      '/media/products/wallet/457/detailImg.webp',
+//      '/media/products/wallet/457/detailImg2.webp',
+//      '/media/products/wallet/457/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4443,7 +4443,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "장지갑", img: "longwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4457,9 +4457,9 @@ export const PRODUCTS = {
       '/media/products/wallet/461/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/wallet/461/detailImg.png',
-      '/media/products/wallet/461/detailImg2.png',
-      '/media/products/wallet/461/detailImg3.png'
+      '/media/products/wallet/461/detailImg.webp',
+      '/media/products/wallet/461/detailImg2.webp',
+      '/media/products/wallet/461/detailImg3.webp'
     ],
     detailText: [
       {
@@ -4500,7 +4500,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4515,9 +4515,9 @@ export const PRODUCTS = {
       '/media/products/wallet/462/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/462/detailImg.png',
-      '/media/products/wallet/462/detailImg2.png',
-      '/media/products/wallet/462/detailImg3.png'
+      '/media/products/wallet/462/detailImg.webp',
+      '/media/products/wallet/462/detailImg2.webp',
+      '/media/products/wallet/462/detailImg3.webp'
     ],
     detailText: [
       {
@@ -4558,7 +4558,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4572,9 +4572,9 @@ export const PRODUCTS = {
       '/media/products/wallet/463/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/462/detailImg.png',
-//      '/media/products/wallet/462/detailImg2.png',
-//      '/media/products/wallet/462/detailImg3.png'
+//      '/media/products/wallet/462/detailImg.webp',
+//      '/media/products/wallet/462/detailImg2.webp',
+//      '/media/products/wallet/462/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4615,7 +4615,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4629,9 +4629,9 @@ export const PRODUCTS = {
       '/media/products/wallet/464/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/462/detailImg.png',
-//      '/media/products/wallet/462/detailImg2.png',
-//      '/media/products/wallet/462/detailImg3.png'
+//      '/media/products/wallet/462/detailImg.webp',
+//      '/media/products/wallet/462/detailImg2.webp',
+//      '/media/products/wallet/462/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4672,7 +4672,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4686,9 +4686,9 @@ export const PRODUCTS = {
       '/media/products/wallet/465/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/462/detailImg.png',
-//      '/media/products/wallet/462/detailImg2.png',
-//      '/media/products/wallet/462/detailImg3.png'
+//      '/media/products/wallet/462/detailImg.webp',
+//      '/media/products/wallet/462/detailImg2.webp',
+//      '/media/products/wallet/462/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4729,7 +4729,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4743,9 +4743,9 @@ export const PRODUCTS = {
       '/media/products/wallet/466/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/462/detailImg.png',
-//      '/media/products/wallet/462/detailImg2.png',
-//      '/media/products/wallet/462/detailImg3.png'
+//      '/media/products/wallet/462/detailImg.webp',
+//      '/media/products/wallet/462/detailImg2.webp',
+//      '/media/products/wallet/462/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4786,7 +4786,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4800,9 +4800,9 @@ export const PRODUCTS = {
       '/media/products/wallet/467/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/462/detailImg.png',
-//      '/media/products/wallet/462/detailImg2.png',
-//      '/media/products/wallet/462/detailImg3.png'
+//      '/media/products/wallet/462/detailImg.webp',
+//      '/media/products/wallet/462/detailImg2.webp',
+//      '/media/products/wallet/462/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4843,7 +4843,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4857,9 +4857,9 @@ export const PRODUCTS = {
       '/media/products/wallet/468/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/462/detailImg.png',
-//      '/media/products/wallet/462/detailImg2.png',
-//      '/media/products/wallet/462/detailImg3.png'
+//      '/media/products/wallet/462/detailImg.webp',
+//      '/media/products/wallet/462/detailImg2.webp',
+//      '/media/products/wallet/462/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4900,7 +4900,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4914,9 +4914,9 @@ export const PRODUCTS = {
       '/media/products/wallet/469/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/462/detailImg.png',
-//      '/media/products/wallet/462/detailImg2.png',
-//      '/media/products/wallet/462/detailImg3.png'
+//      '/media/products/wallet/462/detailImg.webp',
+//      '/media/products/wallet/462/detailImg2.webp',
+//      '/media/products/wallet/462/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -4957,7 +4957,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -4971,9 +4971,9 @@ export const PRODUCTS = {
       '/media/products/wallet/470/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/wallet/470/detailImg.png',
-      '/media/products/wallet/470/detailImg2.png',
-      '/media/products/wallet/470/detailImg3.png'
+      '/media/products/wallet/470/detailImg.webp',
+      '/media/products/wallet/470/detailImg2.webp',
+      '/media/products/wallet/470/detailImg3.webp'
     ],
     detailText: [
       {
@@ -5014,7 +5014,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5028,9 +5028,9 @@ export const PRODUCTS = {
       '/media/products/wallet/471/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/470/detailImg.png',
-//      '/media/products/wallet/470/detailImg2.png',
-//      '/media/products/wallet/470/detailImg3.png'
+//      '/media/products/wallet/470/detailImg.webp',
+//      '/media/products/wallet/470/detailImg2.webp',
+//      '/media/products/wallet/470/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5071,7 +5071,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5085,9 +5085,9 @@ export const PRODUCTS = {
       '/media/products/wallet/472/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/470/detailImg.png',
-//      '/media/products/wallet/470/detailImg2.png',
-//      '/media/products/wallet/470/detailImg3.png'
+//      '/media/products/wallet/470/detailImg.webp',
+//      '/media/products/wallet/470/detailImg2.webp',
+//      '/media/products/wallet/470/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5128,7 +5128,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5142,9 +5142,9 @@ export const PRODUCTS = {
       '/media/products/wallet/473/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/470/detailImg.png',
-//      '/media/products/wallet/470/detailImg2.png',
-//      '/media/products/wallet/470/detailImg3.png'
+//      '/media/products/wallet/470/detailImg.webp',
+//      '/media/products/wallet/470/detailImg2.webp',
+//      '/media/products/wallet/470/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5185,7 +5185,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5201,9 +5201,9 @@ export const PRODUCTS = {
       '/media/products/wallet/474/mainImg4.webp',
     ],
     detailImg: [
-      '/media/products/wallet/474/detailImg.png',
-      '/media/products/wallet/474/detailImg2.png',
-      '/media/products/wallet/474/detailImg3.png'
+      '/media/products/wallet/474/detailImg.webp',
+      '/media/products/wallet/474/detailImg2.webp',
+      '/media/products/wallet/474/detailImg3.webp'
     ],
     detailText: [
       {
@@ -5244,7 +5244,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5257,9 +5257,9 @@ export const PRODUCTS = {
       '/media/products/wallet/475/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/474/detailImg.png',
-//      '/media/products/wallet/474/detailImg2.png',
-//      '/media/products/wallet/474/detailImg3.png'
+//      '/media/products/wallet/474/detailImg.webp',
+//      '/media/products/wallet/474/detailImg2.webp',
+//      '/media/products/wallet/474/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5300,7 +5300,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5313,9 +5313,9 @@ export const PRODUCTS = {
       '/media/products/wallet/476/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/474/detailImg.png',
-//      '/media/products/wallet/474/detailImg2.png',
-//      '/media/products/wallet/474/detailImg3.png'
+//      '/media/products/wallet/474/detailImg.webp',
+//      '/media/products/wallet/474/detailImg2.webp',
+//      '/media/products/wallet/474/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5356,7 +5356,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5370,9 +5370,9 @@ export const PRODUCTS = {
       '/media/products/wallet/477/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/474/detailImg.png',
-//      '/media/products/wallet/474/detailImg2.png',
-//      '/media/products/wallet/474/detailImg3.png'
+//      '/media/products/wallet/474/detailImg.webp',
+//      '/media/products/wallet/474/detailImg2.webp',
+//      '/media/products/wallet/474/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5413,7 +5413,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5426,9 +5426,9 @@ export const PRODUCTS = {
       '/media/products/wallet/478/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/474/detailImg.png',
-//      '/media/products/wallet/474/detailImg2.png',
-//      '/media/products/wallet/474/detailImg3.png'
+//      '/media/products/wallet/474/detailImg.webp',
+//      '/media/products/wallet/474/detailImg2.webp',
+//      '/media/products/wallet/474/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5469,7 +5469,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5482,9 +5482,9 @@ export const PRODUCTS = {
       '/media/products/wallet/479/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/474/detailImg.png',
-//      '/media/products/wallet/474/detailImg2.png',
-//      '/media/products/wallet/474/detailImg3.png'
+//      '/media/products/wallet/474/detailImg.webp',
+//      '/media/products/wallet/474/detailImg2.webp',
+//      '/media/products/wallet/474/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5525,7 +5525,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5540,9 +5540,9 @@ export const PRODUCTS = {
       '/media/products/wallet/480/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/474/detailImg.png',
-//      '/media/products/wallet/474/detailImg2.png',
-//      '/media/products/wallet/474/detailImg3.png'
+//      '/media/products/wallet/474/detailImg.webp',
+//      '/media/products/wallet/474/detailImg2.webp',
+//      '/media/products/wallet/474/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5583,7 +5583,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5597,9 +5597,9 @@ export const PRODUCTS = {
       '/media/products/wallet/481/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/474/detailImg.png',
-//      '/media/products/wallet/474/detailImg2.png',
-//      '/media/products/wallet/474/detailImg3.png'
+//      '/media/products/wallet/474/detailImg.webp',
+//      '/media/products/wallet/474/detailImg2.webp',
+//      '/media/products/wallet/474/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5640,7 +5640,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5654,9 +5654,9 @@ export const PRODUCTS = {
       '/media/products/wallet/482/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/474/detailImg.png',
-//      '/media/products/wallet/474/detailImg2.png',
-//      '/media/products/wallet/474/detailImg3.png'
+//      '/media/products/wallet/474/detailImg.webp',
+//      '/media/products/wallet/474/detailImg2.webp',
+//      '/media/products/wallet/474/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5697,7 +5697,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5712,9 +5712,9 @@ export const PRODUCTS = {
       '/media/products/wallet/483/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/474/detailImg.png',
-//      '/media/products/wallet/474/detailImg2.png',
-//      '/media/products/wallet/474/detailImg3.png'
+//      '/media/products/wallet/474/detailImg.webp',
+//      '/media/products/wallet/474/detailImg2.webp',
+//      '/media/products/wallet/474/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5755,7 +5755,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5769,9 +5769,9 @@ export const PRODUCTS = {
       '/media/products/wallet/484/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/474/detailImg.png',
-//      '/media/products/wallet/474/detailImg2.png',
-//      '/media/products/wallet/474/detailImg3.png'
+//      '/media/products/wallet/474/detailImg.webp',
+//      '/media/products/wallet/474/detailImg2.webp',
+//      '/media/products/wallet/474/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5812,7 +5812,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5826,9 +5826,9 @@ export const PRODUCTS = {
       '/media/products/wallet/485/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/wallet/485/detailImg.png',
-      '/media/products/wallet/485/detailImg2.png',
-      '/media/products/wallet/485/detailImg3.png'
+      '/media/products/wallet/485/detailImg.webp',
+      '/media/products/wallet/485/detailImg2.webp',
+      '/media/products/wallet/485/detailImg3.webp'
     ],
     detailText: [
       {
@@ -5869,7 +5869,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5883,9 +5883,9 @@ export const PRODUCTS = {
       '/media/products/wallet/486/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/486/detailImg.png',
-//      '/media/products/wallet/486/detailImg2.png',
-//      '/media/products/wallet/486/detailImg3.png'
+//      '/media/products/wallet/486/detailImg.webp',
+//      '/media/products/wallet/486/detailImg2.webp',
+//      '/media/products/wallet/486/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -5926,7 +5926,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5940,9 +5940,9 @@ export const PRODUCTS = {
       '/media/products/wallet/487/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/wallet/487/detailImg.png',
-      '/media/products/wallet/487/detailImg2.png',
-      '/media/products/wallet/487/detailImg3.png'
+      '/media/products/wallet/487/detailImg.webp',
+      '/media/products/wallet/487/detailImg2.webp',
+      '/media/products/wallet/487/detailImg3.webp'
     ],
     detailText: [
       {
@@ -5983,7 +5983,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -5996,9 +5996,9 @@ export const PRODUCTS = {
       '/media/products/wallet/488/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6039,7 +6039,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6052,9 +6052,9 @@ export const PRODUCTS = {
       '/media/products/wallet/489/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6095,7 +6095,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6108,9 +6108,9 @@ export const PRODUCTS = {
       '/media/products/wallet/490/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6151,7 +6151,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6164,9 +6164,9 @@ export const PRODUCTS = {
       '/media/products/wallet/491/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6207,7 +6207,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6220,9 +6220,9 @@ export const PRODUCTS = {
       '/media/products/wallet/492/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6263,7 +6263,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6276,9 +6276,9 @@ export const PRODUCTS = {
       '/media/products/wallet/493/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6319,7 +6319,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6332,9 +6332,9 @@ export const PRODUCTS = {
       '/media/products/wallet/494/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6375,7 +6375,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6388,9 +6388,9 @@ export const PRODUCTS = {
       '/media/products/wallet/495/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6431,7 +6431,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6444,9 +6444,9 @@ export const PRODUCTS = {
       '/media/products/wallet/496/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6487,7 +6487,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6500,9 +6500,9 @@ export const PRODUCTS = {
       '/media/products/wallet/497/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6543,7 +6543,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6556,9 +6556,9 @@ export const PRODUCTS = {
       '/media/products/wallet/498/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6599,7 +6599,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6612,9 +6612,9 @@ export const PRODUCTS = {
       '/media/products/wallet/499/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6655,7 +6655,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6668,9 +6668,9 @@ export const PRODUCTS = {
       '/media/products/wallet/500/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6711,7 +6711,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6725,9 +6725,9 @@ export const PRODUCTS = {
       '/media/products/wallet/501/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6768,7 +6768,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6782,9 +6782,9 @@ export const PRODUCTS = {
       '/media/products/wallet/502/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6825,7 +6825,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6840,9 +6840,9 @@ export const PRODUCTS = {
       '/media/products/wallet/503/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6883,7 +6883,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6898,9 +6898,9 @@ export const PRODUCTS = {
       '/media/products/wallet/504/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6941,7 +6941,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -6954,9 +6954,9 @@ export const PRODUCTS = {
       '/media/products/wallet/505/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -6997,7 +6997,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7010,9 +7010,9 @@ export const PRODUCTS = {
       '/media/products/wallet/506/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/487/detailImg.png',
-//      '/media/products/wallet/487/detailImg2.png',
-//      '/media/products/wallet/487/detailImg3.png'
+//      '/media/products/wallet/487/detailImg.webp',
+//      '/media/products/wallet/487/detailImg2.webp',
+//      '/media/products/wallet/487/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7053,7 +7053,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7068,9 +7068,9 @@ export const PRODUCTS = {
       '/media/products/wallet/507/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/507/detailImg.png',
-      '/media/products/wallet/507/detailImg2.png',
-      '/media/products/wallet/507/detailImg3.png'
+      '/media/products/wallet/507/detailImg.webp',
+      '/media/products/wallet/507/detailImg2.webp',
+      '/media/products/wallet/507/detailImg3.webp'
     ],
     detailText: [
       {
@@ -7111,7 +7111,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7125,9 +7125,9 @@ export const PRODUCTS = {
       '/media/products/wallet/508/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/507/detailImg.png',
-//      '/media/products/wallet/507/detailImg2.png',
-//      '/media/products/wallet/507/detailImg3.png'
+//      '/media/products/wallet/507/detailImg.webp',
+//      '/media/products/wallet/507/detailImg2.webp',
+//      '/media/products/wallet/507/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7168,7 +7168,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7182,9 +7182,9 @@ export const PRODUCTS = {
       '/media/products/wallet/509/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/507/detailImg.png',
-//      '/media/products/wallet/507/detailImg2.png',
-//      '/media/products/wallet/507/detailImg3.png'
+//      '/media/products/wallet/507/detailImg.webp',
+//      '/media/products/wallet/507/detailImg2.webp',
+//      '/media/products/wallet/507/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7225,7 +7225,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7239,9 +7239,9 @@ export const PRODUCTS = {
       '/media/products/wallet/510/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/507/detailImg.png',
-//      '/media/products/wallet/507/detailImg2.png',
-//      '/media/products/wallet/507/detailImg3.png'
+//      '/media/products/wallet/507/detailImg.webp',
+//      '/media/products/wallet/507/detailImg2.webp',
+//      '/media/products/wallet/507/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7282,7 +7282,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7296,9 +7296,9 @@ export const PRODUCTS = {
       '/media/products/wallet/511/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/507/detailImg.png',
-//      '/media/products/wallet/507/detailImg2.png',
-//      '/media/products/wallet/507/detailImg3.png'
+//      '/media/products/wallet/507/detailImg.webp',
+//      '/media/products/wallet/507/detailImg2.webp',
+//      '/media/products/wallet/507/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7339,7 +7339,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7353,9 +7353,9 @@ export const PRODUCTS = {
       '/media/products/wallet/512/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/507/detailImg.png',
-//      '/media/products/wallet/507/detailImg2.png',
-//      '/media/products/wallet/507/detailImg3.png'
+//      '/media/products/wallet/507/detailImg.webp',
+//      '/media/products/wallet/507/detailImg2.webp',
+//      '/media/products/wallet/507/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7396,7 +7396,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7411,9 +7411,9 @@ export const PRODUCTS = {
       '/media/products/wallet/513/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/513/detailImg.png',
-      '/media/products/wallet/513/detailImg2.png',
-      '/media/products/wallet/513/detailImg3.png'
+      '/media/products/wallet/513/detailImg.webp',
+      '/media/products/wallet/513/detailImg2.webp',
+      '/media/products/wallet/513/detailImg3.webp'
     ],
     detailText: [
       {
@@ -7454,7 +7454,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7469,9 +7469,9 @@ export const PRODUCTS = {
       '/media/products/wallet/514/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/513/detailImg.png',
-//      '/media/products/wallet/513/detailImg2.png',
-//      '/media/products/wallet/513/detailImg3.png'
+//      '/media/products/wallet/513/detailImg.webp',
+//      '/media/products/wallet/513/detailImg2.webp',
+//      '/media/products/wallet/513/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7512,7 +7512,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7527,9 +7527,9 @@ export const PRODUCTS = {
       '/media/products/wallet/515/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/513/detailImg.png',
-//      '/media/products/wallet/513/detailImg2.png',
-//      '/media/products/wallet/513/detailImg3.png'
+//      '/media/products/wallet/513/detailImg.webp',
+//      '/media/products/wallet/513/detailImg2.webp',
+//      '/media/products/wallet/513/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7570,7 +7570,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7585,9 +7585,9 @@ export const PRODUCTS = {
       '/media/products/wallet/516/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/513/detailImg.png',
-//      '/media/products/wallet/513/detailImg2.png',
-//      '/media/products/wallet/513/detailImg3.png'
+//      '/media/products/wallet/513/detailImg.webp',
+//      '/media/products/wallet/513/detailImg2.webp',
+//      '/media/products/wallet/513/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7628,7 +7628,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7643,9 +7643,9 @@ export const PRODUCTS = {
       '/media/products/wallet/517/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/513/detailImg.png',
-//      '/media/products/wallet/513/detailImg2.png',
-//      '/media/products/wallet/513/detailImg3.png'
+//      '/media/products/wallet/513/detailImg.webp',
+//      '/media/products/wallet/513/detailImg2.webp',
+//      '/media/products/wallet/513/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7686,7 +7686,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7701,9 +7701,9 @@ export const PRODUCTS = {
       '/media/products/wallet/517/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/513/detailImg.png',
-//      '/media/products/wallet/513/detailImg2.png',
-//      '/media/products/wallet/513/detailImg3.png'
+//      '/media/products/wallet/513/detailImg.webp',
+//      '/media/products/wallet/513/detailImg2.webp',
+//      '/media/products/wallet/513/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7744,7 +7744,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7759,9 +7759,9 @@ export const PRODUCTS = {
       '/media/products/wallet/518/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/513/detailImg.png',
-//      '/media/products/wallet/513/detailImg2.png',
-//      '/media/products/wallet/513/detailImg3.png'
+//      '/media/products/wallet/513/detailImg.webp',
+//      '/media/products/wallet/513/detailImg2.webp',
+//      '/media/products/wallet/513/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7802,7 +7802,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "장지갑", img: "longwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7817,9 +7817,9 @@ export const PRODUCTS = {
       '/media/products/wallet/520/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/520/detailImg.png',
-      '/media/products/wallet/520/detailImg2.png',
-      '/media/products/wallet/520/detailImg3.png'
+      '/media/products/wallet/520/detailImg.webp',
+      '/media/products/wallet/520/detailImg2.webp',
+      '/media/products/wallet/520/detailImg3.webp'
     ],
     detailText: [
       {
@@ -7860,7 +7860,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "장지갑", img: "longwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7875,9 +7875,9 @@ export const PRODUCTS = {
       '/media/products/wallet/521/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/520/detailImg.png',
-//      '/media/products/wallet/520/detailImg2.png',
-//      '/media/products/wallet/520/detailImg3.png'
+//      '/media/products/wallet/520/detailImg.webp',
+//      '/media/products/wallet/520/detailImg2.webp',
+//      '/media/products/wallet/520/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -7918,7 +7918,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7933,9 +7933,9 @@ export const PRODUCTS = {
       '/media/products/wallet/522/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/522/detailImg.png',
-      '/media/products/wallet/522/detailImg2.png',
-      '/media/products/wallet/522/detailImg3.png'
+      '/media/products/wallet/522/detailImg.webp',
+      '/media/products/wallet/522/detailImg2.webp',
+      '/media/products/wallet/522/detailImg3.webp'
     ],
     detailText: [
       {
@@ -7976,7 +7976,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -7991,9 +7991,9 @@ export const PRODUCTS = {
       '/media/products/wallet/523/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/522/detailImg.png',
-//      '/media/products/wallet/522/detailImg2.png',
-//      '/media/products/wallet/522/detailImg3.png'
+//      '/media/products/wallet/522/detailImg.webp',
+//      '/media/products/wallet/522/detailImg2.webp',
+//      '/media/products/wallet/522/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8034,7 +8034,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8050,9 +8050,9 @@ export const PRODUCTS = {
       '/media/products/wallet/524/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/522/detailImg.png',
-//      '/media/products/wallet/522/detailImg2.png',
-//      '/media/products/wallet/522/detailImg3.png'
+//      '/media/products/wallet/522/detailImg.webp',
+//      '/media/products/wallet/522/detailImg2.webp',
+//      '/media/products/wallet/522/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8093,7 +8093,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8108,9 +8108,9 @@ export const PRODUCTS = {
       '/media/products/wallet/525/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/522/detailImg.png',
-//      '/media/products/wallet/522/detailImg2.png',
-//      '/media/products/wallet/522/detailImg3.png'
+//      '/media/products/wallet/522/detailImg.webp',
+//      '/media/products/wallet/522/detailImg2.webp',
+//      '/media/products/wallet/522/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8151,7 +8151,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8167,9 +8167,9 @@ export const PRODUCTS = {
       '/media/products/wallet/526/mainImg4.webp',
     ],
     detailImg: [
-      '/media/products/wallet/526/detailImg.png',
-      '/media/products/wallet/526/detailImg2.png',
-      '/media/products/wallet/526/detailImg3.png'
+      '/media/products/wallet/526/detailImg.webp',
+      '/media/products/wallet/526/detailImg2.webp',
+      '/media/products/wallet/526/detailImg3.webp'
     ],
     detailText: [
       {
@@ -8210,7 +8210,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8224,9 +8224,9 @@ export const PRODUCTS = {
       '/media/products/wallet/527/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/526/detailImg.png',
-//      '/media/products/wallet/526/detailImg2.png',
-//      '/media/products/wallet/526/detailImg3.png'
+//      '/media/products/wallet/526/detailImg.webp',
+//      '/media/products/wallet/526/detailImg2.webp',
+//      '/media/products/wallet/526/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8267,7 +8267,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8282,9 +8282,9 @@ export const PRODUCTS = {
       '/media/products/wallet/528/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/526/detailImg.png',
-//      '/media/products/wallet/526/detailImg2.png',
-//      '/media/products/wallet/526/detailImg3.png'
+//      '/media/products/wallet/526/detailImg.webp',
+//      '/media/products/wallet/526/detailImg2.webp',
+//      '/media/products/wallet/526/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8325,7 +8325,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8341,9 +8341,9 @@ export const PRODUCTS = {
       '/media/products/wallet/529/mainImg4.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/526/detailImg.png',
-//      '/media/products/wallet/526/detailImg2.png',
-//      '/media/products/wallet/526/detailImg3.png'
+//      '/media/products/wallet/526/detailImg.webp',
+//      '/media/products/wallet/526/detailImg2.webp',
+//      '/media/products/wallet/526/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8384,7 +8384,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8398,9 +8398,9 @@ export const PRODUCTS = {
       '/media/products/wallet/530/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/526/detailImg.png',
-//      '/media/products/wallet/526/detailImg2.png',
-//      '/media/products/wallet/526/detailImg3.png'
+//      '/media/products/wallet/526/detailImg.webp',
+//      '/media/products/wallet/526/detailImg2.webp',
+//      '/media/products/wallet/526/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8441,7 +8441,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8455,9 +8455,9 @@ export const PRODUCTS = {
       '/media/products/wallet/531/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/wallet/531/detailImg.png',
-      '/media/products/wallet/531/detailImg2.png',
-      '/media/products/wallet/531/detailImg3.png'
+      '/media/products/wallet/531/detailImg.webp',
+      '/media/products/wallet/531/detailImg2.webp',
+      '/media/products/wallet/531/detailImg3.webp'
     ],
     detailText: [
       {
@@ -8498,7 +8498,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8513,9 +8513,9 @@ export const PRODUCTS = {
       '/media/products/wallet/532/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/532/detailImg.png',
-//      '/media/products/wallet/532/detailImg2.png',
-//      '/media/products/wallet/532/detailImg3.png'
+//      '/media/products/wallet/532/detailImg.webp',
+//      '/media/products/wallet/532/detailImg2.webp',
+//      '/media/products/wallet/532/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8556,7 +8556,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "중지갑", img: "mediumwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8570,9 +8570,9 @@ export const PRODUCTS = {
       '/media/products/wallet/533/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/wallet/533/detailImg.png',
-      '/media/products/wallet/533/detailImg2.png',
-      '/media/products/wallet/533/detailImg3.png'
+      '/media/products/wallet/533/detailImg.webp',
+      '/media/products/wallet/533/detailImg2.webp',
+      '/media/products/wallet/533/detailImg3.webp'
     ],
     detailText: [
       {
@@ -8613,7 +8613,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "중지갑", img: "mediumwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8626,9 +8626,9 @@ export const PRODUCTS = {
       '/media/products/wallet/534/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/533/detailImg.png',
-//      '/media/products/wallet/533/detailImg2.png',
-//      '/media/products/wallet/533/detailImg3.png'
+//      '/media/products/wallet/533/detailImg.webp',
+//      '/media/products/wallet/533/detailImg2.webp',
+//      '/media/products/wallet/533/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8669,7 +8669,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "중지갑", img: "mediumwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8683,9 +8683,9 @@ export const PRODUCTS = {
       '/media/products/wallet/535/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/533/detailImg.png',
-//      '/media/products/wallet/533/detailImg2.png',
-//      '/media/products/wallet/533/detailImg3.png'
+//      '/media/products/wallet/533/detailImg.webp',
+//      '/media/products/wallet/533/detailImg2.webp',
+//      '/media/products/wallet/533/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8726,7 +8726,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "중지갑", img: "mediumwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8740,9 +8740,9 @@ export const PRODUCTS = {
       '/media/products/wallet/536/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/533/detailImg.png',
-//      '/media/products/wallet/533/detailImg2.png',
-//      '/media/products/wallet/533/detailImg3.png'
+//      '/media/products/wallet/533/detailImg.webp',
+//      '/media/products/wallet/533/detailImg2.webp',
+//      '/media/products/wallet/533/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8783,7 +8783,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "장지갑", img: "longwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8796,9 +8796,9 @@ export const PRODUCTS = {
       '/media/products/wallet/537/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/wallet/537/detailImg.png',
-      '/media/products/wallet/537/detailImg2.png',
-      '/media/products/wallet/537/detailImg3.png'
+      '/media/products/wallet/537/detailImg.webp',
+      '/media/products/wallet/537/detailImg2.webp',
+      '/media/products/wallet/537/detailImg3.webp'
     ],
     detailText: [
       {
@@ -8839,7 +8839,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "장지갑", img: "longwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8852,9 +8852,9 @@ export const PRODUCTS = {
       '/media/products/wallet/538/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/538/detailImg.png',
-//      '/media/products/wallet/538/detailImg2.png',
-//      '/media/products/wallet/538/detailImg3.png'
+//      '/media/products/wallet/538/detailImg.webp',
+//      '/media/products/wallet/538/detailImg2.webp',
+//      '/media/products/wallet/538/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -8895,7 +8895,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8911,9 +8911,9 @@ export const PRODUCTS = {
       '/media/products/wallet/539/mainImg4.webp',
     ],
     detailImg: [
-      '/media/products/wallet/539/detailImg.png',
-      '/media/products/wallet/539/detailImg2.png',
-      '/media/products/wallet/539/detailImg3.png'
+      '/media/products/wallet/539/detailImg.webp',
+      '/media/products/wallet/539/detailImg2.webp',
+      '/media/products/wallet/539/detailImg3.webp'
     ],
     detailText: [
       {
@@ -8954,7 +8954,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -8968,9 +8968,9 @@ export const PRODUCTS = {
       '/media/products/wallet/540/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/539/detailImg.png',
-//      '/media/products/wallet/539/detailImg2.png',
-//      '/media/products/wallet/539/detailImg3.png'
+//      '/media/products/wallet/539/detailImg.webp',
+//      '/media/products/wallet/539/detailImg2.webp',
+//      '/media/products/wallet/539/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -9011,7 +9011,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9024,9 +9024,9 @@ export const PRODUCTS = {
       '/media/products/wallet/541/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/539/detailImg.png',
-//      '/media/products/wallet/539/detailImg2.png',
-//      '/media/products/wallet/539/detailImg3.png'
+//      '/media/products/wallet/539/detailImg.webp',
+//      '/media/products/wallet/539/detailImg2.webp',
+//      '/media/products/wallet/539/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -9067,7 +9067,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9080,9 +9080,9 @@ export const PRODUCTS = {
       '/media/products/wallet/542/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/539/detailImg.png',
-//      '/media/products/wallet/539/detailImg2.png',
-//      '/media/products/wallet/539/detailImg3.png'
+//      '/media/products/wallet/539/detailImg.webp',
+//      '/media/products/wallet/539/detailImg2.webp',
+//      '/media/products/wallet/539/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -9123,7 +9123,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9136,9 +9136,9 @@ export const PRODUCTS = {
       '/media/products/wallet/543/mainImg.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/539/detailImg.png',
-//      '/media/products/wallet/539/detailImg2.png',
-//      '/media/products/wallet/539/detailImg3.png'
+//      '/media/products/wallet/539/detailImg.webp',
+//      '/media/products/wallet/539/detailImg2.webp',
+//      '/media/products/wallet/539/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -9179,7 +9179,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "중지갑", img: "mediumwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9194,9 +9194,9 @@ export const PRODUCTS = {
       '/media/products/wallet/544/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/544/detailImg.png',
-      '/media/products/wallet/544/detailImg2.png',
-      '/media/products/wallet/544/detailImg3.png'
+      '/media/products/wallet/544/detailImg.webp',
+      '/media/products/wallet/544/detailImg2.webp',
+      '/media/products/wallet/544/detailImg3.webp'
     ],
     detailText: [
       {
@@ -9237,7 +9237,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9251,9 +9251,9 @@ export const PRODUCTS = {
       '/media/products/wallet/545/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/wallet/545/detailImg.png',
-      '/media/products/wallet/545/detailImg2.png',
-      '/media/products/wallet/545/detailImg3.png'
+      '/media/products/wallet/545/detailImg.webp',
+      '/media/products/wallet/545/detailImg2.webp',
+      '/media/products/wallet/545/detailImg3.webp'
     ],
     detailText: [
       {
@@ -9294,7 +9294,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9308,9 +9308,9 @@ export const PRODUCTS = {
       '/media/products/wallet/546/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/545/detailImg.png',
-//      '/media/products/wallet/545/detailImg2.png',
-//      '/media/products/wallet/545/detailImg3.png'
+//      '/media/products/wallet/545/detailImg.webp',
+//      '/media/products/wallet/545/detailImg2.webp',
+//      '/media/products/wallet/545/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -9351,7 +9351,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9365,9 +9365,9 @@ export const PRODUCTS = {
       '/media/products/wallet/547/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/545/detailImg.png',
-//      '/media/products/wallet/545/detailImg2.png',
-//      '/media/products/wallet/545/detailImg3.png'
+//      '/media/products/wallet/545/detailImg.webp',
+//      '/media/products/wallet/545/detailImg2.webp',
+//      '/media/products/wallet/545/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -9408,7 +9408,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9422,9 +9422,9 @@ export const PRODUCTS = {
       '/media/products/wallet/548/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/545/detailImg.png',
-//      '/media/products/wallet/545/detailImg2.png',
-//      '/media/products/wallet/545/detailImg3.png'
+//      '/media/products/wallet/545/detailImg.webp',
+//      '/media/products/wallet/545/detailImg2.webp',
+//      '/media/products/wallet/545/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -9465,7 +9465,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "카드/명합지갑", img: "cardwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9479,9 +9479,9 @@ export const PRODUCTS = {
       '/media/products/wallet/549/mainImg2.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/545/detailImg.png',
-//      '/media/products/wallet/545/detailImg2.png',
-//      '/media/products/wallet/545/detailImg3.png'
+//      '/media/products/wallet/545/detailImg.webp',
+//      '/media/products/wallet/545/detailImg2.webp',
+//      '/media/products/wallet/545/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -9522,7 +9522,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9537,9 +9537,9 @@ export const PRODUCTS = {
       '/media/products/wallet/550/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/550/detailImg.png',
-      '/media/products/wallet/550/detailImg2.png',
-      '/media/products/wallet/550/detailImg3.png'
+      '/media/products/wallet/550/detailImg.webp',
+      '/media/products/wallet/550/detailImg2.webp',
+      '/media/products/wallet/550/detailImg3.webp'
     ],
     detailText: [
       {
@@ -9580,7 +9580,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9595,9 +9595,9 @@ export const PRODUCTS = {
       '/media/products/wallet/551/mainImg3.webp',
     ],
 //    detailImg: [
-//      '/media/products/wallet/551/detailImg.png',
-//      '/media/products/wallet/551/detailImg2.png',
-//      '/media/products/wallet/551/detailImg3.png'
+//      '/media/products/wallet/551/detailImg.webp',
+//      '/media/products/wallet/551/detailImg2.webp',
+//      '/media/products/wallet/551/detailImg3.webp'
 //    ],
     detailText: [
       {
@@ -9638,7 +9638,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9653,9 +9653,9 @@ export const PRODUCTS = {
       '/media/products/wallet/552/mainImg3.webp',
     ],
     detailImg: [
-      '/media/products/wallet/552/detailImg.png',
-      '/media/products/wallet/552/detailImg2.png',
-      '/media/products/wallet/552/detailImg3.png'
+      '/media/products/wallet/552/detailImg.webp',
+      '/media/products/wallet/552/detailImg2.webp',
+      '/media/products/wallet/552/detailImg3.webp'
     ],
     detailText: [
       {
@@ -9696,7 +9696,7 @@ export const PRODUCTS = {
     subCategory: {id:3, title: "반지갑", img: "shortwallet"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.png',
+//      img: '/media/productDetail/bottom_size.webp',
 //      size: [
 //        { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
 //        { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -9709,9 +9709,9 @@ export const PRODUCTS = {
       '/media/products/wallet/553/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/wallet/553/detailImg.png',
-      '/media/products/wallet/553/detailImg2.png',
-      '/media/products/wallet/553/detailImg3.png'
+      '/media/products/wallet/553/detailImg.webp',
+      '/media/products/wallet/553/detailImg2.webp',
+      '/media/products/wallet/553/detailImg3.webp'
     ],
     detailText: [
       {

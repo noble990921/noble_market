@@ -13,9 +13,9 @@ export const PRODUCTS = {
       '/media/products/watch/554/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/watch/554/detailImg.png',
-      '/media/products/watch/554/detailImg2.png',
-      '/media/products/watch/554/detailImg3.png'
+      '/media/products/watch/554/detailImg.webp',
+      '/media/products/watch/554/detailImg2.webp',
+      '/media/products/watch/554/detailImg3.webp'
     ],
     detailText: [
       {
@@ -58,9 +58,9 @@ export const PRODUCTS = {
       '/media/products/watch/555/mainImg2.webp',
     ],
     detailImg: [
-      '/media/products/watch/555/detailImg.png',
-      '/media/products/watch/555/detailImg2.png',
-      '/media/products/watch/555/detailImg3.png'
+      '/media/products/watch/555/detailImg.webp',
+      '/media/products/watch/555/detailImg2.webp',
+      '/media/products/watch/555/detailImg3.webp'
     ],
     detailText: [
       {
@@ -102,9 +102,9 @@ export const PRODUCTS = {
       '/media/products/watch/556/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/556/detailImg.png',
-      '/media/products/watch/556/detailImg2.png',
-      '/media/products/watch/556/detailImg3.png'
+      '/media/products/watch/556/detailImg.webp',
+      '/media/products/watch/556/detailImg2.webp',
+      '/media/products/watch/556/detailImg3.webp'
     ],
     detailText: [
       {
@@ -146,9 +146,9 @@ export const PRODUCTS = {
       '/media/products/watch/557/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/557/detailImg.png',
-      '/media/products/watch/557/detailImg2.png',
-      '/media/products/watch/557/detailImg3.png'
+      '/media/products/watch/557/detailImg.webp',
+      '/media/products/watch/557/detailImg2.webp',
+      '/media/products/watch/557/detailImg3.webp'
     ],
     detailText: [
       {
@@ -190,9 +190,9 @@ export const PRODUCTS = {
       '/media/products/watch/558/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/558/detailImg.png',
-      '/media/products/watch/558/detailImg2.png',
-      '/media/products/watch/558/detailImg3.png'
+      '/media/products/watch/558/detailImg.webp',
+      '/media/products/watch/558/detailImg2.webp',
+      '/media/products/watch/558/detailImg3.webp'
     ],
     detailText: [
       {
@@ -234,9 +234,9 @@ export const PRODUCTS = {
       '/media/products/watch/559/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/559/detailImg.png',
-      '/media/products/watch/559/detailImg2.png',
-      '/media/products/watch/559/detailImg3.png'
+      '/media/products/watch/559/detailImg.webp',
+      '/media/products/watch/559/detailImg2.webp',
+      '/media/products/watch/559/detailImg3.webp'
     ],
     detailText: [
       {
@@ -278,9 +278,9 @@ export const PRODUCTS = {
       '/media/products/watch/560/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/560/detailImg.png',
-      '/media/products/watch/560/detailImg2.png',
-      '/media/products/watch/560/detailImg3.png'
+      '/media/products/watch/560/detailImg.webp',
+      '/media/products/watch/560/detailImg2.webp',
+      '/media/products/watch/560/detailImg3.webp'
     ],
     detailText: [
       {
@@ -322,9 +322,9 @@ export const PRODUCTS = {
       '/media/products/watch/561/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/561/detailImg.png',
-      '/media/products/watch/561/detailImg2.png',
-      '/media/products/watch/561/detailImg3.png'
+      '/media/products/watch/561/detailImg.webp',
+      '/media/products/watch/561/detailImg2.webp',
+      '/media/products/watch/561/detailImg3.webp'
     ],
     detailText: [
       {
@@ -367,9 +367,9 @@ export const PRODUCTS = {
       '/media/products/watch/562/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/562/detailImg.png',
-      '/media/products/watch/562/detailImg2.png',
-      '/media/products/watch/562/detailImg3.png'
+      '/media/products/watch/562/detailImg.webp',
+      '/media/products/watch/562/detailImg2.webp',
+      '/media/products/watch/562/detailImg3.webp'
     ],
     detailText: [
       {
@@ -411,9 +411,9 @@ export const PRODUCTS = {
       '/media/products/watch/563/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/563/detailImg.png',
-      '/media/products/watch/563/detailImg2.png',
-      '/media/products/watch/563/detailImg3.png'
+      '/media/products/watch/563/detailImg.webp',
+      '/media/products/watch/563/detailImg2.webp',
+      '/media/products/watch/563/detailImg3.webp'
     ],
     detailText: [
       {
@@ -455,9 +455,9 @@ export const PRODUCTS = {
       '/media/products/watch/564/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/564/detailImg.png',
-      '/media/products/watch/564/detailImg2.png',
-      '/media/products/watch/564/detailImg3.png'
+      '/media/products/watch/564/detailImg.webp',
+      '/media/products/watch/564/detailImg2.webp',
+      '/media/products/watch/564/detailImg3.webp'
     ],
     detailText: [
       {
@@ -499,9 +499,9 @@ export const PRODUCTS = {
       '/media/products/watch/565/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/565/detailImg.png',
-      '/media/products/watch/565/detailImg2.png',
-      '/media/products/watch/565/detailImg3.png'
+      '/media/products/watch/565/detailImg.webp',
+      '/media/products/watch/565/detailImg2.webp',
+      '/media/products/watch/565/detailImg3.webp'
     ],
     detailText: [
       {
@@ -543,9 +543,9 @@ export const PRODUCTS = {
       '/media/products/watch/566/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/566/detailImg.png',
-      '/media/products/watch/566/detailImg2.png',
-      '/media/products/watch/566/detailImg3.png'
+      '/media/products/watch/566/detailImg.webp',
+      '/media/products/watch/566/detailImg2.webp',
+      '/media/products/watch/566/detailImg3.webp'
     ],
     detailText: [
       {
@@ -587,9 +587,9 @@ export const PRODUCTS = {
       '/media/products/watch/567/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/567/detailImg.png',
-      '/media/products/watch/567/detailImg2.png',
-      '/media/products/watch/567/detailImg3.png'
+      '/media/products/watch/567/detailImg.webp',
+      '/media/products/watch/567/detailImg2.webp',
+      '/media/products/watch/567/detailImg3.webp'
     ],
     detailText: [
       {
@@ -631,9 +631,9 @@ export const PRODUCTS = {
       '/media/products/watch/568/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/568/detailImg.png',
-      '/media/products/watch/568/detailImg2.png',
-      '/media/products/watch/568/detailImg3.png'
+      '/media/products/watch/568/detailImg.webp',
+      '/media/products/watch/568/detailImg2.webp',
+      '/media/products/watch/568/detailImg3.webp'
     ],
     detailText: [
       {
@@ -675,9 +675,9 @@ export const PRODUCTS = {
       '/media/products/watch/569/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/569/detailImg.png',
-      '/media/products/watch/569/detailImg2.png',
-      '/media/products/watch/569/detailImg3.png'
+      '/media/products/watch/569/detailImg.webp',
+      '/media/products/watch/569/detailImg2.webp',
+      '/media/products/watch/569/detailImg3.webp'
     ],
     detailText: [
       {
@@ -719,9 +719,9 @@ export const PRODUCTS = {
       '/media/products/watch/570/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/570/detailImg.png',
-      '/media/products/watch/570/detailImg2.png',
-      '/media/products/watch/570/detailImg3.png'
+      '/media/products/watch/570/detailImg.webp',
+      '/media/products/watch/570/detailImg2.webp',
+      '/media/products/watch/570/detailImg3.webp'
     ],
     detailText: [
       {
@@ -763,9 +763,9 @@ export const PRODUCTS = {
       '/media/products/watch/571/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/571/detailImg.png',
-      '/media/products/watch/571/detailImg2.png',
-      '/media/products/watch/571/detailImg3.png'
+      '/media/products/watch/571/detailImg.webp',
+      '/media/products/watch/571/detailImg2.webp',
+      '/media/products/watch/571/detailImg3.webp'
     ],
     detailText: [
       {
@@ -807,9 +807,9 @@ export const PRODUCTS = {
       '/media/products/watch/572/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/572/detailImg.png',
-      '/media/products/watch/572/detailImg2.png',
-      '/media/products/watch/572/detailImg3.png'
+      '/media/products/watch/572/detailImg.webp',
+      '/media/products/watch/572/detailImg2.webp',
+      '/media/products/watch/572/detailImg3.webp'
     ],
     detailText: [
       {
@@ -851,9 +851,9 @@ export const PRODUCTS = {
       '/media/products/watch/573/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/573/detailImg.png',
-      '/media/products/watch/573/detailImg2.png',
-      '/media/products/watch/573/detailImg3.png'
+      '/media/products/watch/573/detailImg.webp',
+      '/media/products/watch/573/detailImg2.webp',
+      '/media/products/watch/573/detailImg3.webp'
     ],
     detailText: [
       {
@@ -895,9 +895,9 @@ export const PRODUCTS = {
       '/media/products/watch/574/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/574/detailImg.png',
-      '/media/products/watch/574/detailImg2.png',
-      '/media/products/watch/574/detailImg3.png'
+      '/media/products/watch/574/detailImg.webp',
+      '/media/products/watch/574/detailImg2.webp',
+      '/media/products/watch/574/detailImg3.webp'
     ],
     detailText: [
       {
@@ -939,9 +939,9 @@ export const PRODUCTS = {
       '/media/products/watch/575/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/575/detailImg.png',
-      '/media/products/watch/575/detailImg2.png',
-      '/media/products/watch/575/detailImg3.png'
+      '/media/products/watch/575/detailImg.webp',
+      '/media/products/watch/575/detailImg2.webp',
+      '/media/products/watch/575/detailImg3.webp'
     ],
     detailText: [
       {
@@ -983,9 +983,9 @@ export const PRODUCTS = {
       '/media/products/watch/576/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/576/detailImg.png',
-      '/media/products/watch/576/detailImg2.png',
-      '/media/products/watch/576/detailImg3.png'
+      '/media/products/watch/576/detailImg.webp',
+      '/media/products/watch/576/detailImg2.webp',
+      '/media/products/watch/576/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1027,9 +1027,9 @@ export const PRODUCTS = {
       '/media/products/watch/577/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/577/detailImg.png',
-      '/media/products/watch/577/detailImg2.png',
-      '/media/products/watch/577/detailImg3.png'
+      '/media/products/watch/577/detailImg.webp',
+      '/media/products/watch/577/detailImg2.webp',
+      '/media/products/watch/577/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1071,9 +1071,9 @@ export const PRODUCTS = {
       '/media/products/watch/578/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/578/detailImg.png',
-      '/media/products/watch/578/detailImg2.png',
-      '/media/products/watch/578/detailImg3.png'
+      '/media/products/watch/578/detailImg.webp',
+      '/media/products/watch/578/detailImg2.webp',
+      '/media/products/watch/578/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1115,9 +1115,9 @@ export const PRODUCTS = {
       '/media/products/watch/579/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/579/detailImg.png',
-      '/media/products/watch/579/detailImg2.png',
-      '/media/products/watch/579/detailImg3.png'
+      '/media/products/watch/579/detailImg.webp',
+      '/media/products/watch/579/detailImg2.webp',
+      '/media/products/watch/579/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1159,9 +1159,9 @@ export const PRODUCTS = {
       '/media/products/watch/580/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/580/detailImg.png',
-      '/media/products/watch/580/detailImg2.png',
-      '/media/products/watch/580/detailImg3.png'
+      '/media/products/watch/580/detailImg.webp',
+      '/media/products/watch/580/detailImg2.webp',
+      '/media/products/watch/580/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1203,9 +1203,9 @@ export const PRODUCTS = {
       '/media/products/watch/581/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/581/detailImg.png',
-      '/media/products/watch/581/detailImg2.png',
-      '/media/products/watch/581/detailImg3.png'
+      '/media/products/watch/581/detailImg.webp',
+      '/media/products/watch/581/detailImg2.webp',
+      '/media/products/watch/581/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1247,9 +1247,9 @@ export const PRODUCTS = {
       '/media/products/watch/582/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/582/detailImg.png',
-      '/media/products/watch/582/detailImg2.png',
-      '/media/products/watch/582/detailImg3.png'
+      '/media/products/watch/582/detailImg.webp',
+      '/media/products/watch/582/detailImg2.webp',
+      '/media/products/watch/582/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1291,9 +1291,9 @@ export const PRODUCTS = {
       '/media/products/watch/583/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/583/detailImg.png',
-      '/media/products/watch/583/detailImg2.png',
-      '/media/products/watch/583/detailImg3.png'
+      '/media/products/watch/583/detailImg.webp',
+      '/media/products/watch/583/detailImg2.webp',
+      '/media/products/watch/583/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1335,9 +1335,9 @@ export const PRODUCTS = {
       '/media/products/watch/584/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/584/detailImg.png',
-      '/media/products/watch/584/detailImg2.png',
-      '/media/products/watch/584/detailImg3.png'
+      '/media/products/watch/584/detailImg.webp',
+      '/media/products/watch/584/detailImg2.webp',
+      '/media/products/watch/584/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1379,9 +1379,9 @@ export const PRODUCTS = {
       '/media/products/watch/585/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/585/detailImg.png',
-      '/media/products/watch/585/detailImg2.png',
-      '/media/products/watch/585/detailImg3.png'
+      '/media/products/watch/585/detailImg.webp',
+      '/media/products/watch/585/detailImg2.webp',
+      '/media/products/watch/585/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1423,9 +1423,9 @@ export const PRODUCTS = {
       '/media/products/watch/586/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/586/detailImg.png',
-      '/media/products/watch/586/detailImg2.png',
-      '/media/products/watch/586/detailImg3.png'
+      '/media/products/watch/586/detailImg.webp',
+      '/media/products/watch/586/detailImg2.webp',
+      '/media/products/watch/586/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1467,9 +1467,9 @@ export const PRODUCTS = {
       '/media/products/watch/587/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/587/detailImg.png',
-      '/media/products/watch/587/detailImg2.png',
-      '/media/products/watch/587/detailImg3.png'
+      '/media/products/watch/587/detailImg.webp',
+      '/media/products/watch/587/detailImg2.webp',
+      '/media/products/watch/587/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1511,9 +1511,9 @@ export const PRODUCTS = {
       '/media/products/watch/588/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/588/detailImg.png',
-      '/media/products/watch/588/detailImg2.png',
-      '/media/products/watch/588/detailImg3.png'
+      '/media/products/watch/588/detailImg.webp',
+      '/media/products/watch/588/detailImg2.webp',
+      '/media/products/watch/588/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1555,9 +1555,9 @@ export const PRODUCTS = {
       '/media/products/watch/589/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/589/detailImg.png',
-      '/media/products/watch/589/detailImg2.png',
-      '/media/products/watch/589/detailImg3.png'
+      '/media/products/watch/589/detailImg.webp',
+      '/media/products/watch/589/detailImg2.webp',
+      '/media/products/watch/589/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1599,9 +1599,9 @@ export const PRODUCTS = {
       '/media/products/watch/590/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/590/detailImg.png',
-      '/media/products/watch/590/detailImg2.png',
-      '/media/products/watch/590/detailImg3.png'
+      '/media/products/watch/590/detailImg.webp',
+      '/media/products/watch/590/detailImg2.webp',
+      '/media/products/watch/590/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1643,9 +1643,9 @@ export const PRODUCTS = {
       '/media/products/watch/591/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/591/detailImg.png',
-      '/media/products/watch/591/detailImg2.png',
-      '/media/products/watch/591/detailImg3.png'
+      '/media/products/watch/591/detailImg.webp',
+      '/media/products/watch/591/detailImg2.webp',
+      '/media/products/watch/591/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1687,9 +1687,9 @@ export const PRODUCTS = {
       '/media/products/watch/592/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/592/detailImg.png',
-      '/media/products/watch/592/detailImg2.png',
-      '/media/products/watch/592/detailImg3.png'
+      '/media/products/watch/592/detailImg.webp',
+      '/media/products/watch/592/detailImg2.webp',
+      '/media/products/watch/592/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1731,9 +1731,9 @@ export const PRODUCTS = {
       '/media/products/watch/593/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/593/detailImg.png',
-      '/media/products/watch/593/detailImg2.png',
-      '/media/products/watch/593/detailImg3.png'
+      '/media/products/watch/593/detailImg.webp',
+      '/media/products/watch/593/detailImg2.webp',
+      '/media/products/watch/593/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1775,9 +1775,9 @@ export const PRODUCTS = {
       '/media/products/watch/594/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/594/detailImg.png',
-      '/media/products/watch/594/detailImg2.png',
-      '/media/products/watch/594/detailImg3.png'
+      '/media/products/watch/594/detailImg.webp',
+      '/media/products/watch/594/detailImg2.webp',
+      '/media/products/watch/594/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1819,9 +1819,9 @@ export const PRODUCTS = {
       '/media/products/watch/595/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/595/detailImg.png',
-      '/media/products/watch/595/detailImg2.png',
-      '/media/products/watch/595/detailImg3.png'
+      '/media/products/watch/595/detailImg.webp',
+      '/media/products/watch/595/detailImg2.webp',
+      '/media/products/watch/595/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1863,9 +1863,9 @@ export const PRODUCTS = {
       '/media/products/watch/596/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/596/detailImg.png',
-      '/media/products/watch/596/detailImg2.png',
-      '/media/products/watch/596/detailImg3.png'
+      '/media/products/watch/596/detailImg.webp',
+      '/media/products/watch/596/detailImg2.webp',
+      '/media/products/watch/596/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1907,9 +1907,9 @@ export const PRODUCTS = {
       '/media/products/watch/597/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/597/detailImg.png',
-      '/media/products/watch/597/detailImg2.png',
-      '/media/products/watch/597/detailImg3.png'
+      '/media/products/watch/597/detailImg.webp',
+      '/media/products/watch/597/detailImg2.webp',
+      '/media/products/watch/597/detailImg3.webp'
     ],
     detailText: [
       {
@@ -1951,9 +1951,9 @@ export const PRODUCTS = {
       '/media/products/watch/598/mainImg.webp',
     ],
     detailImg: [
-      '/media/products/watch/598/detailImg.png',
-      '/media/products/watch/598/detailImg2.png',
-      '/media/products/watch/598/detailImg3.png'
+      '/media/products/watch/598/detailImg.webp',
+      '/media/products/watch/598/detailImg2.webp',
+      '/media/products/watch/598/detailImg3.webp'
     ],
     detailText: [
       {
