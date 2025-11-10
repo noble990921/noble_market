@@ -6,7 +6,7 @@
         <p class="sub_text">인기 신발 <span @click="$router.push('/product/SHOES')">더보기</span></p>
         <div class="item_box">
           <div class="item" @click="$router.push('/SHOES/detail/241')">
-            <img src="/media/products/shoes/241/mainImg.png">
+            <img src="/media/products/shoes/241/mainImg.webp">
             <div class="info_box">
               <p class="brand_name">Hermes</p>
               <p class="name">(W) 에르메스 오란 샌들 카프스킨 & 골드 피케르 에크루즈</p>
@@ -30,7 +30,7 @@
             </div>
           </div>
           <div class="item" @click="$router.push('/SHOES/detail/224')">
-            <img src="/media/products/shoes/224/mainImg.png">
+            <img src="/media/products/shoes/224/mainImg.webp">
             <div class="info_box">
               <p class="brand_name">Hermes</p>
               <p class="name">에르메스 바운싱 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑</p>

@@ -845,7 +845,7 @@ export const PRODUCTS = {
       ]
     },
     mainImg: [
-      '/media/products/bag/6/mainImg1.png?v=1',
+      '/media/products/bag/6/mainImg1.webp?v=1',
       '/media/products/bag/6/mainImg2.webp',
       '/media/products/bag/6/mainImg3.webp',
       '/media/products/bag/6/mainImg4.webp',

@@ -16,7 +16,7 @@
 <!--        </div>-->
         <div class="item_box">
           <div class="item" @click="$router.push('/TOP/detail/103')">
-            <img src="/media/products/top/103/mainImg.png">
+            <img src="/media/products/top/103/mainImg.webp">
             <div class="info_box">
               <p class="brand_name">Wooyoungmi</p>
               <p class="name">우영미 3D 플라워 백로고 티셔츠 블랙</p>
@@ -24,7 +24,7 @@
             </div>
           </div>
           <div class="item" @click="$router.push('/TOP/detail/137')">
-            <img src="/media/products/top/137/mainImg.png">
+            <img src="/media/products/top/137/mainImg.webp">
             <div class="info_box">
               <p class="brand_name">Wooyoungmi</p>
               <p class="name">우영미 코튼 백로고 티셔츠 블랙</p>
@@ -32,7 +32,7 @@
             </div>
           </div>
           <div class="item" @click="$router.push('/TOP/detail/147')">
-            <img src="/media/products/top/147/mainImg.png">
+            <img src="/media/products/top/147/mainImg.webp">
             <div class="info_box">
               <p class="brand_name">Moncler</p>
               <p class="name">몽클레르 트라이컬러 트림 코튼 티셔츠 오프 화이트</p>
@@ -40,7 +40,7 @@
             </div>
           </div>
           <div class="item" @click="$router.push('/TOP/detail/162')">
-            <img src="/media/products/top/162/mainImg.png">
+            <img src="/media/products/top/162/mainImg.webp">
             <div class="info_box">
               <p class="brand_name">Dior</p>
               <p class="name">디올 자카드 오블리크 폴로 셔츠 화이트 블루 브라운</p>
@@ -48,7 +48,7 @@
             </div>
           </div>
           <div class="item" @click="$router.push('/OUTER/detail/53')">
-            <img src="/media/products/outer/53/mainImg.png">
+            <img src="/media/products/outer/53/mainImg.webp">
             <div class="info_box">
               <p class="brand_name">Thom Browne</p>
               <p class="name">(W) 톰브라운 파인 메리노 울 밀라노 스티치 사선 클래식 브이넥 가디건 네이비</p>

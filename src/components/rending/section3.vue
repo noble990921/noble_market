@@ -37,7 +37,7 @@
     },
     {
       id:'3',
-      img: require('../../assets/images/home/section2/3.png'),
+      img: require('../../assets/images/home/section2/3.webp'),
       title:'오데마피게',
       text:'오데마피게 로얄오크 15400ST 스틸 검판',
       price:'123,123'
