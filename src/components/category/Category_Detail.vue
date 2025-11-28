@@ -354,6 +354,11 @@
         }
       },
       contact() {
+        if (!this.isLogin) {
+          this.$alert("로그인이 필요한 기능입니다.");
+          return;
+        }
+
         if(this.partnerInfo && this.partnerInfo.kakaoUrl){
           window.open(this.partnerInfo.kakaoUrl, "_blank");
         }else if(this.partnerInfo && this.partnerInfo.teleUrl){

@@ -11,7 +11,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
         { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -67,7 +67,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
         { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -123,7 +123,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
         { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -179,7 +179,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: 'S (1)', totalLength: 38, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
         { unit: 'M (2)', totalLength: 39, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -235,7 +235,7 @@ export const PRODUCTS = {
     subCategory: {id:6, title: "원피스/스커트", img: "dressskirt"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: '34 (XS)', totalLength: 38, waistSection: 31, crossSection: 43, bottomSection: 46, rise: 25 },
         { unit: '36 (S)', totalLength: 39, waistSection: 33, crossSection: 45, bottomSection: 48, rise: 26 },
@@ -294,7 +294,7 @@ export const PRODUCTS = {
     subCategory: {id:6, title: "원피스/스커트", img: "dressskirt"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: '34 (XS)', totalLength: 38, waistSection: 31, crossSection: 43, bottomSection: 46, rise: 25 },
         { unit: '36 (S)', totalLength: 39, waistSection: 33, crossSection: 45, bottomSection: 48, rise: 26 },
@@ -353,7 +353,7 @@ export const PRODUCTS = {
     subCategory: {id:6, title: "원피스/스커트", img: "dressskirt"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: '34 (XS)', totalLength: 38, waistSection: 31, crossSection: 43, bottomSection: 46, rise: 25 },
         { unit: '36 (S)', totalLength: 39, waistSection: 33, crossSection: 45, bottomSection: 48, rise: 26 },
@@ -413,7 +413,7 @@ export const PRODUCTS = {
     subCategory: {id:6, title: "원피스/스커트", img: "dressskirt"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: '34 (XS)', totalLength: 38, waistSection: 31, crossSection: 43, bottomSection: 46, rise: 25 },
         { unit: '36 (S)', totalLength: 39, waistSection: 33, crossSection: 45, bottomSection: 48, rise: 26 },
@@ -473,7 +473,7 @@ export const PRODUCTS = {
     subCategory: {id:6, title: "원피스/스커트", img: "dressskirt"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: '34 (XS)', totalLength: 38, waistSection: 31, crossSection: 43, bottomSection: 46, rise: 25 },
         { unit: '36 (S)', totalLength: 39, waistSection: 33, crossSection: 45, bottomSection: 48, rise: 26 },
@@ -534,7 +534,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "트레이닝/조거", img: "jogger"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: 'S (1)', totalLength: 105, waistSection: 36, crossSection: 30, bottomSection: 28, rise: 27 },
         { unit: 'M (2)', totalLength: 107, waistSection: 38, crossSection: 31, bottomSection: 29, rise: 28 },
@@ -591,7 +591,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: '00 (XXS)', totalLength: 44, waistSection: 33, crossSection: 29, bottomSection: 26, rise: 24 },
         { unit: '0 (XS)', totalLength: 45, waistSection: 35, crossSection: 30, bottomSection: 27, rise: 25 },
@@ -650,7 +650,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { unit: '00 (XXS)', totalLength: 44, waistSection: 33, crossSection: 29, bottomSection: 26, rise: 24 },
         { unit: '0 (XS)', totalLength: 45, waistSection: 35, crossSection: 30, bottomSection: 27, rise: 25 },
@@ -709,7 +709,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "S (1)", "totalLength": 38, "waistSection": 36, "crossSection": 30, "bottomSection": 28, "rise": 27 },
         { "unit": "M (2)", "totalLength": 39, "waistSection": 38, "crossSection": 31, "bottomSection": 29, "rise": 28 },
@@ -765,7 +765,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "트레이닝/조거", img: "jogger"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 100, "waistSection": 32, "crossSection": 28, "bottomSection": 24, "rise": 26 },
         { "unit": "0 (XS)", "totalLength": 102, "waistSection": 34, "crossSection": 29, "bottomSection": 25, "rise": 27 },
@@ -824,7 +824,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "트레이닝/조거", img: "jogger"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 100, "waistSection": 32, "crossSection": 28, "bottomSection": 24, "rise": 26 },
         { "unit": "0 (XS)", "totalLength": 102, "waistSection": 34, "crossSection": 29, "bottomSection": 25, "rise": 27 },
@@ -883,7 +883,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "트레이닝/조거", img: "jogger"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 100, "waistSection": 32, "crossSection": 28, "bottomSection": 24, "rise": 26 },
         { "unit": "0 (XS)", "totalLength": 102, "waistSection": 34, "crossSection": 29, "bottomSection": 25, "rise": 27 },
@@ -942,7 +942,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "트레이닝/조거", img: "jogger"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "S", "totalLength": 79, "waistSection": 33, "crossSection": 30, "bottomSection": 24, "rise": 32 },
         { "unit": "M", "totalLength": 80, "waistSection": 34, "crossSection": 31, "bottomSection": 25, "rise": 33 },
@@ -998,7 +998,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "S", "totalLength": 38, "waistSection": 36, "crossSection": 30, "bottomSection": 28, "rise": 27 },
         { "unit": "M", "totalLength": 39, "waistSection": 38, "crossSection": 31, "bottomSection": 29, "rise": 28 },
@@ -1054,7 +1054,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "S", "totalLength": 38, "waistSection": 36, "crossSection": 30, "bottomSection": 28, "rise": 27 },
         { "unit": "M", "totalLength": 39, "waistSection": 38, "crossSection": 31, "bottomSection": 29, "rise": 28 },
@@ -1110,7 +1110,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "S", "totalLength": 45, "waistSection": 33, "crossSection": 30, "bottomSection": 28, "rise": 27 },
         { "unit": "M", "totalLength": 46, "waistSection": 35, "crossSection": 31, "bottomSection": 29, "rise": 28 },
@@ -1167,7 +1167,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 44, "waistSection": 33, "crossSection": 29, "bottomSection": 26, "rise": 24 },
         { "unit": "0 (XS)", "totalLength": 45, "waistSection": 35, "crossSection": 30, "bottomSection": 27, "rise": 25 },
@@ -1226,7 +1226,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 44, "waistSection": 33, "crossSection": 29, "bottomSection": 26, "rise": 24 },
         { "unit": "0 (XS)", "totalLength": 45, "waistSection": 35, "crossSection": 30, "bottomSection": 27, "rise": 25 },
@@ -1284,7 +1284,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 44, "waistSection": 33, "crossSection": 29, "bottomSection": 26, "rise": 24 },
         { "unit": "0 (XS)", "totalLength": 45, "waistSection": 35, "crossSection": 30, "bottomSection": 27, "rise": 25 },
@@ -1343,7 +1343,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "44 (XS)", "totalLength": 52, "waistSection": 36, "crossSection": 30, "bottomSection": 28, "rise": 27 },
         { "unit": "46 (S)", "totalLength": 53, "waistSection": 38, "crossSection": 31, "bottomSection": 29, "rise": 28 },
@@ -1401,7 +1401,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "44 (XS)", "totalLength": 52, "waistSection": 36, "crossSection": 30, "bottomSection": 28, "rise": 27 },
         { "unit": "46 (S)", "totalLength": 53, "waistSection": 38, "crossSection": 31, "bottomSection": 29, "rise": 28 },
@@ -1458,7 +1458,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "데님", img: "denim"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "XS", "totalLength": 102, "waistSection": 36, "crossSection": 32, "bottomSection": 24, "rise": 30 },
         { "unit": "S", "totalLength": 104, "waistSection": 38, "crossSection": 33, "bottomSection": 25, "rise": 31 },
@@ -1515,7 +1515,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "데님", img: "denim"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "XS", "totalLength": 102, "waistSection": 36, "crossSection": 32, "bottomSection": 24, "rise": 30 },
         { "unit": "S", "totalLength": 104, "waistSection": 38, "crossSection": 33, "bottomSection": 25, "rise": 31 },
@@ -1572,7 +1572,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "S", "totalLength": 45, "waistSection": 33, "crossSection": 30, "bottomSection": 28, "rise": 27 },
         { "unit": "M", "totalLength": 46, "waistSection": 35, "crossSection": 31, "bottomSection": 29, "rise": 28 },
@@ -1629,7 +1629,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "슬랙스", img: "slacks"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 100, "waistSection": 34, "crossSection": 30, "bottomSection": 22, "rise": 28 },
         { "unit": "0 (XS)", "totalLength": 102, "waistSection": 36, "crossSection": 31, "bottomSection": 23, "rise": 29 },
@@ -1688,7 +1688,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "슬랙스", img: "slacks"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 100, "waistSection": 34, "crossSection": 30, "bottomSection": 22, "rise": 28 },
         { "unit": "0 (XS)", "totalLength": 102, "waistSection": 36, "crossSection": 31, "bottomSection": 23, "rise": 29 },
@@ -1747,7 +1747,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "슬랙스", img: "slacks"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 100, "waistSection": 34, "crossSection": 30, "bottomSection": 22, "rise": 28 },
         { "unit": "0 (XS)", "totalLength": 102, "waistSection": 36, "crossSection": 31, "bottomSection": 23, "rise": 29 },
@@ -1806,7 +1806,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 38, "waistSection": 33, "crossSection": 30, "bottomSection": 28, "rise": 27 },
         { "unit": "0 (XS)", "totalLength": 39, "waistSection": 35, "crossSection": 31, "bottomSection": 29, "rise": 28 },
@@ -1865,7 +1865,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 38, "waistSection": 33, "crossSection": 30, "bottomSection": 28, "rise": 27 },
         { "unit": "0 (XS)", "totalLength": 39, "waistSection": 35, "crossSection": 31, "bottomSection": 29, "rise": 28 },
@@ -1924,7 +1924,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "00 (XXS)", "totalLength": 38, "waistSection": 33, "crossSection": 30, "bottomSection": 28, "rise": 27 },
         { "unit": "0 (XS)", "totalLength": 39, "waistSection": 35, "crossSection": 31, "bottomSection": 29, "rise": 28 },
@@ -1983,7 +1983,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "트레이닝/조거", img: "jogger"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "S", "totalLength": 100, "waistSection": 34, "crossSection": 30, "bottomSection": 22, "rise": 28 },
         { "unit": "M", "totalLength": 102, "waistSection": 36, "crossSection": 31, "bottomSection": 23, "rise": 29 },
@@ -2040,7 +2040,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "트레이닝/조거", img: "jogger"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "XS", "totalLength": 104, "waistSection": 36, "crossSection": 32, "bottomSection": 26, "rise": 30 },
         { "unit": "S", "totalLength": 106, "waistSection": 38, "crossSection": 33, "bottomSection": 27, "rise": 31 },
@@ -2097,7 +2097,7 @@ export const PRODUCTS = {
     subCategory: {id:2, title: "트레이닝/조거", img: "jogger"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "XS", "totalLength": 104, "waistSection": 36, "crossSection": 32, "bottomSection": 26, "rise": 30 },
         { "unit": "S", "totalLength": 106, "waistSection": 38, "crossSection": 33, "bottomSection": 27, "rise": 31 },
@@ -2154,7 +2154,7 @@ export const PRODUCTS = {
     subCategory:  {id:6, title: "원피스/스커트", img: "dressskirt"},
     sizeData: {
       type: 'skirt',
-      img: '/media/productDetail/skirt_size.webp',
+      img: '/media/productDetail/skirt_size.png',
       size: [
         { "unit": "36", "totalLength": 80, "waistSection": 36, "hipSection": 55,},
       ]
@@ -2206,7 +2206,7 @@ export const PRODUCTS = {
     subCategory:  {id:6, title: "원피스/스커트", img: "dressskirt"},
 //    sizeData: {
 //      type: 'skirt',
-//      img: '/media/productDetail/skirt_size.webp',
+//      img: '/media/productDetail/skirt_size.png',
 //      size: [
 //        { "unit": "36", "totalLength": 80, "waistSection": 36, "hipSection": 55,},
 //      ]
@@ -2258,7 +2258,7 @@ export const PRODUCTS = {
     subCategory: {id:1, title: "데님", img: "denim"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.webp',
+//      img: '/media/productDetail/bottom_size.png',
 //      size: [
 //        { "unit": "", "totalLength": 100, "waistSection": 32, "crossSection": 30, "bottomSection": 28,  },
 //      ]
@@ -2310,7 +2310,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "슬랙스", img: "slacks"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.webp',
+//      img: '/media/productDetail/bottom_size.png',
 //      size: [
 //        { "unit": "", "totalLength": 105, "waistSection": 33, "crossSection": 27.5, "bottomSection": 20,  },
 //      ]
@@ -2362,7 +2362,7 @@ export const PRODUCTS = {
     subCategory: {id:4, title: "슬랙스", img: "slacks"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.webp',
+//      img: '/media/productDetail/bottom_size.png',
 //      size: [
 //        { "unit": "", "totalLength": 99, "waistSection": 33, "crossSection": 28, "bottomSection": 22,  },
 //      ]
@@ -2414,7 +2414,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.webp',
+//      img: '/media/productDetail/bottom_size.png',
 //      size: [
 //        { "unit": "", "totalLength": 99, "waistSection": 33, "crossSection": 28, "bottomSection": 22,  },
 //      ]
@@ -2467,7 +2467,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
 //    sizeData: {
 //      type: 'bottom',
-//      img: '/media/productDetail/bottom_size.webp',
+//      img: '/media/productDetail/bottom_size.png',
 //      size: [
 //        { "unit": "", "totalLength": 99, "waistSection": 33, "crossSection": 28, "bottomSection": 22,  },
 //      ]
@@ -2520,7 +2520,7 @@ export const PRODUCTS = {
     subCategory: {id:5, title: "숏 팬츠", img: "shortpants"},
     sizeData: {
       type: 'bottom',
-      img: '/media/productDetail/bottom_size.webp',
+      img: '/media/productDetail/bottom_size.png',
       size: [
         { "unit": "XS", "totalLength": 37, "waistSection": 35, "crossSection": 31, "bottomSection": 27, "rise": 27 },
         { "unit": "S", "totalLength": 38, "waistSection": 37, "crossSection": 32, "bottomSection": 28, "rise": 28 },
@@ -2578,7 +2578,7 @@ export const PRODUCTS = {
     subCategory:  {id:6, title: "원피스/스커트", img: "dressskirt"},
     sizeData: {
       type: 'skirt',
-      img: '/media/productDetail/skirt_size.webp',
+      img: '/media/productDetail/skirt_size.png',
       size: [
         { "unit": "34 (XS)", "totalLength": 38, "waistSection": 31, "hipSection": 43 },
         { "unit": "36 (S)",  "totalLength": 39, "waistSection": 33, "hipSection": 45 },
@@ -2635,7 +2635,7 @@ export const PRODUCTS = {
     subCategory:  {id:6, title: "원피스/스커트", img: "dressskirt"},
     sizeData: {
       type: 'skirt',
-      img: '/media/productDetail/skirt_size.webp',
+      img: '/media/productDetail/skirt_size.png',
       size: [
         { "unit": "34 (XS)", "totalLength": 38, "waistSection": 31, "hipSection": 43 },
         { "unit": "36 (S)",  "totalLength": 39, "waistSection": 33, "hipSection": 45 },
@@ -2692,7 +2692,7 @@ export const PRODUCTS = {
     subCategory:  {id:6, title: "원피스/스커트", img: "dressskirt"},
     sizeData: {
       type: 'skirt',
-      img: '/media/productDetail/skirt_size.webp',
+      img: '/media/productDetail/skirt_size.png',
       size: [
         { "unit": "38", "totalLength": 90, "waistSection": 36, "hipSection": 53 }
       ]

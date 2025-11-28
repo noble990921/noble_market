@@ -10,7 +10,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "바람막이", img: "windbreaker"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/51/mainImg.webp',
@@ -58,7 +58,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "가디건", img: "cardigan"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/52/mainImg.webp',
@@ -106,7 +106,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "가디건", img: "cardigan"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/53/mainImg.webp',
@@ -154,7 +154,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/54/mainImg.webp',
@@ -208,7 +208,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "가디건", img: "cardigan"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/55/mainImg.webp',
@@ -256,7 +256,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "가디건", img: "cardigan"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/56/mainImg.webp',
@@ -304,7 +304,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "가디건", img: "cardigan"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/57/mainImg.webp',
@@ -352,7 +352,7 @@ export const PRODUCTS = {
 //    subCategory: {id:3, title: "바람막이", img: "windbreaker"},
 //    sizeData: {
 //      type:'outer',
-//      img:'/media/productDetail/outer_size.webp',
+//      img:'/media/productDetail/outer_size.png',
 //    },
 //    mainImg:[
 //      '/media/products/outer/57/mainImg.webp',
@@ -374,7 +374,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/59/mainImg.webp',
@@ -423,7 +423,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "바람막이", img: "windbreaker"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/60/mainImg.webp',
@@ -472,7 +472,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/61/mainImg.webp',
@@ -521,7 +521,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/62/mainImg.webp',
@@ -570,7 +570,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/64/mainImg.webp',
@@ -615,7 +615,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/65/mainImg.webp',
@@ -659,7 +659,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/66/mainImg.webp',
@@ -708,7 +708,7 @@ export const PRODUCTS = {
 //    subCategory: {id:2, title: "재킷", img: "jacket"},
 //    sizeData: {
 //      type:'outer',
-//      img:'/media/productDetail/outer_size.webp',
+//      img:'/media/productDetail/outer_size.png',
 //    },
 //    mainImg:[
 //      '/media/products/outer/66/mainImg.webp',
@@ -731,7 +731,7 @@ export const PRODUCTS = {
     subCategory: {id: 8, title: "슈트/블레이저", img: "suit"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/68/mainImg.webp',
@@ -779,7 +779,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "후드집업", img: "hoodzipup"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/69/mainImg.webp',
@@ -827,7 +827,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "가디건", img: "cardigan"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/70/mainImg.webp',
@@ -875,7 +875,7 @@ export const PRODUCTS = {
 //    subCategory: {id:4, title: "가디건", img: "cardigan"},
 //    sizeData: {
 //      type:'outer',
-//      img:'/media/productDetail/outer_size.webp',
+//      img:'/media/productDetail/outer_size.png',
 //    },
 //    mainImg:[
 //      '/media/products/outer/70/mainImg.webp',
@@ -897,7 +897,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "가디건", img: "cardigan"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/73/mainImg.webp',
@@ -945,7 +945,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/74/mainImg.webp',
@@ -993,7 +993,7 @@ export const PRODUCTS = {
 //    subCategory: {id: 2, title: "재킷", img: "jacket"},
 //    sizeData: {
 //      type: 'outer',
-//      img: '/media/productDetail/outer_size.webp',
+//      img: '/media/productDetail/outer_size.png',
 //    },
 //    mainImg: [
 //      '/media/products/outer/75/mainImg.webp',
@@ -1041,7 +1041,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/76/mainImg.webp',
@@ -1089,7 +1089,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "가디건", img: "cardigan"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/77/mainImg.webp',
@@ -1138,7 +1138,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/78/mainImg.webp',
@@ -1187,7 +1187,7 @@ export const PRODUCTS = {
 //    subCategory: {id:2, title: "재킷", img: "jacket"},
 //    sizeData: {
 //      type:'outer',
-//      img:'/media/productDetail/outer_size.webp',
+//      img:'/media/productDetail/outer_size.png',
 //    },
 //    mainImg:[
 //      '/media/products/outer/77/mainImg.webp',
@@ -1210,7 +1210,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/80/mainImg.webp',
@@ -1258,7 +1258,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/81/mainImg.webp',
@@ -1306,7 +1306,7 @@ export const PRODUCTS = {
     subCategory: {id: 8, title: "슈트/블레이저", img: "suit"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/82/mainImg.webp',
@@ -1354,7 +1354,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "가디건", img: "cardigan"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/83/mainImg.webp',
@@ -1407,7 +1407,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "패딩", img: "padding"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/84/mainImg.webp',
@@ -1458,7 +1458,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/85/mainImg.webp',
@@ -1506,7 +1506,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "가디건", img: "cardigan"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/86/mainImg.webp',
@@ -1554,7 +1554,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/87/mainImg.webp',
@@ -1602,7 +1602,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/88/mainImg.webp',
@@ -1651,7 +1651,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/89/mainImg.webp',
@@ -1699,7 +1699,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "패딩", img: "padding"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/90/mainImg.webp',
@@ -1747,7 +1747,7 @@ export const PRODUCTS = {
     subCategory: {id: 8, title: "슈트/블레이저", img: "suit"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/91/mainImg.webp',
@@ -1796,7 +1796,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "패딩", img: "padding"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/92/mainImg.webp',
@@ -1844,7 +1844,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "패딩", img: "padding"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/93/mainImg.webp',
@@ -1893,7 +1893,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/94/mainImg.webp',
@@ -1941,7 +1941,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/95/mainImg.webp',
@@ -1989,7 +1989,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/96/mainImg.webp',
@@ -2038,7 +2038,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "재킷", img: "jacket"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/97/mainImg.webp',
@@ -2088,7 +2088,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "패딩", img: "padding"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/98/mainImg.webp',
@@ -2136,7 +2136,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "패딩", img: "padding"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/99/mainImg.webp',
@@ -2184,7 +2184,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "패딩", img: "padding"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/outer/100/mainImg.webp',

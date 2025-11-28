@@ -11,7 +11,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19.5, y: 6.5, z: 11},
       ]
@@ -67,7 +67,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 16, z: 22},
       ]
@@ -121,7 +121,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
 //    sizeData: {
 //      type:'bag',
-//      img:'/media/productDetail/bag_size.webp',
+//      img:'/media/productDetail/bag_size.png',
 //      size:[
 //        {unit:'free', x:30 ,y:16, z:22},
 //      ]
@@ -180,7 +180,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
 //    sizeData: {
 //      type:'bag',
-//      img:'/media/productDetail/bag_size.webp',
+//      img:'/media/productDetail/bag_size.png',
 //      size:[
 //        {unit:'free', x:30 ,y:16, z:22},
 //      ]
@@ -235,7 +235,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
 //    sizeData: {
 //      type:'bag',
-//      img:'/media/productDetail/bag_size.webp',
+//      img:'/media/productDetail/bag_size.png',
 //      size:[
 //        {unit:'free', x:30 ,y:16, z:22},
 //      ]
@@ -290,7 +290,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
 //    sizeData: {
 //      type:'bag',
-//      img:'/media/productDetail/bag_size.webp',
+//      img:'/media/productDetail/bag_size.png',
 //      size:[
 //        {unit:'free', x:30 ,y:16, z:22},
 //      ]
@@ -345,7 +345,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 14, z: 26},
       ]
@@ -400,7 +400,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 14, z: 26},
       ]
@@ -455,7 +455,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 14, z: 26},
       ]
@@ -510,7 +510,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 14, z: 26},
       ]
@@ -565,7 +565,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 14, z: 26},
       ]
@@ -620,7 +620,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 14, z: 26},
       ]
@@ -675,7 +675,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 14, z: 26},
       ]
@@ -730,7 +730,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 14, z: 26},
       ]
@@ -785,7 +785,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 14, z: 26},
       ]
@@ -839,7 +839,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -896,7 +896,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -950,7 +950,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -1004,7 +1004,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -1058,7 +1058,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -1112,7 +1112,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -1166,7 +1166,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -1220,7 +1220,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -1274,7 +1274,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -1326,7 +1326,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -1380,7 +1380,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -1433,7 +1433,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -1486,7 +1486,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 6, z: 12},
       ]
@@ -1544,7 +1544,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 6, z: 12},
       ]
@@ -1599,7 +1599,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 6, z: 12},
       ]
@@ -1652,7 +1652,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 6, z: 12},
       ]
@@ -1705,7 +1705,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 6, z: 12},
       ]
@@ -1760,7 +1760,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 6, z: 12},
       ]
@@ -1814,7 +1814,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 6, z: 12},
       ]
@@ -1867,7 +1867,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 6.5, z: 15.5},
       ]
@@ -1922,7 +1922,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 6.5, z: 15.5},
       ]
@@ -1977,7 +1977,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2032,7 +2032,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2087,7 +2087,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2142,7 +2142,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2196,7 +2196,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2251,7 +2251,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2308,7 +2308,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2366,7 +2366,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2419,7 +2419,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2473,7 +2473,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2526,7 +2526,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2579,7 +2579,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2634,7 +2634,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2689,7 +2689,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2744,7 +2744,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2798,7 +2798,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2851,7 +2851,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2905,7 +2905,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -2960,7 +2960,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -3013,7 +3013,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -3068,7 +3068,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -3121,7 +3121,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -3177,7 +3177,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -3232,7 +3232,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -3287,7 +3287,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -3342,7 +3342,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 42, y: 8, z: 39},
       ]
@@ -3395,7 +3395,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 14},
       ]
@@ -3453,7 +3453,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 14},
       ]
@@ -3508,7 +3508,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 14},
       ]
@@ -3561,7 +3561,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 14},
       ]
@@ -3616,7 +3616,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 14},
       ]
@@ -3671,7 +3671,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 14},
       ]
@@ -3726,7 +3726,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 14},
       ]
@@ -3781,7 +3781,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 14},
       ]
@@ -3836,7 +3836,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 14},
       ]
@@ -3890,7 +3890,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 22.5, y: 10.5, z: 23},
 //      ]
@@ -3948,7 +3948,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19, y: 7, z: 13},
       ]
@@ -4006,7 +4006,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19, y: 7, z: 13},
       ]
@@ -4061,7 +4061,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19, y: 7, z: 13},
       ]
@@ -4116,7 +4116,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 14, z: 19.5},
       ]
@@ -4172,7 +4172,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 14, z: 19.5},
       ]
@@ -4226,7 +4226,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 14, z: 19.5},
       ]
@@ -4281,7 +4281,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 14, z: 19.5},
       ]
@@ -4336,7 +4336,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 14, z: 19.5},
       ]
@@ -4391,7 +4391,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 14, z: 19.5},
       ]
@@ -4444,7 +4444,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 14, z: 19.5},
       ]
@@ -4499,7 +4499,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -4561,7 +4561,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -4616,7 +4616,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -4671,7 +4671,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -4726,7 +4726,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -4781,7 +4781,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -4835,7 +4835,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -4890,7 +4890,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -4944,7 +4944,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -5003,7 +5003,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -5057,7 +5057,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -5116,7 +5116,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -5175,7 +5175,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -5230,7 +5230,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -5284,7 +5284,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 13, z: 21},
       ]
@@ -5339,7 +5339,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
 //      size:[
 //        {unit:'free', x:30 ,y:13, z:21},
 //      ]
@@ -5397,7 +5397,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
 //      size:[
 //        {unit:'free', x:30 ,y:13, z:21},
 //      ]
@@ -5451,7 +5451,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
 //      size:[
 //        {unit:'free', x:30 ,y:13, z:21},
 //      ]
@@ -5506,7 +5506,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -5561,7 +5561,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 37, y: 7, z: 35},
       ]
@@ -5615,7 +5615,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 31, y: 10, z: 25},
       ]
@@ -5671,7 +5671,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 31, y: 10, z: 25},
       ]
@@ -5726,7 +5726,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 31, y: 10, z: 25},
       ]
@@ -5781,7 +5781,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 31, y: 10, z: 25},
       ]
@@ -5835,7 +5835,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 31, y: 10, z: 25},
       ]
@@ -5891,7 +5891,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 31, y: 10, z: 25},
       ]
@@ -5947,7 +5947,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 31, y: 10, z: 25},
       ]
@@ -6002,7 +6002,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 31, y: 10, z: 25},
       ]
@@ -6057,7 +6057,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17, y: 5, z: 12.5},
       ]
@@ -6114,7 +6114,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 35.5, y: 2, z: 24},
       ]
@@ -6169,7 +6169,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 35.5, y: 2, z: 24},
       ]
@@ -6224,7 +6224,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17, y: 6, z: 20},
       ]
@@ -6278,7 +6278,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17, y: 6, z: 20},
       ]
@@ -6332,7 +6332,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17, y: 6, z: 20},
       ]
@@ -6387,7 +6387,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 18},
       ]
@@ -6441,7 +6441,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 18},
       ]
@@ -6495,7 +6495,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 10, z: 18},
       ]
@@ -6550,7 +6550,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 21, y: 5, z: 24},
       ]
@@ -6605,7 +6605,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 21, y: 5, z: 24},
       ]
@@ -6660,7 +6660,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 21, y: 5, z: 24},
       ]
@@ -6715,7 +6715,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 21, y: 5, z: 24},
       ]
@@ -6770,7 +6770,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 17},
       ]
@@ -6828,7 +6828,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 17},
       ]
@@ -6884,7 +6884,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 17},
       ]
@@ -6938,7 +6938,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 17},
       ]
@@ -6991,7 +6991,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 17},
       ]
@@ -7045,7 +7045,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 17},
       ]
@@ -7100,7 +7100,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 17},
       ]
@@ -7155,7 +7155,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 17},
       ]
@@ -7209,7 +7209,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 17},
       ]
@@ -7264,7 +7264,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 13, y: 9, z: 18},
       ]
@@ -7322,7 +7322,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 13, y: 9, z: 18},
       ]
@@ -7376,7 +7376,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17, y: 5, z: 12.5},
       ]
@@ -7432,7 +7432,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 9, z: 15},
       ]
@@ -7489,7 +7489,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 9, z: 15},
       ]
@@ -7544,7 +7544,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 9, z: 15},
       ]
@@ -7599,7 +7599,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 9, z: 15},
       ]
@@ -7654,7 +7654,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26.5, y: 8, z: 20},
       ]
@@ -7708,7 +7708,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26.5, y: 8, z: 20},
       ]
@@ -7763,7 +7763,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26.5, y: 8, z: 20},
       ]
@@ -7817,7 +7817,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26.5, y: 8, z: 20},
       ]
@@ -7870,7 +7870,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26.5, y: 8, z: 20},
       ]
@@ -7923,7 +7923,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26.5, y: 8, z: 20},
       ]
@@ -7977,7 +7977,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26.5, y: 8, z: 20},
       ]
@@ -8031,7 +8031,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26.5, y: 8, z: 20},
       ]
@@ -8084,7 +8084,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26.5, y: 8, z: 20},
       ]
@@ -8137,7 +8137,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26.5, y: 8, z: 20},
       ]
@@ -8191,7 +8191,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 10, z: 17},
       ]
@@ -8246,7 +8246,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 10, z: 17},
       ]
@@ -8301,7 +8301,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 40, y: 18, z: 20},
       ]
@@ -8355,7 +8355,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 40, y: 18, z: 20},
       ]
@@ -8407,7 +8407,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 40, y: 18, z: 20},
       ]
@@ -8459,7 +8459,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 40, y: 18, z: 20},
       ]
@@ -8511,7 +8511,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 40, y: 18, z: 20},
       ]
@@ -8563,7 +8563,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -8616,7 +8616,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -8669,7 +8669,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -8721,7 +8721,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -8773,7 +8773,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -8826,7 +8826,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -8877,7 +8877,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -8930,7 +8930,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -8981,7 +8981,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -9034,7 +9034,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -9087,7 +9087,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -9140,7 +9140,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -9193,7 +9193,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -9245,7 +9245,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -9299,7 +9299,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 14, z: 18},
       ]
@@ -9352,7 +9352,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -9405,7 +9405,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -9459,7 +9459,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -9512,7 +9512,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -9564,7 +9564,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -9617,7 +9617,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -9670,7 +9670,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -9723,7 +9723,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -9776,7 +9776,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -9829,7 +9829,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -9883,7 +9883,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 13, z: 25},
       ]
@@ -9942,7 +9942,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 13, z: 25},
       ]
@@ -9997,7 +9997,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 13, z: 25},
       ]
@@ -10052,7 +10052,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 13, z: 25},
       ]
@@ -10107,7 +10107,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 13, z: 25},
       ]
@@ -10162,7 +10162,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
@@ -10220,7 +10220,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
@@ -10274,7 +10274,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
@@ -10327,7 +10327,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
@@ -10381,7 +10381,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
@@ -10434,7 +10434,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
@@ -10488,7 +10488,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
@@ -10542,7 +10542,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
@@ -10596,7 +10596,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
@@ -10649,7 +10649,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
@@ -10701,7 +10701,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 5.5, z: 14},
       ]
@@ -10755,7 +10755,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 28, y: 12.5, z: 20},
       ]
@@ -10813,7 +10813,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 28, y: 12.5, z: 20},
       ]
@@ -10868,7 +10868,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 28, y: 12.5, z: 20},
       ]
@@ -10922,7 +10922,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -10980,7 +10980,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -11034,7 +11034,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -11087,7 +11087,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -11141,7 +11141,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -11194,7 +11194,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -11247,7 +11247,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -11300,7 +11300,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 6, z: 18},
       ]
@@ -11353,7 +11353,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 10.5, z: 17},
       ]
@@ -11409,7 +11409,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 10.5, z: 17},
       ]
@@ -11463,7 +11463,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 10.5, z: 17},
       ]
@@ -11517,7 +11517,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 10.5, z: 17},
       ]
@@ -11569,7 +11569,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 10.5, z: 17},
       ]
@@ -11621,7 +11621,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 10.5, z: 17},
       ]
@@ -11674,7 +11674,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 10.5, z: 17},
       ]
@@ -11727,7 +11727,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 10.5, z: 17},
       ]
@@ -11780,7 +11780,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 10.5, z: 17},
       ]
@@ -11832,7 +11832,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 47, y: 7, z: 22},
       ]
@@ -11892,7 +11892,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19, y: 4, z: 11},
       ]
@@ -11949,7 +11949,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 8.5, z: 17},
       ]
@@ -12005,7 +12005,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 8.5, z: 17},
       ]
@@ -12059,7 +12059,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 8.5, z: 17},
       ]
@@ -12111,7 +12111,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 8.5, z: 17},
       ]
@@ -12164,7 +12164,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 8.5, z: 17},
       ]
@@ -12216,7 +12216,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 8.5, z: 17},
       ]
@@ -12270,7 +12270,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 8.5, z: 17},
       ]
@@ -12322,7 +12322,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 8.5, z: 17},
       ]
@@ -12376,7 +12376,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 8.5, z: 17},
       ]
@@ -12428,7 +12428,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19.5, y: 5.5, z: 15},
       ]
@@ -12489,7 +12489,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19.5, y: 5.5, z: 15},
       ]
@@ -12542,7 +12542,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 30, y: 2, z: 22},
       ]
@@ -12599,7 +12599,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 5, z: 10},
       ]
@@ -12656,7 +12656,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 5, z: 10},
       ]
@@ -12710,7 +12710,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 5, z: 10},
       ]
@@ -12767,7 +12767,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 5, z: 10},
       ]
@@ -12821,7 +12821,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 5, z: 10},
       ]
@@ -12874,7 +12874,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 5, z: 10},
       ]
@@ -12931,7 +12931,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 15.5, y: 4, z: 10.5},
       ]
@@ -12992,7 +12992,7 @@ export const PRODUCTS = {
 //    subCategory: {id: 1, title: "미니백", img: "minibag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 15.5, y: 4, z: 10.5},
 //      ]
@@ -13044,7 +13044,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 15.5, y: 4, z: 10.5},
       ]
@@ -13097,7 +13097,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 15.5, y: 4, z: 10.5},
       ]
@@ -13149,7 +13149,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 15.5, y: 4, z: 10.5},
       ]
@@ -13201,7 +13201,7 @@ export const PRODUCTS = {
     subCategory: {id: 7, title: "더플백", img: "dufflebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
 //      size:[
 //        {unit:'free',x:15.5,y:4, z:10.5},
 //      ]
@@ -13257,7 +13257,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 7, z: 14},
       ]
@@ -13313,7 +13313,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 7, z: 14},
       ]
@@ -13371,7 +13371,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 7, z: 14},
       ]
@@ -13429,7 +13429,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19, y: 6, z: `10~14`},
       ]
@@ -13485,7 +13485,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 23, y: 11, z: 12},
       ]
@@ -13545,7 +13545,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 23, y: 11, z: 12},
       ]
@@ -13598,7 +13598,7 @@ export const PRODUCTS = {
     subCategory: {id: 5, title: "크로스백", img: "crossbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 2.5, z: 12.5},
       ]
@@ -13655,7 +13655,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 2.5, z: 12.5},
       ]
@@ -13712,7 +13712,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 2.5, z: 12.5},
       ]
@@ -13764,7 +13764,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 2.5, z: 12.5},
       ]
@@ -13817,7 +13817,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 2.5, z: 12.5},
       ]
@@ -13870,7 +13870,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 2.5, z: 12.5},
       ]
@@ -13923,7 +13923,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "클러치", img: "clutch"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18, y: 2.5, z: 12.5},
       ]
@@ -13976,7 +13976,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.4, y: 7.6, z: 15.2},
       ]
@@ -14032,7 +14032,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.4, y: 7.6, z: 15.2},
       ]
@@ -14085,7 +14085,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.4, y: 7.6, z: 15.2},
       ]
@@ -14138,7 +14138,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 27.5, y: 4, z: 19},
       ]
@@ -14199,7 +14199,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 27.5, y: 4, z: 19},
       ]
@@ -14256,7 +14256,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26, y: 9.5, z: 18},
       ]
@@ -14313,7 +14313,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26, y: 9.5, z: 18},
       ]
@@ -14370,7 +14370,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26, y: 9.5, z: 18},
       ]
@@ -14432,7 +14432,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 26, y: 9.5, z: 18},
       ]
@@ -14489,7 +14489,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 4.4, z: 14},
       ]
@@ -14545,7 +14545,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 14, y: 4.4, z: 14},
       ]
@@ -14598,7 +14598,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 36.5, y: 9, z: 39},
       ]
@@ -14654,7 +14654,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24.5, y: 9, z: 17},
       ]
@@ -14719,7 +14719,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24.5, y: 9, z: 17},
       ]
@@ -14781,7 +14781,7 @@ export const PRODUCTS = {
 //    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24.5, y: 9, z: 17},
 //      ]
@@ -14833,7 +14833,7 @@ export const PRODUCTS = {
 //    subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24.5, y: 9, z: 17},
 //      ]
@@ -14886,7 +14886,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24.5, y: 9, z: 17},
       ]
@@ -14942,7 +14942,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24.5, y: 9, z: 17},
       ]
@@ -15000,7 +15000,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24.5, y: 9, z: 17},
       ]
@@ -15057,7 +15057,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24.5, y: 9, z: 17},
       ]
@@ -15114,7 +15114,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24.5, y: 9, z: 17},
 //      ]
@@ -15176,7 +15176,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24.5, y: 9, z: 17},
 //      ]
@@ -15233,7 +15233,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24.5, y: 9, z: 17},
 //      ]
@@ -15291,7 +15291,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24.5, y: 9, z: 17},
 //      ]
@@ -15348,7 +15348,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 28, y: 11, z: 24},
       ]
@@ -15407,7 +15407,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 28, y: 11, z: 24},
       ]
@@ -15465,7 +15465,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 28, y: 11, z: 24},
       ]
@@ -15523,7 +15523,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 36, y: 16.5, z: 27.5},
       ]
@@ -15583,7 +15583,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 36, y: 16.5, z: 27.5},
       ]
@@ -15640,7 +15640,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 36, y: 16.5, z: 27.5},
       ]
@@ -15698,7 +15698,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 36, y: 16.5, z: 27.5},
       ]
@@ -15754,7 +15754,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 36, y: 16.5, z: 27.5},
       ]
@@ -15812,7 +15812,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 36, y: 16.5, z: 27.5},
       ]
@@ -15869,7 +15869,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 36, y: 16.5, z: 27.5},
       ]
@@ -15926,7 +15926,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19, y: 4.5, z: 11},
       ]
@@ -15980,7 +15980,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19, y: 4.5, z: 11},
       ]
@@ -16034,7 +16034,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 19, y: 4.5, z: 11},
       ]
@@ -16088,7 +16088,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 9, z: 15.5},
       ]
@@ -16150,7 +16150,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 9, z: 15.5},
       ]
@@ -16206,7 +16206,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 9, z: 15.5},
       ]
@@ -16265,7 +16265,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25.5, y: 9, z: 15.5},
       ]
@@ -16321,7 +16321,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 12, z: 21},
       ]
@@ -16381,7 +16381,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 12, z: 21},
       ]
@@ -16437,7 +16437,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 12, z: 21},
       ]
@@ -16494,7 +16494,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 12, z: 21},
       ]
@@ -16550,7 +16550,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 20, y: 7, z: 16},
       ]
@@ -16610,7 +16610,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24.5, y: 9, z: 15.5},
       ]
@@ -16668,7 +16668,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24.5, y: 9, z: 15.5},
       ]
@@ -16726,7 +16726,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 27, y: 9, z: 18},
       ]
@@ -16784,7 +16784,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 27, y: 9, z: 18},
       ]
@@ -16843,7 +16843,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 27, y: 9, z: 18},
       ]
@@ -16902,7 +16902,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 27, y: 9, z: 18},
       ]
@@ -16960,7 +16960,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25, y: 8, z: 16},
       ]
@@ -17020,7 +17020,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25, y: 8, z: 16},
       ]
@@ -17076,7 +17076,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25, y: 8, z: 16},
       ]
@@ -17132,7 +17132,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25, y: 8, z: 16},
       ]
@@ -17188,7 +17188,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 25, y: 8, z: 16},
       ]
@@ -17244,7 +17244,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17, y: 10, z: 15.5},
       ]
@@ -17302,7 +17302,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24.5, y: 9, z: 17},
       ]
@@ -17363,7 +17363,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24.5, y: 9, z: 17},
       ]
@@ -17419,7 +17419,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 7, z: 16},
       ]
@@ -17479,7 +17479,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 7, z: 16},
       ]
@@ -17536,7 +17536,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 22, y: 7, z: 16},
       ]
@@ -17592,7 +17592,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 7.5, z: 15},
       ]
@@ -17644,7 +17644,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24, y: 7.5, z: 15},
 //      ]
@@ -17707,7 +17707,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24, y: 7.5, z: 15},
 //      ]
@@ -17763,7 +17763,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24, y: 7.5, z: 15},
 //      ]
@@ -17820,7 +17820,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24, y: 7.5, z: 15},
 //      ]
@@ -17879,7 +17879,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24, y: 7.5, z: 15},
 //      ]
@@ -17936,7 +17936,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "토트백", img: "totebag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24, y: 7.5, z: 15},
 //      ]
@@ -17994,7 +17994,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24, y: 7.5, z: 15},
 //      ]
@@ -18055,7 +18055,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 24, y: 7.5, z: 15},
 //      ]
@@ -18112,7 +18112,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 12, z: 22.5},
       ]
@@ -18173,7 +18173,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 12, z: 22.5},
       ]
@@ -18231,7 +18231,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 12, z: 22.5},
       ]
@@ -18289,7 +18289,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 12, z: 22.5},
       ]
@@ -18345,7 +18345,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 12, z: 22.5},
       ]
@@ -18403,7 +18403,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 12, z: 22.5},
       ]
@@ -18460,7 +18460,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 43, y: 9, z: 29},
       ]
@@ -18519,7 +18519,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 6.5, z: 17},
       ]
@@ -18578,7 +18578,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 6.5, z: 17},
       ]
@@ -18637,7 +18637,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 6.5, z: 17},
       ]
@@ -18695,7 +18695,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 24, y: 6.5, z: 17},
       ]
@@ -18751,7 +18751,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18.5, y: 10, z: 20},
       ]
@@ -18811,7 +18811,7 @@ export const PRODUCTS = {
     subCategory: {id: 2, title: "백팩", img: "backpack"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 18.5, y: 10, z: 20},
       ]
@@ -18865,7 +18865,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -18923,7 +18923,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -18976,7 +18976,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19031,7 +19031,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19086,7 +19086,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19141,7 +19141,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19196,7 +19196,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19255,7 +19255,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19311,7 +19311,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "미니백", img: "minibag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19364,7 +19364,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19423,7 +19423,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19479,7 +19479,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19536,7 +19536,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19593,7 +19593,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19654,7 +19654,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 20.3, y: 10, z: 17},
 //      ]
@@ -19712,7 +19712,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
     sizeData: {
       type: 'bag',
-      img: '/media/productDetail/bag_size.webp',
+      img: '/media/productDetail/bag_size.png',
       size: [
         {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
       ]
@@ -19769,7 +19769,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
 //      ]
@@ -19832,7 +19832,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
 //      ]
@@ -19891,7 +19891,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
 //      ]
@@ -19951,7 +19951,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
 //      ]
@@ -20011,7 +20011,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "숄더백", img: "shoulderbag"},
 //    sizeData: {
 //      type: 'bag',
-//      img: '/media/productDetail/bag_size.webp',
+//      img: '/media/productDetail/bag_size.png',
 //      size: [
 //        {unit: 'free', x: 17.5, y: 7.5, z: 16.5},
 //      ]

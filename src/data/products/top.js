@@ -11,7 +11,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "맨투맨/스웨트", img: "sweatshirt"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/101/mainImg.webp',
@@ -60,7 +60,7 @@ export const PRODUCTS = {
     subCategory: {id: 1, title: "맨투맨/스웨트", img: "sweatshirt"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/102/mainImg.webp',
@@ -110,7 +110,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/103/mainImg.webp',
@@ -160,7 +160,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/104/mainImg.webp',
@@ -209,7 +209,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/105/mainImg.webp',
@@ -258,7 +258,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/106/mainImg.webp',
@@ -307,7 +307,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/107/mainImg.webp',
@@ -356,7 +356,7 @@ export const PRODUCTS = {
     subCategory: {id: 8, title: "셔츠/블라우스", img: "shirtblouse"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/108/mainImg.webp',
@@ -405,7 +405,7 @@ export const PRODUCTS = {
     subCategory: {id: 8, title: "셔츠/블라우스", img: "shirtblouse"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/109/mainImg.webp',
@@ -454,7 +454,7 @@ export const PRODUCTS = {
     subCategory: {id: 8, title: "셔츠/블라우스", img: "shirtblouse"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/110/mainImg.webp',
@@ -503,7 +503,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/111/mainImg.webp',
@@ -552,7 +552,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/112/mainImg.webp',
@@ -601,7 +601,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/113/mainImg.webp',
@@ -650,7 +650,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/114/mainImg.webp',
@@ -700,7 +700,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/115/mainImg.webp',
@@ -750,7 +750,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/116/mainImg.webp',
@@ -800,7 +800,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/117/mainImg.webp',
@@ -850,7 +850,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/118/mainImg.webp',
@@ -899,7 +899,7 @@ export const PRODUCTS = {
     subCategory: {id: 3, title: "긴소매", img: "longsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/119/mainImg.webp',
@@ -948,7 +948,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/120/mainImg.webp',
@@ -997,7 +997,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/121/mainImg.webp',
@@ -1047,7 +1047,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/122/mainImg.webp',
@@ -1096,7 +1096,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/123/mainImg.webp',
@@ -1145,7 +1145,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/124/mainImg.webp',
@@ -1194,7 +1194,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/125/mainImg.webp',
@@ -1244,7 +1244,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/126/mainImg.webp',
@@ -1293,7 +1293,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/127/mainImg.webp',
@@ -1342,7 +1342,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/128/mainImg.webp',
@@ -1391,7 +1391,7 @@ export const PRODUCTS = {
     subCategory: {id: 8, title: "셔츠/블라우스", img: "shirtblouse"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/129/mainImg.webp',
@@ -1440,7 +1440,7 @@ export const PRODUCTS = {
     subCategory: {id: 8, title: "셔츠/블라우스", img: "shirtblouse"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/130/mainImg.webp',
@@ -1489,7 +1489,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/131/mainImg.webp',
@@ -1538,7 +1538,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/132/mainImg.webp',
@@ -1587,7 +1587,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/133/mainImg.webp',
@@ -1636,7 +1636,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/134/mainImg.webp',
@@ -1685,7 +1685,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/135/mainImg.webp',
@@ -1734,7 +1734,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/136/mainImg.webp',
@@ -1787,7 +1787,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/137/mainImg.webp',
@@ -1837,7 +1837,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/138/mainImg.webp',
@@ -1886,7 +1886,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/139/mainImg.webp',
@@ -1935,7 +1935,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/140/mainImg.webp',
@@ -1984,7 +1984,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/141/mainImg.webp',
@@ -2033,7 +2033,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/142/mainImg.webp',
@@ -2082,7 +2082,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/143/mainImg.webp',
@@ -2131,7 +2131,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/144/mainImg.webp',
@@ -2180,7 +2180,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/145/mainImg.webp',
@@ -2229,7 +2229,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/146/mainImg.webp',
@@ -2278,7 +2278,7 @@ export const PRODUCTS = {
     subCategory: {id: 4, title: "반소매", img: "shortsleeve"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/147/mainImg.webp',
@@ -2327,7 +2327,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/148/mainImg.webp',
@@ -2376,7 +2376,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/149/mainImg.webp',
@@ -2426,7 +2426,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/150/mainImg.webp',
@@ -2475,7 +2475,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/151/mainImg.webp',
@@ -2524,7 +2524,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/152/mainImg.webp',
@@ -2573,7 +2573,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/153/mainImg.webp',
@@ -2622,7 +2622,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/154/mainImg.webp',
@@ -2671,7 +2671,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/155/mainImg.webp',
@@ -2720,7 +2720,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/156/mainImg.webp',
@@ -2769,7 +2769,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/157/mainImg.webp',
@@ -2819,7 +2819,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/158/mainImg.webp',
@@ -2869,7 +2869,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/159/mainImg.webp',
@@ -2918,7 +2918,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/160/mainImg.webp',
@@ -2968,7 +2968,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/161/mainImg.webp',
@@ -3018,7 +3018,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/162/mainImg.webp',
@@ -3068,7 +3068,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/163/mainImg.webp',
@@ -3118,7 +3118,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/164/mainImg.webp',
@@ -3167,7 +3167,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/165/mainImg.webp',
@@ -3216,7 +3216,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/166/mainImg.webp',
@@ -3265,7 +3265,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/167/mainImg.webp',
@@ -3314,7 +3314,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/168/mainImg.webp',
@@ -3363,7 +3363,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/169/mainImg.webp',
@@ -3412,7 +3412,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/170/mainImg.webp',
@@ -3461,7 +3461,7 @@ export const PRODUCTS = {
     subCategory: {id: 6, title: "피케/카라", img: "polo"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/171/mainImg.webp',
@@ -3510,7 +3510,7 @@ export const PRODUCTS = {
     subCategory: {id: 8, title: "셔츠/블라우스", img: "shirtblouse"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/173/mainImg.webp',
@@ -3560,7 +3560,7 @@ export const PRODUCTS = {
     subCategory: {id: 8, title: "셔츠/블라우스", img: "shirtblouse"},
     sizeData: {
       type: 'outer',
-      img: '/media/productDetail/outer_size.webp',
+      img: '/media/productDetail/outer_size.png',
     },
     mainImg: [
       '/media/products/top/174/mainImg.webp',
