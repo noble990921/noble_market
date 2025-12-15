@@ -57,7 +57,7 @@
           </el-table-column>
           <el-table-column label="브랜드" >
             <template slot-scope="{row}">
-              <p>{{SET_PRODUCT_BRAND[row.brand]}} </p>
+              <p>{{row.brand || '-'}} </p>
             </template>
           </el-table-column>
           <el-table-column label="상품가격" >

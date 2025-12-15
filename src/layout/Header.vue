@@ -116,7 +116,11 @@
 <!--              </el-dropdown-menu>-->
 <!--            </el-dropdown>-->
 
-            <i class="el-icon-goods" @click="$router.push('/cart_view')"></i>
+            <div class="wishlist-icon" @click="$router.push('/wishlist')" style="position: relative; display: inline-block; cursor: pointer;">
+              <i class="el-icon-star-off"></i>
+              <span v-if="wishlistCount > 0" class="badge">{{ wishlistCount }}</span>
+            </div>
+<!--            <i class="el-icon-goods" @click="$router.push('/cart_view')"></i>-->
           </div>
         </div>
         <div class="header_bottom">
@@ -141,6 +145,7 @@
   import {mapGetters} from "vuex";
   import {logout} from "@/services/authService";
   import SearchDrawer from "../components/drawer/SearchDrawer";
+  import {db} from "@/firebase";
 
   const ASIDEMENU = [
     /** type     0:로그인시에만 표시, 1:로그인전에만 표시, 2:로그인,로그인전표시 3: 관리자 */
@@ -148,7 +153,8 @@
     {id: "1", title: "로그인", url: "/login", type: "1"},
     {id: "2", title: "회원가입", url: "/signup", type: "1"},
 //    {id: "3", title: "주문목록", url: "/order_list", type: "2"},
-    {id: "4", title: "장바구니", url: "/cart_view", type: "2"},
+    {id: "3", title: "찜목록", url: "/wishlist", type: "2"},
+//    {id: "4", title: "장바구니", url: "/cart_view", type: "2"},
     {id: "5", title: "고객센터", url: "/service/contact", type: "2"},
     {id: "6", title: "로그아웃", func: "logout", type: "0"},
   ];
@@ -191,7 +197,8 @@
       return {
         searchDrawer: false,
         MENU, ASIDEMENU, CATEGORY,
-        asideOpen: false, category: false, isScroll: false
+        asideOpen: false, category: false, isScroll: false,
+        wishlistCount: 0
       }
     },
 //    computed: {
@@ -210,6 +217,14 @@
           return menu.type === "2" || (this.isLogin ? menu.type === "0" : menu.type === "1");
         });
       },
+    },
+    watch: {
+      user: {
+        immediate: true,
+        handler() {
+          this.updateWishlistCount();
+        }
+      }
     },
     methods: {
     handleMenuClick(m) {
@@ -247,6 +262,27 @@
       },
       handleScroll() {
         this.isScroll = window.scrollY > 0;
+      },
+      async updateWishlistCount() {
+        if (!this.isLogin || !this.user) {
+          this.wishlistCount = 0;
+          return;
+        }
+
+        try {
+          const userId = this.user.uid;
+          const userDoc = await db.collection('users').doc(userId).get();
+
+          if (userDoc.exists) {
+            const wishlist = userDoc.data().wishlist || [];
+            this.wishlistCount = wishlist.length;
+          } else {
+            this.wishlistCount = 0;
+          }
+        } catch (error) {
+          console.error("찜 개수 조회 오류:", error);
+          this.wishlistCount = 0;
+        }
       }
     },
     mounted() {

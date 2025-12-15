@@ -44,8 +44,7 @@
               </div>
             </div>
 
-            <button v-if="colorVariants.length > 7" class="thumb-nav next" @click="nextThumbPage" :disabled="currentThumbPage >= totalThumbPages - 1">
-              &gt;
+            <button v-if="colorVariants.length > 7" class="thumb-nav next" @click="nextThumbPage" :disabled="currentThumbPage >= totalThumbPages - 1">&gt;
             </button>
           </div>
         </div>
@@ -152,6 +151,10 @@
           <div class="btn_box">
             <!--            <button @click="setCartItem" class="cart">장바구니 담기</button>-->
             <!--            <button @click="directSell">바로 구매</button>-->
+            <button class="wishlist" @click="toggleWishlist">
+              <i :class="isWishlisted ? 'el-icon-star-on' : 'el-icon-star-off'"></i>
+              {{ isWishlisted ? '찜 취소' : '찜하기' }}
+            </button>
             <button class="cart" @click="contact">가격 문의하기</button>
           </div>
         </div>
@@ -174,6 +177,7 @@
 
 <script>
   import {db} from "../../firebase";
+  import firebase from "firebase/app";
   import {mapGetters} from "vuex";
   //  import firebase from "firebase";
   import Description from "../category/detailBottomTab/Description"
@@ -232,7 +236,8 @@
         colorVariants: [],
         activeVariantId: null,
         loginCheck: false,
-        windowWidth: window.innerWidth
+        windowWidth: window.innerWidth,
+        isWishlisted: false
       };
     },
     computed: {
@@ -322,17 +327,56 @@
           const category = this.$route.params.category.toLowerCase();
           const productId = this.$route.params.id;
 
+          // 1. 로컬 JS 파일 데이터 가져오기
           const module = await import(`@/data/products/${category}.js`);
-          const products = module.PRODUCTS;
-          const matchedProduct = Object.values(products).find(p => String(p.id) === productId);
+          const localProducts = module.PRODUCTS;
+          let matchedProduct = Object.values(localProducts).find(p => String(p.id) === productId);
+
+          // 2. 로컬에서 못찾으면 Firestore에서 찾기
+          if (!matchedProduct) {
+            const productDoc = await db.collection("products").doc(productId).get();
+            if (productDoc.exists) {
+              const data = productDoc.data();
+              // 🔒 보안: 가격 정보 제거 (관리자만 Firebase Console에서 확인)
+              delete data.price;
+              matchedProduct = {
+                id: productDoc.id,
+                ...data,
+              };
+            }
+          }
 
           if (matchedProduct) {
             this.product = matchedProduct;
-            const sameGroup = matchedProduct.modelGroup
-                ? Object.values(products).filter(p => p.modelGroup === matchedProduct.modelGroup)
-                : [];
 
-            this.colorVariants = sameGroup;
+            // 3. 같은 modelGroup 상품 찾기 (로컬 + Firestore)
+            let sameGroupProducts = [];
+
+            if (matchedProduct.modelGroup) {
+              // 로컬에서 같은 그룹 찾기
+              const localSameGroup = Object.values(localProducts).filter(
+                p => p.modelGroup === matchedProduct.modelGroup
+              );
+
+              // Firestore에서 같은 그룹 찾기
+              const firestoreSnapshot = await db.collection("products")
+                .where("modelGroup", "==", matchedProduct.modelGroup)
+                .get();
+
+              const firestoreSameGroup = firestoreSnapshot.docs.map(doc => {
+                const data = doc.data();
+                // 🔒 보안: 가격 정보 제거 (관리자만 Firebase Console에서 확인)
+                delete data.price;
+                return {
+                  id: doc.id,
+                  ...data
+                };
+              });
+
+              sameGroupProducts = [...localSameGroup, ...firestoreSameGroup];
+            }
+
+            this.colorVariants = sameGroupProducts;
             this.activeVariantId = matchedProduct.id;
           }
 
@@ -348,6 +392,9 @@
               console.warn('swiper 인스턴스를 찾을 수 없습니다.');
             }
           });
+
+          // 찜 상태 확인
+          await this.checkWishlistStatus();
 
         } catch (error) {
           console.error('상품 데이터를 불러오는 중 오류 발생:', error);
@@ -367,6 +414,61 @@
           window.open(this.partnerInfo.instaUrl, "_blank");
         }else{
           window.open('https://open.kakao.com/o/ssxNLKBh', "_blank");
+        }
+      },
+      async toggleWishlist() {
+        // 로그인 체크
+        if (!this.isLogin || !this.user) {
+          this.$alert("로그인이 필요한 기능입니다.");
+          return;
+        }
+
+        try {
+          const userId = this.user.uid;
+          const productId = this.product.id;
+
+          const userRef = db.collection('users').doc(userId);
+
+          if (this.isWishlisted) {
+            // 찜 취소
+            await userRef.set({
+              wishlist: firebase.firestore.FieldValue.arrayRemove(productId)
+            }, { merge: true });
+            this.isWishlisted = false;
+            console.log('✅ 찜 취소 완료');
+            this.$message.success("찜 목록에서 제거되었습니다.");
+          } else {
+            // 찜 추가
+            await userRef.set({
+              wishlist: firebase.firestore.FieldValue.arrayUnion(productId)
+            }, { merge: true });
+            this.isWishlisted = true;
+            console.log('✅ 찜 추가 완료');
+            this.$message.success("찜 목록에 추가되었습니다.");
+          }
+        } catch (error) {
+          console.error("찜하기 오류:", error);
+          this.$alert("찜하기 처리 중 오류가 발생했습니다.");
+        }
+      },
+      async checkWishlistStatus() {
+        // 로그인 안 했으면 찜 상태 false
+        if (!this.isLogin || !this.user || !this.product.id) {
+          this.isWishlisted = false;
+          return;
+        }
+
+        try {
+          const userId = this.user.uid;
+          const productId = this.product.id;
+          const userDoc = await db.collection('users').doc(userId).get();
+
+          if (userDoc.exists) {
+            const wishlist = userDoc.data().wishlist || [];
+            this.isWishlisted = wishlist.includes(productId);
+          }
+        } catch (error) {
+          console.error("찜 상태 확인 오류:", error);
         }
       },
 //      async directSell() {
@@ -474,7 +576,6 @@
       this.getData();
       this.isLoginCheck()
       window.addEventListener('resize',this.updateWidth)
-      console.log('dddd',this.updateWidth)
     },
   };
 </script>

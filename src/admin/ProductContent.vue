@@ -1,42 +1,126 @@
 <template>
   <div id="ProductContent">
     <div class="add_btn">
-      <button @click="$router.push('/admin/product/management')"  class="cancel_btn">취소</button>
+      <button @click="$router.push('/admin/product/management')" class="cancel_btn">목록으로</button>
       <button @click="goToEdit" class="save_btn">수정</button>
       <button @click="deleteProduct" class="delete_btn">삭제</button>
     </div>
-    <div class="ps_container">
-      <div class="ps_container_top">
-        <div class="top_setting">
-          <div id="ps_public_select_box" class="set_row">
-            <span class="title_label">공개여부</span>
-            <span class="pc_select_span">{{ SET_ISOPEN[info.isOpen] }}</span>
+
+    <div class="ps_container" v-if="info.id">
+      <!-- 기본 정보 -->
+      <div class="info_section">
+        <h3>기본 정보</h3>
+        <div class="info_grid">
+          <div class="info_item">
+            <span class="label">공개여부</span>
+            <span class="value">{{ info.isOpen === 1 ? '공개' : '비공개' }}</span>
           </div>
-          <div id="ps_date_box" class="set_row">
-            <span class="title_label">날짜</span>
-            <span class="pc_select_span">{{ info.createDate | moment("YYYY-MM-DD HH:mm") }}</span>
+          <div class="info_item">
+            <span class="label">등록일</span>
+            <span class="value">{{ info.createDate | moment("YYYY-MM-DD HH:mm") }}</span>
           </div>
-          <div id="ps_category_box" class="set_row">
-            <span class="title_label">카테고리</span>
-            <span class="pc_select_span">{{SET_PRODUCT_CATEGORY[info.category]}}</span>
+          <div class="info_item">
+            <span class="label">카테고리</span>
+            <span class="value">{{ getCategoryName(info.category) }}</span>
           </div>
-          <div id="ps_title_box" class="set_row">
-            <span class="title_label">상품이름</span>
-            <span class="pc_select_span">{{info.title}}</span>
+          <div class="info_item">
+            <span class="label">서브카테고리</span>
+            <span class="value">{{ info.subCategory && info.subCategory.title || '-' }}</span>
           </div>
-          <div id="ps_price_box" class="set_row">
-            <span class="title_label">상품가격</span>
-            <span class="pc_select_span">{{info.price | formatNumber}}</span>
+          <div class="info_item">
+            <span class="label">브랜드 (한글)</span>
+            <span class="value">{{ info.brand || '-' }}</span>
           </div>
-          <div id="ps_img_box" class="set_row">
-            <span class="title_label">대표사진</span>
-            <span class="ps_img_span"><img :src="info.img"></span>
+          <div class="info_item">
+            <span class="label">브랜드 (영문)</span>
+            <span class="value">{{ info.enBrand || '-' }}</span>
           </div>
-        </div>
-        <div class="bottom_text" style="padding: 0 12px;">
-          <span v-html="info.content"></span>
         </div>
       </div>
+
+      <!-- 상품 정보 -->
+      <div class="info_section">
+        <h3>상품 정보</h3>
+        <div class="info_grid">
+          <div class="info_item full">
+            <span class="label">상품명 (한글)</span>
+            <span class="value">{{ info.title || '-' }}</span>
+          </div>
+          <div class="info_item full">
+            <span class="label">상품명 (영문)</span>
+            <span class="value">{{ info.enName || '-' }}</span>
+          </div>
+          <div class="info_item">
+            <span class="label">모델번호</span>
+            <span class="value">{{ info.modelNumber || '-' }}</span>
+          </div>
+          <div class="info_item">
+            <span class="label">모델그룹</span>
+            <span class="value">{{ info.modelGroup || '-' }}</span>
+          </div>
+          <div class="info_item">
+            <span class="label">가격</span>
+            <span class="value">{{ info.price | formatNumber }}원</span>
+          </div>
+          <div class="info_item">
+            <span class="label">판매수량</span>
+            <span class="value">{{ info.sellQuantity || 0 }}</span>
+          </div>
+          <div class="info_item">
+            <span class="label">사이즈 타입</span>
+            <span class="value">{{ info.sizeData && info.sizeData.type || '-' }}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 메인 이미지 -->
+      <div class="info_section">
+        <h3>메인 이미지 ({{ info.mainImg && info.mainImg.length || 0 }}장)</h3>
+        <div class="image_grid">
+          <div v-for="(img, idx) in info.mainImg" :key="'main-'+idx" class="image_item">
+            <img :src="img" alt="메인 이미지">
+            <span class="image_badge">{{ idx + 1 }}</span>
+          </div>
+          <p v-if="!info.mainImg || !info.mainImg.length">등록된 메인 이미지가 없습니다.</p>
+        </div>
+      </div>
+
+      <!-- 상세 이미지 -->
+      <div class="info_section">
+        <h3>상세 이미지 ({{ info.detailImg && info.detailImg.length || 0 }}장)</h3>
+        <div class="image_grid">
+          <div v-for="(img, idx) in info.detailImg" :key="'detail-'+idx" class="image_item">
+            <img :src="img" alt="상세 이미지">
+            <span class="image_badge">{{ idx + 1 }}</span>
+          </div>
+          <p v-if="!info.detailImg || !info.detailImg.length">등록된 상세 이미지가 없습니다.</p>
+        </div>
+      </div>
+
+      <!-- 상세 설명 텍스트 -->
+      <div class="info_section">
+        <h3>상세 설명 ({{ info.detailText && info.detailText.length || 0 }}개)</h3>
+        <div class="detail_text_list">
+          <div v-for="(item, idx) in info.detailText" :key="'text-'+idx" class="detail_text_item">
+            <div class="detail_text_header">
+              <span class="badge">{{ idx + 1 }}</span>
+              <strong>{{ item.title }}</strong>
+            </div>
+            <p class="detail_text_content">{{ item.content }}</p>
+          </div>
+          <p v-if="!info.detailText || !info.detailText.length">등록된 상세 설명이 없습니다.</p>
+        </div>
+      </div>
+
+      <!-- 에디터 내용 -->
+      <div class="info_section" v-if="info.content">
+        <h3>추가 설명</h3>
+        <div class="editor_content" v-html="info.content"></div>
+      </div>
+    </div>
+
+    <div v-else class="loading">
+      <p>상품 정보를 불러오는 중...</p>
     </div>
   </div>
 </template>
@@ -45,49 +129,58 @@
   import {db} from "@/firebase";
 
   const SET_PRODUCT_CATEGORY = {
-    "1": "OUTER", "2": "TOP", "3": "BOTTOM", "4": "SHOES", "5": "WALLET", "6": "BAG","7":"WATCH","8":"ACC"
+    "1": "OUTER", "2": "TOP", "3": "BOTTOM", "4": "SHOES", "5": "WALLET", "6": "BAG", "7": "WATCH", "8": "ACC"
   }
-  const SET_ISOPEN = {
-    "1": "공개",
-    "2": "비공개"
-  }
+
   export default {
     name: "ProductContent",
     data() {
       return {
-        SET_PRODUCT_CATEGORY,
-        SET_ISOPEN,
-        info: {}, noticeStyle: {}, query: ''
+        info: {}
       }
     },
     methods: {
+      getCategoryName(categoryId) {
+        return SET_PRODUCT_CATEGORY[categoryId] || '-';
+      },
+
       async getData() {
         const vm = this;
         try {
           const productId = vm.$route.params.params;
           if (!productId) {
             vm.$alert('상품 정보를 찾을 수 없습니다.', '오류');
+            vm.$router.push('/admin/product/management');
             return;
           }
+
           const doc = await db.collection('products').doc(productId).get();
           if (doc.exists) {
             const data = doc.data();
             vm.info = {
               id: doc.id,
-              createDate: data.createDate.toDate() || '',
+              createDate: data.createDate && data.createDate.toDate() || null,
               category: data.category || '',
+              subCategory: data.subCategory || null,
+              brand: data.brand || '',
+              enBrand: data.enBrand || '',
               title: data.title || '',
-              isOpen: data.isOpen || false,
+              name: data.name || data.title || '',
+              enName: data.enName || '',
+              modelNumber: data.modelNumber || '',
+              modelGroup: data.modelGroup || '',
+              isOpen: data.isOpen || 2,
+              price: data.price || 0,
+              sellQuantity: data.sellQuantity || 0,
+              mainImg: data.mainImg || [],
+              detailImg: data.detailImg || [],
+              detailText: data.detailText || [],
+              sizeData: data.sizeData || {},
               content: data.content || '',
-              price:data.price,
-              img:data.img
             };
-
-//            this.$nextTick(() => {
-//              this.$refs.editor.setContent(this.info.content);
-//            });
           } else {
             vm.$alert('상품 정보를 찾을 수 없습니다.', '오류');
+            vm.$router.push('/admin/product/management');
           }
         } catch (error) {
           console.error('데이터 가져오기 오류:', error);
@@ -95,9 +188,6 @@
         }
       },
 
-      changeContent({ key, html }) {
-        this.info[key] = html || '';
-      },
       async deleteProduct() {
         const vm = this;
         try {
@@ -110,24 +200,232 @@
           vm.$alert('상품 삭제에 실패했습니다. 다시 시도해주세요.', '오류');
         }
       },
+
       goToEdit() {
-        const vm = this
-        vm.$router.push({
-          path: `/admin/product/save/${vm.info.id}`,
-          query: {
-            title: vm.info.title,
-            category: vm.info.category,
-            createDate: vm.info.createDate,
-            isOpen: vm.info.isOpen,
-            content: vm.info.content,
-          }});
+        // ID만 전달, ProductSave에서 데이터 로드
+        this.$router.push(`/admin/product/save/${this.info.id}`);
       },
-      },
+    },
+
     mounted() {
       this.getData();
-    },
-    created(){
-
     }
-    }
+  }
 </script>
+
+<style scoped lang="scss">
+  #ProductContent {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .add_btn {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-bottom: 20px;
+
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+
+        &.cancel_btn {
+          background: #6c757d;
+          color: white;
+          &:hover { background: #5a6268; }
+        }
+
+        &.save_btn {
+          background: #007bff;
+          color: white;
+          &:hover { background: #0056b3; }
+        }
+
+        &.delete_btn {
+          background: #dc3545;
+          color: white;
+          &:hover { background: #c82333; }
+        }
+      }
+    }
+
+    .ps_container {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .info_section {
+      padding: 24px;
+      border-bottom: 1px solid #e9ecef;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      h3 {
+        margin: 0 0 20px 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: #212529;
+        padding-bottom: 12px;
+        border-bottom: 2px solid #007bff;
+      }
+
+      .info_grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+
+        .info_item {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+
+          &.full {
+            grid-column: 1 / -1;
+          }
+
+          .label {
+            font-size: 12px;
+            color: #6c757d;
+            font-weight: 500;
+          }
+
+          .value {
+            font-size: 14px;
+            color: #212529;
+            font-weight: 400;
+          }
+        }
+      }
+
+      .image_grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 16px;
+
+        .image_item {
+          position: relative;
+          aspect-ratio: 1;
+          border: 1px solid #dee2e6;
+          border-radius: 8px;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+          .image_badge {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            background: rgba(0, 123, 255, 0.9);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+          }
+        }
+
+        p {
+          grid-column: 1 / -1;
+          text-align: center;
+          color: #6c757d;
+          padding: 40px 0;
+        }
+      }
+
+      .detail_text_list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .detail_text_item {
+          padding: 16px;
+          background: #f8f9fa;
+          border-radius: 8px;
+          border-left: 4px solid #007bff;
+
+          .detail_text_header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+
+            .badge {
+              background: #007bff;
+              color: white;
+              padding: 2px 8px;
+              border-radius: 4px;
+              font-size: 12px;
+              font-weight: 600;
+            }
+
+            strong {
+              font-size: 16px;
+              color: #212529;
+            }
+          }
+
+          .detail_text_content {
+            margin: 0;
+            font-size: 14px;
+            color: #495057;
+            line-height: 1.6;
+          }
+        }
+
+        p {
+          text-align: center;
+          color: #6c757d;
+          padding: 40px 0;
+          margin: 0;
+        }
+      }
+
+      .editor_content {
+        padding: 16px;
+        background: #f8f9fa;
+        border-radius: 8px;
+        min-height: 100px;
+
+        ::v-deep img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    .loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: #6c757d;
+      font-size: 16px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 12px;
+
+      .info_section {
+        padding: 16px;
+
+        .info_grid {
+          grid-template-columns: 1fr;
+        }
+
+        .image_grid {
+          grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+          gap: 12px;
+        }
+      }
+    }
+  }
+</style>

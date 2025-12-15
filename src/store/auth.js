@@ -40,7 +40,10 @@ export default {
 //    },
     async login({ commit, dispatch }, authUser) {
       const userDoc = await db.collection("users").doc(authUser.uid).get();
-      const userData = userDoc.data();
+      const userData = {
+        uid: authUser.uid,  // ← uid 추가!
+        ...userDoc.data()
+      };
 
 //      console.log("📄 유저 정보 로드됨:", userData);
       commit("SET_USER", userData);

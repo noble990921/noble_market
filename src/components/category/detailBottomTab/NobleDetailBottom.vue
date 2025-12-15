@@ -3,29 +3,29 @@
     <div class="ndb_container">
       <div class="detail_mainImg">
         <p class="title">제품정보</p>
-        <img src="../../../../public/media/productDetail/product_img.png">
-        <div class="mainImgBox" v-for="(img,i) in product.mainImg" :key="i">
-          <img :src="img">
-        </div>
+        <img src="../../../../public/media/productDetail/product_img2.png">
+<!--        <div class="mainImgBox" v-for="(img,i) in product.mainImg" :key="i">-->
+<!--          <img :src="img">-->
+<!--        </div>-->
       </div>
-      <div class="detail_subImg" v-if="product.detailImg"
+      <div class="detail_subImg" v-if="product.detailImg && product.detailImg.length > 0"
            :class="{ 'blur-overlay': !isLogin || !user }">
         <p class="title">제품상세</p>
         <div class="detail_subImgBox" v-for="(img,i) in product.detailImg" :key="i">
-          <img :src="img">
+          <img :src="typeof img === 'string' ? img : img.url">
         </div>
       </div>
-      <div class="detail_wearingImg" v-if="product.wearingImg"
+      <div class="detail_wearingImg" v-if="product.wearingImg && product.wearingImg.length > 0"
            :class="{ 'blur-overlay': !isLogin || !user }">
         <p class="title" style="margin: 120px 0 30px 0">제품착샷</p>
         <div class="detail_subImgBox" v-for="(img,i) in product.wearingImg" :key="i">
-          <img :src="img">
+          <img :src="typeof img === 'string' ? img : img.url">
         </div>
       </div>
       <div class="detail_notice"
            :class="{ 'blur-overlay': !isLogin || !user }">
         <p class="title" style="margin: 120px 0 30px 0">안내 사항</p>
-        <img src="../../../../public/media/productDetail/product_notice.png">
+        <img src="../../../../public/media/productDetail/product_notice2.png">
       </div>
 <!--      <div class="detail_review">-->
 <!--        <div class="review_top">-->

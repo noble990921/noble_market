@@ -211,6 +211,26 @@
           font-size: 24px;
           color: #000;
         }
+
+        .wishlist-icon {
+          position: relative;
+          display: inline-block;
+          //margin-left: 26px;
+
+          .badge {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background-color: #f56c6c;
+            color: #fff;
+            border-radius: 10px;
+            padding: 2px 6px;
+            font-size: 12px;
+            font-weight: bold;
+            min-width: 18px;
+            text-align: center;
+          }
+        }
       }
     }
 

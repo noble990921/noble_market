@@ -60,7 +60,7 @@
 </template>
 
 <script>
-//  import { db } from "../../firebase";
+  import { db } from "../../firebase";
   import {SET_CATEGORY_MAP} from "../../constants/Set"
 
   export default {
@@ -195,11 +195,36 @@
       async getData() {
         this.loading = true;
         try {
+          // 1. 로컬 JS 파일 데이터 가져오기
           const module = await import(`../../data/products/${this.category.toLowerCase()}.js`);
-          this.product = Object.values(module.PRODUCTS);
+          const localProducts = Object.values(module.PRODUCTS);
+
+          // 2. Firestore 데이터 가져오기
+          const categoryId = SET_CATEGORY_MAP[this.category] || "";
+          let firestoreProducts = [];
+
+          if (categoryId) {
+            const querySnapshot = await db.collection("products")
+              .where("category", "==", categoryId)
+              .get();
+
+            firestoreProducts = querySnapshot.docs.map((doc) => {
+              const data = doc.data();
+              // 🔒 보안: 가격 정보 제거 (관리자만 Firebase Console에서 확인)
+              delete data.price;
+              return {
+                id: doc.id,
+                ...data,
+                createDate: data.createDate ? data.createDate.toDate() : null,
+              };
+            });
+          }
+
+          // 3. 로컬 + Firestore 데이터 합치기
+          this.product = [...localProducts, ...firestoreProducts];
           this.total = this.product.length;
 
-          // 서브카테고리 설정만
+          // 4. 서브카테고리 설정
           const subCategoryMap = new Map();
           this.product.forEach((p) => {
             const title = p.subCategory?.title ?? "전체";

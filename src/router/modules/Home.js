@@ -12,6 +12,7 @@ const DirectView = () => import('../../views/cart/direct/Direct_View')
 const OrderList = () => import('../../views/cart/OrderList')
 const Introduction = () => import('../../views/home/Introduction')
 const SearchView = () => import('../../views/home/SearchView')
+const Wishlist = () => import('../../views/wishlist/Wishlist')
 
 
 
@@ -76,5 +77,9 @@ export default [
   {
     path:'/search_view',name:'',component:SearchView,
     meta: {},
+  },
+  {
+    path:'/wishlist',name:'Wishlist',component:Wishlist,
+    meta: {requiresAuth: true},
   },
 ]

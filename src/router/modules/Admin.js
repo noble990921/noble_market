@@ -5,6 +5,7 @@ const ProductContent = ()=> import('../../admin/ProductContent')
 const NewOrder = ()=> import('../../admin/NewOrder')
 const OrderDetail = ()=> import('../../admin/OrderDetail')
 const UserManagement = ()=> import('../../admin/UserManagement')
+const WishlistManagement = ()=> import('../../admin/WishlistManagement')
 
 export default [
   {
@@ -34,5 +35,9 @@ export default [
   {
     path: '/admin/user/management', name: 'UserManagement', component: UserManagement,
     meta: { requiredRole: true, layout: 'Admin', title: '회원관리' }
+  },
+  {
+    path: '/admin/wishlist/management', name: 'WishlistManagement', component: WishlistManagement,
+    meta: { requiredRole: true, layout: 'Admin', title: '찜목록관리' }
   },
 ]
