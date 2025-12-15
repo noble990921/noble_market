@@ -92,6 +92,9 @@
       handleClose() {
         this.$emit('update:visible', false);
       }
+    },
+    created(){
+//      console.log('test:',this.product)
     }
   };
 </script>

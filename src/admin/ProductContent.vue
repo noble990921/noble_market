@@ -73,12 +73,38 @@
         </div>
       </div>
 
+      <!-- 사이즈 데이터 -->
+      <div class="info_section" v-if="info.sizeData && info.sizeData.size && info.sizeData.size.length > 0">
+        <h3>사이즈 데이터 ({{ info.sizeData.size.length }}개)</h3>
+        <div class="size_data_list">
+          <div v-for="(size, idx) in info.sizeData.size" :key="'size-'+idx" class="size_data_item">
+            <div class="size_data_header">
+              <span class="badge">{{ idx + 1 }}</span>
+              <strong>{{ size.unit || '-' }}</strong>
+            </div>
+            <div class="size_data_content">
+              <span v-if="size.totalLength">총기장/총장: {{ size.totalLength }}cm</span>
+              <span v-if="size.waistSection">허리단면: {{ size.waistSection }}cm</span>
+              <span v-if="size.crossSection">허벅지단면: {{ size.crossSection }}cm</span>
+              <span v-if="size.bottomSection">밑단단면: {{ size.bottomSection }}cm</span>
+              <span v-if="size.rise">밑위: {{ size.rise }}cm</span>
+              <span v-if="size.shoulderWidth">어깨너비: {{ size.shoulderWidth }}cm</span>
+              <span v-if="size.chestSection">가슴단면: {{ size.chestSection }}cm</span>
+              <span v-if="size.sleeveLength">소매길이: {{ size.sleeveLength }}cm</span>
+              <span v-if="size.z">높이: {{ size.z }}cm</span>
+              <span v-if="size.x">너비: {{ size.x }}cm</span>
+              <span v-if="size.y">폭: {{ size.y }}cm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- 메인 이미지 -->
       <div class="info_section">
         <h3>메인 이미지 ({{ info.mainImg && info.mainImg.length || 0 }}장)</h3>
         <div class="image_grid">
           <div v-for="(img, idx) in info.mainImg" :key="'main-'+idx" class="image_item">
-            <img :src="img" alt="메인 이미지">
+            <img :src="typeof img === 'string' ? img : img.url" alt="메인 이미지">
             <span class="image_badge">{{ idx + 1 }}</span>
           </div>
           <p v-if="!info.mainImg || !info.mainImg.length">등록된 메인 이미지가 없습니다.</p>
@@ -90,7 +116,7 @@
         <h3>상세 이미지 ({{ info.detailImg && info.detailImg.length || 0 }}장)</h3>
         <div class="image_grid">
           <div v-for="(img, idx) in info.detailImg" :key="'detail-'+idx" class="image_item">
-            <img :src="img" alt="상세 이미지">
+            <img :src="typeof img === 'string' ? img : img.url" alt="상세 이미지">
             <span class="image_badge">{{ idx + 1 }}</span>
           </div>
           <p v-if="!info.detailImg || !info.detailImg.length">등록된 상세 이미지가 없습니다.</p>
@@ -340,6 +366,55 @@
           text-align: center;
           color: #6c757d;
           padding: 40px 0;
+        }
+      }
+
+      .size_data_list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .size_data_item {
+          padding: 16px;
+          background: #f8f9fa;
+          border-radius: 8px;
+          border-left: 4px solid #28a745;
+
+          .size_data_header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+
+            .badge {
+              background: #28a745;
+              color: white;
+              padding: 2px 8px;
+              border-radius: 4px;
+              font-size: 12px;
+              font-weight: 600;
+            }
+
+            strong {
+              font-size: 16px;
+              color: #212529;
+            }
+          }
+
+          .size_data_content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+
+            span {
+              font-size: 13px;
+              color: #495057;
+              padding: 4px 12px;
+              background: white;
+              border-radius: 4px;
+              border: 1px solid #dee2e6;
+            }
+          }
         }
       }
 

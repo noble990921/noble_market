@@ -240,7 +240,7 @@
               <div class="size-data-container">
                 <!-- BOTTOM, SKIRT 타입 -->
                 <div v-if="info.sizeData.type === 'bottom' || info.sizeData.type === 'skirt'" class="size-input-section">
-                  <div v-for="(size, idx) in info.sizeData.sizes" :key="'size-'+idx" class="size-row">
+                  <div v-for="(size, idx) in info.sizeData.size" :key="'size-'+idx" class="size-row">
                     <div class="size-row-header">
                       <span class="size-number">{{ idx + 1 }}</span>
                       <el-button
@@ -248,7 +248,7 @@
                         type="danger"
                         icon="el-icon-delete"
                         @click="removeSizeRow(idx)"
-                        :disabled="info.sizeData.sizes.length <= 1">삭제</el-button>
+                        :disabled="info.sizeData.size.length <= 1">삭제</el-button>
                     </div>
                     <div class="size-fields">
                       <el-input v-model="size.unit" placeholder="사이즈 (예: S (1))" style="width: 150px; margin-right: 10px;"></el-input>
@@ -271,7 +271,7 @@
 
                 <!-- BAG 타입 -->
                 <div v-else-if="info.sizeData.type === 'bag'" class="size-input-section">
-                  <div v-for="(size, idx) in info.sizeData.sizes" :key="'size-'+idx" class="size-row">
+                  <div v-for="(size, idx) in info.sizeData.size" :key="'size-'+idx" class="size-row">
                     <div class="size-row-header">
                       <span class="size-number">{{ idx + 1 }}</span>
                       <el-button
@@ -279,7 +279,7 @@
                         type="danger"
                         icon="el-icon-delete"
                         @click="removeSizeRow(idx)"
-                        :disabled="info.sizeData.sizes.length <= 1">삭제</el-button>
+                        :disabled="info.sizeData.size.length <= 1">삭제</el-button>
                     </div>
                     <div class="size-fields">
                       <el-input v-model="size.unit" placeholder="사이즈 (예: free, cm)" style="width: 150px; margin-right: 10px;"></el-input>
@@ -300,7 +300,7 @@
 
                 <!-- OUTER, TOP, SHORT SLEEVES 타입 -->
                 <div v-else-if="info.sizeData.type === 'outer' || info.sizeData.type === 'top' || info.sizeData.type === 'shortSleeves'" class="size-input-section">
-                  <div v-for="(size, idx) in info.sizeData.sizes" :key="'size-'+idx" class="size-row">
+                  <div v-for="(size, idx) in info.sizeData.size" :key="'size-'+idx" class="size-row">
                     <div class="size-row-header">
                       <span class="size-number">{{ idx + 1 }}</span>
                       <el-button
@@ -308,7 +308,7 @@
                         type="danger"
                         icon="el-icon-delete"
                         @click="removeSizeRow(idx)"
-                        :disabled="info.sizeData.sizes.length <= 1">삭제</el-button>
+                        :disabled="info.sizeData.size.length <= 1">삭제</el-button>
                     </div>
                     <div class="size-fields">
                       <el-input v-model="size.unit" placeholder="사이즈 (예: S, M, L)" style="width: 150px; margin-right: 10px;"></el-input>
@@ -485,7 +485,7 @@
           sizeData: {
             type: '',
             img: '',
-            sizes: []
+            size: []
           },
           sellQuantity:0,
         },
@@ -514,12 +514,13 @@
       },
       'info.sizeData.type'(newType, oldType) {
         // 사이즈 타입 변경 시 기본 사이즈 행 추가 (기존 데이터가 없을 때만)
-        if (newType && this.info.sizeData.sizes.length === 0) {
+        if (newType && this.info.sizeData.size.length === 0) {
           this.addSizeRow();
         }
-        // 타입 변경 시 기존 sizes 초기화 (옵션)
-        if (newType !== oldType && oldType) {
-          this.info.sizeData.sizes = [];
+        // 수정 모드가 아니고, 타입을 의도적으로 변경한 경우에만 초기화
+        // (수정 모드에서 데이터 로드 시에는 초기화하지 않음)
+        if (newType !== oldType && oldType && !this.info.id) {
+          this.info.sizeData.size = [];
           this.addSizeRow();
         }
       }
@@ -563,10 +564,14 @@
               typeof img === 'string' ? { url: img, order: idx + 1 } : { ...img, order: img.order || idx + 1 }
             );
             vm.info.detailText = data.detailText || [{title: '', content: ''}];
-            vm.info.sizeData = {
-              type: data.sizeData?.type || '',
-              img: data.sizeData?.img || '',
-              sizes: data.sizeData?.sizes || []
+            vm.info.sizeData = data.sizeData ? {
+              type: data.sizeData.type || '',
+              img: data.sizeData.img || '',
+              size: data.sizeData.size || []
+            } : {
+              type: '',
+              img: '',
+              size: []
             };
             vm.info.sellQuantity = data.sellQuantity || 0;
 
@@ -677,7 +682,7 @@
           sizeData: {
             type: vm.info.sizeData.type ,
             img: sizeImgMap[vm.info.sizeData.type],
-            sizes: vm.info.sizeData.sizes || []
+            size: vm.info.sizeData.size || []
           },
           sellQuantity: vm.info.sellQuantity || 0,
         };
@@ -701,7 +706,10 @@
       // 카테고리 변경 시 서브 카테고리 옵션 업데이트
       watchCategoryChange(newCategory) {
         this.subCategoryOptions = SUB_CATEGORY_OPTIONS[newCategory] || [];
-        this.info.subCategory = ""; // 서브 카테고리 초기화
+        // 수정 모드가 아닐 때만 서브 카테고리 초기화 (데이터 로드 시에는 유지)
+        if (!this.info.id) {
+          this.info.subCategory = "";
+        }
       },
 
       changeContent({key, html}) {
@@ -887,13 +895,13 @@
           };
         }
 
-        this.info.sizeData.sizes.push(newSize);
+        this.info.sizeData.size.push(newSize);
       },
 
       // 사이즈 행 삭제
       removeSizeRow(index) {
-        if (this.info.sizeData.sizes.length > 1) {
-          this.info.sizeData.sizes.splice(index, 1);
+        if (this.info.sizeData.size.length > 1) {
+          this.info.sizeData.size.splice(index, 1);
         }
       },
     },
