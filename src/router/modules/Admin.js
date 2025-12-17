@@ -14,15 +14,15 @@ export default [
   },
   {
     path: '/admin/product/management', name: 'ProductManagement', component: ProductManagement,
-    meta: { requiredRole: true, layout: 'Admin', title: '상품관리' }
+    meta: { requiredRole: 'admin', layout: 'Admin', title: '상품관리' }
   },
   {
     path: '/admin/product/save/:params?', name: 'ProductSave', component: ProductSave,
-    meta: { requiredRole: true, layout: 'Admin', title: '상품등록/수정' }
+    meta: { requiredRole: 'admin', layout: 'Admin', title: '상품등록/수정' }
   },
   {
     path: '/admin/product/content/:params?', name: 'ProductContent', component: ProductContent,
-    meta: { requiredRole: true, layout: 'Admin', title: '상품상세' }
+    meta: { requiredRole: 'admin', layout: 'Admin', title: '상품상세' }
   },
   {
     path: '/admin/new_order/management', name: 'NewOrder', component: NewOrder,
@@ -38,6 +38,6 @@ export default [
   },
   {
     path: '/admin/wishlist/management', name: 'WishlistManagement', component: WishlistManagement,
-    meta: { requiredRole: true, layout: 'Admin', title: '찜목록관리' }
+    meta: { requiredRole: 'admin', layout: 'Admin', title: '찜목록관리' }
   },
 ]

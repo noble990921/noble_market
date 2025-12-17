@@ -1,9 +1,5 @@
 <template>
   <div id="ProductSave">
-    <div class="add_btn">
-      <button @click="$router.push('/admin/product/management')" class="cancel_btn">취소</button>
-      <button @click="saveProduct" class="save_btn">저장</button>
-    </div>
     <div class="ps_container">
       <div class="ps_container_top">
         <div class="top_setting">
@@ -122,10 +118,15 @@
                   <el-upload
                       :action="''"
                       :auto-upload="false"
-                      :on-change="(file) => handleMultipleFileChange(file, 'main')"
+                      :drag="true"
+                      :on-change="(file, fileList) => handleBatchFileChange(fileList, 'main')"
+                      :on-exceed="(files, fileList) => handleExceedLimit(files, fileList, 'main', 8)"
                       :show-file-list="false"
+                      :multiple="true"
+                      :limit="8"
                       accept="image/*">
-                    <el-button size="small" icon="el-icon-plus">추가 ({{ info.mainImg.length }}/8)</el-button>
+                    <i class="el-icon-upload"></i>
+                    <div class="el-upload__text">드래그하거나 <em>클릭</em>하여 업로드 ({{ info.mainImg.length }}/8)</div>
                   </el-upload>
                 </div>
               </div>
@@ -165,10 +166,15 @@
                   <el-upload
                       :action="''"
                       :auto-upload="false"
-                      :on-change="(file) => handleMultipleFileChange(file, 'detail')"
+                      :drag="true"
+                      :on-change="(file, fileList) => handleBatchFileChange(fileList, 'detail')"
+                      :on-exceed="(files, fileList) => handleExceedLimit(files, fileList, 'detail', 10)"
                       :show-file-list="false"
+                      :multiple="true"
+                      :limit="10"
                       accept="image/*">
-                    <el-button size="small" icon="el-icon-plus">추가 ({{ info.detailImg.length }}/10)</el-button>
+                    <i class="el-icon-upload"></i>
+                    <div class="el-upload__text">드래그하거나 <em>클릭</em>하여 업로드 ({{ info.detailImg.length }}/10)</div>
                   </el-upload>
                 </div>
               </div>
@@ -208,38 +214,62 @@
                   <el-upload
                       :action="''"
                       :auto-upload="false"
-                      :on-change="(file) => handleMultipleFileChange(file, 'wearing')"
+                      :drag="true"
+                      :on-change="(file, fileList) => handleBatchFileChange(fileList, 'wearing')"
+                      :on-exceed="(files, fileList) => handleExceedLimit(files, fileList, 'wearing', 10)"
                       :show-file-list="false"
+                      :multiple="true"
+                      :limit="10"
                       accept="image/*">
-                    <el-button size="small" icon="el-icon-plus">추가 ({{ info.wearingImg.length }}/10)</el-button>
+                    <i class="el-icon-upload"></i>
+                    <div class="el-upload__text">드래그하거나 <em>클릭</em>하여 업로드 ({{ info.wearingImg.length }}/10)</div>
                   </el-upload>
                 </div>
               </div>
             </span>
           </div>
 
-          <!-- 사이즈 정보 -->
-          <div id="ps_size_box" class="set_row">
-            <span class="title_label">사이즈 타입</span>
+          <!-- 사이즈 정보 (신발/지갑/악세사리는 숨김) -->
+          <div v-if="info.sizeData.type && info.sizeData.type !== null" id="ps_size_box" class="set_row">
+            <span class="title_label">사이즈 타입 (자동 설정됨)</span>
             <span class="select_span">
-              <el-select v-model="info.sizeData.type" placeholder="사이즈 타입 선택">
-                <el-option label="아우터" value="outer"></el-option>
-                <el-option label="상의" value="top"></el-option>
-                <el-option label="반팔" value="shortSleeves"></el-option>
-                <el-option label="하의" value="bottom"></el-option>
+              <el-select v-model="info.sizeData.type" placeholder="서브 카테고리 선택 시 자동 설정" disabled>
+                <el-option label="패딩" value="padding"></el-option>
+                <el-option label="재킷" value="jacket"></el-option>
+                <el-option label="바람막이" value="windbreaker"></el-option>
+                <el-option label="가디건" value="cardigan"></el-option>
+                <el-option label="후드집업" value="hoodzipup"></el-option>
+                <el-option label="무스탕/퍼" value="mustang"></el-option>
+                <el-option label="코트" value="coat"></el-option>
+                <el-option label="조끼/베스트" value="vest"></el-option>
+                <el-option label="슈트/블레이저" value="suit"></el-option>
+                <el-option label="맨투맨/스웨트" value="sweatshirt"></el-option>
+                <el-option label="후드" value="hood"></el-option>
+                <el-option label="긴소매" value="longsleeve"></el-option>
+                <el-option label="니트/스웨터" value="knitsweater"></el-option>
+                <el-option label="반소매" value="shortsleeve"></el-option>
+                <el-option label="피케/카라" value="polo"></el-option>
+                <el-option label="민소매" value="sleeveless"></el-option>
+                <el-option label="셔츠/블라우스" value="shirtblouse"></el-option>
+                <el-option label="데님" value="denim"></el-option>
+                <el-option label="트레이닝/조거" value="jogger"></el-option>
+                <el-option label="코튼" value="cotton"></el-option>
+                <el-option label="슬랙스" value="slacks"></el-option>
+                <el-option label="숏팬츠" value="shortpants"></el-option>
+                <el-option label="원피스/스커트" value="dressskirt"></el-option>
+                <el-option label="신발" value="shoes"></el-option>
                 <el-option label="가방" value="bag"></el-option>
-                <el-option label="스커트" value="skirt"></el-option>
               </el-select>
             </span>
           </div>
 
-          <!-- 사이즈 데이터 입력 (타입별) -->
-          <div v-if="info.sizeData.type" id="ps_size_data_box" class="set_row">
+          <!-- 사이즈 데이터 입력 (타입별) - 신발/지갑/악세사리는 숨김 -->
+          <div v-if="info.sizeData.type && info.sizeData.type !== null" id="ps_size_data_box" class="set_row">
             <span class="title_label">사이즈 데이터</span>
             <span class="select_span">
               <div class="size-data-container">
-                <!-- BOTTOM, SKIRT 타입 -->
-                <div v-if="info.sizeData.type === 'bottom' || info.sizeData.type === 'skirt'" class="size-input-section">
+                <!-- BOTTOM 타입 (데님, 트레이닝/조거, 코튼, 슬랙스, 숏팬츠, 원피스/스커트) -->
+                <div v-if="['denim', 'jogger', 'cotton', 'slacks', 'shortpants', 'dressskirt'].includes(info.sizeData.type)" class="size-input-section">
                   <div v-for="(size, idx) in info.sizeData.size" :key="'size-'+idx" class="size-row">
                     <div class="size-row-header">
                       <span class="size-number">{{ idx + 1 }}</span>
@@ -251,12 +281,13 @@
                         :disabled="info.sizeData.size.length <= 1">삭제</el-button>
                     </div>
                     <div class="size-fields">
-                      <el-input v-model="size.unit" placeholder="사이즈 (예: S (1))" style="width: 150px; margin-right: 10px;"></el-input>
-                      <el-input v-model.number="size.totalLength" placeholder="총 기장" type="number" style="width: 100px; margin-right: 10px;"></el-input>
-                      <el-input v-model.number="size.waistSection" placeholder="허리단면" type="number" style="width: 100px; margin-right: 10px;"></el-input>
-                      <el-input v-model.number="size.crossSection" placeholder="허벅지단면" type="number" style="width: 100px; margin-right: 10px;"></el-input>
-                      <el-input v-model.number="size.bottomSection" placeholder="밑단단면" type="number" style="width: 100px; margin-right: 10px;"></el-input>
-                      <el-input v-model.number="size.rise" placeholder="밑위" type="number" style="width: 100px;"></el-input>
+                      <el-input v-model="size.unit" placeholder="사이즈 (예: 28, 30)" style="width: 120px; margin-right: 10px;"></el-input>
+                      <el-input v-model.number="size.totalLength" placeholder="총장" type="number" style="width: 90px; margin-right: 10px;"></el-input>
+                      <el-input v-model.number="size.waistSection" placeholder="허리단면" type="number" style="width: 90px; margin-right: 10px;"></el-input>
+                      <el-input v-model.number="size.hipSection" placeholder="엉덩이단면" type="number" style="width: 100px; margin-right: 10px;"></el-input>
+                      <el-input v-model.number="size.thighSection" placeholder="허벅지단면" type="number" style="width: 100px; margin-right: 10px;"></el-input>
+                      <el-input v-model.number="size.rise" placeholder="밑위" type="number" style="width: 90px; margin-right: 10px;"></el-input>
+                      <el-input v-model.number="size.hemSection" placeholder="밑위단면" type="number" style="width: 90px;"></el-input>
                     </div>
                   </div>
                   <el-button
@@ -298,8 +329,8 @@
                   </el-button>
                 </div>
 
-                <!-- OUTER, TOP, SHORT SLEEVES 타입 -->
-                <div v-else-if="info.sizeData.type === 'outer' || info.sizeData.type === 'top' || info.sizeData.type === 'shortSleeves'" class="size-input-section">
+                <!-- OUTER & TOP 타입 (아우터, 상의) -->
+                <div v-else-if="['padding', 'jacket', 'windbreaker', 'cardigan', 'hoodzipup', 'mustang', 'coat', 'vest', 'suit', 'sweatshirt', 'hood', 'longsleeve', 'knitsweater', 'shortsleeve', 'polo', 'sleeveless', 'shirtblouse'].includes(info.sizeData.type)" class="size-input-section">
                   <div v-for="(size, idx) in info.sizeData.size" :key="'size-'+idx" class="size-row">
                     <div class="size-row-header">
                       <span class="size-number">{{ idx + 1 }}</span>
@@ -326,6 +357,11 @@
                     style="margin-top: 10px;">
                     사이즈 추가
                   </el-button>
+                </div>
+
+                <!-- SHOES 타입 (신발) - 사이즈 입력 없음, 사진만 -->
+                <div v-else-if="info.sizeData.type === 'shoes'" class="size-input-section">
+                  <p style="color: #909399; padding: 20px; text-align: center;">신발은 사이즈 이미지만 표시됩니다. 입력 필요 없음.</p>
                 </div>
               </div>
             </span>
@@ -375,6 +411,10 @@
                            @change="changeContent"/>
         </div>
       </div>
+    </div>
+    <div class="add_btn" style="text-align: center">
+      <button @click="$router.push('/admin/product/management')" class="cancel_btn">취소</button>
+      <button @click="saveProduct" class="save_btn">저장</button>
     </div>
   </div>
 </template>
@@ -457,6 +497,68 @@
       {id:5, title: "키링/기타", img: "keyring"}
     ]
   }
+
+  // 서브 카테고리 → 사이즈 타입 매핑
+  const SUB_CATEGORY_TO_SIZE_TYPE = {
+    // 아우터 (카테고리 1) - 총장, 어깨너비, 가슴단면, 소매길이
+    "패딩": "padding",
+    "재킷": "jacket",
+    "바람막이": "windbreaker",
+    "가디건": "cardigan",
+    "후드집업": "hoodzipup",
+    "무스탕/퍼": "mustang",
+    "코트": "coat",
+    "조끼/베스트": "vest",
+    "슈트/블레이저": "suit",
+
+    // 상의 (카테고리 2) - 총장, 어깨너비, 가슴단면, 소매길이
+    "맨투맨/스웨트": "sweatshirt",
+    "후드": "hood",
+    "긴소매": "longsleeve",
+    "니트/스웨터": "knitsweater",
+    "반소매": "shortsleeve",
+    "피케/카라": "polo",
+    "민소매": "sleeveless",
+    "셔츠/블라우스": "shirtblouse",
+
+    // 하의 (카테고리 3) - 총장, 허리단면, 엉덩이단면, 허벅지단면, 밑위, 밑위단면
+    "데님": "denim",
+    "트레이닝/조거": "jogger",
+    "코튼": "cotton",
+    "슬랙스": "slacks",
+    "숏 팬츠": "shortpants",
+    "원피스/스커트": "dressskirt",
+
+    // 신발 (카테고리 4) - 사이즈 입력 없음, 사진만
+    "스니커즈": "shoes",
+    "구두/로퍼": "shoes",
+    "샌들/슬리퍼": "shoes",
+    "부츠/워커": "shoes",
+
+    // 지갑 (카테고리 5) - 사이즈 입력 없음, 사진도 없음
+    "장지갑": null,
+    "중지갑": null,
+    "반지갑": null,
+    "카드/명합지갑": null,
+    "동전/여권지갑": null,
+
+    // 가방 (카테고리 6)
+    "미니백": "bag",
+    "백팩": "bag",
+    "숄더백": "bag",
+    "토트백": "bag",
+    "크로스백": "bag",
+    "클러치": "bag",
+    "더플백": "bag",
+
+    // 악세사리 (카테고리 7) - 사이즈 입력 없음, 사진도 없음
+    "목걸이": null,
+    "팔찌": null,
+    "반지": null,
+    "귀걸이": null,
+    "키링/기타": null
+  };
+
   export default {
     name: "ProductSave",
     components: {
@@ -512,7 +614,29 @@
           this.info.enBrand = brandData.enName;
         }
       },
+      'info.subCategory'(newSubCategory) {
+        // 서브 카테고리 선택 시 자동으로 사이즈 타입 설정
+        if (newSubCategory) {
+          const sizeType = SUB_CATEGORY_TO_SIZE_TYPE[newSubCategory];
+
+          // 사이즈 타입이 변경되었을 때만 업데이트
+          if (this.info.sizeData.type !== sizeType) {
+            this.info.sizeData.type = sizeType || '';
+
+            // 사이즈 타입이 null이면 (신발, 지갑, 악세사리) 사이즈 데이터 초기화
+            if (sizeType === null) {
+              this.info.sizeData.size = [];
+            }
+          }
+        }
+      },
       'info.sizeData.type'(newType, oldType) {
+        // 신발은 사이즈 입력이 필요 없음
+        if (newType === 'shoes') {
+          this.info.sizeData.size = [];
+          return;
+        }
+
         // 사이즈 타입 변경 시 기본 사이즈 행 추가 (기존 데이터가 없을 때만)
         if (newType && this.info.sizeData.size.length === 0) {
           this.addSizeRow();
@@ -563,7 +687,8 @@
             vm.info.wearingImg = (data.wearingImg || []).map((img, idx) =>
               typeof img === 'string' ? { url: img, order: idx + 1 } : { ...img, order: img.order || idx + 1 }
             );
-            vm.info.detailText = data.detailText || [{title: '', content: ''}];
+//            vm.info.detailText = data.detailText || [{title: '', content: ''}];
+            vm.info.detailText = data.detailText || null;
             vm.info.sizeData = data.sizeData ? {
               type: data.sizeData.type || '',
               img: data.sizeData.img || '',
@@ -608,7 +733,6 @@
             !vm.type ||
             vm.info.isOpen === null ||
             !vm.info.createDate ||
-            !vm.info.price ||
             !vm.info.brand ||
             !vm.info.subCategory ||
             !vm.info.modelNumber
@@ -639,23 +763,65 @@
         }
 
         // 검증: DetailText 빈 항목 확인
-        const emptyDetailText = vm.info.detailText.some(
-          item => !item.title.trim() || !item.content.trim()
-        );
-        if (emptyDetailText) {
-          vm.$alert("상세 설명의 모든 항목(제목, 내용)을 입력해주세요.", "알림");
-          return;
-        }
+//        const emptyDetailText = vm.info.detailText.some(
+//          item => !item.title.trim() || !item.content.trim()
+//        );
+//        if (emptyDetailText) {
+//          vm.$alert("상세 설명의 모든 항목(제목, 내용)을 입력해주세요.", "알림");
+//          return;
+//        }
 
         // 사이즈 이미지 경로 설정
         const sizeImgMap = {
-          'outer': '/media/productDetail/outer_size.png',
-          'top': '/media/productDetail/outer_size.png',
-          'shortSleeves':'/media/productDetail/outer_size.png',
-          'bottom': '/media/productDetail/bottom_size.png',
-          'bag': '/media/productDetail/bag_size.png',
-          'skirt': '/media/productDetail/skirt_size.png',
+          // 아우터
+          'padding': '/media/productDetail/padding_size.png',
+          'jacket': '/media/productDetail/jacket_size.png',
+          'windbreaker': '/media/productDetail/jacket_size.png',
+          'cardigan': '/media/productDetail/jacket_size.png',
+          'hoodzipup': '/media/productDetail/jacket_size.png',
+          'mustang': '/media/productDetail/jacket_size.png',
+          'coat': '/media/productDetail/coat_size.png',
+          'vest': '/media/productDetail/vest_size.png',
+          'suit': '/media/productDetail/suit_size.png',
+          // 상의
+          'sweatshirt': '/media/productDetail/sweatshirt_size.png',
+          'hood': '/media/productDetail/sweatshirt_size.png',
+          'longsleeve': '/media/productDetail/sweatshirt_size.png',
+          'knitsweater': '/media/productDetail/sweatshirt_size.png',
+          'shortsleeve': '/media/productDetail/shortsleeve_size.png',
+          'polo': '/media/productDetail/shortsleeve_size.png',
+          'sleeveless': '/media/productDetail/sleeveless_size.png',
+          'shirtblouse': '/media/productDetail/shirtblouse_size.png',
+          // 하의
+          'denim': '/media/productDetail/denim_size.png',
+          'jogger': '/media/productDetail/denim_size.png',
+          'cotton': '/media/productDetail/denim_size.png',
+          'slacks': '/media/productDetail/denim_size.png',
+          'shortpants': '/media/productDetail/shortpants_size.png',
+          'dressskirt': '/media/productDetail/dressskirt_size.png',
+          // 신발
+          'shoes': '/media/productDetail/shoes_size.png',
+          // 가방
+          'bag': '/media/productDetail/bag_size.png'
         };
+
+        // detailText에서 빈 항목 제거 (제목과 내용이 모두 채워진 항목만 저장)
+        const filteredDetailText = vm.info.detailText.filter(
+          item => item.title.trim() && item.content.trim()
+        );
+
+        // 사이즈 데이터 처리 (신발/지갑/악세사리는 null 또는 빈 객체)
+        const sizeData = vm.info.sizeData.type && vm.info.sizeData.type !== null
+          ? {
+              type: vm.info.sizeData.type,
+              img: sizeImgMap[vm.info.sizeData.type] || '',
+              size: vm.info.sizeData.size || []
+            }
+          : {
+              type: '',
+              img: '',
+              size: []
+            };
 
         const productData = {
           title: vm.info.title,
@@ -674,16 +840,12 @@
           isOpen: vm.info.isOpen,
           createDate: vm.info.createDate,
           content: vm.info.content || "",
-          price: vm.info.price,
+          price: vm.info.price || 0,
           mainImg: vm.info.mainImg.map(img => img.url || img),
           detailImg: vm.info.detailImg.map(img => img.url || img),
           wearingImg: vm.info.wearingImg.map(img => img.url || img),
-          detailText: vm.info.detailText,
-          sizeData: {
-            type: vm.info.sizeData.type ,
-            img: sizeImgMap[vm.info.sizeData.type],
-            size: vm.info.sizeData.size || []
-          },
+          detailText: filteredDetailText,  // 빈 항목이 제거된 배열
+          sizeData: sizeData,  // 사이즈 데이터 (옵셔널)
           sellQuantity: vm.info.sellQuantity || 0,
         };
 
@@ -786,6 +948,155 @@
           imageArray.splice(index, 1);
           vm.$message.error('이미지 처리 중 오류가 발생했습니다.');
         }
+      },
+
+      // 배치 이미지 업로드 (다중 선택 지원, 병렬 업로드)
+      async handleBatchFileChange(fileList, type) {
+        const vm = this;
+        const imageArray = type === 'main' ? vm.info.mainImg :
+                          type === 'detail' ? vm.info.detailImg :
+                          vm.info.wearingImg;
+        const maxLimit = type === 'main' ? 8 : 10;
+
+        // 🔍 디버깅: fileList 확인
+        console.log('📁 전체 fileList:', fileList.length, fileList);
+        console.log('📊 현재 imageArray:', imageArray.length);
+
+        // 이미 처리 중인 파일 UID 추적
+        if (!vm.processedFileUids) {
+          vm.processedFileUids = new Set();
+        }
+
+        // 🎯 새로운 파일만 필터링 (중복 제거)
+        const newFiles = fileList.filter(file => {
+          if (vm.processedFileUids.has(file.uid)) {
+            console.log('⏭️  이미 처리됨:', file.name, file.uid);
+            return false;
+          }
+          return true;
+        });
+
+        console.log('✨ 새 파일:', newFiles.length, newFiles.map(f => f.name));
+
+        if (newFiles.length === 0) {
+          console.log('❌ 처리할 새 파일 없음');
+          return;
+        }
+
+        // 현재 + 새로 추가할 파일 개수 체크
+        const newFilesCount = newFiles.length;
+        const availableSlots = maxLimit - imageArray.length;
+
+        if (newFilesCount > availableSlots) {
+          vm.$message.warning(`최대 ${maxLimit}장까지 업로드 가능합니다. ${availableSlots}장만 선택해주세요.`);
+          return;
+        }
+
+        // 처리 중인 파일로 등록
+        newFiles.forEach(file => vm.processedFileUids.add(file.uid));
+
+        vm.$message.info(`${newFilesCount}개 이미지를 압축 및 업로드 중...`);
+
+        // 초기 배열 길이 저장 (인덱스 충돌 방지)
+        const initialLength = imageArray.length;
+
+        // 미리 자리 확보 (모든 임시 객체를 먼저 추가)
+        newFiles.forEach((file, idx) => {
+          imageArray.push({ url: '', uploading: true, order: initialLength + idx + 1 });
+        });
+
+        // 각 파일에 대한 업로드 프로미스 생성
+        const uploadPromises = newFiles.map(async (fileItem, fileIdx) => {
+          const targetIndex = initialLength + fileIdx;
+
+          try {
+            // 이미지 압축 및 WebP 변환
+            const options = {
+              maxSizeMB: 0.5,
+              maxWidthOrHeight: type === 'main' ? 1200 : 1920,
+              useWebWorker: true,
+              fileType: 'image/webp'
+            };
+
+            const compressedFile = await imageCompression(fileItem.raw, options);
+
+            // 로컬 프리뷰
+            const previewURL = await new Promise((resolve) => {
+              const reader = new FileReader();
+              reader.onload = (e) => resolve(e.target.result);
+              reader.readAsDataURL(compressedFile);
+            });
+
+            // 임시로 프리뷰 이미지 표시
+            vm.$set(imageArray, targetIndex, { url: previewURL, uploading: true, order: targetIndex + 1 });
+
+            // Firebase 업로드
+            const storageRef = storage.ref();
+            const timestamp = Date.now();
+            const fileName = `products/${type}/${timestamp}_${targetIndex}_${fileIdx}.webp`;
+            const uploadTask = storageRef.child(fileName).put(compressedFile);
+
+            // 업로드 완료 대기
+            await uploadTask;
+            const downloadURL = await uploadTask.snapshot.ref.getDownloadURL();
+
+            // 업로드 완료된 URL로 교체
+            vm.$set(imageArray, targetIndex, { url: downloadURL, uploading: false, order: targetIndex + 1 });
+
+            return { success: true, index: targetIndex };
+          } catch (error) {
+            console.error(`이미지 ${fileIdx + 1} 업로드 실패:`, error);
+            // 실패한 항목 제거
+            vm.$set(imageArray, targetIndex, { url: '', uploading: false, error: true });
+            return { success: false, index: targetIndex, error };
+          }
+        });
+
+        // 모든 업로드를 병렬로 실행
+        const results = await Promise.allSettled(uploadPromises);
+
+        // 실패한 항목 제거 (뒤에서부터 제거해야 인덱스 안 꼬임)
+        for (let i = imageArray.length - 1; i >= initialLength; i--) {
+          if (imageArray[i].error) {
+            imageArray.splice(i, 1);
+          }
+        }
+
+        // 결과 집계
+        const successCount = results.filter(r => r.status === 'fulfilled' && r.value.success).length;
+        const failCount = results.length - successCount;
+
+        console.log('✅ 업로드 완료:', successCount, '성공,', failCount, '실패');
+
+        if (failCount === 0) {
+          vm.$message.success(`${successCount}개 이미지 업로드 완료!`);
+        } else {
+          vm.$message.warning(`${successCount}개 성공, ${failCount}개 실패`);
+        }
+
+        // 업로드 완료 후 처리된 파일 UID 정리 (성공한 파일만 유지)
+        // 실패한 파일의 UID는 제거하여 재시도 가능하게 함
+        results.forEach((result, idx) => {
+          if (result.status === 'rejected' || (result.value && !result.value.success)) {
+            vm.processedFileUids.delete(newFiles[idx].uid);
+          }
+        });
+      },
+
+      // 업로드 제한 초과 처리
+      handleExceedLimit(files, fileList, type, maxLimit) {
+        const vm = this;
+        const imageArray = type === 'main' ? vm.info.mainImg :
+                          type === 'detail' ? vm.info.detailImg :
+                          vm.info.wearingImg;
+
+        const currentCount = imageArray.length;
+        const availableSlots = maxLimit - currentCount;
+        const attemptedCount = files.length;
+
+        vm.$message.warning(
+          `최대 ${maxLimit}장까지 업로드 가능합니다. 현재 ${currentCount}장이 등록되어 있어 ${availableSlots}장만 추가할 수 있습니다. (선택한 파일: ${attemptedCount}장)`
+        );
       },
 
       // 이미지 삭제

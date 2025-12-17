@@ -30,10 +30,21 @@ router.beforeEach((to, from, next) => {
   }
 
   if (requiredRole) {
-    if (!isLogin || !user || !(user.role === 'admin' || user.role === 'partner')) {
-      Vue.prototype.$alert('관리자 권한이 필요합니다. 관리자 계정으로 로그인 해주세요.', '알림');
-      next('/');
-      return;
+    // requiredRole이 'admin'인 경우 admin만 허용
+    if (requiredRole === 'admin') {
+      if (!isLogin || !user || user.role !== 'admin') {
+        Vue.prototype.$alert('해당 페이지는 최고 관리자만 접근 가능합니다.', '알림');
+        next('/');
+        return;
+      }
+    }
+    // requiredRole이 true인 경우 admin 또는 partner 허용
+    else if (requiredRole === true) {
+      if (!isLogin || !user || !(user.role === 'admin' || user.role === 'partner')) {
+        Vue.prototype.$alert('관리자 권한이 필요합니다. 관리자 계정으로 로그인 해주세요.', '알림');
+        next('/');
+        return;
+      }
     }
   }
 

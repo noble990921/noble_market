@@ -13,7 +13,7 @@
         <i @click="toggleAside" class="el-icon-close"></i>
       </div>
       <ul>
-        <li v-for="m in MENU" :key="m.id"  :class="{ active: activeMenu == m.id }"
+        <li v-for="m in filteredMenu" :key="m.id"  :class="{ active: activeMenu == m.id }"
             @click="handleMenuClick(m)">
           {{m.title}}
         </li>
@@ -23,19 +23,26 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex';
+
   const MENU = [
-    {id: "1", title: "대시보드", url: "/admin/dashboard"},
-    {id: "2", title: "상품 관리", url: "/admin/product/management"},
-//    {id: "3", title: "신규 주문", url: "/admin/new_order/management"},
-//    {id: "4", title: "주문 내역", url: "/admin/order_detail/management"},
-    {id: "5", title: "회원 관리", url: "/admin/user/management"},
-    {id: "6", title: "찜목록 관리", url: "/admin/wishlist/management"},
+    {id: "1", title: "대시보드", url: "/admin/dashboard", roles: ['admin', 'partner']},
+    {id: "2", title: "상품 관리", url: "/admin/product/management", roles: ['admin']},
+//    {id: "3", title: "신규 주문", url: "/admin/new_order/management", roles: ['admin', 'partner']},
+//    {id: "4", title: "주문 내역", url: "/admin/order_detail/management", roles: ['admin', 'partner']},
+    {id: "5", title: "회원 관리", url: "/admin/user/management", roles: ['admin', 'partner']},
+    {id: "6", title: "찜목록 관리", url: "/admin/wishlist/management", roles: ['admin']},
   ];
   export default {
     name: "AdminHeader",
     computed: {
+      ...mapGetters('auth', ['user']),
       currentHeader() {
         return this.$route.meta.title || "관리자 페이지";
+      },
+      filteredMenu() {
+        if (!this.user || !this.user.role) return [];
+        return MENU.filter(menu => menu.roles.includes(this.user.role));
       }
     },
     data() {

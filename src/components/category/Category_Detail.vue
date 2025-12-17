@@ -296,8 +296,11 @@
         });
       },
       clickInput() {
+        console.log('e1',this.product)
         if (!this.loginCheck) {
           this.$alert("회원 전용 서비스입니다");
+        }  else if( !this.product.detailText || this.product.detailText.length === 0){
+          this.$alert("준비중입니다.");
         } else if (this.inputContent == false) {
           return this.inputContent = true
         } else {
