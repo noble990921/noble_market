@@ -45,7 +45,7 @@
             <span class="title_label">브랜드</span>
             <span class="select_span">
                 <el-select v-model="info.brand" placeholder="브랜드를 선택해주세요.">
-                <el-option :label="f" :value="f" v-for="(f, name) in SET_PRODUCT_BRAND" :key="name"/>
+                <el-option :label="brand" :value="brand" v-for="brand in sortedBrands" :key="brand"/>
                </el-select>
             </span>
           </div>
@@ -654,6 +654,12 @@
         return this.subCategoryOptions.find(
             (item) => item.title === this.info.subCategory
         )
+      },
+      sortedBrands() {
+        // 브랜드를 가나다순으로 정렬
+        return Object.keys(SET_PRODUCT_BRAND).sort((a, b) => {
+          return a.localeCompare(b, 'ko');
+        });
       }
     },
     methods: {
@@ -1226,6 +1232,13 @@
       }
 
       this.initSubCategoryImgMap();
+
+      // DOM 렌더링이 완전히 끝난 후 스크롤 초기화
+      this.$nextTick(() => {
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+        }, 100);
+      });
     }
   }
 </script>

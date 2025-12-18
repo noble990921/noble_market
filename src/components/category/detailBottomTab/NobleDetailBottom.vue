@@ -1,7 +1,22 @@
 <template>
   <div id="noble_detail_bottom">
+    <!-- 탭 네비게이션 -->
+    <div class="tab_navigation" ref="tabNavigation">
+      <div class="tab_container">
+        <button
+          v-for="tab in visibleTabs"
+          :key="tab.id"
+          type="button"
+          class="tab_button"
+          :class="{ active: activeTab === tab.id }"
+          @click="scrollToSection(tab.id, tab.section)">
+          <span>{{ tab.name }}</span>
+        </button>
+      </div>
+    </div>
+
     <div class="ndb_container">
-      <div class="detail_mainImg">
+      <div class="detail_mainImg" ref="detail_mainImg">
         <p class="title">제품정보</p>
         <img src="../../../../public/media/productDetail/product_img2.png">
 <!--        <div class="mainImgBox" v-for="(img,i) in product.mainImg" :key="i">-->
@@ -15,14 +30,79 @@
           <img :src="typeof img === 'string' ? img : img.url">
         </div>
       </div>
-      <div class="detail_wearingImg" v-if="product.wearingImg && product.wearingImg.length > 0"
+      <div class="detail_wearingImg" ref="detail_wearingImg" v-if="product.wearingImg && product.wearingImg.length > 0"
            :class="{ 'blur-overlay': !isLogin || !user }">
         <p class="title" style="margin: 120px 0 30px 0">제품착샷</p>
         <div class="detail_subImgBox" v-for="(img,i) in product.wearingImg" :key="i">
           <img :src="typeof img === 'string' ? img : img.url">
         </div>
       </div>
-      <div class="detail_notice"
+      <div class="detail_sizeImg" ref="detail_sizeImg" v-if="product.sizeData && product.sizeData.img">
+        <!-- 가방 템플릿 -->
+        <template v-if="product.sizeData.type === 'bag'">
+          <img :src="product.sizeData.img">
+          <table class="size_table">
+            <thead>
+            <tr><th>cm</th><th>높이</th><th>너비</th><th>폭</th></tr>
+            </thead>
+            <tbody v-for="(p,idx) in product.sizeData.size" :key="idx">
+            <tr><th>{{p.unit || '-'}}</th><td>{{p.z || '-'}}</td><td>{{p.x || '-'}}</td><td>{{p.y || '-'}}</td></tr>
+            </tbody>
+          </table>
+          <p class="notice">*사이즈는 측정 기준에 따라 오차가 있을 수 있습니다.*</p>
+        </template>
+
+        <!-- 아우터/상의 템플릿 -->
+        <template v-else-if="isOuterOrTop">
+          <img :src="product.sizeData.img">
+          <table class="size_table" v-if="product.sizeData.size && product.sizeData.size.length > 0">
+            <thead>
+            <tr><th>cm</th><th>총장</th><th>어깨너비</th><th>가슴단면</th><th>소매길이</th></tr>
+            </thead>
+            <tbody v-for="(p,idx) in product.sizeData.size" :key="idx">
+            <tr><th>{{p.unit || '-'}}</th><td>{{p.totalLength || '-'}}</td><td>{{p.shoulderWidth || '-'}}</td><td>{{p.chestSection || '-'}}</td><td>{{p.sleeveLength || '-'}}</td></tr>
+            </tbody>
+          </table>
+          <p class="notice">*사이즈는 상품별로 약간의 편차가 있을 수 있습니다.*</p>
+        </template>
+
+        <!-- 하의 템플릿 -->
+        <template v-else-if="isBottom">
+          <img :src="product.sizeData.img">
+          <table class="size_table" v-if="product.sizeData.size && product.sizeData.size.length > 0">
+            <thead>
+            <tr><th></th><th>총장</th><th>허리단면</th><th>엉덩이단면</th><th>허벅지단면</th><th>밑위</th><th>밑위단면</th></tr>
+            </thead>
+            <tbody v-for="(p,idx) in product.sizeData.size" :key="idx">
+            <tr><th>{{p.unit || '-'}}</th><td>{{p.totalLength || '-'}}</td><td>{{p.waistSection || '-'}}</td><td>{{p.hipSection || '-'}}</td>
+              <td>{{p.thighSection || '-'}}</td><td>{{p.rise || '-'}}</td><td>{{p.hemSection || '-'}}</td></tr>
+            </tbody>
+          </table>
+          <p class="notice">*참고: 위 치수는 유사 제품의 평균적인 수치를 기반으로 한 추정치이며, 실제 제품과 차이가 있을 수 있습니다.*</p>
+        </template>
+
+        <!-- 원피스/스커트 템플릿 -->
+        <template v-else-if="product.sizeData.type === 'dressskirt'">
+          <img :src="product.sizeData.img">
+          <table class="size_table" v-if="product.sizeData.size && product.sizeData.size.length > 0">
+            <thead>
+            <tr><th></th><th>총장</th><th>허리단면</th><th>엉덩이단면</th><th>허벅지단면</th><th>밑위</th><th>밑위단면</th></tr>
+            </thead>
+            <tbody v-for="(p,idx) in product.sizeData.size" :key="idx">
+            <tr><th>{{p.unit || '-'}}</th><td>{{p.totalLength || '-'}}</td><td>{{p.waistSection || '-'}}</td><td>{{p.hipSection || '-'}}</td>
+              <td>{{p.thighSection || '-'}}</td><td>{{p.rise || '-'}}</td><td>{{p.hemSection || '-'}}</td></tr>
+            </tbody>
+          </table>
+          <p class="notice">*사이즈는 상품별로 약간의 편차가 있을 수 있습니다.*</p>
+        </template>
+
+        <!-- 신발 템플릿 (사진만) -->
+        <template v-else-if="product.sizeData.type === 'shoes'">
+          <img :src="product.sizeData.img">
+          <p class="notice">*발볼 넓이 및 발등 높이에 따라 착화감이 다를 수 있습니다.*</p>
+        </template>
+      </div>
+      <div class="detail_notice" ref="detail_notice"
            :class="{ 'blur-overlay': !isLogin || !user }">
         <p class="title" style="margin: 120px 0 30px 0">안내 사항</p>
         <img src="../../../../public/media/productDetail/product_notice2.png">
@@ -171,6 +251,40 @@
             p.brand === this.product.brand && p.id !== this.product.id
         );
         return this.shuffleAndPick(sameBrand, 5);
+      },
+      visibleTabs() {
+        const tabs = [
+          { id: 'info', name: '상품정보', section: 'detail_mainImg', show: true },
+          {
+            id: 'wearing',
+            name: '착샷',
+            section: 'detail_wearingImg',
+            show: this.product.wearingImg && this.product.wearingImg.length > 0
+          },
+          {
+            id: 'size',
+            name: '사이즈',
+            section: 'detail_sizeImg',
+            show: this.product.sizeData && this.product.sizeData.img && this.product.sizeData.size && this.product.sizeData.size.length > 0
+          },
+          { id: 'notice', name: '안내사항', section: 'detail_notice', show: true }
+        ];
+        return tabs.filter(tab => tab.show);
+      },
+      isOuterOrTop() {
+        // 아우터/상의 계열 타입들
+        const outerTopTypes = [
+          'padding', 'jacket', 'windbreaker', 'cardigan', 'hoodzipup', 'mustang',
+          'coat', 'vest', 'suit',  // 아우터
+          'sweatshirt', 'hood', 'longsleeve', 'knitsweater', 'shortsleeve',
+          'polo', 'sleeveless', 'shirtblouse'  // 상의
+        ];
+        return outerTopTypes.includes(this.product?.sizeData?.type);
+      },
+      isBottom() {
+        // 하의 계열 타입들
+        const bottomTypes = ['denim', 'jogger', 'cotton', 'slacks', 'shortpants'];
+        return bottomTypes.includes(this.product?.sizeData?.type);
       }
     },
     props: {
@@ -195,9 +309,58 @@
           }
         },
         showPhotoOnly: false,
+        activeTab: 'info',
+        isUserScrolling: true  // 스크롤로 탭 변경 허용 플래그
       }
     },
     methods: {
+      scrollToSection(tabId, sectionRef) {
+        // 탭 클릭 시 자동 스크롤 감지 비활성화
+        this.isUserScrolling = false;
+        this.activeTab = tabId;
+
+        const element = this.$refs[sectionRef];
+        if (element) {
+          const tabNavHeight = this.$refs.tabNavigation ? this.$refs.tabNavigation.offsetHeight : 0;
+          const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = elementPosition - tabNavHeight - 20; // 탭 높이 + 여유 공간
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+
+          // 스크롤 완료 후 자동 감지 재활성화 (500ms 후)
+          setTimeout(() => {
+            this.isUserScrolling = true;
+          }, 500);
+        }
+      },
+      handleScroll() {
+        // 탭 클릭으로 인한 스크롤 중이면 무시
+        if (!this.isUserScrolling) return;
+
+        const tabNavHeight = this.$refs.tabNavigation ? this.$refs.tabNavigation.offsetHeight : 0;
+        const scrollPosition = window.pageYOffset + tabNavHeight + 100; // 100px 여유
+
+        // visibleTabs 순서대로 섹션 확인
+        for (let i = this.visibleTabs.length - 1; i >= 0; i--) {
+          const tab = this.visibleTabs[i];
+          const element = this.$refs[tab.section];
+
+          if (element) {
+            const elementTop = element.offsetTop;
+
+            // 현재 스크롤 위치가 섹션을 지나갔으면 해당 탭 활성화
+            if (scrollPosition >= elementTop) {
+              if (this.activeTab !== tab.id) {
+                this.activeTab = tab.id;
+              }
+              break;
+            }
+          }
+        }
+      },
       reviewWrite(){
         if(this.isLogin){
           this.$alert('구매자만 리뷰를 작성할수있습니다.')
@@ -230,6 +393,14 @@
     },
     created(){
       this.allProducts
+    },
+    mounted() {
+      // 스크롤 이벤트 리스너 등록
+      window.addEventListener('scroll', this.handleScroll);
+    },
+    beforeDestroy() {
+      // 스크롤 이벤트 리스너 제거 (메모리 누수 방지)
+      window.removeEventListener('scroll', this.handleScroll);
     }
   }
 </script>

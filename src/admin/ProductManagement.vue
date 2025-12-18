@@ -1,7 +1,7 @@
 <template>
   <div id="ProductManagement">
     <div class="add_btn">
-      <button @click="$router.push('/admin/product/save')">추가</button>
+      <button @click="handleAddProduct">추가</button>
     </div>
     <div class="pr_container">
       <div class="pr_container_top">
@@ -126,6 +126,9 @@
       }
     },
     methods:{
+      handleAddProduct() {
+        this.$router.push('/admin/product/save');
+      },
       search(){
         console.log('검색!!!')
       },

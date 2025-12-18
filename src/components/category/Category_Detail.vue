@@ -153,7 +153,6 @@
             <!--            <button @click="directSell">바로 구매</button>-->
             <button class="wishlist" @click="toggleWishlist">
               <i :class="isWishlisted ? 'el-icon-star-on' : 'el-icon-star-off'"></i>
-              {{ isWishlisted ? '찜 취소' : '찜하기' }}
             </button>
             <button class="cart" @click="contact">가격 문의하기</button>
           </div>

@@ -16,7 +16,21 @@ const routes = [
 
 const router = new Router({
   mode: 'history',
-  routes: routes
+  routes: routes,
+  scrollBehavior(to, from, savedPosition) {
+    // 뒤로가기/앞으로가기 시 이전 스크롤 위치로 복원
+    if (savedPosition) {
+      return savedPosition;
+    }
+    // 앵커 링크가 있으면 해당 위치로 (예: #section)
+    else if (to.hash) {
+      return { selector: to.hash };
+    }
+    // 그 외 모든 경우 맨 위로
+    else {
+      return { x: 0, y: 0 };
+    }
+  }
 })
 
 router.beforeEach((to, from, next) => {
