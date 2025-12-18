@@ -221,7 +221,16 @@
           }
 
           // 3. 로컬 + Firestore 데이터 합치기
-          this.product = [...localProducts, ...firestoreProducts];
+          const allProducts = [...firestoreProducts, ...localProducts];
+
+          // 4. createDate 기준 최신순 정렬 (새로 올린 상품이 먼저)
+          this.product = allProducts.sort((a, b) => {
+            // createDate가 없으면 뒤로 (기존 상품)
+            if (!a.createDate) return 1;
+            if (!b.createDate) return -1;
+            // 최신이 먼저 (내림차순)
+            return new Date(b.createDate) - new Date(a.createDate);
+          });
           this.total = this.product.length;
 
           // 4. 서브카테고리 설정

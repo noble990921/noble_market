@@ -179,7 +179,12 @@
           createDate: data.createDate ? new Date(data.createDate) : null,
         }));
 
-        this.products = all;
+        // createDate 기준 최신순 정렬
+        this.products = all.sort((a, b) => {
+          if (!a.createDate) return 1;
+          if (!b.createDate) return -1;
+          return new Date(b.createDate) - new Date(a.createDate);
+        });
 
 
         // 2. 브랜드 필터링 (공백 제거 기준 일치)

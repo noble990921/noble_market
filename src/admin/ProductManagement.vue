@@ -80,7 +80,7 @@
       <el-row>
         <el-col class="el_pagination">
           <el-pagination :background="true" :hide-on-single-page="false" :page-size="size" :current-page="page"
-                         :total="total" @current-change="getData" layout="prev,pager,next"></el-pagination>
+                         :total="total" @current-change="handlePageChange" layout="prev,pager,next"></el-pagination>
         </el-col>
       </el-row>
     </div>
@@ -121,8 +121,47 @@
         SET_ISOPEN,
         isLoading:false,
         keyword: '',
-        total: 0, size: 10, page: 0,
-        productList: []
+        total: 0, size: 10, page: 1,
+        allProducts: [],  // 전체 상품 데이터
+        productList: []   // 현재 페이지 데이터
+      }
+    },
+    computed: {
+      filteredProducts() {
+        let filtered = this.allProducts;
+
+        // 1. 공개/비공개 필터
+        if (this.openList.length > 0 && this.openList.length < 2) {
+          filtered = filtered.filter(p => this.openList.includes(p.isOpen));
+        }
+
+        // 2. 카테고리 필터
+        if (this.type) {
+          filtered = filtered.filter(p => p.category === this.type);
+        }
+
+        // 3. 키워드 검색 (상품명, 브랜드, 모델번호)
+        if (this.keyword.trim()) {
+          const keyword = this.keyword.trim().toLowerCase();
+          filtered = filtered.filter(p => {
+            const title = (p.product || '').toLowerCase();
+            const brand = (p.brand || '').toLowerCase();
+            const subCategory = (p.subCategory?.title || '').toLowerCase();
+            return title.includes(keyword) || brand.includes(keyword) || subCategory.includes(keyword);
+          });
+        }
+
+        return filtered;
+      }
+    },
+    watch: {
+      openList() {
+        this.page = 1;
+        this.updatePagedProducts();
+      },
+      type() {
+        this.page = 1;
+        this.updatePagedProducts();
       }
     },
     methods:{
@@ -130,7 +169,8 @@
         this.$router.push('/admin/product/save');
       },
       search(){
-        console.log('검색!!!')
+        this.page = 1;  // 검색 시 첫 페이지로
+        this.updatePagedProducts();
       },
       goContent(content){
         const vm = this
@@ -140,32 +180,17 @@
           vm.$alert('상품 정보를 찾을 수 없습니다.', '오류');
         }
       },
-      async getData(page = 1) {
+      async getData() {
         const vm = this;
         vm.isLoading = true;
-        vm.page = page;
 
         try {
-          let query = db.collection("products")
-          .orderBy("createDate", "desc")
-          .limit(vm.size);
-
-          if (page > 1 && vm.productList.length > 0) {
-            const lastVisibleDoc = await db.collection("products")
+          // 전체 상품 데이터 가져오기 (최신순 정렬)
+          const querySnapshot = await db.collection("products")
             .orderBy("createDate", "desc")
-            .limit((page - 1) * vm.size)
             .get();
 
-            const lastDoc = lastVisibleDoc.docs[lastVisibleDoc.docs.length - 1];
-
-            if (lastDoc) {
-              query = query.startAfter(lastDoc);
-            }
-          }
-
-          const querySnapshot = await query.get();
-
-          vm.productList = querySnapshot.docs.map(doc => {
+          vm.allProducts = querySnapshot.docs.map(doc => {
             const data = doc.data();
             return {
               id: doc.id,
@@ -178,8 +203,8 @@
               brand: data.brand || ''
             };
           });
-          const totalQuery = await db.collection("products").get();
-          vm.total = totalQuery.size;
+
+          vm.updatePagedProducts();
 
         } catch (error) {
           console.error("데이터 가져오기 오류:", error);
@@ -188,6 +213,16 @@
           vm.isLoading = false;
         }
       },
+      updatePagedProducts() {
+        const start = (this.page - 1) * this.size;
+        const end = start + this.size;
+        this.productList = this.filteredProducts.slice(start, end);
+        this.total = this.filteredProducts.length;
+      },
+      handlePageChange(newPage) {
+        this.page = newPage;
+        this.updatePagedProducts();
+      }
     },
     mounted() {
       this.getData();
