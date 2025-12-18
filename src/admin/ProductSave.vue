@@ -570,7 +570,8 @@
           title: '',
           enName: '',
           id: null,
-          isOpen: null,
+          isOpen: "1",  // 기본값: 공개
+          createDate: new Date(),  // 기본값: 현재 시간
           category: '',
           subCategory:'',
           brand:'',
