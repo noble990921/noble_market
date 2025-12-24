@@ -13,7 +13,7 @@
         <div class="info_grid">
           <div class="info_item">
             <span class="label">공개여부</span>
-            <span class="value">{{ info.isOpen === 1 ? '공개' : '비공개' }}</span>
+            <span class="value">{{ info.isOpen === "1" ? '공개' : '비공개' }}</span>
           </div>
           <div class="info_item">
             <span class="label">등록일</span>
@@ -123,6 +123,18 @@
         </div>
       </div>
 
+      <!-- 착샷 이미지 -->
+      <div class="info_section">
+        <h3>착샷 이미지 ({{ info.wearingImg && info.wearingImg.length || 0 }}장)</h3>
+        <div class="image_grid">
+          <div v-for="(img, idx) in info.wearingImg" :key="'wearing-'+idx" class="image_item">
+            <img :src="typeof img === 'string' ? img : img.url" alt="착샷 이미지">
+            <span class="image_badge">{{ idx + 1 }}</span>
+          </div>
+          <p v-if="!info.wearingImg || !info.wearingImg.length">등록된 착샷 이미지가 없습니다.</p>
+        </div>
+      </div>
+
       <!-- 상세 설명 텍스트 -->
       <div class="info_section">
         <h3>상세 설명 ({{ info.detailText && info.detailText.length || 0 }}개)</h3>
@@ -200,6 +212,7 @@
               sellQuantity: data.sellQuantity || 0,
               mainImg: data.mainImg || [],
               detailImg: data.detailImg || [],
+              wearingImg: data.wearingImg || [],
               detailText: data.detailText || [],
               sizeData: data.sizeData || {},
               content: data.content || '',

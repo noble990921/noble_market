@@ -76,7 +76,7 @@
 
 <script>
   import {SET_CATEGORY_MAP, SET_PRODUCT_BRAND,CATEGORY_CODE_TO_NAME} from "@/constants/Set";
-  //  import {db} from "@/firebase";
+  import {db} from "@/firebase";
   import {ALL_PRODUCTS} from "@/data/products";
 
   const reverseCategoryMap = {
@@ -169,40 +169,62 @@
 //
 //        this.loading = false;
 //      },
-      getData() {
-//        this.loading = true;
+      async getData() {
+        this.loading = true;
 
-        // 1. 전체 상품 가져오기
-        const all = Object.entries(ALL_PRODUCTS).map(([id, data]) => ({
-          id,
-          ...data,
-          createDate: data.createDate ? new Date(data.createDate) : null,
-        }));
+        try {
+          // 1. 로컬 상품 데이터
+          const localProducts = Object.entries(ALL_PRODUCTS)
+            .filter(([, data]) => !data.isOpen || data.isOpen === "1")
+            .map(([id, data]) => ({
+              id,
+              ...data,
+              createDate: data.createDate ? new Date(data.createDate) : null,
+            }));
 
-        // createDate 기준 최신순 정렬
-        this.products = all.sort((a, b) => {
-          if (!a.createDate) return 1;
-          if (!b.createDate) return -1;
-          return new Date(b.createDate) - new Date(a.createDate);
-        });
+          // 2. Firestore 상품 데이터 (공개 상품만)
+          const querySnapshot = await db.collection("products")
+            .where("isOpen", "==", "1")
+            .get();
 
+          const firestoreProducts = querySnapshot.docs.map((doc) => {
+            const data = doc.data();
+            return {
+              id: doc.id,
+              ...data,
+              createDate: data.createDate ? data.createDate.toDate() : null,
+            };
+          });
 
-        // 2. 브랜드 필터링 (공백 제거 기준 일치)
-        this.filteredProducts = this.products.filter(product =>
-            product.brand === this.brandInfo.koName
-        );
-        console.log('1111',this.filteredProducts)
+          // 3. 로컬 + Firestore 합치기
+          const allProducts = [...firestoreProducts, ...localProducts];
 
-        // 3. 카테고리 추출
-        const categorySet = new Set(
-            this.filteredProducts.map(product => product.category)
-        );
-        this.categories = ["전체", ...Array.from(categorySet)];
+          // 4. createDate 기준 최신순 정렬
+          this.products = allProducts.sort((a, b) => {
+            if (!a.createDate) return 1;
+            if (!b.createDate) return -1;
+            return new Date(b.createDate) - new Date(a.createDate);
+          });
 
-        // 4. 페이징 아이템 업데이트
-        this.updatePagedItems();
+          // 5. 브랜드 필터링
+          this.filteredProducts = this.products.filter(product =>
+              product.brand === this.brandInfo.koName
+          );
 
-        this.loading = false;
+          // 6. 카테고리 추출
+          const categorySet = new Set(
+              this.filteredProducts.map(product => product.category)
+          );
+          this.categories = ["전체", ...Array.from(categorySet)];
+
+          // 7. 페이징 아이템 업데이트
+          this.updatePagedItems();
+
+        } catch (error) {
+          console.error("브랜드 상품 데이터 로드 오류:", error);
+        } finally {
+          this.loading = false;
+        }
       },
       updateWidth() {
         this.windowWidth = window.innerWidth

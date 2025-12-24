@@ -206,6 +206,7 @@
           if (categoryId) {
             const querySnapshot = await db.collection("products")
               .where("category", "==", categoryId)
+              .where("isOpen", "==", "1")  // 공개 상품만 조회
               .get();
 
             firestoreProducts = querySnapshot.docs.map((doc) => {
