@@ -121,7 +121,7 @@
         SET_ISOPEN,
         isLoading:false,
         keyword: '',
-        total: 0, size: 10, page: 1,
+        total: 0, size: 30, page: 1,
         allProducts: [],  // 전체 상품 데이터
         productList: []   // 현재 페이지 데이터
       }
