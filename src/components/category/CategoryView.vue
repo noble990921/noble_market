@@ -19,7 +19,7 @@
       </div>
       <div class="product_item_container">
         <div class="product_header">
-          <p>총 <span>{{ total }}</span>개의 상품이 있습니다.</p>
+          <p>총 <span>{{ filteredProducts.length }}</span>개의 상품이 있습니다.</p>
 <!--          <el-select v-model="value" placeholder="-정렬방식-">-->
 <!--            <el-option-->
 <!--                v-for="item in options"-->
