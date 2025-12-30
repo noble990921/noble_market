@@ -41,7 +41,18 @@
     watch: {
       value(newValue) {
         if (this.editor) {
-          this.editor.clipboard.dangerouslyPasteHTML(newValue || "");
+          const currentContent = this.editor.root.innerHTML;
+          // 현재 내용과 새 값이 다를 때만 업데이트 (타이핑 중이 아닐 때)
+          if (currentContent !== newValue && newValue !== this.content) {
+            const selection = this.editor.getSelection(); // 커서 위치 저장
+            this.editor.clipboard.dangerouslyPasteHTML(newValue || "");
+            // 커서 위치 복원 (가능한 경우)
+            if (selection) {
+              this.$nextTick(() => {
+                this.editor.setSelection(selection.index, selection.length);
+              });
+            }
+          }
         }
       },
     },
