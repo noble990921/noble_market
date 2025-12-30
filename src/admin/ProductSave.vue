@@ -407,7 +407,7 @@
 
         </div>
         <div class="bottom_text">
-          <my-quill-editor :content="info.content" :content-key="'content'" :name="'StrategyNoticeSave'"
+          <my-quill-editor :value="info.content" :content-key="'content'" :name="'StrategyNoticeSave'"
                            @change="changeContent"/>
         </div>
       </div>
