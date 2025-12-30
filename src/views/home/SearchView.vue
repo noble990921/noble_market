@@ -70,7 +70,7 @@
 </template>
 
 <script>
-//  import {db} from "@/firebase";
+  import {db} from "@/firebase";
   import * as productModules from '@/data/products/index.js'
 import {CATEGORY_CODE_TO_NAME} from "@/constants/Set";
 
@@ -151,10 +151,34 @@ import {CATEGORY_CODE_TO_NAME} from "@/constants/Set";
         try {
           console.time("getProductData 응답시간");
 
-          const allProducts = Object.values(productModules).flatMap(module =>
-              Object.values(module)
-          );
+          // 1. 로컬 상품 데이터 (공개 상품만)
+          const localProducts = Object.values(productModules)
+              .flatMap(module => Object.entries(module))
+              .filter(([, data]) => !data.isOpen || data.isOpen === "1")
+              .map(([id, data]) => ({
+                id,
+                ...data,
+                createDate: data.createDate ? new Date(data.createDate) : null,
+              }));
 
+          // 2. Firestore 상품 데이터 (공개 상품만)
+          const querySnapshot = await db.collection("products")
+              .where("isOpen", "==", "1")
+              .get();
+
+          const firestoreProducts = querySnapshot.docs.map((doc) => {
+            const data = doc.data();
+            return {
+              id: doc.id,
+              ...data,
+              createDate: data.createDate ? data.createDate.toDate() : null,
+            };
+          });
+
+          // 3. 로컬 + Firestore 합치기
+          const allProducts = [...firestoreProducts, ...localProducts];
+
+          // 4. 키워드 검색 필터링
           const keyword = this.searchText.toLowerCase().replace(/\s+/g, '');
           this.product = allProducts.filter(item => {
             return (
@@ -174,7 +198,7 @@ import {CATEGORY_CODE_TO_NAME} from "@/constants/Set";
           console.timeEnd("getProductData 응답시간");
 
         } catch (error) {
-          console.error("로컬 상품 데이터를 가져오는 중 오류 발생:", error);
+          console.error("상품 데이터를 가져오는 중 오류 발생:", error);
         }
         this.loading = false;
       },
