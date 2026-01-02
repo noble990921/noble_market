@@ -75,8 +75,8 @@
           const moreItem = {
             id: "more",
             koName: "더보기",
-            img: require('../../assets/images/home/section7/add.png'),
-            mimg: require('../../assets/images/home/section7/madd.png'),
+            img: require('../../assets/images/home/brandImg/add.png'),
+            mimg: require('../../assets/images/home/brandImg/madd.png'),
             url: "/brand"
           };
 

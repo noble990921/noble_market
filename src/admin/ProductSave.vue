@@ -648,6 +648,12 @@
           this.info.sizeData.size = [];
           this.addSizeRow();
         }
+      },
+      'info.modelGroup'(newModelGroup) {
+        // 연동 제품 그룹 입력 시 같은 그룹의 사이즈 정보 불러오기 제안
+        if (newModelGroup && !this.info.id) { // 신규 등록일 때만
+          this.loadSizeFromModelGroup(newModelGroup);
+        }
       }
     },
     computed: {
@@ -729,6 +735,49 @@
         allSubCategories.forEach(({ title, img }) => {
           this.subCategoryImgMap[title] = img;
         });
+      },
+
+      // 연동 제품의 사이즈 정보 불러오기
+      async loadSizeFromModelGroup(modelGroup) {
+        const vm = this;
+        try {
+          // Firestore에서 같은 modelGroup 제품 찾기
+          const querySnapshot = await db.collection("products")
+              .where("modelGroup", "==", modelGroup)
+              .limit(1)
+              .get();
+
+          if (!querySnapshot.empty) {
+            const doc = querySnapshot.docs[0];
+            const data = doc.data();
+
+            // 사이즈 데이터가 있는지 확인
+            if (data.sizeData && data.sizeData.size && data.sizeData.size.length > 0) {
+              // 사용자에게 불러올지 물어보기
+              const confirm = await vm.$confirm(
+                  `연동 제품 "${data.title || data.enName}"의 사이즈 정보를 불러올까요?\n(불러온 후 수정 가능합니다)`,
+                  '사이즈 정보 불러오기',
+                  {
+                    confirmButtonText: '불러오기',
+                    cancelButtonText: '취소',
+                    type: 'info'
+                  }
+              ).catch(() => false);
+
+              if (confirm) {
+                // Deep copy로 사이즈 데이터 복사 (참조 문제 방지)
+                vm.info.sizeData = {
+                  type: data.sizeData.type || '',
+                  img: data.sizeData.img || '',
+                  size: JSON.parse(JSON.stringify(data.sizeData.size || []))
+                };
+                vm.$message.success('사이즈 정보를 불러왔습니다. 필요시 수정하세요.');
+              }
+            }
+          }
+        } catch (error) {
+          console.error('연동 제품 사이즈 데이터 로드 오류:', error);
+        }
       },
       async saveProduct() {
         const vm = this;

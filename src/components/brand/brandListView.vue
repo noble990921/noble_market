@@ -26,7 +26,7 @@
 </template>
 
 <script>
-//  import { db } from "@/firebase";
+  import { db } from "@/firebase";
   import {ALL_PRODUCTS} from "@/data/products";
 import {SET_PRODUCT_BRAND} from "../../constants/Set"
   export default {
@@ -80,26 +80,36 @@ import {SET_PRODUCT_BRAND} from "../../constants/Set"
         const chosungIndex = Math.floor(code / 588); // 초성 인덱스 계산
         return CHOSUNG_LIST[chosungIndex]; // 초성 리턴
       },
-      fetchBrandsFromProducts() {
+      async fetchBrandsFromProducts() {
         this.loading = true;
+        try {
+          const brandKeySet = new Set();
 
-        const brandKeySet = new Set();
-        for (const key in ALL_PRODUCTS) {
-          const product = ALL_PRODUCTS[key];
-
-          if (product.brand) {
-//            const cleanBrand = product.brand.replace(/\s+/g, ''); // 공백 제거
-            const cleanBrand = product.brand
-            if (SET_PRODUCT_BRAND[cleanBrand]) {
-              brandKeySet.add(cleanBrand);
+          // 1. 로컬 상품에서 브랜드 추출
+          for (const key in ALL_PRODUCTS) {
+            const product = ALL_PRODUCTS[key];
+            if (product.brand && SET_PRODUCT_BRAND[product.brand]) {
+              brandKeySet.add(product.brand);
             }
           }
-        }
 
-        this.brands = Array.from(brandKeySet).map(
-            (key) => SET_PRODUCT_BRAND[key]
-        );
-        console.log("brands", this.brands);
+          // 2. Firestore 상품에서 브랜드 추출
+          const snapshot = await db.collection("products").get();
+          snapshot.forEach(doc => {
+            const data = doc.data();
+            if (data.brand && SET_PRODUCT_BRAND[data.brand]) {
+              brandKeySet.add(data.brand);
+            }
+          });
+
+          // 3. 브랜드 목록 생성
+          this.brands = Array.from(brandKeySet).map(
+              (key) => SET_PRODUCT_BRAND[key]
+          );
+          console.log("brands", this.brands);
+        } catch (err) {
+          console.error("브랜드 목록 가져오기 실패:", err);
+        }
         this.loading = false;
       },
 //      async fetchBrandsFromProducts() {
