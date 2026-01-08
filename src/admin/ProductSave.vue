@@ -268,17 +268,17 @@
             <span class="title_label">사이즈 데이터</span>
             <span class="select_span">
               <div class="size-data-container">
-                <!-- 연동 제품 사이즈 불러오기 버튼 -->
+                <!-- 연동 제품 정보 불러오기 버튼 -->
                 <div v-if="info.modelGroup && info.sizeData.type !== 'shoes'" style="margin-bottom: 15px;">
                   <el-button
                     type="primary"
                     size="small"
                     icon="el-icon-download"
                     @click="manualLoadSizeFromModelGroup">
-                    연동 제품 사이즈 불러오기
+                    연동 제품 정보 불러오기
                   </el-button>
                   <span style="color: #909399; font-size: 12px; margin-left: 10px;">
-                    같은 모델그룹({{ info.modelGroup }})의 사이즈를 불러옵니다
+                    같은 모델그룹({{ info.modelGroup }})의 사이즈, 가격, 메모를 불러옵니다
                   </span>
                 </div>
                 <!-- BOTTOM 타입 (데님, 트레이닝/조거, 코튼, 슬랙스, 숏팬츠, 원피스/스커트) -->
@@ -754,7 +754,7 @@
         });
       },
 
-      // 연동 제품의 사이즈 정보 불러오기
+      // 연동 제품의 정보 불러오기 (사이즈 + 가격 + 메모)
       async loadSizeFromModelGroup(modelGroup) {
         const vm = this;
         try {
@@ -768,67 +768,70 @@
             const doc = querySnapshot.docs[0];
             const data = doc.data();
 
-            let sizeLoaded = false;
+            // 불러올 수 있는 항목 체크
+            const availableItems = [];
+            const hasSize = data.sizeData && data.sizeData.size && data.sizeData.size.length > 0;
+            const hasPrice = data.price && data.price > 0;
+            const hasContent = !vm.info.id && data.content && data.content.trim(); // 신규 등록일 때만
 
-            // 1단계: 사이즈 데이터가 있는지 확인
-            if (data.sizeData && data.sizeData.size && data.sizeData.size.length > 0) {
-              // 사용자에게 사이즈 불러올지 물어보기
-              const confirmSize = await vm.$confirm(
-                  `연동 제품 "${data.title || data.enName}"의 사이즈 정보를 불러올까요?\n(불러온 후 수정 가능합니다)`,
-                  '사이즈 정보 불러오기',
-                  {
-                    confirmButtonText: '불러오기',
-                    cancelButtonText: '취소',
-                    type: 'info'
-                  }
-              ).catch(() => false);
+            if (hasSize) availableItems.push('• 사이즈 정보');
+            if (hasPrice) availableItems.push(`• 가격 (₩ ${Number(data.price).toLocaleString()})`);
+            if (hasContent) availableItems.push('• 메모');
 
-              if (confirmSize) {
-                // Deep copy로 사이즈 데이터 복사 (참조 문제 방지)
+            // 불러올 항목이 없으면 종료
+            if (availableItems.length === 0) {
+              vm.$message.warning('불러올 정보가 없습니다.');
+              return;
+            }
+
+            // 사용자에게 한 번에 물어보기
+            const confirm = await vm.$confirm(
+                `연동 제품 "${data.title || data.enName}"의 정보를 불러올까요?\n\n${availableItems.join('\n')}\n\n(불러온 후 수정 가능합니다)`,
+                '연동 제품 정보 불러오기',
+                {
+                  confirmButtonText: '모두 불러오기',
+                  cancelButtonText: '취소',
+                  type: 'info'
+                }
+            ).catch(() => false);
+
+            if (confirm) {
+              const loadedItems = [];
+
+              // 사이즈 불러오기
+              if (hasSize) {
                 vm.info.sizeData = {
                   type: data.sizeData.type || '',
                   img: data.sizeData.img || '',
                   size: JSON.parse(JSON.stringify(data.sizeData.size || []))
                 };
-                vm.$message.success('사이즈 정보를 불러왔습니다.');
-                sizeLoaded = true;
+                loadedItems.push('사이즈');
               }
-            } else {
-              vm.$message.warning('해당 연동 제품에 사이즈 정보가 없습니다.');
-            }
 
-            // 2단계: 메모(content) 불러오기 - 신규 등록일 때만
-            if (!vm.info.id && data.content && data.content.trim()) {
-              const confirmContent = await vm.$confirm(
-                  `연동 제품 "${data.title || data.enName}"의 메모도 불러올까요?\n(불러온 후 수정 가능합니다)`,
-                  '메모 불러오기',
-                  {
-                    confirmButtonText: '불러오기',
-                    cancelButtonText: '취소',
-                    type: 'info'
-                  }
-              ).catch(() => false);
+              // 가격 불러오기
+              if (hasPrice) {
+                vm.info.price = data.price;
+                loadedItems.push('가격');
+              }
 
-              if (confirmContent) {
+              // 메모 불러오기 (신규 등록일 때만)
+              if (hasContent) {
                 vm.info.content = data.content;
-                vm.$message.success('메모를 불러왔습니다.');
+                loadedItems.push('메모');
               }
-            }
 
-            // 둘 다 불러오지 않았으면 안내
-            if (!sizeLoaded && !data.content) {
-              vm.$message.info('불러올 정보가 없습니다.');
+              vm.$message.success(`${loadedItems.join(', ')}을(를) 불러왔습니다.`);
             }
           } else {
             vm.$message.warning(`모델그룹 "${modelGroup}"에 해당하는 제품을 찾을 수 없습니다.`);
           }
         } catch (error) {
-          console.error('연동 제품 사이즈 데이터 로드 오류:', error);
-          vm.$message.error('사이즈 정보를 불러오는 중 오류가 발생했습니다.');
+          console.error('연동 제품 정보 로드 오류:', error);
+          vm.$message.error('정보를 불러오는 중 오류가 발생했습니다.');
         }
       },
 
-      // 수동으로 사이즈 불러오기 (버튼 클릭)
+      // 수동으로 연동 제품 정보 불러오기 (버튼 클릭)
       manualLoadSizeFromModelGroup() {
         if (!this.info.modelGroup) {
           this.$message.warning('모델그룹을 먼저 입력해주세요.');
