@@ -468,6 +468,9 @@
             font-size: 14px;
             color: #495057;
             line-height: 1.6;
+            word-break: break-word;
+            overflow-wrap: break-word;
+            white-space: pre-wrap;
           }
         }
 
@@ -484,6 +487,10 @@
         background: #f8f9fa;
         border-radius: 8px;
         min-height: 100px;
+        width: 100%;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        white-space: pre-wrap;
 
         ::v-deep img {
           max-width: 100%;
