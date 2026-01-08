@@ -666,8 +666,8 @@
         // 연동 제품 그룹 입력 시 같은 그룹의 사이즈 정보 불러오기 제안
         // 단, 사이즈 데이터가 비어있을 때만 자동 제안 (이미 있으면 조용히 넘어감)
         if (newModelGroup && newModelGroup !== oldModelGroup) {
-          // 사이즈가 비어있을 때만 자동 제안
-          if (!this.info.sizeData.size || this.info.sizeData.size.length === 0) {
+          // 사이즈가 비어있거나 빈 템플릿 행만 있을 때만 자동 제안
+          if (this.isSizeDataEmpty()) {
             this.loadSizeFromModelGroup(newModelGroup);
           }
         }
@@ -754,8 +754,25 @@
         });
       },
 
+      // 사이즈 데이터가 비어있는지 확인 (빈 템플릿 행만 있어도 비어있음으로 간주)
+      isSizeDataEmpty() {
+        if (!this.info.sizeData.size || this.info.sizeData.size.length === 0) {
+          return true;
+        }
+
+        // 모든 행이 빈 행인지 확인
+        const allEmpty = this.info.sizeData.size.every(row => {
+          // row의 모든 값이 비어있거나 null/undefined인지 확인
+          const values = Object.values(row);
+          return values.every(val => !val || val === '' || val === null || val === undefined);
+        });
+
+        return allEmpty;
+      },
+
       // 연동 제품의 정보 불러오기 (사이즈 + 가격 + 메모)
-      async loadSizeFromModelGroup(modelGroup) {
+      // isManual: true면 버튼 클릭(수동), false면 자동 트리거
+      async loadSizeFromModelGroup(modelGroup, isManual = false) {
         const vm = this;
         try {
           // Firestore에서 같은 modelGroup 제품 찾기
@@ -778,9 +795,12 @@
             if (hasPrice) availableItems.push(`• 가격 (₩ ${Number(data.price).toLocaleString()})`);
             if (hasContent) availableItems.push('• 메모');
 
-            // 불러올 항목이 없으면 종료
+            // 불러올 항목이 없으면
             if (availableItems.length === 0) {
-              vm.$message.warning('불러올 정보가 없습니다.');
+              // 수동 클릭일 때만 메시지 표시
+              if (isManual) {
+                vm.$message.warning('연동 제품에 불러올 정보가 없습니다.');
+              }
               return;
             }
 
@@ -823,7 +843,11 @@
               vm.$message.success(`${loadedItems.join(', ')}을(를) 불러왔습니다.`);
             }
           } else {
-            vm.$message.warning(`모델그룹 "${modelGroup}"에 해당하는 제품을 찾을 수 없습니다.`);
+            // 제품을 못 찾았을 때
+            // 수동 클릭일 때만 메시지 표시 (자동일 때는 조용히 넘어감)
+            if (isManual) {
+              vm.$message.warning(`모델그룹 "${modelGroup}"에 해당하는 제품을 찾을 수 없습니다.`);
+            }
           }
         } catch (error) {
           console.error('연동 제품 정보 로드 오류:', error);
@@ -837,7 +861,7 @@
           this.$message.warning('모델그룹을 먼저 입력해주세요.');
           return;
         }
-        this.loadSizeFromModelGroup(this.info.modelGroup);
+        this.loadSizeFromModelGroup(this.info.modelGroup, true); // isManual = true
       },
       async saveProduct() {
         const vm = this;
