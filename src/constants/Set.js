@@ -296,6 +296,24 @@ export const SET_PRODUCT_BRAND = {
     listImg: require('@/assets/images/home/brandImg/brandList_logo33.png'),
     url:'/brand/LoroPiana'
   },
+  "더로우": {
+    id: 33,
+    enName: "The Row",
+    koName: "더로우",
+    mimg: require('@/assets/images/home/brandImg/mbrand_logo34.png'),
+    img: require('@/assets/images/home/brandImg/brand_logo34.png'),
+    listImg: require('@/assets/images/home/brandImg/brandList_logo34.png'),
+    url:'/brand/LoroPiana'
+  },
+  "브루넬로쿠치넬리": {
+    id: 33,
+    enName: "Brunello Cucinelli",
+    koName: "더로우",
+    mimg: require('@/assets/images/home/brandImg/mbrand_logo35.png'),
+    img: require('@/assets/images/home/brandImg/brand_logo35.png'),
+    listImg: require('@/assets/images/home/brandImg/brandList_logo35.png'),
+    url:'/brand/LoroPiana'
+  },
 };
 
 export const SET_CATEGORY_MAP = {
