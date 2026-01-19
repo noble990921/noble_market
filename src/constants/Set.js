@@ -314,6 +314,15 @@ export const SET_PRODUCT_BRAND = {
     listImg: require('@/assets/images/home/brandImg/brandList_logo35.png'),
     url:'/brand/LoroPiana'
   },
+  "로에베": {
+    id: 34,
+    enName: "LOEWE",
+    koName: "로에베",
+    mimg: require('@/assets/images/home/brandImg/mbrand_logo36.png'),
+    img: require('@/assets/images/home/brandImg/brand_logo36.png'),
+    listImg: require('@/assets/images/home/brandImg/brandList_logo36.png'),
+    url:'/brand/LOEWE'
+  },
 };
 
 export const SET_CATEGORY_MAP = {
