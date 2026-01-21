@@ -305,14 +305,14 @@ export const SET_PRODUCT_BRAND = {
     listImg: require('@/assets/images/home/brandImg/brandList_logo34.png'),
     url:'/brand/LoroPiana'
   },
-  "브루넬로쿠치넬리": {
+  "브루넬로 쿠치넬리": {
     id: 33,
     enName: "Brunello Cucinelli",
-    koName: "더로우",
+    koName: "브루넬로 쿠치넬리",
     mimg: require('@/assets/images/home/brandImg/mbrand_logo35.png'),
     img: require('@/assets/images/home/brandImg/brand_logo35.png'),
     listImg: require('@/assets/images/home/brandImg/brandList_logo35.png'),
-    url:'/brand/LoroPiana'
+    url:'/brand/BrunelloCucinelli'
   },
   "로에베": {
     id: 34,
