@@ -507,7 +507,8 @@
       {id:2, title: "팔찌", img: "bracelet"},
       {id:3, title: "반지", img: "ring"},
       {id:4, title: "귀걸이", img: "earring"},
-      {id:5, title: "키링/기타", img: "keyring"}
+      {id:5, title: "키링/기타", img: "keyring"},
+      {id:6, title: "머플러", img: "muffler"}
     ]
   }
 
@@ -569,7 +570,8 @@
     "팔찌": null,
     "반지": null,
     "귀걸이": null,
-    "키링/기타": null
+    "키링/기타": null,
+    "머플러": null
   };
 
   export default {
