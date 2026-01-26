@@ -140,14 +140,15 @@
           filtered = filtered.filter(p => p.category === this.type);
         }
 
-        // 3. 키워드 검색 (상품명, 브랜드, 모델번호)
+        // 3. 키워드 검색 (상품명, 브랜드, 모델번호, 서브카테고리) - 띄어쓰기 무시
         if (this.keyword.trim()) {
-          const keyword = this.keyword.trim().toLowerCase();
+          const keyword = this.keyword.trim().toLowerCase().replace(/\s+/g, '');
           filtered = filtered.filter(p => {
-            const title = (p.product || '').toLowerCase();
-            const brand = (p.brand || '').toLowerCase();
-            const subCategory = (p.subCategory?.title || '').toLowerCase();
-            return title.includes(keyword) || brand.includes(keyword) || subCategory.includes(keyword);
+            const title = (p.product || '').toLowerCase().replace(/\s+/g, '');
+            const brand = (p.brand || '').toLowerCase().replace(/\s+/g, '');
+            const modelNumber = (p.modelNumber || '').toLowerCase().replace(/\s+/g, '');
+            const subCategory = (p.subCategory?.title || '').toLowerCase().replace(/\s+/g, '');
+            return title.includes(keyword) || brand.includes(keyword) || modelNumber.includes(keyword) || subCategory.includes(keyword);
           });
         }
 

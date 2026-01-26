@@ -83,14 +83,18 @@
               <strong>{{ size.unit || '-' }}</strong>
             </div>
             <div class="size_data_content">
-              <span v-if="size.totalLength">총기장/총장: {{ size.totalLength }}cm</span>
-              <span v-if="size.waistSection">허리단면: {{ size.waistSection }}cm</span>
-              <span v-if="size.crossSection">허벅지단면: {{ size.crossSection }}cm</span>
-              <span v-if="size.bottomSection">밑단단면: {{ size.bottomSection }}cm</span>
-              <span v-if="size.rise">밑위: {{ size.rise }}cm</span>
+              <!-- 상의/아우터 -->
+              <span v-if="size.totalLength">총장: {{ size.totalLength }}cm</span>
               <span v-if="size.shoulderWidth">어깨너비: {{ size.shoulderWidth }}cm</span>
               <span v-if="size.chestSection">가슴단면: {{ size.chestSection }}cm</span>
               <span v-if="size.sleeveLength">소매길이: {{ size.sleeveLength }}cm</span>
+              <!-- 하의 -->
+              <span v-if="size.waistSection">허리단면: {{ size.waistSection }}cm</span>
+              <span v-if="size.hipSection">엉덩이단면: {{ size.hipSection }}cm</span>
+              <span v-if="size.thighSection">허벅지단면: {{ size.thighSection }}cm</span>
+              <span v-if="size.rise">밑위: {{ size.rise }}cm</span>
+              <span v-if="size.hemSection">밑단단면: {{ size.hemSection }}cm</span>
+              <!-- 가방 -->
               <span v-if="size.z">높이: {{ size.z }}cm</span>
               <span v-if="size.x">너비: {{ size.x }}cm</span>
               <span v-if="size.y">폭: {{ size.y }}cm</span>
