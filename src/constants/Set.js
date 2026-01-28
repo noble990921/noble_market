@@ -297,7 +297,7 @@ export const SET_PRODUCT_BRAND = {
     url:'/brand/LoroPiana'
   },
   "더로우": {
-    id: 33,
+    id: 34,
     enName: "The Row",
     koName: "더로우",
     mimg: require('@/assets/images/home/brandImg/mbrand_logo34.png'),
@@ -306,7 +306,7 @@ export const SET_PRODUCT_BRAND = {
     url:'/brand/LoroPiana'
   },
   "브루넬로 쿠치넬리": {
-    id: 33,
+    id: 35,
     enName: "Brunello Cucinelli",
     koName: "브루넬로 쿠치넬리",
     mimg: require('@/assets/images/home/brandImg/mbrand_logo35.png'),
@@ -315,13 +315,30 @@ export const SET_PRODUCT_BRAND = {
     url:'/brand/BrunelloCucinelli'
   },
   "로에베": {
-    id: 34,
+    id: 36,
     enName: "LOEWE",
     koName: "로에베",
     mimg: require('@/assets/images/home/brandImg/mbrand_logo36.png'),
     img: require('@/assets/images/home/brandImg/brand_logo36.png'),
     listImg: require('@/assets/images/home/brandImg/brandList_logo36.png'),
     url:'/brand/LOEWE'
+  },
+  "오프화이트": {
+    id: 37,
+    enName: "OFF-WHITE",
+    koName: "오프화이트",
+    mimg: require('@/assets/images/home/brandImg/mbrand_logo37.png'),
+    img: require('@/assets/images/home/brandImg/brand_logo37.png'),
+    listImg: require('@/assets/images/home/brandImg/brandList_logo37.png'),
+    url:'/brand/OFF-WHITE'
+  },"아크네 스튜디오": {
+    id: 38,
+    enName: "Acne Studios",
+    koName: "아크네 스튜디오",
+    mimg: require('@/assets/images/home/brandImg/mbrand_logo38.png'),
+    img: require('@/assets/images/home/brandImg/brand_logo38.png'),
+    listImg: require('@/assets/images/home/brandImg/brandList_logo38.png'),
+    url:'/brand/AcneStudios'
   },
 };
 
