@@ -12,6 +12,12 @@
 
 <script>
   export default {
-    name: "Comp"
+    name: "Comp",
+    mounted() {
+      // Meta Pixel - CompleteRegistration (회원가입 완료)
+      if (window.fbq) {
+        window.fbq('track', 'CompleteRegistration');
+      }
+    }
   }
 </script>

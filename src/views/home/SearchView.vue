@@ -203,6 +203,12 @@ import {CATEGORY_CODE_TO_NAME} from "@/constants/Set";
         this.loading = false;
       },
       search() {
+        // Meta Pixel - Search (검색)
+        if (window.fbq && this.searchText) {
+          window.fbq('track', 'Search', {
+            search_string: this.searchText
+          });
+        }
         return this.getData()
       },
       updatePagedItems() {

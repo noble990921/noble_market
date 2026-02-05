@@ -398,6 +398,16 @@
           // 찜 상태 확인
           await this.checkWishlistStatus();
 
+          // Meta Pixel - ViewContent (상품 조회)
+          if (window.fbq) {
+            window.fbq('track', 'ViewContent', {
+              content_name: this.product.name,
+              content_ids: [this.product.id],
+              content_type: 'product',
+              content_category: category
+            });
+          }
+
         } catch (error) {
           console.error('상품 데이터를 불러오는 중 오류 발생:', error);
         }
@@ -406,6 +416,14 @@
         if (!this.isLogin) {
           this.$alert("로그인이 필요한 기능입니다.");
           return;
+        }
+
+        // Meta Pixel - Contact (문의하기)
+        if (window.fbq) {
+          window.fbq('track', 'Contact', {
+            content_name: this.product.name,
+            content_ids: [this.product.id]
+          });
         }
 
         if(this.partnerInfo && this.partnerInfo.kakaoUrl){
@@ -447,6 +465,15 @@
             this.isWishlisted = true;
             console.log('✅ 찜 추가 완료');
             this.$message.success("찜 목록에 추가되었습니다.");
+
+            // Meta Pixel - AddToWishlist (찜하기)
+            if (window.fbq) {
+              window.fbq('track', 'AddToWishlist', {
+                content_name: this.product.name,
+                content_ids: [this.product.id],
+                content_type: 'product'
+              });
+            }
           }
         } catch (error) {
           console.error("찜하기 오류:", error);
