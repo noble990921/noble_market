@@ -86,11 +86,10 @@
           <img :src="product.sizeData.img">
           <table class="size_table" v-if="product.sizeData.size && product.sizeData.size.length > 0">
             <thead>
-            <tr><th></th><th>총장</th><th>허리단면</th><th>엉덩이단면</th><th>허벅지단면</th><th>밑위</th><th>밑위단면</th></tr>
+            <tr><th></th><th>총기장</th><th>허리단면</th><th>밑단단면</th></tr>
             </thead>
             <tbody v-for="(p,idx) in product.sizeData.size" :key="idx">
-            <tr><th>{{p.unit || '-'}}</th><td>{{p.totalLength || '-'}}</td><td>{{p.waistSection || '-'}}</td><td>{{p.hipSection || '-'}}</td>
-              <td>{{p.thighSection || '-'}}</td><td>{{p.rise || '-'}}</td><td>{{p.hemSection || '-'}}</td></tr>
+            <tr><th>{{p.unit || '-'}}</th><td>{{p.totalLength || '-'}}</td><td>{{p.waistSection || '-'}}</td><td>{{p.hemSection || '-'}}</td></tr>
             </tbody>
           </table>
           <p class="notice">*사이즈는 상품별로 약간의 편차가 있을 수 있습니다.*</p>

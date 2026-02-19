@@ -281,8 +281,8 @@
                     같은 모델그룹({{ info.modelGroup }})의 사이즈, 가격, 메모를 불러옵니다
                   </span>
                 </div>
-                <!-- BOTTOM 타입 (데님, 트레이닝/조거, 코튼, 슬랙스, 숏팬츠, 원피스/스커트) -->
-                <div v-if="['denim', 'jogger', 'cotton', 'slacks', 'shortpants', 'dressskirt'].includes(info.sizeData.type)" class="size-input-section">
+                <!-- BOTTOM 타입 (데님, 트레이닝/조거, 코튼, 슬랙스, 숏팬츠) -->
+                <div v-if="['denim', 'jogger', 'cotton', 'slacks', 'shortpants'].includes(info.sizeData.type)" class="size-input-section">
                   <div v-for="(size, idx) in info.sizeData.size" :key="'size-'+idx" class="size-row">
                     <div class="size-row-header">
                       <span class="size-number">{{ idx + 1 }}</span>
@@ -301,6 +301,35 @@
                       <el-input v-model.number="size.thighSection" placeholder="허벅지단면" type="number" style="width: 100px; margin-right: 10px;"></el-input>
                       <el-input v-model.number="size.rise" placeholder="밑위" type="number" style="width: 90px; margin-right: 10px;"></el-input>
                       <el-input v-model.number="size.hemSection" placeholder="밑위단면" type="number" style="width: 90px;"></el-input>
+                    </div>
+                  </div>
+                  <el-button
+                    @click="addSizeRow"
+                    type="primary"
+                    icon="el-icon-plus"
+                    size="small"
+                    style="margin-top: 10px;">
+                    사이즈 추가
+                  </el-button>
+                </div>
+
+                <!-- 원피스/스커트 타입 (총기장, 허리단면, 밑단단면만) -->
+                <div v-else-if="info.sizeData.type === 'dressskirt'" class="size-input-section">
+                  <div v-for="(size, idx) in info.sizeData.size" :key="'size-'+idx" class="size-row">
+                    <div class="size-row-header">
+                      <span class="size-number">{{ idx + 1 }}</span>
+                      <el-button
+                        size="mini"
+                        type="danger"
+                        icon="el-icon-delete"
+                        @click="removeSizeRow(idx)"
+                        :disabled="info.sizeData.size.length <= 1">삭제</el-button>
+                    </div>
+                    <div class="size-fields">
+                      <el-input v-model="size.unit" placeholder="사이즈 (예: S, M, L)" style="width: 120px; margin-right: 10px;"></el-input>
+                      <el-input v-model.number="size.totalLength" placeholder="총기장" type="number" style="width: 90px; margin-right: 10px;"></el-input>
+                      <el-input v-model.number="size.waistSection" placeholder="허리단면" type="number" style="width: 90px; margin-right: 10px;"></el-input>
+                      <el-input v-model.number="size.hemSection" placeholder="밑단단면" type="number" style="width: 90px;"></el-input>
                     </div>
                   </div>
                   <el-button
