@@ -269,7 +269,7 @@
             <span class="select_span">
               <div class="size-data-container">
                 <!-- 연동 제품 정보 불러오기 버튼 -->
-                <div v-if="info.modelGroup && info.sizeData.type !== 'shoes'" style="margin-bottom: 15px;">
+                <div v-if="info.modelGroup" style="margin-bottom: 15px;">
                   <el-button
                     type="primary"
                     size="small"
@@ -278,7 +278,7 @@
                     연동 제품 정보 불러오기
                   </el-button>
                   <span style="color: #909399; font-size: 12px; margin-left: 10px;">
-                    같은 모델그룹({{ info.modelGroup }})의 사이즈, 가격, 메모를 불러옵니다
+                    같은 모델그룹({{ info.modelGroup }})의 사이즈, 가격, 메모, 상세설명을 불러옵니다
                   </span>
                 </div>
                 <!-- BOTTOM 타입 (데님, 트레이닝/조거, 코튼, 슬랙스, 숏팬츠) -->
@@ -821,10 +821,12 @@
             const hasSize = data.sizeData && data.sizeData.size && data.sizeData.size.length > 0;
             const hasPrice = data.price && data.price > 0;
             const hasContent = !vm.info.id && data.content && data.content.trim(); // 신규 등록일 때만
+            const hasDetailText = !vm.info.id && data.detailText && data.detailText.length > 0; // 신규 등록일 때만
 
             if (hasSize) availableItems.push('• 사이즈 정보');
             if (hasPrice) availableItems.push(`• 가격 (₩ ${Number(data.price).toLocaleString()})`);
             if (hasContent) availableItems.push('• 메모');
+            if (hasDetailText) availableItems.push(`• 상세 설명 (${data.detailText.length}개 항목)`);
 
             // 불러올 항목이 없으면
             if (availableItems.length === 0) {
@@ -869,6 +871,12 @@
               if (hasContent) {
                 vm.info.content = data.content;
                 loadedItems.push('메모');
+              }
+
+              // 상세 설명 불러오기 (신규 등록일 때만)
+              if (hasDetailText) {
+                vm.info.detailText = JSON.parse(JSON.stringify(data.detailText));
+                loadedItems.push('상세 설명');
               }
 
               vm.$message.success(`${loadedItems.join(', ')}을(를) 불러왔습니다.`);
@@ -977,8 +985,8 @@
         };
 
         // detailText에서 빈 항목 제거 (제목과 내용이 모두 채워진 항목만 저장)
-        const filteredDetailText = vm.info.detailText.filter(
-          item => item.title.trim() && item.content.trim()
+        const filteredDetailText = (vm.info.detailText || []).filter(
+          item => item.title && item.content && item.title.trim() && item.content.trim()
         );
 
         // 사이즈 데이터 처리 (신발/지갑/악세사리는 null 또는 빈 객체)
