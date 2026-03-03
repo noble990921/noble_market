@@ -820,8 +820,8 @@
             const availableItems = [];
             const hasSize = data.sizeData && data.sizeData.size && data.sizeData.size.length > 0;
             const hasPrice = data.price && data.price > 0;
-            const hasContent = !vm.info.id && data.content && data.content.trim(); // 신규 등록일 때만
-            const hasDetailText = !vm.info.id && data.detailText && data.detailText.length > 0; // 신규 등록일 때만
+            const hasContent = data.content && data.content.trim();
+            const hasDetailText = data.detailText && data.detailText.length > 0;
 
             if (hasSize) availableItems.push('• 사이즈 정보');
             if (hasPrice) availableItems.push(`• 가격 (₩ ${Number(data.price).toLocaleString()})`);
