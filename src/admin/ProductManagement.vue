@@ -140,14 +140,16 @@
           filtered = filtered.filter(p => p.category === this.type);
         }
 
-        // 3. 키워드 검색 - 단어별 AND 검색 + 띄어쓰기 무시
+        // 3. 키워드 검색 - 단어별 AND 검색 + 띄어쓰기 무시 + 맥/윈도우 유니코드 호환
         if (this.keyword.trim()) {
-          const keywords = this.keyword.trim().toLowerCase().split(/\s+/).filter(k => k);
+          const normalize = str => (str || '').normalize('NFC').toLowerCase().replace(/\s+/g, '');
+          const keywords = this.keyword.trim().normalize('NFC').toLowerCase().split(/\s+/).filter(k => k);
           filtered = filtered.filter(p => {
             const searchTarget = [
               p.product, p.name, p.enName, p.brand, p.modelNumber, p.subCategory?.title
-            ].join(' ').toLowerCase().replace(/\s+/g, '');
-            return keywords.every(kw => searchTarget.includes(kw.replace(/\s+/g, '')));
+            ].join(' ');
+            const normalizedTarget = normalize(searchTarget);
+            return keywords.every(kw => normalizedTarget.includes(normalize(kw)));
           });
         }
 
