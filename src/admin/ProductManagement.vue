@@ -27,8 +27,8 @@
           <div class="pr_search_box">
             <span class="title_label">상세검색</span>
             <span class="select_span">
-              <el-input v-model.trim="keyword" placeholder="상픔을 입력해주세요."
-                        @keyup.native.enter="search"></el-input>
+              <el-input v-model="keyword" placeholder="상품을 입력해주세요."
+                        @keyup.native.enter="handleEnterSearch"></el-input>
             </span>
           </div>
         </div>
@@ -140,15 +140,14 @@
           filtered = filtered.filter(p => p.category === this.type);
         }
 
-        // 3. 키워드 검색 (상품명, 브랜드, 모델번호, 서브카테고리) - 띄어쓰기 무시
+        // 3. 키워드 검색 - 단어별 AND 검색 + 띄어쓰기 무시
         if (this.keyword.trim()) {
-          const keyword = this.keyword.trim().toLowerCase().replace(/\s+/g, '');
+          const keywords = this.keyword.trim().toLowerCase().split(/\s+/).filter(k => k);
           filtered = filtered.filter(p => {
-            const title = (p.product || '').toLowerCase().replace(/\s+/g, '');
-            const brand = (p.brand || '').toLowerCase().replace(/\s+/g, '');
-            const modelNumber = (p.modelNumber || '').toLowerCase().replace(/\s+/g, '');
-            const subCategory = (p.subCategory?.title || '').toLowerCase().replace(/\s+/g, '');
-            return title.includes(keyword) || brand.includes(keyword) || modelNumber.includes(keyword) || subCategory.includes(keyword);
+            const searchTarget = [
+              p.product, p.name, p.enName, p.brand, p.modelNumber, p.subCategory?.title
+            ].join(' ').toLowerCase().replace(/\s+/g, '');
+            return keywords.every(kw => searchTarget.includes(kw.replace(/\s+/g, '')));
           });
         }
 
@@ -168,6 +167,12 @@
     methods:{
       handleAddProduct() {
         this.$router.push('/admin/product/save');
+      },
+      handleEnterSearch() {
+        // 한국어 IME 버그 방지: 마지막 글자 확정 후 검색
+        this.$nextTick(() => {
+          this.search();
+        });
       },
       search(){
         this.page = 1;  // 검색 시 첫 페이지로
@@ -198,10 +203,13 @@
               createDate: data.createDate || '',
               category: data.category || '',
               product: data.title || '',
+              name: data.name || '',
+              enName: data.enName || '',
               isOpen: data.isOpen || false,
               price: data.price,
               subCategory: data.subCategory || '',
-              brand: data.brand || ''
+              brand: data.brand || '',
+              modelNumber: data.modelNumber || ''
             };
           });
 
