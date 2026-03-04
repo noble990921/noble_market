@@ -275,7 +275,7 @@
         img {
           width: 100%;
           @media (min-width: 1024px) {
-            width: 552px;
+            //width: 552px;
             height: 552px;
           }
           position: relative;
@@ -310,7 +310,7 @@
           .swiper-container {
             width: 100%;
             @media (min-width: 1024px) {
-              width: 552px;
+              //width: 552px;
             }
           }
 
@@ -394,7 +394,7 @@
           }
 
           .thumb {
-            border: 2px solid transparent;
+            //border: 2px solid transparent;
             cursor: pointer;
 
             &.active {
@@ -465,7 +465,7 @@
             cursor: pointer;
 
             &.active {
-              height: 64px;
+              height: 62px;
               border: 1px solid black;
             }
 

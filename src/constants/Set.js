@@ -339,6 +339,14 @@ export const SET_PRODUCT_BRAND = {
     img: require('@/assets/images/home/brandImg/brand_logo38.png'),
     listImg: require('@/assets/images/home/brandImg/brandList_logo38.png'),
     url:'/brand/AcneStudios'
+  }, "알렉산더 맥퀸": {
+    id: 39,
+    enName: "Alexander McQueen",
+    koName: "알렉산더 맥퀸",
+    mimg: require('@/assets/images/home/brandImg/mbrand_logo39.png'),
+    img: require('@/assets/images/home/brandImg/brand_logo39.png'),
+    listImg: require('@/assets/images/home/brandImg/brandList_logo39.png'),
+    url:'/brand/AcneStudios'
   },
 };
 
