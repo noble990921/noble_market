@@ -178,17 +178,15 @@ import {CATEGORY_CODE_TO_NAME} from "@/constants/Set";
           // 3. 로컬 + Firestore 합치기
           const allProducts = [...firestoreProducts, ...localProducts];
 
-          // 4. 키워드 검색 필터링
-          const keyword = this.searchText.toLowerCase().replace(/\s+/g, '');
+          // 4. 키워드 검색 필터링 - 단어별 AND 검색 + 띄어쓰기 무시 + 맥/윈도우 유니코드 호환
+          const normalize = str => (str || '').normalize('NFC').toLowerCase().replace(/\s+/g, '');
+          const keywords = this.searchText.trim().normalize('NFC').toLowerCase().split(/\s+/).filter(k => k);
           this.product = allProducts.filter(item => {
-            return (
-                (item.modelNumber && item.modelNumber.toLowerCase().replace(/\s+/g, '').includes(keyword)) ||
-                (item.enBrand && item.enBrand.toLowerCase().replace(/\s+/g, '').includes(keyword)) ||
-                (item.enName && item.enName.toLowerCase().replace(/\s+/g, '').includes(keyword)) ||
-                (item.name && item.name.toLowerCase().replace(/\s+/g, '').includes(keyword)) ||
-                (item.brand && item.brand.toLowerCase().replace(/\s+/g, '').includes(keyword)) ||
-                (item.category && item.category.toLowerCase().replace(/\s+/g, '').includes(keyword))
-            );
+            const searchTarget = [
+              item.name, item.enName, item.brand, item.enBrand, item.modelNumber, item.category
+            ].join(' ');
+            const normalizedTarget = normalize(searchTarget);
+            return keywords.every(kw => normalizedTarget.includes(normalize(kw)));
           });
 
           this.total = this.product.length;
